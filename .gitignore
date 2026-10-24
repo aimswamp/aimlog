@@ -1,0 +1,21 @@
+# 認証情報・環境変数（絶対にコミットしない）
+.env
+
+# ローカル開発・AIセッション用ドキュメント（公開リポジトリには含めない）
+CONTEXT.md
+AGENTS.md
+docs/
+.scratch/
+.hallmark/
+
+# 動画・音声素材および書き出し済みショート動画（大容量・再配布禁止素材のため除外）
+assets/se/
+assets/bg/
+assets/bgm/
+vids/
+dist/shorts/
+
+# Pythonキャッシュ・一時ファイル
+__pycache__/
+*.pyc
+_tmp*

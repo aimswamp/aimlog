@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viper V3 Proを31g化！PMM Zen Mini 2.0軽量化MODのビルド感と評価 | エイム沼の海外ログ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=JetBrains+Mono:wght@400;600;700&family=Shippori+Mincho+B1:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 */
+/* Hallmark · genre: editorial · macrostructure: Index-First / Long Document · theme: Almanac · enrichment: none · nav: N6 · footer: Ft4 */
+:root {
+  --color-paper: oklch(96.8% 0.012 85);
+  --color-paper-2: oklch(93.8% 0.016 82);
+  --color-paper-3: oklch(90.2% 0.020 80);
+  --color-ink: oklch(19.5% 0.015 65);
+  --color-ink-2: oklch(34.0% 0.018 65);
+  --color-ink-muted: oklch(46.0% 0.018 65);
+  --color-ink-faint: oklch(60.0% 0.015 65);
+  --color-rule: oklch(86.5% 0.012 75);
+  --color-rule-strong: oklch(74.0% 0.015 70);
+  --color-accent: oklch(47.0% 0.175 30);
+  --color-accent-hover: oklch(39.0% 0.175 30);
+  --color-accent-soft: oklch(92.5% 0.038 35);
+  --color-op-badge: oklch(32.0% 0.085 245);
+  --color-op-bg: oklch(94.8% 0.014 85);
+  --color-pos: oklch(40.0% 0.115 155);
+  --color-pos-bg: oklch(92.8% 0.035 155);
+  --color-neu: oklch(40.0% 0.020 65);
+  --color-neu-bg: oklch(91.5% 0.015 80);
+  --color-neg: oklch(45.0% 0.160 25);
+  --color-neg-bg: oklch(93.0% 0.035 25);
+  --color-amzn-bg: oklch(22.0% 0.018 65);
+  --color-amzn-fg: oklch(97.0% 0.010 85);
+  --color-rktn-bg: oklch(44.0% 0.160 28);
+  --color-rktn-fg: oklch(97.5% 0.008 85);
+  --font-display: 'Shippori Mincho B1', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-sans: 'BIZ UDPGothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 3.5rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 140ms;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: 700;
+  color: var(--color-ink);
+  overflow-wrap: anywhere;
+  min-width: 0;
+  margin-top: 0;
+}
+a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule-strong);
+  text-underline-offset: 3px;
+  transition: color var(--dur-short) var(--ease-out), text-decoration-color var(--dur-short) var(--ease-out);
+}
+a:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* N6 Newspaper Masthead */
+.masthead {
+  border-bottom: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper);
+}
+.masthead-meta {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.45rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  border-bottom: 1px solid var(--color-rule);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.masthead-Core {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-lg) var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-md);
+}
+.site-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0;
+}
+.site-title a {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.site-title a:hover {
+  color: var(--color-accent);
+}
+.site-tagline {
+  margin: 0.35rem 0 0;
+  font-size: 0.88rem;
+  color: var(--color-ink-2);
+}
+.masthead-Compact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.85rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.masthead-Compact-brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+.back-index-link {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+}
+.back-index-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Filter Strip (Sharp Tabular Bar) */
+.filter-strip-wrap {
+  border-top: 1px solid var(--color-rule);
+  background-color: var(--color-paper-2);
+}
+.filter-strip {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+.filter-tab {
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--color-rule);
+  border-bottom: 2px solid transparent;
+  padding: 0.65rem 1.1rem;
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.filter-tab:first-child {
+  border-left: 1px solid var(--color-rule);
+}
+.filter-tab:hover {
+  background-color: var(--color-paper-3);
+  color: var(--color-ink);
+}
+.filter-tab.active {
+  background-color: var(--color-paper);
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* Main Grid Layout */
+.page-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.index-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 960px) {
+  .index-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+.article-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 1080px) {
+  .article-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+
+.section-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: 0.55rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.section-title {
+  font-size: 1.2rem;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+.section-sub {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Index Thread Rows (No Rounded Cards) */
+.thread-index-row {
+  padding: var(--space-lg) 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.thread-meta-bar {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.4rem;
+}
+.sub-tag {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+a.sub-tag:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+.meta-sep {
+  color: var(--color-ink-faint);
+}
+.index-thread-title {
+  font-size: 1.32rem;
+  line-height: 1.45;
+  margin: 0 0 0.55rem;
+}
+.index-thread-title a {
+  text-decoration: none;
+}
+.index-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.index-thread-hook {
+  margin: 0 0 0.85rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.log-preview-box {
+  background-color: var(--color-paper-2);
+  border-top: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
+  padding: 0.7rem 0.95rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.86rem;
+}
+.log-preview-line {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+.log-preview-line:last-child {
+  margin-bottom: 0;
+}
+.preview-num {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.35rem;
+}
+.preview-speaker {
+  font-weight: 700;
+  color: var(--color-pos);
+  margin-right: 0.4rem;
+}
+.thread-footer-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.gear-inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.gear-chip {
+  font-family: var(--font-mono);
+  font-size: 0.73rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out), border-color var(--dur-short) var(--ease-out);
+}
+a.gear-chip:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.read-log-link {
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.read-log-link:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* Sidebar Search & Device Ledger */
+.ledger-aside {
+  min-width: 0;
+}
+.search-box-wrap {
+  margin: var(--space-md) 0 var(--space-xl);
+}
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 0;
+}
+.search-input::placeholder {
+  color: var(--color-ink-muted);
+}
+.search-input:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 0;
+  background-color: var(--color-paper);
+}
+.search-status {
+  margin-top: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+  min-height: 1.2em;
+}
+.ledger-lead {
+  margin: 0.5rem 0 var(--space-md);
+  font-size: 0.82rem;
+  color: var(--color-ink-muted);
+  line-height: 1.6;
+}
+.rank-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rank-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-xs);
+  margin-bottom: 0.2rem;
+}
+.rank-no {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.4rem;
+}
+.rank-name {
+  font-weight: 700;
+  font-size: 0.96rem;
+}
+.rank-cat {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+.rank-stats {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-pos);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 0.3rem;
+}
+.rank-comment {
+  margin: 0 0 0.55rem;
+  font-size: 0.82rem;
+  color: var(--color-ink-2);
+  line-height: 1.55;
+}
+.shop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.shop-btn {
+  display: inline-block;
+  padding: 0.32rem 0.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  border: 1px solid var(--color-rule-strong);
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.shop-btn-amzn {
+  background-color: var(--color-amzn-bg);
+  color: var(--color-amzn-fg);
+  border-color: var(--color-amzn-bg);
+}
+.shop-btn-amzn:hover {
+  background-color: var(--color-ink-2);
+  color: var(--color-amzn-fg);
+}
+.shop-btn-rktn {
+  background-color: var(--color-rktn-bg);
+  color: var(--color-rktn-fg);
+  border-color: var(--color-rktn-bg);
+}
+.shop-btn-rktn:hover {
+  background-color: var(--color-accent-hover);
+  color: var(--color-rktn-fg);
+}
+
+/* Article / Thread Page (Long Document + Forum Log) */
+.article-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.article-main {
+  min-width: 0;
+}
+.thread-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+.thread-title {
+  font-size: clamp(1.5rem, 2.8vw, 2.05rem);
+  line-height: 1.38;
+  margin: 0.4rem 0 0.75rem;
+}
+.thread-source-line {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Consensus Summary Block */
+.consensus-sheet {
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+}
+.consensus-hook {
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--color-ink);
+  margin: 0 0 var(--space-md);
+  line-height: 1.7;
+}
+.consensus-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  margin: 0 0 0.5rem;
+}
+.consensus-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.consensus-list li {
+  margin-bottom: 0.4rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.consensus-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* Reddit-Style Comment Tree & OP Post */
+.thread-log-section {
+  margin-bottom: var(--space-2xl);
+}
+.rc-op-post {
+  background-color: var(--color-op-bg);
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--color-rule);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+.rc-op-media {
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-rule);
+  font-size: 0.85rem;
+}
+.rc-op-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.rc-op-media-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background-color: var(--color-paper);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.25rem 0.65rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.rc-op-media-link:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.rc-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+.rc-author {
+  font-weight: 700;
+  font-size: 0.84rem;
+  color: var(--color-ink);
+}
+.rc-badge-op {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.08rem 0.45rem;
+  background-color: var(--color-op-badge);
+  color: var(--color-paper);
+  letter-spacing: 0.02em;
+}
+.rc-flair {
+  font-family: var(--font-mono);
+  font-size: 0.71rem;
+  padding: 0.06rem 0.45rem;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  color: var(--color-ink-2);
+}
+.rc-reply-to {
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+}
+.rc-score {
+  color: var(--color-ink-muted);
+  font-size: 0.75rem;
+  margin-left: auto;
+}
+.rc-score-high {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+.rc-body {
+  font-size: 0.97rem;
+  line-height: 1.85;
+  color: var(--color-ink);
+  max-width: 68ch;
+  overflow-wrap: anywhere;
+}
+.rc-quote {
+  margin: 0.4rem 0;
+  padding: 0.25rem 0.75rem;
+  border-left: 2px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  color: var(--color-ink-2);
+  font-size: 0.91rem;
+}
+.rc-tree {
+  margin-top: var(--space-sm);
+}
+.rc-tree > .rc-node {
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rc-children {
+  margin-top: 0.65rem;
+  margin-left: 0.55rem;
+  padding-left: 1.15rem;
+  border-left: 1px solid var(--color-rule);
+  transition: border-color var(--dur-short) var(--ease-out);
+}
+.rc-children:hover {
+  border-left-color: var(--color-rule-strong);
+}
+.rc-children .rc-node {
+  padding: 0.7rem 0 0.25rem;
+  border-top: 1px solid oklch(90.0% 0.010 75);
+}
+.rc-children .rc-node:first-child {
+  border-top: none;
+}
+@media (max-width: 600px) {
+  .rc-children {
+    margin-left: 0.25rem;
+    padding-left: 0.75rem;
+  }
+}
+
+/* Editorial Deep Analysis Note */
+.analysis-section {
+  margin-bottom: var(--space-2xl);
+}
+.analysis-prose {
+  max-width: 66ch;
+  margin-top: var(--space-md);
+}
+.analysis-subhead {
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: var(--space-lg) 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+.analysis-para {
+  margin: 0 0 1.1rem;
+  font-size: 0.97rem;
+  line-height: 1.9;
+  color: var(--color-ink-2);
+}
+
+/* Mentioned Gear Specification Table */
+.gear-section {
+  margin-bottom: var(--space-xl);
+}
+.gear-section > .analysis-para {
+  margin-top: var(--space-md);
+}
+.gear-row {
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.gear-meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.gear-cat-code {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.08rem 0.45rem;
+}
+.status-tag {
+  font-family: var(--font-sans);
+  font-size: 0.73rem;
+  font-weight: 700;
+  padding: 0.1rem 0.5rem;
+}
+.status-pos {
+  background-color: var(--color-pos-bg);
+  color: var(--color-pos);
+}
+.status-neu {
+  background-color: var(--color-neu-bg);
+  color: var(--color-neu);
+}
+.status-neg {
+  background-color: var(--color-neg-bg);
+  color: var(--color-neg);
+}
+.gear-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.3rem;
+}
+.gear-title-link {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.gear-title-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.gear-desc {
+  margin: 0 0 0.55rem;
+  font-size: 0.85rem;
+  color: var(--color-ink-2);
+  line-height: 1.6;
+}
+
+/* X Account Section (Sidebar & Footer) */
+.x-account-section {
+  margin-top: var(--space-xl);
+}
+.x-account-box {
+  margin-top: var(--space-sm);
+  padding: 0.65rem 0;
+}
+.x-account-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.8rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.x-account-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.x-account-unset {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+}
+
+/* Related Threads Navigation (For Longer Site Stay) */
+.related-section {
+  margin-bottom: var(--space-xl);
+}
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.related-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--color-rule);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.28rem;
+}
+.related-link {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  line-height: 1.45;
+  text-decoration: none;
+}
+.related-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* Pagination & Back-to-top Controls */
+.pagination-bar {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.page-info {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.page-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.page-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.page-btn:hover:not(:disabled) {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.page-btn.active {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+}
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.back-to-top-wrap {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-rule);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.back-to-top-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.45rem 0.95rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  margin-left: auto;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.back-to-top-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.share-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+.thread-meta-bar .share-group {
+  margin-left: auto;
+}
+.share-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.22rem 0.55rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1.4;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.share-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Ft4 Dense Colophon Footer */
+.colophon {
+  border-top: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  margin-top: var(--space-2xl);
+  padding: var(--space-xl) var(--space-lg);
+}
+.colophon-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+  line-height: 1.7;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: var(--space-lg);
+}
+@media (max-width: 768px) {
+  .colophon-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.colophon-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  margin: 0 0 0.35rem;
+}
+.colophon-mono {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+}
+</style>
+</head>
+<body id="top">
+  <header class="masthead">
+    <div class="masthead-Compact">
+      <a href="../index.html" class="masthead-Compact-brand">エイム沼の海外ログ</a>
+      <a href="../index.html" class="back-index-link">← スレッド一覧へ戻る</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="article-grid">
+      <div class="article-main">
+        <header class="thread-header">
+          <div class="thread-meta-bar">
+            <a class="sub-tag" href="../index.html">スレッド一覧</a>
+            <span class="meta-sep">/</span>
+            <a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a>
+            <span class="meta-sep">/</span>
+            <span>コメント 17件</span>
+            <span class="share-group">
+              <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+              <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+            </span>
+          </div>
+          <h1 class="thread-title">Viper V3 Proを31g化！PMM Zen Mini 2.0軽量化MODのビルド感と評価</h1>
+          <p class="thread-source-line">
+            元スレッド: <a href="https://www.reddit.com/r/MouseReview/comments/1xa8izx/pmm_zen_mini_20/" target="_blank" rel="noopener">pmm zen mini 2.0</a>
+          </p>
+        </header>
+
+        <section class="consensus-sheet">
+          <p class="consensus-hook">Razer Viper V3 Proの中身を移植して31gの超軽量マウスに改造するキット「PMM Zen Mini 2.0」を海外ユーザーがレビュー。ビルドの難所や付属ソール「Smoothies」の驚きの滑走感が話題になっています。</p>
+          <div class="consensus-head">スレッドの要点</div>
+          <ul class="consensus-list"><li>本体重量は約31gまで軽量化され、空中ではややフロントヘビーに感じるものの、実使用時は極めて軽いため全く気にならない。</li><li>MODキット付属の汎用ソール「PMM Smoothies」の評価が非常に高く、他社ソールより滑らかで好まれる傾向がある。</li><li>サイドボタンの組み込みとリボンケーブルの取り回し（破損リスクや向きの間違い）が組み立て時の最大の難所。</li></ul>
+        </section>
+
+        <section class="thread-log-section">
+          <div class="section-header">
+            <h2 class="section-title">コメント（17件）</h2>
+          </div>
+          <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body">初投稿です、画質が悪くてすみません。<br><br>マウスの改造自体も初めてだったのですが、作業はかなりシンプルでした。<br><br>（昨年）Viper V3 Proを120ユーロ、改造キットを70ユーロで購入しました。<br><br>マウスの重量は31gで、手にしたときの剛性感は非常にしっかりしています。ウルトラグリップを貼らなくてもコーティングは良好ですが、もしもう一度買うなら、アップグレード版のマグネシウム製スクロールホイールにすると思います。<br><br>特にPMM Smoothiesソールには驚かされました。ARTISANのP8ソールよりも気に入ったので、今後はこれをメインで使っていくことになりそうです。<br><br>全体として10点満点中10点で、このMODキットには大満足しています。</div><div class="rc-op-media"><ul class="rc-op-media-list"><li><a class="rc-op-media-link" href="https://i.redd.it/l9vvwcqbkhwh1.jpeg" target="_blank" rel="noopener">添付画像1を見る ↗</a></li><li><a class="rc-op-media-link" href="https://i.redd.it/2qzwgy7ckhwh1.jpeg" target="_blank" rel="noopener">添付画像2を見る ↗</a></li></ul></div></div>
+<div class="rc-tree">
+<div class="rc-node" id="c-phrsx3v"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-score">+5 pts</span></div><div class="rc-body">いいね！すごく良さそう。クリック感は純正のシェルと比べて違いはある？<br><br>追記：PMM Smoothiesについてだけど…まったく同感。気に入って手持ちのすべてのマウスに貼るために買い足し続けてるよ。</div></div><div class="rc-children">
+<div class="rc-node" id="c-phsnr7z"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー1 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">違いはほとんど感じられないかな。ウェブサイトの説明動画でシェルとスイッチの間に小さなスペーサーを挟むことが推奨されていて、それを付けたんだ。スペーサーを挟まないとすごく違和感があって、うまく説明できないけど正しく動作していない感触だったよ。</div></div><div class="rc-children">
+<div class="rc-node" id="c-phumyam"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-reply-to">↳ スレ主 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">あー、あのPMMのスペーサーは劇的な違いを生むよね。他のマウス用にももっと手元にあればいいのにって思うよ。</div></div></div>
+</div></div>
+</div></div>
+<div class="rc-node" id="c-phrvmdy"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー2</span><span class="rc-score">+1 pts</span></div><div class="rc-body">ハンプ（背面のコブ）について教えてくれ。低くなってる？元のシェルとZen Mini 2.0を横から並べた写真を見せてもらえると助かる。</div></div><div class="rc-children">
+<div class="rc-node" id="c-phsnaw5"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー2 への返信</span><span class="rc-score">+2 pts</span></div><div class="rc-body">やあ、今はデスクから離れてるんだけど、eloshapes.comに行けば正確な形状の違いが確認できるよ。もしそれでも分かりにくかったら明日の朝に写真を載せるね。</div></div><div class="rc-children">
+<div class="rc-node" id="c-phux0wc"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー2</span><span class="rc-reply-to">↳ スレ主 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">いくらか小さくなってるみたいだけど、カーブの形状自体は同じラインを辿ってるね。助かった、ありがとう。</div></div></div>
+</div></div>
+</div></div>
+<div class="rc-node" id="c-phtznf2"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー3</span><span class="rc-score">+2 pts</span></div><div class="rc-body">めちゃくちゃカッコいいね。俺のV3 Proも同じように改造してみようかな。</div></div></div>
+<div class="rc-node" id="c-phuqxcn"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー4</span><span class="rc-flair">Gpx spl 2c</span><span class="rc-score">0 pts</span></div><div class="rc-body">重量バランスはどう？フロントヘビーになってる？</div></div><div class="rc-children">
+<div class="rc-node" id="c-19re3beu78535"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー4 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">持ち上げて空中で持てば確かにフロント寄りだけど、マウス自体が軽すぎるから使用中はまったく気にならないよ。</div></div></div>
+</div></div>
+<div class="rc-node" id="c-19rekeuqcrc90"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー5</span><span class="rc-flair">Razer Viper Mini V4 Wired 8khz pls</span><span class="rc-score">+1 pts</span></div><div class="rc-body">このZen MiniにはPMM Smoothieが標準ソールとして付いてくるの？</div></div><div class="rc-children">
+<div class="rc-node" id="c-19retmaufk1c0"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー6</span><span class="rc-reply-to">↳ 海外ユーザー5 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">うん、私の記憶が正しければ1パック付属してくるはずだよ。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rffg7biy1mr"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー5</span><span class="rc-flair">Razer Viper Mini V4 Wired 8khz pls</span><span class="rc-reply-to">↳ 海外ユーザー6 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">ありがとう！</div></div></div>
+</div></div>
+</div></div>
+<div class="rc-node" id="c-19retlgpjnmww"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー6</span><span class="rc-score">+1 pts</span></div><div class="rc-body">素晴らしいマウスだよね、私も愛用してる。サイドボタンをはめ込むのがちょっと難しかったけど、そこさえ片付けば最高な仕上がりになったよ！本当にキラーマウスだ。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rg6zk8pa3sx"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー6 への返信</span><span class="rc-score">+2 pts</span></div><div class="rc-body">本当にその通り。サイドボタンを取り付ける説明書の手順はかなり分かりにくかったと思う。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rgcy0zl5hvo"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー6</span><span class="rc-reply-to">↳ スレ主 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">私は1回目でリボンケーブルを1本断線させちゃったよ。幸い事前に問題を予見して動画をチェックしていたから、MODキットを注文するときに予備のケーブルも頼んであったんだ。唯一の不満はそこだったね。あと最初、リボンケーブルを裏表逆に取り付けちゃって、ボタンを正しく動作させるためにひっくり返す必要もあった。あの時はかなり胃が痛かったよ。<br><br>今振り返ってアドバイスするなら、1) もっと明るい部屋で作業すること、2) リボンケーブルの表裏の向きをより意識して確認すること、だね。気になったのはそれくらい。PMMをそこまで責めるつもりはないけど、組み立て動画だとリボンケーブルの作業をかなり簡単そうに見せてるから、今後のビルドや動画ではもう少し詳しく見せてほしいところだね。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rhtbcbffjd0"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー6 への返信</span><span class="rc-score">+2 pts</span></div><div class="rc-body">その気持ちすごく分かる。組み立てている間、なぜか何か間違ったことをしているような気がして、最後までマウスが動かないんじゃないかとヒヤヒヤしていたよ。でも今のところ完璧に動作しているみたい。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rhvo3xn0cld"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー6</span><span class="rc-reply-to">↳ スレ主 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">本当に驚異的なマウスだよ。ただ次は（主にサイドボタンの手間のせいで）完成品を買うかもしれないな。</div></div></div>
+</div></div>
+</div></div>
+</div></div>
+</div></div>
+</div>
+        </section>
+
+        <section class="analysis-section">
+          <div class="section-header">
+            <h2 class="section-title">深掘り解説・考察ノート</h2>
+          </div>
+          <div class="analysis-prose">
+            <p class="analysis-para">本スレッドは、3Dプリント製マウスシェルやMODキットを展開するPiranha Mouse Mods（PMM）の最新シェル「Zen Mini 2.0」を、Razerのフラッグシップ機「Razer Viper V3 Pro」の内部基板（PCB）に組み込んだユーザーによるビルド報告と意見交換です。</p>
+<h3 class="analysis-subhead">論点1：31gという極限の軽さとビルドクオリティ</h3>
+<p class="analysis-para">Viper V3 Proは純正で約54g前後とすでに軽量ですが、内部基板やセンサー、オプティカルスイッチを取り出し、PMMのZen Mini 2.0シェルに移植することで約31gまでダイエットされます。スレ主は「手で持ったときの剛性感は非常にしっかりしている」と評しており、肉抜きやナイロン粉末焼結（SLS方式など）による3Dプリントシェル特有の剛性不足を懸念する層にとっても安心できる仕上がりとなっています。重心については空中に持ち上げるとフロントヘビー気味であるものの、31gという軽さ自体が勝るため、マウスパッド上での操作感には影響しないとされています。</p>
+<h3 class="analysis-subhead">論点2：組み立ての難所とクリック感の調整</h3>
+<p class="analysis-para">MODキット特有の組み立て難易度について、特にサイドボタン周りのフラットリボンケーブル（FFC）の扱いが議論されています。コメント内ではケーブルの向きを逆に挿してしまったり、断線させてしまったりした事例が共有されており、初心者が挑む際には明るい環境の確保や、予備ケーブルの同時注文、あるいは完成品（Pre-built）の購入も視野に入れるべきという教訓が示されています。また、メインクリックの感触を維持するためにシェルとスイッチの間に挟む「スペーサー」が極めて重要であり、これを入れることで純正と遜色ないクリック感が保たれる点もMOD愛好家にとって有益な情報です。</p>
+<h3 class="analysis-subhead">論点3：独自ソール「PMM Smoothies」の隠れた高評価</h3>
+<p class="analysis-para">今回のスレッドで特筆すべきは、PMMキットに付属（またはオプション）する「PMM Smoothies」ドット・汎用ソールの滑走性能です。スレ主はARTISANのP8ソール（零や雷電などで使われるソール群）よりも滑らかで気に入ったと述べており、別のユーザーも「すべてのマウスに載せ替えて愛用している」と同調しています。超軽量マウスにおいてソールとマウスパッドの接地抵抗はエイムの初動・トラッキングに直結するため、MODキットそのものだけでなく付属ソールの質の高さも高評価の一因となっています。</p>
+          </div>
+        </section>
+
+        <nav class="related-section" aria-label="その他のスレッド">
+          <div class="section-header">
+            <h2 class="section-title">他のスレッド</h2>
+          </div>
+          <ul class="related-list">
+            <li class="related-item"><a class="related-link" href="1xd2vvf.html">マイクロフリックの停滞を打破する脱力テクニックとスピード矯正法</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 6件</div></li><li class="related-item"><a class="related-link" href="1xd3gvf.html">iiTzTimmyのKovaaK&#x27;sプレイリストは有効？エイムコミュニティの評価とおすすめの代替案</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 10件</div></li><li class="related-item"><a class="related-link" href="1xaf3ho.html">話題の「TOPO Glassマウスパッド」の性能やコーティングの耐久性についての海外レビュー</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 14件</div></li><li class="related-item"><a class="related-link" href="1xa80p2.html">MX Master 4盗難被害で代替え機探し！後継機・軽量化・中古など海外猛者のアドバイスまとめ</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 12件</div></li><li class="related-item"><a class="related-link" href="1xa39kp.html">400DPIから800・1600DPIへ移行すべきか？海外コミュニティの最新見解</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 13件</div></li>
+          </ul>
+        </nav>
+      </div>
+
+      <aside class="ledger-aside">
+        <div class="section-header">
+          <h2 class="section-title">スレッド・機材検索</h2>
+        </div>
+        <form class="search-box-wrap" action="../index.html" method="get">
+          <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
+        </form>
+
+        <section class="gear-section">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Razer%20Viper%20V3%20Pro">Razer Viper V3 Pro</a></h3>
+              <p class="gear-desc">PMM Zen Mini 2.0のベース内部基板として使用。性能の高さは折り紙付きで軽量化MODのベースとして重宝されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Razer+Viper+V3+Pro" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://search.rakuten.co.jp/search/mall/Razer%20Viper%20V3%20Pro/" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">ソール</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=PMM%20Smoothies">PMM Smoothies</a></h3>
+              <p class="gear-desc">キット付属のソール。ユーザーがARTISANのP8ソールより気に入ったと語り、他ユーザーも全マウスに導入するほど絶賛。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=PMM+Smoothies" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://search.rakuten.co.jp/search/mall/PMM%20Smoothies/" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">ソール</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ARTISAN%20P8%20%E3%82%BD%E3%83%BC%E3%83%AB">ARTISAN P8 ソール</a></h3>
+              <p class="gear-desc">PMM Smoothiesのほうが好みの滑走感であると評価された。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ARTISAN+P8+%E3%82%BD%E3%83%BC%E3%83%AB" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://search.rakuten.co.jp/search/mall/ARTISAN%20P8%20%E3%82%BD%E3%83%BC%E3%83%AB/" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+        </section>
+
+        <section class="x-account-section"><div class="section-header"><h2 class="section-title">X (Twitter)</h2></div><div class="x-account-box"><a class="x-account-link" href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp ↗</a></div></section>
+      </aside>
+    </div>
+
+    <div class="back-to-top-wrap">
+      <div class="share-group">
+        <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+        <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+      </div>
+      <button type="button" class="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑ 一番上へ戻る</button>
+    </div>
+  </main>
+
+  <footer class="colophon">
+    <div class="colophon-inner">
+      <div>
+        <p class="colophon-title">エイム沼の海外ログ</p>
+        <p>海外Reddit（r/FPSAimTrainer・r/MouseReview・r/MousepadReview）の議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
+      </div>
+      <div class="colophon-mono">
+        <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
+        <div>UPDATED: 2026.10.25 · 12 THREADS</div>
+        <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function shareToX() {
+      const u = window.location.href;
+      const t = document.title;
+      window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(t) + '&url=' + encodeURIComponent(u), '_blank', 'noopener');
+    }
+    function copyPageUrl(btn) {
+      const u = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(u);
+      }
+      const orig = btn.textContent;
+      btn.textContent = 'コピー完了';
+      setTimeout(() => { btn.textContent = orig; }, 1600);
+    }
+  </script>
+</body>
+</html>
