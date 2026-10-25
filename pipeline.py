@@ -978,14 +978,52 @@ def post_tree_to_x(main_text: str, reply_text: str) -> str | None:
             headers={"Authorization": auth, "Content-Type": "application/json"},
             method="POST",
         )
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            res_json = json.loads(resp.read().decode("utf-8"))
-            return str(res_json["data"]["id"])
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                res_json = json.loads(resp.read().decode("utf-8"))
+                return str(res_json["data"]["id"])
+        except urllib.error.HTTPError as e:
+            err_body = ""
+            try:
+                err_body = e.read().decode("utf-8", errors="replace")
+            except Exception:
+                pass
+            raise RuntimeError(f"X API HTTP {e.code}: {err_body}") from e
 
     main_id = _send_tweet({"text": main_text})
     time.sleep(2)
-    _send_tweet({"text": reply_text, "reply": {"in_reply_to_tweet_id": main_id}})
+    reply_id = _send_tweet({"text": reply_text, "reply": {"in_reply_to_tweet_id": main_id}})
+    print(f"[OK] Xツリー投稿完了 (main_id={main_id}, reply_id={reply_id})")
     return main_id
+
+
+def publish_pending_to_x(articles: list[dict[str, Any]]) -> bool:
+    """
+    公開済み (status == 'published') かつ X未投稿の記事をツリー投稿し、更新有無を返す。
+    ※X APIの従量課金（402 credits depleted）回避のため、既定ではAPI自動投稿を行わず、
+      環境変数 X_AUTO_POST=true が明示設定されている場合のみAPIを叩く。
+    """
+    if (os.environ.get("X_AUTO_POST") or "").strip().lower() not in ("1", "true", "yes", "on"):
+        return False
+
+    updated = False
+    for art in articles:
+        if art.get("status") == "published" and not art.get("x_posted"):
+            aid = str(art.get("id") or "")
+            title = str(art.get("title_ja") or "")[:40]
+            print(f"[INFO] Xへツリー投稿中: [{aid}] {title}...")
+            reply_text = str(art.get("x_reply_post", "")).replace("{{ARTICLE_URL}}", art.get("article_url", ""))
+            try:
+                tweet_id = post_tree_to_x(str(art.get("x_main_post", "")), reply_text)
+                if tweet_id:
+                    art["x_posted"] = True
+                    art["x_tweet_id"] = tweet_id
+                    updated = True
+                else:
+                    print("[WARN] X APIキーが未設定のためX投稿をスキップしました。")
+            except Exception as e:
+                print(f"[WARN] Xツリー投稿失敗 ({aid}): {e}", file=sys.stderr)
+    return updated
 
 
 # ============================================================================
@@ -1326,6 +1364,10 @@ def build_site(
     if not published and articles:
         published = list(articles)
     published.sort(key=lambda a: a.get("created_at", ""), reverse=True)
+    published_ids = {f"{a.get('id')}.html" for a in published if a.get("id")}
+    for old_html in articles_dir.glob("*.html"):
+        if old_html.name not in published_ids:
+            old_html.unlink(missing_ok=True)
     ranking = aggregate_device_ranking(published, master, env)
     updated_date = dt.datetime.now().strftime("%Y.%m.%d")
 
@@ -3087,16 +3129,7 @@ def run_pipeline() -> None:
     print(f"[DONE] 記事データ ({ARTICLES_FILE}) と Webサイト ({DIST_DIR / 'index.html'}) を出力しました！")
 
     # 公開済み かつ X未投稿の記事があれば、X API設定時にツリー投稿を実行
-    updated = False
-    for art in articles:
-        if art.get("status") == "published" and not art.get("x_posted"):
-            reply_text = str(art.get("x_reply_post", "")).replace("{{ARTICLE_URL}}", art.get("article_url", ""))
-            tweet_id = post_tree_to_x(str(art.get("x_main_post", "")), reply_text)
-            if tweet_id:
-                art["x_posted"] = True
-                art["x_tweet_id"] = tweet_id
-                updated = True
-    if updated:
+    if publish_pending_to_x(articles):
         save_articles(articles)
 
 
@@ -3195,6 +3228,8 @@ if __name__ == "__main__":
         articles = sync_with_google_sheets(articles)
         save_articles(articles)
         build_site(articles, out_dir=DIST_DIR, master=master)
+        if publish_pending_to_x(articles):
+            save_articles(articles)
         print(f"[DONE] スプレッドシート同期＆サイト再生成が完了しました！ ({DIST_DIR / 'index.html'})")
     elif "--upgrade-drafts" in sys.argv:
         load_dotenv()
