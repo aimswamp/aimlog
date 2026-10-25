@@ -778,7 +778,7 @@ def summarize_with_gemini(thread: dict[str, Any]) -> dict[str, Any]:
     "要点2",
     "要点3"
   ],
-  "detailed_analysis_ja": "スレッド内の実際の議論を踏まえた背景知識・用語解説・派閥別の補足ノート（800〜1400文字程度。【論点1：〜】のような小見出しを含める）",
+  "detailed_analysis_ja": "スレッド内の実際の議論を踏まえた背景知識・用語解説・派閥別の補足ノート（800〜1400文字程度。【1. 〜】のような番号付き小見出しを含める）",
   "comment_translations": [
     {"id": "入力された実在コメントのid文字列", "body_ja": "そのコメント原文の忠実かつ自然な全文日本語訳（省略・要約せず、原文の内容のみを正確に翻訳）"}
   ],
@@ -1305,7 +1305,7 @@ def _build_reddit_tree_html(art: dict[str, Any]) -> tuple[str, int]:
 
 
 def _format_analysis_html(raw_text: str) -> str:
-    """深掘り解説テキストの【見出し】をセクション小見出しに変換し、段落ごとに組む。"""
+    """ひとことノート（解説テキスト）の【見出し】をセクション小見出しに変換し、段落ごとに組む。"""
     if not raw_text.strip():
         return ""
     blocks: list[str] = []
@@ -1315,7 +1315,11 @@ def _format_analysis_html(raw_text: str) -> str:
             continue
         m = re.match(r"^【(.+?)】(.*)$", s)
         if m:
-            head_title = html.escape(m.group(1).strip())
+            raw_head = m.group(1).strip()
+            # 「論点1：〇〇」や「1：〇〇」を「1. 〇〇」に正規化
+            raw_head = re.sub(r"^(?:論点|ポイント)\s*(\d+)\s*[：:．.]\s*", r"\1. ", raw_head)
+            raw_head = re.sub(r"^(\d+)\s*[：:]\s*", r"\1. ", raw_head)
+            head_title = html.escape(raw_head)
             rest = html.escape(m.group(2).strip())
             blocks.append(f'<h3 class="analysis-subhead">{head_title}</h3>')
             if rest:
@@ -2530,7 +2534,7 @@ a.gear-chip:hover {
 
         <section class="analysis-section">
           <div class="section-header">
-            <h2 class="section-title">深掘り解説・考察ノート</h2>
+            <h2 class="section-title">ひとことノート</h2>
           </div>
           <div class="analysis-prose">
             {analysis_html}
