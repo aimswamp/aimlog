@@ -5518,5 +5518,2157 @@
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xdp7z4.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%81%8B%E3%81%A4%E3%81%A6%E3%81%AE%E5%90%8D%E6%A9%9F%E3%80%8CSteelSeries%20DeX%E3%80%8D%E3%81%AE%E5%A4%A7%E5%9E%8B%E5%BE%A9%E6%B4%BB%E3%82%92%E6%9C%9B%E3%82%80%E5%A3%B0%E3%81%AB%E5%AF%BE%E3%81%97%E3%80%81%E6%B5%B7%E5%A4%96%E5%8B%A2%E3%81%8C%E5%A4%AA%E9%BC%93%E5%88%A4%E3%82%92%E6%8A%BC%E3%81%99%E7%8F%BE%E8%A1%8C%E4%BB%A3%E6%9B%BF%E5%93%81%E3%81%8C%E8%A9%B1%E9%A1%8C%E3%81%AB%E3%80%82%0A%0A%E3%83%BB%E7%8B%AC%E8%87%AA%E3%81%AE%E5%87%B9%E5%87%B8%E8%A1%A8%E9%9D%A2%E3%81%A8%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E6%84%9F%E3%82%92%E5%AE%8C%E5%85%A8%E5%86%8D%E7%8F%BE%0A%E3%83%BB%E6%9C%89%E5%8A%9B%E5%80%99%E8%A3%9C%E3%81%AF%E3%80%8CPulsar%20D4v41%E3%80%8D%0A%E3%83%BBDeX%E3%82%88%E3%82%8A%E5%A4%A7%E5%9E%8B%E5%8C%96%0A%E3%83%BB%E7%99%BD%E3%83%91%E3%83%83%E3%83%89%E3%81%A0%E3%81%8C%E6%B0%B4%E6%B4%97%E3%81%84%E5%8F%AF%E8%83%BD%0A%E3%83%BB%E5%9C%A8%E5%BA%AB%E5%88%87%E3%82%8C%E3%81%8C%E9%95%B7%E3%81%84%E3%81%9F%E3%82%81%E5%8D%B3%E7%A2%BA%E4%BF%9D%E3%81%8C%E6%8E%A8%E5%A5%A8%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xdp7z4.html",
     "created_at": "2026-10-25T09:26:58.037247+00:00"
+  },
+  {
+    "id": "1xed29c",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Can't find Anima Macro V2 on Kovaaks",
+    "selftext_en": "Just the title. I can search for each exercise but cant find the whole benchmark/playlist etc.",
+    "image_urls": [],
+    "score": 4,
+    "num_comments": 4,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xed29c/cant_find_anima_macro_v2_on_kovaaks/",
+    "comments": [
+      "[+4] Go to its page on evxl.app, there's a button to copy the sharecode",
+      "[+1] Ty. Will try that later",
+      "[+3] Maybe u meant Anima Micro V2?\n\n  \nKovaaKsGhostpeekingCobaltIntelligence",
+      "[+1] KovaaKsGhostpeekingCobaltIntelligence \nis the playlist code. \n\nUse [evxl](https://evxl.app/) to track your performance. Click the link provided > scroll down under browse > link to a benchmark > type \"anima micro v2\" > input your steamid > go into kovaaks > paste code > run the scenario > alt tab, refresh and check scores."
+    ],
+    "comment_tree": [
+      {
+        "id": "19rlakbpkazz8",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "body_en": "Go to its page on evxl.app, there's a button to copy the sharecode",
+        "depth": 0,
+        "body_ja": "evxl.appの該当ページに行けば、共有コードをコピーするボタンがあるよ。"
+      },
+      {
+        "id": "19rlapklmmxeo",
+        "parent_id": "19rlakbpkazz8",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Ty. Will try that later",
+        "depth": 1,
+        "body_ja": "ありがとう。後で試してみるよ。"
+      },
+      {
+        "id": "19rldiuz6ltwh",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Maybe u meant Anima Micro V2?\n\n  \nKovaaKsGhostpeekingCobaltIntelligence",
+        "depth": 0,
+        "body_ja": "もしかして「Anima Micro V2」のことかな？\n\nKovaaKsGhostpeekingCobaltIntelligence"
+      },
+      {
+        "id": "19rldkyl57kis",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "KovaaKsGhostpeekingCobaltIntelligence \nis the playlist code. \n\nUse [evxl](https://evxl.app/) to track your performance. Click the link provided > scroll down under browse > link to a benchmark > type \"anima micro v2\" > input your steamid > go into kovaaks > paste code > run the scenario > alt tab, refresh and check scores.",
+        "depth": 0,
+        "body_ja": "プレイリストのコードは\nKovaaKsGhostpeekingCobaltIntelligence\nだよ。\n\nパフォーマンスの記録にはevxl（https://evxl.app/）を使うといい。貼ったリンクを開く ＞ browseの項目までスクロール ＞ link to a benchmark ＞ 「anima micro v2」と入力 ＞ 自分のSteam IDを入力 ＞ KovaaKsを開く ＞ コードを貼り付ける ＞ シナリオをプレイ ＞ Alt+Tabで画面を切り替えて更新し、スコアを確認する、という流れだよ。"
+      }
+    ],
+    "title_ja": "KovaaK'sでAnimaのベンチマークが見つからない時の対処法",
+    "hook_ja": "KovaaK's内でAnimaベンチマークのプレイリストが見つからない問題について、正確な名称の確認と共有コードの活用が解決策として提示されています。外部スコア管理ツールのevxl.appを活用することで、簡単にプレイリストをインポートしてスコア管理を行うことが可能です。",
+    "op_post_ja": "タイトルの通りです。個別のシナリオは検索できるのですが、ベンチマーク全体やプレイリストなどが見つかりません。",
+    "consensus_points": [
+      "探しているベンチマークの正式名称は「Anima Macro」ではなく「Anima Micro V2」である可能性が高い",
+      "プレイリストの共有コードは「KovaaKsGhostpeekingCobaltIntelligence」である",
+      "スコア管理ツールのevxl.app上でベンチマークページを開くことで、共有コードの取得や進捗トラッキングがスムーズに行える"
+    ],
+    "detailed_analysis_ja": "【1. スレッドの背景：コミュニティ作成ベンチマークの導入問題】\nKovaaK'sでは公式のプレイリスト機能のほかに、コミュニティ内の有力プレイヤーやコーチ（本件ではAnima氏）が作成した独自のベンチマークルーティンが広くプレイされています。しかし、ゲーム内ブラウザでの検索性の悪さや、ユーザーによる名称の勘違い（「Macro」と「Micro」の混同）によって、目当てのプレイリストが見つからないトラブルが頻繁に発生します。\n\n【2. 外部トラッカー「evxl.app」の役割と活用法】\nコメント欄で即座に提示された「evxl.app」は、KovaaK'sのスコアをSteam API等と連携して可視化・追跡できるサードパーティ製のベンチマークトラッカーです。従来のスプレッドシート（Google Sheets）による手動記録に代わり、現在エイムコミュニティで主流となっています。evxl.app上の各ベンチマークページにはプレイリストの共有コード（Share Code）をワンクリックでコピーできるボタンが用意されており、ゲーム内検索に頼るよりも確実にシナリオ一式を導入できます。\n\n【3. 具体的な導入手順】\n回答者が共有した手順は以下の通りです：\n・共有コード「KovaaKsGhostpeekingCobaltIntelligence」をKovaaK'sのプレイリストインポート画面に入力する\n・evxl.appで「Anima Micro V2」を選択し、自身のSteam IDを連携させる\n・シナリオをプレイ後、evxl.app側を更新することで即座にランクやスコアの進捗が反映される",
+    "devices": [],
+    "x_main_post": "KovaaK'sでAnimaのベンチマークが見つからない時の解決策\n\n・正式名称は「Macro」ではなく「Anima Micro V2」\n・プレイリスト共有コード：KovaaKsGhostpeekingCobaltIntelligence\n・スコア管理はevxl.appを使うとコード取得から記録までスムーズです",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "KovaaK'sでAnimaのベンチマークが出てこないのだ！",
+        "caption": "シナリオが見つからない？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "それ、名前の勘違いとコード検索で一発解決するよ！",
+        "caption": "共有コードで解決！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "個別の練習は出るのにプレイリストが見当たらないのだ？",
+        "caption": "なぜ見つからない？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "探してるのはMacroじゃなくてAnima Micro V2なんだよね。",
+        "caption": "正式名称をチェック"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "共有コードを直打ちするかevxl.appからコピーするのが楽だよ！",
+        "caption": "evxl.appを活用"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "コード貼り付けで丸ごとプレイリストが読み込めたのだ！",
+        "caption": "一発でインポート！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "evxlならSteam IDと連携してスコアも自動追跡できるよ！",
+        "caption": "スコア記録も超簡単"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "これで迷わず練習に集中できるのだ！試してみてほしいのだ！",
+        "caption": "詳細はプロフ・概要欄へ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rlakbpkazz8",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "text": "evxl.appの該当ページに行けば、共有コードをコピーするボタンがあるよ。"
+      },
+      {
+        "id": "19rlapklmmxeo",
+        "parent_id": "19rlakbpkazz8",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ありがとう。後で試してみるよ。"
+      },
+      {
+        "id": "19rldiuz6ltwh",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "もしかして「Anima Micro V2」のことかな？\n\nKovaaKsGhostpeekingCobaltIntelligence"
+      },
+      {
+        "id": "19rldkyl57kis",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "プレイリストのコードは\nKovaaKsGhostpeekingCobaltIntelligence\nだよ。\n\nパフォーマンスの記録にはevxl（https://evxl.app/）を使うといい。貼ったリンクを開く ＞ browseの項目までスクロール ＞ link to a benchmark ＞ 「anima micro v2」と入力 ＞ 自分のSteam IDを入力 ＞ KovaaKsを開く ＞ コードを貼り付ける ＞ シナリオをプレイ ＞ Alt+Tabで画面を切り替えて更新し、スコアを確認する、という流れだよ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xed29c.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=KovaaK%27s%E3%81%A7Anima%E3%81%AE%E3%83%99%E3%83%B3%E3%83%81%E3%83%9E%E3%83%BC%E3%82%AF%E3%81%8C%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E6%99%82%E3%81%AE%E8%A7%A3%E6%B1%BA%E7%AD%96%0A%0A%E3%83%BB%E6%AD%A3%E5%BC%8F%E5%90%8D%E7%A7%B0%E3%81%AF%E3%80%8CMacro%E3%80%8D%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%80%8CAnima%20Micro%20V2%E3%80%8D%0A%E3%83%BB%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88%E5%85%B1%E6%9C%89%E3%82%B3%E3%83%BC%E3%83%89%EF%BC%9AKovaaKsGhostpeekingCobaltIntelligence%0A%E3%83%BB%E3%82%B9%E3%82%B3%E3%82%A2%E7%AE%A1%E7%90%86%E3%81%AFevxl.app%E3%82%92%E4%BD%BF%E3%81%86%E3%81%A8%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%96%E5%BE%97%E3%81%8B%E3%82%89%E8%A8%98%E9%8C%B2%E3%81%BE%E3%81%A7%E3%82%B9%E3%83%A0%E3%83%BC%E3%82%BA%E3%81%A7%E3%81%99%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xed29c.html",
+    "created_at": "2026-10-25T22:22:45.381617+00:00"
+  },
+  {
+    "id": "1xeazn6",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Why does this happen pt2",
+    "selftext_en": "Hi, its the same dude as last time who asked about how to stop the abrupt over flicking, thanks for all the responses, I've been playing more micro and trying to intentionally look at the target.\n\nin my last paragraph of that post I talked about this issue, \n\n\"I have another issue where sometimes the target appears into my crosshair when holding or peaking and my pre aim is on his head, and I flick away from his head. which is kind of similar to the clips where I'm close and I need a little micro correction but I just massively over flick, its different enough compared to the clips so I thought I would mention it.\"\n\nI felt like in the moment I had almost no tension at all, so I don't understand why I would randomly flick off. I felt like I was calm as well? I mean I was on a flank with no one looking at me and it was a won round basically.",
+    "image_urls": [
+      "https://v.redd.it/yo1h8yigjfxh1"
+    ],
+    "score": 26,
+    "num_comments": 19,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xeazn6/why_does_this_happen_pt2/",
+    "comments": [
+      "[+29] Fear",
+      "[+5] of what tho? I felt like I had the least pressuring scenario there is, the round is won basically won, and he's not even looking at me.",
+      "[+29] Hitting someone who isn’t looking at you is unironically one of the hardest shots to hit. Will they suddenly move unpredictably? Will I miss an easy shot and have them turn on me and kill me?",
+      "[+8] It’s not fear of losing the round, it’s fear that he’ll move erratically and you’ll miss such an easy shot so your brain overflicks to compensate just incase they decide to swing wide. Its performance anxiety essentially.",
+      "[+2] in your opinion, do you think performance anxiety or target reading is the bigger problem?",
+      "[+7] This has nothing to do with kovaaks and everything to do with your mental, in game experience and overall composure",
+      "[+20] Brain sees movement.\n\nBrain takes time to see movement and move hand to target\n\nTo compensate brain calculates where target will be in the time it takes to flick\n\nTarget stops moving/changes direction during this calculation causing a miss.",
+      "[+6] misread",
+      "[+5] lule",
+      "[+6] This happened because of aim prediction.  Watch the enemies legs, he stopped moving right before you went to shoot. However, your prediction flick was too strong and you would have whiffed the shot even if he hadn't stopped.  Maybe lower your sens more?",
+      "[+1] so do you think this is just 100% a movement reading problem?",
+      "[+-1] No, it all happens so quickly, you brain was doing the right thing recognizing the trajectory of where the enemy was going to be.  The flick overshoots the target, so either need to spend more time developing flick muscle memory or adjust your mouse settings so the same flick strength doesn't travel as far.",
+      "[+1] When your brain decides the make that flick it’s during a sacade eye movement which makes you effectively blind until it’s complete. Your eyes flick to where they are if they keep moving and you don’t see they stop until after the shot.   \nNow there isn’t anything you can do to make this correction mid movement so you have to make the read better. Predictive aim vs reactive aim. Realistically if there is someone in that position does it make since to wide swing you or do a tight peak? Sometimes misreads will just happen. Play this out in the same spot 100 more times and you’ll be better for it.",
+      "[+2] I had this issue where my forearm would flex on my first click and jostle my mouse a few pixels. I thought it was from being a little surprised or excited? Maybe something similar with you? \n\nedit: I ended up \"fixing\" it by getting the x2 superstrike with super sensitive mouse click",
+      "[+1] Simply put, I think this is a clicking issue.\n\nYou are so excited to shoot this person and yet still, deep in your brain are also caught off guard by the fact they are facing the opposite direction when they turn the corner it registers as a bit of a shock to you and the eagerness to smash down that left click fast to react before they have a chance to turn causes you to left click very fast with alot of force and likely not a flat finger on the mouse.\n\nPeople joke/discuss wrist/arm tension all the time here, but I think a serious breakdown of factors like arm weight to muscle ratios and hand plus finger strength, especially for people who play many hours over years and years, would uncover reasons for why targeted exercises and mind muscle connection all the way down to your fingers is so",
+      "[+1] I’m asc 1 so my words have some credibility, so:    \nThere may be a couple of reasons outside of sim training happening there, and I know it better than anybody else    \n1. Your sens may be too high. Controversial take but as someone who experimented inside of val with pretty much all sens ranges I come to realize that sometimes stuff like this may happen because of higher sens. Not saying that this is the reason, just heads up if u s higher sens player    \n2. Second, and probably the most accurate reason - anticipation. I know that in val space it’s talked about so much that it may be very obvious from the surface level, but I improved slightly when I REALLY started to anticipate almost (big emphasis, ALMOST) everything, and I became much calmer and steady with my aim. I cannot say precis",
+      "[+1] You're putting tension onto your arm when you click. Something that I really struggle with too.",
+      "[+1] Over-read"
+    ],
+    "comment_tree": [
+      {
+        "id": "19rl6tinax81x",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 29,
+        "body_en": "Fear",
+        "depth": 0,
+        "body_ja": "恐怖心だな。"
+      },
+      {
+        "id": "19rl6w9q06sci",
+        "parent_id": "19rl6tinax81x",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 5,
+        "body_en": "of what tho? I felt like I had the least pressuring scenario there is, the round is won basically won, and he's not even looking at me.",
+        "depth": 1,
+        "body_ja": "何の恐怖ですか？ ラウンドはほぼ勝ち確でしたし、相手はこっちを見てすらいなくて、これ以上ないくらいプレッシャーのないシチュエーションだったと感じていたのですが。"
+      },
+      {
+        "id": "19rl72a4xhpmq",
+        "parent_id": "19rl6w9q06sci",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 29,
+        "body_en": "Hitting someone who isn’t looking at you is unironically one of the hardest shots to hit. Will they suddenly move unpredictably? Will I miss an easy shot and have them turn on me and kill me?",
+        "depth": 2,
+        "body_ja": "こっちを向いていない相手を撃つのは、冗談抜きで最も難しいショットの一つだよ。「急に予測不能な動きをするんじゃないか？」「簡単なショットを外して、振り向かれて逆にやられるんじゃないか？」ってね。"
+      },
+      {
+        "id": "19rl8m3rx4nid",
+        "parent_id": "19rl6w9q06sci",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 8,
+        "body_en": "It’s not fear of losing the round, it’s fear that he’ll move erratically and you’ll miss such an easy shot so your brain overflicks to compensate just incase they decide to swing wide. Its performance anxiety essentially.",
+        "depth": 2,
+        "body_ja": "ラウンドを落とすことへの恐怖じゃない。相手が不規則に動くんじゃないか、こんな簡単なショットを外してしまうんじゃないかという恐怖だよ。だから相手がワイドピークしてきた場合に備えて、脳が補正しようとしてオーバーフリックしてしまうんだ。本質的にはパフォーマンス不安だよ。"
+      },
+      {
+        "id": "19rlitngaf7cz",
+        "parent_id": "19rl8m3rx4nid",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "in your opinion, do you think performance anxiety or target reading is the bigger problem?",
+        "depth": 3,
+        "body_ja": "あなたの意見では、パフォーマンス不安とターゲットの動きの読み（リーディング）、どちらがより大きな問題だと思いますか？"
+      },
+      {
+        "id": "19rlknilurw1v",
+        "parent_id": "19rlitngaf7cz",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 7,
+        "body_en": "This has nothing to do with kovaaks and everything to do with your mental, in game experience and overall composure",
+        "depth": 4,
+        "body_ja": "これはKovaaKとは全く関係がなくて、君のメンタル、実戦経験、そして総合的な冷静さの問題だよ。"
+      },
+      {
+        "id": "19rl72ck1y7sy",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 20,
+        "body_en": "Brain sees movement.\n\nBrain takes time to see movement and move hand to target\n\nTo compensate brain calculates where target will be in the time it takes to flick\n\nTarget stops moving/changes direction during this calculation causing a miss.",
+        "depth": 0,
+        "body_ja": "脳が動きを認識する。\n脳が動きを認識して手をターゲットへ動かすまでに時間がかかる。\nそれを補うため、フリックにかかる時間の間にターゲットがどこへ到達するかを脳が計算する。\nこの計算の最中にターゲットが停止したり方向転換したりすることで、エイムが外れる。"
+      },
+      {
+        "id": "19rl73lf6aole",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "body_en": "misread",
+        "depth": 0,
+        "body_ja": "読み間違い（ミスリード）だね。"
+      },
+      {
+        "id": "19rl89iteh9mt",
+        "parent_id": "19rl73lf6aole",
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "lule",
+        "depth": 1,
+        "body_ja": "草"
+      },
+      {
+        "id": "19rl73qtje96s",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "body_en": "This happened because of aim prediction.  Watch the enemies legs, he stopped moving right before you went to shoot. However, your prediction flick was too strong and you would have whiffed the shot even if he hadn't stopped.  Maybe lower your sens more?",
+        "depth": 0,
+        "body_ja": "これはエイムの予測によって起きたことだね。敵の足元を見てみてほしいんだけど、君が撃とうとする直前に敵は足を止めている。でも、君の予測フリックが強すぎて、たとえ相手が止まらなかったとしてもショットを外していただろう。もう少しセンシを下げてみたらどうかな？"
+      },
+      {
+        "id": "19rl78u4zvqwz",
+        "parent_id": "19rl73qtje96s",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "so do you think this is just 100% a movement reading problem?",
+        "depth": 1,
+        "body_ja": "ということは、これは100%相手の動きの読みの問題だと思いますか？"
+      },
+      {
+        "id": "19rl7iqe2atc3",
+        "parent_id": "19rl78u4zvqwz",
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "body_en": "No, it all happens so quickly, you brain was doing the right thing recognizing the trajectory of where the enemy was going to be.  The flick overshoots the target, so either need to spend more time developing flick muscle memory or adjust your mouse settings so the same flick strength doesn't travel as far.",
+        "depth": 2,
+        "body_ja": "いや、すべてが一瞬で起きているからね。敵がどこへ向かうかという軌道の予測自体は脳が正しくできていたんだ。ただフリックがターゲットを行き過ぎてしまっているから、フリックのマッスルメモリーをもっと鍛え直すか、同じフリックの強さでも移動距離が短くなるようにマウス設定を調整する必要がある。"
+      },
+      {
+        "id": "19rleqfb919tt",
+        "parent_id": "19rl78u4zvqwz",
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "When your brain decides the make that flick it’s during a sacade eye movement which makes you effectively blind until it’s complete. Your eyes flick to where they are if they keep moving and you don’t see they stop until after the shot.   \nNow there isn’t anything you can do to make this correction mid movement so you have to make the read better. Predictive aim vs reactive aim. Realistically if there is someone in that position does it make since to wide swing you or do a tight peak? Sometimes misreads will just happen. Play this out in the same spot 100 more times and you’ll be better for it.",
+        "depth": 2,
+        "body_ja": "脳がフリックを行うと判断した瞬間はサッカード（衝動性眼球運動）の最中にあり、動作が完了するまで実質的に盲目状態になる。敵が動き続けた場合の位置へ視線がフリックするため、撃ち終わるまで相手が止まったことに気づけないんだ。\n動作の途中でこのズレを修正することは不可能だから、読みの精度を上げるしかない。予測エイム対リアクティブ（反射的）エイムの問題だね。現実的に考えて、そのポジションの敵が君に対してワイドスイングしてくるのか、タイトピークしてくるのか妥当性を考えるんだ。読み間違いは時々どうしても起きる。同じシチュエーションをあと100回経験すれば、もっと良くなるよ。"
+      },
+      {
+        "id": "19rl75vpu46ps",
+        "parent_id": null,
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I had this issue where my forearm would flex on my first click and jostle my mouse a few pixels. I thought it was from being a little surprised or excited? Maybe something similar with you? \n\nedit: I ended up \"fixing\" it by getting the x2 superstrike with super sensitive mouse click",
+        "depth": 0,
+        "body_ja": "私も最初のクリックの時に前腕に力が入ってしまって、マウスが数ピクセル揺れ動いてしまう問題がありました。少し驚いたり興奮したりしたせいかと思っていました。あなたも似たような状態なのでは？\n\n追記：結局私は、クリックが非常に軽くて敏感なX2 Superstrikeを購入したことで解決しました。"
+      },
+      {
+        "id": "19rl9j62u9ipu",
+        "parent_id": null,
+        "author": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Simply put, I think this is a clicking issue.\n\nYou are so excited to shoot this person and yet still, deep in your brain are also caught off guard by the fact they are facing the opposite direction when they turn the corner it registers as a bit of a shock to you and the eagerness to smash down that left click fast to react before they have a chance to turn causes you to left click very fast with alot of force and likely not a flat finger on the mouse.\n\nPeople joke/discuss wrist/arm tension all the time here, but I think a serious breakdown of factors like arm weight to muscle ratios and hand plus finger strength, especially for people who play many hours over years and years, would uncover reasons for why targeted exercises and mind muscle connection all the way down to your fingers is so important and can help stabilize most players baselines. \n\nIt would help explain why skinny \"twinks\" find so much success. Being skinny af is the easiest starting point on developing enough of both muscle types and stabilizer muscles to fill your needs and being young means less time to have had bad habits that fuck it all up and having to do more work to get that stability",
+        "depth": 0,
+        "body_ja": "端的に言えば、これはクリックの問題だと思う。\n\nその敵を撃つことに興奮していて、それでいて脳の奥底では、相手が角を曲がってきた時に反対側を向いていることに不意を突かれ、ちょっとした動揺として認識されている。そして相手が振り向く前に素早く反応しようと左クリックを叩き込もうとする焦りから、指をマウスに密着させずに強い力で一気に押し込んでしまっているんだ。\n\nここでは手首や腕の力みについてよくネタにされたり議論されたりするけれど、腕の重さと筋肉の比率や、手と指の筋力といった要素を真剣に分析すれば、特に何年も何時間もプレイしている人にとって、指先に至るまでの特定のトレーニングやマインドマッスルコネクションがなぜこれほど重要で、大半のプレイヤーの基礎安定性を向上させるのに役立つのかが解明されるはずだ。\n\n細身の若いプレイヤーがなぜこれほど活躍できるのかの説明にもなる。ガリガリに痩せている状態は、必要な両方の筋線維やスタビライザー筋肉を十分に発達させる上で最も簡単な出発点だし、若ければ筋肉の安定性を損なうような悪癖を身につけてしまっている期間も短く、安定性を得るために余計な労力をかける必要もないからね。"
+      },
+      {
+        "id": "19rlcre7tj8xu",
+        "parent_id": null,
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I’m asc 1 so my words have some credibility, so:    \nThere may be a couple of reasons outside of sim training happening there, and I know it better than anybody else    \n1. Your sens may be too high. Controversial take but as someone who experimented inside of val with pretty much all sens ranges I come to realize that sometimes stuff like this may happen because of higher sens. Not saying that this is the reason, just heads up if u s higher sens player    \n2. Second, and probably the most accurate reason - anticipation. I know that in val space it’s talked about so much that it may be very obvious from the surface level, but I improved slightly when I REALLY started to anticipate almost (big emphasis, ALMOST) everything, and I became much calmer and steady with my aim. I cannot say precisely how to train that, because for me it happened after playing, learning, observing, and watching a lot of val. Sometimes I literally clear corners that may be empty while being 100% amped up for a fight, even though it may be unlikely, and that massively helped    \n3. Fear of missing. That is a problem that fazes so so so many people, but when u realize that it’s very much okay for everybody to miss u become calmer, collected, and more stoic. Even in the GF loud vs vit there was a couple of insane whiffs (tkzin whiffed a whole mag after sliding on a guy on the ropes in a heaven on lotus), but it doesn’t really affect pro’s performance, and it may be something that comes (or doesn’t) for yo",
+        "depth": 0,
+        "body_ja": "私はアセンダント1だから多少は発言に信憑性があると思う。だから言わせてもらうと：\nエイム練習ソフトの外で起きている原因がいくつか考えられるし、私はそれを誰よりもよく分かっている。\n\n1. センシが高すぎる可能性がある。議論を呼ぶ意見かもしれないが、VALORANT内でほぼすべての感度帯を試した者として、高センシのせいでこういうことが起きることがあると気づいた。これが決定的な原因だとは言わないが、ハイセンシ寄りなら気をつけるべき点だ。\n\n2. 2つ目、おそらくこれが一番正確な原因だが「予期（アンティシペーション）」だ。VALORANT界隈では当たり前のように語られていることだが、ほぼすべて（強調しておくが、「ほぼ」すべて）の事態を本気で予期し始めた時、私のエイムは少し上達し、はるかに落ち着いてブレなくなった。どう鍛えるかは具体的に言えない。私自身、VALORANTをたくさんプレイし、学び、観察し、観戦したことで身についたからね。敵がいないかもしれない場所でも、撃ち合いに100%備えた臨戦態勢でクリアリングするようにしたら劇的に改善した。\n\n3. 外すことへの恐怖。これは本当に多くの人を惑わせる問題だが、誰だって外すことがあると受け入れられれば、より落ち着いて冷静沈着になれる。VCTグランドファイナルのLOUD対Vitalityですら、とんでもないやらかし（ロータスのヘブンでロープに乗った相手に対し、スライディングしたtuyzが1マガジン丸々外した）があった。それでもプロのパフォーマンスには響かない。そう思えるようになるかどうかがポイントだね。"
+      },
+      {
+        "id": "19rlmwaopei9s",
+        "parent_id": null,
+        "author": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "You're putting tension onto your arm when you click. Something that I really struggle with too.",
+        "depth": 0,
+        "body_ja": "クリックする瞬間に腕に力が入っているんだよ。私も本当にこれに悩まされている。"
+      },
+      {
+        "id": "19rms419fw0ed",
+        "parent_id": null,
+        "author": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Over-read",
+        "depth": 0,
+        "body_ja": "過剰な読み（オーバーリード）だね。"
+      }
+    ],
+    "title_ja": "クロスヘアが頭に合っているのに敵からフリックして外す原因と克服法",
+    "hook_ja": "置きエイムが敵の頭に合っている状態から、なぜか敵から離れるようにフリックして外してしまう謎現象。海外コミュニティでは「過剰な予測（誤読）」と「背後を撃つプレッシャー」が主な原因として指摘されています。",
+    "op_post_ja": "こんにちは、前回「急激なオーバーフリックを止めるにはどうすればいいか」と質問した者です。たくさんの回答ありがとうございました。あれからマイクロフリックの練習を増やし、意識してターゲットをしっかり見るようにしています。\n\n前回の投稿の最後の段落で、この問題について書きました。\n\n「もう一つ問題があって、置きエイムやピーク時にクロスヘアへ敵が現れて、プリエイムが相手の頭に乗っている状態なのに、そこから頭を外すようにフリックしてしまうことがあるんです。ターゲットの近くにあって微調整が必要なのに特大オーバーフリックをしてしまうクリップと似ていますが、クリップとは状況がかなり違うので挙げてみました」\n\nその瞬間、自分では緊張や力みは全く感じていなかったので、なぜ不意にクロスヘアを外すようにフリックしてしまったのか理解できません。精神的にも落ち着いていたはずです。だって裏を取っていて誰もこちらを見ておらず、ラウンドもほぼ勝ち確定の状況だったんですよ？",
+    "consensus_points": [
+      "「こちらに気づいていない無防備な敵」を撃つ瞬間は、不規則な動きへの過剰な予測や「絶対に外せない」というパフォーマンス不安（恐怖心）が最も働きやすい",
+      "人間の脳は視覚情報と手の動作にタイムラグがあるため、敵の進路を予測してフリックするが、サッカード（衝動性眼球運動）中の盲点や敵の急停止・切り返しによって過剰な予測（ミスクリック・オーバーリード）が生じる",
+      "クリックする瞬間に前腕や指先に力みが入り、物理的にマウスがズレてしまうことや、センシが高すぎることが原因になっている場合もある"
+    ],
+    "detailed_analysis_ja": "タクティカルシューター（VALORANTやCS2）において、「敵の頭にプリエイムが合っているのに、撃つ瞬間にクロスヘアを敵から自ら逸らすようにフリックして外してしまう」という現象は、多くの中級〜上級プレイヤーが直面する非常に興味深いエイムのバグです。本スレッドでは、この現象が発生する要因について、神経科学的な眼球運動、メンタル、フィジカル（入力デバイス）の観点から深い議論が交わされました。\n\n【1. 予測エイム（Predictive Aim）とサッカード抑制の罠】\n最も技術的な指摘として挙げられたのが「ターゲットの読み間違い（Misread / Over-read）」と「サッカード（衝動性眼球運動）」の関係です。敵が移動している際、脳は「敵を認識してから手が動くまでのタイムラグ」を計算し、敵が進むであろう未来の位置へ無意識に予測フリックを敢行します。しかし、高速で視線を移動させるサッカードの間、人間は一時的に視覚情報処理が遮断（サッカード抑制）されます。もし敵が予測と異なりピークの直後に急停止（ストッピング）したり切り返したりした場合、手の動作が完了するまで修正できません。結果として、すでに頭に合っていたクロスヘアを自ら外側の空間へ大きくフリックしてしまうことになります。\n\n【2. 背後を突いた時の「恐怖心」とパフォーマンス不安】\n「敵がこちらを見ていないフリーキルほど、実は当てるのが難しい」という意見に多くの共感が集まりました。スレ主自身は「落ち着いていた」と感じていても、無意識下では「相手が急に予測不能な動きをするのではないか」「このイージーキルを外したら逆転されるのではないか」という微細な恐怖（Performance Anxiety）が働きます。これにより「相手がワイドピークや大股で飛び出してくる」と脳が過剰に身構え、オーバーフリックを誘発します。\n\n【3. クリック時の力みとセンシ・デバイスの問題】\nクリックの瞬間に前腕や指に余計な力が入ることで、マウス本体が数ミリ〜数ピクセル物理的に弾かれてしまう現象も指摘されています。特に高センシでプレイしている場合や、マウスのクリックスイッチが硬い場合、クリック動作の反動が直接クロスヘアのブレとして画面に現れます。これを防ぐには、敵の動きを直前まで冷静に見届けるリアクティブな意識、適切なセンシへの調整、そしてクリック時の力みを抜くマインドマッスルコネクションが不可欠です。",
+    "devices": [
+      {
+        "name": "Pulsar Gaming Gears X2",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "クリック時に腕が力んでエイムがブレる問題に対し、非常に軽い力で入力できる高感度なクリックを備えたモデルとして改善策に挙げられた。"
+      }
+    ],
+    "x_main_post": "【エイムの謎】頭に合っているのに敵から離れるようにフリックして外す原因\n\n・「フリーキルを外せない」無意識のプレッシャー\n・敵の移動を深読みしすぎる過剰な予測（オーバーリード）\n・クリック時の指や腕の力みによるマウスのブレ\n\n落ち着いて相手の停止を見届ける意識が重要です！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "頭にエイムが合ってたのに敵から離れて外しちゃうのだ！",
+        "caption": "頭からエイムが外れる？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "それ、相手の動きを深読みしすぎな過剰予測が原因かもだよ！",
+        "caption": "過剰な予測が原因かも"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "フリーキルで落ち着いてたはずなのに、なんでなのだ？",
+        "caption": "なぜ勝手にフリック？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "無防備な敵ほど「外せない」って無意識の焦りが出ちゃうんだよね。",
+        "caption": "無意識の焦りと恐怖心"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "相手が走る前提でフリックして、急停止に対応できてないんだよ！",
+        "caption": "急停止に手が追いつかない"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "予測エイムとクリックの力みが合体して暴発してたのだ…！",
+        "caption": "予測と力みの暴発"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "相手の動きを直前まで冷静に見届けてから撃つ練習をしようね！",
+        "caption": "動きを見届けてから撃つ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "まずは深呼吸してクリックの力みを抜いてみるのだ！",
+        "caption": "力みを抜いて撃とう！"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rl6tinax81x",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 29,
+        "text": "恐怖心だな。"
+      },
+      {
+        "id": "19rl6w9q06sci",
+        "parent_id": "19rl6tinax81x",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 5,
+        "text": "何の恐怖ですか？ ラウンドはほぼ勝ち確でしたし、相手はこっちを見てすらいなくて、これ以上ないくらいプレッシャーのないシチュエーションだったと感じていたのですが。"
+      },
+      {
+        "id": "19rl72a4xhpmq",
+        "parent_id": "19rl6w9q06sci",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 29,
+        "text": "こっちを向いていない相手を撃つのは、冗談抜きで最も難しいショットの一つだよ。「急に予測不能な動きをするんじゃないか？」「簡単なショットを外して、振り向かれて逆にやられるんじゃないか？」ってね。"
+      },
+      {
+        "id": "19rl8m3rx4nid",
+        "parent_id": "19rl6w9q06sci",
+        "depth": 2,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 8,
+        "text": "ラウンドを落とすことへの恐怖じゃない。相手が不規則に動くんじゃないか、こんな簡単なショットを外してしまうんじゃないかという恐怖だよ。だから相手がワイドピークしてきた場合に備えて、脳が補正しようとしてオーバーフリックしてしまうんだ。本質的にはパフォーマンス不安だよ。"
+      },
+      {
+        "id": "19rlitngaf7cz",
+        "parent_id": "19rl8m3rx4nid",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "あなたの意見では、パフォーマンス不安とターゲットの動きの読み（リーディング）、どちらがより大きな問題だと思いますか？"
+      },
+      {
+        "id": "19rlknilurw1v",
+        "parent_id": "19rlitngaf7cz",
+        "depth": 4,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 7,
+        "text": "これはKovaaKとは全く関係がなくて、君のメンタル、実戦経験、そして総合的な冷静さの問題だよ。"
+      },
+      {
+        "id": "19rl72ck1y7sy",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 20,
+        "text": "脳が動きを認識する。\n脳が動きを認識して手をターゲットへ動かすまでに時間がかかる。\nそれを補うため、フリックにかかる時間の間にターゲットがどこへ到達するかを脳が計算する。\nこの計算の最中にターゲットが停止したり方向転換したりすることで、エイムが外れる。"
+      },
+      {
+        "id": "19rl73lf6aole",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "text": "読み間違い（ミスリード）だね。"
+      },
+      {
+        "id": "19rl89iteh9mt",
+        "parent_id": "19rl73lf6aole",
+        "depth": 1,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "草"
+      },
+      {
+        "id": "19rl73qtje96s",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "text": "これはエイムの予測によって起きたことだね。敵の足元を見てみてほしいんだけど、君が撃とうとする直前に敵は足を止めている。でも、君の予測フリックが強すぎて、たとえ相手が止まらなかったとしてもショットを外していただろう。もう少しセンシを下げてみたらどうかな？"
+      },
+      {
+        "id": "19rl78u4zvqwz",
+        "parent_id": "19rl73qtje96s",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ということは、これは100%相手の動きの読みの問題だと思いますか？"
+      },
+      {
+        "id": "19rl7iqe2atc3",
+        "parent_id": "19rl78u4zvqwz",
+        "depth": 2,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "text": "いや、すべてが一瞬で起きているからね。敵がどこへ向かうかという軌道の予測自体は脳が正しくできていたんだ。ただフリックがターゲットを行き過ぎてしまっているから、フリックのマッスルメモリーをもっと鍛え直すか、同じフリックの強さでも移動距離が短くなるようにマウス設定を調整する必要がある。"
+      },
+      {
+        "id": "19rleqfb919tt",
+        "parent_id": "19rl78u4zvqwz",
+        "depth": 2,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "脳がフリックを行うと判断した瞬間はサッカード（衝動性眼球運動）の最中にあり、動作が完了するまで実質的に盲目状態になる。敵が動き続けた場合の位置へ視線がフリックするため、撃ち終わるまで相手が止まったことに気づけないんだ。\n動作の途中でこのズレを修正することは不可能だから、読みの精度を上げるしかない。予測エイム対リアクティブ（反射的）エイムの問題だね。現実的に考えて、そのポジションの敵が君に対してワイドスイングしてくるのか、タイトピークしてくるのか妥当性を考えるんだ。読み間違いは時々どうしても起きる。同じシチュエーションをあと100回経験すれば、もっと良くなるよ。"
+      },
+      {
+        "id": "19rl75vpu46ps",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "私も最初のクリックの時に前腕に力が入ってしまって、マウスが数ピクセル揺れ動いてしまう問題がありました。少し驚いたり興奮したりしたせいかと思っていました。あなたも似たような状態なのでは？\n\n追記：結局私は、クリックが非常に軽くて敏感なX2 Superstrikeを購入したことで解決しました。"
+      },
+      {
+        "id": "19rl9j62u9ipu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "端的に言えば、これはクリックの問題だと思う。\n\nその敵を撃つことに興奮していて、それでいて脳の奥底では、相手が角を曲がってきた時に反対側を向いていることに不意を突かれ、ちょっとした動揺として認識されている。そして相手が振り向く前に素早く反応しようと左クリックを叩き込もうとする焦りから、指をマウスに密着させずに強い力で一気に押し込んでしまっているんだ。\n\nここでは手首や腕の力みについてよくネタにされたり議論されたりするけれど、腕の重さと筋肉の比率や、手と指の筋力といった要素を真剣に分析すれば、特に何年も何時間もプレイしている人にとって、指先に至るまでの特定のトレーニングやマインドマッスルコネクションがなぜこれほど重要で、大半のプレイヤーの基礎安定性を向上させるのに役立つのかが解明されるはずだ。\n\n細身の若いプレイヤーがなぜこれほど活躍できるのかの説明にもなる。ガリガリに痩せている状態は、必要な両方の筋線維やスタビライザー筋肉を十分に発達させる上で最も簡単な出発点だし、若ければ筋肉の安定性を損なうような悪癖を身につけてしまっている期間も短く、安定性を得るために余計な労力をかける必要もないからね。"
+      },
+      {
+        "id": "19rlcre7tj8xu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "私はアセンダント1だから多少は発言に信憑性があると思う。だから言わせてもらうと：\nエイム練習ソフトの外で起きている原因がいくつか考えられるし、私はそれを誰よりもよく分かっている。\n\n1. センシが高すぎる可能性がある。議論を呼ぶ意見かもしれないが、VALORANT内でほぼすべての感度帯を試した者として、高センシのせいでこういうことが起きることがあると気づいた。これが決定的な原因だとは言わないが、ハイセンシ寄りなら気をつけるべき点だ。\n\n2. 2つ目、おそらくこれが一番正確な原因だが「予期（アンティシペーション）」だ。VALORANT界隈では当たり前のように語られていることだが、ほぼすべて（強調しておくが、「ほぼ」すべて）の事態を本気で予期し始めた時、私のエイムは少し上達し、はるかに落ち着いてブレなくなった。どう鍛えるかは具体的に言えない。私自身、VALORANTをたくさんプレイし、学び、観察し、観戦したことで身についたからね。敵がいないかもしれない場所でも、撃ち合いに100%備えた臨戦態勢でクリアリングするようにしたら劇的に改善した。\n\n3. 外すことへの恐怖。これは本当に多くの人を惑わせる問題だが、誰だって外すことがあると受け入れられれば、より落ち着いて冷静沈着になれる。VCTグランドファイナルのLOUD対Vitalityですら、とんでもないやらかし（ロータスのヘブンでロープに乗った相手に対し、スライディングしたtuyzが1マガジン丸々外した）があった。それでもプロのパフォーマンスには響かない。そう思えるようになるかどうかがポイントだね。"
+      },
+      {
+        "id": "19rlmwaopei9s",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "クリックする瞬間に腕に力が入っているんだよ。私も本当にこれに悩まされている。"
+      },
+      {
+        "id": "19rms419fw0ed",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "過剰な読み（オーバーリード）だね。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xeazn6.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90%E3%82%A8%E3%82%A4%E3%83%A0%E3%81%AE%E8%AC%8E%E3%80%91%E9%A0%AD%E3%81%AB%E5%90%88%E3%81%A3%E3%81%A6%E3%81%84%E3%82%8B%E3%81%AE%E3%81%AB%E6%95%B5%E3%81%8B%E3%82%89%E9%9B%A2%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E3%81%97%E3%81%A6%E5%A4%96%E3%81%99%E5%8E%9F%E5%9B%A0%0A%0A%E3%83%BB%E3%80%8C%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AD%E3%83%AB%E3%82%92%E5%A4%96%E3%81%9B%E3%81%AA%E3%81%84%E3%80%8D%E7%84%A1%E6%84%8F%E8%AD%98%E3%81%AE%E3%83%97%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A3%E3%83%BC%0A%E3%83%BB%E6%95%B5%E3%81%AE%E7%A7%BB%E5%8B%95%E3%82%92%E6%B7%B1%E8%AA%AD%E3%81%BF%E3%81%97%E3%81%99%E3%81%8E%E3%82%8B%E9%81%8E%E5%89%B0%E3%81%AA%E4%BA%88%E6%B8%AC%EF%BC%88%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AA%E3%83%BC%E3%83%89%EF%BC%89%0A%E3%83%BB%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E6%99%82%E3%81%AE%E6%8C%87%E3%82%84%E8%85%95%E3%81%AE%E5%8A%9B%E3%81%BF%E3%81%AB%E3%82%88%E3%82%8B%E3%83%9E%E3%82%A6%E3%82%B9%E3%81%AE%E3%83%96%E3%83%AC%0A%0A%E8%90%BD%E3%81%A1%E7%9D%80%E3%81%84%E3%81%A6%E7%9B%B8%E6%89%8B%E3%81%AE%E5%81%9C%E6%AD%A2%E3%82%92%E8%A6%8B%E5%B1%8A%E3%81%91%E3%82%8B%E6%84%8F%E8%AD%98%E3%81%8C%E9%87%8D%E8%A6%81%E3%81%A7%E3%81%99%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xeazn6.html",
+    "created_at": "2026-10-25T22:24:07.335650+00:00"
+  },
+  {
+    "id": "1xedgz9",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Tell me why the Asus Gladius IV is a bad purchase...",
+    "selftext_en": "I've used Razer Deathadders for 10 years. I'm addicted to them, and I replace them every time they break. I'm on my 7th deathadder, and it has connection issues after 7 months! I need a change.\n\nI have a 2 PC setup, so I want a mouse where I can use a wireless receiver for one PC and switch to Bluetooth for the other.\n\nI also want the ergo of the V3 Deathadder.\n\nI saw the Gladius IV launch and it seems like everything I want? Is it the endgame mouse for me? Do you know a better mouse for DA feel with a receiver/Bluetooth switch?",
+    "image_urls": [],
+    "score": 2,
+    "num_comments": 19,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xedgz9/tell_me_why_the_asus_gladius_iv_is_a_bad_purchase/",
+    "comments": [
+      "[+2] Asus software is actual garbage, you will miss synapse after dealing with armory crate",
+      "[+2] It's compatible with the web app now so that's a non issue",
+      "[+1] Browser based apps are cool and all but they are not the solution to every issue. An app can still suck, even in a browser.",
+      "[+1] Yeah but we're talking about a mouse here, you're just saying general statements. The asus web app is perfectly fine in this case, see for yourself",
+      "[+1] No way you need armory crate for a mouse. I had to deal with it when I got a new PC 10 years ago and bought an X470 prime pro. Holy fucking dogshit software",
+      "[+1] no you can use the new Asus gearlink web based software for this mouse, you just set it up once and forget about it. no need to install that dogshit armory crate anymore. synapse is also dogshit btw. haha.",
+      "[+1] GGreat mouse, it's taller and longer than deathadders, its' a tank so far. My hand sits a little more \"behind\" than ontop vs the deathadder with this one, its just larger so my hand slips off more, if your hand is big it probably can stay ontop.   \n  \n\\*Please never use a mouse over bluetooth.. it casues your hand eye to get out of sync \\*source my mom",
+      "[+1] The main buttons feels soft for me and dot skates compatibility is bad if you ever use them\n\nFor 2 PC I'd just get a cheap USB switch since bluetooth just feels terrible for mice usage and that way you have a lot more options to choose from",
+      "[+1] assuming it's getting Gladius to Keris/Harpe level of an upgrade, then apart from the price nothing really\n\nfor cheap, you can get MCHOSE V7 which is a direct clone of DA V2",
+      "[+7] Its Asus. IF it breaks, youre fucked.",
+      "[+1] Only in the USA.",
+      "[+1] I am from germany and if I would order from Asus directly I would be just as fucked. I see posts left and right in german pc subs talking about Asus not honoring warranties",
+      "[+1] If you are from Germany, why the hell would you buy directly from Asus?!",
+      "[+1] he doesn't... wtf?",
+      "[+1] It was a rethorical question.",
+      "[+1] ok :(",
+      "[+1] Just get a Zowie EC1 (or EC2 depending on your hand size) and call it a day. It does BT and receiver as well.",
+      "[+1] The Asus Rog Gladius 4 Ace is a good mouse for medium to large hands (my hand is 19cmx8.5cm without thumb and 10.5cm with thumb), besides the price...$$$\n\nI have used it now for about 2 weeks, super happy with it, i am still trying to find a reason to return it but i cant, lol.\n\nI used the Razer Viper v4 Pro until now from when it came out new about half a year ago, but that mouse didnt let my elbow and forearm pain heal i had for weeks since the beginning of September.  Just 2-3 days with the Asus Gladius 4 Ace and the pain was almost gone.\n\nThe  razer viper, logitech Superstrike and endgamegear xm1r i tried before are definitely the better shape for aiming, but absolutely not for long term comfort and health.\n\nThe best shapes so far for me where the Zowie EC, Asus Keris 2 ace and now the",
+      "[+1] Mchose v7 is a deathadder V2 clone it's much cheaper and has trimode connection"
+    ],
+    "comment_tree": [
+      {
+        "id": "19rlbavkls0kk",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Asus software is actual garbage, you will miss synapse after dealing with armory crate",
+        "depth": 0,
+        "body_ja": "ASUSのソフトウェアはガチのゴミだよ。Armoury Crateを弄った後はSynapseが恋しくなるレベル。"
+      },
+      {
+        "id": "19rlbialfit43",
+        "parent_id": "19rlbavkls0kk",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "It's compatible with the web app now so that's a non issue",
+        "depth": 1,
+        "body_ja": "今はWebアプリに対応してるから、その問題はもう関係ないよ。"
+      },
+      {
+        "id": "19rlfzt4menz5",
+        "parent_id": "19rlbialfit43",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Browser based apps are cool and all but they are not the solution to every issue. An app can still suck, even in a browser.",
+        "depth": 2,
+        "body_ja": "ブラウザベースのアプリは確かにいいものだけど、すべての問題の解決策になるわけじゃない。ブラウザ上であってもクソなアプリはクソだし。"
+      },
+      {
+        "id": "19rlg5xyy8bmt",
+        "parent_id": "19rlfzt4menz5",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Yeah but we're talking about a mouse here, you're just saying general statements. The asus web app is perfectly fine in this case, see for yourself",
+        "depth": 3,
+        "body_ja": "いやでも、今話してるのはマウスのことだからね。君は一般的な一般論を言ってるだけ。ASUSのWebアプリはこの件に関しては全く問題ないよ、自分で確かめてみなよ。"
+      },
+      {
+        "id": "19rlfv17y81d0",
+        "parent_id": "19rlbavkls0kk",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "No way you need armory crate for a mouse. I had to deal with it when I got a new PC 10 years ago and bought an X470 prime pro. Holy fucking dogshit software",
+        "depth": 1,
+        "body_ja": "マウスを使うのにArmoury Crateを入れなきゃいけないなんてありえない。10年前に新しいPC組んでX470 Prime Pro買ったときに使わされたけど、マジでとんでもないクソソフトだったぞ。"
+      },
+      {
+        "id": "19rli4hfps3q8",
+        "parent_id": "19rlbavkls0kk",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "no you can use the new Asus gearlink web based software for this mouse, you just set it up once and forget about it. no need to install that dogshit armory crate anymore. synapse is also dogshit btw. haha.",
+        "depth": 1,
+        "body_ja": "いや、このマウスなら新しいASUS GearlinkっていうWebベースのソフトウェアが使えるよ。一回設定しちゃえばそれで終わりだし、もうあのクソみたいなArmoury Crateをインストールする必要はない。ちなみにSynapseも同じくらいゴミだけどね、ハハ。"
+      },
+      {
+        "id": "19rlcn07g9za8",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "GGreat mouse, it's taller and longer than deathadders, its' a tank so far. My hand sits a little more \"behind\" than ontop vs the deathadder with this one, its just larger so my hand slips off more, if your hand is big it probably can stay ontop.   \n  \n\\*Please never use a mouse over bluetooth.. it casues your hand eye to get out of sync \\*source my mom",
+        "depth": 0,
+        "body_ja": "素晴らしいマウスだよ。DeathAdderよりも背が高くて長くて、今のところ戦車みたいに頑丈。DeathAdderと比べると、自分の手は上から被せるというより少し「後ろ寄り」に置く感じになる。サイズが大きいから手が滑り落ちやすいけど、手が大きい人ならしっかり上に乗せられると思う。\n\n※絶対にBluetoothでマウスを使わないでね… 目と手の協調がズレちゃうから。※情報源：うちのママ"
+      },
+      {
+        "id": "19rlcpx7gdejn",
+        "parent_id": null,
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "The main buttons feels soft for me and dot skates compatibility is bad if you ever use them\n\nFor 2 PC I'd just get a cheap USB switch since bluetooth just feels terrible for mice usage and that way you have a lot more options to choose from",
+        "depth": 0,
+        "body_ja": "メインボタンは個人的に柔らかめに感じるし、もしドットソールを使うなら相性が悪いです。\n\n2台のPCで使うなら、自分なら安いUSB切替器を買いますね。マウスをBluetoothで使うのは操作感が最悪だし、切替器を使えば選べるマウスの選択肢がずっと広がりますから。"
+      },
+      {
+        "id": "19rlcqlttcbmr",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "assuming it's getting Gladius to Keris/Harpe level of an upgrade, then apart from the price nothing really\n\nfor cheap, you can get MCHOSE V7 which is a direct clone of DA V2",
+        "depth": 0,
+        "body_ja": "GladiusがKerisやHarpeと同レベルのアップグレードを受けてると仮定するなら、価格面以外には特に悪いところはないよ。\n\n安いやつなら、DA V2の完全なクローンであるMCHOSE V7が買えるね。"
+      },
+      {
+        "id": "19rld5vf5bvts",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 7,
+        "body_en": "Its Asus. IF it breaks, youre fucked.",
+        "depth": 0,
+        "body_ja": "ASUS製だからね。もし壊れたら完全に詰むよ。"
+      },
+      {
+        "id": "19rlfnr0yev35",
+        "parent_id": "19rld5vf5bvts",
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Only in the USA.",
+        "depth": 1,
+        "body_ja": "それアメリカだけの話でしょ。"
+      },
+      {
+        "id": "19rlfu7xsko2q",
+        "parent_id": "19rlfnr0yev35",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I am from germany and if I would order from Asus directly I would be just as fucked. I see posts left and right in german pc subs talking about Asus not honoring warranties",
+        "depth": 2,
+        "body_ja": "自分はドイツ在住だけど、ASUSから直接買ったら同じように詰むよ。ドイツのPC系サブレディットでも、ASUSが保証を履行してくれないって投稿をあちこちで見かける。"
+      },
+      {
+        "id": "19rlfwjzw2cbm",
+        "parent_id": "19rlfu7xsko2q",
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "If you are from Germany, why the hell would you buy directly from Asus?!",
+        "depth": 3,
+        "body_ja": "ドイツに住んでるなら、なんでそもそもASUSから直接買うんだよ？！"
+      },
+      {
+        "id": "19rlgou7q0yxv",
+        "parent_id": "19rlfwjzw2cbm",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "he doesn't... wtf?",
+        "depth": 4,
+        "body_ja": "直接買ってないでしょ… なんなの？"
+      },
+      {
+        "id": "19rlikyslh1i8",
+        "parent_id": "19rlgou7q0yxv",
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "It was a rethorical question.",
+        "depth": 5,
+        "body_ja": "修辞的な質問（反語）だよ。"
+      },
+      {
+        "id": "19rlkie3y10is",
+        "parent_id": "19rlikyslh1i8",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "ok :(",
+        "depth": 6,
+        "body_ja": "あ、そうなんだ :("
+      },
+      {
+        "id": "19rlea767v7j7",
+        "parent_id": null,
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Just get a Zowie EC1 (or EC2 depending on your hand size) and call it a day. It does BT and receiver as well.",
+        "depth": 0,
+        "body_ja": "おとなしくZowie EC1（手のサイズによってはEC2）を買って終わりにしとけ。あれもBluetoothとレシーバーの両方に対応してるから。"
+      },
+      {
+        "id": "19rlfeoi68kbn",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "The Asus Rog Gladius 4 Ace is a good mouse for medium to large hands (my hand is 19cmx8.5cm without thumb and 10.5cm with thumb), besides the price...$$$\n\nI have used it now for about 2 weeks, super happy with it, i am still trying to find a reason to return it but i cant, lol.\n\nI used the Razer Viper v4 Pro until now from when it came out new about half a year ago, but that mouse didnt let my elbow and forearm pain heal i had for weeks since the beginning of September.  Just 2-3 days with the Asus Gladius 4 Ace and the pain was almost gone.\n\nThe  razer viper, logitech Superstrike and endgamegear xm1r i tried before are definitely the better shape for aiming, but absolutely not for long term comfort and health.\n\nThe best shapes so far for me where the Zowie EC, Asus Keris 2 ace and now the Asus Gladius 4 ace, i also tried the Deathadder series a couple years ago but i remember the shape was not as good for me and i think i was touching the the front right corner with my finger tip all the time, whereas the gladius has no corner and is fully round :)\n\nSo far i can only recommend the Asus gladius 4 ace for medium to large hands, maybe not what you asked but thats how it is, lol.",
+        "depth": 0,
+        "body_ja": "ASUS ROG Gladius 4 Aceは、値段が高いこと（$$$）を除けば、中〜大サイズの手（自分の手は親指なしで19cm×8.5cm、親指ありで10.5cm）にぴったりの良いマウスだよ。\n\n今2週間ほど使ってるけど、めちゃくちゃ満足してる。返品する理由をいまだに探してるんだけど見つからないくらい、笑。\n\nこれまでは半年前に発売されたRazer Viper V3 Proを使ってたんだけど、9月初めから数週間続いていた肘と前腕の痛みが全然治らなかったんだ。でもGladius 4 Aceにしてたった2〜3日で、その痛みがほぼ消えた。\n\n前に試したRazer ViperやLogicool Superlight、Endgame Gear XM1rは確かにエイムしやすい形状だったけど、長期的な快適さや手の健康には絶対に良くないね。\n\n今までで最高の形状だったのはZowie EC、ASUS Keris II Ace、そして今回のASUS Gladius 4 Aceだね。数年前にDeathAdderシリーズも試したけど、自分には形状が合わなくて、常に右前角に指先が当たってたのを覚えてる。Gladiusは角がなくて完全に丸みを帯びてるからいいんだよね :)\n\n今のところ、中〜大型の手の人にはASUS Gladius 4 Aceを全力でおすすめできるよ。求めてた回答とは違ったかもしれないけど、実際使ってみるとこんな感じだよ、笑。"
+      },
+      {
+        "id": "19rmb1zc6ztno",
+        "parent_id": null,
+        "author": "海外ユーザー11",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Mchose v7 is a deathadder V2 clone it's much cheaper and has trimode connection",
+        "depth": 0,
+        "body_ja": "MCHOSE V7はDeathAdder V2のクローンで、ずっと安いしトライモード接続に対応してるよ。"
+      }
+    ],
+    "title_ja": "ASUS ROG Gladius 4 Aceを買うべきではない理由とは？DeathAdder難民の悩み",
+    "hook_ja": "DeathAdderを長年愛用してきたユーザーが、2台のPC切り替え（2.4GHz/Bluetooth）とエルゴ形状を求めてASUS ROG Gladius 4 Aceを検討。コミュニティからはソフトウェアやサポートへの懸念と、形状の快適さを評価する声が寄せられています。",
+    "op_post_ja": "これまで10年間、Razer DeathAdderを使い続けてきました。すっかり中毒になっていて、壊れるたびに買い替えてきたんです。今使っているのは7代目のDeathAdderなんですが、たった7ヶ月で接続トラブルが発生してしまいました！ もう別のマウスに変えたいです。\n\n2台のPCを使っているので、片方のPCにはワイヤレスレシーバーを挿し、もう片方にはBluetoothで切り替えて使えるマウスが欲しいです。\n\nそれと、DeathAdder V3のようなエルゴノミクス形状も求めています。\n\nGladius IVが発売されたのを見かけて、自分の求めているものがすべて揃っているように思えるのですが、どうでしょうか？ これは自分にとってのアガリ（endgame）マウスになりますか？ それとも、レシーバーとBluetoothの切り替えができるDA系の形状で、もっと良いマウスをご存知でしょうか？",
+    "consensus_points": [
+      "ASUSの統合ソフト（Armoury Crate）は非常に不評だが、現在はWebベースの設定ツール「GearLink」に対応しているためソフト問題は回避可能",
+      "大型エルゴノミクス形状としては非常にビルドクオリティが高く、腕や手首への負担軽減・快適性は高評価",
+      "Bluetoothでのマウス操作は遅延が酷いため、2台のPC運用ならハードウェアのUSB切替器を導入して選択肢を広げるのが推奨される"
+    ],
+    "detailed_analysis_ja": "長年Razerの看板エルゴノミクス（人間工学）マウス「DeathAdder」シリーズを愛用してきたスレ主が、頻繁な故障と「2台のPCでのレシーバー／Bluetooth切り替え需要」から、ASUSの最新大型エルゴマウス「ROG Gladius 4 Ace」への乗り換えを相談しているスレッドです。\n\nr/MouseReviewコミュニティにおける主な議論の論点は以下の4点に集約されます。\n\n【1. ソフトウェア問題とGearLink（Webドライバー）の存在】\nASUSのPC周辺機器は、統合ソフトウェア「Armoury Crate」の肥大化・重さ・バグの多さが長年悪名高く、真っ先に批判の対象となります。しかし、最近のASUS製最新マウス（Harpe Ace、Keris II Ace、Gladius 4 Aceなど）はブラウザ上で設定が完結するWebベースツール「ASUS GearLink」に対応しており、一度設定をオンボードメモリに書き込めばソフトウェアをPCにインストールする必要がなくなりました。これにより最大の弱点は克服されつつあります。\n\n【2. 形状（シェイプ）とエルゴノミクス性能】\nGladius 4 Aceは、DeathAdder V3よりも全長が長く背が高めの、いわゆる「タンク」のような大型エルゴ形状です。手のサイズが19cm前後のミディアム〜ラージハンドのユーザーからは、薬指・小指側の収まりが良く、前腕や肘の負担・痛みが軽減されたというエルゴノミクス面での絶賛コメントが寄せられています。一方で、クリック感がやや柔らかい点や、底面形状の都合で汎用ドットソールの適合性が悪い点などが注意点として挙げられています。\n\n【3. 2PC環境におけるBluetooth接続の限界】\nスレ主は「片方を2.4GHz、もう片方をBluetooth」で運用したいと考えていますが、Bluetooth接続はポーリングレートが125Hz〜133Hz程度に制限され、遅延も大きいため、カーソル移動や作業でも違和感を覚える人が多いです。そのため、「安価なUSB切替器（USBセレクター）を導入し、有線または単一レシーバーを切り替えて使う方が、選べるマウスの選択肢が格段に広がる」という現実的なアドバイスがなされています。\n\n【4. 代替候補の提示】\nDeathAdderに近いエルゴノミクス形状で、トライモード接続（有線/2.4GHz/Bluetooth）や高いビルドクオリティを持つ選択肢として、Zowie ECシリーズのワイヤレスモデルや、DeathAdder V2のクローンとして知られるMCHOSE V7などが提案されています。",
+    "devices": [
+      {
+        "name": "ASUS ROG Gladius III Wireless AimPoint",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "大型の手向けに優れた快適性と丸みを帯びたエルゴノミクス形状を持ち、前腕の負担軽減に効果的と評価されている。最新ファームウェアではWeb設定ツールにも対応している。"
+      },
+      {
+        "name": "Razer DeathAdder V3 Pro",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "長年愛用される定番エルゴノミクス形状だが、右前角の突起が人によって指に干渉することや耐久性の個体差が指摘されている。"
+      },
+      {
+        "name": "Razer Viper V3 Pro",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "エイム性能は極めて高いものの、人によっては長時間の使用で手首や前腕に疲労・痛みが残る形状とされる。"
+      },
+      {
+        "name": "Logicool G PRO X SUPERLIGHT",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "エイムに特化した形状として挙げられているが、長期的な持ちやすさや手首の健康面では大型エルゴ形状に劣るという比較がなされている。"
+      },
+      {
+        "name": "Endgame Gear XM1r",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "優れたエイム特化型マウスとして言及されたが、長時間の快適性重視のエルゴノミクス用途とは異なるポジションとされている。"
+      },
+      {
+        "name": "ASUS ROG Keris II Ace",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "持ちやすさと手にフィットするエルゴノミクス形状が高く評価されているASUSの軽量ワイヤレスマウス。"
+      },
+      {
+        "name": "BenQ ZOWIE EC1-CW",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "大型エルゴノミクスの代表格として、手の大きいユーザー向けに確実な選択肢として推奨されている。"
+      },
+      {
+        "name": "MCHOSE V7",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "DeathAdder V2の形状を模した安価なクローン機で、トライモード接続（有線/2.4GHz/Bluetooth）に対応している選択肢として挙げられている。"
+      }
+    ],
+    "x_main_post": "DeathAdderからASUS ROG Gladius 4 Aceへの乗り換えはアリ？海外の結論まとめ：\n\n・大型エルゴ形状で前腕の負担軽減に抜群\n・悪名高いArmoury CrateはWebツールで回避可能に\n・BTは遅延が酷いため2PC運用はUSB切替器推奨\n・安価な代替案としてMCHOSE V7も",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "DeathAdder難民なのだ！ASUSのGladius 4 Aceってどうなのだ？",
+        "caption": "Gladius 4 Aceってどう？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "手が大きくて快適さ重視なら、かなりアリな選択肢だよ！",
+        "caption": "大きめの手なら大アリ！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "でもASUSのソフトって重くて使いにくいって聞くのだ…",
+        "caption": "ソフトが不安なのだ"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "今はWebブラウザから設定できるから、ソフトを入れなくても大丈夫なんだよね！",
+        "caption": "Web設定ツールに対応！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "Viperで腕を痛めた人がこれに変えて痛みが消えたって絶賛してるよ！",
+        "caption": "エルゴ形状で腕の負担激減"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "2台のPCでBluetooth切り替えしたいのも行けそうなのだ！",
+        "caption": "2台のPCで使える？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただBluetoothは遅延が酷いから、USB切替器を使うのが一番おすすめだよ！",
+        "caption": "BTより切替器が快適！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "なるほどなのだ！安価な切替器も合わせて検討してみるのだ！",
+        "caption": "切替器も要チェック！"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rlbavkls0kk",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "ASUSのソフトウェアはガチのゴミだよ。Armoury Crateを弄った後はSynapseが恋しくなるレベル。"
+      },
+      {
+        "id": "19rlbialfit43",
+        "parent_id": "19rlbavkls0kk",
+        "depth": 1,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "今はWebアプリに対応してるから、その問題はもう関係ないよ。"
+      },
+      {
+        "id": "19rlfzt4menz5",
+        "parent_id": "19rlbialfit43",
+        "depth": 2,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ブラウザベースのアプリは確かにいいものだけど、すべての問題の解決策になるわけじゃない。ブラウザ上であってもクソなアプリはクソだし。"
+      },
+      {
+        "id": "19rlg5xyy8bmt",
+        "parent_id": "19rlfzt4menz5",
+        "depth": 3,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "いやでも、今話してるのはマウスのことだからね。君は一般的な一般論を言ってるだけ。ASUSのWebアプリはこの件に関しては全く問題ないよ、自分で確かめてみなよ。"
+      },
+      {
+        "id": "19rlfv17y81d0",
+        "parent_id": "19rlbavkls0kk",
+        "depth": 1,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "マウスを使うのにArmoury Crateを入れなきゃいけないなんてありえない。10年前に新しいPC組んでX470 Prime Pro買ったときに使わされたけど、マジでとんでもないクソソフトだったぞ。"
+      },
+      {
+        "id": "19rli4hfps3q8",
+        "parent_id": "19rlbavkls0kk",
+        "depth": 1,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "いや、このマウスなら新しいASUS GearlinkっていうWebベースのソフトウェアが使えるよ。一回設定しちゃえばそれで終わりだし、もうあのクソみたいなArmoury Crateをインストールする必要はない。ちなみにSynapseも同じくらいゴミだけどね、ハハ。"
+      },
+      {
+        "id": "19rlcn07g9za8",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "素晴らしいマウスだよ。DeathAdderよりも背が高くて長くて、今のところ戦車みたいに頑丈。DeathAdderと比べると、自分の手は上から被せるというより少し「後ろ寄り」に置く感じになる。サイズが大きいから手が滑り落ちやすいけど、手が大きい人ならしっかり上に乗せられると思う。\n\n※絶対にBluetoothでマウスを使わないでね… 目と手の協調がズレちゃうから。※情報源：うちのママ"
+      },
+      {
+        "id": "19rlcpx7gdejn",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "メインボタンは個人的に柔らかめに感じるし、もしドットソールを使うなら相性が悪いです。\n\n2台のPCで使うなら、自分なら安いUSB切替器を買いますね。マウスをBluetoothで使うのは操作感が最悪だし、切替器を使えば選べるマウスの選択肢がずっと広がりますから。"
+      },
+      {
+        "id": "19rlcqlttcbmr",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "GladiusがKerisやHarpeと同レベルのアップグレードを受けてると仮定するなら、価格面以外には特に悪いところはないよ。\n\n安いやつなら、DA V2の完全なクローンであるMCHOSE V7が買えるね。"
+      },
+      {
+        "id": "19rld5vf5bvts",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 7,
+        "text": "ASUS製だからね。もし壊れたら完全に詰むよ。"
+      },
+      {
+        "id": "19rlfnr0yev35",
+        "parent_id": "19rld5vf5bvts",
+        "depth": 1,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "それアメリカだけの話でしょ。"
+      },
+      {
+        "id": "19rlfu7xsko2q",
+        "parent_id": "19rlfnr0yev35",
+        "depth": 2,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分はドイツ在住だけど、ASUSから直接買ったら同じように詰むよ。ドイツのPC系サブレディットでも、ASUSが保証を履行してくれないって投稿をあちこちで見かける。"
+      },
+      {
+        "id": "19rlfwjzw2cbm",
+        "parent_id": "19rlfu7xsko2q",
+        "depth": 3,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ドイツに住んでるなら、なんでそもそもASUSから直接買うんだよ？！"
+      },
+      {
+        "id": "19rlgou7q0yxv",
+        "parent_id": "19rlfwjzw2cbm",
+        "depth": 4,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "直接買ってないでしょ… なんなの？"
+      },
+      {
+        "id": "19rlikyslh1i8",
+        "parent_id": "19rlgou7q0yxv",
+        "depth": 5,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "修辞的な質問（反語）だよ。"
+      },
+      {
+        "id": "19rlkie3y10is",
+        "parent_id": "19rlikyslh1i8",
+        "depth": 6,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "あ、そうなんだ :("
+      },
+      {
+        "id": "19rlea767v7j7",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "おとなしくZowie EC1（手のサイズによってはEC2）を買って終わりにしとけ。あれもBluetoothとレシーバーの両方に対応してるから。"
+      },
+      {
+        "id": "19rlfeoi68kbn",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ASUS ROG Gladius 4 Aceは、値段が高いこと（$$$）を除けば、中〜大サイズの手（自分の手は親指なしで19cm×8.5cm、親指ありで10.5cm）にぴったりの良いマウスだよ。\n\n今2週間ほど使ってるけど、めちゃくちゃ満足してる。返品する理由をいまだに探してるんだけど見つからないくらい、笑。\n\nこれまでは半年前に発売されたRazer Viper V3 Proを使ってたんだけど、9月初めから数週間続いていた肘と前腕の痛みが全然治らなかったんだ。でもGladius 4 Aceにしてたった2〜3日で、その痛みがほぼ消えた。\n\n前に試したRazer ViperやLogicool Superlight、Endgame Gear XM1rは確かにエイムしやすい形状だったけど、長期的な快適さや手の健康には絶対に良くないね。\n\n今までで最高の形状だったのはZowie EC、ASUS Keris II Ace、そして今回のASUS Gladius 4 Aceだね。数年前にDeathAdderシリーズも試したけど、自分には形状が合わなくて、常に右前角に指先が当たってたのを覚えてる。Gladiusは角がなくて完全に丸みを帯びてるからいいんだよね :)\n\n今のところ、中〜大型の手の人にはASUS Gladius 4 Aceを全力でおすすめできるよ。求めてた回答とは違ったかもしれないけど、実際使ってみるとこんな感じだよ、笑。"
+      },
+      {
+        "id": "19rmb1zc6ztno",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー11",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "text": "MCHOSE V7はDeathAdder V2のクローンで、ずっと安いしトライモード接続に対応してるよ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xedgz9.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=DeathAdder%E3%81%8B%E3%82%89ASUS%20ROG%20Gladius%204%20Ace%E3%81%B8%E3%81%AE%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88%E3%81%AF%E3%82%A2%E3%83%AA%EF%BC%9F%E6%B5%B7%E5%A4%96%E3%81%AE%E7%B5%90%E8%AB%96%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%9A%0A%0A%E3%83%BB%E5%A4%A7%E5%9E%8B%E3%82%A8%E3%83%AB%E3%82%B4%E5%BD%A2%E7%8A%B6%E3%81%A7%E5%89%8D%E8%85%95%E3%81%AE%E8%B2%A0%E6%8B%85%E8%BB%BD%E6%B8%9B%E3%81%AB%E6%8A%9C%E7%BE%A4%0A%E3%83%BB%E6%82%AA%E5%90%8D%E9%AB%98%E3%81%84Armoury%20Crate%E3%81%AFWeb%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E5%9B%9E%E9%81%BF%E5%8F%AF%E8%83%BD%E3%81%AB%0A%E3%83%BBBT%E3%81%AF%E9%81%85%E5%BB%B6%E3%81%8C%E9%85%B7%E3%81%84%E3%81%9F%E3%82%812PC%E9%81%8B%E7%94%A8%E3%81%AFUSB%E5%88%87%E6%9B%BF%E5%99%A8%E6%8E%A8%E5%A5%A8%0A%E3%83%BB%E5%AE%89%E4%BE%A1%E3%81%AA%E4%BB%A3%E6%9B%BF%E6%A1%88%E3%81%A8%E3%81%97%E3%81%A6MCHOSE%20V7%E3%82%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xedgz9.html",
+    "created_at": "2026-10-25T22:26:01.904607+00:00"
+  },
+  {
+    "id": "1xeenl7",
+    "subreddit": "MousepadReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Elite5 Noctis | Is this PD170 clone worth the hype? | A month later review",
+    "selftext_en": "# Introduction/Context/About Me\n\nThis review covers the Elite5 Noctis, a mousepad aiming to replicate the Pulsar X Vaxee PD170. The review process was carried out over a little over a month of daily use. There is no monetary compensation, all thoughts are my own, and any links in this review are non-affiliated.\n\nFull disclaimer: I do not own a PD170 myself due to its scarcity, having only around a week of experience on one that was loaned by a friend for the sole purpose of having a reference point. I will avoid going too in-depth on what feels different and why, as I think that, fortunately for the Elite5 Noctis, it is essentially a clone that is 90% there, being ever so slightly slower to the point I can chalk it up to unit variance and just not feeling as refined in the edge construction.\n\nEnglish isn't my first language, so please excuse any mistakes and feel free to ask questions if any points are unclear. This is also my first attempt at expanding my reviews beyond mice, so any feedback is greatly appreciated.\n\n# Testing Setup\n\n**Use cases:**\n\nThese were used both for day-to-day productivity and gaming with a strong FPS focus.\n\n**Mice:**\n\nThese were tested on a variety of mice across different weight ranges, all using a four-dot layout. The goal was to present an \"average\" experience as a point of reference. Keep in mind that certain properties, such as glide speed, will differ slightly depending on your mouse, skate choice, and, in the case of dots, preferred layout.\n\n* Vaxee NP01S Ergo, 60 grams\n* Pulsar Susanto X V2 Medium, 52 grams\n* WLMouse Huan M, 50 grams\n* Waizowl Triaina, 48 grams\n* Ninjutso Sora V3, 40 grams\n* CRDrako KO-ONE, 35 grams\n* WLMouse Miao, 32 grams\n* G-Wolves HTS Plus Pro, 29 grams\n\n**Skates:**\n\n* X-Raypad Jade Air\n* UnusualWaySports Magic Ice\n* Westlabs Big Orange\n* PMM Smoothies\n* Waizowl X Kibu Shiro\n* Psyche Gear Lynn\n\n**Sleeves:**\n\n* Without sleeve\n* TalonGames GT\n* Midori B4M V2\n\n# Package Contents and Dimensions\n\nThe mousepad offers two different sizes:\n\n* 480 x 400 x 5.3 mm, packaged flat\n* 500 x 500 x 5.3 mm, packaged flat\n\nThe packaging is very simple: inside you just find the typical plastic sleeve and the mousepad, and there is no branding on the box itself.\n\n# Surface\n\nThe surface is made of an undisclosed fabric marketed as a silky-smooth, extremely consistent weave. If nothing else if you're a purple lover this colorway is beautiful and looks different depending on the time of day/room lighting.\n\nI personally think",
+    "image_urls": [
+      "https://i.redd.it/ipanx98aagxh1.jpeg",
+      "https://i.redd.it/nwe1xwe7agxh1.jpeg",
+      "https://i.redd.it/pxz265d9agxh1.jpeg",
+      "https://i.redd.it/wmhey1v4agxh1.jpeg",
+      "https://i.redd.it/sq7vifalagxh1.jpeg"
+    ],
+    "score": 34,
+    "num_comments": 23,
+    "permalink": "https://www.reddit.com/r/MousepadReview/comments/1xeenl7/elite5_noctis_is_this_pd170_clone_worth_the_hype/",
+    "comments": [
+      "[+1] If you could only one, would you recommend PD170 or Polarity?",
+      "[+4] Hello sorry but I personally don’t buy Tekkusai pads to be able to compare them but as mentioned in my TLDR subjectives I think any balanced or speed glass pad user won’t get a similar experience that makes it worth it going back to cloth",
+      "[+4] My Noctis has the same little defects in almost the exact same spot as yours in the corner, though not nearly as bad.",
+      "[+1] If you can I’d recommend reaching out to them with mice and skates you’ve been using as they’re trying to identify the cause!",
+      "[+8] I was looking at it, but its the same price as the PD170, not worth it, I rather wait for Pulsar to get their stock under control.",
+      "[+1] Yeah I’ve heard for USD since the price increase it’s sadly no real deal to be had so it really comes down to if you want to wait for stock or not… you could always check their official Aliexpress store however as you can use coins and coupons there!\n\nPersonally for me after shipping from Pulsar EU it substantial enough to warrant the Noctis all day",
+      "[+1] For the US it's not worth it anywhere else in the world worth it",
+      "[+2] Already what you're saying is just wrong. It is definitely NOT slower than the PD170 at all. It has a smoother glide with less texture on the fabric than the PD170, which actually makes it feel almost faster than a PD170 with less stopping power. Coming from an owner of (multiple) PD170, FS170, and Noctis E5",
+      "[+2] Hello thank you for the feedback as noted in the intro I specifically mentioned I have a sample size of 1 of both and very limited time on the PD to the point I find them extremely close and can chalk up my opinion on speed to unit variance\n\nThe opinion was formed on my “regular” use of both as well as direct side by side test with the same exact mice and skates",
+      "[+1] Does that just make it feel faster, or actually be faster? I'm trying to go by descriptions and think smoother feel with less texture could be more contact area or more contact with fibers, giving a smoother feel to the touch but slightly slower glide.",
+      "[+1] It genuinely feels the same speed, maybe a little less stopping power than the PD170.",
+      "[+2] i was unaware the noctis had moisture resistant properties. Do drops of water bead off instead of absorbing into the fabric? Does it have humidity resistance greater than typical artisan pads? I’m currently using an aqua control mostly for the liquid resistance as it’s one of the few cloth pads that stay fairly consistent against sweat and humidity.",
+      "[+1] Hello, full disclaimer I am not someone who sweats a lot so I just did what I essentially do with my mouse reviews but on my arm instead of my hand, took a slightly damp cloth and rubbed it over my skin to simulate a worked up sweat and glided around the pad in this case, it did indeed form small beads that I couldn’t notice seeping into the pad but I also wiped it clean shortly after out of fear for potential damage I never do any actual liquid spillage or anything that would have enough volume to go beyond what I consider a realistic test with proper use of the peripheral\n\nClimate wise I live in a temperate area but being by the sea there’s significant moisture in the morning and evening so that’s my baseline for just environment impact on it",
+      "[+2] I got mine just yesterday been using it all day and so far i love the control it gives im coming from using glasspads for the past 4 years, my main pad being the Phantom glasspad. I love that pad so much the amount of micro adjustments i get is ridiculous but its the same reason i feel it is slippery and even when you press down the pad slows your mouse but again glass is glass. But with the Noctis i feel that slippery feeling is gone, it just a controlled version of a glasspad i guess lol. Luckily mine is in mint condition no weird smell or residue or defects. I do wish the pd170 was in stock as I enjoy that color better but so far enjoying this, obviously more testing down the line to see if it slows down cause cloth is cloth soo idk",
+      "[+1] I believe I’ve heard of people putting over a thousand hours into their PD before any slow spots started appearing so take that as you will, this is a very accurate clone to the point many people say it’s made in the same factory (personally doubt that)",
+      "[+2] Well if i do get the pd170 ill have a back up with this Noctis, i wonder how bad the slowing down will be my guess it wont be as crazy as other cloth pads because of how tight these pads are. I am still using a sleeve when i can with this pad I am just used to it at this point and it makes it even smoother so hopefully that lessens some of the micro dust that gets into the pad. But now that I’m on cloth Im scared to get it dirty from every thing whether it’s water or if I’m having a drink I’m paranoid. I never had an issue with that with glass 😂",
+      "[+2] Yeah, the QC from Elite5 is not the best. Got a Noctis a couple months ago and their was a small run in the fabric right out of the box. Same issue with the Luma I got a few weeks ago. Both pads are functional in spite of the damage, but it's a little frustrating.",
+      "[+3] So im not the only one finding black things under my skates randomly after i start used this pad xD. Anyway i got a great qc on mine and it is the best speed cloth pad i ever had (even tought i really want to try a softer base with this surface).",
+      "[+1] Multiple people I’ve talked to have had this issue yeah, really unsure what it could be and it did eventually stop for everyone, very strange and honestly makes the first few days very annoying with your glide being inconsistent until you wipe your skates",
+      "[+1] how would u compare it to fast cloth pads like artisan raiden or infinitymice speed if u have used those or other similar fast smooth pads?",
+      "[+1] I am not much of a cloth person having used glass exclusively coming into 3 years now so I don’t really have a reference point to modern releases but in my opinion this blows out of the water any speed focused artisan I did try in the past albeit not mid base variants\n\nIt’s my understanding this surface is the fastest cloth solution available on the market be it the Noctis, the original PD170 or any of the other clones like the FS170",
+      "[+1] Just got one myself, it's a little too hard for me still. I ony made it a couple hours before needing to swap, softer than glass but not as sofft as a firm pad... I do like it, excited for future/simiar models built like this.",
+      "[+1] Yeah this is essentially a slightly softer glass pad so it won’t be for everyone there, I personally don’t mind it but don’t see how anyone that relies on pushing into the pad for control can make use of it"
+    ],
+    "comment_tree": [
+      {
+        "id": "19rlds0if4srl",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "If you could only one, would you recommend PD170 or Polarity?",
+        "depth": 0,
+        "body_ja": "もし1つしか選べないとしたら、PD170とPolarityのどちらをおすすめしますか？"
+      },
+      {
+        "id": "19rldzpymd9yc",
+        "parent_id": "19rlds0if4srl",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 4,
+        "body_en": "Hello sorry but I personally don’t buy Tekkusai pads to be able to compare them but as mentioned in my TLDR subjectives I think any balanced or speed glass pad user won’t get a similar experience that makes it worth it going back to cloth",
+        "depth": 1,
+        "body_ja": "こんにちは、すみませんが個人的には比較のためにTekkusaiのパッドを買う予定はありません。ただ、TLDRの主観で述べた通り、バランス系やスピード系のガラスパッドユーザーなら、布に戻る価値を感じられるほどの同様の体験は得られないと思います。"
+      },
+      {
+        "id": "19rldwolfnvdu",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "body_en": "My Noctis has the same little defects in almost the exact same spot as yours in the corner, though not nearly as bad.",
+        "depth": 0,
+        "body_ja": "うちのNoctisも、あなたとほぼ同じ角の場所にまったく同じ小さな初期不具合がありました。まあ、そこまで酷くはありませんでしたが。"
+      },
+      {
+        "id": "19rle11hvt1ur",
+        "parent_id": "19rldwolfnvdu",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "If you can I’d recommend reaching out to them with mice and skates you’ve been using as they’re trying to identify the cause!",
+        "depth": 1,
+        "body_ja": "もし可能なら、使用しているマウスやソールを添えてメーカーに連絡することをお勧めします！原因の特定を進めているようです。"
+      },
+      {
+        "id": "19rleikqn24dc",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 8,
+        "body_en": "I was looking at it, but its the same price as the PD170, not worth it, I rather wait for Pulsar to get their stock under control.",
+        "depth": 0,
+        "body_ja": "気になって見ていたんですが、PD170と同じ価格なんですね。それなら買う価値はないかな。Pulsarの在庫が安定するのを待つことにします。"
+      },
+      {
+        "id": "19rlelz0m4d5x",
+        "parent_id": "19rleikqn24dc",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Yeah I’ve heard for USD since the price increase it’s sadly no real deal to be had so it really comes down to if you want to wait for stock or not… you could always check their official Aliexpress store however as you can use coins and coupons there!\n\nPersonally for me after shipping from Pulsar EU it substantial enough to warrant the Noctis all day",
+        "depth": 1,
+        "body_ja": "そうですね、USD価格が値上げされてからは悲しいことにあまりお得感がなくなってしまったので、再販を待つかどうか次第になってきていますね…ただ、公式AliExpressストアならコインやクーポンが使えるのでチェックしてみるのも手です！個人的には、Pulsar EUからの送料を考えると、Noctisを文句なしで選びます。"
+      },
+      {
+        "id": "19rli37vyxn6p",
+        "parent_id": "19rleikqn24dc",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "For the US it's not worth it anywhere else in the world worth it",
+        "depth": 1,
+        "body_ja": "アメリカでは買う価値ないけど、それ以外の世界中の地域なら買う価値ありだね。"
+      },
+      {
+        "id": "19rlez45995lx",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Already what you're saying is just wrong. It is definitely NOT slower than the PD170 at all. It has a smoother glide with less texture on the fabric than the PD170, which actually makes it feel almost faster than a PD170 with less stopping power. Coming from an owner of (multiple) PD170, FS170, and Noctis E5",
+        "depth": 0,
+        "body_ja": "言っていることがすでに間違っているよ。PD170より遅いなんてことは絶対にない。PD170よりも布地のテクスチャ感が少なくて滑らかな滑走感だから、むしろストッピングパワーが少なくてPD170より速く感じるくらいだ。PD170、FS170、Noctis E5を複数枚所有しているオーナーより。"
+      },
+      {
+        "id": "19rlf3rn5e4yp",
+        "parent_id": "19rlez45995lx",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "Hello thank you for the feedback as noted in the intro I specifically mentioned I have a sample size of 1 of both and very limited time on the PD to the point I find them extremely close and can chalk up my opinion on speed to unit variance\n\nThe opinion was formed on my “regular” use of both as well as direct side by side test with the same exact mice and skates",
+        "depth": 1,
+        "body_ja": "こんにちは、フィードバックありがとうございます。冒頭で述べた通り、私は両方ともサンプルサイズ1枚しか持っておらず、PDでの使用時間も非常に限られているため、極めて近い性能であり速度の違いは個体差の範囲内と考えています。私の意見は、両方の「通常使用」および全く同じマウスとソールを使った直接の比較テストに基づいて形成されました。"
+      },
+      {
+        "id": "19rmqolv2p7s2",
+        "parent_id": "19rlez45995lx",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Does that just make it feel faster, or actually be faster? I'm trying to go by descriptions and think smoother feel with less texture could be more contact area or more contact with fibers, giving a smoother feel to the touch but slightly slower glide.",
+        "depth": 1,
+        "body_ja": "それって単に「速く感じる」だけなのか、それとも「実際に速い」のかな？説明から推測しようとしてるんだけど、テクスチャが少ない滑らかな打感ってことは接触面積や繊維との接触が増えて、手触りは滑らかだけど滑走自体は少し遅くなるって可能性はない？"
+      },
+      {
+        "id": "19rmvd3mfg1b9",
+        "parent_id": "19rmqolv2p7s2",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "It genuinely feels the same speed, maybe a little less stopping power than the PD170.",
+        "depth": 2,
+        "body_ja": "速度自体は本当に同じに感じる。強いて言えばPD170よりほんの少しストッピングパワーが弱い程度かな。"
+      },
+      {
+        "id": "19rlgvlch8cdf",
+        "parent_id": null,
+        "author": "海外ユーザー7",
+        "flair": "AC+ V2 | Kyuu Design Lian",
+        "is_op": false,
+        "score": 2,
+        "body_en": "i was unaware the noctis had moisture resistant properties. Do drops of water bead off instead of absorbing into the fabric? Does it have humidity resistance greater than typical artisan pads? I’m currently using an aqua control mostly for the liquid resistance as it’s one of the few cloth pads that stay fairly consistent against sweat and humidity.",
+        "depth": 0,
+        "body_ja": "Noctisに耐湿性があるとは知りませんでした。水のしずくが布に染み込まずに弾かれますか？一般的なARTISANのパッドよりも耐湿性が高いのでしょうか？汗や湿度に対して比較的安定している数少ない布パッドなので、現状は主に耐液性目的でAqua Controlを使っています。"
+      },
+      {
+        "id": "19rlkncj6fd0h",
+        "parent_id": "19rlgvlch8cdf",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Hello, full disclaimer I am not someone who sweats a lot so I just did what I essentially do with my mouse reviews but on my arm instead of my hand, took a slightly damp cloth and rubbed it over my skin to simulate a worked up sweat and glided around the pad in this case, it did indeed form small beads that I couldn’t notice seeping into the pad but I also wiped it clean shortly after out of fear for potential damage I never do any actual liquid spillage or anything that would have enough volume to go beyond what I consider a realistic test with proper use of the peripheral\n\nClimate wise I live in a temperate area but being by the sea there’s significant moisture in the morning and evening so that’s my baseline for just environment impact on it",
+        "depth": 1,
+        "body_ja": "こんにちは。前提として私はあまり汗をかかない体質なので、マウスのレビューでやっていることを手ではなく腕で試してみました。少し湿らせた布で肌をこすって汗をかいた状態を再現し、その上でパッドを滑らせてみました。その結果、目視で浸透しない程度の小さな水滴が形成されましたが、損傷を恐れてすぐに拭き取りました。周辺機器の適切な使用として現実的なテストを超えるような大量の液体をこぼすような実験はしていません。気候に関しては、温帯地域に住んでいますが海に近いため朝晩はかなり湿気が高く、それが環境負荷のテスト基準になっています。"
+      },
+      {
+        "id": "19rljvjqb88tc",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I got mine just yesterday been using it all day and so far i love the control it gives im coming from using glasspads for the past 4 years, my main pad being the Phantom glasspad. I love that pad so much the amount of micro adjustments i get is ridiculous but its the same reason i feel it is slippery and even when you press down the pad slows your mouse but again glass is glass. But with the Noctis i feel that slippery feeling is gone, it just a controlled version of a glasspad i guess lol. Luckily mine is in mint condition no weird smell or residue or defects. I do wish the pd170 was in stock as I enjoy that color better but so far enjoying this, obviously more testing down the line to see if it slows down cause cloth is cloth soo idk",
+        "depth": 0,
+        "body_ja": "昨日届いて一日中使っていますが、今のところ得られるコントロール感がすごく気に入っています。過去4年間はガラスパッドを使っていて、メインはPhantom glasspadでした。あのパッドはめちゃくちゃ気に入っていて微調整のしやすさが異常なんですが、滑りやすすぎるのも事実で、押し込んでもガラスはガラスなので限界があります。でもNoctisだとその滑りすぎる感覚がなくなり、まさに「コントロールの効くガラスパッド」って感じですね（笑）。幸い私のは傷も変な匂いも異物もない極上品でした。PD170のカラーの方が好きなので在庫があれば良かったんですが、今のところ満足しています。布は布なのでヘタリが出るか経過観察ですね。"
+      },
+      {
+        "id": "19rlkgxcizjxh",
+        "parent_id": "19rljvjqb88tc",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I believe I’ve heard of people putting over a thousand hours into their PD before any slow spots started appearing so take that as you will, this is a very accurate clone to the point many people say it’s made in the same factory (personally doubt that)",
+        "depth": 1,
+        "body_ja": "PD170を1000時間以上使っても減速領域が出なかったという話を聞いたことがあるので、ご参考までに。同じ工場で作られていると言う人も多いほど精度が高いクローンです（個人的には同じ工場説は懐疑的ですが）。"
+      },
+      {
+        "id": "19rmd0wikh8kg",
+        "parent_id": "19rlkgxcizjxh",
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Well if i do get the pd170 ill have a back up with this Noctis, i wonder how bad the slowing down will be my guess it wont be as crazy as other cloth pads because of how tight these pads are. I am still using a sleeve when i can with this pad I am just used to it at this point and it makes it even smoother so hopefully that lessens some of the micro dust that gets into the pad. But now that I’m on cloth Im scared to get it dirty from every thing whether it’s water or if I’m having a drink I’m paranoid. I never had an issue with that with glass 😂",
+        "depth": 2,
+        "body_ja": "もしPD170が手に入ったら、このNoctisはバックアップにします。織り目がかなり詰まっているので、他の布パッドほど激しい劣化はしないと予想していますが、どれくらい減速するか気になりますね。アームカバーは今でも使っていて、さらに滑らかになるのでマイクロダストがパッドに入るのを防いでくれると期待しています。ただ布に戻ったので、水でも飲み物でも汚れるのが怖くてパラノイア気味です。ガラスの時はそんな心配一切なかったのに（笑）。"
+      },
+      {
+        "id": "19rlohocnkc6d",
+        "parent_id": null,
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Yeah, the QC from Elite5 is not the best. Got a Noctis a couple months ago and their was a small run in the fabric right out of the box. Same issue with the Luma I got a few weeks ago. Both pads are functional in spite of the damage, but it's a little frustrating.",
+        "depth": 0,
+        "body_ja": "確かにElite5の品質管理（QC）はあまり良くないね。数ヶ月前にNoctisを買ったけど箱から出した時点で生地に小さな引きつれがあった。数週間前に買ったLumaでも同じ問題があったよ。ダメージがあっても両方とも問題なく使えるけど、ちょっとモヤモヤするね。"
+      },
+      {
+        "id": "19rlqip80a3s5",
+        "parent_id": null,
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "So im not the only one finding black things under my skates randomly after i start used this pad xD. Anyway i got a great qc on mine and it is the best speed cloth pad i ever had (even tought i really want to try a softer base with this surface).",
+        "depth": 0,
+        "body_ja": "このパッドを使い始めてからソール裏に謎の黒い付着物が付くのは自分だけじゃなかったんだなxD。ちなみに僕のはビルドクオリティが完璧で、今まで使ったスピード系布パッドの中で最高です（もう少し柔らかいベースでこの表面を試してみたい気もしますが）。"
+      },
+      {
+        "id": "19rmloqwjiox0",
+        "parent_id": "19rlqip80a3s5",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Multiple people I’ve talked to have had this issue yeah, really unsure what it could be and it did eventually stop for everyone, very strange and honestly makes the first few days very annoying with your glide being inconsistent until you wipe your skates",
+        "depth": 1,
+        "body_ja": "話をした複数の人がこの問題を経験していますね。原因は不明ですが、最終的には全員収まりました。本当に謎ですし、ソールを拭き取るまで滑りが不安定になるので最初の数日間はかなり鬱陶しいですよね。"
+      },
+      {
+        "id": "19rlt185k87tu",
+        "parent_id": null,
+        "author": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "how would u compare it to fast cloth pads like artisan raiden or infinitymice speed if u have used those or other similar fast smooth pads?",
+        "depth": 0,
+        "body_ja": "ARTISAN 雷電やInfinitymice Speedのような高速布パッドと比べてどうですか？もし使ったことがあれば教えてほしいです。"
+      },
+      {
+        "id": "19rmluowslg9v",
+        "parent_id": "19rlt185k87tu",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I am not much of a cloth person having used glass exclusively coming into 3 years now so I don’t really have a reference point to modern releases but in my opinion this blows out of the water any speed focused artisan I did try in the past albeit not mid base variants\n\nIt’s my understanding this surface is the fastest cloth solution available on the market be it the Noctis, the original PD170 or any of the other clones like the FS170",
+        "depth": 1,
+        "body_ja": "ここ3年ほどガラス一筋だったので現代の布パッドの基準はあまり詳しくないのですが、過去に試したARTISANのスピード系（Midベース以外）と比べても、これを圧倒していると感じます。NoctisであろうとオリジナルのPD170であろうと、あるいはFS170のような他のクローンであろうと、この表面は市場で最も速い布の選択肢だと認識しています。"
+      },
+      {
+        "id": "19rlzce293lpc",
+        "parent_id": null,
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Just got one myself, it's a little too hard for me still. I ony made it a couple hours before needing to swap, softer than glass but not as sofft as a firm pad... I do like it, excited for future/simiar models built like this.",
+        "depth": 0,
+        "body_ja": "自分も買ったばかりだけど、個人的には少し硬すぎるかな。交換するまで数時間しか持たなかった。ガラスよりは柔らかいけど、Firmベースのパッドほど柔らかくはない…製品自体は好きだし、こういう構造の今後のモデルに期待してる。"
+      },
+      {
+        "id": "19rmlx2y3fxcy",
+        "parent_id": "19rlzce293lpc",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Yeah this is essentially a slightly softer glass pad so it won’t be for everyone there, I personally don’t mind it but don’t see how anyone that relies on pushing into the pad for control can make use of it",
+        "depth": 1,
+        "body_ja": "そうですね、これは本質的に「少しだけ柔らかいガラスパッド」なので、すべての人に合うわけではありません。私は個人的に気になりませんが、コントロールを得るためにパッドを押し込むタイプのプレイヤーがこれを活用できるとは思えませんね。"
+      }
+    ],
+    "title_ja": "Pulsar×Vaxee PD170のクローン「Elite5 Noctis」1ヶ月使用レビュー！完成度と評価",
+    "hook_ja": "入手困難な超高速布パッド「PD170」のクローンとして話題の「Elite5 Noctis」を1ヶ月間徹底検証。本家同等の滑らかさと滑走性能を備えつつも、品質管理や地域ごとの価格設定に課題が残る評価となりました。",
+    "op_post_ja": "# 導入 / 文脈 / 自己紹介\n\n本レビューは、Pulsar × Vaxee PD170の再現を目指したマウスパッド「Elite5 Noctis」を取り上げます。1ヶ月強の日常的な使用を経てレビューを行いました。金銭的な補償はなく、すべての意見は私個人のものであり、本レビュー内のリンクにアフィリエイトは含まれません。\n\n【重要な開示事項】: 私自身はPD170が極めて入手困難であるため所有しておらず、比較基準とするために友人から1週間ほど借りた経験があるのみです。そのため、「何がどのように違うのか」といった深い比較は避けます。しかし幸いなことに、Elite5 Noctisは本家と90%同等のパフォーマンスを発揮するクローンであり、ごくわずかに遅く感じる程度（個体差の範囲内）で、エッジの処理が本家ほど洗練されていない程度の違いしかありません。\n\n英語は私の母国語ではないため、不自然な点があればご容赦いただき、不明な点があれば気軽にご質問ください。また、マウス以外のレビューを拡大する初の試みですので、フィードバックをいただけると幸いです。\n\n# テスト環境\n\n**用途:**\n日常的な作業と、FPSに強い重点を置いたゲームプレイの両方で使用しました。\n\n**マウス:**\n4点ドットソール配置に統一し、重量帯の異なるさまざまなマウスでテストしました。「平均的」な使用感を提供することを目的としています。滑走速度などの特性は、使用するマウス、ソール、ドットソールの配置によって若干異なることに留意してください。\n\n* Vaxee NP01S Ergo (60g)\n* Pulsar Susanto X V2 Medium (52g)\n* WLMouse Huan M (50g)\n* Waizowl Triaina (48g)\n* Ninjutso Sora V3 (40g)\n* CRDrako KO-ONE (35g)\n* WLMouse Miao (32g)\n* G-Wolves HTS Plus Pro (29g)\n\n**マウスソール:**\n* X-Raypad Jade Air\n* UnusualWaySports Magic Ice\n* Westlabs Big Orange\n* PMM Smoothies\n* Waizowl X Kibu Shiro\n* Psyche Gear Lynn\n\n**アームカバー:**\n* アームカバーなし\n* TalonGames GT\n* Midori B4M V2\n\n# パッケージ内容と寸法\n\nサイズ展開は2種類あります：\n* 480 x 400 x 5.3 mm（フラットパッケージ梱包）\n* 500 x 500 x 5.3 mm（フラットパッケージ梱包）\n\nパッケージは非常にシンプルで、内部には一般的なビニールスリーブとマウスパッドが入っているのみで、外箱にブランドロゴの印字はありません。\n\n# 表面\n\n表面素材は公表されていませんが、絹のように滑らかで極めて一貫性のある織り目として販売されています。少なくとも、パープル好きな方にとってはこのカラーリングは美しく、時間帯や部屋の照明によって印象が変わります。\n\n個人的には",
+    "consensus_points": [
+      "Elite5 NoctisはPD170と90%以上同等レベルの滑走性能を持つ高品質な超高速クローンである",
+      "ガラスパッドに近い非常に滑らかで高速な滑走感を提供し、押し込みによるコントロールはほぼ効かない硬めの打感である",
+      "初期不良（角の傷みや織りムラ）やソール裏に謎の黒い付着物が付くなど、品質管理（QC）面には課題が残る",
+      "米国では値上げにより価格的メリットが薄れたが、在庫切れの代替品やAliexpressのセール・他地域では強力な選択肢となる"
+    ],
+    "detailed_analysis_ja": "【1. スレッドの背景と議論のポイント】\nr/MousepadReviewで注目を集めている「Elite5 Noctis」は、入手困難を極める「Pulsar × Vaxee PD170」のクローンとして登場した超高速布製マウスパッドです。ガラスパッドユーザーの移行先や、布系最高峰の滑走速度を求めるコミュニティで活発に議論されています。本スレッドでは、1ヶ月間使用したレビュアーの意見を皮切りに、本家PD170との打感の違い、価格対効果、初期品質（QC）のバラつきについて深い議論が交わされました。\n\n【2. 滑走感と硬さの特徴】\nNoctisおよびPD170系統の表面は、布パッドでありながら極めて目が詰まった平滑な織り目を持ち、ガラスパッドに近い「摩擦抵抗を感じさせない超高速滑走」を実現しています。ベース素材は5.3mm厚と厚めですが、硬度が高いためマウスを押し込んで止める（ストッピングパワーを得る）使い方は困難です。コメント欄では「ガラスパッドの滑らかさを保ちつつ、滑りすぎ感をマイルドにした中間的な打感」と評されています。\n\n【3. 品質管理（QC）と価格問題】\nユーザー間で特に物議を醸したのがQC（品質管理）とコストパフォーマンスです。購入者からは「届いた時点で縁や表面に小さな毛羽立ち・傷みがあった」「使い始めの数日間、ソール裏に黒い謎の屑が付着して滑りが不安定になる」といった症例が報告されています。また、発売当初に比べ米国での販売価格が値上げされたため、「本家PD170の在庫復旧を待つべき」という派閥と、「Aliexpress等のクーポンを活用すれば今すぐ手に入る最高のスピードパッド」と評価する派閥に分かれています。",
+    "devices": [
+      {
+        "name": "Elite5 Noctis",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "PD170と90%以上同等の性能を持つ極めて高速で滑らかな布製クローンパッド。一部の個体で縁の不具合や初期の黒い粉の付着が見られるものの、滑走感は最高峰と評価されている。"
+      },
+      {
+        "name": "Pulsar x Vaxee PD170",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "品薄が続く超高速布パッドの金字塔。耐摩耗性が高く1000時間以上使っても劣化しにくいと評される。"
+      },
+      {
+        "name": "ARTISAN 雷電",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "高速布パッドの比較対象として言及された。"
+      },
+      {
+        "name": "X-raypad Jade Air",
+        "category": "skates",
+        "sentiment": "neutral",
+        "comment_ja": "検証用のマウスソールとして使用された。"
+      }
+    ],
+    "x_main_post": "入手困難な超高速布パッド「PD170」のクローン「Elite5 Noctis」を海外猛者が1ヶ月検証！\n\n・本家同等のスピード＆極上の滑らかさ\n・ガラスに近い硬めの打感\n・初期不良やソール汚れ等のQCに課題\n\nスピード派には強烈な選択肢！詳細解説はリプ欄へ↓",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "PD170のクローンパッド Noctisって実際どうなのだ？",
+        "caption": "話題のNoctisってどう？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ほぼ本家同等の滑らかさと爆速な滑りを持っていて大人気だよ！",
+        "caption": "海外猛者の結論"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "本家PD170と何が違うのだ？",
+        "caption": "本家との違いは？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "滑り心地は9割以上同じで、まるで『少し柔らかいガラス』なんだよね！",
+        "caption": "ガラスに近い爆速布"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "手頃な価格で買えるスピード派の救世主として注目されてるよ！",
+        "caption": "スピード派の救世主"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "布なのにガラスみたいなのだ！？",
+        "caption": "布なのにガラス並み！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ、初期不良やソールに黒い粉がつくQCの粗さには注意してね！",
+        "caption": "品質のバラつきに注意"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "押し込まないスピード派なら試す価値アリなのだ！",
+        "caption": "詳細はプロフ・概要欄へ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rlds0if4srl",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "もし1つしか選べないとしたら、PD170とPolarityのどちらをおすすめしますか？"
+      },
+      {
+        "id": "19rldzpymd9yc",
+        "parent_id": "19rlds0if4srl",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 4,
+        "text": "こんにちは、すみませんが個人的には比較のためにTekkusaiのパッドを買う予定はありません。ただ、TLDRの主観で述べた通り、バランス系やスピード系のガラスパッドユーザーなら、布に戻る価値を感じられるほどの同様の体験は得られないと思います。"
+      },
+      {
+        "id": "19rldwolfnvdu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "text": "うちのNoctisも、あなたとほぼ同じ角の場所にまったく同じ小さな初期不具合がありました。まあ、そこまで酷くはありませんでしたが。"
+      },
+      {
+        "id": "19rle11hvt1ur",
+        "parent_id": "19rldwolfnvdu",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "もし可能なら、使用しているマウスやソールを添えてメーカーに連絡することをお勧めします！原因の特定を進めているようです。"
+      },
+      {
+        "id": "19rleikqn24dc",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 8,
+        "text": "気になって見ていたんですが、PD170と同じ価格なんですね。それなら買う価値はないかな。Pulsarの在庫が安定するのを待つことにします。"
+      },
+      {
+        "id": "19rlelz0m4d5x",
+        "parent_id": "19rleikqn24dc",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "そうですね、USD価格が値上げされてからは悲しいことにあまりお得感がなくなってしまったので、再販を待つかどうか次第になってきていますね…ただ、公式AliExpressストアならコインやクーポンが使えるのでチェックしてみるのも手です！個人的には、Pulsar EUからの送料を考えると、Noctisを文句なしで選びます。"
+      },
+      {
+        "id": "19rli37vyxn6p",
+        "parent_id": "19rleikqn24dc",
+        "depth": 1,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "アメリカでは買う価値ないけど、それ以外の世界中の地域なら買う価値ありだね。"
+      },
+      {
+        "id": "19rlez45995lx",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "言っていることがすでに間違っているよ。PD170より遅いなんてことは絶対にない。PD170よりも布地のテクスチャ感が少なくて滑らかな滑走感だから、むしろストッピングパワーが少なくてPD170より速く感じるくらいだ。PD170、FS170、Noctis E5を複数枚所有しているオーナーより。"
+      },
+      {
+        "id": "19rlf3rn5e4yp",
+        "parent_id": "19rlez45995lx",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "こんにちは、フィードバックありがとうございます。冒頭で述べた通り、私は両方ともサンプルサイズ1枚しか持っておらず、PDでの使用時間も非常に限られているため、極めて近い性能であり速度の違いは個体差の範囲内と考えています。私の意見は、両方の「通常使用」および全く同じマウスとソールを使った直接の比較テストに基づいて形成されました。"
+      },
+      {
+        "id": "19rmqolv2p7s2",
+        "parent_id": "19rlez45995lx",
+        "depth": 1,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "それって単に「速く感じる」だけなのか、それとも「実際に速い」のかな？説明から推測しようとしてるんだけど、テクスチャが少ない滑らかな打感ってことは接触面積や繊維との接触が増えて、手触りは滑らかだけど滑走自体は少し遅くなるって可能性はない？"
+      },
+      {
+        "id": "19rmvd3mfg1b9",
+        "parent_id": "19rmqolv2p7s2",
+        "depth": 2,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "速度自体は本当に同じに感じる。強いて言えばPD170よりほんの少しストッピングパワーが弱い程度かな。"
+      },
+      {
+        "id": "19rlgvlch8cdf",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "AC+ V2 | Kyuu Design Lian",
+        "is_op": false,
+        "score": 2,
+        "text": "Noctisに耐湿性があるとは知りませんでした。水のしずくが布に染み込まずに弾かれますか？一般的なARTISANのパッドよりも耐湿性が高いのでしょうか？汗や湿度に対して比較的安定している数少ない布パッドなので、現状は主に耐液性目的でAqua Controlを使っています。"
+      },
+      {
+        "id": "19rlkncj6fd0h",
+        "parent_id": "19rlgvlch8cdf",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "こんにちは。前提として私はあまり汗をかかない体質なので、マウスのレビューでやっていることを手ではなく腕で試してみました。少し湿らせた布で肌をこすって汗をかいた状態を再現し、その上でパッドを滑らせてみました。その結果、目視で浸透しない程度の小さな水滴が形成されましたが、損傷を恐れてすぐに拭き取りました。周辺機器の適切な使用として現実的なテストを超えるような大量の液体をこぼすような実験はしていません。気候に関しては、温帯地域に住んでいますが海に近いため朝晩はかなり湿気が高く、それが環境負荷のテスト基準になっています。"
+      },
+      {
+        "id": "19rljvjqb88tc",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "昨日届いて一日中使っていますが、今のところ得られるコントロール感がすごく気に入っています。過去4年間はガラスパッドを使っていて、メインはPhantom glasspadでした。あのパッドはめちゃくちゃ気に入っていて微調整のしやすさが異常なんですが、滑りやすすぎるのも事実で、押し込んでもガラスはガラスなので限界があります。でもNoctisだとその滑りすぎる感覚がなくなり、まさに「コントロールの効くガラスパッド」って感じですね（笑）。幸い私のは傷も変な匂いも異物もない極上品でした。PD170のカラーの方が好きなので在庫があれば良かったんですが、今のところ満足しています。布は布なのでヘタリが出るか経過観察ですね。"
+      },
+      {
+        "id": "19rlkgxcizjxh",
+        "parent_id": "19rljvjqb88tc",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "PD170を1000時間以上使っても減速領域が出なかったという話を聞いたことがあるので、ご参考までに。同じ工場で作られていると言う人も多いほど精度が高いクローンです（個人的には同じ工場説は懐疑的ですが）。"
+      },
+      {
+        "id": "19rmd0wikh8kg",
+        "parent_id": "19rlkgxcizjxh",
+        "depth": 2,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "もしPD170が手に入ったら、このNoctisはバックアップにします。織り目がかなり詰まっているので、他の布パッドほど激しい劣化はしないと予想していますが、どれくらい減速するか気になりますね。アームカバーは今でも使っていて、さらに滑らかになるのでマイクロダストがパッドに入るのを防いでくれると期待しています。ただ布に戻ったので、水でも飲み物でも汚れるのが怖くてパラノイア気味です。ガラスの時はそんな心配一切なかったのに（笑）。"
+      },
+      {
+        "id": "19rlohocnkc6d",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "確かにElite5の品質管理（QC）はあまり良くないね。数ヶ月前にNoctisを買ったけど箱から出した時点で生地に小さな引きつれがあった。数週間前に買ったLumaでも同じ問題があったよ。ダメージがあっても両方とも問題なく使えるけど、ちょっとモヤモヤするね。"
+      },
+      {
+        "id": "19rlqip80a3s5",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "このパッドを使い始めてからソール裏に謎の黒い付着物が付くのは自分だけじゃなかったんだなxD。ちなみに僕のはビルドクオリティが完璧で、今まで使ったスピード系布パッドの中で最高です（もう少し柔らかいベースでこの表面を試してみたい気もしますが）。"
+      },
+      {
+        "id": "19rmloqwjiox0",
+        "parent_id": "19rlqip80a3s5",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "話をした複数の人がこの問題を経験していますね。原因は不明ですが、最終的には全員収まりました。本当に謎ですし、ソールを拭き取るまで滑りが不安定になるので最初の数日間はかなり鬱陶しいですよね。"
+      },
+      {
+        "id": "19rlt185k87tu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ARTISAN 雷電やInfinitymice Speedのような高速布パッドと比べてどうですか？もし使ったことがあれば教えてほしいです。"
+      },
+      {
+        "id": "19rmluowslg9v",
+        "parent_id": "19rlt185k87tu",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ここ3年ほどガラス一筋だったので現代の布パッドの基準はあまり詳しくないのですが、過去に試したARTISANのスピード系（Midベース以外）と比べても、これを圧倒していると感じます。NoctisであろうとオリジナルのPD170であろうと、あるいはFS170のような他のクローンであろうと、この表面は市場で最も速い布の選択肢だと認識しています。"
+      },
+      {
+        "id": "19rlzce293lpc",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分も買ったばかりだけど、個人的には少し硬すぎるかな。交換するまで数時間しか持たなかった。ガラスよりは柔らかいけど、Firmベースのパッドほど柔らかくはない…製品自体は好きだし、こういう構造の今後のモデルに期待してる。"
+      },
+      {
+        "id": "19rmlx2y3fxcy",
+        "parent_id": "19rlzce293lpc",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "そうですね、これは本質的に「少しだけ柔らかいガラスパッド」なので、すべての人に合うわけではありません。私は個人的に気になりませんが、コントロールを得るためにパッドを押し込むタイプのプレイヤーがこれを活用できるとは思えませんね。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xeenl7.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E5%85%A5%E6%89%8B%E5%9B%B0%E9%9B%A3%E3%81%AA%E8%B6%85%E9%AB%98%E9%80%9F%E5%B8%83%E3%83%91%E3%83%83%E3%83%89%E3%80%8CPD170%E3%80%8D%E3%81%AE%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E3%80%8CElite5%20Noctis%E3%80%8D%E3%82%92%E6%B5%B7%E5%A4%96%E7%8C%9B%E8%80%85%E3%81%8C1%E3%83%B6%E6%9C%88%E6%A4%9C%E8%A8%BC%EF%BC%81%0A%0A%E3%83%BB%E6%9C%AC%E5%AE%B6%E5%90%8C%E7%AD%89%E3%81%AE%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%EF%BC%86%E6%A5%B5%E4%B8%8A%E3%81%AE%E6%BB%91%E3%82%89%E3%81%8B%E3%81%95%0A%E3%83%BB%E3%82%AC%E3%83%A9%E3%82%B9%E3%81%AB%E8%BF%91%E3%81%84%E7%A1%AC%E3%82%81%E3%81%AE%E6%89%93%E6%84%9F%0A%E3%83%BB%E5%88%9D%E6%9C%9F%E4%B8%8D%E8%89%AF%E3%82%84%E3%82%BD%E3%83%BC%E3%83%AB%E6%B1%9A%E3%82%8C%E7%AD%89%E3%81%AEQC%E3%81%AB%E8%AA%B2%E9%A1%8C%0A%0A%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E6%B4%BE%E3%81%AB%E3%81%AF%E5%BC%B7%E7%83%88%E3%81%AA%E9%81%B8%E6%8A%9E%E8%82%A2%EF%BC%81%E8%A9%B3%E7%B4%B0%E8%A7%A3%E8%AA%AC%E3%81%AF%E3%83%AA%E3%83%97%E6%AC%84%E3%81%B8%E2%86%93%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xeenl7.html",
+    "created_at": "2026-10-25T22:26:32.930413+00:00"
+  },
+  {
+    "id": "1xe7cms",
+    "subreddit": "MousepadReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "I don't get it why an i playing better on a worse mp?",
+    "selftext_en": "I bought the artisan fx 0 mouse pad and been playing bad for months so decided to go back to old school qck mouse pad and now im better not perfect but better it makes no sense and I feel bad about not using my expensive pad. I think the smoothness and 2mm thick only makes qck better idk",
+    "image_urls": [],
+    "score": 5,
+    "num_comments": 10,
+    "permalink": "https://www.reddit.com/r/MousepadReview/comments/1xe7cms/i_dont_get_it_why_an_i_playing_better_on_a_worse/",
+    "comments": [
+      "[+5] Better in quality doesnt mean better for you. I swapped to glass, its obviously much better quality than my 2 year old stained aqua control pro mid, but its new and weird and unknown to me, gotta get used to it. Its the same with you",
+      "[+5] At the end of the day its preference and your preferences and what you need will be unique to you. QCK is very popular for CS2 pros who probably also decided they play better on it than an Artisan.\n\nMe on the other hand I seem to play better on a FX Key 83 mid than a QCK and Key83 isnt a usual pad for TacFPS",
+      "[+2] Also depends on the skates. Same pad with jades vs brakes is a completely different pad",
+      "[+2] Everyone is different, also mouse skates make a huge difference how pads feel so 1 mouse can feel very good on 1 pad but sucks on another and suddenly you change mouse wow this mousepad is amazing with these skates etc",
+      "[+14] Almost like price isn't what makes a mousepad good and it's entirely personal preference...",
+      "[+2] 1. It could be that u prefer using mousepads that are on the slower side   \n2. The skates ur using (maybe its sticky when you first start moving, maybe its slow when u are moving, maybe its hard for u to stop, etc)  \n3. The texture of the mousepad. I feel like this doesn’t get mentioned a lot in lots of reviews I watch. The texture of a mousepad is really important imo.",
+      "[+1] artisan overrated for performance, pretty and good quality stitching though.\n\nqck, gigantus v2, these sorts of cheap pads are good enough to go pro, if you're good enough, of course.\n\nFor gameplay, a lot of the Valorant pros have moved off their zero to saturn pro now.\n\nBut for quality and premium feel, nowdays the PD pads seem like the next-gen stuff to me. Those beveled edges are super nice and bottom design is better than poron as well.",
+      "[+1] pd pad?",
+      "[+1] Vaxee sells the slower ones and collab with Pulsar for a faster one.\n\nPD140 > PD150/151/155 > PD170",
+      "[+2] I think your current issue is due to the lower static friction and you get shakey and you tense up and it makes it worse. But as a person who also struggled with the artisan zero for a bit I can tell you as you get better, you will really understand why it really is one of the best mousepads ever. The artisan zero is so well balanced once you get good technique and tention management, you can play really well. Relax you grip, wrist, arm. Don't try to fight to stop your mouse or keep it in place, relax, let the mousepad do the work for stopping and keeping your mouse steady. Don't shoot and catch the mouse, gently throw and let the mousepad slow you to a gentle stop."
+    ],
+    "comment_tree": [
+      {
+        "id": "19rkznmj1d4is",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "Better in quality doesnt mean better for you. I swapped to glass, its obviously much better quality than my 2 year old stained aqua control pro mid, but its new and weird and unknown to me, gotta get used to it. Its the same with you",
+        "depth": 0,
+        "body_ja": "品質が良いからといって、それが君にとって良いものとは限らないよ。俺はガラスパッドに変えたんだけど、2年間使い込んで汚れたAqua Control Pro Midより明らかに品質は上だけど、新しくて奇妙で未知の感覚だから慣れる必要があるんだ。君の状況もそれと全く同じだよ。"
+      },
+      {
+        "id": "19rkzpiapoyeb",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "At the end of the day its preference and your preferences and what you need will be unique to you. QCK is very popular for CS2 pros who probably also decided they play better on it than an Artisan.\n\nMe on the other hand I seem to play better on a FX Key 83 mid than a QCK and Key83 isnt a usual pad for TacFPS",
+        "depth": 0,
+        "body_ja": "結局のところ好みだし、自分が必要としているものは人それぞれ固有のものなんだよ。QcKはCS2のプロの間でもすごく人気があるけど、彼らもおそらくARTISANよりQcKの方がうまくプレイできると判断したんだろうね。\n\n一方で俺自身は、QcKよりもFX 疾風乙（Key83）Midの方がエイムが良くなるみたいだし、疾風乙はTacFPS向けの標準的なパッドとは言えないからね。"
+      },
+      {
+        "id": "19rkzvat6261v",
+        "parent_id": "19rkzpiapoyeb",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Also depends on the skates. Same pad with jades vs brakes is a completely different pad",
+        "depth": 1,
+        "body_ja": "マウスソールによっても変わるよね。同じパッドでもJadeソールを貼るのとBrakingソールを貼るのとでは、全く別のパッドになる。"
+      },
+      {
+        "id": "19rl05jakkuu8",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Everyone is different, also mouse skates make a huge difference how pads feel so 1 mouse can feel very good on 1 pad but sucks on another and suddenly you change mouse wow this mousepad is amazing with these skates etc",
+        "depth": 0,
+        "body_ja": "人はそれぞれ違うし、マウスソールもパッドの感触にものすごく大きな影響を与えるからね。あるマウスはあるパッドで最高に感じても別のパッドでは最悪だったりするし、マウスを変えたらソールのおかげでそのパッドが急に素晴らしく感じられたりもするんだ。"
+      },
+      {
+        "id": "19rl230iqc4rk",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 14,
+        "body_en": "Almost like price isn't what makes a mousepad good and it's entirely personal preference...",
+        "depth": 0,
+        "body_ja": "まるでマウスパッドの良し悪しが価格で決まるわけじゃなくて、完全に個人の好みの問題であるかのような話だな……。"
+      },
+      {
+        "id": "19rln9jlr8zkw",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "1. It could be that u prefer using mousepads that are on the slower side   \n2. The skates ur using (maybe its sticky when you first start moving, maybe its slow when u are moving, maybe its hard for u to stop, etc)  \n3. The texture of the mousepad. I feel like this doesn’t get mentioned a lot in lots of reviews I watch. The texture of a mousepad is really important imo.",
+        "depth": 0,
+        "body_ja": "1. 単に遅めのマウスパッドを使う方が好みな可能性がある\n2. 使っているソール（動かし始めがベタつくとか、動かしている最中が遅いとか、ストップさせにくいとか）\n3. マウスパッドの表面テクスチャ。これっていろんなレビュー動画であまり触れられない気がするけど、個人的にはパッドの質感はめちゃくちゃ重要だと思う。"
+      },
+      {
+        "id": "19rlvqbusft42",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "artisan overrated for performance, pretty and good quality stitching though.\n\nqck, gigantus v2, these sorts of cheap pads are good enough to go pro, if you're good enough, of course.\n\nFor gameplay, a lot of the Valorant pros have moved off their zero to saturn pro now.\n\nBut for quality and premium feel, nowdays the PD pads seem like the next-gen stuff to me. Those beveled edges are super nice and bottom design is better than poron as well.",
+        "depth": 0,
+        "body_ja": "ARTISANはパフォーマンスの面では過大評価されてるよ。見た目とステッチのクオリティは素晴らしいけどね。\n\nQcKやGigantus V2みたいな安価なパッドでも、本人の実力さえ十分ならプロになれるくらい優れてる。\n\nゲームプレイに関しては、VALORANTのプロの多くが零からSaturn Proへ移行しているのが現状だね。\n\nでも品質や高級感という点では、最近はPD系パッドが次世代のものに思える。斜めにカットされたベベルエッジは超最高だし、底面のデザインもPORONより優れているよ。"
+      },
+      {
+        "id": "19rm9b7nqi97n",
+        "parent_id": "19rlvqbusft42",
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "pd pad?",
+        "depth": 1,
+        "body_ja": "PDパッドって？"
+      },
+      {
+        "id": "19rmabol0g8wz",
+        "parent_id": "19rm9b7nqi97n",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Vaxee sells the slower ones and collab with Pulsar for a faster one.\n\nPD140 > PD150/151/155 > PD170",
+        "depth": 2,
+        "body_ja": "VAXEEが遅めのモデルを売っていて、Pulsarとのコラボで速めのモデルも出ているよ。\n\nPD140 > PD150/151/155 > PD170 の順だね。"
+      },
+      {
+        "id": "19rm9cmmaolk1",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I think your current issue is due to the lower static friction and you get shakey and you tense up and it makes it worse. But as a person who also struggled with the artisan zero for a bit I can tell you as you get better, you will really understand why it really is one of the best mousepads ever. The artisan zero is so well balanced once you get good technique and tention management, you can play really well. Relax you grip, wrist, arm. Don't try to fight to stop your mouse or keep it in place, relax, let the mousepad do the work for stopping and keeping your mouse steady. Don't shoot and catch the mouse, gently throw and let the mousepad slow you to a gentle stop.",
+        "depth": 0,
+        "body_ja": "君の今の問題は、静摩擦が低くなったことでエイムが震え、力んでしまってさらに悪化していることだと思う。でも俺自身もARTISAN 零でしばらく苦戦した経験があるから言えるけど、上達していくにつれて、なぜこれが史上最高のマウスパッドの一つなのかが本当に理解できるようになるよ。ARTISAN 零は、適切な技術とテンション（力み）の管理ができるようになれば、驚くほどバランスが良くて信じられないくらい良いプレイができる。グリップや手首、腕の力を抜くんだ。マウスを無理に力で止めたり固定しようとせず、リラックスしてマウスパッドにストッピングと安定化を任せるんだよ。マウスをガチッと受け止めて止めるんじゃなくて、優しく投げてパッドの摩擦で自然に減速させる感覚をつかんでみてほしい。"
+      }
+    ],
+    "title_ja": "高級パッドARTISAN 零より安価なQcKの方が強い？Redditで議論",
+    "hook_ja": "高価なARTISAN 零を買ったものの数ヶ月不調が続き、安価な老舗パッドSteelSeries QcKに戻したところパフォーマンスが向上したという投稿が話題を呼んでいます。コメント欄では価格や品質の高さが自分への適合性を意味しないことや、摩擦・ソールの相性が解説されています。",
+    "op_post_ja": "ARTISAN FX 零を買って数ヶ月間ずっと調子が悪かったんだけど、昔ながらのオールドスクールなQcKに戻したら、完璧とまではいかないまでもパフォーマンスが上がったんだ。意味がわからないし、せっかく買った高価なパッドを使わないのは気が引けるよ。表面の滑らかさと2mmという薄さのおかげでQcKの方が合っているのかな、どうなんだろう。",
+    "consensus_points": [
+      "製品の品質や価格が高いことと、自分にとってエイムが向上するかどうかは別問題であり、結局は個人の好みが全てである",
+      "マウスソール（PTFEの種類など）とマウスパッドの組み合わせによって滑りや止め感が激変するため、総合的な相性を考慮する必要がある",
+      "ARTISAN 零は初動摩擦（静摩擦）が低いため、脱力やテンションコントロールができていないとエイムがブレやすく、より遅くて抵抗の強いパッドの方が安定しやすい場合がある"
+    ],
+    "detailed_analysis_ja": "本スレッドは、高級マウスパッドの代名詞である「ARTISAN FX 零」を導入したもののパフォーマンスが低下し、数千円で購入できるクラシックな「SteelSeries QcK」に戻した途端にエイムが改善したというプレイヤーの悩みから始まっています。海外コミュニティでは、こうした「高級パッドの罠」について様々な角度から分析が行われました。\n\n【1. 品質・価格とエイムパフォーマンスの乖離】\nコメント欄で最も強く同意されたのは、「素材の品質やビルドクオリティが高いことと、自分にとって適したパッドであることは全くの別問題」という点です。ARTISANはステッチの精度やPORONベースの吸着力、耐久性など工業製品としてのクオリティは世界トップクラスですが、だからといって全員のエイムが良くなるわけではありません。QcKのような安価なパッドでも多くのCSプロが現在進行形で使用しており、プロシーンでも「慣れ親しんだ滑走速度と止め感」が最優先されます。\n\n【2. 静摩擦（初動）の軽さと脱力（テンションマネジメント）の課題】\n零で調子を落とした具体的な要因として、初動摩擦（静摩擦）の違いが挙げられています。QcKなどの伝統的な布パッドは適度な引きずり感（静摩擦・動摩擦ともに高め）があり、腕や手に余計な力が入っていてもパッド側の抵抗でエイムがブレにくい特性があります。一方、零は布パッドの中では初動が非常に軽くスムーズに滑り出すため、マウスを力んで握ったり止めようと力で抑え込む癖があると、マイクロフリック時に手ブレが発生しやすくなります。「グリップや手首・腕の力を抜き、マウスパッド側の減速に任せるエイム技術が身につくと零の真価がわかる」という技術論的なアドバイスも寄せられています。\n\n【3. ソールとの相互作用と表面テクスチャ】\nマウスパッド単体だけでなく、組み合わせるマウスソールによって摩擦特性が激変することも指摘されています。例えばスピード系のX-raypad Jadeのようなソールを合わせるか、コントロール系のソールを合わせるかで全く別物になります。また、厚み（QcKの2mmによる硬さと沈み込みの無さ）や表面テクスチャの感触が指先や手のひらへのフィードバックとなり、コントロールのしやすさに直結するため、スペック上の数値だけでなくフィーリングの相性が決定的な要素となります。",
+    "devices": [
+      {
+        "name": "ARTISAN 零",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "品質やステッチは世界最高峰だが、初動摩擦が軽いため脱力やテンション管理ができないとエイムがブレやすいと指摘されている。"
+      },
+      {
+        "name": "SteelSeries QcK",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "安価ながら適度な摩擦と安定感があり、現在でもCS2のプロをはじめ多くのプレイヤーに選ばれている定番パッド。"
+      },
+      {
+        "name": "X-raypad Aqua Control Pro",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "長期間使い込まれた布パッドの例として言及されている。"
+      },
+      {
+        "name": "ARTISAN 疾風乙",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "TacFPSでは一般的ではないとされるものの、QcKより相性が良くエイムが安定するユーザーの例として挙げられている。"
+      },
+      {
+        "name": "X-raypad Jade Skates",
+        "category": "skates",
+        "sentiment": "neutral",
+        "comment_ja": "マウスパッドの操作感を激変させる代表的なスピード系PTFEソールとして引き合いに出されている。"
+      },
+      {
+        "name": "Razer Gigantus V2",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "QcKと同様に手頃な価格でありながら、プロを目指すのに十分な性能を持つコストパフォーマンスの高い布パッドとして評価されている。"
+      },
+      {
+        "name": "Lethal Gaming Gear Saturn Pro",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "VALORANTのプロシーンにおいて、ARTISAN 零からの乗り換え先として選ばれているコントロール系パッドとして言及されている。"
+      },
+      {
+        "name": "VAXEE PB",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "ベベルエッジ加工や特殊な底面構造を持つ、高品質な次世代のプレミアム布パッドとして高く評価されている。"
+      }
+    ],
+    "x_main_post": "高級マウスパッドARTISAN 零から安価な定番QcKに戻したらエイムが改善した…なぜ？\n海外コミュニティの分析まとめ👇\n・価格や品質＝強さではない\n・零は初動摩擦が軽く脱力技術が必要\n・力む人は摩擦が強いQcKの方が安定\n・ソールや厚みの相性も影響大\n結局は自分の癖への適合性が最優先！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "高いARTISANより安いQcKの方がエイムが良くなるのは何故なのだ？",
+        "caption": "高いパッドで下手になる？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "実は海外でも全く同じ悩みを抱えてる人が結構いるんだよね！",
+        "caption": "海外でも話題の悩み"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "高いパッドの方が滑りも良くて強いはずじゃないのだ？",
+        "caption": "なぜそうなる？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ARTISANの零は初動が軽いから、力んで操作するとブレやすいんだよ！",
+        "caption": "初動摩擦の違い"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "QcKみたいな適度な重みがあるパッドの方が腕のブレを吸収してくれるんだよね。",
+        "caption": "安価なパッドの強み"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "なるほど！マウスパッドの性能じゃなくて自分との相性の問題だったのだ！",
+        "caption": "相性がすべて！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ脱力してパッドに減速を任せるエイムを覚えれば、零の真価も発揮できるよ！",
+        "caption": "脱力がカギ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "まずは力を抜いて操作する練習から始めてみるのだ！",
+        "caption": "脱力を意識しよう"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rkznmj1d4is",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "品質が良いからといって、それが君にとって良いものとは限らないよ。俺はガラスパッドに変えたんだけど、2年間使い込んで汚れたAqua Control Pro Midより明らかに品質は上だけど、新しくて奇妙で未知の感覚だから慣れる必要があるんだ。君の状況もそれと全く同じだよ。"
+      },
+      {
+        "id": "19rkzpiapoyeb",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "結局のところ好みだし、自分が必要としているものは人それぞれ固有のものなんだよ。QcKはCS2のプロの間でもすごく人気があるけど、彼らもおそらくARTISANよりQcKの方がうまくプレイできると判断したんだろうね。\n\n一方で俺自身は、QcKよりもFX 疾風乙（Key83）Midの方がエイムが良くなるみたいだし、疾風乙はTacFPS向けの標準的なパッドとは言えないからね。"
+      },
+      {
+        "id": "19rkzvat6261v",
+        "parent_id": "19rkzpiapoyeb",
+        "depth": 1,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "マウスソールによっても変わるよね。同じパッドでもJadeソールを貼るのとBrakingソールを貼るのとでは、全く別のパッドになる。"
+      },
+      {
+        "id": "19rl05jakkuu8",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "人はそれぞれ違うし、マウスソールもパッドの感触にものすごく大きな影響を与えるからね。あるマウスはあるパッドで最高に感じても別のパッドでは最悪だったりするし、マウスを変えたらソールのおかげでそのパッドが急に素晴らしく感じられたりもするんだ。"
+      },
+      {
+        "id": "19rl230iqc4rk",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 14,
+        "text": "まるでマウスパッドの良し悪しが価格で決まるわけじゃなくて、完全に個人の好みの問題であるかのような話だな……。"
+      },
+      {
+        "id": "19rln9jlr8zkw",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "1. 単に遅めのマウスパッドを使う方が好みな可能性がある\n2. 使っているソール（動かし始めがベタつくとか、動かしている最中が遅いとか、ストップさせにくいとか）\n3. マウスパッドの表面テクスチャ。これっていろんなレビュー動画であまり触れられない気がするけど、個人的にはパッドの質感はめちゃくちゃ重要だと思う。"
+      },
+      {
+        "id": "19rlvqbusft42",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ARTISANはパフォーマンスの面では過大評価されてるよ。見た目とステッチのクオリティは素晴らしいけどね。\n\nQcKやGigantus V2みたいな安価なパッドでも、本人の実力さえ十分ならプロになれるくらい優れてる。\n\nゲームプレイに関しては、VALORANTのプロの多くが零からSaturn Proへ移行しているのが現状だね。\n\nでも品質や高級感という点では、最近はPD系パッドが次世代のものに思える。斜めにカットされたベベルエッジは超最高だし、底面のデザインもPORONより優れているよ。"
+      },
+      {
+        "id": "19rm9b7nqi97n",
+        "parent_id": "19rlvqbusft42",
+        "depth": 1,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "PDパッドって？"
+      },
+      {
+        "id": "19rmabol0g8wz",
+        "parent_id": "19rm9b7nqi97n",
+        "depth": 2,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "VAXEEが遅めのモデルを売っていて、Pulsarとのコラボで速めのモデルも出ているよ。\n\nPD140 > PD150/151/155 > PD170 の順だね。"
+      },
+      {
+        "id": "19rm9cmmaolk1",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "君の今の問題は、静摩擦が低くなったことでエイムが震え、力んでしまってさらに悪化していることだと思う。でも俺自身もARTISAN 零でしばらく苦戦した経験があるから言えるけど、上達していくにつれて、なぜこれが史上最高のマウスパッドの一つなのかが本当に理解できるようになるよ。ARTISAN 零は、適切な技術とテンション（力み）の管理ができるようになれば、驚くほどバランスが良くて信じられないくらい良いプレイができる。グリップや手首、腕の力を抜くんだ。マウスを無理に力で止めたり固定しようとせず、リラックスしてマウスパッドにストッピングと安定化を任せるんだよ。マウスをガチッと受け止めて止めるんじゃなくて、優しく投げてパッドの摩擦で自然に減速させる感覚をつかんでみてほしい。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xe7cms.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E9%AB%98%E7%B4%9A%E3%83%9E%E3%82%A6%E3%82%B9%E3%83%91%E3%83%83%E3%83%89ARTISAN%20%E9%9B%B6%E3%81%8B%E3%82%89%E5%AE%89%E4%BE%A1%E3%81%AA%E5%AE%9A%E7%95%AAQcK%E3%81%AB%E6%88%BB%E3%81%97%E3%81%9F%E3%82%89%E3%82%A8%E3%82%A4%E3%83%A0%E3%81%8C%E6%94%B9%E5%96%84%E3%81%97%E3%81%9F%E2%80%A6%E3%81%AA%E3%81%9C%EF%BC%9F%0A%E6%B5%B7%E5%A4%96%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%AE%E5%88%86%E6%9E%90%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0A%E3%83%BB%E4%BE%A1%E6%A0%BC%E3%82%84%E5%93%81%E8%B3%AA%EF%BC%9D%E5%BC%B7%E3%81%95%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84%0A%E3%83%BB%E9%9B%B6%E3%81%AF%E5%88%9D%E5%8B%95%E6%91%A9%E6%93%A6%E3%81%8C%E8%BB%BD%E3%81%8F%E8%84%B1%E5%8A%9B%E6%8A%80%E8%A1%93%E3%81%8C%E5%BF%85%E8%A6%81%0A%E3%83%BB%E5%8A%9B%E3%82%80%E4%BA%BA%E3%81%AF%E6%91%A9%E6%93%A6%E3%81%8C%E5%BC%B7%E3%81%84QcK%E3%81%AE%E6%96%B9%E3%81%8C%E5%AE%89%E5%AE%9A%0A%E3%83%BB%E3%82%BD%E3%83%BC%E3%83%AB%E3%82%84%E5%8E%9A%E3%81%BF%E3%81%AE%E7%9B%B8%E6%80%A7%E3%82%82%E5%BD%B1%E9%9F%BF%E5%A4%A7%0A%E7%B5%90%E5%B1%80%E3%81%AF%E8%87%AA%E5%88%86%E3%81%AE%E7%99%96%E3%81%B8%E3%81%AE%E9%81%A9%E5%90%88%E6%80%A7%E3%81%8C%E6%9C%80%E5%84%AA%E5%85%88%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xe7cms.html",
+    "created_at": "2026-10-25T22:27:47.808749+00:00"
   }
 ]
