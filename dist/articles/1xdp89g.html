@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>【KovaaK&#x27;s】静的エイムで精度と速度のバランスを改善する方法 | エイム沼の海外ログ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=JetBrains+Mono:wght@400;600;700&family=Shippori+Mincho+B1:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 */
+/* Hallmark · genre: editorial · macrostructure: Index-First / Long Document · theme: Almanac · enrichment: none · nav: N6 · footer: Ft4 */
+:root {
+  --color-paper: oklch(96.8% 0.012 85);
+  --color-paper-2: oklch(93.8% 0.016 82);
+  --color-paper-3: oklch(90.2% 0.020 80);
+  --color-ink: oklch(19.5% 0.015 65);
+  --color-ink-2: oklch(34.0% 0.018 65);
+  --color-ink-muted: oklch(46.0% 0.018 65);
+  --color-ink-faint: oklch(60.0% 0.015 65);
+  --color-rule: oklch(86.5% 0.012 75);
+  --color-rule-strong: oklch(74.0% 0.015 70);
+  --color-accent: oklch(47.0% 0.175 30);
+  --color-accent-hover: oklch(39.0% 0.175 30);
+  --color-accent-soft: oklch(92.5% 0.038 35);
+  --color-op-badge: oklch(32.0% 0.085 245);
+  --color-op-bg: oklch(94.8% 0.014 85);
+  --color-pos: oklch(40.0% 0.115 155);
+  --color-pos-bg: oklch(92.8% 0.035 155);
+  --color-neu: oklch(40.0% 0.020 65);
+  --color-neu-bg: oklch(91.5% 0.015 80);
+  --color-neg: oklch(45.0% 0.160 25);
+  --color-neg-bg: oklch(93.0% 0.035 25);
+  --color-amzn-bg: oklch(22.0% 0.018 65);
+  --color-amzn-fg: oklch(97.0% 0.010 85);
+  --color-rktn-bg: oklch(44.0% 0.160 28);
+  --color-rktn-fg: oklch(97.5% 0.008 85);
+  --font-display: 'Shippori Mincho B1', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-sans: 'BIZ UDPGothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 3.5rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 140ms;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: 700;
+  color: var(--color-ink);
+  overflow-wrap: anywhere;
+  min-width: 0;
+  margin-top: 0;
+}
+a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule-strong);
+  text-underline-offset: 3px;
+  transition: color var(--dur-short) var(--ease-out), text-decoration-color var(--dur-short) var(--ease-out);
+}
+a:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* N6 Newspaper Masthead */
+.masthead {
+  border-bottom: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper);
+}
+.masthead-meta {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.45rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  border-bottom: 1px solid var(--color-rule);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.masthead-Core {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-lg) var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-md);
+}
+.site-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0;
+}
+.site-title a {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.site-title a:hover {
+  color: var(--color-accent);
+}
+.site-tagline {
+  margin: 0.35rem 0 0;
+  font-size: 0.88rem;
+  color: var(--color-ink-2);
+}
+.masthead-Compact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.85rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.masthead-Compact-brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+.back-index-link {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+}
+.back-index-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Filter Strip (Sharp Tabular Bar) */
+.filter-strip-wrap {
+  border-top: 1px solid var(--color-rule);
+  background-color: var(--color-paper-2);
+}
+.filter-strip {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+.filter-tab {
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--color-rule);
+  border-bottom: 2px solid transparent;
+  padding: 0.65rem 1.1rem;
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.filter-tab:first-child {
+  border-left: 1px solid var(--color-rule);
+}
+.filter-tab:hover {
+  background-color: var(--color-paper-3);
+  color: var(--color-ink);
+}
+.filter-tab.active {
+  background-color: var(--color-paper);
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* Main Grid Layout */
+.page-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.index-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 960px) {
+  .index-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+.article-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 1080px) {
+  .article-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+
+.section-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: 0.55rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.section-title {
+  font-size: 1.2rem;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+.section-sub {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Index Thread Rows (No Rounded Cards) */
+.thread-index-row {
+  padding: var(--space-lg) 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.thread-meta-bar {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.4rem;
+}
+.sub-tag {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+a.sub-tag:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+.meta-sep {
+  color: var(--color-ink-faint);
+}
+.index-thread-title {
+  font-size: 1.32rem;
+  line-height: 1.45;
+  margin: 0 0 0.55rem;
+}
+.index-thread-title a {
+  text-decoration: none;
+}
+.index-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.index-thread-hook {
+  margin: 0 0 0.85rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.log-preview-box {
+  background-color: var(--color-paper-2);
+  border-top: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
+  padding: 0.7rem 0.95rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.86rem;
+}
+.log-preview-line {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+.log-preview-line:last-child {
+  margin-bottom: 0;
+}
+.preview-num {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.35rem;
+}
+.preview-speaker {
+  font-weight: 700;
+  color: var(--color-pos);
+  margin-right: 0.4rem;
+}
+.thread-footer-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.gear-inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.gear-chip {
+  font-family: var(--font-mono);
+  font-size: 0.73rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out), border-color var(--dur-short) var(--ease-out);
+}
+a.gear-chip:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.read-log-link {
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.read-log-link:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* Sidebar Search & Device Ledger */
+.ledger-aside {
+  min-width: 0;
+}
+.search-box-wrap {
+  margin: var(--space-md) 0 var(--space-xl);
+}
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 0;
+}
+.search-input::placeholder {
+  color: var(--color-ink-muted);
+}
+.search-input:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 0;
+  background-color: var(--color-paper);
+}
+.search-status {
+  margin-top: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+  min-height: 1.2em;
+}
+.ledger-lead {
+  margin: 0.5rem 0 var(--space-md);
+  font-size: 0.82rem;
+  color: var(--color-ink-muted);
+  line-height: 1.6;
+}
+.rank-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rank-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-xs);
+  margin-bottom: 0.2rem;
+}
+.rank-no {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.4rem;
+}
+.rank-name {
+  font-weight: 700;
+  font-size: 0.96rem;
+}
+.rank-cat {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+.rank-stats {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-pos);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 0.3rem;
+}
+.rank-comment {
+  margin: 0 0 0.55rem;
+  font-size: 0.82rem;
+  color: var(--color-ink-2);
+  line-height: 1.55;
+}
+.shop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.shop-btn {
+  display: inline-block;
+  padding: 0.32rem 0.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  border: 1px solid var(--color-rule-strong);
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.shop-btn-amzn {
+  background-color: var(--color-amzn-bg);
+  color: var(--color-amzn-fg);
+  border-color: var(--color-amzn-bg);
+}
+.shop-btn-amzn:hover {
+  background-color: var(--color-ink-2);
+  color: var(--color-amzn-fg);
+}
+.shop-btn-rktn {
+  background-color: var(--color-rktn-bg);
+  color: var(--color-rktn-fg);
+  border-color: var(--color-rktn-bg);
+}
+.shop-btn-rktn:hover {
+  background-color: var(--color-accent-hover);
+  color: var(--color-rktn-fg);
+}
+
+/* Article / Thread Page (Long Document + Forum Log) */
+.article-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.article-main {
+  min-width: 0;
+}
+.thread-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+.thread-title {
+  font-size: clamp(1.5rem, 2.8vw, 2.05rem);
+  line-height: 1.38;
+  margin: 0.4rem 0 0.75rem;
+}
+.thread-source-line {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Consensus Summary Block */
+.consensus-sheet {
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+}
+.consensus-hook {
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--color-ink);
+  margin: 0 0 var(--space-md);
+  line-height: 1.7;
+}
+.consensus-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  margin: 0 0 0.5rem;
+}
+.consensus-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.consensus-list li {
+  margin-bottom: 0.4rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.consensus-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* Reddit-Style Comment Tree & OP Post */
+.thread-log-section {
+  margin-bottom: var(--space-2xl);
+}
+.rc-op-post {
+  background-color: var(--color-op-bg);
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--color-rule);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+.rc-op-media {
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-rule);
+  font-size: 0.85rem;
+}
+.rc-op-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.rc-op-media-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background-color: var(--color-paper);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.25rem 0.65rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.rc-op-media-link:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.rc-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+.rc-author {
+  font-weight: 700;
+  font-size: 0.84rem;
+  color: var(--color-ink);
+}
+.rc-badge-op {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.08rem 0.45rem;
+  background-color: var(--color-op-badge);
+  color: var(--color-paper);
+  letter-spacing: 0.02em;
+}
+.rc-flair {
+  font-family: var(--font-mono);
+  font-size: 0.71rem;
+  padding: 0.06rem 0.45rem;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  color: var(--color-ink-2);
+}
+.rc-reply-to {
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+}
+.rc-score {
+  color: var(--color-ink-muted);
+  font-size: 0.75rem;
+  margin-left: auto;
+}
+.rc-score-high {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+.rc-body {
+  font-size: 0.97rem;
+  line-height: 1.85;
+  color: var(--color-ink);
+  max-width: 68ch;
+  overflow-wrap: anywhere;
+}
+.rc-quote {
+  margin: 0.4rem 0;
+  padding: 0.25rem 0.75rem;
+  border-left: 2px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  color: var(--color-ink-2);
+  font-size: 0.91rem;
+}
+.rc-tree {
+  margin-top: var(--space-sm);
+}
+.rc-tree > .rc-node {
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rc-children {
+  margin-top: 0.65rem;
+  margin-left: 0.55rem;
+  padding-left: 1.15rem;
+  border-left: 1px solid var(--color-rule);
+  transition: border-color var(--dur-short) var(--ease-out);
+}
+.rc-children:hover {
+  border-left-color: var(--color-rule-strong);
+}
+.rc-children .rc-node {
+  padding: 0.7rem 0 0.25rem;
+  border-top: 1px solid oklch(90.0% 0.010 75);
+}
+.rc-children .rc-node:first-child {
+  border-top: none;
+}
+@media (max-width: 600px) {
+  .rc-children {
+    margin-left: 0.25rem;
+    padding-left: 0.75rem;
+  }
+}
+
+/* Editorial Deep Analysis Note */
+.analysis-section {
+  margin-bottom: var(--space-2xl);
+}
+.analysis-prose {
+  max-width: 66ch;
+  margin-top: var(--space-md);
+}
+.analysis-subhead {
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: var(--space-lg) 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+.analysis-para {
+  margin: 0 0 1.1rem;
+  font-size: 0.97rem;
+  line-height: 1.9;
+  color: var(--color-ink-2);
+}
+
+/* Mentioned Gear Specification Table */
+.gear-section {
+  margin-bottom: var(--space-xl);
+}
+.gear-section > .analysis-para {
+  margin-top: var(--space-md);
+}
+.gear-row {
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.gear-meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.gear-cat-code {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.08rem 0.45rem;
+}
+.status-tag {
+  font-family: var(--font-sans);
+  font-size: 0.73rem;
+  font-weight: 700;
+  padding: 0.1rem 0.5rem;
+}
+.status-pos {
+  background-color: var(--color-pos-bg);
+  color: var(--color-pos);
+}
+.status-neu {
+  background-color: var(--color-neu-bg);
+  color: var(--color-neu);
+}
+.status-neg {
+  background-color: var(--color-neg-bg);
+  color: var(--color-neg);
+}
+.gear-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.3rem;
+}
+.gear-title-link {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.gear-title-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.gear-desc {
+  margin: 0 0 0.55rem;
+  font-size: 0.85rem;
+  color: var(--color-ink-2);
+  line-height: 1.6;
+}
+
+/* X Account Section (Sidebar & Footer) */
+.x-account-section {
+  margin-top: var(--space-xl);
+}
+.x-account-box {
+  margin-top: var(--space-sm);
+  padding: 0.65rem 0;
+}
+.x-account-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.8rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.x-account-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.x-account-unset {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+}
+
+/* Related Threads Navigation (For Longer Site Stay) */
+.related-section {
+  margin-bottom: var(--space-xl);
+}
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.related-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--color-rule);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.28rem;
+}
+.related-link {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  line-height: 1.45;
+  text-decoration: none;
+}
+.related-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* Pagination & Back-to-top Controls */
+.pagination-bar {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.page-info {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.page-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.page-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.page-btn:hover:not(:disabled) {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.page-btn.active {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+}
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.back-to-top-wrap {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-rule);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.back-to-top-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.45rem 0.95rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  margin-left: auto;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.back-to-top-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.share-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+.thread-meta-bar .share-group {
+  margin-left: auto;
+}
+.share-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.22rem 0.55rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1.4;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.share-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Ft4 Dense Colophon Footer */
+.colophon {
+  border-top: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  margin-top: var(--space-2xl);
+  padding: var(--space-xl) var(--space-lg);
+}
+.colophon-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+  line-height: 1.7;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: var(--space-lg);
+}
+@media (max-width: 768px) {
+  .colophon-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.colophon-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  margin: 0 0 0.35rem;
+}
+.colophon-mono {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+}
+</style>
+</head>
+<body id="top">
+  <header class="masthead">
+    <div class="masthead-Compact">
+      <a href="../index.html" class="masthead-Compact-brand">エイム沼の海外ログ</a>
+      <a href="../index.html" class="back-index-link">← スレッド一覧へ戻る</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="article-grid">
+      <div class="article-main">
+        <header class="thread-header">
+          <div class="thread-meta-bar">
+            <a class="sub-tag" href="../index.html">スレッド一覧</a>
+            <span class="meta-sep">/</span>
+            <a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a>
+            <span class="meta-sep">/</span>
+            <span>コメント 6件</span>
+            <span class="share-group">
+              <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+              <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+            </span>
+          </div>
+          <h1 class="thread-title">【KovaaK&#x27;s】静的エイムで精度と速度のバランスを改善する方法</h1>
+          <p class="thread-source-line">
+            元スレッド: <a href="https://www.reddit.com/r/FPSAimTrainer/comments/1xdp89g/how_do_you_work_on_accuracy/" target="_blank" rel="noopener">How do you work on accuracy?</a>
+          </p>
+        </header>
+
+        <section class="consensus-sheet">
+          <p class="consensus-hook">静的クリックシナリオで速さを求めると外し、精度を意識すると遅くなりすぎる悩みへの解決策が議論されています。スコア稼ぎのガチャをやめ、適切な減速と視線補正で精度を高める方法が提示されています。</p>
+          <div class="consensus-head">スレッドの要点</div>
+          <ul class="consensus-list"><li>スコア稼ぎや運頼みのプレイをやめ、減速して着実に着弾を確認する練習に集中する</li><li>ミスをした時に焦って無意識に速度を上げないように意識をコントロールする</li><li>小型ターゲット版のシナリオ（VDIM等）やメトロノームを活用して段階的に速度を上げる</li></ul>
+        </section>
+
+        <section class="thread-log-section">
+          <div class="section-header">
+            <h2 class="section-title">コメント（6件）</h2>
+          </div>
+          <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body">このシナリオでどうやってハイスコアを出せばいいのか本当に分かりません……。中くらいの速度でやるとあまりにもミスショットが多くなり、かといって精度を意識すると遅すぎてスコアがまったく出ません。まともな自己ベストが出せた唯一の理由は、適当な精度が出るまで運ゲー（ガチャ）を繰り返したからです。<br><br>どうすれば上達できますか？アドバイスをお願いします。</div><div class="rc-op-media"><ul class="rc-op-media-list"><li><a class="rc-op-media-link" href="https://v.redd.it/jt33ntsa1axh1" target="_blank" rel="noopener">添付動画を見る ↗</a></li></ul></div></div>
+<div class="rc-tree">
+<div class="rc-node" id="c-19rjt4r8232ip"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-score">+1 pts</span></div><div class="rc-body">VDIMプレイリストを使ってより小さいターゲットのバリエーションをやってみてください。もしやりたくないなら、単純にペースを落としましょう。今のあなたの速度はクリックのタイミングと合っていません。</div></div></div>
+<div class="rc-node" id="c-19rjxc90bdqbn"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー2</span><span class="rc-score">+1 pts</span></div><div class="rc-body">大きなクロスヘアにしてターゲットを小さく設定すると、しっかり見て着弾を確認する感覚が身につきますよ。</div></div></div>
+<div class="rc-node" id="c-19rjyep6ok0w2"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー3</span><span class="rc-score">+4 pts</span></div><div class="rc-body">自分ならイライラせずにこのシナリオをプレイすることすらできないですね。</div></div></div>
+<div class="rc-node" id="c-19rk0c6yeioat"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー4</span><span class="rc-score">+1 pts</span></div><div class="rc-body">私が気に入っているコツは、目線をクロスヘアに集中させて、周辺視野を使ってターゲットに向かって手を動かすことです。クロスヘアに集中すると、いつ微修正が必要か、どれくらい微修正すべきかがより明確に把握できるようになります。</div></div></div>
+<div class="rc-node" id="c-19rkird89nr0j"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー5</span><span class="rc-score">+1 pts</span></div><div class="rc-body">このプレイ動画を見る限り、ショットを外した時に無意識に速度を上げてしまっていますが、これは絶対にやってはいけないことです。また、シャープにフリックせずぬるっと滑らかに手を動かしていますが、これは外した焦りでスピードを上げようとした結果だと思います。</div></div></div>
+<div class="rc-node" id="c-19rm54tufytmp"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー6</span><span class="rc-score">+1 pts</span></div><div class="rc-body">スコアを追うのではなく、上達するためにプレイしましょう。<br><br>より正確になるには、まずはスピードを落とす必要があります。上手くなれば、その精度を維持したまま自然と速くなっていきます。<br><br>これにはメトロノームを使うのも手です。自分が快適にプレイできて高い精度（95%以上）を出せるリズムから始めて、精度が90%を下回り始めるまで少しずつテンポを上げていきます。そして精度が改善するまでその速度（または少し下）で練習し、良くなったらまたメトロノームを速くしていくのです。</div></div></div>
+</div>
+        </section>
+
+        <section class="analysis-section">
+          <div class="section-header">
+            <h2 class="section-title">ひとことノート</h2>
+          </div>
+          <div class="analysis-prose">
+            <h3 class="analysis-subhead">1. 静的エイム（Static Clicking）における精度と速度のジレンマ</h3>
+<p class="analysis-para">静的エイム練習（1w4tsや6targetsなど）において、初心者が最も陥りやすいのが「速度と精度の両立」に関する悩みです。速度を上げようとするとターゲットを行き過ぎたり（オーバーシュート）、クリックタイミングがズレてミスが多発します。一方で精度だけを意識すると、ターゲット間で手が止まり、スコアが伸びなくなります。</p>
+<h3 class="analysis-subhead">2. 運（PBガチャ）を排除し、スピードコントロールを身につける方法</h3>
+<p class="analysis-para">エイム練習コミュニティで強調されるのは、「スコア（PB）は結果であり、目的ではない」ということです。ミスショットが出た直後に焦って雑に振り回してしまう「無意識の加速」は最も悪影響を及ぼします。海外猛者からは以下のトレーニング方法が推奨されています。</p>
+<p class="analysis-para">・**メトロノーム法の活用**: 高精度（95%以上）を維持できるリズムから始め、段階的にBPMを上げていく手法。リズムを一定に保つことで、無駄な急ぎを防止できます。</p>
+<p class="analysis-para">・**小型ターゲット版の利用**: VDIM（Voltaic Daily Improvement Method）などでより小さいターゲットを狙う練習を行うことで、手元の精密なマイクロフリック（微修正）感覚が強制的に鍛えられます。</p>
+<h3 class="analysis-subhead">3. 視線とクロスコントロール意識の持ち方</h3>
+<p class="analysis-para">フリックエイム時には「クロスヘアを見つめて周辺視野でターゲットを捉える」意識を持つことで、微修正（マイクロコリレーション）が必要な距離やタイミングをより正確に把握できるテクニックも提示されています。</p>
+          </div>
+        </section>
+
+        <nav class="related-section" aria-label="その他のスレッド">
+          <div class="section-header">
+            <h2 class="section-title">他のスレッド</h2>
+          </div>
+          <ul class="related-list">
+            <li class="related-item"><a class="related-link" href="1xdp7z4.html">名機SteelSeries DeXの復活を望む声と、現行の後継・類似パッドの有力候補</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 8件</div></li><li class="related-item"><a class="related-link" href="1xdq1xg.html">テクスチャ系ガラスマウスパッドの押し込みによる失速を防ぐソール対策</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 4件</div></li><li class="related-item"><a class="related-link" href="1xdmyvb.html">Voltaic中級者の壁「PGTI」攻略！マウスパッド変更がスコア更新の鍵になる理由</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 4件</div></li><li class="related-item"><a class="related-link" href="1xd2vvf.html">マイクロフリックの停滞を打破する脱力テクニックとスピード矯正法</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 6件</div></li><li class="related-item"><a class="related-link" href="1xd3gvf.html">iiTzTimmyのKovaaK&#x27;sプレイリストは有効？エイムコミュニティの評価とおすすめの代替案</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 10件</div></li>
+          </ul>
+        </nav>
+      </div>
+
+      <aside class="ledger-aside">
+        <div class="section-header">
+          <h2 class="section-title">スレッド・機材検索</h2>
+        </div>
+        <form class="search-box-wrap" action="../index.html" method="get">
+          <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
+        </form>
+
+        <section class="gear-section">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          <p class="analysis-para">このスレッドでは特定製品の指定はありません（エイム技術・設定中心の議論）。</p>
+        </section>
+
+        <section class="x-account-section"><div class="section-header"><h2 class="section-title">X (Twitter)</h2></div><div class="x-account-box"><a class="x-account-link" href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp ↗</a></div></section>
+      </aside>
+    </div>
+
+    <div class="back-to-top-wrap">
+      <div class="share-group">
+        <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+        <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+      </div>
+      <button type="button" class="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑ 一番上へ戻る</button>
+    </div>
+  </main>
+
+  <footer class="colophon">
+    <div class="colophon-inner">
+      <div>
+        <p class="colophon-title">エイム沼の海外ログ</p>
+        <p>海外Reddit（r/FPSAimTrainer・r/MouseReview・r/MousepadReview）の議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
+      </div>
+      <div class="colophon-mono">
+        <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
+        <div>UPDATED: 2026.10.26 · 14 THREADS</div>
+        <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function shareToX() {
+      const u = window.location.href;
+      const t = document.title;
+      window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(t) + '&url=' + encodeURIComponent(u), '_blank', 'noopener');
+    }
+    function copyPageUrl(btn) {
+      const u = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(u);
+      }
+      const orig = btn.textContent;
+      btn.textContent = 'コピー完了';
+      setTimeout(() => { btn.textContent = orig; }, 1600);
+    }
+  </script>
+</body>
+</html>
