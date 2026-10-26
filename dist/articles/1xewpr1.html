@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>フリック安定性シナリオでローセンシを使うのは「逃げ」？スコア稼ぎと実ゲームへの還元について議論 | エイム沼の海外ログ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=JetBrains+Mono:wght@400;600;700&family=Shippori+Mincho+B1:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 */
+/* Hallmark · genre: editorial · macrostructure: Index-First / Long Document · theme: Almanac · enrichment: none · nav: N6 · footer: Ft4 */
+:root {
+  --color-paper: oklch(96.8% 0.012 85);
+  --color-paper-2: oklch(93.8% 0.016 82);
+  --color-paper-3: oklch(90.2% 0.020 80);
+  --color-ink: oklch(19.5% 0.015 65);
+  --color-ink-2: oklch(34.0% 0.018 65);
+  --color-ink-muted: oklch(46.0% 0.018 65);
+  --color-ink-faint: oklch(60.0% 0.015 65);
+  --color-rule: oklch(86.5% 0.012 75);
+  --color-rule-strong: oklch(74.0% 0.015 70);
+  --color-accent: oklch(47.0% 0.175 30);
+  --color-accent-hover: oklch(39.0% 0.175 30);
+  --color-accent-soft: oklch(92.5% 0.038 35);
+  --color-op-badge: oklch(32.0% 0.085 245);
+  --color-op-bg: oklch(94.8% 0.014 85);
+  --color-pos: oklch(40.0% 0.115 155);
+  --color-pos-bg: oklch(92.8% 0.035 155);
+  --color-neu: oklch(40.0% 0.020 65);
+  --color-neu-bg: oklch(91.5% 0.015 80);
+  --color-neg: oklch(45.0% 0.160 25);
+  --color-neg-bg: oklch(93.0% 0.035 25);
+  --color-amzn-bg: oklch(22.0% 0.018 65);
+  --color-amzn-fg: oklch(97.0% 0.010 85);
+  --color-rktn-bg: oklch(44.0% 0.160 28);
+  --color-rktn-fg: oklch(97.5% 0.008 85);
+  --font-display: 'Shippori Mincho B1', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-sans: 'BIZ UDPGothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 3.5rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 140ms;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: 700;
+  color: var(--color-ink);
+  overflow-wrap: anywhere;
+  min-width: 0;
+  margin-top: 0;
+}
+a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule-strong);
+  text-underline-offset: 3px;
+  transition: color var(--dur-short) var(--ease-out), text-decoration-color var(--dur-short) var(--ease-out);
+}
+a:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* N6 Newspaper Masthead */
+.masthead {
+  border-bottom: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper);
+}
+.masthead-meta {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.45rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  border-bottom: 1px solid var(--color-rule);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.masthead-Core {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-lg) var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-md);
+}
+.site-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0;
+}
+.site-title a {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.site-title a:hover {
+  color: var(--color-accent);
+}
+.site-tagline {
+  margin: 0.35rem 0 0;
+  font-size: 0.88rem;
+  color: var(--color-ink-2);
+}
+.masthead-Compact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.85rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.masthead-Compact-brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+.back-index-link {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+}
+.back-index-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Filter Strip (Sharp Tabular Bar) */
+.filter-strip-wrap {
+  border-top: 1px solid var(--color-rule);
+  background-color: var(--color-paper-2);
+}
+.filter-strip {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+.filter-tab {
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--color-rule);
+  border-bottom: 2px solid transparent;
+  padding: 0.65rem 1.1rem;
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.filter-tab:first-child {
+  border-left: 1px solid var(--color-rule);
+}
+.filter-tab:hover {
+  background-color: var(--color-paper-3);
+  color: var(--color-ink);
+}
+.filter-tab.active {
+  background-color: var(--color-paper);
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* Main Grid Layout */
+.page-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.index-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 960px) {
+  .index-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+.article-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 1080px) {
+  .article-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+
+.section-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: 0.55rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.section-title {
+  font-size: 1.2rem;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+.section-sub {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Index Thread Rows (No Rounded Cards) */
+.thread-index-row {
+  padding: var(--space-lg) 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.thread-meta-bar {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.4rem;
+}
+.sub-tag {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+a.sub-tag:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+.meta-sep {
+  color: var(--color-ink-faint);
+}
+.index-thread-title {
+  font-size: 1.32rem;
+  line-height: 1.45;
+  margin: 0 0 0.55rem;
+}
+.index-thread-title a {
+  text-decoration: none;
+}
+.index-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.index-thread-hook {
+  margin: 0 0 0.85rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.log-preview-box {
+  background-color: var(--color-paper-2);
+  border-top: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
+  padding: 0.7rem 0.95rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.86rem;
+}
+.log-preview-line {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+.log-preview-line:last-child {
+  margin-bottom: 0;
+}
+.preview-num {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.35rem;
+}
+.preview-speaker {
+  font-weight: 700;
+  color: var(--color-pos);
+  margin-right: 0.4rem;
+}
+.thread-footer-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.gear-inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.gear-chip {
+  font-family: var(--font-mono);
+  font-size: 0.73rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out), border-color var(--dur-short) var(--ease-out);
+}
+a.gear-chip:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.read-log-link {
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.read-log-link:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* Sidebar Search & Device Ledger */
+.ledger-aside {
+  min-width: 0;
+}
+.search-box-wrap {
+  margin: var(--space-md) 0 var(--space-xl);
+}
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 0;
+}
+.search-input::placeholder {
+  color: var(--color-ink-muted);
+}
+.search-input:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 0;
+  background-color: var(--color-paper);
+}
+.search-status {
+  margin-top: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+  min-height: 1.2em;
+}
+.ledger-lead {
+  margin: 0.5rem 0 var(--space-md);
+  font-size: 0.82rem;
+  color: var(--color-ink-muted);
+  line-height: 1.6;
+}
+.rank-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rank-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-xs);
+  margin-bottom: 0.2rem;
+}
+.rank-no {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.4rem;
+}
+.rank-name {
+  font-weight: 700;
+  font-size: 0.96rem;
+}
+.rank-cat {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+.rank-stats {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-pos);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 0.3rem;
+}
+.rank-comment {
+  margin: 0 0 0.55rem;
+  font-size: 0.82rem;
+  color: var(--color-ink-2);
+  line-height: 1.55;
+}
+.shop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.shop-btn {
+  display: inline-block;
+  padding: 0.32rem 0.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  border: 1px solid var(--color-rule-strong);
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.shop-btn-amzn {
+  background-color: var(--color-amzn-bg);
+  color: var(--color-amzn-fg);
+  border-color: var(--color-amzn-bg);
+}
+.shop-btn-amzn:hover {
+  background-color: var(--color-ink-2);
+  color: var(--color-amzn-fg);
+}
+.shop-btn-rktn {
+  background-color: var(--color-rktn-bg);
+  color: var(--color-rktn-fg);
+  border-color: var(--color-rktn-bg);
+}
+.shop-btn-rktn:hover {
+  background-color: var(--color-accent-hover);
+  color: var(--color-rktn-fg);
+}
+
+/* Article / Thread Page (Long Document + Forum Log) */
+.article-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.article-main {
+  min-width: 0;
+}
+.thread-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+.thread-title {
+  font-size: clamp(1.5rem, 2.8vw, 2.05rem);
+  line-height: 1.38;
+  margin: 0.4rem 0 0.75rem;
+}
+.thread-source-line {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Consensus Summary Block */
+.consensus-sheet {
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+}
+.consensus-hook {
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--color-ink);
+  margin: 0 0 var(--space-md);
+  line-height: 1.7;
+}
+.consensus-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  margin: 0 0 0.5rem;
+}
+.consensus-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.consensus-list li {
+  margin-bottom: 0.4rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.consensus-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* Reddit-Style Comment Tree & OP Post */
+.thread-log-section {
+  margin-bottom: var(--space-2xl);
+}
+.rc-op-post {
+  background-color: var(--color-op-bg);
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--color-rule);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+.rc-op-media {
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-rule);
+  font-size: 0.85rem;
+}
+.rc-op-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.rc-op-media-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background-color: var(--color-paper);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.25rem 0.65rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.rc-op-media-link:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.rc-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+.rc-author {
+  font-weight: 700;
+  font-size: 0.84rem;
+  color: var(--color-ink);
+}
+.rc-badge-op {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.08rem 0.45rem;
+  background-color: var(--color-op-badge);
+  color: var(--color-paper);
+  letter-spacing: 0.02em;
+}
+.rc-flair {
+  font-family: var(--font-mono);
+  font-size: 0.71rem;
+  padding: 0.06rem 0.45rem;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  color: var(--color-ink-2);
+}
+.rc-reply-to {
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+}
+.rc-score {
+  color: var(--color-ink-muted);
+  font-size: 0.75rem;
+  margin-left: auto;
+}
+.rc-score-high {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+.rc-body {
+  font-size: 0.97rem;
+  line-height: 1.85;
+  color: var(--color-ink);
+  max-width: 68ch;
+  overflow-wrap: anywhere;
+}
+.rc-quote {
+  margin: 0.4rem 0;
+  padding: 0.25rem 0.75rem;
+  border-left: 2px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  color: var(--color-ink-2);
+  font-size: 0.91rem;
+}
+.rc-tree {
+  margin-top: var(--space-sm);
+}
+.rc-tree > .rc-node {
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rc-children {
+  margin-top: 0.65rem;
+  margin-left: 0.55rem;
+  padding-left: 1.15rem;
+  border-left: 1px solid var(--color-rule);
+  transition: border-color var(--dur-short) var(--ease-out);
+}
+.rc-children:hover {
+  border-left-color: var(--color-rule-strong);
+}
+.rc-children .rc-node {
+  padding: 0.7rem 0 0.25rem;
+  border-top: 1px solid oklch(90.0% 0.010 75);
+}
+.rc-children .rc-node:first-child {
+  border-top: none;
+}
+@media (max-width: 600px) {
+  .rc-children {
+    margin-left: 0.25rem;
+    padding-left: 0.75rem;
+  }
+}
+
+/* Editorial Deep Analysis Note */
+.analysis-section {
+  margin-bottom: var(--space-2xl);
+}
+.analysis-prose {
+  max-width: 66ch;
+  margin-top: var(--space-md);
+}
+.analysis-subhead {
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: var(--space-lg) 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+.analysis-para {
+  margin: 0 0 1.1rem;
+  font-size: 0.97rem;
+  line-height: 1.9;
+  color: var(--color-ink-2);
+}
+
+/* Mentioned Gear Specification Table */
+.gear-section {
+  margin-bottom: var(--space-xl);
+}
+.gear-section > .analysis-para {
+  margin-top: var(--space-md);
+}
+.gear-row {
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.gear-meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.gear-cat-code {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.08rem 0.45rem;
+}
+.status-tag {
+  font-family: var(--font-sans);
+  font-size: 0.73rem;
+  font-weight: 700;
+  padding: 0.1rem 0.5rem;
+}
+.status-pos {
+  background-color: var(--color-pos-bg);
+  color: var(--color-pos);
+}
+.status-neu {
+  background-color: var(--color-neu-bg);
+  color: var(--color-neu);
+}
+.status-neg {
+  background-color: var(--color-neg-bg);
+  color: var(--color-neg);
+}
+.gear-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.3rem;
+}
+.gear-title-link {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.gear-title-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.gear-desc {
+  margin: 0 0 0.55rem;
+  font-size: 0.85rem;
+  color: var(--color-ink-2);
+  line-height: 1.6;
+}
+
+/* X Account Section (Sidebar & Footer) */
+.x-account-section {
+  margin-top: var(--space-xl);
+}
+.x-account-box {
+  margin-top: var(--space-sm);
+  padding: 0.65rem 0;
+}
+.x-account-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.8rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.x-account-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.x-account-unset {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+}
+
+/* Related Threads Navigation (For Longer Site Stay) */
+.related-section {
+  margin-bottom: var(--space-xl);
+}
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.related-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--color-rule);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.28rem;
+}
+.related-link {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  line-height: 1.45;
+  text-decoration: none;
+}
+.related-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* Pagination & Back-to-top Controls */
+.pagination-bar {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.page-info {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.page-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.page-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.page-btn:hover:not(:disabled) {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.page-btn.active {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+}
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.back-to-top-wrap {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-rule);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.back-to-top-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.45rem 0.95rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  margin-left: auto;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.back-to-top-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.share-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+.thread-meta-bar .share-group {
+  margin-left: auto;
+}
+.share-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.22rem 0.55rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1.4;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.share-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Ft4 Dense Colophon Footer */
+.colophon {
+  border-top: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  margin-top: var(--space-2xl);
+  padding: var(--space-xl) var(--space-lg);
+}
+.colophon-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+  line-height: 1.7;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: var(--space-lg);
+}
+@media (max-width: 768px) {
+  .colophon-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.colophon-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  margin: 0 0 0.35rem;
+}
+.colophon-mono {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+}
+</style>
+</head>
+<body id="top">
+  <header class="masthead">
+    <div class="masthead-Compact">
+      <a href="../index.html" class="masthead-Compact-brand">エイム沼の海外ログ</a>
+      <a href="../index.html" class="back-index-link">← スレッド一覧へ戻る</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="article-grid">
+      <div class="article-main">
+        <header class="thread-header">
+          <div class="thread-meta-bar">
+            <a class="sub-tag" href="../index.html">スレッド一覧</a>
+            <span class="meta-sep">/</span>
+            <a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a>
+            <span class="meta-sep">/</span>
+            <span>コメント 13件</span>
+            <span class="share-group">
+              <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+              <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+            </span>
+          </div>
+          <h1 class="thread-title">フリック安定性シナリオでローセンシを使うのは「逃げ」？スコア稼ぎと実ゲームへの還元について議論</h1>
+          <p class="thread-source-line">
+            元スレッド: <a href="https://www.reddit.com/r/FPSAimTrainer/comments/1xewpr1/cheat_flick_stability_with_low_sens/" target="_blank" rel="noopener">&quot;Cheat&quot; flick stability with low sens</a>
+          </p>
+        </header>
+
+        <section class="consensus-sheet">
+          <p class="consensus-hook">Viscose Benchmark S2などのフリック安定性シナリオにおいて、66cm/360のような低感度を使うのは根本的な練習を回避する「チート」なのかが議論されています。スコア稼ぎ目的と実ゲームへの還元目的の双方から、適切な感度設定と練習法の役割が明かされています。</p>
+          <div class="consensus-head">スレッドの要点</div>
+          <ul class="consensus-list"><li>低感度（ローセンシ）は手元のブレを物理的に拡大せず抑えるため、加速から減速・停止という正しいフリックの「動きのパターン（フォーム）」を感じ取り定着させるのに有効である</li><li>ランキング上位者（スコアメイカー）はハイスコア更新を最優先して極端なローセンシを使う傾向があるが、実ゲームへの還元（In-game transfer）を目指すなら実戦感度でのプレイも併用すべきである</li><li>減速・ブレーキ動作の練習効果は低感度から実戦感度へ引き継がれやすいが、フリック終点の小刻みな揺れ（手ブレ）の矯正には実戦感度での反復練習が必要になる</li></ul>
+        </section>
+
+        <section class="thread-log-section">
+          <div class="section-header">
+            <h2 class="section-title">コメント（13件）</h2>
+          </div>
+          <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body">Viscose Benchmark S2をやっているのですが、特定のシナリオに合わせた感度を使う理由自体は一応理解しているつもりです。腕の動きを鍛えたいのに10cm/360を使うのは意味がないですし、60cm/360で手首の練習にはあまりなりませんよね。<br><br>ですが、フリック技術の安定性（flick tech stability）シナリオのようなもので、目的が単なるKovaaK&#x27;sのハイスコア狙いではなく実際のトレーニングである場合、例えば「1w6ts reload v2 20% bigger」の現在のメタ中央値である66cm/360のようなローセンシにする意味は何なのでしょうか？<br><br>私の理解では、このシナリオはフリックの安定性を鍛えるものだと思っています。cm/360を極端に長くするのは根本的な問題を解決しない「応急処置」に感じられますし、実際に実ゲームで使うような現実的な感度で持っている以上の安定性が自分にあるという錯覚を与えてしまうのではないでしょうか？<br><br>それとも、このシナリオが教えようとしていることについて、私が何か誤解しているのでしょうか？</div></div>
+<div class="rc-tree">
+<div class="rc-node" id="c-19rmgre06jfvo"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-score">+3 pts</span></div><div class="rc-body">単にドットをクリックすること自体を楽しんでプレイしている人がいるということを見落としていますよ。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rmgt706f50i"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー1 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">つまり、KovaaK&#x27;sのスコアを追うのではなくゲームの上達のためにやっているなら、特定の筋肉や動きを鍛えるわけではないシナリオでは、実用的なゲーム内感度に絞ってプレイすべきということでしょうか？</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rmh68397y1t"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-reply-to">↳ スレ主 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">KovaaK&#x27;sのスコアを押し上げることも、ゲーム内のエイム向上につながりますよ（変な裏技を使わずに普通にやる前提ですが）。<br><br>ただ、中央値が66cm/360になっているというあなたの疑問についてですが、全員が意識的にフォームを孤立させて鍛えたり、ハイスコア用に特定の感度を選んだりしているわけではないからです。1回のプレイで全てを連動させるために普段のゲーム内感度をそのまま使っているだけという単純な場合もあります。そしてスタティック（静的エイム）では遅い感度を使う人が多いので、結果的に全体として遅めの感度に傾くわけです。</div></div></div>
+</div></div>
+</div></div>
+<div class="rc-node" id="c-19rmhv7886vj5"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー2</span><span class="rc-score">+3 pts</span></div><div class="rc-body">感度単体だけでは全体像は分かりませんよ。あるシナリオでの66cmが、別のシナリオでの66cmと同じとは限りません。感度が通常の範囲外だからといって、それがスコア稼ぎのためだけの感度で何にも効いていないとは言い切れません。確かに50cmは66cmほど安定しないかもしれませんが、だからといって66cmがそのシナリオでの安定性を鍛えるのに十分でないという意味にはなりません。確かそのシナリオは、動きの滑らかさ（Fluidity）に重きを置いたものだったはずです。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rmi9s4fbktf"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー3</span><span class="rc-reply-to">↳ 海外ユーザー2 への返信</span><span class="rc-score">+3 pts</span></div><div class="rc-body">同感です。cm/360だけではタスクの内容を表現しきれません。ターゲットの大きさや配置の間隔も同じくらい重要なので、あるシナリオの66cmと別のシナリオの66cmは別物です。もし主に滑らかさを鍛えるタスクなら、ローセンシにすることで視点移動が長くなり、滑らかな軌道とガタガタした軌道の違いを感じやすくなります。自分なら、その感覚が実戦でも維持できるか確認するために、たまに実戦感度でのセットを挟みますね。</div></div></div>
+</div></div>
+<div class="rc-node" id="c-19rmi7u4f9an4"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー3</span><span class="rc-score">0 pts</span></div><div class="rc-body">誤解しているわけではなく、見ている目的が2つに分かれているだけです。ベンチマークの低い感度は、主にマウスパッド上でのターゲットの「物理的な大きさ」を変える役割を果たしています。66cm/360では角度1度の回転に約1.8mmのマウス移動が必要ですが、35cm/360では約1mmになります。同じ手でフリックの終点に同じ微小な揺れが生じた場合、35cmでは角度的な誤差が約2倍になります。そのため、66cmでハイスコアが出たからといって、実戦感度でそれほどフリックが安定している証明にはなりません。なぜそれでも使うのかというと、これらのシナリオの「テクニック」要素とは「動きのパターン」だからです。加速し、ターゲットに向けてブレーキをかけ、修正動作なしでピタッと止まる。ローセンシでは細かなノイズで毎回ショットが台無しにならないため、このパターンを感じ取り、再現しやすくなります。また、ベンチマークでは全員が同じ感度でプレイするため、ランク機能が正しく機能します。私のおすすめは、自分のランクのベンチマーク感度でプレイした後、自分の実戦感度で1ブロックやって比較することです。そして実戦感度でどうミスしているかを観察してください：<br><br>- 行き過ぎてしまう（ブレーキが遅い）場合：ブレーキの動作は同じなので、ローセンシでの練習効果が活きてきます。<br>- ほぼターゲット上に着地した後にブレて外れる場合：これはローセンシでは隠れてしまう部分なので、実際の感度で回数をこなす必要があります。また、自己ベストではなく平均的なプレイで比較してください。どちらの感度であれ、1回の良いプレイだけでは大した情報は得られません。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rmi9w9szz8j"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー3 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">ありがとうございます、とても分かりやすくて論理的な説明ですね！</div></div></div>
+</div></div>
+<div class="rc-node" id="c-19rmi7yvb2880"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー4</span><span class="rc-score">+1 pts</span></div><div class="rc-body">好みの問題だと思います。66cmでも手首を使いつつ、長距離の移動には腕をメインで使うことができます。手首や指先は微修正に使われます。50cmでプレイすることもできますが、それでは腕の能力をフルに活かせなくなると思います。私にとってはですが、腕よりも手首を使う割合が増えてしまいます。</div></div></div>
+<div class="rc-node" id="c-19rmish8psjz4"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー5</span><span class="rc-score">+2 pts</span></div><div class="rc-body">リーダーボードの上位は、スコア追及に特化したエイムトレーナーメインのプレイヤーで占められています。彼らにとって実ゲームへの還元はほとんど関係ありません。<br><br>とはいえ、私のアドバイスとしてはあまり気にしないことです。私は静的タスクで25cm/360でハイスコアを出し、その後90cm/360でそれを更新したこともあります。ただトレーニングを続けて、ベンチマークはやり込みのモチベーションを高めるちょっとした要素として捉えましょう。それ自体はそこまで重要ではありませんが、上達という長いプロセスの間で飽きないための有用な中間目標になります。</div></div></div>
+<div class="rc-node" id="c-19rmoybt562w5"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー6</span><span class="rc-score">+1 pts</span></div><div class="rc-body">!remindme 1d</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rmp05vwz19g"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー7</span><span class="rc-reply-to">↳ 海外ユーザー6 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">1日後の2026年10月26日 11:24:32 UTCにリマインドメッセージをお送りします。</div></div></div>
+</div></div>
+<div class="rc-node" id="c-19rnhfm6tjpk1"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー8</span><span class="rc-score">0 pts</span></div><div class="rc-body">エイムトレーニングには2つの思考パターンが存在します：<br><br>1. スコア稼ぎ。リーダーボードで最高のランクを取るためなら何でもすること。<br><br>2. 実ゲームへの還元。自身の弱点を修正し、ゲーム内のエイムを向上させるために特化してトレーニングすること。<br><br>トップ100のリーダーボードで見かける人のほとんどは、前者を優先しています。</div></div></div>
+<div class="rc-node" id="c-19rnq4mzx9e78"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー9</span><span class="rc-score">+1 pts</span></div><div class="rc-body">変な意見かもしれませんが、『VALORANT』や『CS』のようなタクティカルシューターで66cmを試してみてはどうでしょうか。私はCSで80cm、Valで160cmでプレイしているので、Kovaak&#x27;sで使われるローセンシは実際に役立っていますよ。</div></div></div>
+</div>
+        </section>
+
+        <section class="analysis-section">
+          <div class="section-header">
+            <h2 class="section-title">ひとことノート</h2>
+          </div>
+          <div class="analysis-prose">
+            <p class="analysis-para">FPSのエイム練習ソフトウェア（KovaaK&#x27;sやAimlabs）において、コミュニティ作成のベンチマークシナリオ（VoltaicやViscose等）に挑む際、「どのような感度（cm/360）でプレイすべきか」は長年議論されているテーマです。特に静的クリック（Static）やフリックの安定性を測定するシナリオでは、60cm/360を超えるような極端なローセンシ（低感度）が中央値や上位ランカーの主流となっています。</p>
+<h3 class="analysis-subhead">1. 低感度を使う技術的理由：フォームの習得と減速（Braking）</h3>
+<p class="analysis-para">エイムトレーニングにおいて、フリックの技術（Flick Tech）は「目標への素早い初動（フリック）」「目標手前での減速（Braking）」「ピタッと止める（Stopping）」の3工程に分解されます。ローセンシを使用することで、微小な手ブレ（Angular error）が画面上の照準の大きな揺れにならずに済むため、動きの滑らかさ（Fluidity）や減速の感覚を感覚的に掴みやすくなります。ブレーキをかける動作自体は低感度でも高感度でも共通の筋運動パターンとなるため、低感度で正しいフォームを体に叩き込むことには明確な練習効果が存在します。</p>
+<h3 class="analysis-subhead">2. 「スコア稼ぎ（Score Farming）」vs「実効性（In-game Transfer）」</h3>
+<p class="analysis-para">コミュニティ内には大別して2つの目的意識が存在します。1つはエイムトレーナー内のランキングで上位を目指す「エイムトレーナー専業（Aimtrainer main）」のアプローチで、彼らはシナリオの仕様（ターゲットのサイズや配置）に対して最もハイスコアが出やすい感度を選択します。もう1つは『VALORANT』や『CS2』といった実戦ゲームでのエイム力向上（In-game transfer）を目指すアプローチです。実戦への還元を重視する場合、ベンチマーク規定の感度でフォームを確認しつつ、自分の「ゲーム実戦感度」でセットをこなすハイブリッドな練習法が推奨されています。</p>
+<h3 class="analysis-subhead">3. エラー分析による感度調整</h3>
+<p class="analysis-para">フリックのミスには主に「行き過ぎ（オーバーシュート＝ブレーキの遅れ）」と「終点での揺れ・ブレ（Target wobble）」の2種類があります。前者のブレーキ操作はローセンシでの練習が直接活きてきますが、後者の手首や指先による微修正能力は、画面上の角度誤差が大きく反映される実戦感度（ハイ〜ミドルセンシ）で直接反復練習を行わなければ改善しにくいと分析されています。</p>
+          </div>
+        </section>
+
+        <nav class="related-section" aria-label="その他のスレッド">
+          <div class="section-header">
+            <h2 class="section-title">他のスレッド</h2>
+          </div>
+          <ul class="related-list">
+            <li class="related-item"><a class="related-link" href="1xex77a.html">ガラスパッド向けの硬質PTFEソールおすすめは？定番Obsidianの耐久性議論とGhostglides</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 7件</div></li><li class="related-item"><a class="related-link" href="1xew85k.html">リラックスつかみ持ち・指先持ち向けマウス選び！海外で人気の候補とおすすめの形状</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 11件</div></li><li class="related-item"><a class="related-link" href="1xewnv0.html">「最低でもPixArt 3395を買え」と言われて40ドル払ったが、古いマウスと違いが分からない件</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 19件</div></li><li class="related-item"><a class="related-link" href="1xewgwe.html">手頃な価格帯で買える軽量エルゴノミクス無線マウスのすすめ</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 5件</div></li><li class="related-item"><a class="related-link" href="1xe7cms.html">高級パッドARTISAN 零より安価なQcKの方が強い？Redditで議論</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 10件</div></li>
+          </ul>
+        </nav>
+      </div>
+
+      <aside class="ledger-aside">
+        <div class="section-header">
+          <h2 class="section-title">スレッド・機材検索</h2>
+        </div>
+        <form class="search-box-wrap" action="../index.html" method="get">
+          <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
+        </form>
+
+        <section class="gear-section">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          <p class="analysis-para">このスレッドでは特定製品の指定はありません（エイム技術・設定中心の議論）。</p>
+        </section>
+
+        <section class="x-account-section"><div class="section-header"><h2 class="section-title">X (Twitter)</h2></div><div class="x-account-box"><a class="x-account-link" href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp ↗</a></div></section>
+      </aside>
+    </div>
+
+    <div class="back-to-top-wrap">
+      <div class="share-group">
+        <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+        <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+      </div>
+      <button type="button" class="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑ 一番上へ戻る</button>
+    </div>
+  </main>
+
+  <footer class="colophon">
+    <div class="colophon-inner">
+      <div>
+        <p class="colophon-title">エイム沼の海外ログ</p>
+        <p>海外Reddit（r/FPSAimTrainer・r/MouseReview・r/MousepadReview）の議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
+      </div>
+      <div class="colophon-mono">
+        <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
+        <div>UPDATED: 2026.10.26 · 24 THREADS</div>
+        <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function shareToX() {
+      const u = window.location.href;
+      const t = document.title;
+      window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(t) + '&url=' + encodeURIComponent(u), '_blank', 'noopener');
+    }
+    function copyPageUrl(btn) {
+      const u = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(u);
+      }
+      const orig = btn.textContent;
+      btn.textContent = 'コピー完了';
+      setTimeout(() => { btn.textContent = orig; }, 1600);
+    }
+  </script>
+</body>
+</html>
