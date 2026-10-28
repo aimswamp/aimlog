@@ -11028,281 +11028,281 @@
     ],
     "comment_tree": [
       {
-        "id": "19roahipg5mat",
+        "id": "c1",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー1",
         "flair": "",
         "is_op": false,
         "score": 49,
         "body_en": "it's when you hit those sniper flicks in-game and it reminds you of your days on the front lines.\n\n(im muslim, and this is absolutely a joke, I've never used a pistol in real life, /j /s)",
-        "depth": 0,
-        "body_ja": "ゲーム内でフリックショットによるスナイパーキルを決めたとき、最前線にいた頃の記憶が蘇るんだよね。\n\n（僕はムスリムだけど、これは完全なジョークだよ。現実でピストルすら触ったことないからね、/j /s）"
+        "body_ja": "ゲーム内でスナイパーのフリックショットを決めたとき、最前線にいた頃の思い出がよみがえるよね。\n\n（自分はムスリムだし、これは完全なジョークだよ。実生活でピストルなんて使ったことないよ、/j /s）"
       },
       {
-        "id": "19rocbq7xf869",
-        "parent_id": "19roahipg5mat",
+        "id": "c2",
+        "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー2",
         "flair": "",
         "is_op": false,
         "score": 18,
         "body_en": "Provided every excuse possible",
-        "depth": 1,
-        "body_ja": "考えうる限りの言い訳を全部並べてて草"
+        "body_ja": "考えうる限りの言い訳をあらかじめ用意していくスタイル"
       },
       {
-        "id": "19rol0b181jc1",
-        "parent_id": "19rocbq7xf869",
-        "author": "海外ユーザー1",
+        "id": "c3",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー3",
         "flair": "",
         "is_op": false,
         "score": 12,
         "body_en": "I truly dont want the Belgian police on my doors because i said a joke online…\n\nIm also an immigrant. \n\nSo again ITS A JOKE BOYS",
-        "depth": 2,
-        "body_ja": "ネットでジョーク言っただけでベルギー警察に踏み込まれたくないからね…\n\n僕移民だし。\n\nだから言っておくけど、ただのジョークだからねみんな"
+        "body_ja": "ネットでジョークを言っただけでベルギー警察にドアを蹴破られたくはないんだよ…\n\n自分も移民だしね。\n\nだから繰り返すけど、ただのジョークだからな、みんな"
       },
       {
-        "id": "19rolkc5o0kkl",
-        "parent_id": "19rol0b181jc1",
-        "author": "海外ユーザー3",
+        "id": "c4",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー4",
         "flair": "",
         "is_op": false,
         "score": 9,
         "body_en": "Atp youre asking to get swatted gng 😭",
-        "depth": 3,
-        "body_ja": "そこまで言うと逆にSwat呼ばれそうなんだが😭"
+        "body_ja": "今のままじゃSWAT突入（スワッティング）を要求してるようなもんじゃんか😭"
       },
       {
-        "id": "19roccu3uaxwg",
-        "parent_id": "19roahipg5mat",
-        "author": "海外ユーザー4",
+        "id": "c5",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー5",
         "flair": "",
         "is_op": false,
         "score": 8,
         "body_en": "Haha or when planting the bomb in CS. INGAME INGAME",
-        "depth": 1,
-        "body_ja": "ハハ、CSで爆弾解除／設置するときもそれある。「ゲーム内の話」ね！"
+        "body_ja": "はは、あるいはCSで爆弾を設置するときね。ゲーム内で、ゲーム内だからね！"
       },
       {
-        "id": "19rodvb62rz1f",
+        "id": "c6",
         "parent_id": null,
-        "author": "海外ユーザー5",
+        "depth": 0,
+        "author": "海外ユーザー6",
         "flair": "",
         "is_op": false,
         "score": 2,
         "body_en": "7u? The heck is a 'u'?",
-        "depth": 0,
-        "body_ja": "7u？ 「u」って一体何なんだ？"
+        "body_ja": "7u？「u」っていったい何なんだ？"
       },
       {
-        "id": "19rofz7cvjs4h",
-        "parent_id": "19rodvb62rz1f",
-        "author": "海外ユーザー6",
+        "id": "c7",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー7",
         "flair": "",
         "is_op": false,
         "score": 4,
         "body_en": "\"Uur\" (hour)",
-        "depth": 1,
-        "body_ja": "「Uur」（オランダ語で「時間」のこと）だよ。"
+        "body_ja": "「Uur」（オランダ語やフラマン語で「時間」の意味）のことだよ"
       },
       {
-        "id": "19roh1cdjjwv9",
-        "parent_id": "19rofz7cvjs4h",
-        "author": "海外ユーザー5",
+        "id": "c8",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー8",
         "flair": "",
         "is_op": false,
-        "score": -2,
-        "body_en": "wow muslim is such a fascinating language!",
-        "depth": 2,
-        "body_ja": "へえ、ムスリム語って魅惑的な言語だな！"
+        "score": 1,
+        "body_en": "[+-2] wow muslim is such a fascinating language!",
+        "body_ja": "[+-2] おお、ムスリムってなんて魅惑的な言語なんだ！"
       },
       {
-        "id": "19roi4um60zz6",
-        "parent_id": "19roh1cdjjwv9",
-        "author": "海外ユーザー7",
+        "id": "c9",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー9",
         "flair": "",
         "is_op": false,
         "score": 7,
         "body_en": "Smartest aim trainer",
-        "depth": 3,
-        "body_ja": "エイムトレーナー界で一番頭いいやつ"
+        "body_ja": "一番知能の高いエイムトレーナー"
       },
       {
-        "id": "19rotnddd4ra9",
-        "parent_id": "19roi4um60zz6",
-        "author": "海外ユーザー5",
+        "id": "c10",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー10",
         "flair": "",
         "is_op": false,
         "score": 2,
         "body_en": "people dont know what humor is anymore lol look at the downvotes",
-        "depth": 4,
-        "body_ja": "みんなユーモアってものを忘れちまったみたいだな、この低評価の数を見てみなよ笑"
+        "body_ja": "今のやつらはユーモアが何なのかもう分かってないよな、このdownvote（低評価）の数を見ればわかるよ"
       },
       {
-        "id": "19rou18b8hqg3",
-        "parent_id": "19rotnddd4ra9",
-        "author": "海外ユーザー7",
+        "id": "c11",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー11",
         "flair": "",
         "is_op": false,
         "score": 0,
         "body_en": "If you thought that was a well-crafted joke, then I recommend you stick to your day job (unemployed)",
-        "depth": 5,
-        "body_ja": "これが完成度の高いジョークだと思ってんなら、本業（無職）に専念することを勧めるよ"
+        "body_ja": "もしそれがよく練られたジョークだと思ったなら、本業（無職）を続けることをお勧めするよ"
       },
       {
-        "id": "19rovspnnf0o4",
-        "parent_id": "19rou18b8hqg3",
-        "author": "海外ユーザー5",
-        "flair": "",
-        "is_op": false,
-        "score": 2,
-        "body_en": "Your parents ever teach you to be kind to strangers?",
-        "depth": 6,
-        "body_ja": "親から見知らぬ人には親切にしなさいって教わらなかったか？"
-      },
-      {
-        "id": "19roh4x2bzdwh",
+        "id": "c12",
         "parent_id": null,
-        "author": "海外ユーザー8",
-        "flair": "",
-        "is_op": false,
-        "score": 141,
-        "body_en": "I dont train my aim, I say inshallah and then I peak.",
         "depth": 0,
-        "body_ja": "俺はエイム練習なんてしない。「インシャッラー（神の御心のままに）」と唱えてからピークするだけだ。"
-      },
-      {
-        "id": "19rohs4ujnxgh",
-        "parent_id": "19roh4x2bzdwh",
-        "author": "海外ユーザー9",
-        "flair": "",
-        "is_op": false,
-        "score": 41,
-        "body_en": "Bismillah and wide swing",
-        "depth": 1,
-        "body_ja": "ビスミッラー（神の御名において）と言ってワイドスイング"
-      },
-      {
-        "id": "19rolz3zc9734",
-        "parent_id": "19roh4x2bzdwh",
-        "author": "海外ユーザー10",
-        "flair": "",
-        "is_op": false,
-        "score": 15,
-        "body_en": "Definition of spray and pray🙏🏻",
-        "depth": 1,
-        "body_ja": "まさに「Pray and Spray（祈ってフルオート撃ち）」の体現だな🙏🏻"
-      },
-      {
-        "id": "19romw62k7bxd",
-        "parent_id": "19rolz3zc9734",
-        "author": "海外ユーザー11",
-        "flair": "",
-        "is_op": false,
-        "score": 13,
-        "body_en": "No its pray then spray",
-        "depth": 2,
-        "body_ja": "いや、「Pray then Spray（祈ってから撃つ）」だろ"
-      },
-      {
-        "id": "19rooyg2qvcpx",
-        "parent_id": "19roh4x2bzdwh",
         "author": "海外ユーザー12",
         "flair": "",
         "is_op": false,
         "score": 2,
-        "body_en": "Truly peak",
-        "depth": 1,
-        "body_ja": "まさに真のピーク"
+        "body_en": "Your parents ever teach you to be kind to strangers?",
+        "body_ja": "見知らぬ人には優しくしなさいって親に教わらなかったのかい？"
       },
       {
-        "id": "19ropgiqfpmap",
-        "parent_id": "19roh4x2bzdwh",
+        "id": "c13",
+        "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー13",
         "flair": "",
         "is_op": false,
-        "score": 4,
-        "body_en": "you spelt pick wrong, sweaty",
-        "depth": 1,
-        "body_ja": "「peek」の綴り間違えてるぞ、汗っかきくん"
+        "score": 141,
+        "body_en": "I dont train my aim, I say inshallah and then I peak.",
+        "body_ja": "俺はエイムの練習なんてしない、インシャッラーと唱えてからピークするんだ。"
       },
       {
-        "id": "19roklz2ybqcj",
+        "id": "c14",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー14",
         "flair": "",
         "is_op": false,
-        "score": 5,
-        "body_en": "its just blessing your mouse before you peak",
-        "depth": 0,
-        "body_ja": "ピークする前にマウスにお祈りを捧げるだけさ"
+        "score": 41,
+        "body_en": "Bismillah and wide swing",
+        "body_ja": "ビスミッラーと唱えてからのワイドスイング"
       },
       {
-        "id": "19roll0ajp2jo",
+        "id": "c15",
         "parent_id": null,
-        "author": "海外ユーザー3",
-        "flair": "",
-        "is_op": false,
-        "score": 5,
-        "body_en": "Crosshair placement wallahi",
         "depth": 0,
-        "body_ja": "クロスヘア配置に神のご加護を"
-      },
-      {
-        "id": "19rooytkg4l5x",
-        "parent_id": null,
         "author": "海外ユーザー15",
         "flair": "",
         "is_op": false,
-        "score": 5,
-        "body_en": "Muslim memory is a myth!",
-        "depth": 0,
-        "body_ja": "マッスルメモリー（筋肉記憶）なんて幻想だったんだ！"
+        "score": 15,
+        "body_en": "Definition of spray and pray🙏🏻",
+        "body_ja": "「撃ちまくって神に祈る」のまさに定義🙏🏻"
       },
       {
-        "id": "19rou4a5cidcy",
+        "id": "c16",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー16",
         "flair": "",
         "is_op": false,
-        "score": 7,
-        "body_en": "I always ask my mother to cook a couscous before going in ranked. Doing that allowed me to be immo3 every season.\n\nPlay hard and be a Muslim pro",
-        "depth": 0,
-        "body_ja": "ランクマッチに行く前には必ず母さんにクスクスを作ってもらうことにしてる。それのおかげで毎シーズンイモータル3になれてるよ。\n\nハードにプレイしてプロになろう"
+        "score": 13,
+        "body_en": "No its pray then spray",
+        "body_ja": "No its pray then spray"
       },
       {
-        "id": "19rovzuiy9pnn",
+        "id": "c17",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー17",
         "flair": "",
         "is_op": false,
         "score": 2,
-        "body_en": "Praying to allah everytime you get a kill",
-        "depth": 0,
-        "body_ja": "キルを取るたびに神に感謝の祈りを捧げる"
+        "body_en": "Truly peak",
+        "body_ja": "まさにピーク（最高／角から顔を出す）"
       },
       {
-        "id": "19rp4guca525c",
+        "id": "c18",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー18",
         "flair": "",
         "is_op": false,
         "score": 4,
-        "body_en": "Prayer, not pre-fire habibi.",
+        "body_en": "you spelt pick wrong, sweaty",
+        "body_ja": "pickじゃなくてpeaked（あるいはpeek）のスペルを間違えてるぜ、汗かき野郎"
+      },
+      {
+        "id": "c19",
+        "parent_id": null,
         "depth": 0,
-        "body_ja": "プリファイア（置き撃ち）じゃなくて、プレイヤー（祈り）なんだよハビビ。"
+        "author": "海外ユーザー19",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "its just blessing your mouse before you peak",
+        "body_ja": "ピークする前にマウスを祝福しているだけだよ"
+      },
+      {
+        "id": "c20",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー20",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "Crosshair placement wallahi",
+        "body_ja": "ワッラーヒ、完璧なクロスヘアプレイスメントだわ"
+      },
+      {
+        "id": "c21",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー21",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "Muslim memory is a myth!",
+        "body_ja": "ムスリムの記憶力なんて都市伝説さ！"
+      },
+      {
+        "id": "c22",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー22",
+        "flair": "",
+        "is_op": false,
+        "score": 7,
+        "body_en": "I always ask my mother to cook a couscous before going in ranked. Doing that allowed me to be immo3 every season.\n\nPlay hard and be a Muslim pro",
+        "body_ja": "ランクマッチに行く前はいつも母親にクスクスを作ってもらうようにしてるんだ。そうすることで毎シーズンイモータル3でいられるんだよね。\n\nハードにプレイして、ムスリムのプロになろうぜ"
+      },
+      {
+        "id": "c23",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー23",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Praying to allah everytime you get a kill",
+        "body_ja": "キルを取るたびにアッラーに祈りを捧げる"
+      },
+      {
+        "id": "c24",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー24",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "body_en": "Prayer, not pre-fire habibi.",
+        "body_ja": "プリファイアじゃなくて、祈り（Prayer）なんだよ、ハビビ。"
       }
     ],
     "title_ja": "FPSコミュニティで大うけした「インシャラー」とエイム練習をめぐるユーモアの数々",
     "hook_ja": "エイム練習をせず「神の御心（インシャラー）」を唱えて敵にピークするというFPSコミュニティのミームが大きな笑いを誘っている。海外掲示板に投稿された、ユーモアあふれるコメントのやり取りを全訳する。",
     "op_post_ja": "",
     "consensus_points": [
-      "エイム練習も重要だが、メンタルや神頼み（運）といった要素をネタにして楽しむ文化が存在する。",
-      "海外のFPSコミュニティでは「Inshallah（インシャッラー）」などの表現がミームとして定着している。",
-      "「Pre-fire（プリファイア）」ではなく「Prayer（祈り）」でピークするなど、ダジャレやジョークを交えたやり取りが盛ん。"
+      "エイム練習よりも運や神への祈り（Inshallah）に頼るプレイスタイルがネタにされている",
+      "「Bismillah（ビスミッラー）」と唱えてワイドスイングやピークを行うのが定番のミームとなっている",
+      "ジョークであることを強調しないと警察や通報を心配するユーモアが飛び交っている"
     ],
-    "detailed_analysis_ja": "r/FPSAimTrainerなどのエイムトレーナー系サブレディットでは、日々の地道な練習やデータ分析だけでなく、時折こうしたジョークやミーム（ネタ投稿）が大きな盛り上がりを見せます。\n\n【1. スレッドで多用されるミーム用語】\n海外のゲーミングコミュニティ、特に『Counter-Strike』や『VALORANT』といったタディショナルなタクティカルシューターのプレイヤー層では、宗教的なアラビア語表現をジョークとして使うミームが存在します。\n・**Inshallah（神の御心のままに）**: 「エイム練習はせず、神に祈ってピーク（覗き込み）する」という自虐ネタとして使われます。\n・**Bismillah（神の御名において）**: 射撃や突入を始める際のかけ声として使われます。\n・**Spray and Pray（祈り撃ち）**: 反動制御や正確なエイムをせず、祈りながらフルオートで撃ちまくる行為を指す定番スラングです。\n\n【2. 海外コミュニティのユーモアと注意点】\n今回のスレッドでは、オランダ語表記の「7u（7uur = 7時間）」に対する言語ネタや、自身の生い立ちを交えた自虐ジョーク（誤解されて警察に来られないための注釈など）が見られます。海外Redditでは過激な表現を「/j（ジョーク）」「/s（皮肉）」などのトーンバリアー記号を付けて和らげる文化があり、FPSの殺伐とした対戦の合間に互いに笑い合うユーモアとして機能しています。\n\n【3. エイム上達とメンタリティ】\n過度な緊張や「エイム練習を完璧にこなさなければならない」というプレッシャーから解放され、リラックスしてプレイすること（あるいは単に「運に任せて強気に出る」こと）が、結果として良いパフォーマンスにつながるケースもあり、そうした実感がミームの背景にあります。",
+    "detailed_analysis_ja": "【1. FPSコミュニティにおけるミームとブラックジョーク】\n本スレッドは、FPSの競技シーンやエイム練習コミュニティにおける「気休め」や「運任せのプレイスタイル」を宗教的なミームで表現したユーモラスな投稿である。海外のゲーマー間では、実力やエイム練習以上に「神のご加護（Inshallah: インシャッラー）」や「ビスミッラー（神の名において）」を唱えて敵に突撃するというネタが以前から定着している。\n\n【2. コメント欄での大喜利と文化背景】\nコメント欄では「エイム練習なんてしない、インシャッラーと唱えてからピークするんだ」「ワイドスイングの前にビスミッラーだ」といったリプライが多数寄せられ、さながら大喜利状態となっている。また、過激なジョークに対して「ベルギー警察に踏み込まれたくないからこれはジョークだよ！」と予防線を張るユーモアも見られ、ネット特有のシュールな空気が共有されている。\n\n【3. デバイスへの言及について】\nなお、今回のスレッドは純粋なミームや雑談に終始しているため、特定のゲーミングマウスやマウスパッドといったハードウェアに関する言及は一切含まれていない。純粋なコミュニティのノリやジョークを楽しむトピックとなっている。",
     "devices": [],
-    "x_main_post": "【海外FPSミーム】エイム練習はもう古い？Redditで話題の「神頼みピーク」説\n・「インシャッラー」と唱えて突撃するのが最強？\n・筋肉記憶よりも運と勢いが勝つ瞬間\n・置き撃ち（Pre-fire）ではなく祈り（Prayer）で撃つネタが大流行中",
+    "x_main_post": "海外FPSコミュニティで大盛り上がり中のミーム大喜利！エイム練習よりも神への祈り（インシャッラー）とワイドスイングで敵を倒す独特なプレイスタイルがネタにされ、コメント欄ではユーモアあふれる宗教的ジョークが飛び交っています。",
     "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
     "short_script": [
       {
@@ -11348,250 +11348,250 @@
     ],
     "dialogue": [
       {
-        "id": "19roahipg5mat",
+        "id": "c1",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー1",
         "flair": "",
         "is_op": false,
         "score": 49,
-        "text": "ゲーム内でフリックショットによるスナイパーキルを決めたとき、最前線にいた頃の記憶が蘇るんだよね。\n\n（僕はムスリムだけど、これは完全なジョークだよ。現実でピストルすら触ったことないからね、/j /s）"
+        "text": "ゲーム内でスナイパーのフリックショットを決めたとき、最前線にいた頃の思い出がよみがえるよね。\n\n（自分はムスリムだし、これは完全なジョークだよ。実生活でピストルなんて使ったことないよ、/j /s）"
       },
       {
-        "id": "19rocbq7xf869",
-        "parent_id": "19roahipg5mat",
-        "depth": 1,
+        "id": "c2",
+        "parent_id": null,
+        "depth": 0,
         "speaker": "海外ユーザー2",
         "flair": "",
         "is_op": false,
         "score": 18,
-        "text": "考えうる限りの言い訳を全部並べてて草"
+        "text": "考えうる限りの言い訳をあらかじめ用意していくスタイル"
       },
       {
-        "id": "19rol0b181jc1",
-        "parent_id": "19rocbq7xf869",
-        "depth": 2,
-        "speaker": "海外ユーザー1",
-        "flair": "",
-        "is_op": false,
-        "score": 12,
-        "text": "ネットでジョーク言っただけでベルギー警察に踏み込まれたくないからね…\n\n僕移民だし。\n\nだから言っておくけど、ただのジョークだからねみんな"
-      },
-      {
-        "id": "19rolkc5o0kkl",
-        "parent_id": "19rol0b181jc1",
-        "depth": 3,
+        "id": "c3",
+        "parent_id": null,
+        "depth": 0,
         "speaker": "海外ユーザー3",
         "flair": "",
         "is_op": false,
-        "score": 9,
-        "text": "そこまで言うと逆にSwat呼ばれそうなんだが😭"
+        "score": 12,
+        "text": "ネットでジョークを言っただけでベルギー警察にドアを蹴破られたくはないんだよ…\n\n自分も移民だしね。\n\nだから繰り返すけど、ただのジョークだからな、みんな"
       },
       {
-        "id": "19roccu3uaxwg",
-        "parent_id": "19roahipg5mat",
-        "depth": 1,
+        "id": "c4",
+        "parent_id": null,
+        "depth": 0,
         "speaker": "海外ユーザー4",
         "flair": "",
         "is_op": false,
-        "score": 8,
-        "text": "ハハ、CSで爆弾解除／設置するときもそれある。「ゲーム内の話」ね！"
+        "score": 9,
+        "text": "今のままじゃSWAT突入（スワッティング）を要求してるようなもんじゃんか😭"
       },
       {
-        "id": "19rodvb62rz1f",
+        "id": "c5",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー5",
         "flair": "",
         "is_op": false,
-        "score": 2,
-        "text": "7u？ 「u」って一体何なんだ？"
+        "score": 8,
+        "text": "はは、あるいはCSで爆弾を設置するときね。ゲーム内で、ゲーム内だからね！"
       },
       {
-        "id": "19rofz7cvjs4h",
-        "parent_id": "19rodvb62rz1f",
-        "depth": 1,
+        "id": "c6",
+        "parent_id": null,
+        "depth": 0,
         "speaker": "海外ユーザー6",
         "flair": "",
         "is_op": false,
+        "score": 2,
+        "text": "7u？「u」っていったい何なんだ？"
+      },
+      {
+        "id": "c7",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
         "score": 4,
-        "text": "「Uur」（オランダ語で「時間」のこと）だよ。"
+        "text": "「Uur」（オランダ語やフラマン語で「時間」の意味）のことだよ"
       },
       {
-        "id": "19roh1cdjjwv9",
-        "parent_id": "19rofz7cvjs4h",
-        "depth": 2,
-        "speaker": "海外ユーザー5",
-        "flair": "",
-        "is_op": false,
-        "score": -2,
-        "text": "へえ、ムスリム語って魅惑的な言語だな！"
-      },
-      {
-        "id": "19roi4um60zz6",
-        "parent_id": "19roh1cdjjwv9",
-        "depth": 3,
-        "speaker": "海外ユーザー7",
-        "flair": "",
-        "is_op": false,
-        "score": 7,
-        "text": "エイムトレーナー界で一番頭いいやつ"
-      },
-      {
-        "id": "19rotnddd4ra9",
-        "parent_id": "19roi4um60zz6",
-        "depth": 4,
-        "speaker": "海外ユーザー5",
-        "flair": "",
-        "is_op": false,
-        "score": 2,
-        "text": "みんなユーモアってものを忘れちまったみたいだな、この低評価の数を見てみなよ笑"
-      },
-      {
-        "id": "19rou18b8hqg3",
-        "parent_id": "19rotnddd4ra9",
-        "depth": 5,
-        "speaker": "海外ユーザー7",
-        "flair": "",
-        "is_op": false,
-        "score": 0,
-        "text": "これが完成度の高いジョークだと思ってんなら、本業（無職）に専念することを勧めるよ"
-      },
-      {
-        "id": "19rovspnnf0o4",
-        "parent_id": "19rou18b8hqg3",
-        "depth": 6,
-        "speaker": "海外ユーザー5",
-        "flair": "",
-        "is_op": false,
-        "score": 2,
-        "text": "親から見知らぬ人には親切にしなさいって教わらなかったか？"
-      },
-      {
-        "id": "19roh4x2bzdwh",
+        "id": "c8",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー8",
         "flair": "",
         "is_op": false,
-        "score": 141,
-        "text": "俺はエイム練習なんてしない。「インシャッラー（神の御心のままに）」と唱えてからピークするだけだ。"
+        "score": 1,
+        "text": "[+-2] おお、ムスリムってなんて魅惑的な言語なんだ！"
       },
       {
-        "id": "19rohs4ujnxgh",
-        "parent_id": "19roh4x2bzdwh",
-        "depth": 1,
+        "id": "c9",
+        "parent_id": null,
+        "depth": 0,
         "speaker": "海外ユーザー9",
         "flair": "",
         "is_op": false,
-        "score": 41,
-        "text": "ビスミッラー（神の御名において）と言ってワイドスイング"
+        "score": 7,
+        "text": "一番知能の高いエイムトレーナー"
       },
       {
-        "id": "19rolz3zc9734",
-        "parent_id": "19roh4x2bzdwh",
-        "depth": 1,
+        "id": "c10",
+        "parent_id": null,
+        "depth": 0,
         "speaker": "海外ユーザー10",
         "flair": "",
         "is_op": false,
-        "score": 15,
-        "text": "まさに「Pray and Spray（祈ってフルオート撃ち）」の体現だな🙏🏻"
+        "score": 2,
+        "text": "今のやつらはユーモアが何なのかもう分かってないよな、このdownvote（低評価）の数を見ればわかるよ"
       },
       {
-        "id": "19romw62k7bxd",
-        "parent_id": "19rolz3zc9734",
-        "depth": 2,
+        "id": "c11",
+        "parent_id": null,
+        "depth": 0,
         "speaker": "海外ユーザー11",
         "flair": "",
         "is_op": false,
-        "score": 13,
-        "text": "いや、「Pray then Spray（祈ってから撃つ）」だろ"
+        "score": 0,
+        "text": "もしそれがよく練られたジョークだと思ったなら、本業（無職）を続けることをお勧めするよ"
       },
       {
-        "id": "19rooyg2qvcpx",
-        "parent_id": "19roh4x2bzdwh",
-        "depth": 1,
+        "id": "c12",
+        "parent_id": null,
+        "depth": 0,
         "speaker": "海外ユーザー12",
         "flair": "",
         "is_op": false,
         "score": 2,
-        "text": "まさに真のピーク"
+        "text": "見知らぬ人には優しくしなさいって親に教わらなかったのかい？"
       },
       {
-        "id": "19ropgiqfpmap",
-        "parent_id": "19roh4x2bzdwh",
-        "depth": 1,
+        "id": "c13",
+        "parent_id": null,
+        "depth": 0,
         "speaker": "海外ユーザー13",
         "flair": "",
         "is_op": false,
-        "score": 4,
-        "text": "「peek」の綴り間違えてるぞ、汗っかきくん"
+        "score": 141,
+        "text": "俺はエイムの練習なんてしない、インシャッラーと唱えてからピークするんだ。"
       },
       {
-        "id": "19roklz2ybqcj",
+        "id": "c14",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー14",
         "flair": "",
         "is_op": false,
-        "score": 5,
-        "text": "ピークする前にマウスにお祈りを捧げるだけさ"
+        "score": 41,
+        "text": "ビスミッラーと唱えてからのワイドスイング"
       },
       {
-        "id": "19roll0ajp2jo",
-        "parent_id": null,
-        "depth": 0,
-        "speaker": "海外ユーザー3",
-        "flair": "",
-        "is_op": false,
-        "score": 5,
-        "text": "クロスヘア配置に神のご加護を"
-      },
-      {
-        "id": "19rooytkg4l5x",
+        "id": "c15",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー15",
         "flair": "",
         "is_op": false,
-        "score": 5,
-        "text": "マッスルメモリー（筋肉記憶）なんて幻想だったんだ！"
+        "score": 15,
+        "text": "「撃ちまくって神に祈る」のまさに定義🙏🏻"
       },
       {
-        "id": "19rou4a5cidcy",
+        "id": "c16",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー16",
         "flair": "",
         "is_op": false,
-        "score": 7,
-        "text": "ランクマッチに行く前には必ず母さんにクスクスを作ってもらうことにしてる。それのおかげで毎シーズンイモータル3になれてるよ。\n\nハードにプレイしてプロになろう"
+        "score": 13,
+        "text": "No its pray then spray"
       },
       {
-        "id": "19rovzuiy9pnn",
+        "id": "c17",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー17",
         "flair": "",
         "is_op": false,
         "score": 2,
-        "text": "キルを取るたびに神に感謝の祈りを捧げる"
+        "text": "まさにピーク（最高／角から顔を出す）"
       },
       {
-        "id": "19rp4guca525c",
+        "id": "c18",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー18",
         "flair": "",
         "is_op": false,
         "score": 4,
-        "text": "プリファイア（置き撃ち）じゃなくて、プレイヤー（祈り）なんだよハビビ。"
+        "text": "pickじゃなくてpeaked（あるいはpeek）のスペルを間違えてるぜ、汗かき野郎"
+      },
+      {
+        "id": "c19",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー19",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "ピークする前にマウスを祝福しているだけだよ"
+      },
+      {
+        "id": "c20",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー20",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "ワッラーヒ、完璧なクロスヘアプレイスメントだわ"
+      },
+      {
+        "id": "c21",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー21",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "ムスリムの記憶力なんて都市伝説さ！"
+      },
+      {
+        "id": "c22",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー22",
+        "flair": "",
+        "is_op": false,
+        "score": 7,
+        "text": "ランクマッチに行く前はいつも母親にクスクスを作ってもらうようにしてるんだ。そうすることで毎シーズンイモータル3でいられるんだよね。\n\nハードにプレイして、ムスリムのプロになろうぜ"
+      },
+      {
+        "id": "c23",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー23",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "キルを取るたびにアッラーに祈りを捧げる"
+      },
+      {
+        "id": "c24",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー24",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "text": "プリファイアじゃなくて、祈り（Prayer）なんだよ、ハビビ。"
       }
     ],
     "status": "published",
     "x_posted": false,
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xfr6hi.html",
-    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90%E6%B5%B7%E5%A4%96FPS%E3%83%9F%E3%83%BC%E3%83%A0%E3%80%91%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%81%AF%E3%82%82%E3%81%86%E5%8F%A4%E3%81%84%EF%BC%9FReddit%E3%81%A7%E8%A9%B1%E9%A1%8C%E3%81%AE%E3%80%8C%E7%A5%9E%E9%A0%BC%E3%81%BF%E3%83%94%E3%83%BC%E3%82%AF%E3%80%8D%E8%AA%AC%0A%E3%83%BB%E3%80%8C%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%83%E3%83%A9%E3%83%BC%E3%80%8D%E3%81%A8%E5%94%B1%E3%81%88%E3%81%A6%E7%AA%81%E6%92%83%E3%81%99%E3%82%8B%E3%81%AE%E3%81%8C%E6%9C%80%E5%BC%B7%EF%BC%9F%0A%E3%83%BB%E7%AD%8B%E8%82%89%E8%A8%98%E6%86%B6%E3%82%88%E3%82%8A%E3%82%82%E9%81%8B%E3%81%A8%E5%8B%A2%E3%81%84%E3%81%8C%E5%8B%9D%E3%81%A4%E7%9E%AC%E9%96%93%0A%E3%83%BB%E7%BD%AE%E3%81%8D%E6%92%83%E3%81%A1%EF%BC%88Pre-fire%EF%BC%89%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E7%A5%88%E3%82%8A%EF%BC%88Prayer%EF%BC%89%E3%81%A7%E6%92%83%E3%81%A4%E3%83%8D%E3%82%BF%E3%81%8C%E5%A4%A7%E6%B5%81%E8%A1%8C%E4%B8%AD%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xfr6hi.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E6%B5%B7%E5%A4%96FPS%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%A7%E5%A4%A7%E7%9B%9B%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8A%E4%B8%AD%E3%81%AE%E3%83%9F%E3%83%BC%E3%83%A0%E5%A4%A7%E5%96%9C%E5%88%A9%EF%BC%81%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%82%88%E3%82%8A%E3%82%82%E7%A5%9E%E3%81%B8%E3%81%AE%E7%A5%88%E3%82%8A%EF%BC%88%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%83%E3%83%A9%E3%83%BC%EF%BC%89%E3%81%A8%E3%83%AF%E3%82%A4%E3%83%89%E3%82%B9%E3%82%A4%E3%83%B3%E3%82%B0%E3%81%A7%E6%95%B5%E3%82%92%E5%80%92%E3%81%99%E7%8B%AC%E7%89%B9%E3%81%AA%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%8C%E3%83%8D%E3%82%BF%E3%81%AB%E3%81%95%E3%82%8C%E3%80%81%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E6%AC%84%E3%81%A7%E3%81%AF%E3%83%A6%E3%83%BC%E3%83%A2%E3%82%A2%E3%81%82%E3%81%B5%E3%82%8C%E3%82%8B%E5%AE%97%E6%95%99%E7%9A%84%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AF%E3%81%8C%E9%A3%9B%E3%81%B3%E4%BA%A4%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xfr6hi.html",
     "created_at": "2026-10-27T09:27:01.282033+00:00"
   },
   {
@@ -15868,136 +15868,148 @@
     ],
     "comment_tree": [
       {
-        "id": "19rpsq5xpu2px",
+        "id": "c1",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー1",
         "flair": "",
         "is_op": false,
         "score": 4,
         "body_en": "such a good shade of pink",
-        "depth": 0,
-        "body_ja": "本当にいいピンクの色合いだね"
+        "body_ja": "めちゃくちゃ良い色合いのピンクだね。"
       },
       {
-        "id": "19rptp05sfhhc",
+        "id": "c2",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー2",
         "flair": "",
         "is_op": false,
         "score": 2,
         "body_en": "Is that the Lamzu Maya X in the top right corner?",
-        "depth": 0,
-        "body_ja": "右上にあるのはLamzu Maya X？"
+        "body_ja": "右上の角にあるのはLamzu Maya Xかな？"
       },
       {
-        "id": "19rpwkqldjfic",
-        "parent_id": "19rptp05sfhhc",
-        "author": "スレ主",
-        "flair": "gearz.gg/xz",
-        "is_op": true,
-        "score": 1,
-        "body_en": "yessir",
-        "depth": 1,
-        "body_ja": "そうだよ"
-      },
-      {
-        "id": "19rqj9gtgxzk4",
+        "id": "c3",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー3",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "Which shape is your fav? I main a Vaxee E1-B (which I assume is the bottom left).",
-        "depth": 0,
-        "body_ja": "どの形状がお気に入り？左下にあるのはたぶんVaxee E1-Bだと思うんだけど。"
+        "body_en": "yessir",
+        "body_ja": "その通りだよ。"
       },
       {
-        "id": "19rql39i1ewqr",
-        "parent_id": "19rqj9gtgxzk4",
-        "author": "スレ主",
-        "flair": "gearz.gg/xz",
-        "is_op": true,
-        "score": 1,
-        "body_en": "its actually the np01s ergo. i love the shape because it's rear humped which is actually really unique when it comes to ergos and makes it better for my claw grip. my favorite shape here though is the ulx classic. the beast x max doesnt feel the same",
-        "depth": 1,
-        "body_ja": "実はnp01s ergoなんだよね。エルゴノミクスとしてはかなり珍しい後方のコブがお気に入りなんだ。掴み持ちがめちゃくちゃやりやすくなるからさ。でもここにある中で一番好きな形状はulx classicかな。beast x maxは同じようには感じないんだよね。"
-      },
-      {
-        "id": "19rqumpy1ap1g",
+        "id": "c4",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー4",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "im planning on getting a lamzu or vaxee mouse primarily for valorant i use a pretty standard claw grip. im getting the zero soft and type99 soft to try out both and im a low sens player 0.23 800dpi i might change my sens in the future but the highest its ever gonna go is 0.3. my hand is 19.3 by 9.5 so like medium. which mouse would you recommend? i have no idea what to look for ive been using a g305 for the last 5-6 years",
-        "depth": 0,
-        "body_ja": "主にVALORANT用としてLamzuかVaxeeのマウスの購入を考えていて、持ち方はけっこう標準的な掴み持ちなんだ。両方試すために零 SoftとType99 Softも買う予定で、感度は800DPIで0.23のローセンシプレイヤーなんだけど、将来的に感度を変えるとしても最高で0.3くらいかな。手のサイズは19.3×9.5で中くらいなんだけど、どのマウスがおすすめ？G305をここ5〜6年使ってきたから、何を見て選べばいいのか全然わからないんだよね。"
+        "body_en": "Which shape is your fav? I main a Vaxee E1-B (which I assume is the bottom left).",
+        "body_ja": "どれが一番お気に入りの形状？ 自分はVAXEE E1-B（たぶん左下のやつだよね）をメインで使ってるよ。"
       },
       {
-        "id": "19rqwlrzu5f7k",
+        "id": "c5",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー5",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "just curious on your personal ranking of these mice? rlly nice collection\n\n& do you notice if the pink zero is faster/slower than the regular black?",
-        "depth": 0,
-        "body_ja": "これらのマウスの個人的なランキングが気になっちゃうな。すごくいいコレクションだね！\nあと、ピンクの零は通常の黒と比べて滑りが早いか遅いか気づくことある？"
+        "body_en": "its actually the np01s ergo. i love the shape because it's rear humped which is actually really unique when it comes to ergos and makes it better for my claw grip. my favorite shape here though is the ulx classic. the beast x max doesnt feel the same",
+        "body_ja": "実はそれNP-01Sなんだ。エルゴノミクス形状なのに後部にコブがあるのが本当にユニークで、僕のつかみ持ちにめちゃくちゃ合ってるから大好きな形状なんだよね。でもここに置いてある中で一番のお気に入り形状はULX Classicかな。Beast X Maxは同じフィーリングには感じられないんだ。"
       },
       {
-        "id": "19rr5vhthmhc4",
+        "id": "c6",
         "parent_id": null,
+        "depth": 0,
         "author": "海外ユーザー6",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "I love it so much, I have the same wlmouse bunny mouse but I'm worried about pink on pink looking bad ;_;",
+        "body_en": "im planning on getting a lamzu or vaxee mouse primarily for valorant i use a pretty standard claw grip. im getting the zero soft and type99 soft to try out both and im a low sens player 0.23 800dpi i might change my sens in the future but the highest its ever gonna go is 0.3. my hand is 19.3 by 9.5 so like medium. which mouse would you recommend? i have no idea what to look for ive been using a g305 for the last 5-6 years",
+        "body_ja": "主にVALORANT用にLamzuかVAXEEのマウスを買おうと考えていて、一般的なつかみ持ちをしてます。零 SoftとType99 Softの両方を試すために手に入れる予定で、自分はローセンシ（800DPIの0.23、将来変えるかもだけど最高でも0.3）です。手の大きさは19.3×9.5cmで、いわゆるミディアムサイズです。どのマウスがおすすめですか？ ここ5〜6年はずっとG305を使い続けてきたので、何を選べばいいのかさっぱり分からなくて。"
+      },
+      {
+        "id": "c7",
+        "parent_id": null,
         "depth": 0,
-        "body_ja": "すごく気に入ってるよ。自分も同じWLmouseのバニーマウスを持っているんだけど、ピンクの上にピンクを合わせると変に見えないか心配なんだよね ;_;"
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "just curious on your personal ranking of these mice? rlly nice collection\n\n& do you notice if the pink zero is faster/slower than the regular black?",
+        "body_ja": "単純な興味なんだけど、これらのマウスの個人的なランキングってどんな感じ？ すごく素敵なコレクションだね。\n\nあと、ピンクの零は通常のブラックと比べて速いとか遅いとか違いを感じたりする？"
+      },
+      {
+        "id": "c8",
+        "parent_id": null,
+        "depth": 0,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I love it so much, I have the same wlmouse bunny mouse but I'm worried about pink on pink looking bad ;_;",
+        "body_ja": "めっちゃいいね。自分も全く同じWLmouseのウサギ柄マウスを持ってるんだけど、ピンクの上にピンクを合わせると合わないんじゃないかって心配でさ ;_;"
       }
     ],
     "title_ja": "ARTISAN 零 Sakuraの美しさと海外コミュニティのゲーミングマウス談義",
     "hook_ja": "美しいピンクカラーのARTISAN 零 Sakuraマウスパッドと、スレ主の豪華なマウスコレクションを巡る海外ユーザーのやり取り。",
     "op_post_ja": "",
     "consensus_points": [
-      "ARTISAN 零 Sakuraのピンクの色合いが非常に美しいと高く評価されている。",
-      "VAXEEのNP-01Sはリア側のコブが特徴的で、掴み持ち（クロウグリップ）と非常に相性が良い。",
-      "VALORantなどのタクティカルシューター向けに、ローセンシ環境で使えるマウスやマウスパッドの組み合わせが議論されている。"
+      "ARTISAN 零のサクラピンク（限定カラー）は絶妙な色合いでビジュアル面の評価が非常に高い",
+      "VAXEE NP-01Sはエルゴ形状ながら後部ハンプがあり、つかみ持ちユーザーから唯一無二のフィット感として高く評価されている",
+      "Finalmouse ULX ClassicとWLmouse Beast X Maxは似た系統と見られがちだが、実際に握るとフィーリングが異なると評されている"
     ],
-    "detailed_analysis_ja": "【1. ARTISAN 零 Sakuraの美観と評価】\n海外のゲーミングマウスパッドコミュニティにおいて、ARTISANの「零（Zero）」シリーズは圧倒的な定番布製パッドとして君臨しています。その中でも限定的、あるいは特別色として登場する「Sakura（さくら）」カラーは、その絶妙なピンクの色合いからビジュアル面で非常に高い人気を誇っています。単なる性能だけでなく、デスク周りの美観（アークティック・ピンク系やパステル調のセットアップ）を重視するユーザー層の間で話題になりやすいアイテムです。\n\n【2. ゲーミングマウスの形状と持ち方（エルゴと対称形）】\nスレッド内では、Lamzu Maya X、WLmouse Beast X Max、そしてVAXEE NP-01Sといった最新の高性能ワイヤレスマウスが言及されています。特にVAXEEのエルゴノミクス形状（NP-01Sなど）は、一般的なエルゴマウスとは異なり、後方（リア）に重心やコブがある設計になっており、これが掴み持ち（クロウグリップ）のユーザーにとって独自のフィット感を生み出しています。対称形（ファイナルマウス系など）を好むプレイヤーが多い中、エルゴノミクスでありながら掴みやすい形状は高く評価されています。\n\n【3. VALORANT向けのデバイス選択とローセンシ環境】\nコメントでは、VALORANTをメインにプレイするローセンシプレイヤー（800DPI / 0.23等）からの相談も寄せられています。G305などのエントリーモデルから、LamzuやVAXEEのフラッグシップマウス、そしてARTISAN 零 SoftやType-99 Softといった王道かつ高品質なマウスパッドへアップグレードする際、手のサイズ（約19cm×9.5cm）や持ち方に合わせた選択が重要視されています。",
+    "detailed_analysis_ja": "本スレッドは、日本の高品質ゲーミングマウスパッドメーカー「ARTISAN」の人気布製コントロール系パッド『零（ZERO）』の限定カラー「サクラピンク（Sakura Pink）」のデスク周り写真をきっかけに展開された議論です。\n\n【1. ARTISAN 零 サクラピンクの魅力と滑りの違い】\nARTISANの「零」は、Logicool G 640などからのアップグレード先として世界中の競技プレイヤー（特にVALORANTやCS2などのタクティカルFPSプレイヤー）に愛用されているスタンダードなコントロールパッドです。通常はブラックやオレンジのカラー展開ですが、限定的にリリースされるサクラピンクは「派手すぎず上品なピンクの色合いが素晴らしい」と高い評価を得ています。カラーバリエーションによる滑り（速度）の差異について言及されることも多く、海外コミュニティでは中間色や明るいカラーの織り糸による滑走感の違いが関心事となっています。\n\n【2. 登場マウスに見るエルゴと左右対称のトレンド】\n画像内に配置されていたマウス（Lamzu Maya X、VAXEE NP-01S、Finalmouse ULX、WLmouse Beast X Maxなど）の形状についても議論が白熱しました。特にVAXEEの『NP-01S』は、左右非対称（エルゴノミクス）でありながら後部にしっかりとしたハンプ（背のコブ）が配置されており、通常のエルゴマウスでは前傾姿勢になりがちな「つかみ持ち（Claw Grip）」プレイヤーにとって極めて安定感の高い独自のホールド感を提供します。\n\n【3. 軽量マグネシウム・カーボンマウスの握り心地の差】\nまた、Finalmouse ULX ClassicとWLmouse Beast X Maxの比較では、外見や穴あき構造のコンセプトが似ているものの、シェルの肉厚感やサイドの絞り込み、指の当たるカーブの違いから「別物のフィーリングになる」という実使用者のリアルな意見が交わされています。長年Logicool G305のような小型卵型マウスを使ってきたユーザーへの乗り換え相談など、現代の競技マウス選びにおける形状とサイズ感の重要性が浮き彫りになっています。",
     "devices": [
       {
-        "name": "ARTISAN 零 Soft",
+        "name": "ARTISAN 零",
         "category": "mousepad",
         "sentiment": "positive",
-        "comment_ja": "Sakuraカラーの美しい色合いや、通常の黒との質感・滑りの違い、VALORANT向けの定番パッドとして高い関心を集めている。"
+        "comment_ja": "サクラピンクの色合いが非常に美しく絶妙であると高く評価されている。"
       },
       {
-        "name": "ARTISAN Type-99 Soft",
+        "name": "ARTISAN TYPE-99",
         "category": "mousepad",
-        "sentiment": "positive",
-        "comment_ja": "VALORANT向けのローセンシ環境において、零と合わせて試すために購入が検討されている注目パッド。"
+        "sentiment": "neutral",
+        "comment_ja": "VALORANT用のコントロールパッドとして零Softとともに比較検討されている。"
       },
       {
         "name": "Lamzu Maya X",
         "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "デスク上に配置された注目マウスとして確認されている。"
+      },
+      {
+        "name": "VAXEE ZYGEN NP-01S",
+        "category": "mouse",
         "sentiment": "positive",
-        "comment_ja": "画像内にコレクションとして含まれており、VALORANT向けのマウス候補としても言及されている。"
+        "comment_ja": "エルゴ形状でありながら後部にコブがあり、つかみ持ちユーザーにとって唯一無二のフィット感があると絶賛されている。"
+      },
+      {
+        "name": "Finalmouse UltralightX",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "コレクションの中で一番お気に入りの形状として挙げられている。"
       },
       {
         "name": "WLmouse Beast X Max",
         "category": "mouse",
         "sentiment": "neutral",
-        "comment_ja": "コレクションに含まれているが、ULX Classicとはフィーリングが異なると評価されている。"
+        "comment_ja": "ULX Classicとは似ているようで握り心地のフィーリングが異なると評価されている。"
       },
       {
         "name": "Logicool G305",
         "category": "mouse",
         "sentiment": "neutral",
-        "comment_ja": "ユーザーが5〜6年間にわたり長く愛用してきた基準となるワイヤレスマウス。"
+        "comment_ja": "5〜6年間長年使い続けられてきた基準マウスとして名前が挙がっている。"
       }
     ],
-    "x_main_post": "海外掲示板で話題の美しすぎるARTISAN 零 Sakuraマウスパッドと、Lamzu・VAXEE等のこだわりマウスコレクション！掴み持ちに最適なエルゴ形状やVALORANT向けローセンシ構成の意見が飛び交う注目スレッドです。",
+    "x_main_post": "ARTISAN 零のサクラピンクが海外で大絶賛！\n\n・派手すぎず上品なピンクの色合いが最高\n・同乗のNP-01Sは「後部コブ付きエルゴ」でつかみ持ちに神フィット\n・ULXとBeast X Maxは似て非なる握り心地\n\nデスク周りの映えと競技性能を両立した至高の構成です。",
     "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
     "short_script": [
       {
@@ -16043,90 +16055,90 @@
     ],
     "dialogue": [
       {
-        "id": "19rpsq5xpu2px",
+        "id": "c1",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー1",
         "flair": "",
         "is_op": false,
         "score": 4,
-        "text": "本当にいいピンクの色合いだね"
+        "text": "めちゃくちゃ良い色合いのピンクだね。"
       },
       {
-        "id": "19rptp05sfhhc",
+        "id": "c2",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー2",
         "flair": "",
         "is_op": false,
         "score": 2,
-        "text": "右上にあるのはLamzu Maya X？"
+        "text": "右上の角にあるのはLamzu Maya Xかな？"
       },
       {
-        "id": "19rpwkqldjfic",
-        "parent_id": "19rptp05sfhhc",
-        "depth": 1,
-        "speaker": "スレ主",
-        "flair": "gearz.gg/xz",
-        "is_op": true,
-        "score": 1,
-        "text": "そうだよ"
-      },
-      {
-        "id": "19rqj9gtgxzk4",
+        "id": "c3",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー3",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "どの形状がお気に入り？左下にあるのはたぶんVaxee E1-Bだと思うんだけど。"
+        "text": "その通りだよ。"
       },
       {
-        "id": "19rql39i1ewqr",
-        "parent_id": "19rqj9gtgxzk4",
-        "depth": 1,
-        "speaker": "スレ主",
-        "flair": "gearz.gg/xz",
-        "is_op": true,
-        "score": 1,
-        "text": "実はnp01s ergoなんだよね。エルゴノミクスとしてはかなり珍しい後方のコブがお気に入りなんだ。掴み持ちがめちゃくちゃやりやすくなるからさ。でもここにある中で一番好きな形状はulx classicかな。beast x maxは同じようには感じないんだよね。"
-      },
-      {
-        "id": "19rqumpy1ap1g",
+        "id": "c4",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー4",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "主にVALORANT用としてLamzuかVaxeeのマウスの購入を考えていて、持ち方はけっこう標準的な掴み持ちなんだ。両方試すために零 SoftとType99 Softも買う予定で、感度は800DPIで0.23のローセンシプレイヤーなんだけど、将来的に感度を変えるとしても最高で0.3くらいかな。手のサイズは19.3×9.5で中くらいなんだけど、どのマウスがおすすめ？G305をここ5〜6年使ってきたから、何を見て選べばいいのか全然わからないんだよね。"
+        "text": "どれが一番お気に入りの形状？ 自分はVAXEE E1-B（たぶん左下のやつだよね）をメインで使ってるよ。"
       },
       {
-        "id": "19rqwlrzu5f7k",
+        "id": "c5",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー5",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "これらのマウスの個人的なランキングが気になっちゃうな。すごくいいコレクションだね！\nあと、ピンクの零は通常の黒と比べて滑りが早いか遅いか気づくことある？"
+        "text": "実はそれNP-01Sなんだ。エルゴノミクス形状なのに後部にコブがあるのが本当にユニークで、僕のつかみ持ちにめちゃくちゃ合ってるから大好きな形状なんだよね。でもここに置いてある中で一番のお気に入り形状はULX Classicかな。Beast X Maxは同じフィーリングには感じられないんだ。"
       },
       {
-        "id": "19rr5vhthmhc4",
+        "id": "c6",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー6",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "すごく気に入ってるよ。自分も同じWLmouseのバニーマウスを持っているんだけど、ピンクの上にピンクを合わせると変に見えないか心配なんだよね ;_;"
+        "text": "主にVALORANT用にLamzuかVAXEEのマウスを買おうと考えていて、一般的なつかみ持ちをしてます。零 SoftとType99 Softの両方を試すために手に入れる予定で、自分はローセンシ（800DPIの0.23、将来変えるかもだけど最高でも0.3）です。手の大きさは19.3×9.5cmで、いわゆるミディアムサイズです。どのマウスがおすすめですか？ ここ5〜6年はずっとG305を使い続けてきたので、何を選べばいいのかさっぱり分からなくて。"
+      },
+      {
+        "id": "c7",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "単純な興味なんだけど、これらのマウスの個人的なランキングってどんな感じ？ すごく素敵なコレクションだね。\n\nあと、ピンクの零は通常のブラックと比べて速いとか遅いとか違いを感じたりする？"
+      },
+      {
+        "id": "c8",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "めっちゃいいね。自分も全く同じWLmouseのウサギ柄マウスを持ってるんだけど、ピンクの上にピンクを合わせると合わないんじゃないかって心配でさ ;_;"
       }
     ],
     "status": "draft",
     "x_posted": false,
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xgjd5p.html",
-    "x_intent_url": "https://twitter.com/intent/tweet?text=%E6%B5%B7%E5%A4%96%E6%8E%B2%E7%A4%BA%E6%9D%BF%E3%81%A7%E8%A9%B1%E9%A1%8C%E3%81%AE%E7%BE%8E%E3%81%97%E3%81%99%E3%81%8E%E3%82%8BARTISAN%20%E9%9B%B6%20Sakura%E3%83%9E%E3%82%A6%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%E3%81%A8%E3%80%81Lamzu%E3%83%BBVAXEE%E7%AD%89%E3%81%AE%E3%81%93%E3%81%A0%E3%82%8F%E3%82%8A%E3%83%9E%E3%82%A6%E3%82%B9%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%81%E6%8E%B4%E3%81%BF%E6%8C%81%E3%81%A1%E3%81%AB%E6%9C%80%E9%81%A9%E3%81%AA%E3%82%A8%E3%83%AB%E3%82%B4%E5%BD%A2%E7%8A%B6%E3%82%84VALORANT%E5%90%91%E3%81%91%E3%83%AD%E3%83%BC%E3%82%BB%E3%83%B3%E3%82%B7%E6%A7%8B%E6%88%90%E3%81%AE%E6%84%8F%E8%A6%8B%E3%81%8C%E9%A3%9B%E3%81%B3%E4%BA%A4%E3%81%86%E6%B3%A8%E7%9B%AE%E3%82%B9%E3%83%AC%E3%83%83%E3%83%89%E3%81%A7%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xgjd5p.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=ARTISAN%20%E9%9B%B6%E3%81%AE%E3%82%B5%E3%82%AF%E3%83%A9%E3%83%94%E3%83%B3%E3%82%AF%E3%81%8C%E6%B5%B7%E5%A4%96%E3%81%A7%E5%A4%A7%E7%B5%B6%E8%B3%9B%EF%BC%81%0A%0A%E3%83%BB%E6%B4%BE%E6%89%8B%E3%81%99%E3%81%8E%E3%81%9A%E4%B8%8A%E5%93%81%E3%81%AA%E3%83%94%E3%83%B3%E3%82%AF%E3%81%AE%E8%89%B2%E5%90%88%E3%81%84%E3%81%8C%E6%9C%80%E9%AB%98%0A%E3%83%BB%E5%90%8C%E4%B9%97%E3%81%AENP-01S%E3%81%AF%E3%80%8C%E5%BE%8C%E9%83%A8%E3%82%B3%E3%83%96%E4%BB%98%E3%81%8D%E3%82%A8%E3%83%AB%E3%82%B4%E3%80%8D%E3%81%A7%E3%81%A4%E3%81%8B%E3%81%BF%E6%8C%81%E3%81%A1%E3%81%AB%E7%A5%9E%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%0A%E3%83%BBULX%E3%81%A8Beast%20X%20Max%E3%81%AF%E4%BC%BC%E3%81%A6%E9%9D%9E%E3%81%AA%E3%82%8B%E6%8F%A1%E3%82%8A%E5%BF%83%E5%9C%B0%0A%0A%E3%83%87%E3%82%B9%E3%82%AF%E5%91%A8%E3%82%8A%E3%81%AE%E6%98%A0%E3%81%88%E3%81%A8%E7%AB%B6%E6%8A%80%E6%80%A7%E8%83%BD%E3%82%92%E4%B8%A1%E7%AB%8B%E3%81%97%E3%81%9F%E8%87%B3%E9%AB%98%E3%81%AE%E6%A7%8B%E6%88%90%E3%81%A7%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xgjd5p.html",
     "created_at": "2026-10-28T09:40:33.339593+00:00"
   }
 ]
