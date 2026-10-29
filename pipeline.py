@@ -2583,7 +2583,7 @@ a.gear-chip:hover {
     <div class="colophon-inner">
       <div>
         <p class="colophon-title">エイム沼の海外ログ</p>
-        <p>海外Reddit（r/FPSAimTrainer・r/MouseReview・r/MousepadReview）の議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
+        <p>海外フォーラムの議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
       </div>
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
@@ -2733,7 +2733,7 @@ a.gear-chip:hover {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>エイム沼の海外ログ | 海外Redditの競技エイム理論・マウス・マウスパッド議論が読める翻訳アーカイブ</title>
+  <title>エイム沼の海外ログ | 海外フォーラムの競技エイム理論・マウス・マウスパッド議論が読める翻訳アーカイブ</title>
   {font_links}
   <style>{css}</style>
 </head>
@@ -2742,7 +2742,7 @@ a.gear-chip:hover {
     <div class="masthead-Core">
       <div>
         <h1 class="site-title"><a href="index.html">エイム沼の海外ログ</a></h1>
-        <p class="site-tagline">海外Redditの競技エイム理論・マウス・マウスパッド議論が読める翻訳アーカイブ</p>
+        <p class="site-tagline">海外フォーラムの競技エイム理論・マウス・マウスパッド議論が読める翻訳アーカイブ</p>
       </div>
       <div class="share-group">
         <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
@@ -2803,7 +2803,7 @@ a.gear-chip:hover {
     <div class="colophon-inner">
       <div>
         <p class="colophon-title">エイム沼の海外ログ</p>
-        <p>海外Reddit（r/FPSAimTrainer・r/MouseReview・r/MousepadReview）の議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
+        <p>海外フォーラムの議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
       </div>
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
