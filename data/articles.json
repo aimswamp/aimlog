@@ -11028,281 +11028,303 @@
     ],
     "comment_tree": [
       {
-        "id": "c1",
+        "id": "19roahipg5mat",
         "parent_id": null,
-        "depth": 0,
         "author": "海外ユーザー1",
         "flair": "",
         "is_op": false,
-        "score": 49,
+        "score": 55,
         "body_en": "it's when you hit those sniper flicks in-game and it reminds you of your days on the front lines.\n\n(im muslim, and this is absolutely a joke, I've never used a pistol in real life, /j /s)",
-        "body_ja": "ゲーム内でスナイパーのフリックショットを決めたとき、最前線にいた頃の思い出がよみがえるよね。\n\n（自分はムスリムだし、これは完全なジョークだよ。実生活でピストルなんて使ったことないよ、/j /s）"
+        "depth": 0,
+        "body_ja": "ゲーム内でスナイパーのフリックショットが決まった瞬間って、前線にいた頃の記憶が蘇るよね。\n\n（自分はムスリムだけど、これは完全にジョークだよ。現実でピストルすら触ったことないからね。 /j /s）"
       },
       {
-        "id": "c2",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19rocbq7xf869",
+        "parent_id": "19roahipg5mat",
         "author": "海外ユーザー2",
         "flair": "",
         "is_op": false,
-        "score": 18,
+        "score": 19,
         "body_en": "Provided every excuse possible",
-        "body_ja": "考えうる限りの言い訳をあらかじめ用意していくスタイル"
+        "depth": 1,
+        "body_ja": "考えられる限りの言い訳を全部並べてて草"
       },
       {
-        "id": "c3",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19rol0b181jc1",
+        "parent_id": "19rocbq7xf869",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 14,
+        "body_en": "I truly dont want the Belgian police on my doors because i said a joke online…\n\nIm also an immigrant. \n\nSo again ITS A JOKE BOYS",
+        "depth": 2,
+        "body_ja": "ネットでジョーク言っただけでベルギー警察にドア叩かれたくないからね…\n\nそれに自分、移民だし。\n\nだから言うけど、マジでジョークだからねみんな"
+      },
+      {
+        "id": "19rolkc5o0kkl",
+        "parent_id": "19rol0b181jc1",
         "author": "海外ユーザー3",
         "flair": "",
         "is_op": false,
-        "score": 12,
-        "body_en": "I truly dont want the Belgian police on my doors because i said a joke online…\n\nIm also an immigrant. \n\nSo again ITS A JOKE BOYS",
-        "body_ja": "ネットでジョークを言っただけでベルギー警察にドアを蹴破られたくはないんだよ…\n\n自分も移民だしね。\n\nだから繰り返すけど、ただのジョークだからな、みんな"
+        "score": 11,
+        "body_en": "Atp youre asking to get swatted gng 😭",
+        "depth": 3,
+        "body_ja": "そこまで言うと逆にSwat（特殊部隊）を呼ばれそうなんだが笑😭"
       },
       {
-        "id": "c4",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19roccu3uaxwg",
+        "parent_id": "19roahipg5mat",
         "author": "海外ユーザー4",
         "flair": "",
         "is_op": false,
-        "score": 9,
-        "body_en": "Atp youre asking to get swatted gng 😭",
-        "body_ja": "今のままじゃSWAT突入（スワッティング）を要求してるようなもんじゃんか😭"
-      },
-      {
-        "id": "c5",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー5",
-        "flair": "",
-        "is_op": false,
-        "score": 8,
+        "score": 10,
         "body_en": "Haha or when planting the bomb in CS. INGAME INGAME",
-        "body_ja": "はは、あるいはCSで爆弾を設置するときね。ゲーム内で、ゲーム内だからね！"
+        "depth": 1,
+        "body_ja": "ハハ、CSで爆弾解除/設置してる時もそうなるよね。※ゲーム内の話だよ！ゲーム内の話！"
       },
       {
-        "id": "c6",
+        "id": "19rodvb62rz1f",
         "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー6",
+        "author": "海外ユーザー5",
         "flair": "",
         "is_op": false,
         "score": 2,
         "body_en": "7u? The heck is a 'u'?",
-        "body_ja": "7u？「u」っていったい何なんだ？"
+        "depth": 0,
+        "body_ja": "7u？『u』って一体なんのことだ？"
       },
       {
-        "id": "c7",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー7",
+        "id": "19rofz7cvjs4h",
+        "parent_id": "19rodvb62rz1f",
+        "author": "海外ユーザー6",
         "flair": "",
         "is_op": false,
         "score": 4,
         "body_en": "\"Uur\" (hour)",
-        "body_ja": "「Uur」（オランダ語やフラマン語で「時間」の意味）のことだよ"
+        "depth": 1,
+        "body_ja": "「Uur」（オランダ語で〜時間のこと）だよ"
       },
       {
-        "id": "c8",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー8",
+        "id": "19roh1cdjjwv9",
+        "parent_id": "19rofz7cvjs4h",
+        "author": "海外ユーザー5",
         "flair": "",
         "is_op": false,
-        "score": 1,
-        "body_en": "[+-2] wow muslim is such a fascinating language!",
-        "body_ja": "[+-2] おお、ムスリムってなんて魅惑的な言語なんだ！"
+        "score": -2,
+        "body_en": "wow muslim is such a fascinating language!",
+        "depth": 2,
+        "body_ja": "わあ、ムスリムってすごく魅力的な言語なんだね！"
       },
       {
-        "id": "c9",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー9",
+        "id": "19roi4um60zz6",
+        "parent_id": "19roh1cdjjwv9",
+        "author": "海外ユーザー7",
         "flair": "",
         "is_op": false,
         "score": 7,
         "body_en": "Smartest aim trainer",
-        "body_ja": "一番知能の高いエイムトレーナー"
+        "depth": 3,
+        "body_ja": "エイムトレーナー界で一番賢いヤツ"
       },
       {
-        "id": "c10",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー10",
+        "id": "19rotnddd4ra9",
+        "parent_id": "19roi4um60zz6",
+        "author": "海外ユーザー5",
         "flair": "",
         "is_op": false,
         "score": 2,
         "body_en": "people dont know what humor is anymore lol look at the downvotes",
-        "body_ja": "今のやつらはユーモアが何なのかもう分かってないよな、このdownvote（低評価）の数を見ればわかるよ"
+        "depth": 4,
+        "body_ja": "みんなユーモアってものを忘れちゃったのかな笑 低評価の数見てみなよ"
       },
       {
-        "id": "c11",
+        "id": "19rou18b8hqg3",
+        "parent_id": "19rotnddd4ra9",
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "If you thought that was a well-crafted joke, then I recommend you stick to your day job (unemployed)",
+        "depth": 5,
+        "body_ja": "それが完成度の高いジョークだと思ってたなら、本業に専念することをお勧めするよ（無職だろうけど）"
+      },
+      {
+        "id": "19rovspnnf0o4",
+        "parent_id": "19rou18b8hqg3",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "body_en": "Your parents ever teach you to be kind to strangers?",
+        "depth": 6,
+        "body_ja": "親から他人には優しくしなさいって教わらなかったの？"
+      },
+      {
+        "id": "19roh4x2bzdwh",
         "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 169,
+        "body_en": "I dont train my aim, I say inshallah and then I peak.",
         "depth": 0,
+        "body_ja": "俺はエイム練習なんてしない。「インシャアッラー（神の御心のままに）」と言ってからピークするだけだ。"
+      },
+      {
+        "id": "19rohs4ujnxgh",
+        "parent_id": "19roh4x2bzdwh",
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 48,
+        "body_en": "Bismillah and wide swing",
+        "depth": 1,
+        "body_ja": "「ビスミッラー（神の御名において）」と唱えてワイドスイング"
+      },
+      {
+        "id": "19rolz3zc9734",
+        "parent_id": "19roh4x2bzdwh",
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 20,
+        "body_en": "Definition of spray and pray🙏🏻",
+        "depth": 1,
+        "body_ja": "「Spray and Pray（撃ちまくって祈る）」の真の定義だな🙏🏻"
+      },
+      {
+        "id": "19romw62k7bxd",
+        "parent_id": "19rolz3zc9734",
         "author": "海外ユーザー11",
         "flair": "",
         "is_op": false,
-        "score": 0,
-        "body_en": "If you thought that was a well-crafted joke, then I recommend you stick to your day job (unemployed)",
-        "body_ja": "もしそれがよく練られたジョークだと思ったなら、本業（無職）を続けることをお勧めするよ"
+        "score": 17,
+        "body_en": "No its pray then spray",
+        "depth": 2,
+        "body_ja": "いや、「Pray then Spray（祈ってから撃ちまくる）」だろ"
       },
       {
-        "id": "c12",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19rooyg2qvcpx",
+        "parent_id": "19roh4x2bzdwh",
         "author": "海外ユーザー12",
         "flair": "",
         "is_op": false,
         "score": 2,
-        "body_en": "Your parents ever teach you to be kind to strangers?",
-        "body_ja": "見知らぬ人には優しくしなさいって親に教わらなかったのかい？"
-      },
-      {
-        "id": "c13",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー13",
-        "flair": "",
-        "is_op": false,
-        "score": 141,
-        "body_en": "I dont train my aim, I say inshallah and then I peak.",
-        "body_ja": "俺はエイムの練習なんてしない、インシャッラーと唱えてからピークするんだ。"
-      },
-      {
-        "id": "c14",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー14",
-        "flair": "",
-        "is_op": false,
-        "score": 41,
-        "body_en": "Bismillah and wide swing",
-        "body_ja": "ビスミッラーと唱えてからのワイドスイング"
-      },
-      {
-        "id": "c15",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー15",
-        "flair": "",
-        "is_op": false,
-        "score": 15,
-        "body_en": "Definition of spray and pray🙏🏻",
-        "body_ja": "「撃ちまくって神に祈る」のまさに定義🙏🏻"
-      },
-      {
-        "id": "c16",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー16",
-        "flair": "",
-        "is_op": false,
-        "score": 13,
-        "body_en": "No its pray then spray",
-        "body_ja": "No its pray then spray"
-      },
-      {
-        "id": "c17",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー17",
-        "flair": "",
-        "is_op": false,
-        "score": 2,
         "body_en": "Truly peak",
-        "body_ja": "まさにピーク（最高／角から顔を出す）"
+        "depth": 1,
+        "body_ja": "マジで極まってる（ピーク）な"
       },
       {
-        "id": "c18",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー18",
+        "id": "19ropgiqfpmap",
+        "parent_id": "19roh4x2bzdwh",
+        "author": "海外ユーザー13",
         "flair": "",
         "is_op": false,
         "score": 4,
         "body_en": "you spelt pick wrong, sweaty",
-        "body_ja": "pickじゃなくてpeaked（あるいはpeek）のスペルを間違えてるぜ、汗かき野郎"
+        "depth": 1,
+        "body_ja": "「peak」じゃなくて「peek（飛び出し）」のスペルミスだろ、お疲れさん"
       },
       {
-        "id": "c19",
+        "id": "19roklz2ybqcj",
         "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー19",
+        "author": "海外ユーザー14",
         "flair": "",
         "is_op": false,
         "score": 5,
         "body_en": "its just blessing your mouse before you peak",
-        "body_ja": "ピークする前にマウスを祝福しているだけだよ"
+        "depth": 0,
+        "body_ja": "飛び出す前にマウスにお祓い（祝福）をしてるだけだよ"
       },
       {
-        "id": "c20",
+        "id": "19roll0ajp2jo",
         "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー20",
+        "author": "海外ユーザー3",
         "flair": "",
         "is_op": false,
         "score": 5,
         "body_en": "Crosshair placement wallahi",
-        "body_ja": "ワッラーヒ、完璧なクロスヘアプレイスメントだわ"
+        "depth": 0,
+        "body_ja": "クロスヘアの配置は神のみぞ知る（ワッラーヒ）"
       },
       {
-        "id": "c21",
+        "id": "19rooytkg4l5x",
         "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー21",
+        "author": "海外ユーザー15",
         "flair": "",
         "is_op": false,
-        "score": 5,
+        "score": 6,
         "body_en": "Muslim memory is a myth!",
-        "body_ja": "ムスリムの記憶力なんて都市伝説さ！"
+        "depth": 0,
+        "body_ja": "ムスリム・メモリーなんて神話だよ！"
       },
       {
-        "id": "c22",
+        "id": "19rou4a5cidcy",
         "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー22",
+        "author": "海外ユーザー16",
         "flair": "",
         "is_op": false,
-        "score": 7,
+        "score": 8,
         "body_en": "I always ask my mother to cook a couscous before going in ranked. Doing that allowed me to be immo3 every season.\n\nPlay hard and be a Muslim pro",
-        "body_ja": "ランクマッチに行く前はいつも母親にクスクスを作ってもらうようにしてるんだ。そうすることで毎シーズンイモータル3でいられるんだよね。\n\nハードにプレイして、ムスリムのプロになろうぜ"
+        "depth": 0,
+        "body_ja": "ランクマッチに行く前はいつも母親にクスクスを作ってもらってるよ。おかげで毎シーズンイモータル3になれてる。しっかりプレイしてムスリムプロを目指そう"
       },
       {
-        "id": "c23",
+        "id": "19rovzuiy9pnn",
         "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー23",
+        "author": "海外ユーザー17",
         "flair": "",
         "is_op": false,
         "score": 2,
         "body_en": "Praying to allah everytime you get a kill",
-        "body_ja": "キルを取るたびにアッラーに祈りを捧げる"
+        "depth": 0,
+        "body_ja": "キルを取るたびに神に感謝の祈りを捧げるスタイル"
       },
       {
-        "id": "c24",
+        "id": "19rp4guca525c",
         "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー24",
+        "author": "海外ユーザー18",
         "flair": "",
         "is_op": false,
-        "score": 4,
+        "score": 5,
         "body_en": "Prayer, not pre-fire habibi.",
-        "body_ja": "プリファイアじゃなくて、祈り（Prayer）なんだよ、ハビビ。"
+        "depth": 0,
+        "body_ja": "プレファイア（置き撃ち）じゃなくて、プレイヤー（祈り）だよハビビ。"
+      },
+      {
+        "id": "19rq0ccmv9zq8",
+        "parent_id": null,
+        "author": "海外ユーザー19",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Modern Muslims huh",
+        "depth": 0,
+        "body_ja": "現代のムスリムって感じだな"
+      },
+      {
+        "id": "19rrvnr0gmeqp",
+        "parent_id": null,
+        "author": "海外ユーザー20",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "I thought muslim memory in fps context is about boom boom self strat meta?",
+        "depth": 0,
+        "body_ja": "FPSにおけるムスリムの記憶って、爆発自爆メタのことかと思ってたよ"
       }
     ],
     "title_ja": "FPSコミュニティで大うけした「インシャラー」とエイム練習をめぐるユーモアの数々",
     "hook_ja": "エイム練習をせず「神の御心（インシャラー）」を唱えて敵にピークするというFPSコミュニティのミームが大きな笑いを誘っている。海外掲示板に投稿された、ユーモアあふれるコメントのやり取りを全訳する。",
-    "op_post_ja": "",
+    "op_post_ja": "これは爆笑（投稿画像/動画に対する短評）",
     "consensus_points": [
-      "エイム練習よりも運や神への祈り（Inshallah）に頼るプレイスタイルがネタにされている",
-      "「Bismillah（ビスミッラー）」と唱えてワイドスイングやピークを行うのが定番のミームとなっている",
-      "ジョークであることを強調しないと警察や通報を心配するユーモアが飛び交っている"
+      "エイム練習ソフトで反復練習する代わりに「祈ってからピーク（飛び出し）する」という定番のジョークネタ。",
+      "「Spray and Pray（撃ちまくって祈る）」を「Pray then Spray（祈ってから撃ちまくる）」と言い換えるなど、ユーモアを交えたやり取り。",
+      "実際のゲーム内でのフリックやピークのタイミングを宗教的フレーズになぞらえて楽しむコミュニティ特有のジョーク文化。"
     ],
-    "detailed_analysis_ja": "【1. FPSコミュニティにおけるミームとブラックジョーク】\n本スレッドは、FPSの競技シーンやエイム練習コミュニティにおける「気休め」や「運任せのプレイスタイル」を宗教的なミームで表現したユーモラスな投稿である。海外のゲーマー間では、実力やエイム練習以上に「神のご加護（Inshallah: インシャッラー）」や「ビスミッラー（神の名において）」を唱えて敵に突撃するというネタが以前から定着している。\n\n【2. コメント欄での大喜利と文化背景】\nコメント欄では「エイム練習なんてしない、インシャッラーと唱えてからピークするんだ」「ワイドスイングの前にビスミッラーだ」といったリプライが多数寄せられ、さながら大喜利状態となっている。また、過激なジョークに対して「ベルギー警察に踏み込まれたくないからこれはジョークだよ！」と予防線を張るユーモアも見られ、ネット特有のシュールな空気が共有されている。\n\n【3. デバイスへの言及について】\nなお、今回のスレッドは純粋なミームや雑談に終始しているため、特定のゲーミングマウスやマウスパッドといったハードウェアに関する言及は一切含まれていない。純粋なコミュニティのノリやジョークを楽しむトピックとなっている。",
+    "detailed_analysis_ja": "本スレッドは、FPSエイム練習コミュニティ（r/FPSAimTrainer）において投稿された、イスラム系・宗教的フレーズを用いたユーモア投稿に対する反応をまとめたものです。ハードコアなエイム理論やハードウェアの検証が中心となる同コミュニティにおいて、息抜き的なミーム投稿として大きな注目を集めました。\n\n【1. コミュニティにおける「Pray & Spray」ミーム】\nFPS用語には、反動制御や精密エイムを行わずに射撃しながら祈る「Spray and Pray（撃ちまくって神に祈る）」という言葉が存在します。コメント欄ではこれをひねり、「まず祈りを捧げてからワイドピーク（大きく飛び出して射撃）する」「プリファイア（置き撃ち）ではなくプレイヤー（祈り）」といったダジャレや言葉遊びに昇華されています。\n\n【2. 海外コミュニティ特有の文化とジョーク】\nスレッド内では「Inshallah（インシャアッラー：神の御心なら）」や「Bismillah（ビスミッラー：神の御名において）」、「Habibi（ハビビ：親しい人への呼びかけ）」といった日常的に使われるアラビア語表現がミームとして多数使用されています。これらはFPSゲーム（特に『VALORANT』や『CS:GO / CS2』）のボイスチャット等でも時折ジョークとして飛び交うものであり、勝敗の不確定要素（ランダムな弾道や運）を神頼みに例える定番のユーモアとなっています。\n\n【3. 誤解を防ぐためのセーフティコメント】\n海外掲示板では、過激なジョークや軍事・兵器関連のキーワードが誤解を招く可能性があるため、発言者が「これはあくまでゲーム内のジョークであり、現実の暴力とは一切関係がない」と注意書き（/j, /s などのジョーク標識）を添える様子も見られます。真剣にエイム向上を目指すサブレットの中でも、こうしたカルチャー的なジョークが一定の盛り上がりを見せるのがRedditの特徴です。",
     "devices": [],
-    "x_main_post": "海外FPSコミュニティで大盛り上がり中のミーム大喜利！エイム練習よりも神への祈り（インシャッラー）とワイドスイングで敵を倒す独特なプレイスタイルがネタにされ、コメント欄ではユーモアあふれる宗教的ジョークが飛び交っています。",
+    "x_main_post": "【エイム練習不要？海外の神頼みミーム】\n海外のエイマーコミュニティで「エイム練習ソフトで反復練習するより、祈りを捧げてから飛び出す方が強い」というジョークが話題に。\n「プレファイアではなくプレイヤー（祈り）」など、ユーモア溢れるコメントで盛り上がっています。",
     "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
     "short_script": [
       {
@@ -11348,250 +11370,270 @@
     ],
     "dialogue": [
       {
-        "id": "c1",
+        "id": "19roahipg5mat",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー1",
         "flair": "",
         "is_op": false,
-        "score": 49,
-        "text": "ゲーム内でスナイパーのフリックショットを決めたとき、最前線にいた頃の思い出がよみがえるよね。\n\n（自分はムスリムだし、これは完全なジョークだよ。実生活でピストルなんて使ったことないよ、/j /s）"
+        "score": 55,
+        "text": "ゲーム内でスナイパーのフリックショットが決まった瞬間って、前線にいた頃の記憶が蘇るよね。\n\n（自分はムスリムだけど、これは完全にジョークだよ。現実でピストルすら触ったことないからね。 /j /s）"
       },
       {
-        "id": "c2",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19rocbq7xf869",
+        "parent_id": "19roahipg5mat",
+        "depth": 1,
         "speaker": "海外ユーザー2",
         "flair": "",
         "is_op": false,
-        "score": 18,
-        "text": "考えうる限りの言い訳をあらかじめ用意していくスタイル"
+        "score": 19,
+        "text": "考えられる限りの言い訳を全部並べてて草"
       },
       {
-        "id": "c3",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19rol0b181jc1",
+        "parent_id": "19rocbq7xf869",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 14,
+        "text": "ネットでジョーク言っただけでベルギー警察にドア叩かれたくないからね…\n\nそれに自分、移民だし。\n\nだから言うけど、マジでジョークだからねみんな"
+      },
+      {
+        "id": "19rolkc5o0kkl",
+        "parent_id": "19rol0b181jc1",
+        "depth": 3,
         "speaker": "海外ユーザー3",
         "flair": "",
         "is_op": false,
-        "score": 12,
-        "text": "ネットでジョークを言っただけでベルギー警察にドアを蹴破られたくはないんだよ…\n\n自分も移民だしね。\n\nだから繰り返すけど、ただのジョークだからな、みんな"
+        "score": 11,
+        "text": "そこまで言うと逆にSwat（特殊部隊）を呼ばれそうなんだが笑😭"
       },
       {
-        "id": "c4",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19roccu3uaxwg",
+        "parent_id": "19roahipg5mat",
+        "depth": 1,
         "speaker": "海外ユーザー4",
         "flair": "",
         "is_op": false,
-        "score": 9,
-        "text": "今のままじゃSWAT突入（スワッティング）を要求してるようなもんじゃんか😭"
+        "score": 10,
+        "text": "ハハ、CSで爆弾解除/設置してる時もそうなるよね。※ゲーム内の話だよ！ゲーム内の話！"
       },
       {
-        "id": "c5",
+        "id": "19rodvb62rz1f",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー5",
         "flair": "",
         "is_op": false,
-        "score": 8,
-        "text": "はは、あるいはCSで爆弾を設置するときね。ゲーム内で、ゲーム内だからね！"
+        "score": 2,
+        "text": "7u？『u』って一体なんのことだ？"
       },
       {
-        "id": "c6",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19rofz7cvjs4h",
+        "parent_id": "19rodvb62rz1f",
+        "depth": 1,
         "speaker": "海外ユーザー6",
         "flair": "",
         "is_op": false,
-        "score": 2,
-        "text": "7u？「u」っていったい何なんだ？"
+        "score": 4,
+        "text": "「Uur」（オランダ語で〜時間のこと）だよ"
       },
       {
-        "id": "c7",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19roh1cdjjwv9",
+        "parent_id": "19rofz7cvjs4h",
+        "depth": 2,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": -2,
+        "text": "わあ、ムスリムってすごく魅力的な言語なんだね！"
+      },
+      {
+        "id": "19roi4um60zz6",
+        "parent_id": "19roh1cdjjwv9",
+        "depth": 3,
         "speaker": "海外ユーザー7",
         "flair": "",
         "is_op": false,
-        "score": 4,
-        "text": "「Uur」（オランダ語やフラマン語で「時間」の意味）のことだよ"
+        "score": 7,
+        "text": "エイムトレーナー界で一番賢いヤツ"
       },
       {
-        "id": "c8",
+        "id": "19rotnddd4ra9",
+        "parent_id": "19roi4um60zz6",
+        "depth": 4,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "みんなユーモアってものを忘れちゃったのかな笑 低評価の数見てみなよ"
+      },
+      {
+        "id": "19rou18b8hqg3",
+        "parent_id": "19rotnddd4ra9",
+        "depth": 5,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "それが完成度の高いジョークだと思ってたなら、本業に専念することをお勧めするよ（無職だろうけど）"
+      },
+      {
+        "id": "19rovspnnf0o4",
+        "parent_id": "19rou18b8hqg3",
+        "depth": 6,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "text": "親から他人には優しくしなさいって教わらなかったの？"
+      },
+      {
+        "id": "19roh4x2bzdwh",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー8",
         "flair": "",
         "is_op": false,
-        "score": 1,
-        "text": "[+-2] おお、ムスリムってなんて魅惑的な言語なんだ！"
+        "score": 169,
+        "text": "俺はエイム練習なんてしない。「インシャアッラー（神の御心のままに）」と言ってからピークするだけだ。"
       },
       {
-        "id": "c9",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19rohs4ujnxgh",
+        "parent_id": "19roh4x2bzdwh",
+        "depth": 1,
         "speaker": "海外ユーザー9",
         "flair": "",
         "is_op": false,
-        "score": 7,
-        "text": "一番知能の高いエイムトレーナー"
+        "score": 48,
+        "text": "「ビスミッラー（神の御名において）」と唱えてワイドスイング"
       },
       {
-        "id": "c10",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19rolz3zc9734",
+        "parent_id": "19roh4x2bzdwh",
+        "depth": 1,
         "speaker": "海外ユーザー10",
         "flair": "",
         "is_op": false,
-        "score": 2,
-        "text": "今のやつらはユーモアが何なのかもう分かってないよな、このdownvote（低評価）の数を見ればわかるよ"
+        "score": 20,
+        "text": "「Spray and Pray（撃ちまくって祈る）」の真の定義だな🙏🏻"
       },
       {
-        "id": "c11",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19romw62k7bxd",
+        "parent_id": "19rolz3zc9734",
+        "depth": 2,
         "speaker": "海外ユーザー11",
         "flair": "",
         "is_op": false,
-        "score": 0,
-        "text": "もしそれがよく練られたジョークだと思ったなら、本業（無職）を続けることをお勧めするよ"
+        "score": 17,
+        "text": "いや、「Pray then Spray（祈ってから撃ちまくる）」だろ"
       },
       {
-        "id": "c12",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19rooyg2qvcpx",
+        "parent_id": "19roh4x2bzdwh",
+        "depth": 1,
         "speaker": "海外ユーザー12",
         "flair": "",
         "is_op": false,
         "score": 2,
-        "text": "見知らぬ人には優しくしなさいって親に教わらなかったのかい？"
+        "text": "マジで極まってる（ピーク）な"
       },
       {
-        "id": "c13",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19ropgiqfpmap",
+        "parent_id": "19roh4x2bzdwh",
+        "depth": 1,
         "speaker": "海外ユーザー13",
         "flair": "",
         "is_op": false,
-        "score": 141,
-        "text": "俺はエイムの練習なんてしない、インシャッラーと唱えてからピークするんだ。"
+        "score": 4,
+        "text": "「peak」じゃなくて「peek（飛び出し）」のスペルミスだろ、お疲れさん"
       },
       {
-        "id": "c14",
+        "id": "19roklz2ybqcj",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー14",
         "flair": "",
         "is_op": false,
-        "score": 41,
-        "text": "ビスミッラーと唱えてからのワイドスイング"
+        "score": 5,
+        "text": "飛び出す前にマウスにお祓い（祝福）をしてるだけだよ"
       },
       {
-        "id": "c15",
+        "id": "19roll0ajp2jo",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "クロスヘアの配置は神のみぞ知る（ワッラーヒ）"
+      },
+      {
+        "id": "19rooytkg4l5x",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー15",
         "flair": "",
         "is_op": false,
-        "score": 15,
-        "text": "「撃ちまくって神に祈る」のまさに定義🙏🏻"
+        "score": 6,
+        "text": "ムスリム・メモリーなんて神話だよ！"
       },
       {
-        "id": "c16",
+        "id": "19rou4a5cidcy",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー16",
         "flair": "",
         "is_op": false,
-        "score": 13,
-        "text": "No its pray then spray"
+        "score": 8,
+        "text": "ランクマッチに行く前はいつも母親にクスクスを作ってもらってるよ。おかげで毎シーズンイモータル3になれてる。しっかりプレイしてムスリムプロを目指そう"
       },
       {
-        "id": "c17",
+        "id": "19rovzuiy9pnn",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー17",
         "flair": "",
         "is_op": false,
         "score": 2,
-        "text": "まさにピーク（最高／角から顔を出す）"
+        "text": "キルを取るたびに神に感謝の祈りを捧げるスタイル"
       },
       {
-        "id": "c18",
+        "id": "19rp4guca525c",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー18",
         "flair": "",
         "is_op": false,
-        "score": 4,
-        "text": "pickじゃなくてpeaked（あるいはpeek）のスペルを間違えてるぜ、汗かき野郎"
+        "score": 5,
+        "text": "プレファイア（置き撃ち）じゃなくて、プレイヤー（祈り）だよハビビ。"
       },
       {
-        "id": "c19",
+        "id": "19rq0ccmv9zq8",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー19",
         "flair": "",
         "is_op": false,
-        "score": 5,
-        "text": "ピークする前にマウスを祝福しているだけだよ"
+        "score": 1,
+        "text": "現代のムスリムって感じだな"
       },
       {
-        "id": "c20",
+        "id": "19rrvnr0gmeqp",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー20",
         "flair": "",
         "is_op": false,
-        "score": 5,
-        "text": "ワッラーヒ、完璧なクロスヘアプレイスメントだわ"
-      },
-      {
-        "id": "c21",
-        "parent_id": null,
-        "depth": 0,
-        "speaker": "海外ユーザー21",
-        "flair": "",
-        "is_op": false,
-        "score": 5,
-        "text": "ムスリムの記憶力なんて都市伝説さ！"
-      },
-      {
-        "id": "c22",
-        "parent_id": null,
-        "depth": 0,
-        "speaker": "海外ユーザー22",
-        "flair": "",
-        "is_op": false,
-        "score": 7,
-        "text": "ランクマッチに行く前はいつも母親にクスクスを作ってもらうようにしてるんだ。そうすることで毎シーズンイモータル3でいられるんだよね。\n\nハードにプレイして、ムスリムのプロになろうぜ"
-      },
-      {
-        "id": "c23",
-        "parent_id": null,
-        "depth": 0,
-        "speaker": "海外ユーザー23",
-        "flair": "",
-        "is_op": false,
-        "score": 2,
-        "text": "キルを取るたびにアッラーに祈りを捧げる"
-      },
-      {
-        "id": "c24",
-        "parent_id": null,
-        "depth": 0,
-        "speaker": "海外ユーザー24",
-        "flair": "",
-        "is_op": false,
-        "score": 4,
-        "text": "プリファイアじゃなくて、祈り（Prayer）なんだよ、ハビビ。"
+        "score": 0,
+        "text": "FPSにおけるムスリムの記憶って、爆発自爆メタのことかと思ってたよ"
       }
     ],
     "status": "published",
     "x_posted": false,
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xfr6hi.html",
-    "x_intent_url": "https://twitter.com/intent/tweet?text=%E6%B5%B7%E5%A4%96FPS%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%A7%E5%A4%A7%E7%9B%9B%E3%82%8A%E4%B8%8A%E3%81%8C%E3%82%8A%E4%B8%AD%E3%81%AE%E3%83%9F%E3%83%BC%E3%83%A0%E5%A4%A7%E5%96%9C%E5%88%A9%EF%BC%81%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%82%88%E3%82%8A%E3%82%82%E7%A5%9E%E3%81%B8%E3%81%AE%E7%A5%88%E3%82%8A%EF%BC%88%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%83%E3%83%A9%E3%83%BC%EF%BC%89%E3%81%A8%E3%83%AF%E3%82%A4%E3%83%89%E3%82%B9%E3%82%A4%E3%83%B3%E3%82%B0%E3%81%A7%E6%95%B5%E3%82%92%E5%80%92%E3%81%99%E7%8B%AC%E7%89%B9%E3%81%AA%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%81%8C%E3%83%8D%E3%82%BF%E3%81%AB%E3%81%95%E3%82%8C%E3%80%81%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E6%AC%84%E3%81%A7%E3%81%AF%E3%83%A6%E3%83%BC%E3%83%A2%E3%82%A2%E3%81%82%E3%81%B5%E3%82%8C%E3%82%8B%E5%AE%97%E6%95%99%E7%9A%84%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AF%E3%81%8C%E9%A3%9B%E3%81%B3%E4%BA%A4%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xfr6hi.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E4%B8%8D%E8%A6%81%EF%BC%9F%E6%B5%B7%E5%A4%96%E3%81%AE%E7%A5%9E%E9%A0%BC%E3%81%BF%E3%83%9F%E3%83%BC%E3%83%A0%E3%80%91%0A%E6%B5%B7%E5%A4%96%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%9E%E3%83%BC%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%A7%E3%80%8C%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%82%BD%E3%83%95%E3%83%88%E3%81%A7%E5%8F%8D%E5%BE%A9%E7%B7%B4%E7%BF%92%E3%81%99%E3%82%8B%E3%82%88%E3%82%8A%E3%80%81%E7%A5%88%E3%82%8A%E3%82%92%E6%8D%A7%E3%81%92%E3%81%A6%E3%81%8B%E3%82%89%E9%A3%9B%E3%81%B3%E5%87%BA%E3%81%99%E6%96%B9%E3%81%8C%E5%BC%B7%E3%81%84%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E3%82%B8%E3%83%A7%E3%83%BC%E3%82%AF%E3%81%8C%E8%A9%B1%E9%A1%8C%E3%81%AB%E3%80%82%0A%E3%80%8C%E3%83%97%E3%83%AC%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%EF%BC%88%E7%A5%88%E3%82%8A%EF%BC%89%E3%80%8D%E3%81%AA%E3%81%A9%E3%80%81%E3%83%A6%E3%83%BC%E3%83%A2%E3%82%A2%E6%BA%A2%E3%82%8C%E3%82%8B%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%81%A7%E7%9B%9B%E3%82%8A%E4%B8%8A%E3%81%8C%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xfr6hi.html",
     "created_at": "2026-10-27T09:27:01.282033+00:00"
   },
   {
@@ -15118,7 +15160,7 @@
         "text": "あと、机が高すぎるのが原因って可能性もあるかも。"
       }
     ],
-    "status": "draft",
+    "status": "published",
     "x_posted": false,
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xgnuwg.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%83%9E%E3%82%A6%E3%82%B9%E3%81%AE%E6%8C%81%E3%81%A1%E6%96%B9%E5%8B%95%E7%94%BB%E9%80%9A%E3%82%8A%E3%81%AB%E3%80%8C%E6%89%8B%E9%A6%96%E3%83%99%E3%82%BF%E4%BB%98%E3%81%91%E3%80%8D%E3%82%92%E8%A9%A6%E3%81%97%E3%81%A6%E6%89%8B%E3%81%8C%E7%97%9B%E3%82%80%E3%81%AA%E3%82%89%E8%A6%81%E6%B3%A8%E6%84%8F%EF%BC%81%E6%B5%B7%E5%A4%96%E7%8C%9B%E8%80%85%E3%81%AB%E3%82%88%E3%82%8B%E3%81%A8%E3%80%81%E7%84%A1%E7%90%86%E3%81%AA%E3%82%B0%E3%83%AA%E3%83%83%E3%83%97%E8%AA%BF%E6%95%B4%E3%81%AF%E7%A5%9E%E7%B5%8C%E5%9C%A7%E8%BF%AB%E3%81%AE%E5%8E%9F%E5%9B%A0%E3%81%AB%E3%80%82%E3%82%A8%E3%82%A4%E3%83%A0%E3%81%AE%E3%83%96%E3%83%AC%E3%81%AF%E6%8A%BC%E3%81%97%E4%BB%98%E3%81%91%E3%81%9A%E8%A6%AA%E6%8C%87%E3%83%BB%E5%B0%8F%E6%8C%87%E3%81%AE%E5%88%B6%E5%BE%A1%E3%81%A7%E6%94%B9%E5%96%84%E5%8F%AF%E8%83%BD%E3%81%A7%E3%81%99%E3%80%82%E7%97%9B%E3%81%BF%E3%81%8C%E3%81%82%E3%82%8C%E3%81%B0%E5%8D%B3%E4%BC%91%E6%86%A9%E3%81%97%E3%80%81%E5%A7%BF%E5%8B%A2%E6%94%B9%E5%96%84%E3%82%84%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81%E3%82%92%E5%8F%96%E3%82%8A%E5%85%A5%E3%82%8C%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xgnuwg.html",
@@ -15393,7 +15435,7 @@
         "text": "姿勢について考えてみて。上のほうの要素が、下のほうの要素に影響を与えることもあるからね。"
       }
     ],
-    "status": "draft",
+    "status": "published",
     "x_posted": false,
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xgk6xm.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E4%B8%AD%E3%81%AB%E3%83%9E%E3%82%A6%E3%82%B9%E5%81%B4%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E5%81%B4%E3%81%AE%E8%85%95%E3%81%8C%E7%97%9B%E3%82%80%E5%8E%9F%E5%9B%A0%E3%81%A8%E5%AF%BE%E7%AD%96%0A-%20%E3%83%9E%E3%82%A6%E3%82%B9%E3%81%AE%E5%8A%9B%E3%82%92%E9%80%83%E3%81%8C%E3%81%99%E3%81%9F%E3%82%81%E7%84%A1%E6%84%8F%E8%AD%98%E3%81%AB%E5%8F%8D%E5%AF%BE%E3%81%AE%E8%85%95%E3%81%8C%E7%B7%8A%E5%BC%B5%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E5%8F%AF%E8%83%BD%E6%80%A7%0A-%20%E9%8B%AD%E3%81%84%E7%A5%9E%E7%B5%8C%E7%97%9B%E3%81%AF%E6%80%AA%E6%88%91%E3%81%AE%E5%89%8D%E5%85%86%E3%80%81%E6%94%BE%E7%BD%AE%E3%81%AF%E5%8E%B3%E7%A6%81%0A-%20%E3%83%AA%E3%82%B9%E3%83%88%E3%83%AC%E3%82%B9%E3%83%88%E3%81%AE%E5%B0%8E%E5%85%A5%E3%82%84%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E4%BD%8D%E7%BD%AE%E3%83%BB%E8%A7%92%E5%BA%A6%E3%81%AE%E8%AA%BF%E6%95%B4%E3%81%8C%E6%9C%89%E5%8A%B9%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xgk6xm.html",
@@ -15587,7 +15629,7 @@
         "text": "保証は利用できる？"
       }
     ],
-    "status": "draft",
+    "status": "published",
     "x_posted": false,
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xgmpvu.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90MCHOSE%20L7%E3%80%911%E5%B9%B4%E4%BD%BF%E7%94%A8%E3%81%A715%E5%88%86%E3%81%94%E3%81%A8%E3%81%AE%E6%8E%A5%E7%B6%9A%E5%88%87%E3%82%8C%E3%82%84%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E5%8A%A3%E5%8C%96%E3%81%8C%E7%99%BA%E7%94%9F%EF%BC%9F%E6%B5%B7%E5%A4%96%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%A7%E8%A9%B1%E3%81%97%E5%90%88%E3%82%8F%E3%82%8C%E3%81%9F%E5%AF%BE%E5%87%A6%E6%B3%95%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%81%0A%0A%E3%83%BB%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2%E3%81%AE%E5%86%8D%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%0A%E3%83%BB%E5%B0%82%E7%94%A8%E3%83%84%E3%83%BC%E3%83%AB%E3%81%A7%E3%81%AE%E5%B7%A5%E5%A0%B4%E5%87%BA%E8%8D%B7%E6%99%82%E3%83%AA%E3%82%BB%E3%83%83%E3%83%88%0A%E3%83%BB%E6%94%B9%E5%96%84%E3%81%97%E3%81%AA%E3%81%84%E5%A0%B4%E5%90%88%E3%81%AF%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E4%BF%9D%E8%A8%BC%E3%81%AE%E9%81%A9%E7%94%A8%E7%A2%BA%E8%AA%8D%0A%0A%E4%B8%8D%E5%85%B7%E5%90%88%E3%81%8C%E5%87%BA%E3%81%9F%E9%9A%9B%E3%81%AE%E5%8F%82%E8%80%83%E3%81%AB%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xgmpvu.html",
@@ -15837,7 +15879,7 @@
         "text": "俺はSUPERLIGHT 2Cユーザーだけど、それでもA9 Miniに対抗するのは厳しいね。"
       }
     ],
-    "status": "draft",
+    "status": "published",
     "x_posted": false,
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xglsa4.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=%E6%89%8B%E3%81%8C%E5%B0%8F%E3%81%95%E3%81%84%E3%83%95%E3%82%A9%E3%83%BC%E3%83%88%E3%83%8A%E3%82%A4%E3%83%88%E3%82%BC%E3%83%AD%E3%83%93%E3%83%AB%E3%83%89%E5%8B%A2%E3%81%8C%E3%80%8CG%20PRO%20X%20SUPERLIGHT%202%20DEX%E3%80%8D%E3%81%A8%E5%8D%8A%E9%A1%8D%E4%BB%A5%E4%B8%8B%E3%81%AE%E3%80%8CATK%20A9%20Mini%E3%80%8D%E3%81%A7%E8%BF%B7%E3%81%A3%E3%81%9F%E7%B5%90%E6%9E%9C%EF%BC%81%0A%E6%B5%B7%E5%A4%96%E6%B5%B7%E5%A4%96%E7%8C%9B%E8%80%85%E3%81%9F%E3%81%A1%E3%81%AE%E7%B5%90%E8%AB%96%E3%81%AF%E5%9C%A7%E5%80%92%E7%9A%84%E3%81%ABATK%20A9%20Mini%E3%80%82%0A%E5%93%81%E8%B3%AA%E3%81%AE%E9%AB%98%E3%81%95%E3%81%A8%E6%89%8B%E3%81%8C%E5%B0%8F%E3%81%95%E3%81%84%E4%BA%BA%E3%81%B8%E3%81%AE%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%E6%84%9F%E3%80%81%E3%82%B3%E3%82%B9%E3%83%91%E3%81%AE%E8%89%AF%E3%81%95%E3%81%8C%E6%B1%BA%E3%82%81%E6%89%8B%E3%81%A8%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xglsa4.html",
@@ -15868,148 +15910,203 @@
     ],
     "comment_tree": [
       {
-        "id": "c1",
+        "id": "19rpsq5xpu2px",
         "parent_id": null,
-        "depth": 0,
         "author": "海外ユーザー1",
         "flair": "",
         "is_op": false,
         "score": 4,
         "body_en": "such a good shade of pink",
-        "body_ja": "めちゃくちゃ良い色合いのピンクだね。"
+        "depth": 0,
+        "body_ja": "本当に素晴らしいピンクの色合いだね"
       },
       {
-        "id": "c2",
+        "id": "19rptp05sfhhc",
         "parent_id": null,
-        "depth": 0,
         "author": "海外ユーザー2",
         "flair": "",
         "is_op": false,
         "score": 2,
         "body_en": "Is that the Lamzu Maya X in the top right corner?",
-        "body_ja": "右上の角にあるのはLamzu Maya Xかな？"
+        "depth": 0,
+        "body_ja": "右上にあるのはLamzu Maya X？"
       },
       {
-        "id": "c3",
+        "id": "19rpwkqldjfic",
+        "parent_id": "19rptp05sfhhc",
+        "author": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "body_en": "yessir",
+        "depth": 1,
+        "body_ja": "その通りだよ"
+      },
+      {
+        "id": "19rqj9gtgxzk4",
         "parent_id": null,
-        "depth": 0,
         "author": "海外ユーザー3",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "yessir",
-        "body_ja": "その通りだよ。"
+        "body_en": "Which shape is your fav? I main a Vaxee E1-B (which I assume is the bottom left).",
+        "depth": 0,
+        "body_ja": "お気に入りの形状はどれ？ 僕はVaxee E1-B（左下のやつだと思うけど）をメインで使ってるよ。"
       },
       {
-        "id": "c4",
+        "id": "19rql39i1ewqr",
+        "parent_id": "19rqj9gtgxzk4",
+        "author": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "body_en": "its actually the np01s ergo. i love the shape because it's rear humped which is actually really unique when it comes to ergos and makes it better for my claw grip. my favorite shape here though is the ulx classic. the beast x max doesnt feel the same",
+        "depth": 1,
+        "body_ja": "実はそれNP-01S Ergoなんだ。エルゴ形状としては珍しく後部にコブがある形状で、僕のつかみ持ちにすごくフィットするから大好きなんだよね。でもここにある中で一番お気に入りの形状はULX Classicかな。Beast X Maxはなんか違う感じがした。"
+      },
+      {
+        "id": "19rqumpy1ap1g",
         "parent_id": null,
-        "depth": 0,
         "author": "海外ユーザー4",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "Which shape is your fav? I main a Vaxee E1-B (which I assume is the bottom left).",
-        "body_ja": "どれが一番お気に入りの形状？ 自分はVAXEE E1-B（たぶん左下のやつだよね）をメインで使ってるよ。"
+        "body_en": "im planning on getting a lamzu or vaxee mouse primarily for valorant i use a pretty standard claw grip. im getting the zero soft and type99 soft to try out both and im a low sens player 0.23 800dpi i might change my sens in the future but the highest its ever gonna go is 0.3. my hand is 19.3 by 9.5 so like medium. which mouse would you recommend? i have no idea what to look for ive been using a g305 for the last 5-6 years",
+        "depth": 0,
+        "body_ja": "主にVALORANT用にLamzuかVAXEEのマウスを買おうと思ってる。持ち方は一般的なつかみ持ち。マウスパッドは試すためにZero SoftとTYPE-99 Softを買う予定で、ローシロ（800DPIで0.23、将来変えても最高0.3まで）プレイヤーなんだ。手は19.3 x 9.5cmでミディアムサイズ。どのマウスがおすすめ？ ここ5〜6年はG305をずっと使ってて何を選べばいいかさっぱり分からない。"
       },
       {
-        "id": "c5",
+        "id": "19rr9ew7di5oh",
+        "parent_id": "19rqumpy1ap1g",
+        "author": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "body_en": "lamzu maya x (v2 coming soon) is great if you want something lighter weight. maybe look at beast x pro v2 as well.",
+        "depth": 1,
+        "body_ja": "より軽量なものが欲しいならLamzu Maya X（そろそろV2が出る）がいいよ。あとはBeast X Pro V2もチェックしてみるといいかも。"
+      },
+      {
+        "id": "19rra0cgyvw3n",
+        "parent_id": "19rr9ew7di5oh",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "whats the difference between the features of the maya and the vaxee mice (that you have) and which do you prefer?",
+        "depth": 2,
+        "body_ja": "Mayaと（君が持ってる）VAXEEのマウス機能の違いって何？ どっちが好み？"
+      },
+      {
+        "id": "19rqwlrzu5f7k",
         "parent_id": null,
-        "depth": 0,
         "author": "海外ユーザー5",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "its actually the np01s ergo. i love the shape because it's rear humped which is actually really unique when it comes to ergos and makes it better for my claw grip. my favorite shape here though is the ulx classic. the beast x max doesnt feel the same",
-        "body_ja": "実はそれNP-01Sなんだ。エルゴノミクス形状なのに後部にコブがあるのが本当にユニークで、僕のつかみ持ちにめちゃくちゃ合ってるから大好きな形状なんだよね。でもここに置いてある中で一番のお気に入り形状はULX Classicかな。Beast X Maxは同じフィーリングには感じられないんだ。"
+        "body_en": "just curious on your personal ranking of these mice? rlly nice collection\n\n& do you notice if the pink zero is faster/slower than the regular black?",
+        "depth": 0,
+        "body_ja": "これらのマウスの個人的なランキングが気になるな！ すごく良いコレクションだね。\nあと、ピンクの零は通常の黒と比べて速いか遅いか違いを感じたりする？"
       },
       {
-        "id": "c6",
+        "id": "19rrbfs0d4shw",
+        "parent_id": "19rqwlrzu5f7k",
+        "author": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "body_en": "thanks, my top 3 here are the ulx classic, np01s ergo, and warg. my least favorite is the beast x i dont think i had the best unit. there are different things i like/dont like about all of them but the explanation would be too long haha. the pink zero feels about the same speed wise as the dai dai one which is the one i have, i do think the pink is a bit more textured though and worse with sleeves",
+        "depth": 1,
+        "body_ja": "ありがとう！ 僕のトップ3はULX Classic、NP-01S Ergo、それとWarg（Wlmouse）かな。一番合わなかったのはBeast Xで、個体値があまり良くなかったと思う。どれも好きな点と嫌いな点があるけど、説明すると長くなっちゃうな(笑)。ピンクの零は僕が持ってる橙（橙色）と速度的にはほぼ同じだけど、ピンクの方が少しテクスチャ感（ざらつき）があって、アームカバーとの相性は少し良くない気がする。"
+      },
+      {
+        "id": "19rr5vhthmhc4",
         "parent_id": null,
-        "depth": 0,
         "author": "海外ユーザー6",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "im planning on getting a lamzu or vaxee mouse primarily for valorant i use a pretty standard claw grip. im getting the zero soft and type99 soft to try out both and im a low sens player 0.23 800dpi i might change my sens in the future but the highest its ever gonna go is 0.3. my hand is 19.3 by 9.5 so like medium. which mouse would you recommend? i have no idea what to look for ive been using a g305 for the last 5-6 years",
-        "body_ja": "主にVALORANT用にLamzuかVAXEEのマウスを買おうと考えていて、一般的なつかみ持ちをしてます。零 SoftとType99 Softの両方を試すために手に入れる予定で、自分はローセンシ（800DPIの0.23、将来変えるかもだけど最高でも0.3）です。手の大きさは19.3×9.5cmで、いわゆるミディアムサイズです。どのマウスがおすすめですか？ ここ5〜6年はずっとG305を使い続けてきたので、何を選べばいいのかさっぱり分からなくて。"
-      },
-      {
-        "id": "c7",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー7",
-        "flair": "",
-        "is_op": false,
-        "score": 1,
-        "body_en": "just curious on your personal ranking of these mice? rlly nice collection\n\n& do you notice if the pink zero is faster/slower than the regular black?",
-        "body_ja": "単純な興味なんだけど、これらのマウスの個人的なランキングってどんな感じ？ すごく素敵なコレクションだね。\n\nあと、ピンクの零は通常のブラックと比べて速いとか遅いとか違いを感じたりする？"
-      },
-      {
-        "id": "c8",
-        "parent_id": null,
-        "depth": 0,
-        "author": "海外ユーザー8",
-        "flair": "",
-        "is_op": false,
-        "score": 1,
         "body_en": "I love it so much, I have the same wlmouse bunny mouse but I'm worried about pink on pink looking bad ;_;",
-        "body_ja": "めっちゃいいね。自分も全く同じWLmouseのウサギ柄マウスを持ってるんだけど、ピンクの上にピンクを合わせると合わないんじゃないかって心配でさ ;_;"
+        "depth": 0,
+        "body_ja": "これすごく好き。私も同じWLmouseのうさぎデザインのマウスを持ってるんだけど、ピンクにピンクを重ねると見た目がくどくならないか心配で… ;_;"
+      },
+      {
+        "id": "19rrc51hjz0w4",
+        "parent_id": "19rr5vhthmhc4",
+        "author": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "body_en": "i think the pink on the wlmouse is a bit more saturated than the sakura zero, which is more of a pastel pink. hope that helps",
+        "depth": 1,
+        "body_ja": "WLmouseのピンクは、パステルピンク寄りのサクラ零よりも少し鮮やか（彩度が高め）だと思うよ。参考になれば幸いです。"
+      },
+      {
+        "id": "19rskoc21u3i9",
+        "parent_id": null,
+        "author": "海外ユーザー7",
+        "flair": "SP-005/SP-004/ArtisanHienFXSoft",
+        "is_op": false,
+        "score": 1,
+        "body_en": "😍🤩😍",
+        "depth": 0,
+        "body_ja": "😍🤩😍"
       }
     ],
     "title_ja": "ARTISAN 零 Sakuraの美しさと海外コミュニティのゲーミングマウス談義",
     "hook_ja": "美しいピンクカラーのARTISAN 零 Sakuraマウスパッドと、スレ主の豪華なマウスコレクションを巡る海外ユーザーのやり取り。",
     "op_post_ja": "",
     "consensus_points": [
-      "ARTISAN 零のサクラピンク（限定カラー）は絶妙な色合いでビジュアル面の評価が非常に高い",
-      "VAXEE NP-01Sはエルゴ形状ながら後部ハンプがあり、つかみ持ちユーザーから唯一無二のフィット感として高く評価されている",
-      "Finalmouse ULX ClassicとWLmouse Beast X Maxは似た系統と見られがちだが、実際に握るとフィーリングが異なると評されている"
+      "ARTISAN 零 サクラピンクは絶妙なパステルピンクでデザイン面の評価が非常に高い",
+      "滑りの速度は既存の橙カラーと同等だが、ピンクは表面のテクスチャがやや強くアームカバーとの相性は少し劣る場合がある",
+      "Lamzu Maya XやVAXEE E1-B / NP-01S Ergoなど、後部コブ形状のマウスはつかみ持ちユーザーから高評価を得ている"
     ],
-    "detailed_analysis_ja": "本スレッドは、日本の高品質ゲーミングマウスパッドメーカー「ARTISAN」の人気布製コントロール系パッド『零（ZERO）』の限定カラー「サクラピンク（Sakura Pink）」のデスク周り写真をきっかけに展開された議論です。\n\n【1. ARTISAN 零 サクラピンクの魅力と滑りの違い】\nARTISANの「零」は、Logicool G 640などからのアップグレード先として世界中の競技プレイヤー（特にVALORANTやCS2などのタクティカルFPSプレイヤー）に愛用されているスタンダードなコントロールパッドです。通常はブラックやオレンジのカラー展開ですが、限定的にリリースされるサクラピンクは「派手すぎず上品なピンクの色合いが素晴らしい」と高い評価を得ています。カラーバリエーションによる滑り（速度）の差異について言及されることも多く、海外コミュニティでは中間色や明るいカラーの織り糸による滑走感の違いが関心事となっています。\n\n【2. 登場マウスに見るエルゴと左右対称のトレンド】\n画像内に配置されていたマウス（Lamzu Maya X、VAXEE NP-01S、Finalmouse ULX、WLmouse Beast X Maxなど）の形状についても議論が白熱しました。特にVAXEEの『NP-01S』は、左右非対称（エルゴノミクス）でありながら後部にしっかりとしたハンプ（背のコブ）が配置されており、通常のエルゴマウスでは前傾姿勢になりがちな「つかみ持ち（Claw Grip）」プレイヤーにとって極めて安定感の高い独自のホールド感を提供します。\n\n【3. 軽量マグネシウム・カーボンマウスの握り心地の差】\nまた、Finalmouse ULX ClassicとWLmouse Beast X Maxの比較では、外見や穴あき構造のコンセプトが似ているものの、シェルの肉厚感やサイドの絞り込み、指の当たるカーブの違いから「別物のフィーリングになる」という実使用者のリアルな意見が交わされています。長年Logicool G305のような小型卵型マウスを使ってきたユーザーへの乗り換え相談など、現代の競技マウス選びにおける形状とサイズ感の重要性が浮き彫りになっています。",
+    "detailed_analysis_ja": "【1. ARTISAN 零 サクラピンクの特徴と滑り感】\nARTISANの代表的布製マウスパッド「零（Zero）」の限定カラーであるサクラピンク（Sakura Pink）は、その淡いパステル調の発色の良さからコミュニティで非常に高い人気を集めています。色味の違いによる滑りの変化について、ユーザー間では「橙（Dai Dai Orange）と速度自体はほぼ同等」と評価されています。一方で、表面のテクスチャ（ざらつき感）がわずかに強く感じられるという意見もあり、アームカバーを使用するプレイヤーにとっては滑走面の引っかかり具合にわずかな違いが生じることが指摘されています。\n\n【2. 後部コブ形状（Rear Hump）マウスの傾向とつかみ持ちへの適合】\nスレッド内では、VAXEE NP-01S ErgoやLamzu Maya X、Finalmouse UltralightX（ULX）などの評価が交わされています。特にNP-01S Ergoのように「エルゴノミクス形状でありながら後部にコブがある」独特のデザインは、手のひら後半部分を支えるつかみ持ち（Claw Grip）プレイヤーに強く支持されています。また、ローシロ（低感度）でVALORANTなどの精密なエイムを求めるプレイヤーに対しては、コントロール性能に優れたARTISAN TYPE-99や零 Softと、軽量な左右対称・エルゴマウスの組み合わせが推奨されています。",
     "devices": [
       {
         "name": "ARTISAN 零",
         "category": "mousepad",
         "sentiment": "positive",
-        "comment_ja": "サクラピンクの色合いが非常に美しく絶妙であると高く評価されている。"
+        "comment_ja": "サクラピンクの色合いが好評。速度は橙カラーと同等だが、若干テクスチャ感が強くアームカバーへの干渉に注意が必要とされている。"
       },
       {
         "name": "ARTISAN TYPE-99",
         "category": "mousepad",
-        "sentiment": "neutral",
-        "comment_ja": "VALORANT用のコントロールパッドとして零Softとともに比較検討されている。"
+        "sentiment": "positive",
+        "comment_ja": "ローシロ・VALORANT向けコントロールパッドの候補として挙げられている。"
       },
       {
         "name": "Lamzu Maya X",
         "category": "mouse",
-        "sentiment": "neutral",
-        "comment_ja": "デスク上に配置された注目マウスとして確認されている。"
+        "sentiment": "positive",
+        "comment_ja": "軽量で扱いやすい持ちやすいマウスとして推奨されている。"
       },
       {
-        "name": "VAXEE ZYGEN NP-01S",
+        "name": "VAXEE NP-01S Ergo",
         "category": "mouse",
         "sentiment": "positive",
-        "comment_ja": "エルゴ形状でありながら後部にコブがあり、つかみ持ちユーザーにとって唯一無二のフィット感があると絶賛されている。"
+        "comment_ja": "エルゴ形状でありながら後部にコブがあり、つかみ持ちプレイヤーから高い支持を得ている。"
       },
       {
         "name": "Finalmouse UltralightX",
         "category": "mouse",
         "sentiment": "positive",
-        "comment_ja": "コレクションの中で一番お気に入りの形状として挙げられている。"
+        "comment_ja": "形状のフィット感が非常に高く、お気に入りとして上位に挙げられている。"
       },
       {
-        "name": "WLmouse Beast X Max",
+        "name": "WLmouse Beast X",
         "category": "mouse",
         "sentiment": "neutral",
-        "comment_ja": "ULX Classicとは似ているようで握り心地のフィーリングが異なると評価されている。"
+        "comment_ja": "デザイン性は評価されているが、ビルドクオリティの個体差により評価が分かれている。"
       },
       {
         "name": "Logicool G305",
         "category": "mouse",
         "sentiment": "neutral",
-        "comment_ja": "5〜6年間長年使い続けられてきた基準マウスとして名前が挙がっている。"
+        "comment_ja": "長年愛用されてきたエントリー向けワイヤレスマウスとして名が挙がっている。"
       }
     ],
-    "x_main_post": "ARTISAN 零のサクラピンクが海外で大絶賛！\n\n・派手すぎず上品なピンクの色合いが最高\n・同乗のNP-01Sは「後部コブ付きエルゴ」でつかみ持ちに神フィット\n・ULXとBeast X Maxは似て非なる握り心地\n\nデスク周りの映えと競技性能を両立した至高の構成です。",
+    "x_main_post": "ARTISAN 零の限定色「サクラピンク」の使用感話題！\n・速度は既存の橙カラーと同等\n・ピンクはやや表面のテクスチャが強くアームカバーに干渉しやすい\n・絶妙なパステルカラーで見た目の評価は抜群\nつかみ持ちには後部コブのNP-01S ErgoやMaya Xも高評価です！",
     "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
     "short_script": [
       {
@@ -16055,90 +16152,2008 @@
     ],
     "dialogue": [
       {
-        "id": "c1",
+        "id": "19rpsq5xpu2px",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー1",
         "flair": "",
         "is_op": false,
         "score": 4,
-        "text": "めちゃくちゃ良い色合いのピンクだね。"
+        "text": "本当に素晴らしいピンクの色合いだね"
       },
       {
-        "id": "c2",
+        "id": "19rptp05sfhhc",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー2",
         "flair": "",
         "is_op": false,
         "score": 2,
-        "text": "右上の角にあるのはLamzu Maya Xかな？"
+        "text": "右上にあるのはLamzu Maya X？"
       },
       {
-        "id": "c3",
+        "id": "19rpwkqldjfic",
+        "parent_id": "19rptp05sfhhc",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "text": "その通りだよ"
+      },
+      {
+        "id": "19rqj9gtgxzk4",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー3",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "その通りだよ。"
+        "text": "お気に入りの形状はどれ？ 僕はVaxee E1-B（左下のやつだと思うけど）をメインで使ってるよ。"
       },
       {
-        "id": "c4",
+        "id": "19rql39i1ewqr",
+        "parent_id": "19rqj9gtgxzk4",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "text": "実はそれNP-01S Ergoなんだ。エルゴ形状としては珍しく後部にコブがある形状で、僕のつかみ持ちにすごくフィットするから大好きなんだよね。でもここにある中で一番お気に入りの形状はULX Classicかな。Beast X Maxはなんか違う感じがした。"
+      },
+      {
+        "id": "19rqumpy1ap1g",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー4",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "どれが一番お気に入りの形状？ 自分はVAXEE E1-B（たぶん左下のやつだよね）をメインで使ってるよ。"
+        "text": "主にVALORANT用にLamzuかVAXEEのマウスを買おうと思ってる。持ち方は一般的なつかみ持ち。マウスパッドは試すためにZero SoftとTYPE-99 Softを買う予定で、ローシロ（800DPIで0.23、将来変えても最高0.3まで）プレイヤーなんだ。手は19.3 x 9.5cmでミディアムサイズ。どのマウスがおすすめ？ ここ5〜6年はG305をずっと使ってて何を選べばいいかさっぱり分からない。"
       },
       {
-        "id": "c5",
+        "id": "19rr9ew7di5oh",
+        "parent_id": "19rqumpy1ap1g",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "text": "より軽量なものが欲しいならLamzu Maya X（そろそろV2が出る）がいいよ。あとはBeast X Pro V2もチェックしてみるといいかも。"
+      },
+      {
+        "id": "19rra0cgyvw3n",
+        "parent_id": "19rr9ew7di5oh",
+        "depth": 2,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "Mayaと（君が持ってる）VAXEEのマウス機能の違いって何？ どっちが好み？"
+      },
+      {
+        "id": "19rqwlrzu5f7k",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー5",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "実はそれNP-01Sなんだ。エルゴノミクス形状なのに後部にコブがあるのが本当にユニークで、僕のつかみ持ちにめちゃくちゃ合ってるから大好きな形状なんだよね。でもここに置いてある中で一番のお気に入り形状はULX Classicかな。Beast X Maxは同じフィーリングには感じられないんだ。"
+        "text": "これらのマウスの個人的なランキングが気になるな！ すごく良いコレクションだね。\nあと、ピンクの零は通常の黒と比べて速いか遅いか違いを感じたりする？"
       },
       {
-        "id": "c6",
+        "id": "19rrbfs0d4shw",
+        "parent_id": "19rqwlrzu5f7k",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "text": "ありがとう！ 僕のトップ3はULX Classic、NP-01S Ergo、それとWarg（Wlmouse）かな。一番合わなかったのはBeast Xで、個体値があまり良くなかったと思う。どれも好きな点と嫌いな点があるけど、説明すると長くなっちゃうな(笑)。ピンクの零は僕が持ってる橙（橙色）と速度的にはほぼ同じだけど、ピンクの方が少しテクスチャ感（ざらつき）があって、アームカバーとの相性は少し良くない気がする。"
+      },
+      {
+        "id": "19rr5vhthmhc4",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー6",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "主にVALORANT用にLamzuかVAXEEのマウスを買おうと考えていて、一般的なつかみ持ちをしてます。零 SoftとType99 Softの両方を試すために手に入れる予定で、自分はローセンシ（800DPIの0.23、将来変えるかもだけど最高でも0.3）です。手の大きさは19.3×9.5cmで、いわゆるミディアムサイズです。どのマウスがおすすめですか？ ここ5〜6年はずっとG305を使い続けてきたので、何を選べばいいのかさっぱり分からなくて。"
+        "text": "これすごく好き。私も同じWLmouseのうさぎデザインのマウスを持ってるんだけど、ピンクにピンクを重ねると見た目がくどくならないか心配で… ;_;"
       },
       {
-        "id": "c7",
+        "id": "19rrc51hjz0w4",
+        "parent_id": "19rr5vhthmhc4",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "gearz.gg/xz",
+        "is_op": true,
+        "score": 1,
+        "text": "WLmouseのピンクは、パステルピンク寄りのサクラ零よりも少し鮮やか（彩度が高め）だと思うよ。参考になれば幸いです。"
+      },
+      {
+        "id": "19rskoc21u3i9",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "SP-005/SP-004/ArtisanHienFXSoft",
+        "is_op": false,
+        "score": 1,
+        "text": "😍🤩😍"
+      }
+    ],
+    "status": "published",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xgjd5p.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=ARTISAN%20%E9%9B%B6%E3%81%AE%E9%99%90%E5%AE%9A%E8%89%B2%E3%80%8C%E3%82%B5%E3%82%AF%E3%83%A9%E3%83%94%E3%83%B3%E3%82%AF%E3%80%8D%E3%81%AE%E4%BD%BF%E7%94%A8%E6%84%9F%E8%A9%B1%E9%A1%8C%EF%BC%81%0A%E3%83%BB%E9%80%9F%E5%BA%A6%E3%81%AF%E6%97%A2%E5%AD%98%E3%81%AE%E6%A9%99%E3%82%AB%E3%83%A9%E3%83%BC%E3%81%A8%E5%90%8C%E7%AD%89%0A%E3%83%BB%E3%83%94%E3%83%B3%E3%82%AF%E3%81%AF%E3%82%84%E3%82%84%E8%A1%A8%E9%9D%A2%E3%81%AE%E3%83%86%E3%82%AF%E3%82%B9%E3%83%81%E3%83%A3%E3%81%8C%E5%BC%B7%E3%81%8F%E3%82%A2%E3%83%BC%E3%83%A0%E3%82%AB%E3%83%90%E3%83%BC%E3%81%AB%E5%B9%B2%E6%B8%89%E3%81%97%E3%82%84%E3%81%99%E3%81%84%0A%E3%83%BB%E7%B5%B6%E5%A6%99%E3%81%AA%E3%83%91%E3%82%B9%E3%83%86%E3%83%AB%E3%82%AB%E3%83%A9%E3%83%BC%E3%81%A7%E8%A6%8B%E3%81%9F%E7%9B%AE%E3%81%AE%E8%A9%95%E4%BE%A1%E3%81%AF%E6%8A%9C%E7%BE%A4%0A%E3%81%A4%E3%81%8B%E3%81%BF%E6%8C%81%E3%81%A1%E3%81%AB%E3%81%AF%E5%BE%8C%E9%83%A8%E3%82%B3%E3%83%96%E3%81%AENP-01S%20Ergo%E3%82%84Maya%20X%E3%82%82%E9%AB%98%E8%A9%95%E4%BE%A1%E3%81%A7%E3%81%99%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xgjd5p.html",
+    "created_at": "2026-10-28T09:40:33.339593+00:00"
+  },
+  {
+    "id": "1xhfw3c",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "How do you differentiate raw aim improvement from just getting better at the scenarios?",
+    "selftext_en": "Hey everyone, I recently got back into aim training after a couple of years off. I used to run some of the older Voltaic stuff back in the day, but I’ve recently committed to the Viscose Season 2 benchmarks.\n\nFor context on my current progress, I’m running the Medium sheet peaking around Celadon for click timing and flicktech/static, but my controlled and reactive tracking is a major bottleneck anchoring me down around Vermillion.\n\nAs I’ve been running my daily routines doing one category a day (I cap at 3x runs per scenario) I’m definitely seeing my scores push up. However, I’m starting to wonder: how do you guys actually make sure your progression is due to genuine, transferrable mouse control rather than just getting better at Kovaaks/Scenarios.\n\nAre there specific physical cues (like tension management or visual focus) you use to keep yourself honest, or certain habits I should watch out for to ensure I'm actually building my raw aim for shooter games rather than just getting better at an aim trainer.\n\nAny advice is appreciated!",
+    "image_urls": [],
+    "score": 5,
+    "num_comments": 8,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xhfw3c/how_do_you_differentiate_raw_aim_improvement_from/",
+    "comments": [
+      "[+6] You don’t",
+      "[+2] link ur steam account or link the EVXL so we can see which exact scenarios/categories ur talking about.\n\nanyway, yes this is something a lot of people can fall into (myself included), when you spam a scenario so many times that you learn to just \"game\" the scenario or kind of fish for a lucky run w/ good spawns or blessed RNG, rather than actually learning to become better at whatever skill that scenario teaches. \n\nto keep yourself honest, theres really only one way: analyzing ur runs and taking the time to think on what is the weakest part of ur form. also what part of your form is actually being \"tested\" for that scenario.\n\nlets do reactive tracking for example, i fell into this trap for Ground Plaza Sparky v3. its very easy to start cheesing it if you focus more on what each movement pa",
+      "[+2] When im playing static/target switching, if I just play at a comfortable relaxing speed I naturally will speed up until eventually my speed will become too fast for me to control properly. This speed will cause you to miss a little but the trick is to keep playing and not resetting so you can adapt. When you are in that zone  you will know you are improving",
+      "[+1] I guess there isn't really a way of knowing for sure, but my \"method\" is to just play more different scenarios. Voltaic, viscose, Jade Palace, anima micro, and so on... There's so many good playlists you can play, that will have a lot of different scenarios. The more you play, the more you train, the less likely you just \"got good at a 100+ different scenarios\".",
+      "[+1] You can never know for sure, but playing the same sensitivity in-game and in the aim trainer helps a lot.\n\nBiggest differences from aim training:\n\n1. You build more confidence.\n2. You become more consistent.\n3. You're more critical of your aim mistakes and more aware when you made a mistake and what to do to correct it for next time.",
+      "[+1] The proof is in the pudding that if aim trainers didn't help - they wouldn't be used.\n\nIf someone is using aim trainers for a prolonged period (200hrs+) and can't see a correlation of improvement between improvement in scores and their raw aim in games, then you are doing something very wrong with your training.\n\nThe best way to look at aim trainers, is that it is a tool to improve mouse control. You should not be playing the same scenarios on repeat, with the same sensitivity. You should be actively looking to play on a wide range of sensitivities, for different types of scenarios, because ultimately you are not training to get a better score, you are training your brain to move your mouse whilst your eyes are laser focused on the target.\n\nIf you want to get better aim in game, you need t",
+      "[+1] If you're not good in game that means you're a score farming monkey.",
+      "[+1] It's impossible to do so. You cannot isolate any skill in life. Any drill you do, for any activity, you will partially just improve for that drill specifically. But that's okay, even if it's at 50% effectivnes, the amount of isolated practice you get is still worth it."
+    ],
+    "comment_tree": [
+      {
+        "id": "19rrnrft938kl",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "body_en": "You don’t",
+        "depth": 0,
+        "body_ja": "見分けなんてつかないよ。"
+      },
+      {
+        "id": "19rrojteylijk",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "link ur steam account or link the EVXL so we can see which exact scenarios/categories ur talking about.\n\nanyway, yes this is something a lot of people can fall into (myself included), when you spam a scenario so many times that you learn to just \"game\" the scenario or kind of fish for a lucky run w/ good spawns or blessed RNG, rather than actually learning to become better at whatever skill that scenario teaches. \n\nto keep yourself honest, theres really only one way: analyzing ur runs and taking the time to think on what is the weakest part of ur form. also what part of your form is actually being \"tested\" for that scenario.\n\nlets do reactive tracking for example, i fell into this trap for Ground Plaza Sparky v3. its very easy to start cheesing it if you focus more on what each movement pattern the bot has, trying to predict common tendencies, focusing on what visuals work best, using the visual override, etc. this is what i did for awhile, rather than focusing on how im actually handling the evasive jukes/direction changes each bot has. that being said, learning what each bot does is necessary to get a good score, but it should never be the main focus.\n\ninstead, i have now started completely focusing on making sure im not overflicking/overreacting to the jukes, im learning how to recognize acceleration changes, making sure im not trying to predict their movement (instead im reacting to their movement), and also spending time working on mousepad management so i dont have to r",
+        "depth": 0,
+        "body_ja": "SteamアカウントかEVXL（スプレッドシート）のリンクを貼ってくれれば、君がどのシナリオやカテゴリの話をしているのか正確に把握できるよ。\n\nそれはさておき、そう、これは君だけじゃなく僕も含めて多くの人が陥りがちな罠なんだ。同じシナリオを何度もやり込みすぎると、そのシナリオの課題として学ぶべきスキルを習得するのではなく、単にシナリオを「攻略（ゲーム化）」したり、良いリスポーンや恵まれた乱数といったラッキーな試行を狙いに行くだけになってしまう。\n\n自分を欺かずに正しく練習するための方法は実質1つしかない。自分のプレイを分析して、自分のフォームのどこが一番弱いのかをじっくり考えることだ。そして、そのシナリオで自分のフォームの「どの要素」が実際にテストされているのかを理解すること。\n\n例えばリアクティブトラッキングを例に挙げよう。僕自身、Ground Plaza Sparky v3でこの罠にハマったことがある。ボットが持つ動作パターンにばかり意識を向けたり、よくある傾向を予測しようとしたり、どの視覚設定が一番見やすいかこだわったり、ビジュアルオーバーライドを使ったりすると、簡単にスコアのズルができてしまうんだ。僕もしばらくそれをやってしまっていた。各ボットの回避運動や切り返しに自分がどう対処しているかという本質に集中する代わりにね。もちろんボットの動きを理解することは高スコアを出すために必要だけど、決してそれを練習のメインの目的にしてはいけない。\n\n今では僕は、切り返しに対してオーバーフリック（行き過ぎ）や過剰反応をしないこと、加速度の変化を見極めること、動きを予測しないこと（予測するのではなく動きを見てから反応すること）、そしてマウスを浮かせ直す必要がないようにマウスパッドのスペース管理に時間を割くことだけに完全に集中するようになったよ。"
+      },
+      {
+        "id": "19rroqvididr9",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "When im playing static/target switching, if I just play at a comfortable relaxing speed I naturally will speed up until eventually my speed will become too fast for me to control properly. This speed will cause you to miss a little but the trick is to keep playing and not resetting so you can adapt. When you are in that zone  you will know you are improving",
+        "depth": 0,
+        "body_ja": "スタティックやターゲットスイッチをプレイしているとき、心地よくリラックスできるスピードでやっていると、自然とペースが上がっていって、最終的には適切にコントロールできないほどの速度に達するんだ。この速度域になると少しミスが出るようになるけれど、コツはそこでリセットせずに粘り強くプレイし続けて適応することだ。そのゾーンに入れているときこそ、自分が上達していると実感できるはずだよ。"
+      },
+      {
+        "id": "19rrsnum3yl9c",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I guess there isn't really a way of knowing for sure, but my \"method\" is to just play more different scenarios. Voltaic, viscose, Jade Palace, anima micro, and so on... There's so many good playlists you can play, that will have a lot of different scenarios. The more you play, the more you train, the less likely you just \"got good at a 100+ different scenarios\".",
+        "depth": 0,
+        "body_ja": "確実に見分ける方法というのは実際にはないと思うけれど、僕の「やり方」はとにかく多種多様なシナリオをプレイすることだね。Voltaic、Viscose、Jade Palace、anima microなどなど……優れたシナリオがたくさん入った素晴らしいプレイリストは山ほどある。プレイする種類を増やして練習量を積めば積むほど、「単に100種類以上の異なるシナリオに慣れただけ」なんて状態になる可能性は低くなるからね。"
+      },
+      {
+        "id": "19rrwc74h6dk3",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "You can never know for sure, but playing the same sensitivity in-game and in the aim trainer helps a lot.\n\nBiggest differences from aim training:\n\n1. You build more confidence.\n2. You become more consistent.\n3. You're more critical of your aim mistakes and more aware when you made a mistake and what to do to correct it for next time.",
+        "depth": 0,
+        "body_ja": "確実に見極めることは決してできないけれど、ゲーム本編とエイム練習ソフトで全く同じ感度を使うことは大いに役立つよ。\n\nエイム練習による最大の恩恵は以下の通り：\n\n1. 自信がつく。\n2. 安定感が増す。\n3. 自分のエイムのミスに対してより客観的になれ、どこでミスをしたのか、次回どう修正すべきかがより明確に把握できるようになる。"
+      },
+      {
+        "id": "19rs0qjcwkowy",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "The proof is in the pudding that if aim trainers didn't help - they wouldn't be used.\n\nIf someone is using aim trainers for a prolonged period (200hrs+) and can't see a correlation of improvement between improvement in scores and their raw aim in games, then you are doing something very wrong with your training.\n\nThe best way to look at aim trainers, is that it is a tool to improve mouse control. You should not be playing the same scenarios on repeat, with the same sensitivity. You should be actively looking to play on a wide range of sensitivities, for different types of scenarios, because ultimately you are not training to get a better score, you are training your brain to move your mouse whilst your eyes are laser focused on the target.\n\nIf you want to get better aim in game, you need to do this.",
+        "depth": 0,
+        "body_ja": "エイム練習ソフトが効果的でないなら、誰も使っていないはずだ。論より証拠だよ。\n\nもしエイム練習ソフトを長期間（200時間以上）プレイしていて、スコアの向上とゲーム内での純粋なエイム力向上との相関関係が見られないなら、君の練習方法は根本的に何かが間違っている。\n\nエイムトレーナーに対する最適な捉え方は、「マウスコントロールを向上させるためのツール」だということだ。全く同じ感度で、同じシナリオばかりを繰り返しプレイするべきじゃない。様々なタイプのシナリオに対して、幅広い感度を使って積極的にプレイするべきなんだ。なぜなら最終的な目的はハイスコアを出すことではなく、視線がターゲットに完全にロックオンされている状態でマウスを動かせるように脳を訓練することだからだ。\n\nゲーム内のエイムを本当に向上させたいなら、これを実践する必要がある。"
+      },
+      {
+        "id": "19rs4d7jntd7n",
+        "parent_id": null,
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "If you're not good in game that means you're a score farming monkey.",
+        "depth": 0,
+        "body_ja": "ゲーム本編で強くないなら、ただのスコア稼ぎマシーン（スコアファーミングモンキー）ってことだよ。"
+      },
+      {
+        "id": "19rs6cyi4gxsz",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "It's impossible to do so. You cannot isolate any skill in life. Any drill you do, for any activity, you will partially just improve for that drill specifically. But that's okay, even if it's at 50% effectivnes, the amount of isolated practice you get is still worth it.",
+        "depth": 0,
+        "body_ja": "見分けるなんて不可能だよ。人生においてどんなスキルも完全にそれ単体で切り離すことなんてできない。どんな活動のどんなドリル練習であっても、ある程度はそのドリル自体が上手くなるものだ。でもそれで全く問題ない。仮に実戦への還元効率が50%だったとしても、反復して行える単体練習の量自体に計り知れない価値があるんだから。"
+      }
+    ],
+    "title_ja": "エイム練習のスコア向上は純粋なエイム力かシナリオ慣れか？見分け方と対策",
+    "hook_ja": "KovaaK'sのスコアが伸びても、単にシナリオのボットの動きやリセットに慣れただけではないかと悩む声は多いです。海外コミュニティでは、ボットの動きを予測せず視覚反応を鍛えることや、多彩なシナリオと振り向き感度の変更によるマウスコントロールの純粋な強化が推奨されています。",
+    "op_post_ja": "みなさんこんにちは。数年のブランクを経て、最近エイム練習を再開しました。以前は昔のVoltaicベンチマークなどをプレイしていましたが、最近はViscose Season 2のベンチマークに本格的に取り組んでいます。\n\n現在の進捗状況を説明すると、Mediumシートをプレイしていて、クリックタイミングとフリック／スタティック系はCeladon付近がピークですが、コントロール系やリアクティブ系のトラッキングが大きなボトルネックになっており、Vermillionあたりで伸び悩んでいます。\n\n1日1カテゴリずつ進めるデイリールーティン（各シナリオ3回までに制限しています）をこなす中で、確かにスコアは伸びてきています。しかし、ふと疑問に思い始めました。この成長が、単にKovaaK'sやそのシナリオ自体が上手くなっただけではなく、実戦に活きる本物のマウスコントロール能力の向上によるものだと、皆さんはどうやって確かめているのでしょうか？\n\n実戦のシューターゲームに還元される純粋なエイム力を確実に身につけるために、皆さんが意識している具体的な身体の感覚（余計な力みの管理や視覚的な集中など）や、注意すべき癖などはありますか？\n\nどんなアドバイスでも大歓迎です！",
+    "consensus_points": [
+      "単一シナリオのボットの挙動パターンやリセット（運ゲー）に依存したスコア稼ぎを避け、弱点となるフォームの分析に集中する",
+      "予測撃ちをやめて「相手の切り返しや加速度を目で見てから反応する」ことや、マウスパッドのスペース管理を意識する",
+      "特定のシナリオを暗記しないよう、Voltaic、Viscose、Jade Palaceなど多種多様なプレイリストをこなし、感度幅を広げて練習する"
+    ],
+    "detailed_analysis_ja": "エイム練習ソフト（KovaaK'sやAimlabs）でスコアが向上した際、「本当にエイム（マウスコントロール）そのものが上達しているのか、それともそのシナリオの配置やボットの動きの癖を覚えて最適化しただけ（ゲーム化・スコアファーミング）なのか」という疑問は、中級者から上級者へ移行するプレイヤーが必ず直面する壁です。\n\n【1. スコア稼ぎ（Cheese / スコアファーミング）の罠】\nコメント欄でも指摘されている通り、同じシナリオを繰り返しプレイしていると、人間は無意識に「ボットのスポーン位置」「切り返しのタイミング」「特定の移動傾向」を予測（Predict）するようになります。特にリアクティブトラッキング（例: Ground Plaza等）では、ボットが切り返すタイミングを予測して置きエイム気味に動かすことでスコアは跳ね上がりますが、これは実戦でのランダムな敵の動きには通用しない悪癖となります。これを防ぐためには、「予測を完全に排除し、ボットの加速度や方向転換を目視してから正確に反応する純粋なリアクショントレーニング」へと意識を切り替える必要があります。\n\n【2. 練習のバリエーションと感度変更の重要性】\nコミュニティの共通見解として推奨されているのが、「シナリオの過度な反復を避け、多種類のシナリオを回すこと」です。VoltaicだけでなくViscose、Jade Palace、Anima Microなどの優れたコミュニティプレイリストを幅広くプレイすることで、1つのシナリオを暗記するリスクを排除できます。また、同じ感度だけで練習し続けるのではなく、あえてハイセンシやローセンシを取り入れて練習することで、特定シナリオへの最適化を防ぎ、純粋な指先・手首・腕のマウスコントロール能力を脳に学習させることができます。\n\n【3. 実戦への還元と割り切り】\n一部のユーザーが語るように、ドリル練習において「その練習メニュー特有の上達」を完全にゼロにすることは不可能です。しかし、たとえ練習効率が100%ではなく50%の実戦転移率だったとしても、ゲーム本編の何倍もの高密度で純粋な撃ち合いの動作を反復できるエイムトレーナーの価値は揺らぎません。リセットを繰り返して完璧な乱数を引こうとするのではなく、スピードを出してミスが発生する限界域（ゾーン）を維持しながら練習し続けることが、実戦で活きる確かな実力につながります。",
+    "devices": [],
+    "x_main_post": "エイム練習でスコアが伸びても「シナリオ慣れ」じゃないかと不安になる問題、海外猛者の見解まとめ！\n\n・切り返しを予測せず視覚反応を徹底する\n・リセット癖をやめて限界速度域で粘る\n・複数プレイリストを回し感度幅を広げる\n\n単一シナリオの攻略ではなく純粋なマウス操作力を鍛えよう！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "エイム練習でスコアが伸びても実戦で強くなれない気がするのだ…",
+        "caption": "エイム練習の悩み"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "それは単にシナリオのボットの動きを覚えちゃってるだけかもだよ！",
+        "caption": "ボット慣れの罠！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "どうすれば純粋なエイム力を鍛えられるのだ？",
+        "caption": "どうすればいい？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ボットの動きを予測しないで、目で見てから反応するのが大事なんだよね！",
+        "caption": "予測撃ちを捨てる"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "あとは色んなプレイリストを回したり、感度を変えて練習するのがおすすめだよ！",
+        "caption": "多様な練習メニュー"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "同じシナリオばかり周回してリセットしまくるのはダメなのだ…！",
+        "caption": "リセット周回はNG"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ、練習の半分でも実戦に活きれば十分成長できるから焦らないでね！",
+        "caption": "50%でも実戦に活きる"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "正しい意識でマウスコントロールを鍛え直してみるのだ！",
+        "caption": "今日から実践！"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rrnrft938kl",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "text": "見分けなんてつかないよ。"
+      },
+      {
+        "id": "19rrojteylijk",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "SteamアカウントかEVXL（スプレッドシート）のリンクを貼ってくれれば、君がどのシナリオやカテゴリの話をしているのか正確に把握できるよ。\n\nそれはさておき、そう、これは君だけじゃなく僕も含めて多くの人が陥りがちな罠なんだ。同じシナリオを何度もやり込みすぎると、そのシナリオの課題として学ぶべきスキルを習得するのではなく、単にシナリオを「攻略（ゲーム化）」したり、良いリスポーンや恵まれた乱数といったラッキーな試行を狙いに行くだけになってしまう。\n\n自分を欺かずに正しく練習するための方法は実質1つしかない。自分のプレイを分析して、自分のフォームのどこが一番弱いのかをじっくり考えることだ。そして、そのシナリオで自分のフォームの「どの要素」が実際にテストされているのかを理解すること。\n\n例えばリアクティブトラッキングを例に挙げよう。僕自身、Ground Plaza Sparky v3でこの罠にハマったことがある。ボットが持つ動作パターンにばかり意識を向けたり、よくある傾向を予測しようとしたり、どの視覚設定が一番見やすいかこだわったり、ビジュアルオーバーライドを使ったりすると、簡単にスコアのズルができてしまうんだ。僕もしばらくそれをやってしまっていた。各ボットの回避運動や切り返しに自分がどう対処しているかという本質に集中する代わりにね。もちろんボットの動きを理解することは高スコアを出すために必要だけど、決してそれを練習のメインの目的にしてはいけない。\n\n今では僕は、切り返しに対してオーバーフリック（行き過ぎ）や過剰反応をしないこと、加速度の変化を見極めること、動きを予測しないこと（予測するのではなく動きを見てから反応すること）、そしてマウスを浮かせ直す必要がないようにマウスパッドのスペース管理に時間を割くことだけに完全に集中するようになったよ。"
+      },
+      {
+        "id": "19rroqvididr9",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "スタティックやターゲットスイッチをプレイしているとき、心地よくリラックスできるスピードでやっていると、自然とペースが上がっていって、最終的には適切にコントロールできないほどの速度に達するんだ。この速度域になると少しミスが出るようになるけれど、コツはそこでリセットせずに粘り強くプレイし続けて適応することだ。そのゾーンに入れているときこそ、自分が上達していると実感できるはずだよ。"
+      },
+      {
+        "id": "19rrsnum3yl9c",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "確実に見分ける方法というのは実際にはないと思うけれど、僕の「やり方」はとにかく多種多様なシナリオをプレイすることだね。Voltaic、Viscose、Jade Palace、anima microなどなど……優れたシナリオがたくさん入った素晴らしいプレイリストは山ほどある。プレイする種類を増やして練習量を積めば積むほど、「単に100種類以上の異なるシナリオに慣れただけ」なんて状態になる可能性は低くなるからね。"
+      },
+      {
+        "id": "19rrwc74h6dk3",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "確実に見極めることは決してできないけれど、ゲーム本編とエイム練習ソフトで全く同じ感度を使うことは大いに役立つよ。\n\nエイム練習による最大の恩恵は以下の通り：\n\n1. 自信がつく。\n2. 安定感が増す。\n3. 自分のエイムのミスに対してより客観的になれ、どこでミスをしたのか、次回どう修正すべきかがより明確に把握できるようになる。"
+      },
+      {
+        "id": "19rs0qjcwkowy",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "エイム練習ソフトが効果的でないなら、誰も使っていないはずだ。論より証拠だよ。\n\nもしエイム練習ソフトを長期間（200時間以上）プレイしていて、スコアの向上とゲーム内での純粋なエイム力向上との相関関係が見られないなら、君の練習方法は根本的に何かが間違っている。\n\nエイムトレーナーに対する最適な捉え方は、「マウスコントロールを向上させるためのツール」だということだ。全く同じ感度で、同じシナリオばかりを繰り返しプレイするべきじゃない。様々なタイプのシナリオに対して、幅広い感度を使って積極的にプレイするべきなんだ。なぜなら最終的な目的はハイスコアを出すことではなく、視線がターゲットに完全にロックオンされている状態でマウスを動かせるように脳を訓練することだからだ。\n\nゲーム内のエイムを本当に向上させたいなら、これを実践する必要がある。"
+      },
+      {
+        "id": "19rs4d7jntd7n",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー7",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "単純な興味なんだけど、これらのマウスの個人的なランキングってどんな感じ？ すごく素敵なコレクションだね。\n\nあと、ピンクの零は通常のブラックと比べて速いとか遅いとか違いを感じたりする？"
+        "text": "ゲーム本編で強くないなら、ただのスコア稼ぎマシーン（スコアファーミングモンキー）ってことだよ。"
       },
       {
-        "id": "c8",
+        "id": "19rs6cyi4gxsz",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー8",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "めっちゃいいね。自分も全く同じWLmouseのウサギ柄マウスを持ってるんだけど、ピンクの上にピンクを合わせると合わないんじゃないかって心配でさ ;_;"
+        "text": "見分けるなんて不可能だよ。人生においてどんなスキルも完全にそれ単体で切り離すことなんてできない。どんな活動のどんなドリル練習であっても、ある程度はそのドリル自体が上手くなるものだ。でもそれで全く問題ない。仮に実戦への還元効率が50%だったとしても、反復して行える単体練習の量自体に計り知れない価値があるんだから。"
       }
     ],
     "status": "draft",
     "x_posted": false,
-    "article_url": "https://aimswamp.github.io/aimlog/articles/1xgjd5p.html",
-    "x_intent_url": "https://twitter.com/intent/tweet?text=ARTISAN%20%E9%9B%B6%E3%81%AE%E3%82%B5%E3%82%AF%E3%83%A9%E3%83%94%E3%83%B3%E3%82%AF%E3%81%8C%E6%B5%B7%E5%A4%96%E3%81%A7%E5%A4%A7%E7%B5%B6%E8%B3%9B%EF%BC%81%0A%0A%E3%83%BB%E6%B4%BE%E6%89%8B%E3%81%99%E3%81%8E%E3%81%9A%E4%B8%8A%E5%93%81%E3%81%AA%E3%83%94%E3%83%B3%E3%82%AF%E3%81%AE%E8%89%B2%E5%90%88%E3%81%84%E3%81%8C%E6%9C%80%E9%AB%98%0A%E3%83%BB%E5%90%8C%E4%B9%97%E3%81%AENP-01S%E3%81%AF%E3%80%8C%E5%BE%8C%E9%83%A8%E3%82%B3%E3%83%96%E4%BB%98%E3%81%8D%E3%82%A8%E3%83%AB%E3%82%B4%E3%80%8D%E3%81%A7%E3%81%A4%E3%81%8B%E3%81%BF%E6%8C%81%E3%81%A1%E3%81%AB%E7%A5%9E%E3%83%95%E3%82%A3%E3%83%83%E3%83%88%0A%E3%83%BBULX%E3%81%A8Beast%20X%20Max%E3%81%AF%E4%BC%BC%E3%81%A6%E9%9D%9E%E3%81%AA%E3%82%8B%E6%8F%A1%E3%82%8A%E5%BF%83%E5%9C%B0%0A%0A%E3%83%87%E3%82%B9%E3%82%AF%E5%91%A8%E3%82%8A%E3%81%AE%E6%98%A0%E3%81%88%E3%81%A8%E7%AB%B6%E6%8A%80%E6%80%A7%E8%83%BD%E3%82%92%E4%B8%A1%E7%AB%8B%E3%81%97%E3%81%9F%E8%87%B3%E9%AB%98%E3%81%AE%E6%A7%8B%E6%88%90%E3%81%A7%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xgjd5p.html",
-    "created_at": "2026-10-28T09:40:33.339593+00:00"
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xhfw3c.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%81%A7%E3%82%B9%E3%82%B3%E3%82%A2%E3%81%8C%E4%BC%B8%E3%81%B3%E3%81%A6%E3%82%82%E3%80%8C%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E6%85%A3%E3%82%8C%E3%80%8D%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%E3%81%8B%E3%81%A8%E4%B8%8D%E5%AE%89%E3%81%AB%E3%81%AA%E3%82%8B%E5%95%8F%E9%A1%8C%E3%80%81%E6%B5%B7%E5%A4%96%E7%8C%9B%E8%80%85%E3%81%AE%E8%A6%8B%E8%A7%A3%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%81%0A%0A%E3%83%BB%E5%88%87%E3%82%8A%E8%BF%94%E3%81%97%E3%82%92%E4%BA%88%E6%B8%AC%E3%81%9B%E3%81%9A%E8%A6%96%E8%A6%9A%E5%8F%8D%E5%BF%9C%E3%82%92%E5%BE%B9%E5%BA%95%E3%81%99%E3%82%8B%0A%E3%83%BB%E3%83%AA%E3%82%BB%E3%83%83%E3%83%88%E7%99%96%E3%82%92%E3%82%84%E3%82%81%E3%81%A6%E9%99%90%E7%95%8C%E9%80%9F%E5%BA%A6%E5%9F%9F%E3%81%A7%E7%B2%98%E3%82%8B%0A%E3%83%BB%E8%A4%87%E6%95%B0%E3%83%97%E3%83%AC%E3%82%A4%E3%83%AA%E3%82%B9%E3%83%88%E3%82%92%E5%9B%9E%E3%81%97%E6%84%9F%E5%BA%A6%E5%B9%85%E3%82%92%E5%BA%83%E3%81%92%E3%82%8B%0A%0A%E5%8D%98%E4%B8%80%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%81%AE%E6%94%BB%E7%95%A5%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E7%B4%94%E7%B2%8B%E3%81%AA%E3%83%9E%E3%82%A6%E3%82%B9%E6%93%8D%E4%BD%9C%E5%8A%9B%E3%82%92%E9%8D%9B%E3%81%88%E3%82%88%E3%81%86%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xhfw3c.html",
+    "created_at": "2026-10-29T09:43:59.098791+00:00"
+  },
+  {
+    "id": "1xhaw05",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "HOW IS IT POSSIBLE TO HIT SEAL HERE?",
+    "selftext_en": "i just wonder where i do wrong here. I see too much people ahead of me i dont get how people can be this good.",
+    "image_urls": [
+      "https://v.redd.it/yyn740nq04yh1"
+    ],
+    "score": 6,
+    "num_comments": 26,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xhaw05/how_is_it_possible_to_hit_seal_here/",
+    "comments": [
+      "[+2] haha beants held me from seal complete for a long ass time as well. Spam the medium and hard version of the scenario, as well as the other flick ones for a while.",
+      "[+1] ty i will try",
+      "[+14] Increase speed, the targets are big. Just push faster till it's uncomfortable the whole way through and you think you're going to miss. Do that often enough and your speed will increase. I used to play gridshot and started at 70k. Once I hit 90k I genuinely thought it was my genetic limit. I just kept pushing faster and faster. Ended up at 120k",
+      "[+3] I miss grinding gridshot even tho it was lowk useless. Peaked at 140k",
+      "[+1] thank you i will try to increase my speed between kills and see the result",
+      "[+1] do you go to the benchmarks tab in game to play?",
+      "[+1] need a kill confirmation sound that u can hear over ur music. for any switching scenario, you basically switch off of that sound. it’s kind of a rhythm thing\n\nalso maybe change the visuals a bit. at least increase the scale for your the grid walls to like 2 or 3. bigger crosshair or using a different color that stands out would help as well",
+      "[+5] Wdym you move super slowly. You need to accelerate more initally then microflick it more. The targets are big and relatively close so the microflick shouldn't be that hard if even neccecery at all",
+      "[+3] i feel like i cant speed up more. i feel like its my limit but i will try thank u",
+      "[+2] How you wanna feel is that your next target should feel like it’s 1 frame distance from each other. It might not be like that but its what you should be shooting for.\n\nFrom your perspective, it should look like you’ve instalocked from one target to another.",
+      "[+1] thats a cool tip i will keep that in mind",
+      "[+3] You can try lower your sens to something super slow, then once you go back to normal sens you will be zooming",
+      "[+1] I feel like the music is fucking with you and you started going faster when the second song came on",
+      "[+1] yeah i like to listen music i didnt even realize the video was with music on",
+      "[+1] Idk it seems like in the beginning of the video you are switching targets with the beat which was slowing you down a lot.",
+      "[+1] how do you get that ui after the scenario that says what ur rank is in viscose?",
+      "[+1] idk it just pops up",
+      "[+1] You play the benchmark in kovvaks and not the individual scenario",
+      "[+1] ahh gotcha, previously i was just using the playlist and refreshing the website page",
+      "[+1] Trust me, refresh the evxl page is way better then run the benchmark direct in the kovaaks",
+      "[+1] Wait, how do you do that? I just use the playlist and refresh the website as well lol",
+      "[+1] Flick faster, don't be afraid to flick faster than usual on a scenario with targets this big",
+      "[+1] Go faster. Since you listen to music while training, find higher bpm music, you're going to the beat and this is too slow to hit seal.",
+      "[+2] [https://i.imgur.com/h7s6LPz.png](https://i.imgur.com/h7s6LPz.png) proof I hit seal on this scenario, your weakest point is kill confirms/knowing how long it takes to kill the target. You have to be extremely quick and rapidly move between target to have a shot at seal.",
+      "[+6] a lot of people are saying \"go faster\" but it honestly looks like you have too much tension, it might be easier to be smoother instead of faster. personally being fluid is how I got seal on that one",
+      "[+0] You should play some more domi switch to help with stability, that’s what helped me close the gap, it will help you go faster in the initial flick and help you land on your target with the deceleration"
+    ],
+    "comment_tree": [
+      {
+        "id": "19rrbavrcaw2q",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "haha beants held me from seal complete for a long ass time as well. Spam the medium and hard version of the scenario, as well as the other flick ones for a while.",
+        "depth": 0,
+        "body_ja": "あはは、自分もbeantsのせいでめちゃくちゃ長い間Sealコンプリートを阻まれてたよ。そのシナリオのMedium版やHard版、あとは他のフリック系シナリオもしばらくの間やり込みまくるといいよ。"
+      },
+      {
+        "id": "19rrelqwbavhe",
+        "parent_id": "19rrbavrcaw2q",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "ty i will try",
+        "depth": 1,
+        "body_ja": "ありがとう、やってみます。"
+      },
+      {
+        "id": "19rrbbuzqhqzm",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 14,
+        "body_en": "Increase speed, the targets are big. Just push faster till it's uncomfortable the whole way through and you think you're going to miss. Do that often enough and your speed will increase. I used to play gridshot and started at 70k. Once I hit 90k I genuinely thought it was my genetic limit. I just kept pushing faster and faster. Ended up at 120k",
+        "depth": 0,
+        "body_ja": "スピードを上げな。ターゲットはデカいんだから。最初から最後まで違和感があって「これ絶対外すだろ」って思えるレベルまでとにかく速く振るんだ。それを頻繁にやっていれば速度は上がっていく。俺も昔Gridshotをやり始めた時は70kスタートで、90kに達した時は本気でこれが自分の遺伝的な限界だと思ってた。でも限界を超えて速く、さらに速く押し込み続けたら、最終的には120kまで行けたよ。"
+      },
+      {
+        "id": "19rrcn0wbtb6t",
+        "parent_id": "19rrbbuzqhqzm",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "I miss grinding gridshot even tho it was lowk useless. Peaked at 140k",
+        "depth": 1,
+        "body_ja": "実際はほとんど役に立たないと分かってても、Gridshotを周回してた頃が懐かしいな。最高で140kまで行ったよ。"
+      },
+      {
+        "id": "19rreisa1kpuq",
+        "parent_id": "19rrbbuzqhqzm",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "thank you i will try to increase my speed between kills and see the result",
+        "depth": 1,
+        "body_ja": "ありがとうございます。キルとキルの間の速度を上げるように意識して、どうなるか試してみます。"
+      },
+      {
+        "id": "19rrmnx992iu8",
+        "parent_id": "19rreisa1kpuq",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "do you go to the benchmarks tab in game to play?",
+        "depth": 2,
+        "body_ja": "プレイするときはゲーム内のベンチマークタブから開いてやってる？"
+      },
+      {
+        "id": "19rrbfs5go99f",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "need a kill confirmation sound that u can hear over ur music. for any switching scenario, you basically switch off of that sound. it’s kind of a rhythm thing\n\nalso maybe change the visuals a bit. at least increase the scale for your the grid walls to like 2 or 3. bigger crosshair or using a different color that stands out would help as well",
+        "depth": 0,
+        "body_ja": "音楽越しでもはっきり聞こえるキル確認音が必要だな。あらゆるスイッチング系シナリオでは、基本的にその音を合図に次のターゲットへ切り替えるんだ。一種のリズムゲームみたいなもんだよ。\n\nあと視覚設定も少し変えたほうがいいかも。少なくともグリッド壁のスケールを2か3くらいに広げてみて。クロスヘアを大きくするか、目立つ色に変えるのも助けになるはず。"
+      },
+      {
+        "id": "19rrcok6tngm9",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "Wdym you move super slowly. You need to accelerate more initally then microflick it more. The targets are big and relatively close so the microflick shouldn't be that hard if even neccecery at all",
+        "depth": 0,
+        "body_ja": "どういうこと？ めちゃくちゃゆっくり動かしてるじゃん。最初はもっと勢いよく加速して、そこからマイクロフリック気味に持っていく必要があるよ。ターゲットは大きくて割と近いんだから、マイクロフリックなんて大して難しくないし、そもそも必要ないレベルだろ。"
+      },
+      {
+        "id": "19rrekceuoici",
+        "parent_id": "19rrcok6tngm9",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 3,
+        "body_en": "i feel like i cant speed up more. i feel like its my limit but i will try thank u",
+        "depth": 1,
+        "body_ja": "これ以上スピードを上げられない気がするんです。これが自分の限界な気がしちゃいますが、頑張ってやってみます。ありがとうございます。"
+      },
+      {
+        "id": "19rrj6xqrt9lx",
+        "parent_id": "19rrekceuoici",
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "How you wanna feel is that your next target should feel like it’s 1 frame distance from each other. It might not be like that but its what you should be shooting for.\n\nFrom your perspective, it should look like you’ve instalocked from one target to another.",
+        "depth": 2,
+        "body_ja": "感覚としては、次のターゲットがわずか1フレームの距離にあるかのように感じるべきなんだ。実際はそうじゃなくても、そこを目指して振るべきなんだよ。\n\n自分の視点から見たら、あるターゲットから別のターゲットへ一瞬で即座にロック（インサイドロック）したように見えるくらいじゃないとダメだ。"
+      },
+      {
+        "id": "19rrmiulslwpv",
+        "parent_id": "19rrj6xqrt9lx",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "thats a cool tip i will keep that in mind",
+        "depth": 3,
+        "body_ja": "それすごくいいヒントですね、頭に入れておきます。"
+      },
+      {
+        "id": "19rrjbuen1dcz",
+        "parent_id": "19rrekceuoici",
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "You can try lower your sens to something super slow, then once you go back to normal sens you will be zooming",
+        "depth": 2,
+        "body_ja": "感度をめちゃくちゃ遅い設定まで下げて試してみるといい。その後に普段の感度に戻したら、ビュンビュン超速で動かせるようになるから。"
+      },
+      {
+        "id": "19rre7n5ut6n4",
+        "parent_id": null,
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I feel like the music is fucking with you and you started going faster when the second song came on",
+        "depth": 0,
+        "body_ja": "音楽のせいで調子を崩してる気がするな。2曲目が流れてきた時、明らかに動きが速くなってたし。"
+      },
+      {
+        "id": "19rreldav74dc",
+        "parent_id": "19rre7n5ut6n4",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "yeah i like to listen music i didnt even realize the video was with music on",
+        "depth": 1,
+        "body_ja": "そうですね、音楽を聴くのが好きなんです。動画に音楽の音まで入ってるとは気付きませんでした。"
+      },
+      {
+        "id": "19rrfjarbzqox",
+        "parent_id": "19rreldav74dc",
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Idk it seems like in the beginning of the video you are switching targets with the beat which was slowing you down a lot.",
+        "depth": 2,
+        "body_ja": "なんというか、動画の最初の方は音楽のビートに合わせてターゲットを切り替えているように見えて、そのせいでめちゃくちゃテンポが遅くなってたんだと思う。"
+      },
+      {
+        "id": "19rrl3hdzgov5",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "how do you get that ui after the scenario that says what ur rank is in viscose?",
+        "depth": 0,
+        "body_ja": "シナリオ終了後にViscoseのランクが表示されるあのUIってどうやって出すの？"
+      },
+      {
+        "id": "19rrmg5uapl2a",
+        "parent_id": "19rrl3hdzgov5",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "idk it just pops up",
+        "depth": 1,
+        "body_ja": "どうなんでしょう、勝手に出てきますね。"
+      },
+      {
+        "id": "19rro2393york",
+        "parent_id": "19rrl3hdzgov5",
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "You play the benchmark in kovvaks and not the individual scenario",
+        "depth": 1,
+        "body_ja": "個別のシナリオではなく、KovaaK's内のベンチマーク機能からプレイすると出るよ。"
+      },
+      {
+        "id": "19rro4pkh6z8l",
+        "parent_id": "19rro2393york",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "ahh gotcha, previously i was just using the playlist and refreshing the website page",
+        "depth": 2,
+        "body_ja": "あーなるほど！ これまでプレイリストを使ってブラウザのWebページ側を手動でリロードしてたわ。"
+      },
+      {
+        "id": "19rsvupjjkuzn",
+        "parent_id": "19rro4pkh6z8l",
+        "author": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Trust me, refresh the evxl page is way better then run the benchmark direct in the kovaaks",
+        "depth": 3,
+        "body_ja": "信じてくれ、KovaaK's内で直接ベンチマークを回すよりも、evxlのWebページを更新する方式のほうが遥かに快適だぞ。"
+      },
+      {
+        "id": "19rs128te2bj4",
+        "parent_id": "19rro2393york",
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Wait, how do you do that? I just use the playlist and refresh the website as well lol",
+        "depth": 2,
+        "body_ja": "えっ、それどうやるの？ 俺もプレイリスト使ってWebサイト更新してたんだけど笑"
+      },
+      {
+        "id": "19rrmpb01ix2b",
+        "parent_id": null,
+        "author": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Flick faster, don't be afraid to flick faster than usual on a scenario with targets this big",
+        "depth": 0,
+        "body_ja": "もっと速くフリックするんだ。これくらいターゲットが大きいシナリオなら、普段より思い切って速く振るのを怖がっちゃいけない。"
+      },
+      {
+        "id": "19rs7u4j8idib",
+        "parent_id": null,
+        "author": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Go faster. Since you listen to music while training, find higher bpm music, you're going to the beat and this is too slow to hit seal.",
+        "depth": 0,
+        "body_ja": "もっと速くだ。トレーニング中に音楽を聴くなら、BPMの高い曲を探しな。君はビートに合わせて動いちゃってるし、そのペースじゃSealに届くには遅すぎる。"
+      },
+      {
+        "id": "19rsadblrvu1t",
+        "parent_id": null,
+        "author": "海外ユーザー15",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "[https://i.imgur.com/h7s6LPz.png](https://i.imgur.com/h7s6LPz.png) proof I hit seal on this scenario, your weakest point is kill confirms/knowing how long it takes to kill the target. You have to be extremely quick and rapidly move between target to have a shot at seal.",
+        "depth": 0,
+        "body_ja": "https://i.imgur.com/h7s6LPz.png （このシナリオでSealを取った証拠）。君の最大の弱点はキル確認、つまりターゲットを倒すのにどれくらい時間がかかるかを把握できていないことだ。Sealを狙うなら、極限まで素早くターゲット間を俊敏に移動しなきゃならない。"
+      },
+      {
+        "id": "19rscs3zdzgth",
+        "parent_id": null,
+        "author": "海外ユーザー16",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "body_en": "a lot of people are saying \"go faster\" but it honestly looks like you have too much tension, it might be easier to be smoother instead of faster. personally being fluid is how I got seal on that one",
+        "depth": 0,
+        "body_ja": "みんな「もっと速く」って言ってるけど、正直見てる限り力み（テンション）が強すぎるように見える。速さを追うよりも滑らかさを意識した方が楽かもしれないよ。個人的には、流れるように動く（フルードに動かす）ことでそのシナリオのSealを取れた。"
+      },
+      {
+        "id": "19rseimqdaajk",
+        "parent_id": null,
+        "author": "海外ユーザー17",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "You should play some more domi switch to help with stability, that’s what helped me close the gap, it will help you go faster in the initial flick and help you land on your target with the deceleration",
+        "depth": 0,
+        "body_ja": "安定性を高めるためにもっと「domi switch」をやり込むべきだね。自分はその差を埋めるのにそれが役立ったよ。初動のフリック速度を上げるのにも、減速しながらピタッとターゲットに着地するのにも役立つはずだ。"
+      }
+    ],
+    "title_ja": "ViscoseベンチマークでSeal（アザラシ）ランクに到達するコツと速度の壁の破り方",
+    "hook_ja": "Viscoseベンチマークで「Seal」ランクに届かず悩むプレイヤーへ、海外猛者たちが速度とキル確認の極意を伝授。不快なレベルまで初速を上げることと、無駄な脱力を意識することがスコア更新の鍵です。",
+    "op_post_ja": "ここで自分が何を間違えているのか知りたいです。自分より遥か先を行く人たちが多すぎて、どうしてあんなに上手くなれるのか全く理解できません。",
+    "consensus_points": [
+      "ターゲットが大きいシナリオでは、外す恐怖を捨てて「不快に感じる極限の初速」まで腕を振り切る練習が必要",
+      "キル確認音を明確に設定し、撃破判定と同時に次ターゲットへ視線を1フレーム感覚でワープさせる意識を持つ",
+      "単に力任せに振るのではなく、余計な筋緊張（力み）を抜いて滑らかに初速と減速をコントロールする"
+    ],
+    "detailed_analysis_ja": "本スレッドは、AimlabsおよびKovaaK'sで広く採用されている高難易度エイムベンチマーク「Viscose Benchmarks」において、上級者目標となる「Seal（アザラシ）」ランク到達に向けたアドバイスを求める投稿です。OPはターゲット切り替え系のシナリオ（beants等のスイッチング系）で伸び悩んでおり、上位勢との圧倒的な速度差に壁を感じています。\n\n【1. スピードの限界突破とペース配分】\nコミュニティの共通見解として最も強く主張されているのは、「ミスを恐れず不快な領域までスピードを強制的に引き上げる」練習法です。ターゲットの当たり判定が大きいシナリオでは、精密なマイクロアジャストを待つよりも、最初のフリック初速（初動加速）を限界まで高めることが最優先されます。海外ユーザーからは、Gridshotで70kから停滞を感じつつも無理やり速度を押し上げ続けて120k〜140kに達した実体験などが挙げられており、限界だと感じている速度は筋緊張や心理的ブレーキによるものが多いと指摘されています。\n\n【2. キル確認（Kill Confirmation）と音・視覚の同期】\nスイッチングにおいてスコアを阻害する代表的な要因が「確殺までの無駄なエイム滞留」です。BGMでゲーム音が遮られていたり、ビートにリズムを合わせてしまうと、ターゲットを倒した瞬間に次の敵へ移行する反応が大幅に遅れます。明瞭なキル確認音を設定し、耳で倒したことを認識した瞬間に次のターゲットへ「1フレームで瞬間移動（インサイドロック）する感覚」で視界を飛ばす技術が求められます。また、視認性を高めるためにグリッド壁のスケール変更やクロスヘアの強調を行うことも推奨されています。\n\n【3. 筋緊張（Tension）と脱力のパラドックス】\n一部の熟練プレイヤーからは、「速く動かそうとしすぎて腕に力み（Tension）が生じ、逆にフリックや切り替えが遅くなっている」という重要な洞察が寄せられています。力みすぎるとスムーズな減速や精密な停止ができなくなるため、あえて脱力して流れるように腕を運ぶ（fluidity）ことや、一時的に超ローセンシにして物理的な腕の振りを強制した後に戻すセンシ練習、Domi Switch等の関連シナリオで安定性を鍛えるアプローチが有効とされています。",
+    "devices": [],
+    "x_main_post": "エイム練習で速度の限界を感じた時の突破法\n\n・「外すかも」と思う限界速度まで腕を振り切る\n・キル確認音を合図に1フレームで次の敵へ視線を飛ばす\n・余計な力みを抜いて流れるように動かす\n・BGMのリズムに引っ張られない環境作り\n\n初速を強制的に引き上げれば壁は越えられます！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "ベンチマークで上位ランクに届かないのだ！限界を感じるのだ…",
+        "caption": "上位ランクの壁"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "それ、ミスを恐れてフリックが遅くなってるのが原因かもだよ！",
+        "caption": "原因はフリック速度？"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "これ以上どうやって速く動かせばいいのだ？",
+        "caption": "どうやって加速する？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ターゲットが大きい時は「絶対外す」って思う極限まで初速を出すんだよ！",
+        "caption": "限界まで初速を上げる"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "キル音を聞いた瞬間に、次の敵へ1フレで瞬間移動するイメージなんだよね！",
+        "caption": "キル即ワープの意識"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "無理やりスピードを押し上げて脳のブレーキを壊すのだ！",
+        "caption": "脳の制限を突破！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただし腕が力みすぎると逆に遅くなるから、脱力も忘れないでね！",
+        "caption": "余計な力みはNG"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "脱力と超初速を意識して、もう一度練習し直してみるのだ！",
+        "caption": "限界突破を目指そう！"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rrbavrcaw2q",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "あはは、自分もbeantsのせいでめちゃくちゃ長い間Sealコンプリートを阻まれてたよ。そのシナリオのMedium版やHard版、あとは他のフリック系シナリオもしばらくの間やり込みまくるといいよ。"
+      },
+      {
+        "id": "19rrelqwbavhe",
+        "parent_id": "19rrbavrcaw2q",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ありがとう、やってみます。"
+      },
+      {
+        "id": "19rrbbuzqhqzm",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 14,
+        "text": "スピードを上げな。ターゲットはデカいんだから。最初から最後まで違和感があって「これ絶対外すだろ」って思えるレベルまでとにかく速く振るんだ。それを頻繁にやっていれば速度は上がっていく。俺も昔Gridshotをやり始めた時は70kスタートで、90kに達した時は本気でこれが自分の遺伝的な限界だと思ってた。でも限界を超えて速く、さらに速く押し込み続けたら、最終的には120kまで行けたよ。"
+      },
+      {
+        "id": "19rrcn0wbtb6t",
+        "parent_id": "19rrbbuzqhqzm",
+        "depth": 1,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "実際はほとんど役に立たないと分かってても、Gridshotを周回してた頃が懐かしいな。最高で140kまで行ったよ。"
+      },
+      {
+        "id": "19rreisa1kpuq",
+        "parent_id": "19rrbbuzqhqzm",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ありがとうございます。キルとキルの間の速度を上げるように意識して、どうなるか試してみます。"
+      },
+      {
+        "id": "19rrmnx992iu8",
+        "parent_id": "19rreisa1kpuq",
+        "depth": 2,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "プレイするときはゲーム内のベンチマークタブから開いてやってる？"
+      },
+      {
+        "id": "19rrbfs5go99f",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "音楽越しでもはっきり聞こえるキル確認音が必要だな。あらゆるスイッチング系シナリオでは、基本的にその音を合図に次のターゲットへ切り替えるんだ。一種のリズムゲームみたいなもんだよ。\n\nあと視覚設定も少し変えたほうがいいかも。少なくともグリッド壁のスケールを2か3くらいに広げてみて。クロスヘアを大きくするか、目立つ色に変えるのも助けになるはず。"
+      },
+      {
+        "id": "19rrcok6tngm9",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "どういうこと？ めちゃくちゃゆっくり動かしてるじゃん。最初はもっと勢いよく加速して、そこからマイクロフリック気味に持っていく必要があるよ。ターゲットは大きくて割と近いんだから、マイクロフリックなんて大して難しくないし、そもそも必要ないレベルだろ。"
+      },
+      {
+        "id": "19rrekceuoici",
+        "parent_id": "19rrcok6tngm9",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 3,
+        "text": "これ以上スピードを上げられない気がするんです。これが自分の限界な気がしちゃいますが、頑張ってやってみます。ありがとうございます。"
+      },
+      {
+        "id": "19rrj6xqrt9lx",
+        "parent_id": "19rrekceuoici",
+        "depth": 2,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "感覚としては、次のターゲットがわずか1フレームの距離にあるかのように感じるべきなんだ。実際はそうじゃなくても、そこを目指して振るべきなんだよ。\n\n自分の視点から見たら、あるターゲットから別のターゲットへ一瞬で即座にロック（インサイドロック）したように見えるくらいじゃないとダメだ。"
+      },
+      {
+        "id": "19rrmiulslwpv",
+        "parent_id": "19rrj6xqrt9lx",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "それすごくいいヒントですね、頭に入れておきます。"
+      },
+      {
+        "id": "19rrjbuen1dcz",
+        "parent_id": "19rrekceuoici",
+        "depth": 2,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "感度をめちゃくちゃ遅い設定まで下げて試してみるといい。その後に普段の感度に戻したら、ビュンビュン超速で動かせるようになるから。"
+      },
+      {
+        "id": "19rre7n5ut6n4",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "音楽のせいで調子を崩してる気がするな。2曲目が流れてきた時、明らかに動きが速くなってたし。"
+      },
+      {
+        "id": "19rreldav74dc",
+        "parent_id": "19rre7n5ut6n4",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "そうですね、音楽を聴くのが好きなんです。動画に音楽の音まで入ってるとは気付きませんでした。"
+      },
+      {
+        "id": "19rrfjarbzqox",
+        "parent_id": "19rreldav74dc",
+        "depth": 2,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "なんというか、動画の最初の方は音楽のビートに合わせてターゲットを切り替えているように見えて、そのせいでめちゃくちゃテンポが遅くなってたんだと思う。"
+      },
+      {
+        "id": "19rrl3hdzgov5",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "シナリオ終了後にViscoseのランクが表示されるあのUIってどうやって出すの？"
+      },
+      {
+        "id": "19rrmg5uapl2a",
+        "parent_id": "19rrl3hdzgov5",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "どうなんでしょう、勝手に出てきますね。"
+      },
+      {
+        "id": "19rro2393york",
+        "parent_id": "19rrl3hdzgov5",
+        "depth": 1,
+        "speaker": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "個別のシナリオではなく、KovaaK's内のベンチマーク機能からプレイすると出るよ。"
+      },
+      {
+        "id": "19rro4pkh6z8l",
+        "parent_id": "19rro2393york",
+        "depth": 2,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "あーなるほど！ これまでプレイリストを使ってブラウザのWebページ側を手動でリロードしてたわ。"
+      },
+      {
+        "id": "19rsvupjjkuzn",
+        "parent_id": "19rro4pkh6z8l",
+        "depth": 3,
+        "speaker": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "信じてくれ、KovaaK's内で直接ベンチマークを回すよりも、evxlのWebページを更新する方式のほうが遥かに快適だぞ。"
+      },
+      {
+        "id": "19rs128te2bj4",
+        "parent_id": "19rro2393york",
+        "depth": 2,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "えっ、それどうやるの？ 俺もプレイリスト使ってWebサイト更新してたんだけど笑"
+      },
+      {
+        "id": "19rrmpb01ix2b",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "もっと速くフリックするんだ。これくらいターゲットが大きいシナリオなら、普段より思い切って速く振るのを怖がっちゃいけない。"
+      },
+      {
+        "id": "19rs7u4j8idib",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "もっと速くだ。トレーニング中に音楽を聴くなら、BPMの高い曲を探しな。君はビートに合わせて動いちゃってるし、そのペースじゃSealに届くには遅すぎる。"
+      },
+      {
+        "id": "19rsadblrvu1t",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー15",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "https://i.imgur.com/h7s6LPz.png （このシナリオでSealを取った証拠）。君の最大の弱点はキル確認、つまりターゲットを倒すのにどれくらい時間がかかるかを把握できていないことだ。Sealを狙うなら、極限まで素早くターゲット間を俊敏に移動しなきゃならない。"
+      },
+      {
+        "id": "19rscs3zdzgth",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー16",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "text": "みんな「もっと速く」って言ってるけど、正直見てる限り力み（テンション）が強すぎるように見える。速さを追うよりも滑らかさを意識した方が楽かもしれないよ。個人的には、流れるように動く（フルードに動かす）ことでそのシナリオのSealを取れた。"
+      },
+      {
+        "id": "19rseimqdaajk",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー17",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "安定性を高めるためにもっと「domi switch」をやり込むべきだね。自分はその差を埋めるのにそれが役立ったよ。初動のフリック速度を上げるのにも、減速しながらピタッとターゲットに着地するのにも役立つはずだ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xhaw05.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%81%A7%E9%80%9F%E5%BA%A6%E3%81%AE%E9%99%90%E7%95%8C%E3%82%92%E6%84%9F%E3%81%98%E3%81%9F%E6%99%82%E3%81%AE%E7%AA%81%E7%A0%B4%E6%B3%95%0A%0A%E3%83%BB%E3%80%8C%E5%A4%96%E3%81%99%E3%81%8B%E3%82%82%E3%80%8D%E3%81%A8%E6%80%9D%E3%81%86%E9%99%90%E7%95%8C%E9%80%9F%E5%BA%A6%E3%81%BE%E3%81%A7%E8%85%95%E3%82%92%E6%8C%AF%E3%82%8A%E5%88%87%E3%82%8B%0A%E3%83%BB%E3%82%AD%E3%83%AB%E7%A2%BA%E8%AA%8D%E9%9F%B3%E3%82%92%E5%90%88%E5%9B%B3%E3%81%AB1%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%81%A7%E6%AC%A1%E3%81%AE%E6%95%B5%E3%81%B8%E8%A6%96%E7%B7%9A%E3%82%92%E9%A3%9B%E3%81%B0%E3%81%99%0A%E3%83%BB%E4%BD%99%E8%A8%88%E3%81%AA%E5%8A%9B%E3%81%BF%E3%82%92%E6%8A%9C%E3%81%84%E3%81%A6%E6%B5%81%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E5%8B%95%E3%81%8B%E3%81%99%0A%E3%83%BBBGM%E3%81%AE%E3%83%AA%E3%82%BA%E3%83%A0%E3%81%AB%E5%BC%95%E3%81%A3%E5%BC%B5%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E7%92%B0%E5%A2%83%E4%BD%9C%E3%82%8A%0A%0A%E5%88%9D%E9%80%9F%E3%82%92%E5%BC%B7%E5%88%B6%E7%9A%84%E3%81%AB%E5%BC%95%E3%81%8D%E4%B8%8A%E3%81%92%E3%82%8C%E3%81%B0%E5%A3%81%E3%81%AF%E8%B6%8A%E3%81%88%E3%82%89%E3%82%8C%E3%81%BE%E3%81%99%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xhaw05.html",
+    "created_at": "2026-10-29T09:44:46.977554+00:00"
+  },
+  {
+    "id": "1xhjkvo",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Aliexpress OP1 8k v2 Cable",
+    "selftext_en": "Hello!\n\nI was wondering if anyone has tried out the thin OP1 8k v2 cable from Aliexpress. I’m sure the Midori or PMM cable are probably better quality and reliable in terms of connection but this cable kinda piqued my curiosity.\n\n(Picture for reference)",
+    "image_urls": [
+      "https://i.redd.it/ddkgony4i6yh1.jpeg"
+    ],
+    "score": 4,
+    "num_comments": 12,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xhjkvo/aliexpress_op1_8k_v2_cable/",
+    "comments": [
+      "[+1] Your submission has been automatically removed because your account does not meet the minimum [karma requirement](https://www.reddit.com/wiki/faq#wiki_what_is_that_number_next_to_usernames.3F_and_what_is_karma.3F).\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MouseReview) if you have any questions or concerns.*",
+      "[+6] No idea if it helps but Hagibis do an 8k mouse cable for $5 on aliexpress ($2 new user), 56 4.9/5 star reviews.",
+      "[+2] I own one, it's working well and I can recommend it.\n\nBut it wouldn't work for the OP1 8k because it's USB C",
+      "[+1] Ah OP1 8K is the old non-usb-c style (micro-usb) or some custom port? My bad had no idea.",
+      "[+3] No it's not micro usb afaik\n\nIt's just a non detachable cable",
+      "[+2] JST 1.5 it's a wired mouse.",
+      "[+1] I see thanks, I just now noticed the connector on the pic behind the \"people gave it a positive review\".",
+      "[+2] Is this the hagibis cable?",
+      "[+1] It is not, it's from a store called \"Electronic Creator Store\"",
+      "[+3] Yes, I recommend it. I bought it for my XM2 v2, and it works perfectly. It was the only affordable option, so I took a chance. The only “downside” is that the cable is very short, so I had to get one of those trendy hubs (HMLAB).\n\nEGG fix ur garbage cables pls.",
+      "[+1] Thank you! Do you happen to know the length of the cable?"
+    ],
+    "comment_tree": [
+      {
+        "id": "19rrx924zh0jp",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Your submission has been automatically removed because your account does not meet the minimum [karma requirement](https://www.reddit.com/wiki/faq#wiki_what_is_that_number_next_to_usernames.3F_and_what_is_karma.3F).\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MouseReview) if you have any questions or concerns.*",
+        "depth": 0,
+        "body_ja": "アカウントが最小限のカルマ要件を満たしていないため、あなたの投稿は自動的に削除されました。\n\nこれはボットによる自動処理です。ご質問がある場合は、r/MouseReviewのモデレーターまでお問い合わせください。"
+      },
+      {
+        "id": "19rrz94wsu4uc",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "body_en": "No idea if it helps but Hagibis do an 8k mouse cable for $5 on aliexpress ($2 new user), 56 4.9/5 star reviews.",
+        "depth": 0,
+        "body_ja": "役に立つか分かりませんが、AliExpressでHagibisが5ドル（新規ユーザーなら2ドル）で8kマウスケーブルを販売しています。56件のレビューで4.9/5の評価を得ていますよ。"
+      },
+      {
+        "id": "19rrzkqqkeby8",
+        "parent_id": "19rrz94wsu4uc",
+        "author": "海外ユーザー3",
+        "flair": "A9 Mini+ | L7 Ultra+ | Symm 3 | Scyrox v6 & v8 | Terra",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I own one, it's working well and I can recommend it.\n\nBut it wouldn't work for the OP1 8k because it's USB C",
+        "depth": 1,
+        "body_ja": "自分も持っていますが、問題なく機能しているのでお勧めできます。\n\nただし、USB CなのでOP1 8kには使えません。"
+      },
+      {
+        "id": "19rrzsakmultu",
+        "parent_id": "19rrzkqqkeby8",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Ah OP1 8K is the old non-usb-c style (micro-usb) or some custom port? My bad had no idea.",
+        "depth": 2,
+        "body_ja": "ああ、OP1 8Kは昔ながらの非USB-Cタイプ（マイクロUSB）か、何かカスタムポートなんですね？私の勘違いでした、知りませんでした。"
+      },
+      {
+        "id": "19rrzusra4j5x",
+        "parent_id": "19rrzsakmultu",
+        "author": "海外ユーザー3",
+        "flair": "A9 Mini+ | L7 Ultra+ | Symm 3 | Scyrox v6 & v8 | Terra",
+        "is_op": false,
+        "score": 3,
+        "body_en": "No it's not micro usb afaik\n\nIt's just a non detachable cable",
+        "depth": 3,
+        "body_ja": "いや、私の知る限りマイクロUSBではありません。\n\n単に脱着式ではないケーブルです。"
+      },
+      {
+        "id": "19rscm4g0we80",
+        "parent_id": "19rrzsakmultu",
+        "author": "海外ユーザー4",
+        "flair": "boomer aim",
+        "is_op": false,
+        "score": 2,
+        "body_en": "JST 1.5 it's a wired mouse.",
+        "depth": 3,
+        "body_ja": "JST 1.5ですね、有線マウスですから。"
+      },
+      {
+        "id": "19rscxlm4rxtx",
+        "parent_id": "19rscm4g0we80",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I see thanks, I just now noticed the connector on the pic behind the \"people gave it a positive review\".",
+        "depth": 4,
+        "body_ja": "なるほど、ありがとうございます。「高評価がついている」という画像の背景にあるコネクタに、今ようやく気づきました。"
+      },
+      {
+        "id": "19rs192wb7eh0",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Is this the hagibis cable?",
+        "depth": 0,
+        "body_ja": "これはHagibisのケーブルですか？"
+      },
+      {
+        "id": "19rtdjquah3wi",
+        "parent_id": "19rs192wb7eh0",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "It is not, it's from a store called \"Electronic Creator Store\"",
+        "depth": 1,
+        "body_ja": "違います、「Electronic Creator Store」というストアのものです。"
+      },
+      {
+        "id": "19rskywdoa138",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Yes, I recommend it. I bought it for my XM2 v2, and it works perfectly. It was the only affordable option, so I took a chance. The only “downside” is that the cable is very short, so I had to get one of those trendy hubs (HMLAB).\n\nEGG fix ur garbage cables pls.",
+        "depth": 0,
+        "body_ja": "はい、おすすめします。XM2 v2用に買ったのですが、完璧に動作しています。手頃な選択肢がこれしかなかったので、一か八か買ってみました。唯一の「欠点」はケーブルが非常に短いことで、流行りのハブ（HMLAB）のどれかを買う羽目になりました。\n\nEGG（Endgame Gear）頼むからクソみたいなケーブルを直してくれ。"
+      },
+      {
+        "id": "19rtdin2of3lt",
+        "parent_id": "19rskywdoa138",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Thank you! Do you happen to know the length of the cable?",
+        "depth": 1,
+        "body_ja": "ありがとうございます！ケーブルの長さはどれくらいかご存知ですか？"
+      }
+    ],
+    "title_ja": "AliExpressで販売されているOP1 8k v2向け格安ケーブルについての海外ユーザーの評価",
+    "hook_ja": "AliExpressで見つけた中華製の薄型OP1 8k v2用ケーブルについて、品質や実用性を気にするスレ主に対し、実際の購入者たちが使用感を語り合っているスレッド。",
+    "op_post_ja": "こんにちは！\n\nAliExpressで販売されている薄型のOP1 8k v2用ケーブルを試したことがある人がいないか気になっています。MidoriやPMMのケーブルの方が品質面や接続の信頼性でおそらく優れているとは確信していますが、このケーブルにはちょっと興味をそそられています。\n\n（参考画像）",
+    "consensus_points": [
+      "AliExpressで買えるサードパーティ製の格安ケーブルは、XM2 v2などで実際に問題なく機能するという声がある",
+      "OP1 8kは着脱式ではなく非着脱式のケーブルであり、内部の接続にはJST 1.5コネクタが使われている",
+      "ケーブルの長さが非常に短い場合があるため、USBハブなどを併用する必要が生じるケースもある"
+    ],
+    "detailed_analysis_ja": "【1. ゲーミングマウスのケーブル事情とサードパーティ製品】\n近年の有線ゲーミングマウス、特にEndgame Gearの製品などは優れたパフォーマンスを誇る一方で、純正ケーブルの柔軟性や取り回しに対して不満を持つユーザーも少なくありません。そのため、MidoriやPMMといった有名モッダー・ブランドが提供するカスタムケーブルが選ばれることが多いですが、価格面でのハードルがあります。\n\n【2. AliExpressにおける格安パーツ市場】\nAliExpressでは、Hagibisなどのブランドや無名のストア（Electronic Creator Storeなど）から、非常に安価なマウス用ケーブルやアクセサリーが販売されています。5ドル程度で購入できるものもあり、レビュー評価も高い製品が存在するため、人柱的に購入して試すユーザーが見受けられます。\n\n【3. コネクタ規格と構造の注意点】\nスレッド内でも指摘されている通り、マウスのケーブル交換を行う際は、そのマウスがUSB Type-Cなどの着脱式を採用しているのか、あるいは内部でJSTコネクタ等によって直接基板に接続されている非着脱式なのかを正確に把握する必要があります。OP1 8kなどはケーブルが簡単に抜き差しできるタイプではないため、互換性やパーツの仕様を十分に確認することが重要です。",
+    "devices": [
+      {
+        "name": "Endgame Gear OP1 8K",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "非着脱式のケーブルを採用しており、内部の接続にはJST 1.5コネクタが使用されている有線ゲーミングマウス。"
+      },
+      {
+        "name": "Endgame Gear XM2 v2",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "AliExpressで購入したサードパーティ製の格安ケーブルを取り付けたところ、問題なく完璧に動作したと報告されているマウス。"
+      }
+    ],
+    "x_main_post": "AliExpressで買えるOP1 8kやXM2 v2向け格安サードパーティ製ケーブルの海外レビューまとめ\n・格安中華ケーブルは問題なく動作するという購入報告あり\n・ただしケーブル長が非常に短い場合がありUSBハブの併用が必要なケースも\n・マウスのコネクタ規格（JST 1.5など）の確認が重要",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "AliExpressの格安OP1 8k用ケーブルってどうなのだ？",
+        "caption": "中華ケーブルの性能"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "実際にXM2 v2で使って満足してる海外ユーザーがいるんだよね！",
+        "caption": "問題なく動作！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "ちゃんと使える品質なのだ？",
+        "caption": "品質はどうなの？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "問題なく完璧に動くって報告されてるよ！",
+        "caption": "動作はバッチリ"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただケーブルがかなり短いからUSBハブが必要になることもあるみたい！",
+        "caption": "長さには注意！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "そこだけ注意すればコスパ良さそうなのだ！",
+        "caption": "コスパ良し！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "マウスのコネクタ規格が非着脱式だから買う時はしっかり確認してね！",
+        "caption": "規格の確認が必須"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "詳細は概要欄からチェックなのだ！",
+        "caption": "詳細はプロフへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rrx924zh0jp",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "アカウントが最小限のカルマ要件を満たしていないため、あなたの投稿は自動的に削除されました。\n\nこれはボットによる自動処理です。ご質問がある場合は、r/MouseReviewのモデレーターまでお問い合わせください。"
+      },
+      {
+        "id": "19rrz94wsu4uc",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "text": "役に立つか分かりませんが、AliExpressでHagibisが5ドル（新規ユーザーなら2ドル）で8kマウスケーブルを販売しています。56件のレビューで4.9/5の評価を得ていますよ。"
+      },
+      {
+        "id": "19rrzkqqkeby8",
+        "parent_id": "19rrz94wsu4uc",
+        "depth": 1,
+        "speaker": "海外ユーザー3",
+        "flair": "A9 Mini+ | L7 Ultra+ | Symm 3 | Scyrox v6 & v8 | Terra",
+        "is_op": false,
+        "score": 2,
+        "text": "自分も持っていますが、問題なく機能しているのでお勧めできます。\n\nただし、USB CなのでOP1 8kには使えません。"
+      },
+      {
+        "id": "19rrzsakmultu",
+        "parent_id": "19rrzkqqkeby8",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ああ、OP1 8Kは昔ながらの非USB-Cタイプ（マイクロUSB）か、何かカスタムポートなんですね？私の勘違いでした、知りませんでした。"
+      },
+      {
+        "id": "19rrzusra4j5x",
+        "parent_id": "19rrzsakmultu",
+        "depth": 3,
+        "speaker": "海外ユーザー3",
+        "flair": "A9 Mini+ | L7 Ultra+ | Symm 3 | Scyrox v6 & v8 | Terra",
+        "is_op": false,
+        "score": 3,
+        "text": "いや、私の知る限りマイクロUSBではありません。\n\n単に脱着式ではないケーブルです。"
+      },
+      {
+        "id": "19rscm4g0we80",
+        "parent_id": "19rrzsakmultu",
+        "depth": 3,
+        "speaker": "海外ユーザー4",
+        "flair": "boomer aim",
+        "is_op": false,
+        "score": 2,
+        "text": "JST 1.5ですね、有線マウスですから。"
+      },
+      {
+        "id": "19rscxlm4rxtx",
+        "parent_id": "19rscm4g0we80",
+        "depth": 4,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "なるほど、ありがとうございます。「高評価がついている」という画像の背景にあるコネクタに、今ようやく気づきました。"
+      },
+      {
+        "id": "19rs192wb7eh0",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 2,
+        "text": "これはHagibisのケーブルですか？"
+      },
+      {
+        "id": "19rtdjquah3wi",
+        "parent_id": "19rs192wb7eh0",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "違います、「Electronic Creator Store」というストアのものです。"
+      },
+      {
+        "id": "19rskywdoa138",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "はい、おすすめします。XM2 v2用に買ったのですが、完璧に動作しています。手頃な選択肢がこれしかなかったので、一か八か買ってみました。唯一の「欠点」はケーブルが非常に短いことで、流行りのハブ（HMLAB）のどれかを買う羽目になりました。\n\nEGG（Endgame Gear）頼むからクソみたいなケーブルを直してくれ。"
+      },
+      {
+        "id": "19rtdin2of3lt",
+        "parent_id": "19rskywdoa138",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ありがとうございます！ケーブルの長さはどれくらいかご存知ですか？"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xhjkvo.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=AliExpress%E3%81%A7%E8%B2%B7%E3%81%88%E3%82%8BOP1%208k%E3%82%84XM2%20v2%E5%90%91%E3%81%91%E6%A0%BC%E5%AE%89%E3%82%B5%E3%83%BC%E3%83%89%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E8%A3%BD%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AE%E6%B5%B7%E5%A4%96%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%81%BE%E3%81%A8%E3%82%81%0A%E3%83%BB%E6%A0%BC%E5%AE%89%E4%B8%AD%E8%8F%AF%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AF%E5%95%8F%E9%A1%8C%E3%81%AA%E3%81%8F%E5%8B%95%E4%BD%9C%E3%81%99%E3%82%8B%E3%81%A8%E3%81%84%E3%81%86%E8%B3%BC%E5%85%A5%E5%A0%B1%E5%91%8A%E3%81%82%E3%82%8A%0A%E3%83%BB%E3%81%9F%E3%81%A0%E3%81%97%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E9%95%B7%E3%81%8C%E9%9D%9E%E5%B8%B8%E3%81%AB%E7%9F%AD%E3%81%84%E5%A0%B4%E5%90%88%E3%81%8C%E3%81%82%E3%82%8AUSB%E3%83%8F%E3%83%96%E3%81%AE%E4%BD%B5%E7%94%A8%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%B1%E3%83%BC%E3%82%B9%E3%82%82%0A%E3%83%BB%E3%83%9E%E3%82%A6%E3%82%B9%E3%81%AE%E3%82%B3%E3%83%8D%E3%82%AF%E3%82%BF%E8%A6%8F%E6%A0%BC%EF%BC%88JST%201.5%E3%81%AA%E3%81%A9%EF%BC%89%E3%81%AE%E7%A2%BA%E8%AA%8D%E3%81%8C%E9%87%8D%E8%A6%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xhjkvo.html",
+    "created_at": "2026-10-29T09:44:55.038427+00:00"
+  },
+  {
+    "id": "1xhiiny",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Logitech G304 or VXE r1 se+",
+    "selftext_en": "Rn I am mouseless and planning to buy a mouse but I can't choose between VXE r1+ and G304.\n\nBoth have same warranty\n\nG304 costs $10 more\n\nI don't really care about weight battery and stuff.\n\nAll I care is sensor and long term use.",
+    "image_urls": [],
+    "score": 1,
+    "num_comments": 12,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xhiiny/logitech_g304_or_vxe_r1_se/",
+    "comments": [
+      "[+1] g304 has a proven track record for lasting years, the r1 gets more hype for modern specs but long term durability is less documented",
+      "[+1] Aight thanks but people said that g304 have double click issue.",
+      "[+1] Take it from me then. 3rd year of VXE R1 Pro. One of the switch start double clicking on the 3rd year, but I bought a better replacement switch and it’s back on game. Even better clicks now.",
+      "[+1] VXE is better. Mine and a couple of friend's experience with G304 is double click issues within months on the right click and extra buttons consistently. \n\nI've tried cheaper chinese brands and have not had a single issue with them for a year now and its a blessing we have options, better than known brands I'd say.",
+      "[+1] Thx I think I will go for it.",
+      "[+1] vxe is extremely good for the money but some people have had issues with quality control issues cause china qc things lol\n\nalot of documented issues with 304 double clicking",
+      "[+1] Yea",
+      "[+1] vxe r1 pro max is very good",
+      "[+1] I would choose the g304 because I like the egg shape has 2yr warranty proven durable while the r1 is a modern mouse better if that's what you want the warranty is shorter and qc is a hit or miss double click can happen on both mice",
+      "[+1] Same I like the design on g304 better but it is more expensive despite lower spec in my country",
+      "[+1] Have you checked the g304x version? Not the g304x superlight as that this version is $80 the g304x is 20-30$ on AliExpress",
+      "[+1] Some deals should be coming up with the holidays, if it's not urgent you can still check it out then."
+    ],
+    "comment_tree": [
+      {
+        "id": "19rrubnifpiow",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "g304 has a proven track record for lasting years, the r1 gets more hype for modern specs but long term durability is less documented",
+        "depth": 0,
+        "body_ja": "G304は何年も長持ちするという確かな実績があります。R1はモダンなスペックで注目を集めていますが、長期的な耐久性のデータはまだ少ないですね。"
+      },
+      {
+        "id": "19rrwpiasgr8i",
+        "parent_id": "19rrubnifpiow",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Aight thanks but people said that g304 have double click issue.",
+        "depth": 1,
+        "body_ja": "了解、ありがとう。でもG304はダブルクリック（チャタリング）の問題があるって聞いたんだけど。"
+      },
+      {
+        "id": "19rs0sjzwj2zk",
+        "parent_id": "19rrwpiasgr8i",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Take it from me then. 3rd year of VXE R1 Pro. One of the switch start double clicking on the 3rd year, but I bought a better replacement switch and it’s back on game. Even better clicks now.",
+        "depth": 2,
+        "body_ja": "じゃあ俺の実体験を聞いてくれ。VXE R1 Proを3年使ってる。3年目でスイッチの片方がダブルクリックし始めたけど、もっと良い交換用スイッチを買って付け替えたら復活したよ。今じゃクリック感も前より良くなった。"
+      },
+      {
+        "id": "19rrx9z2028yp",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "MS AK-47 Optical Trackball",
+        "is_op": false,
+        "score": 1,
+        "body_en": "VXE is better. Mine and a couple of friend's experience with G304 is double click issues within months on the right click and extra buttons consistently. \n\nI've tried cheaper chinese brands and have not had a single issue with them for a year now and its a blessing we have options, better than known brands I'd say.",
+        "depth": 0,
+        "body_ja": "VXEの方が良いよ。俺や友人の体験談だけど、G304は数ヶ月で右クリックとサイドボタンにダブルクリックの問題が頻発したんだ。\n安価な中華ブランドも試したけど、ここ1年は何の問題もなく使えてる。有名ブランドより良い選択肢があるのは本当にありがたいね。"
+      },
+      {
+        "id": "19rrzgr4fkk4k",
+        "parent_id": "19rrx9z2028yp",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Thx I think I will go for it.",
+        "depth": 1,
+        "body_ja": "ありがとう、そっち（VXE）にしようと思うよ。"
+      },
+      {
+        "id": "19rrxvqdl0kpu",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "vxe is extremely good for the money but some people have had issues with quality control issues cause china qc things lol\n\nalot of documented issues with 304 double clicking",
+        "depth": 0,
+        "body_ja": "VXEはこの価格にしてはめちゃくちゃ良いよ。ただ中国製QC（品質管理）の洗礼で、初期不良に当たる人もいるけどね笑\nG304のダブルクリック問題の報告は山ほどあるよ。"
+      },
+      {
+        "id": "19rrzhrfufbhh",
+        "parent_id": "19rrxvqdl0kpu",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Yea",
+        "depth": 1,
+        "body_ja": "そうだよね。"
+      },
+      {
+        "id": "19rrzyawyip5v",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "vxe r1 pro max is very good",
+        "depth": 0,
+        "body_ja": "VXE R1 Pro Maxはすごく良いぞ。"
+      },
+      {
+        "id": "19rs185k690pu",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I would choose the g304 because I like the egg shape has 2yr warranty proven durable while the r1 is a modern mouse better if that's what you want the warranty is shorter and qc is a hit or miss double click can happen on both mice",
+        "depth": 0,
+        "body_ja": "自分ならG304を選ぶかな。卵型が好きだし、2年保証があって耐久性の実績もあるからね。R1はモダンなマウスだから、そういうのが好みなら良い選択肢だけど、保証が短くて品質管理も当たり外れがある。ちなみにダブルクリックはどっちのマウスでも起こり得るよ。"
+      },
+      {
+        "id": "19rs71h6fjaat",
+        "parent_id": "19rs185k690pu",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Same I like the design on g304 better but it is more expensive despite lower spec in my country",
+        "depth": 1,
+        "body_ja": "自分もG304のデザインの方が好きなんだけど、俺の国だとスペックが低いのに高価なんだよね。"
+      },
+      {
+        "id": "19rsq2hsegvkz",
+        "parent_id": "19rs71h6fjaat",
+        "author": "海外ユーザー6",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Have you checked the g304x version? Not the g304x superlight as that this version is $80 the g304x is 20-30$ on AliExpress",
+        "depth": 2,
+        "body_ja": "G304Xバージョンはチェックした？G304X Superlightは80ドルだけど、無印のG304XならAliExpressで20〜30ドルで売ってるよ。"
+      },
+      {
+        "id": "19rssazq7ooo3",
+        "parent_id": "19rs71h6fjaat",
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Some deals should be coming up with the holidays, if it's not urgent you can still check it out then.",
+        "depth": 2,
+        "body_ja": "ホリデーシーズンになればセールがあるはずだから、急ぎじゃないならその時に確認してみるといいよ。"
+      }
+    ],
+    "title_ja": "Logicool G304とVXE R1 SE+の比較！耐久性とセンサー性能重視のおすすめはどっち？",
+    "hook_ja": "マウスが壊れて買い替えを検討中のスレ主が、名機Logicool G304と中華新鋭VXE R1 SE+のどちらを選ぶべきか質問。チャット欄ではG304のチャタリング問題やVXEのコスパの高さについて活発な議論が行われました。",
+    "op_post_ja": "現在マウスがない状態で、新しくマウスを買おうと思っていますが、VXE R1 SE+（本文中ではR1+表記）とLogicool G304のどちらにするか決められずにいます。\n\n保証期間はどちらも同じです。\nG304の方が10ドル高いです。\n\n重量やバッテリー持ちなどは特に気にしていません。\n自分が気にしているのは、センサー性能と長期的な耐久性だけです。",
+    "consensus_points": [
+      "G304は伝統的なエッグシェイプと数年の運用実績があるものの、メカニカルスイッチのダブルクリック（チャタリング）報告が非常に多い",
+      "VXE R1シリーズは価格に対してスペックが高く、軽量でコストパフォーマンスに非常に優れている",
+      "長期耐久性においては、中国メーカー特有の初期不良（QC）リスクがあるものの、スイッチのハンダ付け交換ができるユーザーならVXE等の方が快適に使える"
+    ],
+    "detailed_analysis_ja": "【1. スレッドの背景と議論の焦点】\n本スレッドは、低予算で信頼できるゲーミングマウスを探しているユーザーが、長年のベストセラーである『Logicool G304（海外名：G305）』と、近年急成長を遂げた中国ブランドVGN/VXEの『VXE Dragon Fly R1 SE+』のどちらを選ぶべきか悩んでいる投稿です。スレ主は重量よりも「センサー性能」と「長期的な耐久性」を最重視していました。\n\n【2. メカニカルスイッチのチャタリング問題とG304】\nG304は単三電池駆動の「エッグシェイプ（卵型）」として長年愛されてきた名機ですが、採用されているオムロン製メカニカルスイッチが数ヶ月〜数年でダブルクリック（チャタリング現象）を起こしやすいという致命的な弱点があります。コミュニティでは「G304は実績こそあるがチャタリングの報告が多すぎる」との意見が多数を占めました。\n\n【3. VXE R1シリーズの台頭とビルドクオリティ】\n一方のVXE R1シリーズ（SE+、Pro、Pro Max等）は、軽量・最新センサー・高ポーリングレート対応を備えながら極めて安価です。中国製品特有の品質管理（QC）の当たり外れを気にする声もありますが、「安価な中華ブランドを試して1年以上トラブルなしで快適に使えている」「スイッチが壊れても自分で交換すれば完璧」といったポジティブな評価が集まり、最終的にスレ主もVXE R1側に傾く結果となりました。",
+    "devices": [
+      {
+        "name": "Logicool G304",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "長年愛されている卵型デザインで実績がある一方、数ヶ月〜数年でチャタリング（ダブルクリック）が発生しやすい点が懸念されています。"
+      },
+      {
+        "name": "VXE Dragonfly R1",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "低価格でありながらスペックが高くコストパフォーマンスに優れると高評価。初期不良のリスクは指摘されるものの満足度は高めです。"
+      }
+    ],
+    "x_main_post": "Logicool G304と新鋭VXE R1で迷うユーザーへの海外掲示板の回答まとめ！\n\n・G304は形状と実績はあるがチャタリング報告が多め\n・VXE R1は低価格高スペックでコスパ最強\n・長期使用ならスイッチ交換前提か安価な中華マウスが人気\n\n結論：今買うならVXE R1が優勢！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "G304とVXE R1、どっちを買えばいいのだ？",
+        "caption": "どっちを選ぶべき？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "海外掲示板では断然VXE R1をおすすめする声が多いんだよね！",
+        "caption": "結論：VXE R1が人気！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "定番のG304じゃダメなのだ？",
+        "caption": "G304じゃダメなの？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "G304はスイッチのチャタリング報告がすごく多くて困ってる人が多いんだよね。",
+        "caption": "G304はチャタリング多め"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "VXE R1なら最新スペックで安くて、コスパが圧倒的に最強なんだよ！",
+        "caption": "VXE R1は圧倒的コスパ！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "安くて高性能なら最高なのだ！",
+        "caption": "コスパ最強なのだ！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ初期不良の当たり外れはあるから、そこだけは注意してね！",
+        "caption": "品質の当たり外れに注意"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "みんなも自分に合ったマウスを選ぶのだ！",
+        "caption": "概要欄も要チェック！"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rrubnifpiow",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "G304は何年も長持ちするという確かな実績があります。R1はモダンなスペックで注目を集めていますが、長期的な耐久性のデータはまだ少ないですね。"
+      },
+      {
+        "id": "19rrwpiasgr8i",
+        "parent_id": "19rrubnifpiow",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "了解、ありがとう。でもG304はダブルクリック（チャタリング）の問題があるって聞いたんだけど。"
+      },
+      {
+        "id": "19rs0sjzwj2zk",
+        "parent_id": "19rrwpiasgr8i",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "じゃあ俺の実体験を聞いてくれ。VXE R1 Proを3年使ってる。3年目でスイッチの片方がダブルクリックし始めたけど、もっと良い交換用スイッチを買って付け替えたら復活したよ。今じゃクリック感も前より良くなった。"
+      },
+      {
+        "id": "19rrx9z2028yp",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "MS AK-47 Optical Trackball",
+        "is_op": false,
+        "score": 1,
+        "text": "VXEの方が良いよ。俺や友人の体験談だけど、G304は数ヶ月で右クリックとサイドボタンにダブルクリックの問題が頻発したんだ。\n安価な中華ブランドも試したけど、ここ1年は何の問題もなく使えてる。有名ブランドより良い選択肢があるのは本当にありがたいね。"
+      },
+      {
+        "id": "19rrzgr4fkk4k",
+        "parent_id": "19rrx9z2028yp",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ありがとう、そっち（VXE）にしようと思うよ。"
+      },
+      {
+        "id": "19rrxvqdl0kpu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "VXEはこの価格にしてはめちゃくちゃ良いよ。ただ中国製QC（品質管理）の洗礼で、初期不良に当たる人もいるけどね笑\nG304のダブルクリック問題の報告は山ほどあるよ。"
+      },
+      {
+        "id": "19rrzhrfufbhh",
+        "parent_id": "19rrxvqdl0kpu",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "そうだよね。"
+      },
+      {
+        "id": "19rrzyawyip5v",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "VXE R1 Pro Maxはすごく良いぞ。"
+      },
+      {
+        "id": "19rs185k690pu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "text": "自分ならG304を選ぶかな。卵型が好きだし、2年保証があって耐久性の実績もあるからね。R1はモダンなマウスだから、そういうのが好みなら良い選択肢だけど、保証が短くて品質管理も当たり外れがある。ちなみにダブルクリックはどっちのマウスでも起こり得るよ。"
+      },
+      {
+        "id": "19rs71h6fjaat",
+        "parent_id": "19rs185k690pu",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "自分もG304のデザインの方が好きなんだけど、俺の国だとスペックが低いのに高価なんだよね。"
+      },
+      {
+        "id": "19rsq2hsegvkz",
+        "parent_id": "19rs71h6fjaat",
+        "depth": 2,
+        "speaker": "海外ユーザー6",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "text": "G304Xバージョンはチェックした？G304X Superlightは80ドルだけど、無印のG304XならAliExpressで20〜30ドルで売ってるよ。"
+      },
+      {
+        "id": "19rssazq7ooo3",
+        "parent_id": "19rs71h6fjaat",
+        "depth": 2,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ホリデーシーズンになればセールがあるはずだから、急ぎじゃないならその時に確認してみるといいよ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xhiiny.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=Logicool%20G304%E3%81%A8%E6%96%B0%E9%8B%ADVXE%20R1%E3%81%A7%E8%BF%B7%E3%81%86%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%B8%E3%81%AE%E6%B5%B7%E5%A4%96%E6%8E%B2%E7%A4%BA%E6%9D%BF%E3%81%AE%E5%9B%9E%E7%AD%94%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%81%0A%0A%E3%83%BBG304%E3%81%AF%E5%BD%A2%E7%8A%B6%E3%81%A8%E5%AE%9F%E7%B8%BE%E3%81%AF%E3%81%82%E3%82%8B%E3%81%8C%E3%83%81%E3%83%A3%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0%E5%A0%B1%E5%91%8A%E3%81%8C%E5%A4%9A%E3%82%81%0A%E3%83%BBVXE%20R1%E3%81%AF%E4%BD%8E%E4%BE%A1%E6%A0%BC%E9%AB%98%E3%82%B9%E3%83%9A%E3%83%83%E3%82%AF%E3%81%A7%E3%82%B3%E3%82%B9%E3%83%91%E6%9C%80%E5%BC%B7%0A%E3%83%BB%E9%95%B7%E6%9C%9F%E4%BD%BF%E7%94%A8%E3%81%AA%E3%82%89%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E4%BA%A4%E6%8F%9B%E5%89%8D%E6%8F%90%E3%81%8B%E5%AE%89%E4%BE%A1%E3%81%AA%E4%B8%AD%E8%8F%AF%E3%83%9E%E3%82%A6%E3%82%B9%E3%81%8C%E4%BA%BA%E6%B0%97%0A%0A%E7%B5%90%E8%AB%96%EF%BC%9A%E4%BB%8A%E8%B2%B7%E3%81%86%E3%81%AA%E3%82%89VXE%20R1%E3%81%8C%E5%84%AA%E5%8B%A2%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xhiiny.html",
+    "created_at": "2026-10-29T09:45:10.512094+00:00"
+  },
+  {
+    "id": "1xhfpqv",
+    "subreddit": "MousepadReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Coming from a Hien, do I go Raiden or Hayate-Otsu? (Read desc)",
+    "selftext_en": "I’ve had a Hien X-soft for like 2 years now, I love it but one of my biggest complaints is how a tiny spec of dust feels so dramatically amplified on it. Also dust seems to get trapped in the texture of it where a lint roller can’t get it out. I’m considering changing to either a Raiden or a Hayate-Otsu but I’m not sure which to get, I love speedy pads, the initial speed of the Hien was great but now it’s old it’s a little slow for me, I don’t mind the texture, I came from a Razer Strider to the Hien so I’m used to rough pads, but the idea of the smooth Raiden is intriguing. Currently on stock skates on a Pulsar X2H Crazylight Mini but I do have the PTFE dots for it which I’m considering swapping on. What do you think?",
+    "image_urls": [
+      "https://i.redd.it/tck5wl12a5yh1.jpeg"
+    ],
+    "score": 8,
+    "num_comments": 7,
+    "permalink": "https://www.reddit.com/r/MousepadReview/comments/1xhfpqv/coming_from_a_hien_do_i_go_raiden_or_hayateotsu/",
+    "comments": [
+      "[+1] I used an otsu and a Raiden both in soft. I preferred the otsu for control but the Raiden for everything else. Wasn't a fan of the texture at low speeds because it felt grabby with dots.",
+      "[+1] Ah yea makes sense. Have you used a Hien before? How would you describe the texture of the Otsu compared to a Hien?",
+      "[+1] Haven't used a hien unfortunately. But I have heard it described as way less textured than the otsu. I thought the otsu was pretty textured tbh. Kinda feels like high grit sandpaper with gaps inbetween.",
+      "[+1] Gotcha, thanks",
+      "[+1] I have them in soft too. Otsu is much smoother on the skin than hien. Raiden even smoother than Hien and Otsu on the skin. Raiden feels like silk on the skin. Otsu have a cool looking texture. But imo nothing is close to raiden. If you like to go very fast use dots. If you like a little more control use full skates. My experience with raiden is that it is faster than my wallhack 4.0 with dots with better stopping Power.",
+      "[+1] Go for the otsu for competitive games like fortnite, raiden is a bit too fast if you find the hien as the perfect speed balance",
+      "[+1] If ur gonna get the raiden, get the alternative crimson remains, its cheaper and it’s easy to brush off dust. I previously owned 2 artisan pads (key 83 soft and raiden mid). Both slowed down so much after 6 months."
+    ],
+    "comment_tree": [
+      {
+        "id": "19rrm4zzaso81",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I used an otsu and a Raiden both in soft. I preferred the otsu for control but the Raiden for everything else. Wasn't a fan of the texture at low speeds because it felt grabby with dots.",
+        "depth": 0,
+        "body_ja": "ソフトの疾風乙と雷電の両方を使ったことがあるよ。コントロール性を求めるなら疾風乙、それ以外の面では雷電のほうが好みだった。低速時にドットソールだと引っかかりを感じるから、低速でのテクスチャの感触はあまり好みじゃなかったな。"
+      },
+      {
+        "id": "19rrm8tpa09t1",
+        "parent_id": "19rrm4zzaso81",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Ah yea makes sense. Have you used a Hien before? How would you describe the texture of the Otsu compared to a Hien?",
+        "depth": 1,
+        "body_ja": "ああ、なるほどね。飛燕を使ったことはある？飛燕と比べて疾風乙のテクスチャはどんな感じか教えてもらえる？"
+      },
+      {
+        "id": "19rrmj0gmsrdt",
+        "parent_id": "19rrm8tpa09t1",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Haven't used a hien unfortunately. But I have heard it described as way less textured than the otsu. I thought the otsu was pretty textured tbh. Kinda feels like high grit sandpaper with gaps inbetween.",
+        "depth": 2,
+        "body_ja": "残念ながら飛燕は使ったことないんだ。でも、飛燕は疾風乙よりもテクスチャがかなり控えめだって聞いたことがあるよ。個人的には疾風乙はけっこうテクスチャ感があると思ったな。間に隙間がある目の細かいサンドペーパーみたいな感じかな。"
+      },
+      {
+        "id": "19rrmm5a37b8h",
+        "parent_id": "19rrmj0gmsrdt",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Gotcha, thanks",
+        "depth": 3,
+        "body_ja": "なるほど、ありがとう！"
+      },
+      {
+        "id": "19rrmsa83dl7n",
+        "parent_id": "19rrm8tpa09t1",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I have them in soft too. Otsu is much smoother on the skin than hien. Raiden even smoother than Hien and Otsu on the skin. Raiden feels like silk on the skin. Otsu have a cool looking texture. But imo nothing is close to raiden. If you like to go very fast use dots. If you like a little more control use full skates. My experience with raiden is that it is faster than my wallhack 4.0 with dots with better stopping Power.",
+        "depth": 2,
+        "body_ja": "自分も両方ソフトで持ってるよ。肌触りは疾風乙のほうが飛燕よりずっと滑らか。雷電は飛燕や疾風乙よりもさらに滑らかで、肌触りはまるでシルクのようだよ。疾風乙は見た目がカッコいいテクスチャをしてるね。でも個人的には雷電に勝るものはないね。すごく速く動かしたいならドットソールを使うといいし、もう少しコントロール性が欲しいならフルソールを使うといいよ。雷電を使ってみた経験だと、ドットソールをつけたWallhack 4.0よりも速くて、しかも止めやすいんだよね。"
+      },
+      {
+        "id": "19rs2yg2dd50g",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Go for the otsu for competitive games like fortnite, raiden is a bit too fast if you find the hien as the perfect speed balance",
+        "depth": 0,
+        "body_ja": "フォートナイトみたいな競技ゲームなら疾風乙がおすすめだよ。飛燕を完璧なスピードバランスだと感じるなら、雷電はちょっと速すぎるかもね。"
+      },
+      {
+        "id": "19rsc6erb81b4",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "If ur gonna get the raiden, get the alternative crimson remains, its cheaper and it’s easy to brush off dust. I previously owned 2 artisan pads (key 83 soft and raiden mid). Both slowed down so much after 6 months.",
+        "depth": 0,
+        "body_ja": "もし雷電を買うなら、代替品のCrimson Remainsが良いよ。安いしホコリを払い落としやすいんだ。以前ARTISANのパッドを2枚（Key 83のソフトと雷電のミッド）持っていたけど、両方とも半年経ったらすごく遅くなっちゃったんだよね。"
+      }
+    ],
+    "title_ja": "ARTISAN 飛燕からの移行先：雷電と疾風乙のどちらを選ぶべきか",
+    "hook_ja": "ARTISAN 飛燕のダスト問題や経年劣化による速度低下に悩むユーザーへ向けた、雷電と疾風乙の比較・推奨に関する議論。",
+    "op_post_ja": "ARTISAN 飛燕のXソフトを2年ほど使っており、とても気に入っていますが、最大の不満の一つは、ほんの小さなホコリでもその上では劇的に増幅されて感じられることです。また、ホコリがテクスチャの隙間に挟まってしまい、コロコロ（粘着ローラー）でも取れないようです。雷電か疾風乙のどちらかに変えようと考えていますが、どちらを買うべきか迷っています。スピードパッドが大好きで、飛燕の初期のスピードは素晴らしかったのですが、古くなった今では少し遅く感じられます。テクスチャについては気にしておらず、Razer Striderから飛燕に移行したためザラザラしたパッドには慣れていますが、滑らかな雷電というアイデアには興味をそそられます。現在はPulsar X2H Crazylight Miniの純正ソールを使用していますが、交換を検討しているPTFEドットソールも持っています。どう思いますか？",
+    "consensus_points": [
+      "疾風乙は飛燕と比較して肌触りがはるかに滑らかだが、独自のテクスチャがありコントロール性に優れる",
+      "雷電はシルクのような極上の滑らかさを持ち、飛燕よりもさらに高速な操作が可能",
+      "雷電にドットソールを組み合わせると低速時に引っかかりを感じることがあるため、ソール選びやゲームジャンルに応じた選択が重要"
+    ],
+    "detailed_analysis_ja": "【1. ARTISAN製マウスパッドの特性と移行の背景】\nARTISANの飛燕（Hien）は、その独特なザラザラとした表面テクスチャと優れた初動の速さ、そして絶妙なストッピングパワーのバランスで長年人気を集めています。しかし、織り方が粗いためホコリが隙間に挟まりやすく、粘着ローラーでも掃除しにくいというメンテナンス上の弱点があります。また、長期間使用することで経年劣化による速度低下が発生し、初期のスピード感を求めるユーザーにとっては物足りなくなるケースがあります。\n\n【2. 疾風乙（Hayate-Otsu）の特徴】\n疾風乙は飛燕に比べて肌への摩擦が少なく滑らかですが、表面にはしっかりとしたテクスチャが存在します。コミュニティでは「隙間のある目の細かいサンドペーパーのよう」と表現されることもあり、コントロール性とスピードのバランスに優れているため、フォートナイトのような競技性の高いゲームに適しています。飛燕のスピード感を好む一方で、少しコントロール寄りの安定感を求める場合に最適な選択肢となります。\n\n【3. 雷電（Raiden）の特徴と注意点】\n雷電はシルクのように非常に滑らかな表面が特徴で、ARTISAN製品の中でもトップクラスのスピードを誇ります。一部のユーザーからは、ガラスパッド（Wallhack SP-004など）にドットソールを合わせた状態よりも速く感じられつつ、しっかりとした制動力も備えていると評されています。ただし、低速域でドットソールを使用すると引っかかり（グラッピーな感触）を覚える場合があるため、フルソールにするかドットにするかの使い分けや、ゲームタイトルに合わせた慎重な判断が求められます。",
+    "devices": [
+      {
+        "name": "ARTISAN 飛燕 Xソフト",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "初期のスピード感やバランスが愛用されている一方、微細なホコリが隙間に挟まって取れにくく、経年劣化で速度が落ちる点が指摘されている。"
+      },
+      {
+        "name": "Razer Strider",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "表面がザラザラした粗いパッドの代表例として、ユーザーが過去に使用していた経験を持つ。"
+      },
+      {
+        "name": "ARTISAN 疾風乙 ソフト",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "飛燕よりも肌触りが滑らかでありながら、しっかりとしたテクスチャを持ち、コントロール性に優れたバランスの良いパッドとしてフォートナイトなどの競技ゲーム向けに推奨されている。"
+      },
+      {
+        "name": "ARTISAN 雷電 ソフト",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "シルクのような極上の滑らかさと圧倒的なスピードを誇るが、低速時にドットソールと組み合わせると引っかかりを感じる場合があるとの意見もある。"
+      },
+      {
+        "name": "Pulsar X2H Crazylight Mini",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "純正ソールやPTFEドットソールを組み合わせて使用されているマウス。"
+      },
+      {
+        "name": "Wallhack SP-004",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "ガラスパッドの代表例として挙げられ、雷電にドットソールを合わせた方がより高速かつ優れたストッピングパワーを感じられるという比較対象になっている。"
+      },
+      {
+        "name": "ARTISAN 雷電 ミッド",
+        "category": "mousepad",
+        "sentiment": "negative",
+        "comment_ja": "半年ほどの使用で大幅な速度低下が見られたという体験談が寄せられている。"
+      }
+    ],
+    "x_main_post": "飛燕からの移行先は雷電と疾風乙のどっち？\n・疾風乙：コントロール性と滑らかさのバランスが優秀\n・雷電：シルクのような極上の滑らかさと圧倒的な速さ\n・ホコリ対策やドットソールの相性も要チェック！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "飛燕から他のパッドに変えたいのだ！",
+        "caption": "飛燕からの買い替え"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "雷電か疾風乙で迷ってるんだよね！",
+        "caption": "雷電と疾風乙"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "どっちにするべきなのだ？",
+        "caption": "おすすめはどっち？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "コントロール重視なら疾風乙だよ！",
+        "caption": "疾風乙の特徴"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "圧倒的なスピードなら雷電がおすすめだよ！",
+        "caption": "雷電の特徴"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "雷電はめちゃくちゃ滑らかなんだな！",
+        "caption": "シルクの滑らかさ"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただドットソールだと引っかかることもあるから注意してね！",
+        "caption": "ソール選びに注意"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "自分のプレイスタイルに合わせて選ぶのだ！",
+        "caption": "詳細は概要欄へ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19rrm4zzaso81",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ソフトの疾風乙と雷電の両方を使ったことがあるよ。コントロール性を求めるなら疾風乙、それ以外の面では雷電のほうが好みだった。低速時にドットソールだと引っかかりを感じるから、低速でのテクスチャの感触はあまり好みじゃなかったな。"
+      },
+      {
+        "id": "19rrm8tpa09t1",
+        "parent_id": "19rrm4zzaso81",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ああ、なるほどね。飛燕を使ったことはある？飛燕と比べて疾風乙のテクスチャはどんな感じか教えてもらえる？"
+      },
+      {
+        "id": "19rrmj0gmsrdt",
+        "parent_id": "19rrm8tpa09t1",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "残念ながら飛燕は使ったことないんだ。でも、飛燕は疾風乙よりもテクスチャがかなり控えめだって聞いたことがあるよ。個人的には疾風乙はけっこうテクスチャ感があると思ったな。間に隙間がある目の細かいサンドペーパーみたいな感じかな。"
+      },
+      {
+        "id": "19rrmm5a37b8h",
+        "parent_id": "19rrmj0gmsrdt",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "なるほど、ありがとう！"
+      },
+      {
+        "id": "19rrmsa83dl7n",
+        "parent_id": "19rrm8tpa09t1",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分も両方ソフトで持ってるよ。肌触りは疾風乙のほうが飛燕よりずっと滑らか。雷電は飛燕や疾風乙よりもさらに滑らかで、肌触りはまるでシルクのようだよ。疾風乙は見た目がカッコいいテクスチャをしてるね。でも個人的には雷電に勝るものはないね。すごく速く動かしたいならドットソールを使うといいし、もう少しコントロール性が欲しいならフルソールを使うといいよ。雷電を使ってみた経験だと、ドットソールをつけたWallhack 4.0よりも速くて、しかも止めやすいんだよね。"
+      },
+      {
+        "id": "19rs2yg2dd50g",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "フォートナイトみたいな競技ゲームなら疾風乙がおすすめだよ。飛燕を完璧なスピードバランスだと感じるなら、雷電はちょっと速すぎるかもね。"
+      },
+      {
+        "id": "19rsc6erb81b4",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "もし雷電を買うなら、代替品のCrimson Remainsが良いよ。安いしホコリを払い落としやすいんだ。以前ARTISANのパッドを2枚（Key 83のソフトと雷電のミッド）持っていたけど、両方とも半年経ったらすごく遅くなっちゃったんだよね。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xhfpqv.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E9%A3%9B%E7%87%95%E3%81%8B%E3%82%89%E3%81%AE%E7%A7%BB%E8%A1%8C%E5%85%88%E3%81%AF%E9%9B%B7%E9%9B%BB%E3%81%A8%E7%96%BE%E9%A2%A8%E4%B9%99%E3%81%AE%E3%81%A9%E3%81%A3%E3%81%A1%EF%BC%9F%0A%E3%83%BB%E7%96%BE%E9%A2%A8%E4%B9%99%EF%BC%9A%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB%E6%80%A7%E3%81%A8%E6%BB%91%E3%82%89%E3%81%8B%E3%81%95%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E3%81%8C%E5%84%AA%E7%A7%80%0A%E3%83%BB%E9%9B%B7%E9%9B%BB%EF%BC%9A%E3%82%B7%E3%83%AB%E3%82%AF%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E6%A5%B5%E4%B8%8A%E3%81%AE%E6%BB%91%E3%82%89%E3%81%8B%E3%81%95%E3%81%A8%E5%9C%A7%E5%80%92%E7%9A%84%E3%81%AA%E9%80%9F%E3%81%95%0A%E3%83%BB%E3%83%9B%E3%82%B3%E3%83%AA%E5%AF%BE%E7%AD%96%E3%82%84%E3%83%89%E3%83%83%E3%83%88%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%AE%E7%9B%B8%E6%80%A7%E3%82%82%E8%A6%81%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xhfpqv.html",
+    "created_at": "2026-10-29T09:45:26.653344+00:00"
   }
 ]
