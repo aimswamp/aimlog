@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scyrox V8のような小型超軽量で高速フリースピンホイール搭載のマウスは存在する？ | エイム沼の海外ログ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=JetBrains+Mono:wght@400;600;700&family=Shippori+Mincho+B1:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 */
+/* Hallmark · genre: editorial · macrostructure: Index-First / Long Document · theme: Almanac · enrichment: none · nav: N6 · footer: Ft4 */
+:root {
+  --color-paper: oklch(96.8% 0.012 85);
+  --color-paper-2: oklch(93.8% 0.016 82);
+  --color-paper-3: oklch(90.2% 0.020 80);
+  --color-ink: oklch(19.5% 0.015 65);
+  --color-ink-2: oklch(34.0% 0.018 65);
+  --color-ink-muted: oklch(46.0% 0.018 65);
+  --color-ink-faint: oklch(60.0% 0.015 65);
+  --color-rule: oklch(86.5% 0.012 75);
+  --color-rule-strong: oklch(74.0% 0.015 70);
+  --color-accent: oklch(47.0% 0.175 30);
+  --color-accent-hover: oklch(39.0% 0.175 30);
+  --color-accent-soft: oklch(92.5% 0.038 35);
+  --color-op-badge: oklch(32.0% 0.085 245);
+  --color-op-bg: oklch(94.8% 0.014 85);
+  --color-pos: oklch(40.0% 0.115 155);
+  --color-pos-bg: oklch(92.8% 0.035 155);
+  --color-neu: oklch(40.0% 0.020 65);
+  --color-neu-bg: oklch(91.5% 0.015 80);
+  --color-neg: oklch(45.0% 0.160 25);
+  --color-neg-bg: oklch(93.0% 0.035 25);
+  --color-amzn-bg: oklch(22.0% 0.018 65);
+  --color-amzn-fg: oklch(97.0% 0.010 85);
+  --color-rktn-bg: oklch(44.0% 0.160 28);
+  --color-rktn-fg: oklch(97.5% 0.008 85);
+  --font-display: 'Shippori Mincho B1', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-sans: 'BIZ UDPGothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 3.5rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 140ms;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: 700;
+  color: var(--color-ink);
+  overflow-wrap: anywhere;
+  min-width: 0;
+  margin-top: 0;
+}
+a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule-strong);
+  text-underline-offset: 3px;
+  transition: color var(--dur-short) var(--ease-out), text-decoration-color var(--dur-short) var(--ease-out);
+}
+a:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* N6 Newspaper Masthead */
+.masthead {
+  border-bottom: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper);
+}
+.masthead-meta {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.45rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  border-bottom: 1px solid var(--color-rule);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.masthead-Core {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-lg) var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-md);
+}
+.site-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0;
+}
+.site-title a {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.site-title a:hover {
+  color: var(--color-accent);
+}
+.site-tagline {
+  margin: 0.35rem 0 0;
+  font-size: 0.88rem;
+  color: var(--color-ink-2);
+}
+.masthead-Compact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.85rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.masthead-Compact-brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+.back-index-link {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+}
+.back-index-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Filter Strip (Sharp Tabular Bar) */
+.filter-strip-wrap {
+  border-top: 1px solid var(--color-rule);
+  background-color: var(--color-paper-2);
+}
+.filter-strip {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+.filter-tab {
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--color-rule);
+  border-bottom: 2px solid transparent;
+  padding: 0.65rem 1.1rem;
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.filter-tab:first-child {
+  border-left: 1px solid var(--color-rule);
+}
+.filter-tab:hover {
+  background-color: var(--color-paper-3);
+  color: var(--color-ink);
+}
+.filter-tab.active {
+  background-color: var(--color-paper);
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* Main Grid Layout */
+.page-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.index-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 960px) {
+  .index-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+.article-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 1080px) {
+  .article-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+
+.section-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: 0.55rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.section-title {
+  font-size: 1.2rem;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+.section-sub {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Index Thread Rows (No Rounded Cards) */
+.thread-index-row {
+  padding: var(--space-lg) 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.thread-meta-bar {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.4rem;
+}
+.sub-tag {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+a.sub-tag:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+.meta-sep {
+  color: var(--color-ink-faint);
+}
+.index-thread-title {
+  font-size: 1.32rem;
+  line-height: 1.45;
+  margin: 0 0 0.55rem;
+}
+.index-thread-title a {
+  text-decoration: none;
+}
+.index-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.index-thread-hook {
+  margin: 0 0 0.85rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.log-preview-box {
+  background-color: var(--color-paper-2);
+  border-top: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
+  padding: 0.7rem 0.95rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.86rem;
+}
+.log-preview-line {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+.log-preview-line:last-child {
+  margin-bottom: 0;
+}
+.preview-num {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.35rem;
+}
+.preview-speaker {
+  font-weight: 700;
+  color: var(--color-pos);
+  margin-right: 0.4rem;
+}
+.thread-footer-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.gear-inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.gear-chip {
+  font-family: var(--font-mono);
+  font-size: 0.73rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out), border-color var(--dur-short) var(--ease-out);
+}
+a.gear-chip:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.read-log-link {
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.read-log-link:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* Sidebar Search & Device Ledger */
+.ledger-aside {
+  min-width: 0;
+}
+.search-box-wrap {
+  margin: var(--space-md) 0 var(--space-xl);
+}
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 0;
+}
+.search-input::placeholder {
+  color: var(--color-ink-muted);
+}
+.search-input:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 0;
+  background-color: var(--color-paper);
+}
+.search-status {
+  margin-top: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+  min-height: 1.2em;
+}
+.ledger-lead {
+  margin: 0.5rem 0 var(--space-md);
+  font-size: 0.82rem;
+  color: var(--color-ink-muted);
+  line-height: 1.6;
+}
+.rank-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rank-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-xs);
+  margin-bottom: 0.2rem;
+}
+.rank-no {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.4rem;
+}
+.rank-name {
+  font-weight: 700;
+  font-size: 0.96rem;
+}
+.rank-cat {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+.rank-stats {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-pos);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 0.3rem;
+}
+.rank-comment {
+  margin: 0 0 0.55rem;
+  font-size: 0.82rem;
+  color: var(--color-ink-2);
+  line-height: 1.55;
+}
+.shop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.shop-btn {
+  display: inline-block;
+  padding: 0.32rem 0.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  border: 1px solid var(--color-rule-strong);
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.shop-btn-amzn {
+  background-color: var(--color-amzn-bg);
+  color: var(--color-amzn-fg);
+  border-color: var(--color-amzn-bg);
+}
+.shop-btn-amzn:hover {
+  background-color: var(--color-ink-2);
+  color: var(--color-amzn-fg);
+}
+.shop-btn-rktn {
+  background-color: var(--color-rktn-bg);
+  color: var(--color-rktn-fg);
+  border-color: var(--color-rktn-bg);
+}
+.shop-btn-rktn:hover {
+  background-color: var(--color-accent-hover);
+  color: var(--color-rktn-fg);
+}
+
+/* Article / Thread Page (Long Document + Forum Log) */
+.article-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.article-main {
+  min-width: 0;
+}
+.thread-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+.thread-title {
+  font-size: clamp(1.5rem, 2.8vw, 2.05rem);
+  line-height: 1.38;
+  margin: 0.4rem 0 0.75rem;
+}
+.thread-source-line {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Consensus Summary Block */
+.consensus-sheet {
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+}
+.consensus-hook {
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--color-ink);
+  margin: 0 0 var(--space-md);
+  line-height: 1.7;
+}
+.consensus-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  margin: 0 0 0.5rem;
+}
+.consensus-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.consensus-list li {
+  margin-bottom: 0.4rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.consensus-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* Reddit-Style Comment Tree & OP Post */
+.thread-log-section {
+  margin-bottom: var(--space-2xl);
+}
+.rc-op-post {
+  background-color: var(--color-op-bg);
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--color-rule);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+.rc-op-media {
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-rule);
+  font-size: 0.85rem;
+}
+.rc-op-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.rc-op-media-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background-color: var(--color-paper);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.25rem 0.65rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.rc-op-media-link:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.rc-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+.rc-author {
+  font-weight: 700;
+  font-size: 0.84rem;
+  color: var(--color-ink);
+}
+.rc-badge-op {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.08rem 0.45rem;
+  background-color: var(--color-op-badge);
+  color: var(--color-paper);
+  letter-spacing: 0.02em;
+}
+.rc-flair {
+  font-family: var(--font-mono);
+  font-size: 0.71rem;
+  padding: 0.06rem 0.45rem;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  color: var(--color-ink-2);
+}
+.rc-reply-to {
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+}
+.rc-score {
+  color: var(--color-ink-muted);
+  font-size: 0.75rem;
+  margin-left: auto;
+}
+.rc-score-high {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+.rc-body {
+  font-size: 0.97rem;
+  line-height: 1.85;
+  color: var(--color-ink);
+  max-width: 68ch;
+  overflow-wrap: anywhere;
+}
+.rc-quote {
+  margin: 0.4rem 0;
+  padding: 0.25rem 0.75rem;
+  border-left: 2px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  color: var(--color-ink-2);
+  font-size: 0.91rem;
+}
+.rc-tree {
+  margin-top: var(--space-sm);
+}
+.rc-tree > .rc-node {
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rc-children {
+  margin-top: 0.65rem;
+  margin-left: 0.55rem;
+  padding-left: 1.15rem;
+  border-left: 1px solid var(--color-rule);
+  transition: border-color var(--dur-short) var(--ease-out);
+}
+.rc-children:hover {
+  border-left-color: var(--color-rule-strong);
+}
+.rc-children .rc-node {
+  padding: 0.7rem 0 0.25rem;
+  border-top: 1px solid oklch(90.0% 0.010 75);
+}
+.rc-children .rc-node:first-child {
+  border-top: none;
+}
+@media (max-width: 600px) {
+  .rc-children {
+    margin-left: 0.25rem;
+    padding-left: 0.75rem;
+  }
+}
+
+/* Editorial Deep Analysis Note */
+.analysis-section {
+  margin-bottom: var(--space-2xl);
+}
+.analysis-prose {
+  max-width: 66ch;
+  margin-top: var(--space-md);
+}
+.analysis-subhead {
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: var(--space-lg) 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+.analysis-para {
+  margin: 0 0 1.1rem;
+  font-size: 0.97rem;
+  line-height: 1.9;
+  color: var(--color-ink-2);
+}
+
+/* Mentioned Gear Specification Table */
+.gear-section {
+  margin-bottom: var(--space-xl);
+}
+.gear-section > .analysis-para {
+  margin-top: var(--space-md);
+}
+.gear-row {
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.gear-meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.gear-cat-code {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.08rem 0.45rem;
+}
+.status-tag {
+  font-family: var(--font-sans);
+  font-size: 0.73rem;
+  font-weight: 700;
+  padding: 0.1rem 0.5rem;
+}
+.status-pos {
+  background-color: var(--color-pos-bg);
+  color: var(--color-pos);
+}
+.status-neu {
+  background-color: var(--color-neu-bg);
+  color: var(--color-neu);
+}
+.status-neg {
+  background-color: var(--color-neg-bg);
+  color: var(--color-neg);
+}
+.gear-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.3rem;
+}
+.gear-title-link {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.gear-title-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.gear-desc {
+  margin: 0 0 0.55rem;
+  font-size: 0.85rem;
+  color: var(--color-ink-2);
+  line-height: 1.6;
+}
+
+/* X Account Section (Sidebar & Footer) */
+.x-account-section {
+  margin-top: var(--space-xl);
+}
+.x-account-box {
+  margin-top: var(--space-sm);
+  padding: 0.65rem 0;
+}
+.x-account-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.8rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.x-account-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.x-account-unset {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+}
+
+/* Related Threads Navigation (For Longer Site Stay) */
+.related-section {
+  margin-bottom: var(--space-xl);
+}
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.related-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--color-rule);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.28rem;
+}
+.related-link {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  line-height: 1.45;
+  text-decoration: none;
+}
+.related-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* Pagination & Back-to-top Controls */
+.pagination-bar {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.page-info {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.page-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.page-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.page-btn:hover:not(:disabled) {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.page-btn.active {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+}
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.back-to-top-wrap {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-rule);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.back-to-top-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.45rem 0.95rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  margin-left: auto;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.back-to-top-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.share-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+.thread-meta-bar .share-group {
+  margin-left: auto;
+}
+.share-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.22rem 0.55rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1.4;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.share-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Ft4 Dense Colophon Footer */
+.colophon {
+  border-top: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  margin-top: var(--space-2xl);
+  padding: var(--space-xl) var(--space-lg);
+}
+.colophon-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+  line-height: 1.7;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: var(--space-lg);
+}
+@media (max-width: 768px) {
+  .colophon-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.colophon-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  margin: 0 0 0.35rem;
+}
+.colophon-mono {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+}
+</style>
+</head>
+<body id="top">
+  <header class="masthead">
+    <div class="masthead-Compact">
+      <a href="../index.html" class="masthead-Compact-brand">エイム沼の海外ログ</a>
+      <a href="../index.html" class="back-index-link">← スレッド一覧へ戻る</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="article-grid">
+      <div class="article-main">
+        <header class="thread-header">
+          <div class="thread-meta-bar">
+            <a class="sub-tag" href="../index.html">スレッド一覧</a>
+            <span class="meta-sep">/</span>
+            <a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a>
+            <span class="meta-sep">/</span>
+            <span>コメント 5件</span>
+            <span class="share-group">
+              <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+              <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+            </span>
+          </div>
+          <h1 class="thread-title">Scyrox V8のような小型超軽量で高速フリースピンホイール搭載のマウスは存在する？</h1>
+          <p class="thread-source-line">
+            元スレッド: <a href="https://www.reddit.com/r/MouseReview/comments/1xi1x8t/which_mouse_after_scyrox_v8/" target="_blank" rel="noopener">Which mouse after Scyrox v8?</a>
+          </p>
+        </header>
+
+        <section class="consensus-sheet">
+          <p class="consensus-hook">Scyrox V8と同じサイズ感・超軽量かつ高速フリースピン（インフィニットスクロール）を備えたゲーミングマウスを求める相談です。しかしホイール機構自体の重さという物理的制約から、現状では存在しないという結論に至っています。</p>
+          <div class="consensus-head">スレッドの要点</div>
+          <ul class="consensus-list"><li>Scyrox V8のような30g〜40g台の超軽量マウスにフリースピン（インフィニットスクロール）機構を組み込むのは、物理的な重量制約により現時点では不可能。</li><li>フリースピン機能を備えた最も軽量な選択肢として「Keychron M6（約78g）」が挙げられるが、Scyrox V8とは形状も重さも別物である。</li><li>G502 XやBasiliskなどフリースピン搭載機は100g前後と大型・重量級になり、小型マウス愛用者の乗り換え先としては適さない。</li></ul>
+        </section>
+
+        <section class="thread-log-section">
+          <div class="section-header">
+            <h2 class="section-title">コメント（5件）</h2>
+          </div>
+          <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body">つかみ持ちで小型マウスしか使っていません。ただScyrox V8はホイールが硬くて押し込みクリックもしんどいです。理想としては、Scyrox V8と同じ寸法・重量でフリースピン（インフィニットスクロール）ホイールがついているマウスを探しているのですが、何かありますか？Logicool MXシリーズはセンサーが悪いですし（ゲームをしていてエイムが重要なので）、Razer Basiliskは大きすぎて重すぎます。</div></div>
+<div class="rc-tree">
+<div class="rc-node" id="c-19rsuezxpkh1f"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-score">+1 pts</span></div><div class="rc-body">G502 X PLUSならフリースピンホイールがあって重さは約100gだよ。手に入る機能に対して悪くはないけど、40gのマウスと同じような操作感には絶対にならないね。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rth492ljrr8"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー1 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">うん、それは試したんだけど、サイズが合わなくて返品しなきゃならなかったんだよね:(。</div></div></div>
+</div></div>
+<div class="rc-node" id="c-19rsuxo83r77m"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー2</span><span class="rc-score">+1 pts</span></div><div class="rc-body">その重量帯でインフィニットスクロールがついてるものは皆無だよ。他の人が書いてる通り、ずっと重いマウスで妥協するしかない。一番軽い選択肢でもKeychron M6になるね。</div></div></div>
+<div class="rc-node" id="c-19rt41ykaaqte"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー3</span><span class="rc-flair">boomer aim</span><span class="rc-score">+1 pts</span></div><div class="rc-body">無理だね。フリースピンのホイール機構単体でScyrox V8とほぼ同じくらいの重さがあるから、35gのマウスに載せるのは物理的に不可能だと思う。</div></div></div>
+<div class="rc-node" id="c-19rte4973zdxf"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー4</span><span class="rc-flair">Razer Viper Mini V4 Wired 8khz pls</span><span class="rc-score">+1 pts</span></div><div class="rc-body">同じ寸法、同じ重量でインフィニットスクロール付きとなると、残念だけど存在しないよ。でもKeychron M6なら試してみる価値はあるかも。君が探しているものに一番近いマウスだと思う。ただV8みたいに超軽量ではないし、サイズ感も別物だけどね。</div></div></div>
+</div>
+        </section>
+
+        <section class="analysis-section">
+          <div class="section-header">
+            <h2 class="section-title">ひとことノート</h2>
+          </div>
+          <div class="analysis-prose">
+            <p class="analysis-para">本スレッドは、超軽量小型エルゴ/小型マウスとして評価の高い「Scyrox V8」のホイールの硬さやクリックの重さに悩むユーザーが、「Scyrox V8と同じ小型サイズ・約36g〜40g前後の重量」かつ「Logicool製品などに見られるフリースピン（インフィニットスクロール）機能」を兼ね備えたゲーミングマウスを求めた議論です。</p>
+<h3 class="analysis-subhead">1. フリースピン（インフィニットスクロール）機構の物理的限界</h3>
+<p class="analysis-para">コメント欄で即座に指摘されている通り、フリースピン機構（デュアルモードスクロールホイール）は、金属製ホイールやクラッチ切り替え機構、ベアリングなどの機械部品を内蔵する必要があります。このホイールユニット単体だけで相応の重量（十数グラム〜数十グラム）を占めるため、30〜40g前後の超軽量ゲーミングマウスに組み込むことは物理構造上ほぼ不可能です。</p>
+<h3 class="analysis-subhead">2. 妥協案としての候補と現実</h3>
+<p class="analysis-para">コミュニティから現実的な最軽量フリースピンマウスとして挙げられたのが「Keychron M6」です。Keychron M6は約78gと、Logicool G502 X（有線89g/無線100g超）やMX Master、Razer Basiliskシリーズよりは軽量でエルゴノミクス形状を採用していますが、Scyrox V8（約36g）の倍以上の重量があり、形状もつかみ持ち向けの小型マウスとは大きく異なります。</p>
+<h3 class="analysis-subhead">3. エイム特化と多機能のトレードオフ</h3>
+<p class="analysis-para">スレ主はFPSのエイム精度を求めており、Logicool MXシリーズのようなオフィス向けセンサー（ポーリングレート125Hz程度、追従速度や遅延で競技用途に耐えない）は選択肢から外しています。しかし、競技用FPSに特化した超軽量マウス市場と、インフィニットスクロールのような作業性・快適性を重視した多機能マウス市場は二極化しており、両方の要求を完全に満たす製品は市場に存在しないというのがコミュニティの一致した見解です。ホイールの硬さ自体への対策としては、別系統の小型軽量マウスを探すか、ホイールエンコーダーの交換などMOD（改造）を検討するのが現実的なアプローチとなります。</p>
+          </div>
+        </section>
+
+        <nav class="related-section" aria-label="その他のスレッド">
+          <div class="section-header">
+            <h2 class="section-title">他のスレッド</h2>
+          </div>
+          <ul class="related-list">
+            <li class="related-item"><a class="related-link" href="1xhzmzk.html">ARTISAN 結83が3ヶ月で泥沼化？高湿度とポロンベースの影響を海外勢が議論</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 4件</div></li><li class="related-item"><a class="related-link" href="1xi2mem.html">6年愛用したG-Wolves Hatiからの買い替えは同じ形状を選ぶべき？</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 4件</div></li><li class="related-item"><a class="related-link" href="1xi0a3n.html">VALORANTのブロンズ3から抜け出すためのおすすめエイムルーティンとは？</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 4件</div></li><li class="related-item"><a class="related-link" href="1xhfpqv.html">ARTISAN 飛燕からの移行先：雷電と疾風乙のどちらを選ぶべきか</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 7件</div></li><li class="related-item"><a class="related-link" href="1xhiiny.html">Logicool G304とVXE R1 SE+の比較！耐久性とセンサー性能重視のおすすめはどっち？</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 12件</div></li>
+          </ul>
+        </nav>
+      </div>
+
+      <aside class="ledger-aside">
+        <div class="section-header">
+          <h2 class="section-title">スレッド・機材検索</h2>
+        </div>
+        <form class="search-box-wrap" action="../index.html" method="get">
+          <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
+        </form>
+
+        <section class="gear-section">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Scyrox%20V8">Scyrox V8</a></h3>
+              <p class="gear-desc">約36〜40g前後の超軽量かつ小型でつかみ持ちに適しているが、ホイールが硬く押し込みにくい点が挙げられている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Scyrox+V8&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FScyrox%2520V8%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Logicool%20G502%20X%20PLUS">Logicool G502 X PLUS</a></h3>
+              <p class="gear-desc">高速フリースピンホイールを搭載しているが、約100gと重くサイズも大型であるため小型超軽量マウスの代替にはならない。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Logicool+G502+X+PLUS&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLogicool%2520G502%2520X%2520PLUS%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Keychron%20M6">Keychron M6</a></h3>
+              <p class="gear-desc">フリースピンホイールを備えたマウスの中では約78gと最も軽量な部類だが、超軽量小型マウスとは形状も重さも異なる。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Keychron+M6&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FKeychron%2520M6%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neg">注意点あり</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Razer%20Basilisk">Razer Basilisk</a></h3>
+              <p class="gear-desc">チルトやスクロール機能が充実しているものの、つかみ持ちや小型・軽量を重視するFPS用途には大きく重すぎると評されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Razer+Basilisk&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Basilisk%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+        </section>
+
+        <section class="x-account-section"><div class="section-header"><h2 class="section-title">X (Twitter)</h2></div><div class="x-account-box"><a class="x-account-link" href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp ↗</a></div></section>
+      </aside>
+    </div>
+
+    <div class="back-to-top-wrap">
+      <div class="share-group">
+        <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+        <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+      </div>
+      <button type="button" class="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑ 一番上へ戻る</button>
+    </div>
+  </main>
+
+  <footer class="colophon">
+    <div class="colophon-inner">
+      <div>
+        <p class="colophon-title">エイム沼の海外ログ</p>
+        <p>海外フォーラムの議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
+      </div>
+      <div class="colophon-mono">
+        <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
+        <div>UPDATED: 2026.10.30 · 52 THREADS</div>
+        <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function shareToX() {
+      const u = window.location.href;
+      const t = document.title;
+      window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(t) + '&url=' + encodeURIComponent(u), '_blank', 'noopener');
+    }
+    function copyPageUrl(btn) {
+      const u = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(u);
+      }
+      const orig = btn.textContent;
+      btn.textContent = 'コピー完了';
+      setTimeout(() => { btn.textContent = orig; }, 1600);
+    }
+  </script>
+</body>
+</html>
