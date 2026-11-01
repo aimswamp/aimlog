@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viscoseベンチマークを47日で急成長させた統計的エイム練習法とAI活用術 | エイム沼の海外ログ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=JetBrains+Mono:wght@400;600;700&family=Shippori+Mincho+B1:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5 */
+/* Hallmark · genre: editorial · macrostructure: Index-First / Long Document · theme: Almanac · enrichment: none · nav: N6 · footer: Ft4 */
+:root {
+  --color-paper: oklch(96.8% 0.012 85);
+  --color-paper-2: oklch(93.8% 0.016 82);
+  --color-paper-3: oklch(90.2% 0.020 80);
+  --color-ink: oklch(19.5% 0.015 65);
+  --color-ink-2: oklch(34.0% 0.018 65);
+  --color-ink-muted: oklch(46.0% 0.018 65);
+  --color-ink-faint: oklch(60.0% 0.015 65);
+  --color-rule: oklch(86.5% 0.012 75);
+  --color-rule-strong: oklch(74.0% 0.015 70);
+  --color-accent: oklch(47.0% 0.175 30);
+  --color-accent-hover: oklch(39.0% 0.175 30);
+  --color-accent-soft: oklch(92.5% 0.038 35);
+  --color-op-badge: oklch(32.0% 0.085 245);
+  --color-op-bg: oklch(94.8% 0.014 85);
+  --color-pos: oklch(40.0% 0.115 155);
+  --color-pos-bg: oklch(92.8% 0.035 155);
+  --color-neu: oklch(40.0% 0.020 65);
+  --color-neu-bg: oklch(91.5% 0.015 80);
+  --color-neg: oklch(45.0% 0.160 25);
+  --color-neg-bg: oklch(93.0% 0.035 25);
+  --color-amzn-bg: oklch(22.0% 0.018 65);
+  --color-amzn-fg: oklch(97.0% 0.010 85);
+  --color-rktn-bg: oklch(44.0% 0.160 28);
+  --color-rktn-fg: oklch(97.5% 0.008 85);
+  --font-display: 'Shippori Mincho B1', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-sans: 'BIZ UDPGothic', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2.5rem;
+  --space-2xl: 3.5rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 140ms;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: 700;
+  color: var(--color-ink);
+  overflow-wrap: anywhere;
+  min-width: 0;
+  margin-top: 0;
+}
+a {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule-strong);
+  text-underline-offset: 3px;
+  transition: color var(--dur-short) var(--ease-out), text-decoration-color var(--dur-short) var(--ease-out);
+}
+a:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* N6 Newspaper Masthead */
+.masthead {
+  border-bottom: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper);
+}
+.masthead-meta {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.45rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+  border-bottom: 1px solid var(--color-rule);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.masthead-Core {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-lg) var(--space-lg) var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-md);
+}
+.site-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3.4vw, 2.5rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0;
+}
+.site-title a {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.site-title a:hover {
+  color: var(--color-accent);
+}
+.site-tagline {
+  margin: 0.35rem 0 0;
+  font-size: 0.88rem;
+  color: var(--color-ink-2);
+}
+.masthead-Compact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.85rem var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.masthead-Compact-brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+.back-index-link {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+}
+.back-index-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Filter Strip (Sharp Tabular Bar) */
+.filter-strip-wrap {
+  border-top: 1px solid var(--color-rule);
+  background-color: var(--color-paper-2);
+}
+.filter-strip {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+.filter-tab {
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-right: 1px solid var(--color-rule);
+  border-bottom: 2px solid transparent;
+  padding: 0.65rem 1.1rem;
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.filter-tab:first-child {
+  border-left: 1px solid var(--color-rule);
+}
+.filter-tab:hover {
+  background-color: var(--color-paper-3);
+  color: var(--color-ink);
+}
+.filter-tab.active {
+  background-color: var(--color-paper);
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* Main Grid Layout */
+.page-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.index-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 960px) {
+  .index-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+.article-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+@media (max-width: 1080px) {
+  .article-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-xl);
+  }
+}
+
+.section-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: 0.55rem;
+  margin-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.section-title {
+  font-size: 1.2rem;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+.section-sub {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Index Thread Rows (No Rounded Cards) */
+.thread-index-row {
+  padding: var(--space-lg) 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.thread-meta-bar {
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.4rem;
+}
+.sub-tag {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+a.sub-tag:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+.meta-sep {
+  color: var(--color-ink-faint);
+}
+.index-thread-title {
+  font-size: 1.32rem;
+  line-height: 1.45;
+  margin: 0 0 0.55rem;
+}
+.index-thread-title a {
+  text-decoration: none;
+}
+.index-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.index-thread-hook {
+  margin: 0 0 0.85rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.log-preview-box {
+  background-color: var(--color-paper-2);
+  border-top: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
+  padding: 0.7rem 0.95rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.86rem;
+}
+.log-preview-line {
+  margin-bottom: 0.35rem;
+  line-height: 1.6;
+}
+.log-preview-line:last-child {
+  margin-bottom: 0;
+}
+.preview-num {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.35rem;
+}
+.preview-speaker {
+  font-weight: 700;
+  color: var(--color-pos);
+  margin-right: 0.4rem;
+}
+.thread-footer-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.gear-inline-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.gear-chip {
+  font-family: var(--font-mono);
+  font-size: 0.73rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out), border-color var(--dur-short) var(--ease-out);
+}
+a.gear-chip:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.read-log-link {
+  font-family: var(--font-sans);
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.read-log-link:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
+}
+
+/* Sidebar Search & Device Ledger */
+.ledger-aside {
+  min-width: 0;
+}
+.search-box-wrap {
+  margin: var(--space-md) 0 var(--space-xl);
+}
+.search-input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  border-radius: 0;
+}
+.search-input::placeholder {
+  color: var(--color-ink-muted);
+}
+.search-input:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 0;
+  background-color: var(--color-paper);
+}
+.search-status {
+  margin-top: 0.35rem;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+  min-height: 1.2em;
+}
+.ledger-lead {
+  margin: 0.5rem 0 var(--space-md);
+  font-size: 0.82rem;
+  color: var(--color-ink-muted);
+  line-height: 1.6;
+}
+.rank-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rank-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--space-xs);
+  margin-bottom: 0.2rem;
+}
+.rank-no {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+  margin-right: 0.4rem;
+}
+.rank-name {
+  font-weight: 700;
+  font-size: 0.96rem;
+}
+.rank-cat {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--color-ink-muted);
+  white-space: nowrap;
+}
+.rank-stats {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-pos);
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 0.3rem;
+}
+.rank-comment {
+  margin: 0 0 0.55rem;
+  font-size: 0.82rem;
+  color: var(--color-ink-2);
+  line-height: 1.55;
+}
+.shop-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+.shop-btn {
+  display: inline-block;
+  padding: 0.32rem 0.7rem;
+  font-family: var(--font-sans);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  border: 1px solid var(--color-rule-strong);
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.shop-btn-amzn {
+  background-color: var(--color-amzn-bg);
+  color: var(--color-amzn-fg);
+  border-color: var(--color-amzn-bg);
+}
+.shop-btn-amzn:hover {
+  background-color: var(--color-ink-2);
+  color: var(--color-amzn-fg);
+}
+.shop-btn-rktn {
+  background-color: var(--color-rktn-bg);
+  color: var(--color-rktn-fg);
+  border-color: var(--color-rktn-bg);
+}
+.shop-btn-rktn:hover {
+  background-color: var(--color-accent-hover);
+  color: var(--color-rktn-fg);
+}
+
+/* Article / Thread Page (Long Document + Forum Log) */
+.article-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.article-main {
+  min-width: 0;
+}
+.thread-header {
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+.thread-title {
+  font-size: clamp(1.5rem, 2.8vw, 2.05rem);
+  line-height: 1.38;
+  margin: 0.4rem 0 0.75rem;
+}
+.thread-source-line {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+/* Consensus Summary Block */
+.consensus-sheet {
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-2xl);
+}
+.consensus-hook {
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--color-ink);
+  margin: 0 0 var(--space-md);
+  line-height: 1.7;
+}
+.consensus-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  margin: 0 0 0.5rem;
+}
+.consensus-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.consensus-list li {
+  margin-bottom: 0.4rem;
+  font-size: 0.94rem;
+  color: var(--color-ink-2);
+}
+.consensus-list li:last-child {
+  margin-bottom: 0;
+}
+
+/* Reddit-Style Comment Tree & OP Post */
+.thread-log-section {
+  margin-bottom: var(--space-2xl);
+}
+.rc-op-post {
+  background-color: var(--color-op-bg);
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--color-rule);
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+.rc-op-media {
+  margin-top: 0.9rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--color-rule);
+  font-size: 0.85rem;
+}
+.rc-op-media-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.rc-op-media-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-accent);
+  background-color: var(--color-paper);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.25rem 0.65rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.rc-op-media-link:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.rc-head {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.45rem;
+}
+.rc-author {
+  font-weight: 700;
+  font-size: 0.84rem;
+  color: var(--color-ink);
+}
+.rc-badge-op {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.08rem 0.45rem;
+  background-color: var(--color-op-badge);
+  color: var(--color-paper);
+  letter-spacing: 0.02em;
+}
+.rc-flair {
+  font-family: var(--font-mono);
+  font-size: 0.71rem;
+  padding: 0.06rem 0.45rem;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  color: var(--color-ink-2);
+}
+.rc-reply-to {
+  font-family: var(--font-sans);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+}
+.rc-score {
+  color: var(--color-ink-muted);
+  font-size: 0.75rem;
+  margin-left: auto;
+}
+.rc-score-high {
+  color: var(--color-accent);
+  font-weight: 700;
+}
+.rc-body {
+  font-size: 0.97rem;
+  line-height: 1.85;
+  color: var(--color-ink);
+  max-width: 68ch;
+  overflow-wrap: anywhere;
+}
+.rc-quote {
+  margin: 0.4rem 0;
+  padding: 0.25rem 0.75rem;
+  border-left: 2px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  color: var(--color-ink-2);
+  font-size: 0.91rem;
+}
+.rc-tree {
+  margin-top: var(--space-sm);
+}
+.rc-tree > .rc-node {
+  padding: 1.05rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.rc-children {
+  margin-top: 0.65rem;
+  margin-left: 0.55rem;
+  padding-left: 1.15rem;
+  border-left: 1px solid var(--color-rule);
+  transition: border-color var(--dur-short) var(--ease-out);
+}
+.rc-children:hover {
+  border-left-color: var(--color-rule-strong);
+}
+.rc-children .rc-node {
+  padding: 0.7rem 0 0.25rem;
+  border-top: 1px solid oklch(90.0% 0.010 75);
+}
+.rc-children .rc-node:first-child {
+  border-top: none;
+}
+@media (max-width: 600px) {
+  .rc-children {
+    margin-left: 0.25rem;
+    padding-left: 0.75rem;
+  }
+}
+
+/* Editorial Deep Analysis Note */
+.analysis-section {
+  margin-bottom: var(--space-2xl);
+}
+.analysis-prose {
+  max-width: 66ch;
+  margin-top: var(--space-md);
+}
+.analysis-subhead {
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: var(--space-lg) 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--color-rule);
+}
+.analysis-para {
+  margin: 0 0 1.1rem;
+  font-size: 0.97rem;
+  line-height: 1.9;
+  color: var(--color-ink-2);
+}
+
+/* Mentioned Gear Specification Table */
+.gear-section {
+  margin-bottom: var(--space-xl);
+}
+.gear-section > .analysis-para {
+  margin-top: var(--space-md);
+}
+.gear-row {
+  padding: 0.95rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.gear-meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.gear-cat-code {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-muted);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.08rem 0.45rem;
+}
+.status-tag {
+  font-family: var(--font-sans);
+  font-size: 0.73rem;
+  font-weight: 700;
+  padding: 0.1rem 0.5rem;
+}
+.status-pos {
+  background-color: var(--color-pos-bg);
+  color: var(--color-pos);
+}
+.status-neu {
+  background-color: var(--color-neu-bg);
+  color: var(--color-neu);
+}
+.status-neg {
+  background-color: var(--color-neg-bg);
+  color: var(--color-neg);
+}
+.gear-title {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 0.3rem;
+}
+.gear-title-link {
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.gear-title-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.gear-desc {
+  margin: 0 0 0.55rem;
+  font-size: 0.85rem;
+  color: var(--color-ink-2);
+  line-height: 1.6;
+}
+
+/* X Account Section (Sidebar & Footer) */
+.x-account-section {
+  margin-top: var(--space-xl);
+}
+.x-account-box {
+  margin-top: var(--space-sm);
+  padding: 0.65rem 0;
+}
+.x-account-link {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.8rem;
+  text-decoration: none;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.x-account-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
+.x-account-unset {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+}
+
+/* Related Threads Navigation (For Longer Site Stay) */
+.related-section {
+  margin-bottom: var(--space-xl);
+}
+.related-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.related-item {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--color-rule);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.28rem;
+}
+.related-link {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  line-height: 1.45;
+  text-decoration: none;
+}
+.related-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* Pagination & Back-to-top Controls */
+.pagination-bar {
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.page-info {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.page-btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+.page-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.35rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.page-btn:hover:not(:disabled) {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.page-btn.active {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+}
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.back-to-top-wrap {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-rule);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.back-to-top-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.45rem 0.95rem;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  margin-left: auto;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.back-to-top-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.share-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+}
+.thread-meta-bar .share-group {
+  margin-left: auto;
+}
+.share-btn {
+  appearance: none;
+  background-color: var(--color-paper-2);
+  border: 1px solid var(--color-rule-strong);
+  padding: 0.22rem 0.55rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--color-ink-2);
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1.4;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.share-btn:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Ft4 Dense Colophon Footer */
+.colophon {
+  border-top: 3px double var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  margin-top: var(--space-2xl);
+  padding: var(--space-xl) var(--space-lg);
+}
+.colophon-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  color: var(--color-ink-muted);
+  line-height: 1.7;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: var(--space-lg);
+}
+@media (max-width: 768px) {
+  .colophon-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.colophon-title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-ink);
+  margin: 0 0 0.35rem;
+}
+.colophon-mono {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  font-variant-numeric: tabular-nums;
+}
+</style>
+</head>
+<body id="top">
+  <header class="masthead">
+    <div class="masthead-Compact">
+      <a href="../index.html" class="masthead-Compact-brand">エイム沼の海外ログ</a>
+      <a href="../index.html" class="back-index-link">← スレッド一覧へ戻る</a>
+    </div>
+  </header>
+  <main class="article-wrap">
+    <div class="article-grid">
+      <div class="article-main">
+        <header class="thread-header">
+          <div class="thread-meta-bar">
+            <a class="sub-tag" href="../index.html">スレッド一覧</a>
+            <span class="meta-sep">/</span>
+            <a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a>
+            <span class="meta-sep">/</span>
+            <span>コメント 14件</span>
+            <span class="share-group">
+              <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+              <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+            </span>
+          </div>
+          <h1 class="thread-title">Viscoseベンチマークを47日で急成長させた統計的エイム練習法とAI活用術</h1>
+          <p class="thread-source-line">
+            元スレッド: <a href="https://www.reddit.com/r/FPSAimTrainer/comments/1xk2ouf/viscose_s2_saffron_complete_to_cerulean_complete/" target="_blank" rel="noopener">Viscose S2 Saffron Complete to Cerulean Complete</a>
+          </p>
+        </header>
+
+        <section class="consensus-sheet">
+          <p class="consensus-hook">自己ベスト（PB）ばかりを追う練習を辞め、中央値（Median）と統計データ、そしてAIを活用した効率的なメニュー管理を導入したプレイヤーの報告です。過剰な周回を避け、弱点シナリオを体系的に補強することでわずか約35時間の練習で大きな成果を上げています。</p>
+          <div class="consensus-head">スレッドの要点</div>
+          <ul class="consensus-list"><li>自己ベスト（PB）は上振れ（統計的外れ値）になりやすいため、実力向上は中央値（Median）の上昇と四分位範囲（IQR）の狭まりで判断するべきである。</li><li>1つのシナリオを過剰にやり込まず（6〜8回程度）、短時間・高頻度のセッションに分けて弱点をローテーションさせる方が定着しやすい。</li><li>LLM（ClaudeやChatGPT等）にスコア履歴やCSV/プレイリストを読み込ませ、弱点分析や自動プレイリスト生成を行わせるアプローチは非常に有効である。</li></ul>
+        </section>
+
+        <section class="thread-log-section">
+          <div class="section-header">
+            <h2 class="section-title">コメント（14件）</h2>
+          </div>
+          <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body"># 要約（tl;dr）<br><br>1. 47日間で約35時間のエイム練習を行い、Saffron CompleteからCerulean Completeまで到達しました。<br>2. 1シナリオにつき6〜8回のプレイに留め、過剰なやり込み（オーバーグラインド）を避けました。<br>3. 進捗や弱点の判断は自己ベスト（PB）ではなく中央値（Median）を基準にしました。<br>4. シナリオと弱点をローテーションさせました。実際に練習したシナリオとほぼ同じくらい、練習していなかったシナリオでもスコアが向上しました。<br><br>今年の初め、私はAimlabsのVoltaic Valorant S1ベンチマークをやり込み、IntermediateのImmortal Complete、そしてRadiantまで到達しました。様々なTacFPS（タクティカルシューター）向けベンチマークをプレイした後、Viscose S2のフルタイムな練習に切り替えることにしました。なお、私はSaffron Completeから開始しましたが、シナリオごとに1〜2回しかプレイしていなかったため、実力より低めのランクからスタートしていた点には留意してください。<br><br>私の個人的な習慣として、PBが出るたびにスクリーンショットを撮っていたので、成長の過程を視覚的に確認できました：<br><br>* Aimlabs Voltaic Valorant S1 ベンチマーク: https://youtu.be/Zn6msv3Ku7c<br>* Viscose S2 ベンチマーク: https://youtu.be/M8jqLqC_ASM<br><br># タイムライン<br><br>* **5月:** Saffron Complete（シナリオごとに1〜2回プレイ）<br>* **9月13日:** 本格的に練習開始、Celadon達成<br>* **9月14日:** Celadon Complete達成<br>* **9月18日:** Viridian達成<br>* **9月30日:** Viridian Complete達成<br>* **10月27日:** Cerulean達成<br>* **10月29日:** Cerulean Complete達成<br><br># トレーニングメニュー<br><br>この期間中の以前のコメント: https://www.reddit.com/r/FPSAimTrainer/comments/1x6xtcq/comment/ph16fc9<br><br>1. **AIの活用。** 毎回のセッションのトレーニングメニューを構築し、自分のエイム練習のパターンを検出するためにClaudeを使用しました。<br>2. **短時間・高頻度なセッションに分散。** セッションは最大で約1時間に制限し、合間に休憩を挟みながら1日最大2〜3セッションに抑えるようにしました。<br>3. セッションごとに、**センシ（感度）に基づいてシナリオをグループ化しました。** センシを変更する際に必要な「ウォームアップ」時間を短縮できたと感じていますが、プラセボの可能性もあります。<br>4. **すべてのシナリオを40〜50cm/360でプレイしました。** これは私のゲーム内センシである50cmに近いです。シナリオを簡単にするための逃げ道（crutch）としてセンシを変更することは避けています。ただし、シナリオをあえて難しくしたり、特定のテクニックを練習したりするためにセンシを変更することには躊躇しません。<br>5. **弱点の特定と優先順位付け。** 最初はPB、次にリーダーボードのパーセンタイルを使用していましたが、これらは信頼性に欠ける指標だと気づきました。最終的に弱点の測定には中央値（Median）を使用しました。CeruleanレベルのPBを持っているシナリオであっても、通常時のランクがまだSaffronである場合があり、それはまだ練習が必要であることを意味します。弱点は最優先で取り組みます。</div><div class="rc-op-media"><ul class="rc-op-media-list"><li><a class="rc-op-media-link" href="https://i.redd.it/vqs8hcvtuqyh1.png" target="_blank" rel="noopener">添付画像1を見る ↗</a></li><li><a class="rc-op-media-link" href="https://i.redd.it/r8r6gwwuuqyh1.png" target="_blank" rel="noopener">添付画像2を見る ↗</a></li><li><a class="rc-op-media-link" href="https://youtu.be/Zn6msv3Ku7c" target="_blank" rel="noopener">添付動画1を見る ↗</a></li><li><a class="rc-op-media-link" href="https://youtu.be/M8jqLqC\_ASM" target="_blank" rel="noopener">添付動画2を見る ↗</a></li><li><a class="rc-op-media-link" href="https://youtu.be/M8jqLqC_ASM" target="_blank" rel="noopener">添付動画3を見る ↗</a></li></ul></div></div>
+<div class="rc-tree">
+<div class="rc-node" id="c-19rx186ok2yle"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-score">+2 pts</span></div><div class="rc-body">いいね。俺も始めたばかりの頃、完全に違うやり方をしておくべきだったよ。トータルで約200時間エイム練習をしていて今はCeladon Completeなんだけど、フリックとクリッキングを完全に放置しちゃってたんだよね（笑）。何よりもトラッキングが好きで、トラッキング関連のスコアはほぼ全部CeruleanかLavenderなんだけどさ。もっとバランスの取れたルーティンから始めるべきだったな。</div></div></div>
+<div class="rc-node" id="c-19rx29t7yvm3m"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー2</span><span class="rc-score">+2 pts</span></div><div class="rc-body">おめでとう！俺は今Celadon Completeを目指してやってるところで、クリッキングシナリオに苦戦中（笑）。たぶん他のシナリオもプレイしてスピードを上げる必要があるんだろうけど、Saffron Completeを達成してからちょっとサボり気味だったんだよね。WoW Foreverが終わったらまた気合を入れ直して復帰するつもりだよ（笑）。</div></div></div>
+<div class="rc-node" id="c-19rx3uc23e2le"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー3</span><span class="rc-score">+1 pts</span></div><div class="rc-body">ナイスだね。そのClaudeのアプリか、どうやってそれをやったのか手順を共有してもらうことは可能かな？</div></div><div class="rc-children">
+<div class="rc-node" id="c-19ry3w08hx6e8"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー3 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">https://www.reddit.com/r/FPSAimTrainer/s/b6xR9dBG37 あと、投稿の一番下に私のアプリのGitHubリポジトリもリンクしておきました。</div></div></div>
+</div></div>
+<div class="rc-node" id="c-19rx47diiwc6d"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー4</span><span class="rc-score">+3 pts</span></div><div class="rc-body">「セッションごとにClaudeを使ってトレーニングメニューを構築した」っていうのは、具体的にどんな結果・内容になったの？そこからどんなものが得られたのかすごく気になる。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rx71aa6llsx"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー5</span><span class="rc-reply-to">↳ 海外ユーザー4 への返信</span><span class="rc-score">+2 pts</span></div><div class="rc-body">俺の場合だけど、AIはシナリオファイルの読み込み、プレイリストの作成、統計の分析のどれもできたよ。例えばAir Celestial no ufo mediumみたいなシナリオ（ボットが8体いる）でそれぞれのTTK（撃破時間）を観察してくれた時はかなり有用だった。自分がどのボットで苦戦しているのか、その理由は何なのか（近距離のショートストレイフなど）を分析してくれて、より特化した専用プレイリストを作ってくれたんだ。そのプレイリストを2回くらいやったら、その日のうちにタイムを6秒も縮めてViridianからLavender直前まで行けたよ。俺はたまにしか使わないけど、特別なフレームワークがなくても文脈さえ与えれば、より速い/遅いシナリオを作ることも確実にできるはず。</div></div></div>
+<div class="rc-node" id="c-19ry3usoieqhw"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー4 への返信</span><span class="rc-score">+2 pts</span></div><div class="rc-body">今ではその処理の多くを自分のアプリ内に移行したので、AIへの依存度はどんどん減っていますが、大まかには以下のようなことです：<br>1. 直近のセッションの状態・進捗を確認し、新しいスコア、ランクの変動、中央値の推移、停滞（プラトー）などをチェックする。<br>2. 自分が設定した優先度キューに基づいて次のセッションのシナリオを構築する。そしてプレイするシナリオをいちいち探さなくて済むよう、ゲーム内のプレイリストファイルを自動で更新する。<br>3. なぜそのセッションに各シナリオが選ばれたのかという理由と、各シナリオをプレイする際に何を意識すべきかという目標を提示する。<br>4. 本文で触れた「類似シナリオへの転移テスト」のような、実験的なアイデアを提案してくれる。<br>基本的に、有用そうだったり反復的だったりする作業のほとんどは、自分のアプリの機能として落とし込んでいます。</div></div></div>
+</div></div>
+<div class="rc-node" id="c-19rxb3kdhk90g"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー6</span><span class="rc-score">+2 pts</span></div><div class="rc-body">中央値のスコアってどうやって確認してるの？それってKovaaK&#x27;sの設定にあるの、それとも自分で計算してるの？</div></div><div class="rc-children">
+<div class="rc-node" id="c-19rxg7rwn49es"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー7</span><span class="rc-reply-to">↳ 海外ユーザー6 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">それは彼が投稿の最後に載せているアプリで見られるものだけど、ChatGPTにお願いして作ってもらうこともできるよ。個人的には、複数回のランにわたるトリム平均（基本的に上位25%と下位25%のランを除外して、真ん中を平均として使う方法）も記録してる。5回のランのトリム平均なら、最高と最低のスコアを捨てて残りを平均する感じだね。</div></div></div>
+<div class="rc-node" id="c-19ry40q18xwo0"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー6 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">本文で触れた私のアプリ内で計算しているものです。進捗のスクリーンショットを見てもらえれば分かりますが、新しいPBが出る前に、中央値が上昇し四分位範囲（IQR）の幅が狭まっているのが確認できます。<br>中央値の上昇 ＝ スキルの向上<br>IQRの縮小 ＝ 安定性（再現性）の向上<br>という意味になります。</div></div></div>
+</div></div>
+<div class="rc-node" id="c-19rxexdb2l603"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー8</span><span class="rc-score">+1 pts</span></div><div class="rc-body">俺はViridianでViridian Completeに近い状態なんだけど、安定しすぎているのか何なのか、平均スコアがいつもPBのちょうど1ランク下（だいたいCeladonあたり）にしかならないんだよね。どうしてみんなPBを平均よりあんなに高く出せるのか全く理解できないよ。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19ry46erflj8g"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー8 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">もし私のアプリをダウンロードして自分のデータでチャートを見てみたら、本当にPBが平均値とそこまで近いのか気になりますね。私のPBは、外れ値とまではいかなくても、ほぼすべて上位1%（P99パーセンタイル）のようなスコアばかりですよ。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19ry8cb3oghb6"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー8</span><span class="rc-reply-to">↳ スレ主 への返信</span><span class="rc-score">+2 pts</span></div><div class="rc-body">アプリ見てみるよ、作ってくれてありがとう。うん、俺のPBは本当に平均値とかなり近いんだ。まあ、あの1つの静止クリックシナリオを除いてね。静止クリックは信じられないくらい下手くそだからさ。それにしてもCeruleanが上位1%（99パーセンタイル）だとは知らなかったよ。俺はまだまだ先が長そうだな。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19ry9mi2iwlnm"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー8 への返信</span><span class="rc-score">+1 pts</span></div><div class="rc-body">リーダーボード全体の上位1%という意味ではないですよ！自分の全プレイ回数（試行データ）に対する99パーセンタイル、つまり自分のランの統計分布として捉えた場合の話です。</div></div></div>
+</div></div>
+</div></div>
+</div></div>
+</div>
+        </section>
+
+        <section class="analysis-section">
+          <div class="section-header">
+            <h2 class="section-title">ひとことノート</h2>
+          </div>
+          <div class="analysis-prose">
+            <p class="analysis-para">本スレッドでは、KovaaK&#x27;sの有名ベンチマーク「Viscose S2」において、約1ヶ月半（実練習時間約35時間）という極めて短いスパンで中級上位から最上位ランク帯（SaffronからCerulean）へ急成長を遂げたプレイヤーの練習方法と統計的アプローチが議論されています。</p>
+<h3 class="analysis-subhead">1. ベンチマークとランク体系の前提知識</h3>
+<p class="analysis-para">「Viscose S2」は、著名なエイム指導者・プレイヤーであるViscose氏が設計した総合的なエイムベンチマークです。主に色名を用いたランク設計がされており、Saffron（サフラン/黄系）→ Celadon（セラドン/青磁色）→ Viridian（ビリジアン/深緑）→ Cerulean（セルリアン/鮮青）→ Lavender（ラベンダー/薄紫）などの順で難度が上がります。Cerulean Completeは、競技エイム界隈全体で見ても上位数％〜トップ層に位置する非常にハイレベルな実力です。</p>
+<h3 class="analysis-subhead">2. PB至上主義の弊害と「中央値・IQR」を用いたアプローチ</h3>
+<p class="analysis-para">スレ主が最も強調しているのが、自己ベスト（PB: Personal Best）を実力の指標にしないという点です。多くのエイマーは「PBが出ない＝成長していない」「PBが出た＝そのランクの実力がある」と誤認しがちですが、PBは単なる上振れの確率的外れ値（P99など）に過ぎないケースが多々あります。スレ主は自作ツールを用いて「中央値（Median）」と「四分位範囲（IQR: データのばらつき度合い）」を追跡しました。中央値が上がることが「基礎スキルの向上」を示し、IQRが狭まることが「安定性（Consistency）の向上」を意味するという考え方であり、コミュニティでも非常に論理的であると強く支持されています。</p>
+<h3 class="analysis-subhead">3. AIを活用したメニュー構築と過剰練習（オーバーグラインド）の防止</h3>
+<p class="analysis-para">スレ主はClaudeなどのAIを活用し、前回のセッション結果（中央値の停滞や苦手ボットの撃破時間など）を分析させ、自動で優先度の高い弱点シナリオを組み込んだプレイリストを生成させていました。また、1シナリオあたり6〜8回で切り上げ、1回のセッションを1時間以内に制限することで、疲労による雑なエイムの定着を防いでいます。コメント欄でも、Air Celestialなどの複数ボット系シナリオで「どのボットに手こずっているか」をAIに特定させ、ピンポイントの特化メニューを作成して即座にタイムを縮めた事例が報告されており、エイム練習におけるプロンプト・データ分析の親和性の高さが実証されています。</p>
+          </div>
+        </section>
+
+        <nav class="related-section" aria-label="その他のスレッド">
+          <div class="section-header">
+            <h2 class="section-title">他のスレッド</h2>
+          </div>
+          <ul class="related-list">
+            <li class="related-item"><a class="related-link" href="1xk1ktz.html">初めてのガラスマウスパッド選び！VALORANTユーザーにおすすめのモデルと汎用ソール構成まとめ</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 16件</div></li><li class="related-item"><a class="related-link" href="1xk3ofm.html">純正マウスソールが「悪い」とはどういう意味？Logicool等の問題点と交換のメリット</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 14件</div></li><li class="related-item"><a class="related-link" href="1xk5p2q.html">Razer Viper V4 ProとATK Blazing Sky X1 V2 Extreme 2.0：ピンサー爪掴みに最適なのはどちらか</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 6件</div></li><li class="related-item"><a class="related-link" href="1xk2bsg.html">エイム練習は雑談やマルチタスク中の方がハイスコアが出る現象の科学的理由</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 4件</div></li><li class="related-item"><a class="related-link" href="1xjt6sc.html">高級パッド巡りから結局QcK+に戻る海外勢が続出。安さと安定感の原点回帰議論</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 27件</div></li>
+          </ul>
+        </nav>
+      </div>
+
+      <aside class="ledger-aside">
+        <div class="section-header">
+          <h2 class="section-title">スレッド・機材検索</h2>
+        </div>
+        <form class="search-box-wrap" action="../index.html" method="get">
+          <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
+        </form>
+
+        <section class="gear-section">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          <p class="analysis-para">このスレッドでは特定製品の指定はありません（エイム技術・設定中心の議論）。</p>
+        </section>
+
+        <section class="x-account-section"><div class="section-header"><h2 class="section-title">X (Twitter)</h2></div><div class="x-account-box"><a class="x-account-link" href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp ↗</a></div></section>
+      </aside>
+    </div>
+
+    <div class="back-to-top-wrap">
+      <div class="share-group">
+        <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+        <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+      </div>
+      <button type="button" class="back-to-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑ 一番上へ戻る</button>
+    </div>
+  </main>
+
+  <footer class="colophon">
+    <div class="colophon-inner">
+      <div>
+        <p class="colophon-title">エイム沼の海外ログ</p>
+        <p>海外フォーラムの議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
+      </div>
+      <div class="colophon-mono">
+        <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
+        <div>UPDATED: 2026.11.01 · 77 THREADS</div>
+        <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function shareToX() {
+      const u = window.location.href;
+      const t = document.title;
+      window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(t) + '&url=' + encodeURIComponent(u), '_blank', 'noopener');
+    }
+    function copyPageUrl(btn) {
+      const u = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(u);
+      }
+      const orig = btn.textContent;
+      btn.textContent = 'コピー完了';
+      setTimeout(() => { btn.textContent = orig; }, 1600);
+    }
+  </script>
+</body>
+</html>
