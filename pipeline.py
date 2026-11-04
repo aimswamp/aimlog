@@ -1376,6 +1376,7 @@ def build_site(
     updated_date = dt.datetime.now().strftime("%Y.%m.%d")
 
     cfg = env if env is not None else os.environ
+    site_base_url = (cfg.get("SITE_BASE_URL") or "https://aimswamp.github.io/aimlog").strip().rstrip("/")
     x_account_raw = (cfg.get("X_ACCOUNT_ID") or "").strip().lstrip("@")
     if x_account_raw:
         x_handle_disp = f"@{html.escape(x_account_raw)}"
@@ -2482,12 +2483,94 @@ a.gear-chip:hover {
                 f'</li>'
             )
 
+        # SEO・OGP・JSON-LD構造化データの組み立て
+        art_canonical_url = f"{site_base_url}/articles/{art['id']}.html"
+        raw_hook = str(art.get("hook_ja") or "").strip()
+        raw_points = [str(p).strip() for p in (art.get("consensus_points") or []) if str(p).strip()]
+        raw_dev_names = [
+            normalize_product_name_jp(str(d.get("name") or ""))
+            for d in (art.get("devices") or [])
+            if normalize_product_name_jp(str(d.get("name") or ""))
+        ]
+        desc_parts = [p for p in [raw_hook] + raw_points[:2] if p]
+        if raw_dev_names:
+            desc_parts.append("登場デバイス: " + " / ".join(raw_dev_names[:5]))
+        meta_desc_raw = re.sub(r"\s+", " ", " ".join(desc_parts)).strip()
+        if not meta_desc_raw:
+            meta_desc_raw = f"{art.get('title_ja', '')} — 海外フォーラムの競技エイム理論・マウス・マウスパッド議論の翻訳アーカイブ"
+        if len(meta_desc_raw) > 155:
+            meta_desc_raw = meta_desc_raw[:154] + "…"
+        meta_desc_esc = html.escape(meta_desc_raw)
+        art_canonical_esc = html.escape(art_canonical_url)
+        twitter_site_tag = f'\n  <meta name="twitter:site" content="@{html.escape(x_account_raw)}">' if x_account_raw else ""
+
+        created_iso = str(art.get("created_at") or "").strip()
+        article_json_ld: dict[str, Any] = {
+            "@context": "https://schema.org",
+            "@type": "DiscussionForumPosting",
+            "headline": str(art.get("title_ja") or ""),
+            "description": meta_desc_raw,
+            "inLanguage": "ja",
+            "url": art_canonical_url,
+            "mainEntityOfPage": {"@type": "WebPage", "@id": art_canonical_url},
+            "author": {"@type": "Organization", "name": "エイム沼の海外ログ"},
+            "publisher": {"@type": "Organization", "name": "エイム沼の海外ログ", "url": f"{site_base_url}/"},
+            "commentCount": actual_comment_count,
+            "articleSection": SUBREDDIT_LABELS.get(sub_raw, "海外FPS議論"),
+        }
+        if created_iso:
+            article_json_ld["datePublished"] = created_iso
+            article_json_ld["dateModified"] = created_iso
+        if raw_dev_names:
+            article_json_ld["keywords"] = ", ".join(raw_dev_names)
+        if art.get("permalink"):
+            article_json_ld["isBasedOn"] = str(art.get("permalink"))
+
+        breadcrumb_json_ld = {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "エイム沼の海外ログ",
+                    "item": f"{site_base_url}/",
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": SUBREDDIT_LABELS.get(sub_raw, "海外FPS議論"),
+                    "item": f"{site_base_url}/index.html?sub={urllib.parse.quote(sub_raw)}",
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": str(art.get("title_ja") or ""),
+                    "item": art_canonical_url,
+                },
+            ],
+        }
+        json_ld_str = json.dumps([article_json_ld, breadcrumb_json_ld], ensure_ascii=False).replace("</", "<\\/")
+
         page_html = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{title} | エイム沼の海外ログ</title>
+  <meta name="description" content="{meta_desc_esc}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{art_canonical_esc}">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="エイム沼の海外ログ">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="{title} | エイム沼の海外ログ">
+  <meta property="og:description" content="{meta_desc_esc}">
+  <meta property="og:url" content="{art_canonical_esc}">
+  <meta name="twitter:card" content="summary">{twitter_site_tag}
+  <meta name="twitter:title" content="{title} | エイム沼の海外ログ">
+  <meta name="twitter:description" content="{meta_desc_esc}">
+  <script type="application/ld+json">{json_ld_str}</script>
   {font_links}
   <style>{css}</style>
 </head>
@@ -2728,12 +2811,79 @@ a.gear-chip:hover {
         </article>
         """
 
+    # トップページ用 SEO・OGP・JSON-LD構造化データの組み立て
+    index_canonical_url = f"{site_base_url}/"
+    index_canonical_esc = html.escape(index_canonical_url)
+    index_title_full = "エイム沼の海外ログ | 海外フォーラムの競技エイム理論・マウス・マウスパッド議論が読める翻訳アーカイブ"
+    top_ranked_names = [str(r.get("name") or "") for r in ranking[:6] if str(r.get("name") or "")]
+    index_desc_raw = (
+        "海外Reddit（r/FPSAimTrainer・r/MouseReview・r/MousepadReview）の活発な競技エイム理論・ゲーミングマウス・マウスパッド・ソールの議論を全文翻訳＆要点整理した日本語アーカイブ。"
+    )
+    if top_ranked_names:
+        index_desc_raw += " 注目機材: " + " / ".join(top_ranked_names[:5])
+    if len(index_desc_raw) > 155:
+        index_desc_raw = index_desc_raw[:154] + "…"
+    index_desc_esc = html.escape(index_desc_raw)
+    index_twitter_site_tag = f'\n  <meta name="twitter:site" content="@{html.escape(x_account_raw)}">' if x_account_raw else ""
+
+    website_json_ld = {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "エイム沼の海外ログ",
+        "alternateName": "海外フォーラムの競技エイム理論・マウス・マウスパッド議論が読める翻訳アーカイブ",
+        "url": index_canonical_url,
+        "inLanguage": "ja",
+        "description": index_desc_raw,
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": f"{site_base_url}/index.html?q={{search_term_string}}",
+            "query-input": "required name=search_term_string",
+        },
+    }
+    item_list_elements = [
+        {
+            "@type": "ListItem",
+            "position": idx_pos,
+            "name": str(a_item.get("title_ja") or ""),
+            "url": f"{site_base_url}/articles/{a_item.get('id')}.html",
+        }
+        for idx_pos, a_item in enumerate(published[:20], start=1)
+        if a_item.get("id")
+    ]
+    collection_json_ld = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": index_title_full,
+        "url": index_canonical_url,
+        "inLanguage": "ja",
+        "description": index_desc_raw,
+        "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": len(published),
+            "itemListElement": item_list_elements,
+        },
+    }
+    index_json_ld_str = json.dumps([website_json_ld, collection_json_ld], ensure_ascii=False).replace("</", "<\\/")
+
     index_html = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>エイム沼の海外ログ | 海外フォーラムの競技エイム理論・マウス・マウスパッド議論が読める翻訳アーカイブ</title>
+  <title>{index_title_full}</title>
+  <meta name="description" content="{index_desc_esc}">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{index_canonical_esc}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="エイム沼の海外ログ">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="{index_title_full}">
+  <meta property="og:description" content="{index_desc_esc}">
+  <meta property="og:url" content="{index_canonical_esc}">
+  <meta name="twitter:card" content="summary">{index_twitter_site_tag}
+  <meta name="twitter:title" content="{index_title_full}">
+  <meta name="twitter:description" content="{index_desc_esc}">
+  <script type="application/ld+json">{index_json_ld_str}</script>
   {font_links}
   <style>{css}</style>
 </head>
@@ -2992,6 +3142,53 @@ a.gear-chip:hover {
 </html>"""
     (out_dir / "index.html").write_text(index_html, encoding="utf-8")
 
+    # Google Search Console / クローラー向け sitemap.xml ＆ robots.txt の自動生成
+    today_iso = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
+    latest_lastmod = today_iso
+    if published:
+        first_date = str(published[0].get("created_at") or "")[:10]
+        if re.match(r"^\d{4}-\d{2}-\d{2}$", first_date):
+            latest_lastmod = first_date
+
+    sitemap_urls: list[str] = [
+        f"  <url>\n"
+        f"    <loc>{html.escape(site_base_url)}/</loc>\n"
+        f"    <lastmod>{latest_lastmod}</lastmod>\n"
+        f"    <changefreq>daily</changefreq>\n"
+        f"    <priority>1.0</priority>\n"
+        f"  </url>"
+    ]
+    for art in published:
+        aid = str(art.get("id") or "").strip()
+        if not aid:
+            continue
+        art_loc = f"{site_base_url}/articles/{aid}.html"
+        raw_date = str(art.get("created_at") or "")[:10]
+        lastmod = raw_date if re.match(r"^\d{4}-\d{2}-\d{2}$", raw_date) else today_iso
+        sitemap_urls.append(
+            f"  <url>\n"
+            f"    <loc>{html.escape(art_loc)}</loc>\n"
+            f"    <lastmod>{lastmod}</lastmod>\n"
+            f"    <changefreq>monthly</changefreq>\n"
+            f"    <priority>0.8</priority>\n"
+            f"  </url>"
+        )
+
+    sitemap_xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "\n".join(sitemap_urls)
+        + "\n</urlset>\n"
+    )
+    (out_dir / "sitemap.xml").write_text(sitemap_xml, encoding="utf-8")
+
+    robots_txt = (
+        "User-agent: *\n"
+        "Allow: /\n"
+        f"Sitemap: {site_base_url}/sitemap.xml\n"
+    )
+    (out_dir / "robots.txt").write_text(robots_txt, encoding="utf-8")
+
 
 # ============================================================================
 # 7. メイン実行フロー ＆ セルフチェック (--self-test)
@@ -3210,11 +3407,23 @@ def self_test() -> None:
 
     with tempfile.TemporaryDirectory() as tmp:
         tmp_path = Path(tmp)
-        build_site(sample_articles, out_dir=tmp_path, env={"AMAZON_ASSOC_TAG": "test-22"})
+        build_site(
+            sample_articles,
+            out_dir=tmp_path,
+            env={"AMAZON_ASSOC_TAG": "test-22", "SITE_BASE_URL": "https://aimswamp.github.io/aimlog"},
+        )
         index_content = (tmp_path / "index.html").read_text(encoding="utf-8")
         article_content = (tmp_path / "articles" / "demo1.html").read_text(encoding="utf-8")
+        sitemap_content = (tmp_path / "sitemap.xml").read_text(encoding="utf-8")
+        robots_content = (tmp_path / "robots.txt").read_text(encoding="utf-8")
         assert "Razer Viper V3 Pro" in index_content
+        assert 'rel="canonical" href="https://aimswamp.github.io/aimlog/"' in index_content
+        assert "application/ld+json" in index_content
         assert "tag=test-22" in article_content
+        assert 'rel="canonical" href="https://aimswamp.github.io/aimlog/articles/demo1.html"' in article_content
+        assert "DiscussionForumPosting" in article_content
+        assert "<loc>https://aimswamp.github.io/aimlog/articles/demo1.html</loc>" in sitemap_content
+        assert "Sitemap: https://aimswamp.github.io/aimlog/sitemap.xml" in robots_content
 
     print("SELF_TEST_OK")
 
