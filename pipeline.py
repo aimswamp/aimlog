@@ -1377,6 +1377,8 @@ def build_site(
 
     cfg = env if env is not None else os.environ
     site_base_url = (cfg.get("SITE_BASE_URL") or "https://aimswamp.github.io/aimlog").strip().rstrip("/")
+    google_verify = (cfg.get("GOOGLE_SITE_VERIFICATION") or "").strip()
+    google_verify_tag = f'\n  <meta name="google-site-verification" content="{html.escape(google_verify)}">' if google_verify else ""
     x_account_raw = (cfg.get("X_ACCOUNT_ID") or "").strip().lstrip("@")
     if x_account_raw:
         x_handle_disp = f"@{html.escape(x_account_raw)}"
@@ -2559,7 +2561,7 @@ a.gear-chip:hover {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{title} | エイム沼の海外ログ</title>
   <meta name="description" content="{meta_desc_esc}">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow">{google_verify_tag}
   <link rel="canonical" href="{art_canonical_esc}">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="エイム沼の海外ログ">
@@ -2872,7 +2874,7 @@ a.gear-chip:hover {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{index_title_full}</title>
   <meta name="description" content="{index_desc_esc}">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow">{google_verify_tag}
   <link rel="canonical" href="{index_canonical_esc}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="エイム沼の海外ログ">

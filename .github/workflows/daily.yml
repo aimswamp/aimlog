@@ -40,6 +40,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GAS_WEBHOOK_URL: ${{ secrets.GAS_WEBHOOK_URL }}
           SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          GOOGLE_SITE_VERIFICATION: mBwlxE-mCu8uyHY1TJvAby2LsLN4M9UuW1B3FWfhbdw
           AMAZON_ASSOC_TAG: ${{ secrets.AMAZON_ASSOC_TAG }}
           RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
           MOSHIMO_AMAZON_AID: ${{ secrets.MOSHIMO_AMAZON_AID }}
