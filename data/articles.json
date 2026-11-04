@@ -35526,5 +35526,1017 @@
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xmblkb.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90%E4%BD%8E%E4%BA%88%E7%AE%97%E3%83%9E%E3%82%A6%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%E8%AD%B0%E8%AB%96%E3%80%91%0A40%E3%83%89%E3%83%AB%E4%BB%A5%E4%B8%8B%E3%81%A7%E5%88%9D%E5%8B%95%E3%81%8C%E8%BB%BD%E3%81%8F%E3%80%81ARTISAN%20%E9%9B%B6%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E6%AD%A2%E3%82%81%E3%82%84%E3%81%99%E3%81%95%E3%82%92%E4%BD%B5%E3%81%9B%E6%8C%81%E3%81%A4%E5%B8%83%E3%83%91%E3%83%83%E3%83%89%E3%82%92%E6%8E%A2%E3%81%99%E6%B5%B7%E5%A4%96%E3%83%8B%E3%82%AD%E3%81%9F%E3%81%A1%E3%80%82%0A%0A%E3%83%BBLGG%20Saturn%20Pro%E3%81%8C%E5%AE%9A%E7%95%AA%E3%81%AE%E6%8E%A8%E5%A5%A8%E5%80%99%E8%A3%9C%0A%E3%83%BB%E5%88%9D%E5%8B%95%E3%81%AE%E8%BB%BD%E3%81%95%E3%81%A8%E9%81%A9%E5%BA%A6%E3%81%AA%E5%8B%95%E6%91%A9%E6%93%A6%E3%81%AE%E4%B8%A1%E7%AB%8B%E3%81%8C%E3%82%AB%E3%82%AE%0A%E3%83%BB%E6%A0%BC%E5%AE%89%E6%96%B0%E8%88%88%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E3%81%AF%E8%A9%95%E4%BE%A1%E3%81%8C%E5%89%B2%E3%82%8C%E3%82%8B%E5%82%BE%E5%90%91%0A%0A%E3%82%BF%E3%82%AF%E3%83%86%E3%82%A3%E3%82%AB%E3%83%ABFPS%E3%81%AB%E6%9C%80%E9%81%A9%E3%81%AA%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E3%82%92%E6%8E%A2%E3%82%8B%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xmblkb.html",
     "created_at": "2026-11-03T22:39:50.221271+00:00"
+  },
+  {
+    "id": "1xn6oko",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Perfect flicks but my tracking jitters left/right in 1v1s.",
+    "selftext_en": "Playing MW4 on MnK. My first-shot accuracy and flicks are totally fine, but the second I get into an intense 1v1 tracking situation, my aim starts jumping left and right off the target.\n\nScyrox V8(38gm) + Tekkusai Kohaku glass pad + xraypad U9 dot skates.\n\n1600 dpi\n\n2.5 in game\n\n0.95 ads multiplier\n\n1.33 monitor coefficient",
+    "image_urls": [
+      "https://v.redd.it/d7idpr4b0hzh1"
+    ],
+    "score": 1,
+    "num_comments": 7,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xn6oko/perfect_flicks_but_my_tracking_jitters_leftright/",
+    "comments": [
+      "[+1] You need to train strafe aiming scenarios (and you also need to hold down M2 while doing them). I think the 4-Movement playlist is part of the default Online playlists.",
+      "[+3] Aim assist game.",
+      "[+1] Try lowering the ADS multiplier a little bit, I use .85 personally.\n\nGenerally though just practice tracking.",
+      "[+1] Even with perfect aim in both scenarios you would have died either way.\n\nImo your problem is that you are overreacting to their movement by flicking as if they are dashing. Try to move your mouse gradually towards the direction they re going. Imagine getting on target initially with ur forearm/wrist and then transitioning into wrist/fingertips if that helps.\n\nAlso use cm360 as a metric for sens in the future and uh... perfect flicks is a big overstatement 😭",
+      "[+1] you look like youre over tensing here in my opinion. do some micro control tracking and get your fingers and wrist used to both compensating for your movement and making small adjustments. you shouldn’t be locked up in these moments, you should be using a moderate/ low amount so that your post flick tracking is more stable",
+      "[+1] Maybe u9 ultra dots are adding inertial friction",
+      "[+1] TSK Mixed Benches have Strafes -> Predictable Strafes list"
+    ],
+    "comment_tree": [
+      {
+        "id": "19s3jr2nkmpr8",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "You need to train strafe aiming scenarios (and you also need to hold down M2 while doing them). I think the 4-Movement playlist is part of the default Online playlists.",
+        "depth": 0,
+        "body_ja": "ストレイフエイム（移動撃ち）のシナリオを練習する必要があります（練習中も右クリックを押しっぱなしにする必要があります）。4-Movementプレイリストは、デフォルトのオンラインプレイリストに含まれているはずです。"
+      },
+      {
+        "id": "19s3jxcufdmua",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Aim assist game.",
+        "depth": 0,
+        "body_ja": "エイムアシスト前提のゲームだしね。"
+      },
+      {
+        "id": "19s3mw2s4f55t",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Try lowering the ADS multiplier a little bit, I use .85 personally.\n\nGenerally though just practice tracking.",
+        "depth": 0,
+        "body_ja": "ADS倍率を少し下げてみてください。個人的には0.85を使っています。\n\nただ全般的には、とにかくトラッキングの練習を重ねることですね。"
+      },
+      {
+        "id": "19s3ng421o5pe",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Even with perfect aim in both scenarios you would have died either way.\n\nImo your problem is that you are overreacting to their movement by flicking as if they are dashing. Try to move your mouse gradually towards the direction they re going. Imagine getting on target initially with ur forearm/wrist and then transitioning into wrist/fingertips if that helps.\n\nAlso use cm360 as a metric for sens in the future and uh... perfect flicks is a big overstatement 😭",
+        "depth": 0,
+        "body_ja": "どちらのシナリオでも完璧なエイムを持っていたとしても、いずれにせよ負けていたと思います。\n\n個人的な見解ですが、あなたの問題は敵の動きに対して過剰に反応し、相手がダッシュしているかのようにフリックで追おうとしている点です。敵が行く方向に向かって、マウスを徐々に動かすように意識してみてください。最初に前腕や手首でターゲットに合わせてから、手首や指先に移行していくイメージを持つと役立つかもしれません。\n\nあと、将来的には感度の指標としてcm/360を使ってください。それと…完璧なフリックというのはちょっと言い過ぎですね 😭"
+      },
+      {
+        "id": "19s43vf9z5gwx",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "you look like youre over tensing here in my opinion. do some micro control tracking and get your fingers and wrist used to both compensating for your movement and making small adjustments. you shouldn’t be locked up in these moments, you should be using a moderate/ low amount so that your post flick tracking is more stable",
+        "depth": 0,
+        "body_ja": "個人的な印象ですが、このプレイ動画を見る限り力みすぎ（オーバーテンション）のように見えます。マイクロコントロール系のトラッキングを練習して、自身の移動の補正と微調整の両方に指や手首を慣れさせてください。こういった場面で固まってしまうのではなく、フリック後のトラッキングをより安定させるために力加減を適度〜低めに抑えるべきです。"
+      },
+      {
+        "id": "19s4lvdwkggkg",
+        "parent_id": "19s43vf9z5gwx",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Maybe u9 ultra dots are adding inertial friction",
+        "depth": 1,
+        "body_ja": "もしかしたらU9ウルトラドットソールが慣性摩擦を生み出しているのかもしれません。"
+      },
+      {
+        "id": "19s457svcagv8",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "TSK Mixed Benches have Strafes -> Predictable Strafes list",
+        "depth": 0,
+        "body_ja": "TSK Mixed Benchesの中に「Strafes -> Predictable Strafes」のリストがありますよ。"
+      }
+    ],
+    "title_ja": "フリックは完璧なのに実戦の1v1でトラッキングが左右にブレる原因と解決策",
+    "hook_ja": "フリック精度は高いものの、近距離1v1のトラッキング中にエイムが左右へブレてしまう課題について議論されています。過剰な緊張（力み）や敵の動きに対するオーバーシュート、ハードウェア構成の摩擦特性が原因として指摘されています。",
+    "op_post_ja": "キーマウでMW4をプレイしています。初弾の精度やフリックは完全に問題ないのですが、激しい1v1のトラッキング状況に入った途端、エイムがターゲットから外れて左右にピクピクと飛び跳ねてしまいます。\n\nScyrox V8 (38g) + Tekkusai Kohaku ガラスパッド + X-raypad U9 ドットソール\n\n1600 DPI\nゲーム内感度 2.5\nADS倍率 0.95\nモニター係数 1.33",
+    "consensus_points": [
+      "近距離トラッキング時のエイムのブレは、過度な力み（オーバーテンション）や敵の切り返しに対する過剰反応が主な原因である。",
+      "敵のダッシュに対して素早いフリックで追おうとせず、腕や手首、指先を連動させて滑らかにカーソルを追従させる意識が必要。",
+      "レフィーエイム（Strafe Aiming）や予測トラッキングのシナリオを活用したエイム練習が有効である。"
+    ],
+    "detailed_analysis_ja": "【1. 実戦におけるトラッキングブレのメカニズム】\nスレ主が直面している「1v1トラッキング時にエイムが左右に飛び跳ねる現象」は、エイム練習者やFPSプレイヤーにおいて非常に一般的な問題です。初弾のフリック自体は成功していても、その後のトラッキングへ移行する際に過剰な力み（オーバーテンション）が発生すると、微修正のコントロールが効かなくなります。相手のストレイフ（左右移動）に対して素早い微フリックを繰り返そうとすると、反応が過敏になりすぎてターゲットを通り越す「オーバーシュート」を左右交互に引き起こしてしまいます。\n\n【2. 解決に向けたフォームとエイムトレーニング】\nこの問題を解決するためには、大きな動作から繊細な微調整へのスムーズな切り替え（トランジション）が不可欠です。初期アプローチ（フリック）は前腕や手首で行い、そこからの追従や細かな位置調整は手首や指先の脱力を用いて滑らかに行う意識が推奨されます。また、KovaaK'sやAimlabsにおいては「Strafe Aim / Movement scenarios」（相手と自分が同時に動くシナリオ）や「Micro Control Tracking」（微小制御トラッキング）を重点的にプレイし、右クリック（ADS操作）を保持した状態での追従力を高めることが有効です。\n\n【3. 超軽量マウスとガラスマウスパッドの環境要因】\nスレ主の使用環境（38gの超軽量マウス「Scyrox V8」＋ガラスマウスパッド「Tekkusai Kohaku」＋ドットソール「U9」）は、初動の摩擦（静止摩擦）が極限まで低いセッティングです。この構成は高速なフリックや素早い切り替えには非常に強い反面、力んだ際の手の震えや微小な過剰入力をダイレクトに拾ってしまいます。ソールとパッドの組み合わせによる慣性や摩擦抵抗の少なさが、力みによるエイムのブレを加速させている側面も考慮する必要があります。",
+    "devices": [
+      {
+        "name": "Scyrox V8",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "38gの超軽量ゲーミングマウスとして環境の一例に挙げられています。"
+      },
+      {
+        "name": "Tekkusai Kohaku",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "スレッド内で使用環境として挙げられているガラス製マウスパッドです。"
+      },
+      {
+        "name": "X-raypad U9 Jade Skate Dots",
+        "category": "skates",
+        "sentiment": "neutral",
+        "comment_ja": "超軽量構成の中で使用されているPTFEドットソール。慣性摩擦の影響について言及されています。"
+      }
+    ],
+    "x_main_post": "1v1でエイムが左右にブレる原因とは？海外コミュニティでの議論まとめ👇\n\n・過度な力み（オーバーテンション）が微修正を阻害\n・相手の動きへフリックで過剰反応している\n・前腕→手首→指先へのスムーズな連携が重要\n・ストレイフエイムのシナリオで脱力練習が効果的",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "実戦の1v1でエイムが左右にブレるのだ！",
+        "caption": "トラッキングがブレる！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "力みすぎとフリックでの過剰反応が原因なんだよね！",
+        "caption": "原因は力みと過剰反応"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "フリックは当たってるのに不思議なのだ？",
+        "caption": "フリックは当たるのに？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "初弾の後に手元が固まると微調整がきかなくなるんだよ！",
+        "caption": "力むと微調整が不能に"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "前腕から手首、指先へ滑らかに連動させるのがコツだよ！",
+        "caption": "前腕・手首・指先の連動"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "脱力して追従するのが大事なのだ！",
+        "caption": "脱力が重要！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "超軽量マウスやガラスパッドは力みを拾いやすいから注意してね！",
+        "caption": "ガラスパッド等の注意点"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "ストレイフ練習で滑らかなエイムを目指すのだ！",
+        "caption": "詳細は概要欄へ！"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19s3jr2nkmpr8",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ストレイフエイム（移動撃ち）のシナリオを練習する必要があります（練習中も右クリックを押しっぱなしにする必要があります）。4-Movementプレイリストは、デフォルトのオンラインプレイリストに含まれているはずです。"
+      },
+      {
+        "id": "19s3jxcufdmua",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "エイムアシスト前提のゲームだしね。"
+      },
+      {
+        "id": "19s3mw2s4f55t",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ADS倍率を少し下げてみてください。個人的には0.85を使っています。\n\nただ全般的には、とにかくトラッキングの練習を重ねることですね。"
+      },
+      {
+        "id": "19s3ng421o5pe",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "どちらのシナリオでも完璧なエイムを持っていたとしても、いずれにせよ負けていたと思います。\n\n個人的な見解ですが、あなたの問題は敵の動きに対して過剰に反応し、相手がダッシュしているかのようにフリックで追おうとしている点です。敵が行く方向に向かって、マウスを徐々に動かすように意識してみてください。最初に前腕や手首でターゲットに合わせてから、手首や指先に移行していくイメージを持つと役立つかもしれません。\n\nあと、将来的には感度の指標としてcm/360を使ってください。それと…完璧なフリックというのはちょっと言い過ぎですね 😭"
+      },
+      {
+        "id": "19s43vf9z5gwx",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "個人的な印象ですが、このプレイ動画を見る限り力みすぎ（オーバーテンション）のように見えます。マイクロコントロール系のトラッキングを練習して、自身の移動の補正と微調整の両方に指や手首を慣れさせてください。こういった場面で固まってしまうのではなく、フリック後のトラッキングをより安定させるために力加減を適度〜低めに抑えるべきです。"
+      },
+      {
+        "id": "19s4lvdwkggkg",
+        "parent_id": "19s43vf9z5gwx",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "もしかしたらU9ウルトラドットソールが慣性摩擦を生み出しているのかもしれません。"
+      },
+      {
+        "id": "19s457svcagv8",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "TSK Mixed Benchesの中に「Strafes -> Predictable Strafes」のリストがありますよ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xn6oko.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=1v1%E3%81%A7%E3%82%A8%E3%82%A4%E3%83%A0%E3%81%8C%E5%B7%A6%E5%8F%B3%E3%81%AB%E3%83%96%E3%83%AC%E3%82%8B%E5%8E%9F%E5%9B%A0%E3%81%A8%E3%81%AF%EF%BC%9F%E6%B5%B7%E5%A4%96%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%A7%E3%81%AE%E8%AD%B0%E8%AB%96%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0A%0A%E3%83%BB%E9%81%8E%E5%BA%A6%E3%81%AA%E5%8A%9B%E3%81%BF%EF%BC%88%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%EF%BC%89%E3%81%8C%E5%BE%AE%E4%BF%AE%E6%AD%A3%E3%82%92%E9%98%BB%E5%AE%B3%0A%E3%83%BB%E7%9B%B8%E6%89%8B%E3%81%AE%E5%8B%95%E3%81%8D%E3%81%B8%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E3%81%A7%E9%81%8E%E5%89%B0%E5%8F%8D%E5%BF%9C%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%0A%E3%83%BB%E5%89%8D%E8%85%95%E2%86%92%E6%89%8B%E9%A6%96%E2%86%92%E6%8C%87%E5%85%88%E3%81%B8%E3%81%AE%E3%82%B9%E3%83%A0%E3%83%BC%E3%82%BA%E3%81%AA%E9%80%A3%E6%90%BA%E3%81%8C%E9%87%8D%E8%A6%81%0A%E3%83%BB%E3%82%B9%E3%83%88%E3%83%AC%E3%82%A4%E3%83%95%E3%82%A8%E3%82%A4%E3%83%A0%E3%81%AE%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%81%A7%E8%84%B1%E5%8A%9B%E7%B7%B4%E7%BF%92%E3%81%8C%E5%8A%B9%E6%9E%9C%E7%9A%84%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xn6oko.html",
+    "created_at": "2026-11-04T22:46:22.400728+00:00"
+  },
+  {
+    "id": "1xn7cco",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Pixart 3955 Snap-in Senor Skate Holder",
+    "selftext_en": "Howdy folks!\n\n  \nI recently purchased the new G-Wolves HTX Mini Asym.\n\nThis mouse came with a sensor skate holder that is absolutely killer! It adds a lot of stability for the 25g mouse. I just purchased a G Wolves Fenrir Pro that includes the same sensor, but did not come with a skate holder. Does anyone know the proper name of this part, and/or where one could possibly purchase it? \n\n  \nI have to add; I have emailed G-Wolves, reached out to their rep on Discord from my previous Customer Service needs, and DM'd the company as well as Jim on twitter. I love G-Wolves mice, but they are known for lacking in the customer service department haha.\n\n  \n10/10 would recommend both mice if you like mall mice for claw/finger tip grip.  \n\n  \nCheers!",
+    "image_urls": [
+      "https://i.redd.it/4rnguk3a4hzh1.jpeg"
+    ],
+    "score": 0,
+    "num_comments": 4,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xn7cco/pixart_3955_snapin_senor_skate_holder/",
+    "comments": [
+      "[+3] That's a custom part, I highly doubt you'll be able to just buy something like this. 99% of mice have a base plate with a spot for a sensor skate. There just isn't a reason for companies to manufacture and sell this for the tiny amount of users who have a mouse without a base plate",
+      "[+4] No clue what it's called, but I imagine you could 3D scan it with your phone camera and send the files off to a print shop for a few bucks.",
+      "[+1] I feel like this is fairly easily reverse engineerable on CAD? Try take all the measurements you can and try and make it on CAD!!! If not, we can help you :)",
+      "[+1] love the leather under the pcb very drag queen"
+    ],
+    "comment_tree": [
+      {
+        "id": "19s3os4y6n1vl",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "Sora V3, Ying MG, Strider, GPX2, 2c, XM2w, OP1w",
+        "is_op": false,
+        "score": 3,
+        "body_en": "That's a custom part, I highly doubt you'll be able to just buy something like this. 99% of mice have a base plate with a spot for a sensor skate. There just isn't a reason for companies to manufacture and sell this for the tiny amount of users who have a mouse without a base plate",
+        "depth": 0,
+        "body_ja": "それはカスタムパーツだから、単品で買い直すなんてまず無理だと思うよ。99%のマウスにはセンサーソールを貼る場所がある底面プレートがついているし、底面プレートがないマウスを使っているごくわずかなユーザーのために、メーカーがわざわざこれを単体で製造・販売する理由がないからね。"
+      },
+      {
+        "id": "19s3owccxtj5u",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "M3 Micro Pro",
+        "is_op": false,
+        "score": 4,
+        "body_en": "No clue what it's called, but I imagine you could 3D scan it with your phone camera and send the files off to a print shop for a few bucks.",
+        "depth": 0,
+        "body_ja": "なんて名前なのかは分からないけど、スマホのカメラで3Dスキャンして、そのデータをプリントショップに送れば数ドルで作れるんじゃないかな。"
+      },
+      {
+        "id": "19s3t2ydu3d51",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "modding goof",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I feel like this is fairly easily reverse engineerable on CAD? Try take all the measurements you can and try and make it on CAD!!! If not, we can help you :)",
+        "depth": 0,
+        "body_ja": "これならCADで簡単にリバースエンジニアリングできそうだよね？ できる限りサイズを測ってみて、CADで作ってみたらどうかな！！！ もし無理なら、手伝うこともできるよ :)"
+      },
+      {
+        "id": "19s3tmgr69c1u",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "Razer Viper Mini V3 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "body_en": "love the leather under the pcb very drag queen",
+        "depth": 0,
+        "body_ja": "基板の下にある革の質感がすごくドラァグクイーンっぽくて最高だね。"
+      }
+    ],
+    "title_ja": "G-Wolvesの超軽量マウス用センサーソールホルダーの入手方法と自作案",
+    "hook_ja": "G-Wolves HTX Mini Asymに付属するセンサーソールホルダーの単体入手方法を求めるスレ主に対し、コミュニティから様々なアドバイスが寄せられました。公式からの個別購入は困難なため、CAD設計や3Dプリントによる自作が現実的な解決策として提案されています。",
+    "op_post_ja": "皆さん、こんにちは！\n\n最近、新しいG-Wolves HTX Mini Asymを購入しました。\nこのマウスにはセンサーソールホルダーが付属しているのですが、これが本当に最高なんです！ 25gという超軽量マウスに大きな安定感をもたらしてくれます。最近同じセンサーを搭載したG-Wolves Fenrir Proも購入したのですが、こちらにはソールホルダーが付属していませんでした。このパーツの正確な名称や、どこで購入できるかご存じの方はいらっしゃいませんか？\n\n補足しておくと、G-Wolvesにメールを送り、以前カスタマーサービスを利用した際のDiscord担当者にも連絡し、Twitterの公式アカウントやJim氏にもDMを送りました。G-Wolvesのマウスは大好きなのですが、カスタマーサポートの手薄さには定評がありますからね（笑）。\n\nつかみ持ちやツマミ持ち向けの小型マウスが好きなら、どちらのマウスも10点満点でおすすめです。\n\nでは！",
+    "consensus_points": [
+      "センサーソールホルダーは専用のカスタムパーツであり、メーカーからの単体購入は極めて困難。",
+      "パーツ自体は構造が単純なため、CADでモデリングして3Dプリントアウトするのが最も現実的。",
+      "スマホアプリでの3Dスキャンや、採寸してのCAD設計・モデリングをコミュニティが推奨している。"
+    ],
+    "detailed_analysis_ja": "【1. 背景と概要】\n超軽量ゲーミングマウス市場を牽引するG-Wolvesの製品（HTX Mini Asymなど）は、25g前後という極限の軽量化を実現するため、底面プレートを極力削ぎ落としたスケルトン構造を採用しています。しかし、底面板が存在しない構造ではセンサー周りのソール（センサーソール）を貼り付ける場所がなくなってしまうため、PixArt PAW3955センサーの周囲に後付けで装着する「センサーソールホルダー（センサーソールリング）」という特殊なプラスチックパーツが採用されています。\n\n【2. コミュニティの反応と解決策】\nスレ主は同型センサーを搭載する別モデル（G-Wolves Fenrir Pro）にもこのホルダーを取り付けたいと考え、公式サポートに問い合わせたものの返信が得られず、単体購入の手立てを探していました。\nこれに対し海外掲示板のユーザーからは、「肉抜きされた底面のないマウス自体が超マイナーであるため、このような単体パーツが一般販売される可能性は極めて低い」という冷静な指摘がなされています。\n一方で、パーツ形状自体は単純であるため、以下の現実的な解決策が提示されました。\n・スマホの3Dスキャンアプリで形状データを取り込み、3Dプリントサービスに発注する。\n・デジタルノギスなどで採寸し、CADソフトでモデリングして自作する（困ったらモデリングを手伝うという親切な申し出もありました）。\n\n【3. 軽量マウスにおけるセンサーソールの重要性】\n20g台の超軽量マウスは、マウスパッドとの接地面積が少ないと滑りが不安定になりやすく、センサー周辺の沈み込みによってDPIの変動やLOOD（リフトオフディスタンス）のズレが生じる場合があります。センサー周りにソールを配置して接地安定性を確保する技術は、極限のエイム精度を求めるFTSプレイヤーにとって非常に重要な要素となっています。",
+    "devices": [
+      {
+        "name": "G-Wolves HTX Mini Asym",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "25gと非常に軽量で、つかみ持ちやツマミ持ちに最適な小型マウスとして非常に高く評価されている。"
+      },
+      {
+        "name": "G-Wolves Fenrir Pro",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "つかみ持ちやツマミ持ちに適した高性能な小型軽量マウスとして好評を得ている。"
+      }
+    ],
+    "x_main_post": "底面のない25gの超軽量マウスで話題のG-Wolves用センサーソールホルダーは単体購入できる？海外掲示板では「メーカーの単体販売は望み薄」との回答。解決策としてCAD採寸やスマホ3Dスキャンからの3Dプリント自作が推奨されています！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "超軽量マウスのパーツが欲しいのだ！",
+        "caption": "パーツの単体購入は可能？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "公式からの単体購入はほぼ無理だけど自作できるよ！",
+        "caption": "結論：3Dプリントで自作！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "えっ、パーツの自作なんてできるのだ？",
+        "caption": "自作なんてできる？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "底面がない超軽量マウス用の特殊な部品だから売ってないんだよね。",
+        "caption": "ポイント①特殊パーツ"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "だからノギスで測ってCADでモデリングするのがおすすめだよ！",
+        "caption": "ポイント②CADで設計"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "CADが使えなくても大丈夫なのだ？",
+        "caption": "難しそうだけど…？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "スマホで3Dスキャンして出力屋さんに頼む手もあるよ！",
+        "caption": "注意点：スキャンもアリ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "3Dプリンターを活用して自作してみるのだ！",
+        "caption": "詳細はプロフ・概要欄へ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19s3os4y6n1vl",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "Sora V3, Ying MG, Strider, GPX2, 2c, XM2w, OP1w",
+        "is_op": false,
+        "score": 3,
+        "text": "それはカスタムパーツだから、単品で買い直すなんてまず無理だと思うよ。99%のマウスにはセンサーソールを貼る場所がある底面プレートがついているし、底面プレートがないマウスを使っているごくわずかなユーザーのために、メーカーがわざわざこれを単体で製造・販売する理由がないからね。"
+      },
+      {
+        "id": "19s3owccxtj5u",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "M3 Micro Pro",
+        "is_op": false,
+        "score": 4,
+        "text": "なんて名前なのかは分からないけど、スマホのカメラで3Dスキャンして、そのデータをプリントショップに送れば数ドルで作れるんじゃないかな。"
+      },
+      {
+        "id": "19s3t2ydu3d51",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "modding goof",
+        "is_op": false,
+        "score": 1,
+        "text": "これならCADで簡単にリバースエンジニアリングできそうだよね？ できる限りサイズを測ってみて、CADで作ってみたらどうかな！！！ もし無理なら、手伝うこともできるよ :)"
+      },
+      {
+        "id": "19s3tmgr69c1u",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "Razer Viper Mini V3 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "text": "基板の下にある革の質感がすごくドラァグクイーンっぽくて最高だね。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xn7cco.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E5%BA%95%E9%9D%A2%E3%81%AE%E3%81%AA%E3%81%8425g%E3%81%AE%E8%B6%85%E8%BB%BD%E9%87%8F%E3%83%9E%E3%82%A6%E3%82%B9%E3%81%A7%E8%A9%B1%E9%A1%8C%E3%81%AEG-Wolves%E7%94%A8%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%82%BD%E3%83%BC%E3%83%AB%E3%83%9B%E3%83%AB%E3%83%80%E3%83%BC%E3%81%AF%E5%8D%98%E4%BD%93%E8%B3%BC%E5%85%A5%E3%81%A7%E3%81%8D%E3%82%8B%EF%BC%9F%E6%B5%B7%E5%A4%96%E6%8E%B2%E7%A4%BA%E6%9D%BF%E3%81%A7%E3%81%AF%E3%80%8C%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%81%AE%E5%8D%98%E4%BD%93%E8%B2%A9%E5%A3%B2%E3%81%AF%E6%9C%9B%E3%81%BF%E8%96%84%E3%80%8D%E3%81%A8%E3%81%AE%E5%9B%9E%E7%AD%94%E3%80%82%E8%A7%A3%E6%B1%BA%E7%AD%96%E3%81%A8%E3%81%97%E3%81%A6CAD%E6%8E%A1%E5%AF%B8%E3%82%84%E3%82%B9%E3%83%9E%E3%83%9B3D%E3%82%B9%E3%82%AD%E3%83%A3%E3%83%B3%E3%81%8B%E3%82%89%E3%81%AE3D%E3%83%97%E3%83%AA%E3%83%B3%E3%83%88%E8%87%AA%E4%BD%9C%E3%81%8C%E6%8E%A8%E5%A5%A8%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xn7cco.html",
+    "created_at": "2026-11-04T22:46:59.922003+00:00"
+  },
+  {
+    "id": "1xn6sn3",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "AKKO go - Why are there no reviews of it on the internet?",
+    "selftext_en": "This mouse looks insanely good, and the price is very fair for what it seems to offer, but I can’t find a single review of it anywhere online, what’s going on?",
+    "image_urls": [
+      "https://i.redd.it/185lb77t0hzh1.png"
+    ],
+    "score": 0,
+    "num_comments": 8,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xn6sn3/akko_go_why_are_there_no_reviews_of_it_on_the/",
+    "comments": [
+      "[+5] Akko aren't really known for their mice, they are mostly a keyboard manufacturer. From what I've heard their mice are decent but a bit overpriced",
+      "[+0] It seems like a very good mouse to me, and the price doesn't seem too far off, what would you recommend instead?",
+      "[+0] Any mouse by ATK with a similar shape (even carbon fiber ones), IPI Qi Pro or WLMOUSE Ying Carbon if you want a better quality mouse but it will cost 40-50 euros more",
+      "[+2] Nobody cares about this product. It’s just another mouse. The only thing that sets it apart is the choice of switches—but that’s too niche, and not enough people know enough about it for it to gain any real popularity these days.",
+      "[+3] Akko aren't really niche, they just aren't know for making gaming mice",
+      "[+1] I wrote that the interesting option of choosing your own switches is a niche feature.",
+      "[+-2] so still worth buying?",
+      "[+1] FFS can they stop calling a fiber reinforced plastic carbon for once ? This is clearly not a fcn carbon"
+    ],
+    "comment_tree": [
+      {
+        "id": "19s3k1u897gow",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "VXE R1 Pro, Rapoo VT3s MAX Gen 2 | ATK XSOFT",
+        "is_op": false,
+        "score": 5,
+        "body_en": "Akko aren't really known for their mice, they are mostly a keyboard manufacturer. From what I've heard their mice are decent but a bit overpriced",
+        "depth": 0,
+        "body_ja": "AKKOはマウスで知られているわけではなく、主にキーボードのメーカーだからね。聞いた話だと、彼らのマウスは悪くはないけど少し割高なんだ。"
+      },
+      {
+        "id": "19s3kgm4e3hhd",
+        "parent_id": "19s3k1u897gow",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 0,
+        "body_en": "It seems like a very good mouse to me, and the price doesn't seem too far off, what would you recommend instead?",
+        "depth": 1,
+        "body_ja": "自分にとってはすごく良さそうなマウスに見えるし、価格もそこまで外れていないと思うんだけど、代わりに何をおすすめする？"
+      },
+      {
+        "id": "19s3lje3k04zo",
+        "parent_id": "19s3kgm4e3hhd",
+        "author": "海外ユーザー1",
+        "flair": "VXE R1 Pro, Rapoo VT3s MAX Gen 2 | ATK XSOFT",
+        "is_op": false,
+        "score": 0,
+        "body_en": "Any mouse by ATK with a similar shape (even carbon fiber ones), IPI Qi Pro or WLMOUSE Ying Carbon if you want a better quality mouse but it will cost 40-50 euros more",
+        "depth": 2,
+        "body_ja": "似たような形状のATK製マウス（カーボンファイバー製のものも含めて）、IPI Qi Pro、あるいはもっと高品質なマウスが欲しいならWLMOUSE Ying Carbonあたりかな。ただ40〜50ユーロ高くなるけどね。"
+      },
+      {
+        "id": "19s3ksbpqea82",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Nobody cares about this product. It’s just another mouse. The only thing that sets it apart is the choice of switches—but that’s too niche, and not enough people know enough about it for it to gain any real popularity these days.",
+        "depth": 0,
+        "body_ja": "誰もこの製品なんて気にしてないよ。ただのありふれたマウスだ。他と違うのはスイッチを選べることくらいだけど、それもかなりニッチだし、最近になって本当の人気を獲得できるほど知っている人は多くない。"
+      },
+      {
+        "id": "19s3lkqnky43k",
+        "parent_id": "19s3ksbpqea82",
+        "author": "海外ユーザー1",
+        "flair": "VXE R1 Pro, Rapoo VT3s MAX Gen 2 | ATK XSOFT",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Akko aren't really niche, they just aren't know for making gaming mice",
+        "depth": 1,
+        "body_ja": "AKKO自体がニッチなんじゃなくて、ゲーミングマウスを作っていることで知られていないだけだよ。"
+      },
+      {
+        "id": "19s4dvhorz70g",
+        "parent_id": "19s3lkqnky43k",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I wrote that the interesting option of choosing your own switches is a niche feature.",
+        "depth": 2,
+        "body_ja": "私が書いたのは、自分でスイッチを選べるという興味深い選択肢がニッチな機能だっていうことだよ。"
+      },
+      {
+        "id": "19s3m00vqia0x",
+        "parent_id": "19s3ksbpqea82",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": -2,
+        "body_en": "so still worth buying?",
+        "depth": 1,
+        "body_ja": "じゃあ買う価値はあるの？"
+      },
+      {
+        "id": "19s4970mt7802",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "FFS can they stop calling a fiber reinforced plastic carbon for once ? This is clearly not a fcn carbon",
+        "depth": 0,
+        "body_ja": "マジで、ファイバー強化プラスチックをカーボンって呼ぶのいい加減やめてくれないか？ これはどう見ても本物のカーボンじゃないだろ。"
+      }
+    ],
+    "title_ja": "AKKO goマウスのレビューがネットに全く存在しない理由と海外コミュニティの評価",
+    "hook_ja": "キーボードメーカーとして知られるAKKOが手がけるゲーミングマウス「AKKO go」について、ネット上にレビューがない理由と代替製品が議論されています。",
+    "op_post_ja": "このマウスは見た目がめちゃくちゃ良さそうだし、提供している機能の割に価格もかなり妥当だと思うんだけど、ネット上のどこを探してもレビューが1つも見つからないんだ。いったいどうなってんだ？",
+    "consensus_points": [
+      "AKKOは主にキーボードメーカーであり、ゲーミングマウスで知られているわけではない",
+      "スイッチを自由に選べるという特徴はあるものの、それが極めてニッチであり知名度が不足している",
+      "同等クラスの形状であれば、ATK製マウスやIPI Qi Pro、WLMOUSE Ying Carbonなどが代替として推奨されている"
+    ],
+    "detailed_analysis_ja": "【1. AKKOというブランドの立ち位置とマウス市場】\nAKKOはカスタムメカニカルキーボードの世界で非常に高い知名度と人気を誇るメーカーですが、ゲーミングマウス市場においてはほとんど実績や認知がありません。そのため、新製品を発表してもテック系レビュアーやコミュニティの注目を集めにくい背景があります。\n\n【2. ニッチな機能とトレンドの乖離】\nスレッド内で指摘されている通り、スイッチを自分で選択できるといった独自のカスタマイズ要素は一部のマニアには刺さるものの、現在の軽量ワイヤレスマウス市場におけるメインストリームのトレンド（センサー性能、最新MCU、極限までの軽量化など）からは外れており、一般的なユーザー層への訴求力が弱くなっています。\n\n【3. 代替製品としての中国系新興ブランド】\n海外コミュニティでは、形状の似たATK製マウスや、カーボン素材を活用したIPI Qi Pro、WLMOUSE Ying Carbonなどが高品質な代替選択肢として挙げられています。価格差が40〜50ユーロほどあったとしても、実績のあるブランドやトレンドを押さえた製品を選ぶユーザーが多い傾向にあります。",
+    "devices": [
+      {
+        "name": "ATK ゲーミングマウス",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "AKKO goと似た形状を持つ、実用的な代替マウスとして推奨されている。"
+      },
+      {
+        "name": "IPI Qi Pro",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "価格は高くなるものの、より高品質な選択肢として名前が挙げられている。"
+      },
+      {
+        "name": "WLMOUSE Ying Carbon",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "予算が40〜50ユーロ追加できる場合の、高品質な代替マウスとして評価されている。"
+      }
+    ],
+    "x_main_post": "キーボードメーカーAKKOのマウス「AKKO go」にレビューがない理由とは？\n・ゲーミングマウス市場での知名度不足\n・スイッチ選択というニッチな機能\n・ATKやWLMOUSE等の有力な代替製品の存在",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "AKKOのマウスに全然レビューがないのだ！どうしてなのだ？",
+        "caption": "レビューがない？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "そもそもキーボードメーカーだから知名度がないんだよね！",
+        "caption": "知名度不足"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "スイッチが選べる面白い特徴があるのにダメなのかしら？",
+        "caption": "独自の機能"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "そのスイッチ選択がちょっとニッチすぎるからなんだよね！",
+        "caption": "ニッチすぎる"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "それならATK製マウスやWLMOUSEがおすすめされてるよ！",
+        "caption": "代替マウス"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "実績のあるブランドを選ぶのが無難なのだ！",
+        "caption": "納得の選択"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "素材の表記とかにも気をつけたほうがいいかもね！",
+        "caption": "注意点"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "みんなもマイナーマウスを買う時は調べるのだ！",
+        "caption": "詳細は概要欄へ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19s3k1u897gow",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "VXE R1 Pro, Rapoo VT3s MAX Gen 2 | ATK XSOFT",
+        "is_op": false,
+        "score": 5,
+        "text": "AKKOはマウスで知られているわけではなく、主にキーボードのメーカーだからね。聞いた話だと、彼らのマウスは悪くはないけど少し割高なんだ。"
+      },
+      {
+        "id": "19s3kgm4e3hhd",
+        "parent_id": "19s3k1u897gow",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 0,
+        "text": "自分にとってはすごく良さそうなマウスに見えるし、価格もそこまで外れていないと思うんだけど、代わりに何をおすすめする？"
+      },
+      {
+        "id": "19s3lje3k04zo",
+        "parent_id": "19s3kgm4e3hhd",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "VXE R1 Pro, Rapoo VT3s MAX Gen 2 | ATK XSOFT",
+        "is_op": false,
+        "score": 0,
+        "text": "似たような形状のATK製マウス（カーボンファイバー製のものも含めて）、IPI Qi Pro、あるいはもっと高品質なマウスが欲しいならWLMOUSE Ying Carbonあたりかな。ただ40〜50ユーロ高くなるけどね。"
+      },
+      {
+        "id": "19s3ksbpqea82",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "誰もこの製品なんて気にしてないよ。ただのありふれたマウスだ。他と違うのはスイッチを選べることくらいだけど、それもかなりニッチだし、最近になって本当の人気を獲得できるほど知っている人は多くない。"
+      },
+      {
+        "id": "19s3lkqnky43k",
+        "parent_id": "19s3ksbpqea82",
+        "depth": 1,
+        "speaker": "海外ユーザー1",
+        "flair": "VXE R1 Pro, Rapoo VT3s MAX Gen 2 | ATK XSOFT",
+        "is_op": false,
+        "score": 3,
+        "text": "AKKO自体がニッチなんじゃなくて、ゲーミングマウスを作っていることで知られていないだけだよ。"
+      },
+      {
+        "id": "19s4dvhorz70g",
+        "parent_id": "19s3lkqnky43k",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "私が書いたのは、自分でスイッチを選べるという興味深い選択肢がニッチな機能だっていうことだよ。"
+      },
+      {
+        "id": "19s3m00vqia0x",
+        "parent_id": "19s3ksbpqea82",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": -2,
+        "text": "じゃあ買う価値はあるの？"
+      },
+      {
+        "id": "19s4970mt7802",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "マジで、ファイバー強化プラスチックをカーボンって呼ぶのいい加減やめてくれないか？ これはどう見ても本物のカーボンじゃないだろ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xn6sn3.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BCAKKO%E3%81%AE%E3%83%9E%E3%82%A6%E3%82%B9%E3%80%8CAKKO%20go%E3%80%8D%E3%81%AB%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%81%8C%E3%81%AA%E3%81%84%E7%90%86%E7%94%B1%E3%81%A8%E3%81%AF%EF%BC%9F%0A%E3%83%BB%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%9E%E3%82%A6%E3%82%B9%E5%B8%82%E5%A0%B4%E3%81%A7%E3%81%AE%E7%9F%A5%E5%90%8D%E5%BA%A6%E4%B8%8D%E8%B6%B3%0A%E3%83%BB%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E9%81%B8%E6%8A%9E%E3%81%A8%E3%81%84%E3%81%86%E3%83%8B%E3%83%83%E3%83%81%E3%81%AA%E6%A9%9F%E8%83%BD%0A%E3%83%BBATK%E3%82%84WLMOUSE%E7%AD%89%E3%81%AE%E6%9C%89%E5%8A%9B%E3%81%AA%E4%BB%A3%E6%9B%BF%E8%A3%BD%E5%93%81%E3%81%AE%E5%AD%98%E5%9C%A8%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xn6sn3.html",
+    "created_at": "2026-11-04T22:47:08.742642+00:00"
+  },
+  {
+    "id": "1xn5igl",
+    "subreddit": "MousepadReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Looking for people's opinions on fave glasspad pairings with U9 skates",
+    "selftext_en": "I like the U9 ultra and airs because of the insane durability but I don't like any kind of muddy, grainy, or sticky feeling from UPE skates. \n\nPeople who have tried UPE or specifically the U9s on one or more glasspads - what are your experiences and fave pairings so far? (Also open to other UPE skates and pad combo recommendations!)",
+    "image_urls": [],
+    "score": 2,
+    "num_comments": 9,
+    "permalink": "https://www.reddit.com/r/MousepadReview/comments/1xn5igl/looking_for_peoples_opinions_on_fave_glasspad/",
+    "comments": [
+      "[+2] How Light is your mouse?\n\nOn my superstrike X2 it feels slow and muddy \n\nOn my hitscan hyperlight x they feel fast and smooth.",
+      "[+2] I'm currently maining gwolves hts pro plus with 5 U9 ultra. What pad do you use yours with?",
+      "[+2] I'm using wallhacks sp-005",
+      "[+2] I personally love skypad 3.0 and wallhack obsidian pros only for overwatch same set of dots used for about 2 years they are loud but I love the control they have I play high sens 24.74cm soldier and genji but 28cm other hero’s",
+      "[+1] Wow 2 years of obsidian pro I had no idea they were that durable and supposedly U9 is even more durable",
+      "[+1] Yeah I’m not one of those psychos who change skates every week I use them until the base of my mouse touches the pad",
+      "[+2] And ever since I started using these man they barely worn down",
+      "[+2] Used the U9 Ultra on my CR005. \nMice: Fenrir Asym and Terra Pro. \n\nRly smooth Glide and the weardown took about 2 Month. \n\nRecently I got the sp005 and it felt wrong I changed to the obsidian Air and I got the feeling back.",
+      "[+1] im using u9 ultras on a harut and got a small test a odyssey with a few different mice (sora v3, op18k v2, vv4p, atlantis og v2, x2h cl, inca) and i wouldn’t say they are muddy or sticky but can be grainy at some times which is easily fixed by whipping the pad \n\nsince i do like some more control and dont mind some textured feedback i think these are great skates i wouldn’t recommend them if you want the smoothest or a fast experience"
+    ],
+    "comment_tree": [
+      {
+        "id": "19s3ifphofb6p",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "How Light is your mouse?\n\nOn my superstrike X2 it feels slow and muddy \n\nOn my hitscan hyperlight x they feel fast and smooth.",
+        "depth": 0,
+        "body_ja": "君のマウスはどれくらいの重さ？\n俺のSuperstrike X2だと遅くて泥のような感触だけど、Hitscan Hyperlight Xだと速くて滑らかに感じるよ。"
+      },
+      {
+        "id": "19s3m3xzdrskg",
+        "parent_id": "19s3ifphofb6p",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "I'm currently maining gwolves hts pro plus with 5 U9 ultra. What pad do you use yours with?",
+        "depth": 1,
+        "body_ja": "今はG-Wolver HTS Pro PlusにU9ウルトラを5点貼りしてメインで使ってるんだ。みんなはどのパッドと合わせてる？"
+      },
+      {
+        "id": "19s47b921z2w2",
+        "parent_id": "19s3m3xzdrskg",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I'm using wallhacks sp-005",
+        "depth": 2,
+        "body_ja": "Wallhack SP-005を使ってるよ。"
+      },
+      {
+        "id": "19s3jl85uekpu",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I personally love skypad 3.0 and wallhack obsidian pros only for overwatch same set of dots used for about 2 years they are loud but I love the control they have I play high sens 24.74cm soldier and genji but 28cm other hero’s",
+        "depth": 0,
+        "body_ja": "個人的にはSkypad 3.0とWallhack Obsidian Proの組み合わせが大好き。オーバーウォッチ専用で、同じドットソールを約2年使ってる。音はうるさいけどコントロール性が抜群なんだよね。ハイセンシでソルジャーとゲンジは24.74cm、他のヒーローは28cmでプレイしてる。"
+      },
+      {
+        "id": "19s3m6165hrhf",
+        "parent_id": "19s3jl85uekpu",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Wow 2 years of obsidian pro I had no idea they were that durable and supposedly U9 is even more durable",
+        "depth": 1,
+        "body_ja": "うわ、Obsidian Proを2年も使ってるのか。そんなに耐久性があるなんて知らなかったよ。U9はそれ以上らしいしね。"
+      },
+      {
+        "id": "19s3nesj27qzo",
+        "parent_id": "19s3m6165hrhf",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Yeah I’m not one of those psychos who change skates every week I use them until the base of my mouse touches the pad",
+        "depth": 2,
+        "body_ja": "そうそう、俺は毎週ソールを貼り替えるような狂人じゃないからさ、マウスの底がパッドに触れるまで使い倒すタイプなんだよね。"
+      },
+      {
+        "id": "19s3nfn1dbiap",
+        "parent_id": "19s3nesj27qzo",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "And ever since I started using these man they barely worn down",
+        "depth": 3,
+        "body_ja": "このソールを使い始めてからというもの、マジでほとんどすり減ってないんだよね。"
+      },
+      {
+        "id": "19s49blewbalg",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Used the U9 Ultra on my CR005. \nMice: Fenrir Asym and Terra Pro. \n\nRly smooth Glide and the weardown took about 2 Month. \n\nRecently I got the sp005 and it felt wrong I changed to the obsidian Air and I got the feeling back.",
+        "depth": 0,
+        "body_ja": "CR005でU9ウルトラを使っていたよ。\nマウスはFenrir AsymとTerra Pro。\nかなり滑らかで、摩耗するまでに約2ヶ月かかった。\n最近SP-005を手に入れたんだけど、なんか違う感じがしてObsidian Airに変えたら元の感覚が戻ってきたよ。"
+      },
+      {
+        "id": "19s4folky7zog",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "im using u9 ultras on a harut and got a small test a odyssey with a few different mice (sora v3, op18k v2, vv4p, atlantis og v2, x2h cl, inca) and i wouldn’t say they are muddy or sticky but can be grainy at some times which is easily fixed by whipping the pad \n\nsince i do like some more control and dont mind some textured feedback i think these are great skates i wouldn’t recommend them if you want the smoothest or a fast experience",
+        "depth": 0,
+        "body_ja": "HarutでU9ウルトラを使っていて、Odysseyでもいろんなマウス（Sora V3, OP18k V2, VV4P, Atlantis OG V2, X2H CL, Inca）で少しテストしてみたんだけど、泥のようとか引っかかるとは言わないまでも、時々ざらつくことがあるね。でもそれはパッドをサッと拭くだけで簡単に解決する。\nコントロール感が好きで、テクスチャのフィードバックが気にならないならこのソールは最高だと思う。一番滑らかで速い体験を求めているならオススメはしないかな。"
+      }
+    ],
+    "title_ja": "ガラスパッドとU9系高耐久ソールのおすすめの組み合わせについて意見を募るスレッド",
+    "hook_ja": "ガラスパッドにおけるU9ウルトラおよびエアソールの使用感や、最適な組み合わせについての海外議論。圧倒的な耐久性を誇る一方、マウスの重量やパッドとの相性によって滑りの質が大きく変わることが示されています。",
+    "op_post_ja": "U9ウルトラとエアは異常な耐久性があるから好きだけど、UPEソール特有の泥のような、ザラついた、あるいは引っかかるような感覚はどれも好きじゃない。\n\nUPEソール、特にU9を1枚以上のガラスパッドで試したことがある人——これまでの体験やお気に入りの組み合わせは？（他のUPEソールとマウスパッドの組み合わせのオススメも募集中！）",
+    "consensus_points": [
+      "U9ソールは非常に高い耐久性を誇り、長期間使い続けることができる",
+      "マウスの重量やモデルによって、滑りが「遅く泥のよう」になったり「速く滑らか」になったりと体感が大きく変わる",
+      "ガラスパッドとの組み合わせでは、適度なコントロール感とテクスチャ（ざらつき）が得られる反面、極限の滑らかさや速さを求める人には最適ではない場合がある"
+    ],
+    "detailed_analysis_jp": "ガラスパッドと高耐久UPEソール（U9系など）の相性について議論されたスレッドです。ガラスパッドユーザーの間では、ソールの摩耗や滑りの変化がパフォーマンスに直結するため、ソール選びは非常にシビアな要素となります。\n\n【1. U9系ソールと耐久性】\nU9ウルトラやU9エアは、その驚異的な耐久性が最大の売りの一つです。コメント内では「Obsidian Proなどと同様に、マウスの底面がパッドに届くまで使い倒すユーザーでも長期間持つ」と評価されており、頻繁にソールを張り替えたくないユーザーにとって魅力的な選択肢となっています。ただ、UPE素材特有の摩擦感や、一部の環境での「ざらつき（grainy）」を感じる場合もあるようです。\n\n【2. マウス本体の重量・モデルによる滑りの変化】\n興味深い点として、同じソールを使ってもマウスの重量やモデルによって滑りの印象がガラリと変わることが挙げられています。軽量なマウス（Hitscan Hyperlightなど）では非常に速く滑らかなフィーリングが得られる一方、別のモデルではスローで重たく感じられるなど、マウスの重心や底面設計とのマッチングが重要視されています。\n\n【3. ガラスパッドとの組み合わせ傾向】\nWallhack SP-005やSkypadなどのガラスパッドと組み合わせて使用されており、ユーザーはハイセンシ（高感度）でのコントロール性を重視してこの構成を選んでいます。完全なノーレジスタンスな超高速滑走というよりは、適度なブレーキ感やフィードバックを求めるプレイヤーに支持されているのがこのスレッドの結論です。",
+    "devices": [
+      {
+        "name": "Wallhack SP-005",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "高い滑走性能を持つガラスパッドとして使用されており、マウスやソールの組み合わせによってフィーリングが変わる点が言及されている。"
+      },
+      {
+        "name": "Skypad 3.0",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "長期間の使用でも高いコントロール性を発揮し、ハイセンシプレイヤーから愛用されている。"
+      },
+      {
+        "name": "X-raypad Obsidian Pro Skates",
+        "category": "skates",
+        "sentiment": "positive",
+        "comment_ja": "圧倒的な耐久性を持ち、2年間使い続けられるほど摩耗しにくいと高く評価されている。"
+      },
+      {
+        "name": "X-raypad Obsidian Air Skates",
+        "category": "skates",
+        "sentiment": "positive",
+        "comment_ja": "ガラスパッドとの組み合わせで違和感があった際に、好みの滑らかなフィーリングを取り戻すために選ばれている。"
+      },
+      {
+        "name": "G-Wolves HTS Plus",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "U9ウルトラソールと組み合わせてメインマウスとして運用されている。"
+      }
+    ],
+    "x_main_post": "ガラスパッド×高耐久U9系ソールの海外議論！\n・驚異的な耐久性で数ヶ月〜年単位で長持ち\n・マウス重量やモデルで滑りの体感が大きく変化\n・極限の速さより適度なコントロール感・ざらつきを求める人に最適",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "ガラスパッドとU9ソールの組み合わせってどうなのだ？",
+        "caption": "U9ソールの相性は？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "圧倒的な耐久性と適度なコントロール感が得られるですごく人気なんだよ！",
+        "caption": "耐久性とコントロール"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "でも泥みたいな引っかかりを感じるって本当なのだ？",
+        "caption": "引っかかりはある？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "マウスの重さやモデルによって速く感じたり重く感じたりが変わるからなんだよね！",
+        "caption": "マウスで変わる！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "Wallhackなどのガラスパッドと組み合わせて長く使ってる人が多いよ！",
+        "caption": "おすすめの組み合わせ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "ソールを張り替える手間が減るのはめちゃくちゃ楽なのだ！",
+        "caption": "メンテナンスが楽"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ超高速な滑りを求めてる人には少しざらつきを感じるかもだから注意してね！",
+        "caption": "注意点"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "みんなも試してみてほしいのだ！詳細は概要欄からなのだ！",
+        "caption": "詳細は概要欄へ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19s3ifphofb6p",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "君のマウスはどれくらいの重さ？\n俺のSuperstrike X2だと遅くて泥のような感触だけど、Hitscan Hyperlight Xだと速くて滑らかに感じるよ。"
+      },
+      {
+        "id": "19s3m3xzdrskg",
+        "parent_id": "19s3ifphofb6p",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "今はG-Wolver HTS Pro PlusにU9ウルトラを5点貼りしてメインで使ってるんだ。みんなはどのパッドと合わせてる？"
+      },
+      {
+        "id": "19s47b921z2w2",
+        "parent_id": "19s3m3xzdrskg",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "Wallhack SP-005を使ってるよ。"
+      },
+      {
+        "id": "19s3jl85uekpu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "個人的にはSkypad 3.0とWallhack Obsidian Proの組み合わせが大好き。オーバーウォッチ専用で、同じドットソールを約2年使ってる。音はうるさいけどコントロール性が抜群なんだよね。ハイセンシでソルジャーとゲンジは24.74cm、他のヒーローは28cmでプレイしてる。"
+      },
+      {
+        "id": "19s3m6165hrhf",
+        "parent_id": "19s3jl85uekpu",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "うわ、Obsidian Proを2年も使ってるのか。そんなに耐久性があるなんて知らなかったよ。U9はそれ以上らしいしね。"
+      },
+      {
+        "id": "19s3nesj27qzo",
+        "parent_id": "19s3m6165hrhf",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "そうそう、俺は毎週ソールを貼り替えるような狂人じゃないからさ、マウスの底がパッドに触れるまで使い倒すタイプなんだよね。"
+      },
+      {
+        "id": "19s3nfn1dbiap",
+        "parent_id": "19s3nesj27qzo",
+        "depth": 3,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "このソールを使い始めてからというもの、マジでほとんどすり減ってないんだよね。"
+      },
+      {
+        "id": "19s49blewbalg",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "CR005でU9ウルトラを使っていたよ。\nマウスはFenrir AsymとTerra Pro。\nかなり滑らかで、摩耗するまでに約2ヶ月かかった。\n最近SP-005を手に入れたんだけど、なんか違う感じがしてObsidian Airに変えたら元の感覚が戻ってきたよ。"
+      },
+      {
+        "id": "19s4folky7zog",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "HarutでU9ウルトラを使っていて、Odysseyでもいろんなマウス（Sora V3, OP18k V2, VV4P, Atlantis OG V2, X2H CL, Inca）で少しテストしてみたんだけど、泥のようとか引っかかるとは言わないまでも、時々ざらつくことがあるね。でもそれはパッドをサッと拭くだけで簡単に解決する。\nコントロール感が好きで、テクスチャのフィードバックが気にならないならこのソールは最高だと思う。一番滑らかで速い体験を求めているならオススメはしないかな。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xn5igl.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%C3%97%E9%AB%98%E8%80%90%E4%B9%85U9%E7%B3%BB%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%AE%E6%B5%B7%E5%A4%96%E8%AD%B0%E8%AB%96%EF%BC%81%0A%E3%83%BB%E9%A9%9A%E7%95%B0%E7%9A%84%E3%81%AA%E8%80%90%E4%B9%85%E6%80%A7%E3%81%A7%E6%95%B0%E3%83%B6%E6%9C%88%E3%80%9C%E5%B9%B4%E5%8D%98%E4%BD%8D%E3%81%A7%E9%95%B7%E6%8C%81%E3%81%A1%0A%E3%83%BB%E3%83%9E%E3%82%A6%E3%82%B9%E9%87%8D%E9%87%8F%E3%82%84%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A7%E6%BB%91%E3%82%8A%E3%81%AE%E4%BD%93%E6%84%9F%E3%81%8C%E5%A4%A7%E3%81%8D%E3%81%8F%E5%A4%89%E5%8C%96%0A%E3%83%BB%E6%A5%B5%E9%99%90%E3%81%AE%E9%80%9F%E3%81%95%E3%82%88%E3%82%8A%E9%81%A9%E5%BA%A6%E3%81%AA%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB%E6%84%9F%E3%83%BB%E3%81%96%E3%82%89%E3%81%A4%E3%81%8D%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E4%BA%BA%E3%81%AB%E6%9C%80%E9%81%A9%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xn5igl.html",
+    "created_at": "2026-11-04T22:47:19.721375+00:00"
   }
 ]
