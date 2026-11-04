@@ -1436,7 +1436,12 @@ def build_youtube_metadata(article: dict[str, Any]) -> tuple[str, str, list[str]
     article_url = (article.get("article_url") or "https://aimswamp.github.io/aimlog/").strip()
     subreddit = (article.get("subreddit") or "FPSAimTrainer").strip()
 
-    desc_lines: list[str] = []
+    desc_lines: list[str] = [
+        "▼ スレッド全訳・登場デバイスの詳細（Amazon/楽天）はこちら",
+        "📱 スマホの方：チャンネルアイコンをタップ ➔ プロフィールのリンク『エイム沼の海外ログ』から1タップで開けます！",
+        f"💻 PC・ブラウザの方：{article_url} （または『エイム沼の海外ログ』で検索）",
+        "",
+    ]
     if hook:
         desc_lines.append(hook)
         desc_lines.append("")
@@ -1453,9 +1458,6 @@ def build_youtube_metadata(article: dict[str, Any]) -> tuple[str, str, list[str]
         desc_lines.append("")
 
     desc_lines.extend([
-        f"▼ スレッド全訳・登場デバイスの詳細はこちら（エイム沼の海外ログ）",
-        article_url,
-        "",
         f"出典: Reddit r/{subreddit}",
         "音声: VOICEVOX:ずんだもん / VOICEVOX:春日部つむぎ",
         "",
