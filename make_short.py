@@ -14,6 +14,8 @@
 
 from __future__ import annotations
 
+import datetime as dt
+import http.server
 import json
 import math
 import os
@@ -29,6 +31,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import wave
+import webbrowser
 from pathlib import Path
 from typing import Any
 
@@ -63,11 +66,18 @@ SOUNDEFFECT_LAB_URLS = {
     ),  # パッ（重要ポイント表示）
 }
 
+ENV_FILE = Path(".env")
 ARTICLES_FILE = Path("data/articles.json")
+SHORTS_HISTORY_FILE = Path("data/shorts_history.json")
 BG_DIR = Path("assets/bg")
 BGM_DIR = Path("assets/bgm")
 SE_DIR = Path("assets/se")
 SHORTS_OUT_DIR = Path("dist/shorts")
+
+# YouTube Data API v3 の無料クォータ (10,000 units/day, 1本あたり約1,600 units = 最大6本/日) を考慮した1回あたりの上限
+DEFAULT_MAX_UPLOADS_PER_RUN = 5
+YOUTUBE_OAUTH_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
+
 
 # VOICEVOX がアルファベット綴り読み（A-R-T-I-S-A-N 等）や誤読（キーチロン等）するのを防ぐ読み仮名辞書
 VOICEVOX_READING_RULES: list[tuple[str, str]] = [
@@ -1063,36 +1073,582 @@ def build_short_for_article(
         print(f"[OK] ショート動画を出力しました: {out_mp4}")
 
 
+# ============================================================================
+# 6. 環境変数・生成履歴管理（MP4削除後の再生成防止）＆ YouTube Data API v3 自動投稿
+# ============================================================================
+
+
+def load_dotenv(env_path: Path = ENV_FILE) -> None:
+    """外部ライブラリ不要でプロジェクト直下の `.env` ファイルを読み込み環境変数に反映する。"""
+    if not env_path.exists():
+        return
+    for raw_line in env_path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        key = key.strip()
+        val = val.strip().strip("'").strip('"')
+        if key and key not in os.environ:
+            os.environ[key] = val
+
+
+def save_env_var(key: str, value: str, env_path: Path = ENV_FILE) -> None:
+    """`.env` ファイル内の指定キーを更新（存在しなければ末尾に追記）し、`os.environ` にも反映する。"""
+    os.environ[key] = value
+    lines: list[str] = []
+    if env_path.exists():
+        lines = env_path.read_text(encoding="utf-8").splitlines()
+
+    updated = False
+    new_lines: list[str] = []
+    for line in lines:
+        stripped = line.strip()
+        if stripped and not stripped.startswith("#") and "=" in stripped:
+            k, _, _ = stripped.partition("=")
+            if k.strip() == key:
+                new_lines.append(f"{key}={value}")
+                updated = True
+                continue
+        new_lines.append(line)
+
+    if not updated:
+        if new_lines and new_lines[-1].strip() != "":
+            new_lines.append("")
+        new_lines.append(f"{key}={value}")
+
+    env_path.write_text("\n".join(new_lines) + "\n", encoding="utf-8")
+
+
+def load_shorts_history(history_path: Path = SHORTS_HISTORY_FILE) -> dict[str, dict[str, Any]]:
+    """
+    ショート動画の生成・YouTubeアップロード履歴を読み込む。
+    HDD容量節約のために `dist/shorts/*.mp4` を削除した後でも再生成されないよう永続管理する。
+    """
+    if not history_path.exists():
+        return {}
+    try:
+        data = json.loads(history_path.read_text(encoding="utf-8"))
+        if isinstance(data, dict):
+            return data
+    except Exception:
+        pass
+    return {}
+
+
+def save_shorts_history(history: dict[str, dict[str, Any]], history_path: Path = SHORTS_HISTORY_FILE) -> None:
+    """ショート動画の生成・アップロード履歴を JSON ファイルに保存する。"""
+    history_path.parent.mkdir(parents=True, exist_ok=True)
+    history_path.write_text(
+        json.dumps(history, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def save_articles_json(articles: list[dict[str, Any]], articles_path: Path = ARTICLES_FILE) -> None:
+    """`data/articles.json` を整形して上書き保存する。"""
+    articles_path.parent.mkdir(parents=True, exist_ok=True)
+    articles_path.write_text(
+        json.dumps(articles, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def sync_state_between_articles_and_history(
+    articles: list[dict[str, Any]],
+    history: dict[str, dict[str, Any]],
+    shorts_dir: Path = SHORTS_OUT_DIR,
+) -> bool:
+    """
+    `data/articles.json`・`data/shorts_history.json`・既存の `dist/shorts/*.mp4` の間で
+    生成済みフラグ (`short_generated`) と YouTube 投稿情報 (`youtube_video_id` 等) を双方向同期する。
+    変更があった場合は True を返す。
+    """
+    changed = False
+    for art in articles:
+        aid = str(art.get("id") or "").strip()
+        if not aid:
+            continue
+        h = history.get(aid, {})
+        mp4_exists = (shorts_dir / f"{aid}.mp4").exists()
+
+        is_gen = bool(
+            art.get("short_generated")
+            or h.get("short_generated")
+            or art.get("youtube_video_id")
+            or h.get("youtube_video_id")
+            or mp4_exists
+        )
+        yt_id = str(art.get("youtube_video_id") or h.get("youtube_video_id") or "").strip()
+        yt_url = str(art.get("youtube_url") or h.get("youtube_url") or "").strip()
+        if yt_id and not yt_url:
+            yt_url = f"https://youtube.com/shorts/{yt_id}"
+        yt_at = str(art.get("youtube_uploaded_at") or h.get("youtube_uploaded_at") or "").strip()
+        gen_at = str(
+            art.get("short_generated_at")
+            or h.get("short_generated_at")
+            or (dt.datetime.now(dt.timezone.utc).isoformat() if is_gen else "")
+        ).strip()
+
+        if is_gen and not art.get("short_generated"):
+            art["short_generated"] = True
+            changed = True
+        if gen_at and art.get("short_generated_at") != gen_at:
+            art["short_generated_at"] = gen_at
+            changed = True
+        if yt_id and art.get("youtube_video_id") != yt_id:
+            art["youtube_video_id"] = yt_id
+            art["youtube_url"] = yt_url
+            if yt_at:
+                art["youtube_uploaded_at"] = yt_at
+            changed = True
+
+        if is_gen or yt_id:
+            new_h = {
+                "id": aid,
+                "title_ja": str(art.get("title_ja") or h.get("title_ja") or ""),
+                "short_generated": is_gen,
+                "short_generated_at": gen_at,
+                "youtube_video_id": yt_id,
+                "youtube_url": yt_url,
+                "youtube_uploaded_at": yt_at,
+            }
+            if history.get(aid) != new_h:
+                history[aid] = new_h
+                changed = True
+
+    return changed
+
+
+def _detect_client_secret_json() -> tuple[str, str, str] | None:
+    """
+    プロジェクト直下に Google Cloud Console からダウンロードした `client_secret*.json` があれば
+    更新日時が新しい順（かつ `installed`＝デスクトップアプリ優先）で
+    `(client_id, client_secret, client_type)` を自動抽出する。
+    """
+    candidates = sorted(
+        Path(".").glob("client_secret*.json"),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True,
+    )
+    # まず installed (デスクトップアプリ) を優先探索し、無ければ web を探索
+    for preferred_type in ("installed", "web"):
+        for p in candidates:
+            try:
+                data = json.loads(p.read_text(encoding="utf-8"))
+                if preferred_type in data and isinstance(data[preferred_type], dict):
+                    block = data[preferred_type]
+                    cid = str(block.get("client_id") or "").strip()
+                    csec = str(block.get("client_secret") or "").strip()
+                    if cid and csec:
+                        return cid, csec, preferred_type
+            except Exception:
+                continue
+    return None
+
+
+def get_youtube_client_credentials() -> tuple[str, str] | None:
+    """`client_secret*.json` または `.env` から YouTube OAuth クライアントID・シークレットを取得する。"""
+    detected = _detect_client_secret_json()
+    if detected:
+        cid, csec, ctype = detected
+        old_cid = (os.environ.get("YOUTUBE_CLIENT_ID") or "").strip()
+        if cid != old_cid:
+            save_env_var("YOUTUBE_CLIENT_ID", cid)
+            save_env_var("YOUTUBE_CLIENT_SECRET", csec)
+            print(f"[INFO] `client_secret*.json` ({ctype}) から YouTube OAuth クライアント情報を読み込み `.env` を更新しました。")
+        if ctype == "web" and not (os.environ.get("YOUTUBE_REFRESH_TOKEN") or "").strip():
+            print(
+                "[NOTE] 現在のOAuthクライアントは『ウェブ アプリケーション』として作成されています。\n"
+                "       もし `Error 400: redirect_uri_mismatch` が出る場合は、Google Cloud Console の\n"
+                "       「承認済みのリダイレクト URI」に `http://127.0.0.1:8765/` を追加して保存してください。"
+            )
+        return cid, csec
+
+    cid = (os.environ.get("YOUTUBE_CLIENT_ID") or "").strip()
+    csec = (os.environ.get("YOUTUBE_CLIENT_SECRET") or "").strip()
+    if cid and csec:
+        return cid, csec
+    return None
+
+
+def run_youtube_oauth_flow(client_id: str, client_secret: str) -> str:
+    """
+    ローカルHTTPサーバを一時起動し、ブラウザで Google OAuth 2.0 同意画面を開いて
+    リフレッシュトークンを取得・`.env` に保存する。
+    """
+    port = 8765
+    redirect_uri = f"http://127.0.0.1:{port}/"
+    auth_code_holder: dict[str, str] = {}
+
+    class _OAuthCallbackHandler(http.server.BaseHTTPRequestHandler):
+        def do_GET(self) -> None:
+            parsed = urllib.parse.urlparse(self.path)
+            qs = urllib.parse.parse_qs(parsed.query)
+            if "code" in qs:
+                auth_code_holder["code"] = qs["code"][0]
+                body = (
+                    "<html><head><meta charset='utf-8'><title>認証完了</title></head>"
+                    "<body style='font-family:sans-serif;padding:40px;text-align:center;'>"
+                    "<h2>YouTube 自動アップロードの認証が完了しました！</h2>"
+                    "<p>このブラウザタブを閉じて、ターミナルに戻ってください。</p>"
+                    "</body></html>"
+                )
+                self.send_response(200)
+            else:
+                err = qs.get("error", ["unknown_error"])[0]
+                auth_code_holder["error"] = err
+                body = f"<html><head><meta charset='utf-8'></head><body><h2>認証エラー: {err}</h2></body></html>"
+                self.send_response(400)
+            self.send_header("Content-Type", "text/html; charset=utf-8")
+            self.end_headers()
+            self.wfile.write(body.encode("utf-8"))
+
+        def log_message(self, format: str, *args: Any) -> None:
+            return
+
+    auth_params = {
+        "client_id": client_id,
+        "redirect_uri": redirect_uri,
+        "response_type": "code",
+        "scope": YOUTUBE_OAUTH_SCOPE,
+        "access_type": "offline",
+        "prompt": "consent",
+    }
+    auth_url = f"https://accounts.google.com/o/oauth2/v2/auth?{urllib.parse.urlencode(auth_params)}"
+
+    print("\n" + "=" * 72)
+    print("【YouTube 初回OAuth認証】ブラウザでGoogleアカウント認証画面を開きます...")
+    print("自動で開かない場合は、以下のURLをブラウザに貼り付けて開いてください：")
+    print(auth_url)
+    print("=" * 72 + "\n")
+
+    server = http.server.HTTPServer(("127.0.0.1", port), _OAuthCallbackHandler)
+    server.timeout = 180
+    webbrowser.open(auth_url)
+
+    while "code" not in auth_code_holder and "error" not in auth_code_holder:
+        server.handle_request()
+    server.server_close()
+
+    if "error" in auth_code_holder:
+        raise RuntimeError(f"Google OAuth 認証がキャンセルまたは失敗しました: {auth_code_holder['error']}")
+    code = auth_code_holder.get("code", "")
+    if not code:
+        raise RuntimeError("Google OAuth 認証コードを取得できませんでした。")
+
+    token_data = urllib.parse.urlencode({
+        "code": code,
+        "client_id": client_id,
+        "client_secret": client_secret,
+        "redirect_uri": redirect_uri,
+        "grant_type": "authorization_code",
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        "https://oauth2.googleapis.com/token",
+        data=token_data,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        token_json = json.loads(resp.read().decode("utf-8"))
+
+    refresh_token = str(token_json.get("refresh_token") or "").strip()
+    if not refresh_token:
+        raise RuntimeError("refresh_token が返却されませんでした。Googleアカウントの権限設定を確認してください。")
+
+    save_env_var("YOUTUBE_REFRESH_TOKEN", refresh_token)
+    print("[OK] YouTube OAuth 認証が完了し、`.env` に YOUTUBE_REFRESH_TOKEN を保存しました！")
+    return refresh_token
+
+
+def get_youtube_access_token() -> str | None:
+    """
+    `.env` の認証情報から YouTube Data API v3 用のアクセストークンを取得する。
+    `YOUTUBE_CLIENT_ID` と `YOUTUBE_CLIENT_SECRET` が設定済みで `YOUTUBE_REFRESH_TOKEN` が未取得なら
+    自動的に初回ブラウザ認証フローを起動する。
+    """
+    creds = get_youtube_client_credentials()
+    if not creds:
+        return None
+    client_id, client_secret = creds
+    refresh_token = (os.environ.get("YOUTUBE_REFRESH_TOKEN") or "").strip()
+    if not refresh_token:
+        refresh_token = run_youtube_oauth_flow(client_id, client_secret)
+
+    token_data = urllib.parse.urlencode({
+        "client_id": client_id,
+        "client_secret": client_secret,
+        "refresh_token": refresh_token,
+        "grant_type": "refresh_token",
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        "https://oauth2.googleapis.com/token",
+        data=token_data,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        token_json = json.loads(resp.read().decode("utf-8"))
+    access_token = str(token_json.get("access_token") or "").strip()
+    if not access_token:
+        raise RuntimeError("YouTube アクセストークンの更新に失敗しました。")
+    return access_token
+
+
+def build_youtube_metadata(article: dict[str, Any]) -> tuple[str, str, list[str]]:
+    """
+    記事データから YouTube Shorts 用の (タイトル, 概要欄テキスト, タグ配列) を生成する。
+    - タイトルは 100 文字制限内に収め、末尾に `#Shorts` を付与
+    - 概要欄には要約・記事リンク・登場デバイス・VOICEVOXクレジット表記を記載
+    """
+    raw_title = (article.get("title_ja") or "").strip()
+    if not raw_title or raw_title == "title_ja":
+        raw_title = (article.get("title_en") or "海外エイム＆マウス議論まとめ").strip()
+    # YouTubeタイトルで利用不可の山括弧 < > を置換
+    clean_title = raw_title.replace("<", "＜").replace(">", "＞")
+    suffix = " #Shorts"
+    if "#shorts" in clean_title.lower():
+        title = clean_title[:100]
+    else:
+        max_base = 100 - len(suffix)
+        if len(clean_title) > max_base:
+            clean_title = clean_title[: max_base - 1] + "…"
+        title = clean_title + suffix
+
+    hook = (article.get("hook_ja") or "").strip()
+    points = article.get("consensus_points") or []
+    article_url = (article.get("article_url") or "https://aimswamp.github.io/aimlog/").strip()
+    subreddit = (article.get("subreddit") or "FPSAimTrainer").strip()
+
+    desc_lines: list[str] = []
+    if hook:
+        desc_lines.append(hook)
+        desc_lines.append("")
+    if points:
+        desc_lines.append("【スレッドの要点】")
+        for pt in points[:3]:
+            desc_lines.append(f"・{pt}")
+        desc_lines.append("")
+
+    devices = article.get("devices") or []
+    dev_names = [str(d.get("name") or "").strip() for d in devices if d.get("name")]
+    if dev_names:
+        desc_lines.append(f"【登場デバイス】{', '.join(dev_names[:6])}")
+        desc_lines.append("")
+
+    desc_lines.extend([
+        f"▼ スレッド全訳・登場デバイスの詳細はこちら（エイム沼の海外ログ）",
+        article_url,
+        "",
+        f"出典: Reddit r/{subreddit}",
+        "音声: VOICEVOX:ずんだもん / VOICEVOX:春日部つむぎ",
+        "",
+        "#Shorts #FPS #エイム #ゲーミングマウス #マウスパッド #KovaaKs #Aimlabs #VALORANT #ApexLegends #ずんだもん",
+    ])
+    description = "\n".join(desc_lines).replace("<", "＜").replace(">", "＞")[:4900]
+
+    tags = [
+        "Shorts",
+        "FPS",
+        "エイム",
+        "エイム練習",
+        "ゲーミングマウス",
+        "マウスパッド",
+        "KovaaKs",
+        "Aimlabs",
+        "VALORANT",
+        "ApexLegends",
+        "ずんだもん",
+        "春日部つむぎ",
+        subreddit,
+    ]
+    for dn in dev_names[:4]:
+        clean_dn = dn.replace("<", "").replace(">", "")
+        if len(clean_dn) <= 30 and clean_dn not in tags:
+            tags.append(clean_dn)
+
+    return title, description, tags
+
+
+def upload_video_to_youtube(
+    mp4_path: Path,
+    article: dict[str, Any],
+    access_token: str,
+    privacy_status: str = "public",
+) -> str:
+    """
+    YouTube Data API v3 の Resumable Upload プロトコルを用いて MP4 動画をアップロードし、
+    発行された YouTube Video ID を返す（標準ライブラリのみ）。
+    """
+    title, description, tags = build_youtube_metadata(article)
+    file_size = mp4_path.stat().st_size
+
+    metadata = {
+        "snippet": {
+            "title": title,
+            "description": description,
+            "tags": tags,
+            "categoryId": "20",  # Gaming
+            "defaultLanguage": "ja",
+            "defaultAudioLanguage": "ja",
+        },
+        "status": {
+            "privacyStatus": privacy_status,
+            "selfDeclaredMadeForKids": False,
+        },
+    }
+    meta_bytes = json.dumps(metadata, ensure_ascii=False).encode("utf-8")
+
+    init_url = "https://www.googleapis.com/upload/youtube/v3/videos?uploadType=resumable&part=snippet,status"
+    init_req = urllib.request.Request(
+        init_url,
+        data=meta_bytes,
+        headers={
+            "Authorization": f"Bearer {access_token}",
+            "Content-Type": "application/json; charset=UTF-8",
+            "X-Upload-Content-Length": str(file_size),
+            "X-Upload-Content-Type": "video/mp4",
+        },
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(init_req, timeout=30) as resp:
+            upload_url = resp.headers.get("Location")
+    except urllib.error.HTTPError as e:
+        err_body = ""
+        try:
+            err_body = e.read().decode("utf-8", errors="replace")
+        except Exception:
+            pass
+        raise RuntimeError(f"YouTube Upload 初期化エラー (HTTP {e.code}): {err_body}") from e
+
+    if not upload_url:
+        raise RuntimeError("YouTube Resumable Upload の Location URL が取得できませんでした。")
+
+    video_bytes = mp4_path.read_bytes()
+    put_req = urllib.request.Request(
+        upload_url,
+        data=video_bytes,
+        headers={
+            "Authorization": f"Bearer {access_token}",
+            "Content-Length": str(file_size),
+            "Content-Type": "video/mp4",
+        },
+        method="PUT",
+    )
+
+    try:
+        with urllib.request.urlopen(put_req, timeout=300) as resp:
+            res_json = json.loads(resp.read().decode("utf-8"))
+            video_id = str(res_json.get("id") or "").strip()
+            if not video_id:
+                raise RuntimeError(f"レスポンスに動画IDが含まれていません: {res_json}")
+            return video_id
+    except urllib.error.HTTPError as e:
+        err_body = ""
+        try:
+            err_body = e.read().decode("utf-8", errors="replace")
+        except Exception:
+            pass
+        raise RuntimeError(f"YouTube 動画データ送信エラー (HTTP {e.code}): {err_body}") from e
+
+
+def interactive_youtube_setup() -> None:
+    """`python make_short.py --youtube-setup` 実行時の対話式セットアップウィザード。"""
+    load_dotenv()
+    print("\n" + "=" * 72)
+    print("🎬 YouTube Shorts 自動アップロード 初回セットアップ")
+    print("=" * 72)
+    creds = get_youtube_client_credentials()
+    if not creds:
+        print(
+            "\n【事前準備（Google Cloud Console で1回だけ行います・無料）】\n"
+            "1. https://console.cloud.google.com/ を開き、プロジェクトを作成（または選択）\n"
+            "2. 「APIとサービス」＞「ライブラリ」から『YouTube Data API v3』を検索して「有効にする」\n"
+            "3. 「APIとサービス」＞「OAuth 同意画面」を設定（外部 / テストユーザーに自分のGoogleアカウントを追加）\n"
+            "4. 「APIとサービス」＞「認証情報」＞「認証情報を作成」＞「OAuth クライアント ID」\n"
+            "   - アプリケーションの種類: 『デスクトップ アプリ』\n"
+            "5. 発行された JSON（client_secret_xxx.json）をこのフォルダ（D:\\antigrav\\svngs）に置くか、\n"
+            "   以下に クライアントID と クライアントシークレット を貼り付けてください。\n"
+        )
+        cid = input("YOUTUBE_CLIENT_ID を入力してください: ").strip()
+        csec = input("YOUTUBE_CLIENT_SECRET を入力してください: ").strip()
+        if not cid or not csec:
+            print("[ERROR] クライアントIDまたはシークレットが空のため中断しました。", file=sys.stderr)
+            sys.exit(1)
+        save_env_var("YOUTUBE_CLIENT_ID", cid)
+        save_env_var("YOUTUBE_CLIENT_SECRET", csec)
+        creds = (cid, csec)
+
+    run_youtube_oauth_flow(creds[0], creds[1])
+    print("\n[DONE] セットアップ完了！次回から `python make_short.py` で自動的にYouTubeへ公開投稿＆MP4削除が行われます。")
+
+
+def _parse_max_uploads_arg(argv: list[str]) -> int:
+    """コマンドライン引数 `--max-uploads N` または環境変数 `YOUTUBE_MAX_UPLOADS_PER_RUN` から1回あたりの上限を取得する。"""
+    for i, arg in enumerate(argv):
+        if arg == "--max-uploads" and i + 1 < len(argv):
+            try:
+                return max(0, int(argv[i + 1]))
+            except ValueError:
+                pass
+        elif arg.startswith("--max-uploads="):
+            try:
+                return max(0, int(arg.split("=", 1)[1]))
+            except ValueError:
+                pass
+    env_val = (os.environ.get("YOUTUBE_MAX_UPLOADS_PER_RUN") or "").strip()
+    if env_val:
+        try:
+            return max(0, int(env_val))
+        except ValueError:
+            pass
+    return DEFAULT_MAX_UPLOADS_PER_RUN
+
+
 def main() -> None:
     if "--self-test" in sys.argv:
         assert format_srt_time(65.432) == "00:01:05,432"
         assert "アーティザン" in to_voicevox_reading("ARTISANのパッド")
         assert "キークロン エムシックス" in to_voicevox_reading("Keychron M6が候補")
         assert "スーパーストライク" in to_voicevox_reading("Superstrike X3")
+        t, d, tags = build_youtube_metadata({
+            "id": "demo",
+            "title_ja": "【検証】ガラスマウスパッドのメリットと弱点まとめ",
+            "hook_ja": "海外Redditで話題のガラスパッド議論を要約！",
+            "consensus_points": ["初動が軽い", "アームカバー必須"],
+            "devices": [{"name": "Wallhack SP-004"}],
+            "subreddit": "MousepadReview",
+        })
+        assert t.endswith("#Shorts") and len(t) <= 100
+        assert "VOICEVOX:ずんだもん" in d and "Wallhack SP-004" in d
+        assert "Shorts" in tags
         print("SHORT_SELF_TEST_OK")
+        return
+
+    load_dotenv()
+
+    if "--youtube-setup" in sys.argv:
+        interactive_youtube_setup()
         return
 
     if not ARTICLES_FILE.exists():
         print("[ERROR] `data/articles.json` が見つかりません。先に `python pipeline.py` を実行してください。", file=sys.stderr)
         sys.exit(1)
 
-    if not check_prerequisites():
-        sys.exit(1)
+    articles: list[dict[str, Any]] = json.loads(ARTICLES_FILE.read_text(encoding="utf-8"))
+    history = load_shorts_history()
+    if sync_state_between_articles_and_history(articles, history):
+        save_articles_json(articles)
+        save_shorts_history(history)
 
-    bgm_path, se_paths = ensure_default_sound_assets()
-
-    BG_DIR.mkdir(parents=True, exist_ok=True)
-    bg_files: list[Path] = []
-    for ext in ("*.mp4", "*.mov", "*.mkv", "*.webm"):
-        bg_files.extend(sorted(BG_DIR.glob(ext)))
-
-    if not bg_files:
-        print("[WARN] `assets/bg/` に背景用の動画 (.mp4 等) が見つからないため、ダーク背景で動画を生成します。")
-
-    articles = json.loads(ARTICLES_FILE.read_text(encoding="utf-8"))
     target_articles = [a for a in articles if a.get("status") == "published"]
     if not target_articles:
-        print("[INFO] `published` 状態の記事がないため、`draft` 記事からショート動画を生成します。")
+        print("[INFO] `published` 状態の記事がないため、`draft` 記事を対象にします。")
         target_articles = list(articles)
 
     # 8行構成の新しい台本（または新しい記事）を優先して処理する
@@ -1101,20 +1657,157 @@ def main() -> None:
         reverse=True,
     )
 
-    generated_count = 0
-    for idx, art in enumerate(target_articles):
-        out_mp4 = SHORTS_OUT_DIR / f"{art['id']}.mp4"
-        if out_mp4.exists() and "--force" not in sys.argv:
-            print(f"[SKIP] 既に生成済みです: {out_mp4} (上書き再生成する場合は `python make_short.py --force` を実行)")
-            continue
-        bg = bg_files[idx % len(bg_files)] if bg_files else None
-        print(f"\n[INFO] ({idx + 1}/{len(target_articles)}) ショート動画生成開始: {art['title_ja']}")
-        build_short_for_article(art, bg, bgm_path, se_paths, out_mp4)
-        generated_count += 1
+    force_regen = "--force" in sys.argv
+    upload_only = "--upload-only" in sys.argv
+    no_upload = "--no-upload" in sys.argv
+    keep_mp4 = "--keep-mp4" in sys.argv or (os.environ.get("YOUTUBE_KEEP_MP4") or "").strip().lower() in ("1", "true", "yes")
+    privacy_status = (os.environ.get("YOUTUBE_PRIVACY_STATUS") or "public").strip() or "public"
+    max_uploads = _parse_max_uploads_arg(sys.argv)
 
-    print(f"\n[DONE] ショート動画の生成処理が完了しました（新規生成: {generated_count}本 / 保存先: {SHORTS_OUT_DIR}）")
+    # --- Step 1: 未生成記事のショート動画生成（一度生成した記事はMP4を消しても再生成しない） ---
+    generated_count = 0
+    if not upload_only:
+        existing_ready_mp4s = sum(
+            1 for art in target_articles
+            if (SHORTS_OUT_DIR / f"{art['id']}.mp4").exists()
+            and not (art.get("youtube_video_id") or history.get(str(art.get("id") or ""), {}).get("youtube_video_id"))
+        )
+
+        need_gen_articles = [
+            art for art in target_articles
+            if force_regen or not (
+                art.get("short_generated")
+                or history.get(str(art.get("id") or ""), {}).get("short_generated")
+                or art.get("youtube_video_id")
+                or (SHORTS_OUT_DIR / f"{art['id']}.mp4").exists()
+            )
+        ]
+
+        # HDD圧迫＆長時間待機を防ぐため、`--all` 指定時以外は今回のアップロード上限（max_uploads）に必要な本数だけ生成する
+        if "--all" not in sys.argv and not force_regen and max_uploads > 0:
+            gen_budget = max(0, max_uploads - existing_ready_mp4s)
+            if len(need_gen_articles) > gen_budget:
+                print(
+                    f"[INFO] 未生成の公開記事が {len(need_gen_articles)} 件あります。"
+                    f"HDD節約のため、今回のアップロード枠（最大{max_uploads}本、既存未投稿MP4 {existing_ready_mp4s}本）に合わせて "
+                    f"{gen_budget} 本を生成します。"
+                )
+                need_gen_articles = need_gen_articles[:gen_budget]
+
+        if need_gen_articles:
+            if not check_prerequisites():
+                sys.exit(1)
+            bgm_path, se_paths = ensure_default_sound_assets()
+
+            BG_DIR.mkdir(parents=True, exist_ok=True)
+            bg_files: list[Path] = []
+            for ext in ("*.mp4", "*.mov", "*.mkv", "*.webm"):
+                bg_files.extend(sorted(BG_DIR.glob(ext)))
+            if not bg_files:
+                print("[WARN] `assets/bg/` に背景用の動画 (.mp4 等) が見つからないため、ダーク背景で動画を生成します。")
+
+            for idx, art in enumerate(need_gen_articles):
+                aid = str(art["id"])
+                out_mp4 = SHORTS_OUT_DIR / f"{aid}.mp4"
+                bg = bg_files[idx % len(bg_files)] if bg_files else None
+                print(f"\n[INFO] ({idx + 1}/{len(need_gen_articles)}) ショート動画生成開始: [{aid}] {art.get('title_ja')}")
+                build_short_for_article(art, bg, bgm_path, se_paths, out_mp4)
+                if out_mp4.exists():
+                    now_iso = dt.datetime.now(dt.timezone.utc).isoformat()
+                    art["short_generated"] = True
+                    art["short_generated_at"] = now_iso
+                    sync_state_between_articles_and_history(articles, history)
+                    save_articles_json(articles)
+                    save_shorts_history(history)
+                    generated_count += 1
+        elif existing_ready_mp4s > 0:
+            print(f"[INFO] 既に未アップロードの生成済みMP4が {existing_ready_mp4s} 本あるため、新規生成をスキップしてアップロードに進みます。")
+        else:
+            print("[INFO] すべての対象記事はショート動画生成済みです（生成済み動画はMP4削除後も再生成されません）。")
+
+    # --- Step 2: YouTube Shorts への自動アップロード ＆ アップロード完了後の MP4 自動削除 ---
+    uploaded_count = 0
+    deleted_count = 0
+    if not no_upload:
+        pending_uploads: list[tuple[dict[str, Any], Path]] = []
+        for art in target_articles:
+            aid = str(art.get("id") or "").strip()
+            if not aid:
+                continue
+            mp4_path = SHORTS_OUT_DIR / f"{aid}.mp4"
+            already_uploaded = bool(
+                art.get("youtube_video_id")
+                or history.get(aid, {}).get("youtube_video_id")
+            )
+            if mp4_path.exists():
+                if already_uploaded and not keep_mp4:
+                    # 既にYouTube投稿済みの動画ファイルが残っていれば自動削除してHDDを空ける
+                    try:
+                        mp4_path.unlink()
+                        deleted_count += 1
+                        print(f"[CLEAN] YouTube投稿済みのローカル動画を削除しました: {mp4_path}")
+                    except Exception as e:
+                        print(f"[WARN] 動画削除失敗 ({mp4_path}): {e}", file=sys.stderr)
+                elif not already_uploaded:
+                    pending_uploads.append((art, mp4_path))
+
+        if pending_uploads:
+            try:
+                access_token = get_youtube_access_token()
+            except Exception as e:
+                print(f"[WARN] YouTube OAuth 認証に失敗したためアップロードをスキップしました: {e}", file=sys.stderr)
+                access_token = None
+
+            if not access_token:
+                print(
+                    "\n[INFO] YouTube 自動アップロードを行うには、初回のみ以下のコマンドでOAuth設定を行ってください：\n"
+                    "       python make_short.py --youtube-setup\n"
+                    f"       （未アップロードの動画 {len(pending_uploads)} 本は {SHORTS_OUT_DIR} に保持されています）"
+                )
+            else:
+                to_upload = pending_uploads[:max_uploads] if max_uploads > 0 else []
+                print(
+                    f"\n[INFO] YouTube Shorts 自動アップロードを開始します "
+                    f"(対象: {len(to_upload)}/{len(pending_uploads)}本 / 公開設定: {privacy_status})"
+                )
+                for idx, (art, mp4_path) in enumerate(to_upload, start=1):
+                    aid = str(art["id"])
+                    print(f"  -> ({idx}/{len(to_upload)}) アップロード中: [{aid}] {art.get('title_ja')} ...")
+                    try:
+                        video_id = upload_video_to_youtube(mp4_path, art, access_token, privacy_status=privacy_status)
+                        yt_url = f"https://youtube.com/shorts/{video_id}"
+                        now_iso = dt.datetime.now(dt.timezone.utc).isoformat()
+                        art["short_generated"] = True
+                        art["youtube_video_id"] = video_id
+                        art["youtube_url"] = yt_url
+                        art["youtube_uploaded_at"] = now_iso
+                        sync_state_between_articles_and_history(articles, history)
+                        save_articles_json(articles)
+                        save_shorts_history(history)
+                        uploaded_count += 1
+                        print(f"  [OK] YouTube公開完了: {yt_url}")
+
+                        if not keep_mp4:
+                            try:
+                                mp4_path.unlink()
+                                deleted_count += 1
+                                print(f"  [CLEAN] HDD容量節約のためアップロード済みMP4を削除しました: {mp4_path}")
+                            except Exception as del_err:
+                                print(f"  [WARN] MP4削除失敗 ({mp4_path}): {del_err}", file=sys.stderr)
+                    except Exception as up_err:
+                        err_msg = str(up_err)
+                        print(f"  [WARN] YouTubeアップロード失敗 ({aid}): {err_msg}", file=sys.stderr)
+                        if "quotaExceeded" in err_msg or "uploadLimitExceeded" in err_msg:
+                            print("  [INFO] YouTube API の1日あたりアップロード上限に達したため、残りは次回実行時に持ち越します。")
+                            break
+
+    print(
+        f"\n[DONE] 処理完了！（新規動画生成: {generated_count}本 / "
+        f"YouTube投稿: {uploaded_count}本 / HDD解放削除: {deleted_count}本）"
+    )
 
 
 if __name__ == "__main__":
     main()
+
 
