@@ -77,6 +77,14 @@ SHORTS_OUT_DIR = Path("dist/shorts")
 # YouTube Data API v3 の無料クォータ (10,000 units/day, 1本あたり約1,600 units = 最大6本/日) を考慮した1回あたりの上限
 DEFAULT_MAX_UPLOADS_PER_RUN = 5
 YOUTUBE_OAUTH_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
+# ショートフィードの連投ロック（1〜2回再生止まり）を防ぎ、日本のFPS層がアクティブな時間帯に1本ずつ公開するJST時刻スロット
+YOUTUBE_SCHEDULE_SLOTS_JST: list[tuple[int, int]] = [
+    (7, 30),   # 朝の通勤・通学枠
+    (12, 15),  # 昼休み枠
+    (18, 0),   # 夕方の帰宅・放課後枠
+    (21, 0),   # 夜のゴールデンタイム枠
+]
+YOUTUBE_MIN_GAP_HOURS = 4.0
 
 
 # VOICEVOX がアルファベット綴り読み（A-R-T-I-S-A-N 等）や誤読（キーチロン等）するのを防ぐ読み仮名辞書
@@ -1184,6 +1192,7 @@ def sync_state_between_articles_and_history(
         if yt_id and not yt_url:
             yt_url = f"https://youtube.com/shorts/{yt_id}"
         yt_at = str(art.get("youtube_uploaded_at") or h.get("youtube_uploaded_at") or "").strip()
+        yt_pub_at = str(art.get("youtube_publish_at") or h.get("youtube_publish_at") or "").strip()
         gen_at = str(
             art.get("short_generated_at")
             or h.get("short_generated_at")
@@ -1202,6 +1211,9 @@ def sync_state_between_articles_and_history(
             if yt_at:
                 art["youtube_uploaded_at"] = yt_at
             changed = True
+        if yt_pub_at and art.get("youtube_publish_at") != yt_pub_at:
+            art["youtube_publish_at"] = yt_pub_at
+            changed = True
 
         if is_gen or yt_id:
             new_h = {
@@ -1212,6 +1224,7 @@ def sync_state_between_articles_and_history(
                 "youtube_video_id": yt_id,
                 "youtube_url": yt_url,
                 "youtube_uploaded_at": yt_at,
+                "youtube_publish_at": yt_pub_at,
             }
             if history.get(aid) != new_h:
                 history[aid] = new_h
@@ -1473,18 +1486,126 @@ def build_youtube_metadata(article: dict[str, Any]) -> tuple[str, str, list[str]
     return title, description, tags
 
 
+def _parse_iso_datetime(val: str) -> dt.datetime | None:
+    """ISO 8601 文字列を UTC aware な datetime に変換する。"""
+    s = (val or "").strip()
+    if not s:
+        return None
+    try:
+        if s.endswith("Z"):
+            s = s[:-1] + "+00:00"
+        d = dt.datetime.fromisoformat(s)
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=dt.timezone.utc)
+        return d.astimezone(dt.timezone.utc)
+    except Exception:
+        return None
+
+
+def _next_golden_slot_jst(after_jst: dt.datetime) -> dt.datetime:
+    """`after_jst` より後にある直近のゴールデンタイム枠（JST: 07:30, 12:15, 18:00, 21:00）を返す。"""
+    jst_tz = dt.timezone(dt.timedelta(hours=9))
+    base_date = after_jst.date()
+    for day_offset in range(0, 8):
+        cur_date = base_date + dt.timedelta(days=day_offset)
+        for hour, minute in YOUTUBE_SCHEDULE_SLOTS_JST:
+            cand = dt.datetime(cur_date.year, cur_date.month, cur_date.day, hour, minute, 0, tzinfo=jst_tz)
+            if cand > after_jst:
+                return cand
+    return after_jst + dt.timedelta(hours=6)
+
+
+def plan_youtube_publish_schedule(
+    count: int,
+    history: dict[str, dict[str, Any]],
+    immediate_all: bool = False,
+    now_utc: dt.datetime | None = None,
+) -> list[str | None]:
+    """
+    ショートフィードの連投ロック（1〜2回再生止まり）を防ぐため、アップロードする `count` 本の公開スケジュールを計算する。
+    - 戻り値の要素が `None` の場合は「即時公開 (public)」
+    - 戻り値の要素が ISO 文字列 (`YYYY-MM-DDTHH:MM:SSZ`) の場合は「指定時刻に自動公開される予約投稿 (private + publishAt)」
+    - 過去の投稿・予約履歴を参照し、直近4時間以内に投稿がない場合は1本目を即時公開、2本目以降をJSTゴールデンタイム枠へ順番に予約する。
+      既に直近で投稿済み、または未来の予約枠が埋まっている場合は、そのさらに後ろの空きゴールデンタイム枠へ自動連結する。
+    """
+    if count <= 0:
+        return []
+    if immediate_all:
+        return [None] * count
+
+    jst_tz = dt.timezone(dt.timedelta(hours=9))
+    if now_utc is None:
+        now_utc = dt.datetime.now(dt.timezone.utc)
+    now_jst = now_utc.astimezone(jst_tz)
+
+    latest_scheduled_utc: dt.datetime | None = None
+    for h in history.values():
+        if not h.get("youtube_video_id"):
+            continue
+        pub_dt = _parse_iso_datetime(str(h.get("youtube_publish_at") or "")) or _parse_iso_datetime(
+            str(h.get("youtube_uploaded_at") or "")
+        )
+        if pub_dt and (latest_scheduled_utc is None or pub_dt > latest_scheduled_utc):
+            latest_scheduled_utc = pub_dt
+
+    schedule: list[str | None] = []
+    min_gap = dt.timedelta(hours=YOUTUBE_MIN_GAP_HOURS)
+
+    if latest_scheduled_utc is None or (now_utc - latest_scheduled_utc) >= min_gap:
+        # 直近4時間以内に公開された動画がなく、未来の予約もなければ1本目は即時公開
+        schedule.append(None)
+        cursor_jst = now_jst + dt.timedelta(hours=3)
+    else:
+        # 直近で公開済み、または未来に予約済みの動画がある場合は、最後の公開予定時刻の後ろからスロットを探す
+        base_utc = max(now_utc + dt.timedelta(minutes=30), latest_scheduled_utc + dt.timedelta(hours=2, minutes=30))
+        cursor_jst = base_utc.astimezone(jst_tz)
+
+    while len(schedule) < count:
+        next_slot_jst = _next_golden_slot_jst(cursor_jst)
+        slot_utc = next_slot_jst.astimezone(dt.timezone.utc)
+        schedule.append(slot_utc.strftime("%Y-%m-%dT%H:%M:%SZ"))
+        # 次の動画はその次のゴールデンタイム枠に入るようカーソルを2時間半進める
+        cursor_jst = next_slot_jst + dt.timedelta(hours=2, minutes=30)
+
+    return schedule
+
+
+def format_publish_at_jst_label(publish_at_iso: str | None) -> str:
+    """ログ表示用に予約時刻を日本時間（JST）の分かりやすい文字列に変換する。"""
+    if not publish_at_iso:
+        return "即時公開 (public)"
+    dt_utc = _parse_iso_datetime(publish_at_iso)
+    if not dt_utc:
+        return f"予約公開 ({publish_at_iso})"
+    jst_tz = dt.timezone(dt.timedelta(hours=9))
+    dt_jst = dt_utc.astimezone(jst_tz)
+    return f"予約公開 ({dt_jst.strftime('%Y-%m-%d %H:%M')} JST)"
+
+
 def upload_video_to_youtube(
     mp4_path: Path,
     article: dict[str, Any],
     access_token: str,
     privacy_status: str = "public",
+    publish_at: str | None = None,
 ) -> str:
     """
     YouTube Data API v3 の Resumable Upload プロトコルを用いて MP4 動画をアップロードし、
     発行された YouTube Video ID を返す（標準ライブラリのみ）。
+    `publish_at` (ISO 8601 UTC文字列) が指定された場合はスケジュール予約公開 (`private` + `publishAt`) として登録する。
     """
     title, description, tags = build_youtube_metadata(article)
     file_size = mp4_path.stat().st_size
+
+    status_block: dict[str, Any] = {
+        "selfDeclaredMadeForKids": False,
+    }
+    if publish_at:
+        # YouTube API の仕様上、publishAt（予約投稿）を使う場合は privacyStatus を "private" にする必要がある
+        status_block["privacyStatus"] = "private"
+        status_block["publishAt"] = publish_at
+    else:
+        status_block["privacyStatus"] = privacy_status
 
     metadata = {
         "snippet": {
@@ -1495,10 +1616,7 @@ def upload_video_to_youtube(
             "defaultLanguage": "ja",
             "defaultAudioLanguage": "ja",
         },
-        "status": {
-            "privacyStatus": privacy_status,
-            "selfDeclaredMadeForKids": False,
-        },
+        "status": status_block,
     }
     meta_bytes = json.dumps(metadata, ensure_ascii=False).encode("utf-8")
 
@@ -1627,6 +1745,21 @@ def main() -> None:
         assert t.endswith("#Shorts") and len(t) <= 100
         assert "VOICEVOX:ずんだもん" in d and "Wallhack SP-004" in d
         assert "Shorts" in tags
+        # 予約投稿スケジュールのテスト（1本目は即時、2本目以降はJSTゴールデンタイム予約）
+        test_now = dt.datetime(2026, 11, 5, 0, 0, 0, tzinfo=dt.timezone.utc)  # 09:00 JST
+        sched_empty = plan_youtube_publish_schedule(3, {}, immediate_all=False, now_utc=test_now)
+        assert sched_empty[0] is None
+        assert sched_empty[1] == "2026-11-05T03:15:00Z"  # 12:15 JST
+        assert sched_empty[2] == "2026-11-05T09:00:00Z"  # 18:00 JST
+        # 直近投稿ありの場合は1本目から予約枠に入ることを確認
+        sched_recent = plan_youtube_publish_schedule(
+            2,
+            {"prev": {"youtube_video_id": "v1", "youtube_uploaded_at": "2026-11-04T23:00:00Z"}},
+            immediate_all=False,
+            now_utc=test_now,
+        )
+        assert sched_recent[0] == "2026-11-05T03:15:00Z"
+        assert sched_recent[1] == "2026-11-05T09:00:00Z"
         print("SHORT_SELF_TEST_OK")
         return
 
@@ -1766,26 +1899,42 @@ def main() -> None:
                 )
             else:
                 to_upload = pending_uploads[:max_uploads] if max_uploads > 0 else []
+                immediate_all = "--now" in sys.argv
+                schedule_list = plan_youtube_publish_schedule(
+                    len(to_upload),
+                    history,
+                    immediate_all=immediate_all,
+                )
+                mode_desc = "全件即時公開 (--now)" if immediate_all else "連投ロック防止・ゴールデンタイム自動予約モード (07:30 / 12:15 / 18:00 / 21:00 JST)"
                 print(
                     f"\n[INFO] YouTube Shorts 自動アップロードを開始します "
-                    f"(対象: {len(to_upload)}/{len(pending_uploads)}本 / 公開設定: {privacy_status})"
+                    f"(対象: {len(to_upload)}/{len(pending_uploads)}本 / モード: {mode_desc})"
                 )
-                for idx, (art, mp4_path) in enumerate(to_upload, start=1):
+                for idx, ((art, mp4_path), pub_at) in enumerate(zip(to_upload, schedule_list), start=1):
                     aid = str(art["id"])
-                    print(f"  -> ({idx}/{len(to_upload)}) アップロード中: [{aid}] {art.get('title_ja')} ...")
+                    pub_label = format_publish_at_jst_label(pub_at)
+                    print(f"  -> ({idx}/{len(to_upload)}) アップロード中 [{pub_label}]: [{aid}] {art.get('title_ja')} ...")
                     try:
-                        video_id = upload_video_to_youtube(mp4_path, art, access_token, privacy_status=privacy_status)
+                        video_id = upload_video_to_youtube(
+                            mp4_path,
+                            art,
+                            access_token,
+                            privacy_status=privacy_status,
+                            publish_at=pub_at,
+                        )
                         yt_url = f"https://youtube.com/shorts/{video_id}"
                         now_iso = dt.datetime.now(dt.timezone.utc).isoformat()
+                        effective_pub_at = pub_at or now_iso
                         art["short_generated"] = True
                         art["youtube_video_id"] = video_id
                         art["youtube_url"] = yt_url
                         art["youtube_uploaded_at"] = now_iso
+                        art["youtube_publish_at"] = effective_pub_at
                         sync_state_between_articles_and_history(articles, history)
                         save_articles_json(articles)
                         save_shorts_history(history)
                         uploaded_count += 1
-                        print(f"  [OK] YouTube公開完了: {yt_url}")
+                        print(f"  [OK] YouTubeアップロード完了 ({pub_label}): {yt_url}")
 
                         if not keep_mp4:
                             try:
