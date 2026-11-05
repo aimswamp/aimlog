@@ -1952,12 +1952,28 @@ def main() -> None:
                 bg_files.extend(sorted(BG_DIR.glob(ext)))
             if not bg_files:
                 print("[WARN] `assets/bg/` に背景用の動画 (.mp4 等) が見つからないため、ダーク背景で動画を生成します。")
+            else:
+                random.shuffle(bg_files)
+                print(f"[INFO] `assets/bg/` から背景動画 {len(bg_files)} 本を検出し、ランダム順に選択します。")
 
+            last_bg: Path | None = None
+            bg_pool: list[Path] = []
             for idx, art in enumerate(need_gen_articles):
                 aid = str(art["id"])
                 out_mp4 = SHORTS_OUT_DIR / f"{aid}.mp4"
-                bg = bg_files[idx % len(bg_files)] if bg_files else None
+                bg: Path | None = None
+                if bg_files:
+                    if not bg_pool:
+                        bg_pool = list(bg_files)
+                        random.shuffle(bg_pool)
+                        # 2本以上素材がある場合は、前の周回の最後と同じ動画が連続しないよう調整
+                        if len(bg_pool) > 1 and bg_pool[0] == last_bg:
+                            bg_pool.append(bg_pool.pop(0))
+                    bg = bg_pool.pop(0)
+                    last_bg = bg
                 print(f"\n[INFO] ({idx + 1}/{len(need_gen_articles)}) ショート動画生成開始: [{aid}] {art.get('title_ja')}")
+                if bg:
+                    print(f"  -> 使用する背景動画: {bg.name}")
                 build_short_for_article(art, bg, bgm_path, se_paths, out_mp4)
                 if out_mp4.exists():
                     now_iso = dt.datetime.now(dt.timezone.utc).isoformat()
