@@ -42,9 +42,9 @@ SPEAKER_MAP = {
     "aoyama": 8,     # 旧データの aoyama も春日部つむぎに自動マッピング
 }
 
-# ショート動画向けのテンポ設定（1.20倍速・文末の間0.10秒でサクサク進行）
-VOICE_SPEED_SCALE = 1.20
-VOICE_POST_PHONEME_LENGTH = 0.10
+# ショート動画向けのテンポ設定（平均視聴率70%超えを狙う1.24倍速・文末の間0.06秒で小気味よく進行）
+VOICE_SPEED_SCALE = 1.24
+VOICE_POST_PHONEME_LENGTH = 0.06
 
 # ミックス音量設定
 VOICE_VOLUME = 1.25
@@ -946,7 +946,8 @@ def build_short_for_article(
             concat_lines.append(f"file '{wav_name}'")
             current_time += duration
 
-        total_sec = current_time + 0.4
+        # 末尾の無音余白を最小限（0.15秒）に引き締めて平均視聴維持率を高める
+        total_sec = current_time + 0.15
         # 登場デバイスポップアップの紐付けと SE トラックの生成
         assign_device_overlays(article, timed_lines)
         build_se_track_wav(timed_lines, total_sec, se_paths, se_track_path)
@@ -1708,6 +1709,105 @@ def interactive_youtube_setup() -> None:
     print("\n[DONE] セットアップ完了！次回から `python make_short.py` で自動的にYouTubeへ公開投稿＆MP4削除が行われます。")
 
 
+def score_article_for_shorts(article: dict[str, Any]) -> float:
+    """
+    YouTube Shorts の実測アナリティクスに基づき、1,000再生超え＆サイト誘導・アフィリエイト成約が
+    出やすい「鉄板テーマ記事」を優先するためのスコアを計算する。
+    - 加点:
+      1) 全FPS層に刺さる設定・エイム理論 (DPI, 感度, 振り向き, トラッキング, マイクロフリック, 脱力, 持ち方)
+      2) 購買直結のデバイス比較・組み合わせ (ガラスパッド, ソール, ARTISAN, Viper, SUPERLIGHT, OP1, Wallhack 等)
+      3) 登場デバイス (`devices`) が登録されている記事（画面上部に登場デバイスバッジが表示される）
+      4) 元スレッドのコメント数・スコア
+    - 減点:
+      海外ローカル店舗や個人の身の上話（Best Buy, ギフト券, 盗難, アレルギー, カスタムペイント代行 等）
+    """
+    title = str(article.get("title_ja") or "")
+    hook = str(article.get("hook_ja") or "")
+    devs = article.get("devices") or []
+    dev_names = " ".join(str(d.get("name") or "") for d in devs if isinstance(d, dict))
+    text = f"{title} {hook} {dev_names}".lower()
+
+    score = 0.0
+
+    # 1. 台本行数が充実している（5行以上）記事を最優先ベースにする
+    script_len = len(article.get("short_script") or [])
+    if script_len >= 5:
+        score += 100.0
+
+    # 2. 登場デバイス数ボーナス（画面上部バッジ表示＆アフィリエイト成約に直結）
+    if devs:
+        score += min(len(devs), 4) * 12.0
+
+    # 3. 1,000再生超え実績のある鉄板キーワード加点
+    high_impact_keywords = [
+        ("dpi", 28.0),
+        ("感度", 22.0),
+        ("センシ", 22.0),
+        ("振り向き", 20.0),
+        ("ガラス", 26.0),
+        ("ソール", 26.0),
+        ("ptfe", 18.0),
+        ("u9", 18.0),
+        ("jade", 18.0),
+        ("obsidian", 18.0),
+        ("artisan", 25.0),
+        ("零", 20.0),
+        ("飛燕", 20.0),
+        ("疾風", 20.0),
+        ("雷電", 20.0),
+        ("99式", 20.0),
+        ("viper", 25.0),
+        ("superlight", 25.0),
+        ("gpx", 24.0),
+        ("deathadder", 20.0),
+        ("wallhack", 22.0),
+        ("sp-004", 22.0),
+        ("op1", 22.0),
+        ("zowie", 18.0),
+        ("pulsar", 18.0),
+        ("lamzu", 18.0),
+        ("kovaak", 16.0),
+        ("voltaic", 16.0),
+        ("トラッキング", 16.0),
+        ("マイクロフリック", 18.0),
+        ("フリック", 14.0),
+        ("脱力", 18.0),
+        ("力み", 16.0),
+        ("つかみ持ち", 18.0),
+        ("つまみ持ち", 18.0),
+        ("かぶせ持ち", 18.0),
+        ("グリップ", 14.0),
+        ("軽量", 16.0),
+        ("比較", 15.0),
+        ("おすすめ", 14.0),
+        ("移行", 14.0),
+    ]
+    for kw, pts in high_impact_keywords:
+        if kw in text:
+            score += pts
+
+    # 4. ニッチすぎる個人雑談・海外店舗固有ネタは後回しにする減点
+    low_appeal_keywords = [
+        ("盗難", -45.0),
+        ("ギフト券", -45.0),
+        ("best buy", -45.0),
+        ("アレルギー", -35.0),
+        ("ペイント代行", -30.0),
+        ("カスタムペイント", -25.0),
+        ("偽物", -20.0),
+        ("aliexpress", -20.0),
+    ]
+    for kw, penalty in low_appeal_keywords:
+        if kw in text:
+            score += penalty
+
+    # 5. 元スレッドのコメント数による微調整（最大+15点）
+    num_comments = int(article.get("num_comments") or 0)
+    score += min(num_comments, 50) * 0.3
+
+    return score
+
+
 def _parse_max_uploads_arg(argv: list[str]) -> int:
     """コマンドライン引数 `--max-uploads N` または環境変数 `YOUTUBE_MAX_UPLOADS_PER_RUN` から1回あたりの上限を取得する。"""
     for i, arg in enumerate(argv):
@@ -1762,6 +1862,18 @@ def main() -> None:
         )
         assert sched_recent[0] == "2026-11-05T03:15:00Z"
         assert sched_recent[1] == "2026-11-05T09:00:00Z"
+        # 鉄板テーマ優先スコアリングのテスト
+        high_art = {
+            "title_ja": "400DPIから1600DPIへ移行すべきか？ガラスパッドとViper V3 Proの比較",
+            "devices": [{"name": "Razer Viper V3 Pro"}],
+            "short_script": [{}] * 8,
+        }
+        low_art = {
+            "title_ja": "Best Buyのギフト券で盗難被害の代替え機探し",
+            "devices": [],
+            "short_script": [{}] * 8,
+        }
+        assert score_article_for_shorts(high_art) > score_article_for_shorts(low_art) + 80
         print("SHORT_SELF_TEST_OK")
         return
 
@@ -1786,9 +1898,9 @@ def main() -> None:
         print("[INFO] `published` 状態の記事がないため、`draft` 記事を対象にします。")
         target_articles = list(articles)
 
-    # 8行構成の新しい台本（または新しい記事）を優先して処理する
+    # 1,000再生超え＆アフィリエイト成約が出やすい鉄板テーマ（DPI・ガラスパッド・人気デバイス比較等）のスコア順で優先処理する
     target_articles.sort(
-        key=lambda a: (len(a.get("short_script") or []) >= 5, a.get("created_at", "")),
+        key=lambda a: (score_article_for_shorts(a), a.get("created_at", "")),
         reverse=True,
     )
 
