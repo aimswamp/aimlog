@@ -566,7 +566,12 @@ def build_se_track_wav(
             start_idx = 0
             chosen = se_samples.get("hook", [])
             gain = 0.48
-        elif any(kw in text for kw in point_keywords) or (len(timed_lines) == 2 and idx == 1):
+        elif (
+            idx == len(timed_lines) - 1
+            or any(kw in text for kw in point_keywords)
+            or (len(timed_lines) == 2 and idx == 1)
+        ):
+            # 重要キーワード行およびラストのプロフィールリンク誘導ポップアップ表示時に「パッ」を鳴らす
             chosen = se_samples.get("point", [])
             gain = 0.80
         else:
@@ -785,13 +790,30 @@ def assign_device_overlays(article: dict[str, Any], timed_lines: list[dict[str, 
             dev_cursor += 1
 
 
+def ensure_cta_ending_line(spoken_text: str, speaker_key: str, has_devices: bool) -> str:
+    """
+    動画の最終行（締めの一言）にサイト・プロフィールリンクへの誘導が含まれていない場合、
+    視聴者がアイコンからプロフィールリンクへ遷移しやすい自然な一言へ変換する。
+    """
+    if any(kw in spoken_text for kw in ("プロフ", "プロフィール", "リンク", "エイム沼")):
+        return spoken_text
+    if speaker_key == "zundamon":
+        if has_devices:
+            return "登場デバイスやスレ全訳はプロフィールのリンクにまとめてあるのだ！"
+        return "スレッドの全文翻訳はプロフィールのリンクから読めるのだ！"
+    else:
+        if has_devices:
+            return "紹介したデバイスやスレ全訳はプロフィールのリンクにまとめてあるよ！"
+        return "スレッドの全文翻訳はプロフィールのリンクから読めるよ！"
+
+
 def build_ass_subtitles(article: dict[str, Any], timed_lines: list[dict[str, Any]], total_sec: float) -> str:
     """
     1080x1920 縦型ショート動画用の ASS 字幕を生成する。
     - 画面中央（クロスヘア＆ターゲット y=520..1280）を一切隠さない上下分離レイアウト
     - 上部 (y=75..345):
       - `【海外r/...】` の括弧見出しを廃止し、記事タイトルを省略せず全文そのまま大文字＋半透明の角丸黒座布団で常時表示
-      - そのすぐ下 (y=365..445) に、登場デバイス＆評価バッジをポップアップ表示
+      - そのすぐ下 (y=365..445) に、登場デバイス＆評価バッジ、および最終行でプロフィールリンク誘導バッジをポップアップ表示
     - 下部 (y=1340..1680):
       - `▼ ずんだもん｜...` の小見出しを廃止し、セリフ本文のフォントサイズを最大化 (68pt)
       - 話者別カラー（ずんだもん＝グリーン枠、春日部つむぎ＝アンバー枠）の角丸黒座布団を敷いて視認性を最大化
@@ -808,6 +830,7 @@ Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour,
 Style: BoxShape,Yu Gothic UI,20,&H3014100C,&H000000FF,&H2070FF66,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,0,0,0,1
 Style: TopTitle,Yu Gothic UI,58,&H00FFFFFF,&H000000FF,&H00140E08,&H80000000,-1,0,0,0,100,100,1,0,1,7,3,5,40,40,0,1
 Style: DevicePill,Yu Gothic UI,40,&H0088F8FF,&H000000FF,&H00181008,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,5,40,40,0,1
+Style: CtaPill,Yu Gothic UI,38,&H0058F0FF,&H000000FF,&H00101420,&H80000000,-1,0,0,0,100,100,1,0,1,6,2,5,40,40,0,1
 Style: ZundaMain,Yu Gothic UI,68,&H00FFFFFF,&H000000FF,&H00164A0E,&H80000000,-1,0,0,0,100,100,1,0,1,9,3,5,40,40,0,1
 Style: TsumugiMain,Yu Gothic UI,68,&H00FFFFFF,&H000000FF,&H00083268,&H80000000,-1,0,0,0,100,100,1,0,1,9,3,5,40,40,0,1
 
@@ -839,15 +862,22 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         f"Dialogue: 1,0:00:00.00,{end_all},TopTitle,,0,0,0,,{{\\an5\\pos(540,{title_center_y})}}{wrapped_title}",
     ]
 
-    # デバイスバッジの表示Y座標（タイトル座布団のすぐ下、中央のクロスヘアには一切被らない）
-    dev_box_w = 960
-    dev_box_h = 70
+    # デバイスバッジ・CTAバッジの表示Y座標（タイトル座布団のすぐ下、中央のクロスヘアには一切被らない）
+    dev_box_w = 980
+    dev_box_h = 72
     dev_box_x = (1080 - dev_box_w) // 2
     dev_box_y = title_box_y + title_box_h + 18
     dev_center_y = dev_box_y + dev_box_h // 2
-    dev_rect = _ass_rounded_rect_path(dev_box_w, dev_box_h, radius=35)
+    dev_rect = _ass_rounded_rect_path(dev_box_w, dev_box_h, radius=36)
 
-    for item in timed_lines:
+    has_devices = bool(article.get("devices"))
+    cta_banner_text = (
+        "▼ 登場デバイス＆全訳は【下アイコン ➔ プロフのリンク】へ！"
+        if has_devices
+        else "▼ スレッド全文翻訳は【下アイコン ➔ プロフのリンク】へ！"
+    )
+
+    for line_idx, item in enumerate(timed_lines):
         st = format_ass_time(item["start"])
         et = format_ass_time(item["end"])
         is_zunda = item["speaker"] == "zundamon"
@@ -878,17 +908,27 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             f"{{\\an5\\pos(540,{sub_center_y})}}{wrapped_spoken}"
         )
 
-        # 登場デバイスバッジがある行は上部サブ枠にポップアップ表示
-        dev_text = item.get("matched_device")
-        if dev_text:
+        # 最終行ではプロフィールリンクへのゴールド誘導バナーを優先表示し、それ以外の行では登場デバイスバッジを表示
+        if line_idx == len(timed_lines) - 1:
             events.append(
-                f"Dialogue: 0,{st},{et},BoxShape,,0,0,0,,"
-                f"{{\\fad(150,150)\\an7\\pos({dev_box_x},{dev_box_y})\\p1\\1c&H1C140E&\\1a&H24&\\3c&H78E8FF&\\3a&H28&\\bord3}}{dev_rect}{{\\p0}}"
+                f"Dialogue: 0,{st},{end_all},BoxShape,,0,0,0,,"
+                f"{{\\fad(150,100)\\an7\\pos({dev_box_x},{dev_box_y})\\p1\\1c&H0E1828&\\1a&H18&\\3c&H38D8FF&\\3a&H15&\\bord4}}{dev_rect}{{\\p0}}"
             )
             events.append(
-                f"Dialogue: 1,{st},{et},DevicePill,,0,0,0,,"
-                f"{{\\fad(150,150)\\an5\\pos(540,{dev_center_y})}}{dev_text}"
+                f"Dialogue: 1,{st},{end_all},CtaPill,,0,0,0,,"
+                f"{{\\fad(150,100)\\an5\\pos(540,{dev_center_y})}}{cta_banner_text}"
             )
+        else:
+            dev_text = item.get("matched_device")
+            if dev_text:
+                events.append(
+                    f"Dialogue: 0,{st},{et},BoxShape,,0,0,0,,"
+                    f"{{\\fad(150,150)\\an7\\pos({dev_box_x},{dev_box_y})\\p1\\1c&H1C140E&\\1a&H24&\\3c&H78E8FF&\\3a&H28&\\bord3}}{dev_rect}{{\\p0}}"
+                )
+                events.append(
+                    f"Dialogue: 1,{st},{et},DevicePill,,0,0,0,,"
+                    f"{{\\fad(150,150)\\an5\\pos(540,{dev_center_y})}}{dev_text}"
+                )
 
     return header + "\n".join(events) + "\n"
 
@@ -930,6 +970,8 @@ def build_short_for_article(
             spoken_text = line["text"]
             if speaker_key == "tsumugi":
                 spoken_text = normalize_tsumugi_tone(spoken_text)
+            if idx == len(script):
+                spoken_text = ensure_cta_ending_line(spoken_text, speaker_key, bool(article.get("devices")))
 
             wav_name = f"line_{idx:03d}.wav"
             wav_path = tmp_dir / wav_name

@@ -800,7 +800,7 @@ def summarize_with_gemini(thread: dict[str, Any]) -> dict[str, Any]:
     {"speaker": "tsumugi", "text": "理由2や具体的デバイス・対策の解説（「〜がおすすめされてるよ！」）", "caption": "ポイント②"},
     {"speaker": "zundamon", "text": "納得のリアクション（「〜なのだ！」）", "caption": "目からウロコ！"},
     {"speaker": "tsumugi", "text": "注意点や補足（「ただ〜には気をつけてね！」）", "caption": "注意点"},
-    {"speaker": "zundamon", "text": "締めの一言（「みんなも試してみてほしいのだ！」）", "caption": "詳細はプロフ・概要欄へ"}
+    {"speaker": "zundamon", "text": "締めの一言（「登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！」）", "caption": "詳細はプロフのリンクへ"}
   ]
 }"""
 
@@ -811,7 +811,7 @@ def summarize_with_gemini(thread: dict[str, Any]) -> dict[str, Any]:
         "1. **嘘・創作・水増しの完全禁止**: スレッドに実在しないコメントや発言を勝手に作ったり、原文にない内容を付け足したりすることは絶対に行わないでください。\n"
         "2. **1対1の忠実な全文翻訳**: `op_post_ja` にはスレ主の本文を省略せず全文翻訳してください。`comment_translations` には、入力された【実在コメント一覧】のすべての `id` に対して1対1で、省略・要約せず自然な日本語の全文翻訳（`body_ja`）を返してください。親コメントへの返信（`reply_to=...`）は文脈を踏まえて自然な口語で訳してください。\n"
         "3. `devices` にはスレッド内で実際に言及された市販のマウス (`mouse`)・マウスパッド (`mousepad`)・ソール (`skates`) のみを抽出し、国内名称（`Logitech` → `Logicool`、`Artisan Raiden` → `ARTISAN 雷電`、`Artisan Zero` → `ARTISAN 零`）に統一してください。また `comment_ja` には『スレ主が〜』『OPが〜』という主語は入れず、製品への評価として記述してください。\n"
-        "4. `short_script` は必ず8発言以上で、`zundamon`（ずんだもん：「〜なのだ！」）と `tsumugi`（春日部つむぎ：埼玉ギャル風「〜だよ！」「〜なんだよね」）の2人で構成してください。\n"
+        "4. `short_script` は必ず8発言以上で、`zundamon`（ずんだもん：「〜なのだ！」）と `tsumugi`（春日部つむぎ：埼玉ギャル風「〜だよ！」「〜なんだよね」）の2人で構成し、最後の8発言目では必ず『登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！』のようにプロフィールのリンクへ誘導する一言で締めてください。\n"
         "出力は必ず以下のJSON形式（キー名を完全一致）のみを返してください。\n\n"
         f"【出力JSON形式】:\n{json_template}\n\n"
         f"【サブレディット】: r/{thread['subreddit']}\n"
