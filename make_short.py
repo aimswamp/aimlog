@@ -790,32 +790,46 @@ def assign_device_overlays(article: dict[str, Any], timed_lines: list[dict[str, 
             dev_cursor += 1
 
 
-def ensure_cta_ending_line(spoken_text: str, speaker_key: str, has_devices: bool) -> str:
+def trim_outro_script(script: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """
-    動画の最終行（締めの一言）にサイト・プロフィールリンクへの誘導が含まれていない場合、
-    視聴者がアイコンからプロフィールリンクへ遷移しやすい自然な一言へ変換する。
+    アウトロ（締めの挨拶・宣伝ボイス）が始まると視聴者が即スワイプ離脱して平均視聴率が落ちるため、
+    6行以上ある台本の最終行が定型的な締め挨拶（「みんなも〜」「〜してみるのだ」「プロフのリンク〜」等）である場合は
+    その最終行をカットし、本編の有益な結論・注意点（7行目）でスパッと動画を終わらせる（ノー・アウトロ方式）。
     """
-    if any(kw in spoken_text for kw in ("プロフ", "プロフィール", "リンク", "エイム沼")):
-        return spoken_text
-    if speaker_key == "zundamon":
-        if has_devices:
-            return "登場デバイスやスレ全訳はプロフィールのリンクにまとめてあるのだ！"
-        return "スレッドの全文翻訳はプロフィールのリンクから読めるのだ！"
-    else:
-        if has_devices:
-            return "紹介したデバイスやスレ全訳はプロフィールのリンクにまとめてあるよ！"
-        return "スレッドの全文翻訳はプロフィールのリンクから読めるよ！"
+    if len(script) < 6:
+        return list(script)
+    last_text = str(script[-1].get("text") or "").strip()
+    outro_markers = (
+        "みんなも",
+        "試してみて",
+        "チェックして",
+        "見つけて",
+        "体験して",
+        "見直すのだ",
+        "選ぶのだ",
+        "伸ばしていこう",
+        "プロフ",
+        "リンク",
+        "概要欄",
+        "続報を待つ",
+        "鍛えるのだ",
+    )
+    if any(m in last_text for m in outro_markers) or len(script) >= 8:
+        return list(script[:-1])
+    return list(script)
 
 
 def build_ass_subtitles(article: dict[str, Any], timed_lines: list[dict[str, Any]], total_sec: float) -> str:
     """
     1080x1920 縦型ショート動画用の ASS 字幕を生成する。
     - 画面中央（クロスヘア＆ターゲット y=520..1280）を一切隠さない上下分離レイアウト
-    - 上部 (y=75..345):
-      - `【海外r/...】` の括弧見出しを廃止し、記事タイトルを省略せず全文そのまま大文字＋半透明の角丸黒座布団で常時表示
-      - そのすぐ下 (y=365..445) に、登場デバイス＆評価バッジ、および最終行でプロフィールリンク誘導バッジをポップアップ表示
+    - 上部 (y=80..366):
+      - 1行目〜最終行の1つ前まで: 記事タイトル全文を大文字＋半透明の角丸黒座布団（エメラルドグリーン枠）で表示し、
+        そのすぐ下に登場デバイス＆評価バッジをポップアップ表示
+      - 最終行（本編ラストの解説セリフ中）: 上部のタイトル座布団ごと丸ごと切り替わり、
+        タイトル領域全体を使った特大サイズのゴールド枠・プロフ誘導看板（56pt×3行）を「パッ」と大きく表示する
     - 下部 (y=1340..1680):
-      - `▼ ずんだもん｜...` の小見出しを廃止し、セリフ本文のフォントサイズを最大化 (68pt)
+      - セリフ本文のフォントサイズを最大化 (68pt)
       - 話者別カラー（ずんだもん＝グリーン枠、春日部つむぎ＝アンバー枠）の角丸黒座布団を敷いて視認性を最大化
     """
     header = """[Script Info]
@@ -829,8 +843,8 @@ ScaledBorderAndShadow: yes
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: BoxShape,Yu Gothic UI,20,&H3014100C,&H000000FF,&H2070FF66,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,0,0,0,1
 Style: TopTitle,Yu Gothic UI,58,&H00FFFFFF,&H000000FF,&H00140E08,&H80000000,-1,0,0,0,100,100,1,0,1,7,3,5,40,40,0,1
+Style: TopCtaBig,Yu Gothic UI,56,&H0058F4FF,&H000000FF,&H000C101C,&H80000000,-1,0,0,0,100,100,1,0,1,8,3,5,40,40,0,1
 Style: DevicePill,Yu Gothic UI,40,&H0088F8FF,&H000000FF,&H00181008,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,5,40,40,0,1
-Style: CtaPill,Yu Gothic UI,38,&H0058F0FF,&H000000FF,&H00101420,&H80000000,-1,0,0,0,100,100,1,0,1,6,2,5,40,40,0,1
 Style: ZundaMain,Yu Gothic UI,68,&H00FFFFFF,&H000000FF,&H00164A0E,&H80000000,-1,0,0,0,100,100,1,0,1,9,3,5,40,40,0,1
 Style: TsumugiMain,Yu Gothic UI,68,&H00FFFFFF,&H000000FF,&H00083268,&H80000000,-1,0,0,0,100,100,1,0,1,9,3,5,40,40,0,1
 
@@ -852,30 +866,60 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     title_center_y = title_box_y + title_box_h // 2
     title_rect = _ass_rounded_rect_path(title_box_w, title_box_h, radius=26)
 
+    # 最終行の開始時刻を取得（ここから上部パネルを特大CTA看板に丸ごと切り替える）
+    if len(timed_lines) >= 2:
+        cta_switch_sec = timed_lines[-1]["start"]
+    else:
+        cta_switch_sec = total_sec
+    title_end_time = format_ass_time(cta_switch_sec)
+
     events: list[str] = [
-        # Layer 0: 上部タイトルの角丸ダーク座布団（エメラルドグリーンの細枠つき）
+        # Layer 0: 上部タイトルの角丸ダーク座布団（エメラルドグリーンの細枠つき・最終行の手前まで表示）
         (
-            f"Dialogue: 0,0:00:00.00,{end_all},BoxShape,,0,0,0,,"
+            f"Dialogue: 0,0:00:00.00,{title_end_time},BoxShape,,0,0,0,,"
             f"{{\\an7\\pos({title_box_x},{title_box_y})\\p1\\1c&H14100C&\\1a&H28&\\3c&H78FF68&\\3a&H30&\\bord3}}{title_rect}{{\\p0}}"
         ),
-        # Layer 1: 上部タイトル全文（省略なし）
-        f"Dialogue: 1,0:00:00.00,{end_all},TopTitle,,0,0,0,,{{\\an5\\pos(540,{title_center_y})}}{wrapped_title}",
+        # Layer 1: 上部タイトル全文（省略なし・最終行の手前まで表示）
+        f"Dialogue: 1,0:00:00.00,{title_end_time},TopTitle,,0,0,0,,{{\\an5\\pos(540,{title_center_y})}}{wrapped_title}",
     ]
 
-    # デバイスバッジ・CTAバッジの表示Y座標（タイトル座布団のすぐ下、中央のクロスヘアには一切被らない）
+    # 最終行の間、上部タイトル領域全体を使ってドカンと表示する特大ゴールド誘導看板
+    if len(timed_lines) >= 2:
+        cta_box_w = 1000
+        cta_box_h = 276
+        cta_box_x = (1080 - cta_box_w) // 2
+        cta_box_y = 80
+        cta_center_y = cta_box_y + cta_box_h // 2
+        cta_rect = _ass_rounded_rect_path(cta_box_w, cta_box_h, radius=28)
+        has_devices = bool(article.get("devices"))
+        if has_devices:
+            cta_big_text = (
+                r"{\1c&H58F4FF&}▼ 登場デバイス＆スレ全訳は\N"
+                r"{\1c&HFFFFFF&}下のチャンネルアイコン ⇒\N"
+                r"{\1c&H58F4FF&}【プロフィールのリンク】へ！"
+            )
+        else:
+            cta_big_text = (
+                r"{\1c&H58F4FF&}▼ スレッドの全文翻訳は\N"
+                r"{\1c&HFFFFFF&}下のチャンネルアイコン ⇒\N"
+                r"{\1c&H58F4FF&}【プロフィールのリンク】へ！"
+            )
+        events.append(
+            f"Dialogue: 0,{title_end_time},{end_all},BoxShape,,0,0,0,,"
+            f"{{\\fad(120,0)\\an7\\pos({cta_box_x},{cta_box_y})\\p1\\1c&H0C1628&\\1a&H14&\\3c&H38D8FF&\\3a&H10&\\bord5}}{cta_rect}{{\\p0}}"
+        )
+        events.append(
+            f"Dialogue: 1,{title_end_time},{end_all},TopCtaBig,,0,0,0,,"
+            f"{{\\fad(120,0)\\an5\\pos(540,{cta_center_y})}}{cta_big_text}"
+        )
+
+    # デバイスバッジの表示Y座標（タイトル座布団のすぐ下、中央のクロスヘアには一切被らない）
     dev_box_w = 980
     dev_box_h = 72
     dev_box_x = (1080 - dev_box_w) // 2
     dev_box_y = title_box_y + title_box_h + 18
     dev_center_y = dev_box_y + dev_box_h // 2
     dev_rect = _ass_rounded_rect_path(dev_box_w, dev_box_h, radius=36)
-
-    has_devices = bool(article.get("devices"))
-    cta_banner_text = (
-        "▼ 登場デバイス＆全訳は【下アイコン ➔ プロフのリンク】へ！"
-        if has_devices
-        else "▼ スレッド全文翻訳は【下アイコン ➔ プロフのリンク】へ！"
-    )
 
     for line_idx, item in enumerate(timed_lines):
         st = format_ass_time(item["start"])
@@ -908,17 +952,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             f"{{\\an5\\pos(540,{sub_center_y})}}{wrapped_spoken}"
         )
 
-        # 最終行ではプロフィールリンクへのゴールド誘導バナーを優先表示し、それ以外の行では登場デバイスバッジを表示
-        if line_idx == len(timed_lines) - 1:
-            events.append(
-                f"Dialogue: 0,{st},{end_all},BoxShape,,0,0,0,,"
-                f"{{\\fad(150,100)\\an7\\pos({dev_box_x},{dev_box_y})\\p1\\1c&H0E1828&\\1a&H18&\\3c&H38D8FF&\\3a&H15&\\bord4}}{dev_rect}{{\\p0}}"
-            )
-            events.append(
-                f"Dialogue: 1,{st},{end_all},CtaPill,,0,0,0,,"
-                f"{{\\fad(150,100)\\an5\\pos(540,{dev_center_y})}}{cta_banner_text}"
-            )
-        else:
+        # 最終行以外で登場デバイスバッジがある行は上部サブ枠にポップアップ表示
+        if line_idx < len(timed_lines) - 1:
             dev_text = item.get("matched_device")
             if dev_text:
                 events.append(
@@ -941,7 +976,8 @@ def build_short_for_article(
     out_mp4: Path,
 ) -> None:
     """1記事分のショート動画 (1080x1920 MP4) を合成する。"""
-    script = article.get("short_script") or []
+    raw_script = article.get("short_script") or []
+    script = trim_outro_script(raw_script)
     if not script:
         print(f"[WARN] 記事 {article.get('id')} に short_script がないためスキップします。")
         return
@@ -970,8 +1006,6 @@ def build_short_for_article(
             spoken_text = line["text"]
             if speaker_key == "tsumugi":
                 spoken_text = normalize_tsumugi_tone(spoken_text)
-            if idx == len(script):
-                spoken_text = ensure_cta_ending_line(spoken_text, speaker_key, bool(article.get("devices")))
 
             wav_name = f"line_{idx:03d}.wav"
             wav_path = tmp_dir / wav_name
@@ -1916,6 +1950,21 @@ def main() -> None:
             "short_script": [{}] * 8,
         }
         assert score_article_for_shorts(high_art) > score_article_for_shorts(low_art) + 80
+        # ノー・アウトロ（最終締め挨拶カット）＆上部特大CTAバナーのテスト
+        sample_8 = [{"speaker": "zundamon", "text": f"セリフ{i}"} for i in range(1, 8)] + [
+            {"speaker": "zundamon", "text": "みんなも試してみるのだ！"}
+        ]
+        trimmed = trim_outro_script(sample_8)
+        assert len(trimmed) == 7 and trimmed[-1]["text"] == "セリフ7"
+        ass_test = build_ass_subtitles(
+            {"title_ja": "テストタイトル", "devices": [{"name": "Viper V3 Pro"}]},
+            [
+                {"speaker": "zundamon", "text": "1行目", "start": 0.0, "end": 2.0},
+                {"speaker": "tsumugi", "text": "最後の有益な結論だよ！", "start": 2.0, "end": 4.5},
+            ],
+            4.65,
+        )
+        assert "TopCtaBig" in ass_test and "【プロフィールのリンク】へ！" in ass_test
         print("SHORT_SELF_TEST_OK")
         return
 
