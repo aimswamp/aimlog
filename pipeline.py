@@ -1100,10 +1100,11 @@ def sync_with_google_sheets(articles: list[dict[str, Any]]) -> list[dict[str, An
                         s_item = sheet_map[aid]
                         if s_item.get("status"):
                             art["status"] = str(s_item["status"]).strip()
-                        if s_item.get("title_ja"):
-                            art["title_ja"] = str(s_item["title_ja"]).strip()
-                        if s_item.get("hook_ja"):
-                            art["hook_ja"] = str(s_item["hook_ja"]).strip()
+                        if not art.get("lock_sheet_text"):
+                            if s_item.get("title_ja"):
+                                art["title_ja"] = str(s_item["title_ja"]).strip()
+                            if s_item.get("hook_ja"):
+                                art["hook_ja"] = str(s_item["hook_ja"]).strip()
                 print(f"[OK] Googleスプレッドシートと同期完了 ({len(sheet_map)}件)")
     except Exception as e:
         print(f"[WARN] Googleスプレッドシート同期エラー: {e}", file=sys.stderr)
