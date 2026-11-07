@@ -746,70 +746,8 @@ a.gear-chip:hover {
 .featured-section {
   margin-bottom: var(--space-2xl);
 }
-.featured-list {
+.featured-list .thread-index-row:last-child {
   border-bottom: 1px solid var(--color-rule-strong);
-}
-.featured-row {
-  padding: 0.9rem 0;
-  border-bottom: 1px solid var(--color-rule);
-}
-.featured-row:last-child {
-  border-bottom: none;
-}
-.featured-thread-title {
-  font-size: 1.06rem;
-  line-height: 1.45;
-  margin: 0 0 0.45rem;
-}
-.featured-thread-title a {
-  text-decoration: none;
-}
-.featured-thread-title a:hover {
-  color: var(--color-accent);
-  text-decoration: underline;
-}
-.featured-gear-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  margin-top: 0.4rem;
-}
-.featured-gear-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.4rem 0.75rem;
-  padding: 0.32rem 0.6rem;
-  background-color: var(--color-paper-2);
-  border-left: 2px solid var(--color-rule-strong);
-  font-size: 0.82rem;
-}
-.featured-gear-name {
-  font-weight: 700;
-  color: var(--color-ink);
-}
-.featured-gear-actions {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-.featured-shop-link {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.14rem 0.5rem;
-  border: 1px solid var(--color-rule-strong);
-  background-color: var(--color-paper);
-  color: var(--color-ink-2);
-  text-decoration: none;
-  white-space: nowrap;
-  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
-}
-.featured-shop-link:hover {
-  background-color: var(--color-ink);
-  color: var(--color-paper);
-  text-decoration: none;
 }
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
@@ -1100,65 +1038,84 @@ a.gear-chip:hover {
         <section id="featured-threads-section" class="featured-section">
           <div class="section-header">
             <h2 class="section-title">注目スレッド</h2>
-            <span class="section-sub">PICKUP</span>
           </div>
           <div class="featured-list">
             
-          <div class="featured-row">
-            <div class="thread-meta-bar">
-              <span>#32</span>
-              <span class="meta-sep">/</span>
-              <a class="sub-tag" href="index.html?sub=MouseReview" onclick="filterSub('MouseReview'); return false;">マウス</a>
-              <span class="meta-sep">/</span>
-              <span>コメント 6件</span>
-            </div>
-            <h3 class="featured-thread-title">
-              <a href="articles/1xfqdvx.html">【相談】手首固定クロウグリップに最適なマウス探し：Viper V2 Proの低重心形状から脱却したい</a>
-            </h3>
-            <div class="featured-gear-list"><div class="featured-gear-item"><span class="featured-gear-name">Razer Viper V2 Pro</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Razer+Viper+V2+Pro&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Viper%2520V2%2520Pro%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div><div class="featured-gear-item"><span class="featured-gear-name">Logicool G PRO X SUPERLIGHT</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+SUPERLIGHT&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLogicool%2520G%2520PRO%2520X%2520SUPERLIGHT%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div></div>
+        <article class="thread-index-row">
+          <div class="thread-meta-bar">
+            <span>#32</span>
+            <span class="meta-sep">/</span>
+            <a class="sub-tag" href="index.html?sub=MouseReview" onclick="filterSub('MouseReview'); return false;">マウス</a>
+            <span class="meta-sep">/</span>
+            <span>コメント 6件</span>
           </div>
+          <h3 class="index-thread-title">
+            <a href="articles/1xfqdvx.html">【相談】手首固定クロウグリップに最適なマウス探し：Viper V2 Proの低重心形状から脱却したい</a>
+          </h3>
+          <p class="index-thread-hook">Viper V2 Proの低重心形状に違和感を感じているユーザーが、パームコンタクトを求めて理想の形状を模索中。クロウグリップ特有のテンションを解消するためのデバイス選びが議論されています。</p>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>もしViper V2が好きなら、自分と同じ轍を踏まないでほしい。Viper V4は形状が変わりすぎていて、そもそもViperと呼べるのか疑問に思うレベル。ハンプが手のひら側に移…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>Viper V2が好きじゃないから投稿したんだよ（笑）</span></div></div>
+          <div class="thread-footer-bar">
+            <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Razer%20Viper%20V2%20Pro" data-device="Razer Viper V2 Pro" onclick="filterByDevice(this.dataset.device); return false;">Razer Viper V2 Pro</a><a class="gear-chip" href="index.html?q=Logicool%20G%20PRO%20X%20SUPERLIGHT" data-device="Logicool G PRO X SUPERLIGHT" onclick="filterByDevice(this.dataset.device); return false;">Logicool G PRO X SUPERLIGHT</a><a class="gear-chip" href="index.html?q=Razer%20Viper%20V4%20Pro" data-device="Razer Viper V4 Pro" onclick="filterByDevice(this.dataset.device); return false;">Razer Viper V4 Pro</a><a class="gear-chip" href="index.html?q=ARTISAN%20%E9%9B%B6" data-device="ARTISAN 零" onclick="filterByDevice(this.dataset.device); return false;">ARTISAN 零</a></div>
+            <a class="read-log-link" href="articles/1xfqdvx.html">続きを読む（6件） →</a>
+          </div>
+        </article>
         
-          <div class="featured-row">
-            <div class="thread-meta-bar">
-              <span>#33</span>
-              <span class="meta-sep">/</span>
-              <a class="sub-tag" href="index.html?sub=MousepadReview" onclick="filterSub('MousepadReview'); return false;">マウスパッド・ソール</a>
-              <span class="meta-sep">/</span>
-              <span>コメント 30件</span>
-            </div>
-            <h3 class="featured-thread-title">
-              <a href="articles/1xflfty.html">ガラス製マウスパッドへの移行で気になる「マウスソールの交換頻度」と実際のコスト</a>
-            </h3>
-            <div class="featured-gear-list"><div class="featured-gear-item"><span class="featured-gear-name">Wallhack SP-004</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Wallhack+SP-004&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FWallhack%2520SP-004%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div><div class="featured-gear-item"><span class="featured-gear-name">Razer Atlas Pro</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Razer+Atlas+Pro&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Atlas%2520Pro%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div></div>
+        <article class="thread-index-row">
+          <div class="thread-meta-bar">
+            <span>#33</span>
+            <span class="meta-sep">/</span>
+            <a class="sub-tag" href="index.html?sub=MousepadReview" onclick="filterSub('MousepadReview'); return false;">マウスパッド・ソール</a>
+            <span class="meta-sep">/</span>
+            <span>コメント 30件</span>
           </div>
+          <h3 class="index-thread-title">
+            <a href="articles/1xflfty.html">ガラス製マウスパッドへの移行で気になる「マウスソールの交換頻度」と実際のコスト</a>
+          </h3>
+          <p class="index-thread-hook">布製マウスパッドの経年劣化に悩むスレ主が、ガラスパッド愛用者たちにソールの交換頻度やコストの現実について問いかけるスレッド。2週間ごとの交換は過剰であり、ドットソールをまとめ買いすれば月1〜2ドル程度で済むという意見が多数派を占めました。</p>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ソールは20個入りパックで3ドルくらいだよ。だから月最大でも1〜2ドルってところだね。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>特に理由はないけど3ヶ月ごとに交換してるよ（パッドやお気に入りのソールではそこまで滑りが悪くなったと感じないけど）。でもここの人たちの多くはドットソールを使っている。人気のやつ…</span></div></div>
+          <div class="thread-footer-bar">
+            <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Wallhack%20SP-004" data-device="Wallhack SP-004" onclick="filterByDevice(this.dataset.device); return false;">Wallhack SP-004</a><a class="gear-chip" href="index.html?q=Razer%20Atlas%20Pro" data-device="Razer Atlas Pro" onclick="filterByDevice(this.dataset.device); return false;">Razer Atlas Pro</a><a class="gear-chip" href="index.html?q=Tenta-x%20Oni%27s%20Oath" data-device="Tenta-x Oni&#x27;s Oath" onclick="filterByDevice(this.dataset.device); return false;">Tenta-x Oni&#x27;s Oath</a><a class="gear-chip" href="index.html?q=X-raypad%20Obsidian%20Air%20Pro" data-device="X-raypad Obsidian Air Pro" onclick="filterByDevice(this.dataset.device); return false;">X-raypad Obsidian Air Pro</a></div>
+            <a class="read-log-link" href="articles/1xflfty.html">続きを読む（30件） →</a>
+          </div>
+        </article>
         
-          <div class="featured-row">
-            <div class="thread-meta-bar">
-              <span>#48</span>
-              <span class="meta-sep">/</span>
-              <a class="sub-tag" href="index.html?sub=MousepadReview" onclick="filterSub('MousepadReview'); return false;">マウスパッド・ソール</a>
-              <span class="meta-sep">/</span>
-              <span>コメント 7件</span>
-            </div>
-            <h3 class="featured-thread-title">
-              <a href="articles/1xhfpqv.html">ARTISAN 飛燕からの移行先：雷電と疾風乙のどちらを選ぶべきか</a>
-            </h3>
-            <div class="featured-gear-list"><div class="featured-gear-item"><span class="featured-gear-name">ARTISAN 飛燕 Xソフト</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=ARTISAN+%E9%A3%9B%E7%87%95+X%E3%82%BD%E3%83%95%E3%83%88&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FARTISAN%2520%25E9%25A3%259B%25E7%2587%2595%2520X%25E3%2582%25BD%25E3%2583%2595%25E3%2583%2588%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div><div class="featured-gear-item"><span class="featured-gear-name">Razer Strider</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Razer+Strider&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Strider%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div></div>
+        <article class="thread-index-row">
+          <div class="thread-meta-bar">
+            <span>#48</span>
+            <span class="meta-sep">/</span>
+            <a class="sub-tag" href="index.html?sub=MousepadReview" onclick="filterSub('MousepadReview'); return false;">マウスパッド・ソール</a>
+            <span class="meta-sep">/</span>
+            <span>コメント 7件</span>
           </div>
+          <h3 class="index-thread-title">
+            <a href="articles/1xhfpqv.html">ARTISAN 飛燕からの移行先：雷電と疾風乙のどちらを選ぶべきか</a>
+          </h3>
+          <p class="index-thread-hook">ARTISAN 飛燕のダスト問題や経年劣化による速度低下に悩むユーザーへ向けた、雷電と疾風乙の比較・推奨に関する議論。</p>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ソフトの疾風乙と雷電の両方を使ったことがあるよ。コントロール性を求めるなら疾風乙、それ以外の面では雷電のほうが好みだった。低速時にドットソールだと引っかかりを感じるから、低速で…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>ああ、なるほどね。飛燕を使ったことはある？飛燕と比べて疾風乙のテクスチャはどんな感じか教えてもらえる？</span></div></div>
+          <div class="thread-footer-bar">
+            <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=ARTISAN%20%E9%A3%9B%E7%87%95%20X%E3%82%BD%E3%83%95%E3%83%88" data-device="ARTISAN 飛燕 Xソフト" onclick="filterByDevice(this.dataset.device); return false;">ARTISAN 飛燕 Xソフト</a><a class="gear-chip" href="index.html?q=Razer%20Strider" data-device="Razer Strider" onclick="filterByDevice(this.dataset.device); return false;">Razer Strider</a><a class="gear-chip" href="index.html?q=ARTISAN%20%E7%96%BE%E9%A2%A8%E4%B9%99%20%E3%82%BD%E3%83%95%E3%83%88" data-device="ARTISAN 疾風乙 ソフト" onclick="filterByDevice(this.dataset.device); return false;">ARTISAN 疾風乙 ソフト</a><a class="gear-chip" href="index.html?q=ARTISAN%20%E9%9B%B7%E9%9B%BB%20%E3%82%BD%E3%83%95%E3%83%88" data-device="ARTISAN 雷電 ソフト" onclick="filterByDevice(this.dataset.device); return false;">ARTISAN 雷電 ソフト</a></div>
+            <a class="read-log-link" href="articles/1xhfpqv.html">続きを読む（7件） →</a>
+          </div>
+        </article>
         
-          <div class="featured-row">
-            <div class="thread-meta-bar">
-              <span>#76</span>
-              <span class="meta-sep">/</span>
-              <a class="sub-tag" href="index.html?sub=MouseReview" onclick="filterSub('MouseReview'); return false;">マウス</a>
-              <span class="meta-sep">/</span>
-              <span>コメント 14件</span>
-            </div>
-            <h3 class="featured-thread-title">
-              <a href="articles/1xk3ofm.html">純正マウスソールが「悪い」とはどういう意味？Logicool等の問題点と交換のメリット</a>
-            </h3>
-            <div class="featured-gear-list"><div class="featured-gear-item"><span class="featured-gear-name">Logicool G PRO X SUPERLIGHT 2</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+SUPERLIGHT+2&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLogicool%2520G%2520PRO%2520X%2520SUPERLIGHT%25202%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div><div class="featured-gear-item"><span class="featured-gear-name">WLMouse Beast X V2</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=WLMouse+Beast+X+V2&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FWLMouse%2520Beast%2520X%2520V2%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div></div>
+        <article class="thread-index-row">
+          <div class="thread-meta-bar">
+            <span>#76</span>
+            <span class="meta-sep">/</span>
+            <a class="sub-tag" href="index.html?sub=MouseReview" onclick="filterSub('MouseReview'); return false;">マウス</a>
+            <span class="meta-sep">/</span>
+            <span>コメント 14件</span>
           </div>
+          <h3 class="index-thread-title">
+            <a href="articles/1xk3ofm.html">純正マウスソールが「悪い」とはどういう意味？Logicool等の問題点と交換のメリット</a>
+          </h3>
+          <p class="index-thread-hook">レビューでマウスソールが「悪い」と言われる背景には、薄さによる底面擦れや滑りの不均一性、エッジ処理の甘さがあります。単なる滑りの速さだけでなく、正確な微調整（マイクロアジャスト）を妨げる点が問題視されています。</p>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>滑りの速さは個人の好みです。Logicoolのソールが悪いと言われるのは非常に薄いからで、圧力をかけたときにマウスの底面がマウスパッドに擦れてしまうからです。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>主に滑りの感触が不均一であることが原因です。多くのマウスの純正ソールには柔らかいPTFE配合物が使われており、摩耗が早く、数週間でガリガリとした泥のような感触になります。また、…</span></div></div>
+          <div class="thread-footer-bar">
+            <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Logicool%20G%20PRO%20X%20SUPERLIGHT%202" data-device="Logicool G PRO X SUPERLIGHT 2" onclick="filterByDevice(this.dataset.device); return false;">Logicool G PRO X SUPERLIGHT 2</a><a class="gear-chip" href="index.html?q=WLMouse%20Beast%20X%20V2" data-device="WLMouse Beast X V2" onclick="filterByDevice(this.dataset.device); return false;">WLMouse Beast X V2</a><a class="gear-chip" href="index.html?q=ARTISAN%20%E9%9B%B6" data-device="ARTISAN 零" onclick="filterByDevice(this.dataset.device); return false;">ARTISAN 零</a><a class="gear-chip" href="index.html?q=ARTISAN%20%E9%9B%B7%E9%9B%BB" data-device="ARTISAN 雷電" onclick="filterByDevice(this.dataset.device); return false;">ARTISAN 雷電</a></div>
+            <a class="read-log-link" href="articles/1xk3ofm.html">続きを読む（14件） →</a>
+          </div>
+        </article>
         
           </div>
         </section>
@@ -1332,9 +1289,7 @@ a.gear-chip:hover {
             <a href="articles/1xo81zz.html">日本の有料エイムガイドは買う価値がある？海外コミュニティの意見と視点</a>
           </h3>
           <p class="index-thread-hook">日本の有名エイムコーチ「Ryanguru」氏の有料ガイドについて、Aimer7やVoltaicなどの無料リソースが存在する中で購入する価値があるのか海外掲示板で議論されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>確立された客観的に正しいトレーニング方法なんて存在しないよ。
-
-ここにあなたが書いた内容から純粋に判断すると、彼らはVoltaicやViscoseと似たようなエイム観を持ってい…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>おー！ありがとうございます。参考にします！</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>確立された客観的に正しいトレーニング方法なんて存在しないよ。 ここにあなたが書いた内容から純粋に判断すると、彼らはVoltaicやViscoseと似たようなエイム観を持っている…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>おー！ありがとうございます。参考にします！</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xo81zz.html">続きを読む（10件） →</a>
@@ -1448,9 +1403,7 @@ a.gear-chip:hover {
             <a href="articles/1xo0kwb.html">エイム練習における手首の痛み対策と上達法、そして年齢の壁についての海外議論</a>
           </h3>
           <p class="index-thread-hook">エイム練習中の神経痛の対処法や、KovaaK&#x27;sのスコアを伸ばすためのアプローチ、そして29歳という年齢でグランドマスターを目指すことの現実味について議論されています。ベテランプレイヤー達からは、医学的なケアの重要性と、単なる反復練習ではなく弱点の分析が必要だというアドバイスが寄せられています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>私は33歳でAstraだけど、十分に達成可能だよ。30代以上でグランドマスターのスコアを持っている人はたくさんいる。
-
-ベンチマークを見つけてただやり込むだけじゃダメだ。自分が…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>自分も30代以上で伸び悩んでる。トラッキングのスコアは全部ゴールドになったんだけど、クリックとダイナミッククリックがシルバーなんだよね。どうやったら上達できるかな？</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>私は33歳でAstraだけど、十分に達成可能だよ。30代以上でグランドマスターのスコアを持っている人はたくさんいる。 ベンチマークを見つけてただやり込むだけじゃダメだ。自分がど…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>自分も30代以上で伸び悩んでる。トラッキングのスコアは全部ゴールドになったんだけど、クリックとダイナミッククリックがシルバーなんだよね。どうやったら上達できるかな？</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xo0kwb.html">続きを読む（9件） →</a>
@@ -1564,8 +1517,7 @@ a.gear-chip:hover {
             <a href="articles/1xn5igl.html">ガラスパッドとU9系高耐久ソールのおすすめの組み合わせについて意見を募るスレッド</a>
           </h3>
           <p class="index-thread-hook">ガラスパッドにおけるU9ウルトラおよびエアソールの使用感や、最適な組み合わせについての海外議論。圧倒的な耐久性を誇る一方、マウスの重量やパッドとの相性によって滑りの質が大きく変わることが示されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>君のマウスはどれくらいの重さ？
-俺のSuperstrike X2だと遅くて泥のような感触だけど、Hitscan Hyperlight Xだと速くて滑らかに感じるよ。</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>今はG-Wolver HTS Pro PlusにU9ウルトラを5点貼りしてメインで使ってるんだ。みんなはどのパッドと合わせてる？</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>君のマウスはどれくらいの重さ？ 俺のSuperstrike X2だと遅くて泥のような感触だけど、Hitscan Hyperlight Xだと速くて滑らかに感じるよ。</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>今はG-Wolver HTS Pro PlusにU9ウルトラを5点貼りしてメインで使ってるんだ。みんなはどのパッドと合わせてる？</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Wallhack%20SP-005" data-device="Wallhack SP-005" onclick="filterByDevice(this.dataset.device); return false;">Wallhack SP-005</a><a class="gear-chip" href="index.html?q=Skypad%203.0" data-device="Skypad 3.0" onclick="filterByDevice(this.dataset.device); return false;">Skypad 3.0</a><a class="gear-chip" href="index.html?q=X-raypad%20Obsidian%20Pro%20Skates" data-device="X-raypad Obsidian Pro Skates" onclick="filterByDevice(this.dataset.device); return false;">X-raypad Obsidian Pro Skates</a><a class="gear-chip" href="index.html?q=X-raypad%20Obsidian%20Air%20Skates" data-device="X-raypad Obsidian Air Skates" onclick="filterByDevice(this.dataset.device); return false;">X-raypad Obsidian Air Skates</a></div>
             <a class="read-log-link" href="articles/1xn5igl.html">続きを読む（9件） →</a>
@@ -1698,9 +1650,7 @@ a.gear-chip:hover {
             <a href="articles/1xm8k5f.html">KovaaK&#x27;sのDPI設定ミスで極端なローセンシに？怪我の功名でフリック精度が急成長した話</a>
           </h3>
           <p class="index-thread-hook">KovaaK&#x27;sのDPI設定を間違えたまま数ヶ月プレイし、実質160cm/360という超ローセンシで練習していたエイマーの体験談。腕を使った高速フリックが強制的に鍛えられ、結果としてスタティック精度が大幅向上しました。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ローセンシでのWide Wall 2 Targets staticは、スタティックの技術を学ぶのに本当に素晴らしいよ。100%おすすめする。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>「160cm相当」って言ってる意味が理解できないんだけど。KovaaK&#x27;sってプレイするシナリオごとに正確なcm/360を表示してくれるよね？
-
-あと160cmなんてあり得るの…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ローセンシでのWide Wall 2 Targets staticは、スタティックの技術を学ぶのに本当に素晴らしいよ。100%おすすめする。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>「160cm相当」って言ってる意味が理解できないんだけど。KovaaK&#x27;sってプレイするシナリオごとに正確なcm/360を表示してくれるよね？ あと160cmなんてあり得るのか…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xm8k5f.html">続きを読む（7件） →</a>
@@ -1757,9 +1707,7 @@ a.gear-chip:hover {
             <a href="articles/1xlrsj7.html">LGGで注文キャンセル後に数週間放置？原因と中の人が明かした裏事情</a>
           </h3>
           <p class="index-thread-hook">Lethal Gaming Gear（LGG）で注文が自動キャンセルされ、サポートからの返信が途絶えたという相談。スレッド内にはLGGの中の人が直接降臨し、サポート遅延の真の理由と誠実な対応を明かしました。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>それは災難だったね。最近の彼らのサポートは不自然なくらい遅いんだ。ここでも多くの人が同じ目にあっていて、注文がキャンセルされた後に数週間音沙汰なし状態になっている。
-
-でも詐欺…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>LGG自体は本物の信頼できるショップだよ。ただ、Pulsarに買収なんてされなきゃよかったのにとは思うね。今回の酷い体験もおそらくそれが原因だよ。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>それは災難だったね。最近の彼らのサポートは不自然なくらい遅いんだ。ここでも多くの人が同じ目にあっていて、注文がキャンセルされた後に数週間音沙汰なし状態になっている。 でも詐欺に…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>LGG自体は本物の信頼できるショップだよ。ただ、Pulsarに買収なんてされなきゃよかったのにとは思うね。今回の酷い体験もおそらくそれが原因だよ。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xlrsj7.html">続きを読む（16件） →</a>
@@ -1816,9 +1764,7 @@ a.gear-chip:hover {
             <a href="articles/1xlqdyl.html">プロのようにマウスを真っ直ぐに構えられない！腕の角度やフォームの悩みと対策</a>
           </h3>
           <p class="index-thread-hook">プロのように腕を真っ直ぐにしてマウスを持てず、角度がついてしまう悩みを抱えるプレイヤーの相談スレッド。自然な角度での持ち方の許容範囲やセンサー角度調整などのアドバイスが寄せられています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>正直に言うと、もし真っ直ぐな位置に直したいなら、しばらくは不快な思いをする必要があるよ。姿勢や机の高さなどが原因の可能性もあるね。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>手が快適で自然な位置にあるのは完全に普通のことだよ。
-もしよければstruthgamingの姿勢に関するガイドをチェックしてみて。彼はしっかりしたアドバイスをくれているよ。
-あ…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>正直に言うと、もし真っ直ぐな位置に直したいなら、しばらくは不快な思いをする必要があるよ。姿勢や机の高さなどが原因の可能性もあるね。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>手が快適で自然な位置にあるのは完全に普通のことだよ。 もしよければstruthgamingの姿勢に関するガイドをチェックしてみて。彼はしっかりしたアドバイスをくれているよ。 あ…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=%E3%83%9E%E3%82%A6%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%E5%85%A8%E8%88%AC" data-device="マウスパッド全般" onclick="filterByDevice(this.dataset.device); return false;">マウスパッド全般</a></div>
             <a class="read-log-link" href="articles/1xlqdyl.html">続きを読む（4件） →</a>
@@ -1894,9 +1840,7 @@ a.gear-chip:hover {
             <a href="articles/1xl9uti.html">思考を止めてエイムだけに没頭できる神ゲーは？KrunkerやカジュアルブラウザFPSの魅力と過疎化の現実</a>
           </h3>
           <p class="index-thread-hook">複雑な立ち回りや立ち回り勝負に疲れ、ただ純粋にエイムだけに集中したい時におすすめのゲームが話題となっています。KrunkerなどのブラウザFPSからSteamの無料タイトルまで、プレイヤーが愛用する無心エイムゲーが挙がる一方で、人口減少やサーバー過疎化を嘆く声も多く見られます。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>なあKrunkerって2020年頃は本当に最高だったよな。
-自分の知る限り、今じゃコアな50〜100人くらいがプレイしてるだけになっちゃった。
-本当にいいゲームだったんだけどね…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>Redmatch 2だな。Steamで無料だし、値動きがヤバくて面白いぞ。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>なあKrunkerって2020年頃は本当に最高だったよな。 自分の知る限り、今じゃコアな50〜100人くらいがプレイしてるだけになっちゃった。 本当にいいゲームだったんだけどね…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>Redmatch 2だな。Steamで無料だし、値動きがヤバくて面白いぞ。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xl9uti.html">続きを読む（13件） →</a>
@@ -1915,9 +1859,7 @@ a.gear-chip:hover {
             <a href="articles/1xlbqyq.html">アイアンランクから抜け出せない初心者へ、海外猛者たちが教えるエイム上達の極意</a>
           </h3>
           <p class="index-thread-hook">エイム練習を始めて1週間で伸び悩むスレ主に対し、経験豊富なプレイヤーたちが設定やテクニックの改善点をアドバイス。根気強い継続と、意識的なトラッキング練習の重要性が語られています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>アイアンから抜け出せないと言っているなら、正直なところ、ただ本当に練習を続けろと言いたいです。
-
-また、私はエイムの専門家ではないので、この意見は割り引いて聞いてほしいのですが…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>うん、実はまだ始めてから1週間しか経ってなくて、正直少なくとも「何らかの」結果が見えたらいいなと思っていたんだ。確かにカクカクした「チャンク」で追っちゃってるし、なんでそうなる…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>アイアンから抜け出せないと言っているなら、正直なところ、ただ本当に練習を続けろと言いたいです。 また、私はエイムの専門家ではないので、この意見は割り引いて聞いてほしいのですが、…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>うん、実はまだ始めてから1週間しか経ってなくて、正直少なくとも「何らかの」結果が見えたらいいなと思っていたんだ。確かにカクカクした「チャンク」で追っちゃってるし、なんでそうなる…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Razer%20DeathAdder%20Essential" data-device="Razer DeathAdder Essential" onclick="filterByDevice(this.dataset.device); return false;">Razer DeathAdder Essential</a><a class="gear-chip" href="index.html?q=Attack%20Shark%20X3" data-device="Attack Shark X3" onclick="filterByDevice(this.dataset.device); return false;">Attack Shark X3</a></div>
             <a class="read-log-link" href="articles/1xlbqyq.html">続きを読む（21件） →</a>
@@ -1955,9 +1897,7 @@ a.gear-chip:hover {
             <a href="articles/1xky1pq.html">ATK F1 Ultimate v3のフロスト新色の質感・変色リスク・スイッチ性能の実態</a>
           </h3>
           <p class="index-thread-hook">ATK F1 v3に追加されたフロスト（半透明）カラーの実物カラー感や耐久性に注目が集まっています。特に緑の実物の見た目や、白の黄ばみリスク、Omron光学スイッチ採用による内部スペックの向上が話題となっています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>発売後すぐに手に入れて、ちょうどデスクの上にフロストグリーンを置いているよ。
-
-実物の色は公式の商品画像よりもずっと主張が控えめで、光を綺麗に拾う半透明シェルの落ち着いたシーフ…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>グリーンとホワイトで心が揺れ始めてるよ。僕の部屋はコウモリの洞窟みたいに暗いから、紫外線は実質ゼロなんだ。もし5年くらいで黄ばみが出る程度なら全然許容範囲だな。問題はATKの公…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>発売後すぐに手に入れて、ちょうどデスクの上にフロストグリーンを置いているよ。 実物の色は公式の商品画像よりもずっと主張が控えめで、光を綺麗に拾う半透明シェルの落ち着いたシーフォ…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>グリーンとホワイトで心が揺れ始めてるよ。僕の部屋はコウモリの洞窟みたいに暗いから、紫外線は実質ゼロなんだ。もし5年くらいで黄ばみが出る程度なら全然許容範囲だな。問題はATKの公…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=ATK%20F1%20Ultimate" data-device="ATK F1 Ultimate" onclick="filterByDevice(this.dataset.device); return false;">ATK F1 Ultimate</a><a class="gear-chip" href="index.html?q=Logicool%20G%20PRO%20X%20SUPERLIGHT" data-device="Logicool G PRO X SUPERLIGHT" onclick="filterByDevice(this.dataset.device); return false;">Logicool G PRO X SUPERLIGHT</a></div>
             <a class="read-log-link" href="articles/1xky1pq.html">続きを読む（7件） →</a>
@@ -1976,9 +1916,7 @@ a.gear-chip:hover {
             <a href="articles/1xky7xs.html">ATK A9 Airのソール互換性とLOD問題に悩むユーザーと代替マウス選びの議論</a>
           </h3>
           <p class="index-thread-hook">GPX形状・約50gと軽量ながら、ソールの溝が深すぎて汎用点ソールが擦れる問題や布製マウスパッドでのLOD問題に直面したユーザーが相談。同様の形状でソール互換性の良い代替機としてMCHOSE製クローンなどが挙がっています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>同じ形状ならMCHOSE A7はどう？
-
-そうでなければATK X1 V2かな。（エルゴノミクス至上主義の自分でも、Viperの形状はGPXより快適だと思う、ぶっちゃけ）</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>テクスチャ系のパッドで起こるLODの問題は本当に致命的だよね。自分も以前別のマウスで同じ問題に悩まされて、表面の摩擦が少ないパッドに交換するまで苦労したよ。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>同じ形状ならMCHOSE A7はどう？ そうでなければATK X1 V2かな。（エルゴノミクス至上主義の自分でも、Viperの形状はGPXより快適だと思う、ぶっちゃけ）</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>テクスチャ系のパッドで起こるLODの問題は本当に致命的だよね。自分も以前別のマウスで同じ問題に悩まされて、表面の摩擦が少ないパッドに交換するまで苦労したよ。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=ATK%20A9%20Air" data-device="ATK A9 Air" onclick="filterByDevice(this.dataset.device); return false;">ATK A9 Air</a><a class="gear-chip" href="index.html?q=MCHOSE%20A7" data-device="MCHOSE A7" onclick="filterByDevice(this.dataset.device); return false;">MCHOSE A7</a><a class="gear-chip" href="index.html?q=ATK%20X1%20V2" data-device="ATK X1 V2" onclick="filterByDevice(this.dataset.device); return false;">ATK X1 V2</a><a class="gear-chip" href="index.html?q=Logicool%20G%20PRO%20X%20SUPERLIGHT%202" data-device="Logicool G PRO X SUPERLIGHT 2" onclick="filterByDevice(this.dataset.device); return false;">Logicool G PRO X SUPERLIGHT 2</a></div>
             <a class="read-log-link" href="articles/1xky7xs.html">続きを読む（6件） →</a>
@@ -1997,9 +1935,7 @@ a.gear-chip:hover {
             <a href="articles/1xkxzqb.html">グラウンドトラッキングでGMを目指す上での最大の弱点とは？海外猛者によるフォーム分析と克服法</a>
           </h3>
           <p class="index-thread-hook">KovaaK&#x27;sのGround TrackingシナリオでGM（Grandmaster）ランクを目指して伸び悩むプレイヤーに対し、海外の猛者たちがVOD分析を実施。フリックの精度は高いものの、視点の上下ブレや手首偏重によるスピードマッチングの甘さが課題として浮き彫りになりました。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>まず第一に、フリックが良いね。
-
-ターゲット上に合わせている時のスピードマッチング（速度合わせ）を修正しよう。</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>ありがとう兄弟。何かおすすめのシナリオはある？ precision focusバリアントとか、あるいは単純にentry/noviceバリアントが良いかなって思ってるんだ。Cen…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>まず第一に、フリックが良いね。 ターゲット上に合わせている時のスピードマッチング（速度合わせ）を修正しよう。</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>ありがとう兄弟。何かおすすめのシナリオはある？ precision focusバリアントとか、あるいは単純にentry/noviceバリアントが良いかなって思ってるんだ。Cen…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xkxzqb.html">続きを読む（6件） →</a>
@@ -2037,11 +1973,7 @@ a.gear-chip:hover {
             <a href="articles/1xkiv1x.html">押し込みによる減速がゼロの超高速マウスパッドを探す海外ユーザーの議論</a>
           </h3>
           <p class="index-thread-hook">マウスを押し込むグリップ癖による減速に悩むプレイヤーが、エアホッケーのように滑走抵抗も押し込み感も一切ない究極の超高速マウスパッドを求めて相談しています。コミュニティからは研磨済み鋼鉄パッドや特定のエッチングガラスパッド、さらに脱力（テンションコントロール）の重要性が提示されました。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>こんにちは！毎週更新のマウスパッド相談スレッドをぜひチェックしてみてください！
-
-みんながあなたをサポートしやすくするために、この定期スレッドを活用しています。スレッド内のテン…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>研磨されたカーボンスチール（炭素鋼）のパッドを買う時が来たようだな。
-
-2dudezってところがLilithという製品を出しているよ。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>こんにちは！毎週更新のマウスパッド相談スレッドをぜひチェックしてみてください！ みんながあなたをサポートしやすくするために、この定期スレッドを活用しています。スレッド内のテンプ…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>研磨されたカーボンスチール（炭素鋼）のパッドを買う時が来たようだな。 2dudezってところがLilithという製品を出しているよ。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Kyomi%20Jane" data-device="Kyomi Jane" onclick="filterByDevice(this.dataset.device); return false;">Kyomi Jane</a><a class="gear-chip" href="index.html?q=2dudez%20Lilith" data-device="2dudez Lilith" onclick="filterByDevice(this.dataset.device); return false;">2dudez Lilith</a><a class="gear-chip" href="index.html?q=X-raypad%20Obsidian%20Dots" data-device="X-raypad Obsidian Dots" onclick="filterByDevice(this.dataset.device); return false;">X-raypad Obsidian Dots</a></div>
             <a class="read-log-link" href="articles/1xkiv1x.html">続きを読む（6件） →</a>
@@ -2079,9 +2011,7 @@ a.gear-chip:hover {
             <a href="articles/1xkm66h.html">G-Wolvesのカスタマーサポートが炎上中？予約キャンセルの放置と返金（チャージバック）の判断基準</a>
           </h3>
           <p class="index-thread-hook">G-Wolvesの予約キャンセル対応が1ヶ月以上放置されている問題が海外掲示板で話題となっています。サポートの劣悪さに苦言を呈する声が多く、最終手段としてのチャージバック（異議申し立て）が推奨されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ああ、彼らのカスタマーサービスは昔からゴーストタウン（返信が一切ない状態）だよ。残念ながら32日放置なんて彼らにとっては標準レベルのひどさだね。
-
-僕も似たような経験があって、…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>爆笑。君たちはいつになったらG-Wolvesを支持するのをやめるんだ？ 一体何を期待してたんだよ。このサブレットでG-Wolvesのカスタマーサポートの惨状についての投稿が毎週…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ああ、彼らのカスタマーサービスは昔からゴーストタウン（返信が一切ない状態）だよ。残念ながら32日放置なんて彼らにとっては標準レベルのひどさだね。 僕も似たような経験があって、H…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>爆笑。君たちはいつになったらG-Wolvesを支持するのをやめるんだ？ 一体何を期待してたんだよ。このサブレットでG-Wolvesのカスタマーサポートの惨状についての投稿が毎週…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=G-Wolves%20Hati-S" data-device="G-Wolves Hati-S" onclick="filterByDevice(this.dataset.device); return false;">G-Wolves Hati-S</a></div>
             <a class="read-log-link" href="articles/1xkm66h.html">続きを読む（6件） →</a>
@@ -2119,11 +2049,7 @@ a.gear-chip:hover {
             <a href="articles/1xkmx86.html">エイムの「カクつき」を直す方法：設定迷子を脱出してスムーズなトラッキングを手に入れるコツ</a>
           </h3>
           <p class="index-thread-hook">感度を70cm/360°まで下げても腕のカクつきや「引っかかり」が治らないという悩みに対する海外掲示板の議論です。設定調整（PSAメソッド）に頼るよりも、動摩擦係数やソールの見直し、そしてスムーズネス特化の練習が必要であると結論付けられています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>これは単に練習時間の問題な気がするよ。スムーズネスを練習して、PGTやSnake track、TSKベンチマークとかそのあたりのシナリオをプレイしてみて。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>君は設定や環境、練習に執着しすぎだよ。
-
-もっと実際のゲームをプレイしなよ。
-
-全員がdonkみたいな超絶スムーズなコーナートラッキングをする必要はないし、プロでさえ出来ていな…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>これは単に練習時間の問題な気がするよ。スムーズネスを練習して、PGTやSnake track、TSKベンチマークとかそのあたりのシナリオをプレイしてみて。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>君は設定や環境、練習に執着しすぎだよ。 もっと実際のゲームをプレイしなよ。 全員がdonkみたいな超絶スムーズなコーナートラッキングをする必要はないし、プロでさえ出来ていない人…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=EsportsTiger%20Ice%20V2" data-device="EsportsTiger Ice V2" onclick="filterByDevice(this.dataset.device); return false;">EsportsTiger Ice V2</a></div>
             <a class="read-log-link" href="articles/1xkmx86.html">続きを読む（11件） →</a>
@@ -2256,9 +2182,7 @@ a.gear-chip:hover {
             <a href="articles/1xjrnts.html">大型エルゴの快適性と軽量対称型の操作性で悩むFPSプレイヤーへの最適解</a>
           </h3>
           <p class="index-thread-hook">作業用Basiliskの安定感に気づきつつも重さがネックとなり、軽量なVXE R1では手のひらのサポートが足りないと悩むプレイヤー。海外コミュニティからは後部が高めの軽量対称マウスへの乗り換えが提案されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>その親指レスト問題がまさにすべての核心だね。しっかりしたサムレストが付いた軽量マウスを見つけるのは、BasiliskやG502シリーズ以外だとほぼ不可能だよ。
-
-人差し指を伸ば…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>V3 Proは自分にはかなり高価だし、それでもまだ結構重いんだよね。作業用としてなら今のHyperspeedを手元に残しておきたいけど、良いマウスって特に持ちやすい形状のものほ…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>その親指レスト問題がまさにすべての核心だね。しっかりしたサムレストが付いた軽量マウスを見つけるのは、BasiliskやG502シリーズ以外だとほぼ不可能だよ。 人差し指を伸ばす…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>V3 Proは自分にはかなり高価だし、それでもまだ結構重いんだよね。作業用としてなら今のHyperspeedを手元に残しておきたいけど、良いマウスって特に持ちやすい形状のものほ…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Razer%20Basilisk%20V3%20X%20HyperSpeed" data-device="Razer Basilisk V3 X HyperSpeed" onclick="filterByDevice(this.dataset.device); return false;">Razer Basilisk V3 X HyperSpeed</a><a class="gear-chip" href="index.html?q=VXE%20Dragonfly%20R1%20Pro%20Max" data-device="VXE Dragonfly R1 Pro Max" onclick="filterByDevice(this.dataset.device); return false;">VXE Dragonfly R1 Pro Max</a><a class="gear-chip" href="index.html?q=Razer%20Basilisk%20V3%20Pro" data-device="Razer Basilisk V3 Pro" onclick="filterByDevice(this.dataset.device); return false;">Razer Basilisk V3 Pro</a><a class="gear-chip" href="index.html?q=Keychron%20M7" data-device="Keychron M7" onclick="filterByDevice(this.dataset.device); return false;">Keychron M7</a></div>
             <a class="read-log-link" href="articles/1xjrnts.html">続きを読む（5件） →</a>
@@ -2277,11 +2201,7 @@ a.gear-chip:hover {
             <a href="articles/1xjroc4.html">クリック音が静かなゲーミングマウスの選び方とおすすめモデルまとめ</a>
           </h3>
           <p class="index-thread-hook">Logicool G305のクリック音がうるさくて返品したスレ主に対し、静音ゲーミング環境を求める議論が展開。ホットスワップ対応機や静音スイッチ換装、静音オフィス兼用機など多彩な選択肢が提示されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ハンダごてが使えるなら、Kailhの静音スイッチは完全に底なし沼だよ。古い有線マウスにいくつかハンダ付けして換装してみたけど、文字通り天と地ほどの差がある。
-
-それが無理なら、…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>ハンダ付けの工作をしたくないなら、スイッチをホットスワップできる安価な中国製クローンマウスを買って、スイッチを完全に静音なやつに交換するといいよ。
-
-例えばIncott G23…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ハンダごてが使えるなら、Kailhの静音スイッチは完全に底なし沼だよ。古い有線マウスにいくつかハンダ付けして換装してみたけど、文字通り天と地ほどの差がある。 それが無理なら、オ…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>ハンダ付けの工作をしたくないなら、スイッチをホットスワップできる安価な中国製クローンマウスを買って、スイッチを完全に静音なやつに交換するといいよ。 例えばIncott G23に…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Logicool%20G305%20LIGHTSPEED" data-device="Logicool G305 LIGHTSPEED" onclick="filterByDevice(this.dataset.device); return false;">Logicool G305 LIGHTSPEED</a><a class="gear-chip" href="index.html?q=Razer%20Pro%20Click%20Mini" data-device="Razer Pro Click Mini" onclick="filterByDevice(this.dataset.device); return false;">Razer Pro Click Mini</a><a class="gear-chip" href="index.html?q=Endgame%20Gear%20OP1%208K" data-device="Endgame Gear OP1 8K" onclick="filterByDevice(this.dataset.device); return false;">Endgame Gear OP1 8K</a><a class="gear-chip" href="index.html?q=Keychron%20M6" data-device="Keychron M6" onclick="filterByDevice(this.dataset.device); return false;">Keychron M6</a></div>
             <a class="read-log-link" href="articles/1xjroc4.html">続きを読む（7件） →</a>
@@ -2490,13 +2410,7 @@ a.gear-chip:hover {
             <a href="articles/1xitxpf.html">ロー感度に無理して変更すべき？ハイ感度からの移行における動きのぎこちなさと真の解決策</a>
           </h3>
           <p class="index-thread-hook">2年のブランクを経て復帰したプレイヤーが、安定性を求めてハイ感度からロー感度へ変更したものの、動きのぎこちなさに悩むスレッドです。コミュニティからは無理に極端なロー感度に固執する必要はなく、快適さと腕の使い方に応じた調整が推奨されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>感度はランクを上げる上でそこまで大きな意味を持ちません。
-
-私はOverwatchでハイ感度でもロー感度でもチャンピオンランクに到達しています。
-
-もし以前の感度でCSの高ラン…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>次はcm/360を投稿してください、お願いします。
-
-振り向き40cmから58cmへの変更なら、そこまで極端な変化ではありません。もしアビリティ（Util）の使用に影響が出てい…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>感度はランクを上げる上でそこまで大きな意味を持ちません。 私はOverwatchでハイ感度でもロー感度でもチャンピオンランクに到達しています。 もし以前の感度でCSの高ランクに…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>次はcm/360を投稿してください、お願いします。 振り向き40cmから58cmへの変更なら、そこまで極端な変化ではありません。もしアビリティ（Util）の使用に影響が出ている…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xitxpf.html">続きを読む（6件） →</a>
@@ -2515,11 +2429,7 @@ a.gear-chip:hover {
             <a href="articles/1xiupuw.html">VoltaicのStatic両方でDiamond達成！Wide Wallを伸ばす鍵は1wXtsの練習？</a>
           </h3>
           <p class="index-thread-hook">VoltaicのStatic ClickingシナリオでDiamondに到達したエイマーの報告。Staticの伸び悩みを打開する練習手順や、他カテゴリとの難易度格差が語られています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>Wide Wallのランクを上げる手順：
-
-1) 何ヶ月もかけて1wXtsのスコアを目標ランクまで引き上げる
-
-2) ビクトリーラン（ウイニングラン）として、おまけのWide …</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>俺も2日前にww5tでようやくDiamond取れたよ。Static両方でJade取れるようになる前に、TrackingかSwitchingのどこかでGM（Grandmaster…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>Wide Wallのランクを上げる手順： 1) 何ヶ月もかけて1wXtsのスコアを目標ランクまで引き上げる 2) ビクトリーラン（ウイニングラン）として、おまけのWide Wa…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>俺も2日前にww5tでようやくDiamond取れたよ。Static両方でJade取れるようになる前に、TrackingかSwitchingのどこかでGM（Grandmaster…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xiupuw.html">続きを読む（4件） →</a>
@@ -2538,9 +2448,7 @@ a.gear-chip:hover {
             <a href="articles/1xidhfs.html">破格のWallhack SP-004は偽物？AliExpressのクローン品や旧モデルとの見分け方を海外コミュニティが検証</a>
           </h3>
           <p class="index-thread-hook">フリマアプリで60ドルという安値で出品されたWallhack SP-004の真偽について海外ユーザーが議論。表面の質感が粗い点や底面パターンの違いから、AliExpress等で出回る中華クローンやSkyPAD 3.0である可能性が指摘されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>裏面は見せてくれてる？もしシリコンベースが黒い六角形のゴムならコピー品だよ。本物はブランドロゴが入った四角いパターンだから。
-
-https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>いや残念ながら見せてくれてなくて、パッドの表面の写真だけなんだよね。ズームしてみると、なんかまな板みたいに見えるから怪しいなと思ってて。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>裏面は見せてくれてる？もしシリコンベースが黒い六角形のゴムならコピー品だよ。本物はブランドロゴが入った四角いパターンだから。 https://i.redd.it/15pnuca…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>いや残念ながら見せてくれてなくて、パッドの表面の写真だけなんだよね。ズームしてみると、なんかまな板みたいに見えるから怪しいなと思ってて。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Wallhack%20SP-004" data-device="Wallhack SP-004" onclick="filterByDevice(this.dataset.device); return false;">Wallhack SP-004</a></div>
             <a class="read-log-link" href="articles/1xidhfs.html">続きを読む（10件） →</a>
@@ -2597,9 +2505,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xid51q.html">トラッキング系FPSで敵の頭を追えない悩み：おすすめ練習シナリオと視覚認識のコツ</a>
           </h3>
           <p class="index-thread-hook">トラッキング系FPSで胴体ばかり撃ってしまいヘッドトラッキングが安定しないという悩み。海外コミュニティからは細身・高加速度シナリオの活用や視線誘導の徹底など具体的な上達法が提案されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>bot overrideをオンにした instant accel thin ground reactive で、目とクロスヘアを頭に集中させること。
-
-あとは cloverra…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>あと実際のゲーム内では、文字通り敵の頭に視線を接着させて、視覚的に見失わないようにすること。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>bot overrideをオンにした instant accel thin ground reactive で、目とクロスヘアを頭に集中させること。 あとは cloverraw…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>あと実際のゲーム内では、文字通り敵の頭に視線を接着させて、視覚的に見失わないようにすること。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xid51q.html">続きを読む（8件） →</a>
@@ -2694,9 +2600,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xi0a3n.html">VALORANTのブロンズ3から抜け出すためのおすすめエイムルーティンとは？</a>
           </h3>
           <p class="index-thread-hook">VALORANTでブロンズ3から抜け出せず悩むプレイヤーへのおすすめエイムルーティンが議論されました。Voltaicのゲーム特化メニューやViscoseベンチマークの活用が推奨されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>&gt; ブロンズ3でスタックしていてもう疲れました。
-
-何のゲーム？俺も疲れたよ。</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>VALORANTです。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>&gt; ブロンズ3でスタックしていてもう疲れました。 何のゲーム？俺も疲れたよ。</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>VALORANTです。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xi0a3n.html">続きを読む（4件） →</a>
@@ -2753,9 +2657,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xhjkvo.html">AliExpressで販売されているOP1 8k v2向け格安ケーブルについての海外ユーザーの評価</a>
           </h3>
           <p class="index-thread-hook">AliExpressで見つけた中華製の薄型OP1 8k v2用ケーブルについて、品質や実用性を気にするスレ主に対し、実際の購入者たちが使用感を語り合っているスレッド。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>アカウントが最小限のカルマ要件を満たしていないため、あなたの投稿は自動的に削除されました。
-
-これはボットによる自動処理です。ご質問がある場合は、r/MouseReviewのモ…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>役に立つか分かりませんが、AliExpressでHagibisが5ドル（新規ユーザーなら2ドル）で8kマウスケーブルを販売しています。56件のレビューで4.9/5の評価を得てい…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>アカウントが最小限のカルマ要件を満たしていないため、あなたの投稿は自動的に削除されました。 これはボットによる自動処理です。ご質問がある場合は、r/MouseReviewのモデ…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>役に立つか分かりませんが、AliExpressでHagibisが5ドル（新規ユーザーなら2ドル）で8kマウスケーブルを販売しています。56件のレビューで4.9/5の評価を得てい…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Endgame%20Gear%20OP1%208K" data-device="Endgame Gear OP1 8K" onclick="filterByDevice(this.dataset.device); return false;">Endgame Gear OP1 8K</a><a class="gear-chip" href="index.html?q=Endgame%20Gear%20XM2%20v2" data-device="Endgame Gear XM2 v2" onclick="filterByDevice(this.dataset.device); return false;">Endgame Gear XM2 v2</a></div>
             <a class="read-log-link" href="articles/1xhjkvo.html">続きを読む（11件） →</a>
@@ -2793,9 +2695,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xhfw3c.html">エイム練習のスコア向上は純粋なエイム力かシナリオ慣れか？見分け方と対策</a>
           </h3>
           <p class="index-thread-hook">KovaaK&#x27;sのスコアが伸びても、単にシナリオのボットの動きやリセットに慣れただけではないかと悩む声は多いです。海外コミュニティでは、ボットの動きを予測せず視覚反応を鍛えることや、多彩なシナリオと振り向き感度の変更によるマウスコントロールの純粋な強化が推奨されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>見分けなんてつかないよ。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>SteamアカウントかEVXL（スプレッドシート）のリンクを貼ってくれれば、君がどのシナリオやカテゴリの話をしているのか正確に把握できるよ。
-
-それはさておき、そう、これは君だ…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>見分けなんてつかないよ。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>SteamアカウントかEVXL（スプレッドシート）のリンクを貼ってくれれば、君がどのシナリオやカテゴリの話をしているのか正確に把握できるよ。 それはさておき、そう、これは君だけ…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xhfw3c.html">続きを読む（8件） →</a>
@@ -2890,9 +2790,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xgnuwg.html">マウスグリップで手や手首が痛む？海外猛者が明かすエイム障害予防と解剖学的アプローチ</a>
           </h3>
           <p class="index-thread-hook">持ち方動画を見て手首や母指球をマウスパッドに密着させようとし、手に痛みや違和感を覚えたスレ主。コミュニティからは快適性の重視や神経障害対策、ストレッチの重要性が提示されました。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>その動画の人は誰？ゲームで実際に強いの？マウスの持ち方で一番大事なのは快適さだよ！みんな少しずつ違う持ち方をしてるし、自分でいろいろ試してみるしかないね。
-
-個人的にはつかみ持…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>Ron Rambo Kimのエイムのブレを直す動画と、Struthのエレクトロニクスに関する動画だったよ。自分はまだ21歳なんだけど、すでに手がかなり痛むから、持ち方の人間工学…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>その動画の人は誰？ゲームで実際に強いの？マウスの持ち方で一番大事なのは快適さだよ！みんな少しずつ違う持ち方をしてるし、自分でいろいろ試してみるしかないね。 個人的にはつかみ持ち…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>Ron Rambo Kimのエイムのブレを直す動画と、Struthのエレクトロニクスに関する動画だったよ。自分はまだ21歳なんだけど、すでに手がかなり痛むから、持ち方の人間工学…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xgnuwg.html">続きを読む（15件） →</a>
@@ -2911,9 +2809,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xg7ns2.html">Glorious Iceの摩耗から乗り換えるなら？ガラスパッドの適性とおすすめ候補</a>
           </h3>
           <p class="index-thread-hook">ハイブリッドパッド「Glorious Ice」の寿命に伴い、ガラスパッドへの移行を検討するプレイヤーへのアドバイス。ガラスパッドの滑走速度やアームカバーの必要性、超高速布パッドの選択肢が議論されています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>こんにちは。当サブレの[週間マウスパッド相談スレッド]をチェックしてみてください！
-
-相談者へのアドバイスがしやすいように週間スレッドを設けています。スレッド内のテンプレートや…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>PD170かNoctisを試してみて。表面のテクスチャ感がほとんどなくて、湿気にも非常に強く、超高速布パッドの終着点（エンドゲーム）だよ。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>こんにちは。当サブレの[週間マウスパッド相談スレッド]をチェックしてみてください！ 相談者へのアドバイスがしやすいように週間スレッドを設けています。スレッド内のテンプレートやリ…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>PD170かNoctisを試してみて。表面のテクスチャ感がほとんどなくて、湿気にも非常に強く、超高速布パッドの終着点（エンドゲーム）だよ。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Glorious%20ICE" data-device="Glorious ICE" onclick="filterByDevice(this.dataset.device); return false;">Glorious ICE</a><a class="gear-chip" href="index.html?q=Logicool%20G%20PRO%20X%20SUPERLIGHT%202" data-device="Logicool G PRO X SUPERLIGHT 2" onclick="filterByDevice(this.dataset.device); return false;">Logicool G PRO X SUPERLIGHT 2</a><a class="gear-chip" href="index.html?q=PD170" data-device="PD170" onclick="filterByDevice(this.dataset.device); return false;">PD170</a><a class="gear-chip" href="index.html?q=Noctis" data-device="Noctis" onclick="filterByDevice(this.dataset.device); return false;">Noctis</a></div>
             <a class="read-log-link" href="articles/1xg7ns2.html">続きを読む（5件） →</a>
@@ -2970,9 +2866,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xg8ssl.html">エイム練習を始めて5日目、スタティック（静止目標）だけが上達しない時の解決策</a>
           </h3>
           <p class="index-thread-hook">トラッキング等の上達に比べてスタティック（静止目標）やフリックが伸び悩む初心者の悩みに対し、先輩プレイヤーたちが経験に基づく実践的なアドバイスと練習法を共有している。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>おい、5日なんて何の意味もないぞ。
-
-初期段階として、感度を50〜65cmに下げてみるのと、Bardozメソッドを調べてみるといい。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>5日が何の意味もないことくらい分かってるし、フリックのメソッドや理論についても知ってる。ただ、なぜこの特定のカテゴリだけ上達がこんなに遅いのか、それを補う方法があるのか​​が気…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>おい、5日なんて何の意味もないぞ。 初期段階として、感度を50〜65cmに下げてみるのと、Bardozメソッドを調べてみるといい。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>5日が何の意味もないことくらい分かってるし、フリックのメソッドや理論についても知ってる。ただ、なぜこの特定のカテゴリだけ上達がこんなに遅いのか、それを補う方法があるのか​​が気…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xg8ssl.html">続きを読む（7件） →</a>
@@ -2991,9 +2885,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xg8wnn.html">ガラスマウスパッド最大のデメリットとは？海外猛者のリアルな評価と対策まとめ</a>
           </h3>
           <p class="index-thread-hook">圧倒的な滑りやすさと耐久性で人気のガラスマウスパッドですが、購入前に知っておくべき「隠れたデメリット」が存在します。微細なゴミによるジャリジャリ感やソールの摩耗、アームカバーの必須化など、実際のユーザーが感じる短所と対策を詳しくまとめました。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>https://www.reddit.com/r/MousepadReview/comments/1v5496v/whats_the_pros_and_cons_of_glas…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>もし君が、小さな埃ひとつでもソールをガリガリ削る一番粗い砂粒のように感じられてイライラするタイプなら、ガラスパッドには腹が立つと思う。
-
-布と比べてパッド自体のストッピングパワ…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>https://www.reddit.com/r/MousepadReview/comments/1v5496v/whats_the_pros_and_cons_of_glas…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>もし君が、小さな埃ひとつでもソールをガリガリ削る一番粗い砂粒のように感じられてイライラするタイプなら、ガラスパッドには腹が立つと思う。 布と比べてパッド自体のストッピングパワー…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Wallhack%20SP-005" data-device="Wallhack SP-005" onclick="filterByDevice(this.dataset.device); return false;">Wallhack SP-005</a></div>
             <a class="read-log-link" href="articles/1xg8wnn.html">続きを読む（30件） →</a>
@@ -3088,9 +2980,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xfr6hi.html">FPSコミュニティで大うけした「インシャラー」とエイム練習をめぐるユーモアの数々</a>
           </h3>
           <p class="index-thread-hook">エイム練習をせず「神の御心（インシャラー）」を唱えて敵にピークするというFPSコミュニティのミームが大きな笑いを誘っている。海外掲示板に投稿された、ユーモアあふれるコメントのやり取りを全訳する。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ゲーム内でスナイパーのフリックショットが決まった瞬間って、前線にいた頃の記憶が蘇るよね。
-
-（自分はムスリムだけど、これは完全にジョークだよ。現実でピストルすら触ったことないか…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>考えられる限りの言い訳を全部並べてて草</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>ゲーム内でスナイパーのフリックショットが決まった瞬間って、前線にいた頃の記憶が蘇るよね。 （自分はムスリムだけど、これは完全にジョークだよ。現実でピストルすら触ったことないから…</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>考えられる限りの言い訳を全部並べてて草</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xfr6hi.html">続きを読む（26件） →</a>
@@ -3375,9 +3265,7 @@ https://i.redd.it/15pnuc…</span></div><div class="log-preview-line"><span clas
             <a href="articles/1xdp7z4.html">名機SteelSeries DeXの復活を望む声と、現行の後継・類似パッドの有力候補</a>
           </h3>
           <p class="index-thread-hook">かつて独自のシリコンハイブリッド表面で人気を博した名機SteelSeries DeXの大型サイズ復活を熱望するスレッドです。コミュニティからは、極めて近い質感を持つ現行の代替品としてPulsarのコラボモデルが挙げられています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>&gt; どうして廃番にして二度と再販しなかったのか本当に不思議だよ……
-
-SteelSeriesのゲーミングギアの半分くらいに対して同じことが言えるよな。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>Pulsar Pro Series D4v41があるよ。ほぼそのまんまそれだよ。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>&gt; どうして廃番にして二度と再販しなかったのか本当に不思議だよ…… SteelSeriesのゲーミングギアの半分くらいに対して同じことが言えるよな。</span></div><div class="log-preview-line"><span class="preview-speaker">海外ユーザー2:</span><span>Pulsar Pro Series D4v41があるよ。ほぼそのまんまそれだよ。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=SteelSeries%20DeX" data-device="SteelSeries DeX" onclick="filterByDevice(this.dataset.device); return false;">SteelSeries DeX</a><a class="gear-chip" href="index.html?q=Pulsar%20Pro%20Series%20D4v41" data-device="Pulsar Pro Series D4v41" onclick="filterByDevice(this.dataset.device); return false;">Pulsar Pro Series D4v41</a></div>
             <a class="read-log-link" href="articles/1xdp7z4.html">続きを読む（8件） →</a>
@@ -3453,13 +3341,7 @@ SteelSeriesのゲーミングギアの半分くらいに対して同じことが
             <a href="articles/1xd2vvf.html">マイクロフリックの停滞を打破する脱力テクニックとスピード矯正法</a>
           </h3>
           <p class="index-thread-hook">マイクロフリックが上達せずスコアが停滞している原因は、着弾時の力みと慎重すぎる初動にあります。脱力とスピード重視の意識改革で限界を突破できます。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>すごい画面テーマ使ってるね。
-
-* 今の君はフリック1回あたり約625msかかっている。これを約500msまで縮められれば大きな改善になるよ。その差（125ms）は人間の知覚限…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>返信に時間を割いてくれてありがとう！
-
-そうなんだよね、どこかにプレイ動画を載せるたびに必ずテーマについて何か言われちゃうんだ😁
-
-ここまで詳細に分析してくれて本当に助かる。指…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>すごい画面テーマ使ってるね。 * 今の君はフリック1回あたり約625msかかっている。これを約500msまで縮められれば大きな改善になるよ。その差（125ms）は人間の知覚限界…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>返信に時間を割いてくれてありがとう！ そうなんだよね、どこかにプレイ動画を載せるたびに必ずテーマについて何か言われちゃうんだ😁 ここまで詳細に分析してくれて本当に助かる。指摘し…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"></div>
             <a class="read-log-link" href="articles/1xd2vvf.html">続きを読む（6件） →</a>
@@ -3516,9 +3398,7 @@ SteelSeriesのゲーミングギアの半分くらいに対して同じことが
             <a href="articles/1xa8izx.html">Viper V3 Proを31g化！PMM Zen Mini 2.0軽量化MODのビルド感と評価</a>
           </h3>
           <p class="index-thread-hook">Razer Viper V3 Proの中身を移植して31gの超軽量マウスに改造するキット「PMM Zen Mini 2.0」を海外ユーザーがレビュー。ビルドの難所や付属ソール「Smoothies」の驚きの滑走感が話題になっています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>いいね！すごく良さそう。クリック感は純正のシェルと比べて違いはある？
-
-追記：PMM Smoothiesについてだけど…まったく同感。気に入って手持ちのすべてのマウスに貼るため…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>違いはほとんど感じられないかな。ウェブサイトの説明動画でシェルとスイッチの間に小さなスペーサーを挟むことが推奨されていて、それを付けたんだ。スペーサーを挟まないとすごく違和感が…</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>いいね！すごく良さそう。クリック感は純正のシェルと比べて違いはある？ 追記：PMM Smoothiesについてだけど…まったく同感。気に入って手持ちのすべてのマウスに貼るために…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>違いはほとんど感じられないかな。ウェブサイトの説明動画でシェルとスイッチの間に小さなスペーサーを挟むことが推奨されていて、それを付けたんだ。スペーサーを挟まないとすごく違和感が…</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Razer%20Viper%20V3%20Pro" data-device="Razer Viper V3 Pro" onclick="filterByDevice(this.dataset.device); return false;">Razer Viper V3 Pro</a><a class="gear-chip" href="index.html?q=PMM%20Smoothies" data-device="PMM Smoothies" onclick="filterByDevice(this.dataset.device); return false;">PMM Smoothies</a><a class="gear-chip" href="index.html?q=ARTISAN%20P8%20%E3%82%BD%E3%83%BC%E3%83%AB" data-device="ARTISAN P8 ソール" onclick="filterByDevice(this.dataset.device); return false;">ARTISAN P8 ソール</a></div>
             <a class="read-log-link" href="articles/1xa8izx.html">続きを読む（17件） →</a>
@@ -3575,9 +3455,7 @@ SteelSeriesのゲーミングギアの半分くらいに対して同じことが
             <a href="articles/1x9wdzs.html">手肌のアレルギーと汚れ対策にガラスマウスパッドは買い？布製の手入れに疲れたユーザーへのアドバイス</a>
           </h3>
           <p class="index-thread-hook">手肌の乾燥や落屑で布製マウスパッドがすぐ汚れることに悩むスレ主。ガラスマウスパッドへの移行は清掃面でのメリットが大きい一方、ソール磨耗やゴミ噛みなどの特有の注意点も存在します。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>そうですね、PCを使う前に1日1回サッと拭くだけで済むようになりますよ。
-
-ただ、PTFEソールだと最初の1週間くらいはあなたの手以上にソールの削れカスが出るかもしれないので、…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>ワイヤレスのG502 Xを使っているんですが、あれはPTFEソールですよね？</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>そうですね、PCを使う前に1日1回サッと拭くだけで済むようになりますよ。 ただ、PTFEソールだと最初の1週間くらいはあなたの手以上にソールの削れカスが出るかもしれないので、U…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>ワイヤレスのG502 Xを使っているんですが、あれはPTFEソールですよね？</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=ASUS%20ROG%20Moonstone%20Ace" data-device="ASUS ROG Moonstone Ace" onclick="filterByDevice(this.dataset.device); return false;">ASUS ROG Moonstone Ace</a><a class="gear-chip" href="index.html?q=Logicool%20G740" data-device="Logicool G740" onclick="filterByDevice(this.dataset.device); return false;">Logicool G740</a><a class="gear-chip" href="index.html?q=Logicool%20G502%20X%20LIGHTSPEED" data-device="Logicool G502 X LIGHTSPEED" onclick="filterByDevice(this.dataset.device); return false;">Logicool G502 X LIGHTSPEED</a><a class="gear-chip" href="index.html?q=ARTISAN%20%E9%9B%B7%E9%9B%BB" data-device="ARTISAN 雷電" onclick="filterByDevice(this.dataset.device); return false;">ARTISAN 雷電</a></div>
             <a class="read-log-link" href="articles/1x9wdzs.html">続きを読む（20件） →</a>
@@ -3596,9 +3474,7 @@ SteelSeriesのゲーミングギアの半分くらいに対して同じことが
             <a href="articles/1xacsdn.html">Best Buyの100ドル分ギフト券でおすすめのマウスは？SUPERLIGHTやViper、OP1の比較</a>
           </h3>
           <p class="index-thread-hook">初代G PRO X SUPERLIGHTから別のマウスへの買い替えを検討中のスレ主が、Best Buyの100ドル分の報酬クレジットの使い道や最新モデルについてアドバイスを求めているスレッド。形状の好みやクリック感、最新のトレンドについて活発な議論が交わされています。</p>
-          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>形状は王様だ。Viperの方が好きなら、X3じゃなくてViperにするべきだよ。
-
-でも、もし他に気に入ると思うもっと良いマウスがあるなら、そっちにしなよ。好きになれそうにない…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>そうだね、他に頭にあったのはop1 8kくらいかな。</span></div></div>
+          <div class="log-preview-box"><div class="log-preview-line"><span class="preview-speaker">海外ユーザー1:</span><span>形状は王様だ。Viperの方が好きなら、X3じゃなくてViperにするべきだよ。 でも、もし他に気に入ると思うもっと良いマウスがあるなら、そっちにしなよ。好きになれそうにないマ…</span></div><div class="log-preview-line"><span class="preview-speaker">スレ主:</span><span>そうだね、他に頭にあったのはop1 8kくらいかな。</span></div></div>
           <div class="thread-footer-bar">
             <div class="gear-inline-list"><a class="gear-chip" href="index.html?q=Logicool%20G%20PRO%20X%20SUPERLIGHT" data-device="Logicool G PRO X SUPERLIGHT" onclick="filterByDevice(this.dataset.device); return false;">Logicool G PRO X SUPERLIGHT</a><a class="gear-chip" href="index.html?q=Razer%20Viper%20Ultimate" data-device="Razer Viper Ultimate" onclick="filterByDevice(this.dataset.device); return false;">Razer Viper Ultimate</a><a class="gear-chip" href="index.html?q=Endgame%20Gear%20XM1" data-device="Endgame Gear XM1" onclick="filterByDevice(this.dataset.device); return false;">Endgame Gear XM1</a><a class="gear-chip" href="index.html?q=Endgame%20Gear%20OP1%208k" data-device="Endgame Gear OP1 8k" onclick="filterByDevice(this.dataset.device); return false;">Endgame Gear OP1 8k</a></div>
             <a class="read-log-link" href="articles/1xacsdn.html">続きを読む（30件） →</a>

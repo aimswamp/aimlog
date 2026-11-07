@@ -1177,7 +1177,7 @@ def aggregate_device_ranking(
 
 def _clean_device_comment_ja(text: str) -> str:
     """デバイス評価コメントから『スレ主』等の不要な主語やノイズを自然な日本語へ整形する。"""
-    s = text.strip().replace("souris", "マウス")
+    s = _strip_markdown_plain(text).replace("souris", "マウス")
     s = re.sub(r"^ているマウス[。、]\s*", "", s)
     s = re.sub(r"^気に入っていた(?:マウスの一つ|軽量マウス)[。、]\s*", "定番の軽量マウスとして好評。", s)
     s = re.sub(r"スレ主[がはも]", "ユーザーが", s)
@@ -1205,18 +1205,48 @@ SUBREDDIT_LABELS = {
 }
 
 
+def _strip_markdown_plain(text: str) -> str:
+    """プレビューやメタディスクリプション用に Markdown の強調・見出し記号を除去したプレーンテキストを返す。"""
+    s = str(text or "")
+    s = re.sub(r"(?m)^#{1,6}\s*", "", s)
+    s = re.sub(r"\*\*(.+?)\*\*", r"\1", s)
+    s = re.sub(r"__([^_\n]+?)__", r"\1", s)
+    s = re.sub(r"(?<!\*)\*([^*\s][^*\n]*?)\*(?!\*)", r"\1", s)
+    s = re.sub(r"`([^`\n]+?)`", r"\1", s)
+    return s.strip()
+
+
+def _format_inline_markdown_html(text: str) -> str:
+    """テキストをHTMLエスケープした上で、Markdownの太字(**強調**)等を<strong>タグへ自動変換する。"""
+    s = html.escape(str(text or ""))
+    s = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", s)
+    s = re.sub(r"__([^_\n]+?)__", r"<strong>\1</strong>", s)
+    s = re.sub(r"(?<!\*)\*([^*\s][^*\n]*?)\*(?!\*)", r"<strong>\1</strong>", s)
+    s = re.sub(r"`([^`\n]+?)`", r"<code>\1</code>", s)
+    return s
+
+
 def _format_res_body_html(text: str) -> str:
-    """コメント本文をHTMLエスケープし、改行や引用行（>）を整える。"""
+    """コメント本文をHTMLエスケープし、改行・引用行（>）・Markdown強調や見出しを整える。"""
     cleaned = re.sub(r"^(?:0*1|１)\s*(?:名前[:：][^\n]+|[：:][^\n]+)\n+", "", text.strip())
     lines = cleaned.splitlines()
     out_lines: list[str] = []
     for ln in lines:
         s = ln.strip()
         if s.startswith(">") and not s.startswith(">>"):
-            q_text = html.escape(s.lstrip(">").strip())
+            q_text = _format_inline_markdown_html(s.lstrip(">").strip())
             out_lines.append(f'<blockquote class="rc-quote">{q_text}</blockquote>')
         else:
-            out_lines.append(html.escape(ln))
+            m_head = re.match(r"^#{1,6}\s+(.+)$", s)
+            if m_head:
+                h_text = _strip_markdown_plain(m_head.group(1))
+                out_lines.append(f'<strong>{html.escape(h_text)}</strong>')
+            else:
+                m_bullet = re.match(r"^[-*]\s+(.+)$", s)
+                if m_bullet:
+                    out_lines.append("・" + _format_inline_markdown_html(m_bullet.group(1)))
+                else:
+                    out_lines.append(_format_inline_markdown_html(ln))
     return "<br>".join(out_lines).replace("</blockquote><br>", "</blockquote>")
 
 
@@ -1306,7 +1336,7 @@ def _build_reddit_tree_html(art: dict[str, Any]) -> tuple[str, int]:
 
 
 def _format_analysis_html(raw_text: str) -> str:
-    """ひとことノート（解説テキスト）の【見出し】をセクション小見出しに変換し、段落ごとに組む。"""
+    """ひとことノート（解説テキスト）の【見出し】や ### 見出しをセクション小見出しに変換し、Markdown強調も整形して段落ごとに組む。"""
     if not raw_text.strip():
         return ""
     blocks: list[str] = []
@@ -1314,19 +1344,32 @@ def _format_analysis_html(raw_text: str) -> str:
         s = line.strip()
         if not s:
             continue
-        m = re.match(r"^【(.+?)】(.*)$", s)
+        # 先頭の **【見出し】** や ### 【見出し】 等の外枠記号を剥がして判定しやすくする
+        s_head_cand = re.sub(r"^#{1,6}\s*", "", s)
+        s_head_cand_unbold = re.sub(r"^\*\*(.+?)\*\*$", r"\1", s_head_cand)
+        m = re.match(r"^【(.+?)】(.*)$", s_head_cand_unbold)
         if m:
-            raw_head = m.group(1).strip()
+            raw_head = _strip_markdown_plain(m.group(1).strip())
             # 「論点1：〇〇」や「1：〇〇」を「1. 〇〇」に正規化
             raw_head = re.sub(r"^(?:論点|ポイント)\s*(\d+)\s*[：:．.]\s*", r"\1. ", raw_head)
             raw_head = re.sub(r"^(\d+)\s*[：:]\s*", r"\1. ", raw_head)
             head_title = html.escape(raw_head)
-            rest = html.escape(m.group(2).strip())
+            rest_raw = m.group(2).strip().lstrip("*").strip()
             blocks.append(f'<h3 class="analysis-subhead">{head_title}</h3>')
-            if rest:
-                blocks.append(f'<p class="analysis-para">{rest}</p>')
-        else:
-            blocks.append(f'<p class="analysis-para">{html.escape(s)}</p>')
+            if rest_raw:
+                blocks.append(f'<p class="analysis-para">{_format_inline_markdown_html(rest_raw)}</p>')
+            continue
+        m_md_head = re.match(r"^#{1,6}\s+(.+)$", s)
+        if m_md_head:
+            raw_head = _strip_markdown_plain(m_md_head.group(1).strip())
+            raw_head = re.sub(r"^(?:論点|ポイント)\s*(\d+)\s*[：:．.]\s*", r"\1. ", raw_head)
+            raw_head = re.sub(r"^(\d+)\s*[：:]\s*", r"\1. ", raw_head)
+            blocks.append(f'<h3 class="analysis-subhead">{html.escape(raw_head)}</h3>')
+            continue
+        m_bullet = re.match(r"^[-*]\s+(.+)$", s)
+        if m_bullet:
+            s = "・" + m_bullet.group(1)
+        blocks.append(f'<p class="analysis-para">{_format_inline_markdown_html(s)}</p>')
     return "\n".join(blocks)
 
 
@@ -2134,70 +2177,8 @@ a.gear-chip:hover {
 .featured-section {
   margin-bottom: var(--space-2xl);
 }
-.featured-list {
+.featured-list .thread-index-row:last-child {
   border-bottom: 1px solid var(--color-rule-strong);
-}
-.featured-row {
-  padding: 0.9rem 0;
-  border-bottom: 1px solid var(--color-rule);
-}
-.featured-row:last-child {
-  border-bottom: none;
-}
-.featured-thread-title {
-  font-size: 1.06rem;
-  line-height: 1.45;
-  margin: 0 0 0.45rem;
-}
-.featured-thread-title a {
-  text-decoration: none;
-}
-.featured-thread-title a:hover {
-  color: var(--color-accent);
-  text-decoration: underline;
-}
-.featured-gear-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  margin-top: 0.4rem;
-}
-.featured-gear-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.4rem 0.75rem;
-  padding: 0.32rem 0.6rem;
-  background-color: var(--color-paper-2);
-  border-left: 2px solid var(--color-rule-strong);
-  font-size: 0.82rem;
-}
-.featured-gear-name {
-  font-weight: 700;
-  color: var(--color-ink);
-}
-.featured-gear-actions {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-.featured-shop-link {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.14rem 0.5rem;
-  border: 1px solid var(--color-rule-strong);
-  background-color: var(--color-paper);
-  color: var(--color-ink-2);
-  text-decoration: none;
-  white-space: nowrap;
-  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
-}
-.featured-shop-link:hover {
-  background-color: var(--color-ink);
-  color: var(--color-paper);
-  text-decoration: none;
 }
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
@@ -2462,14 +2443,14 @@ a.gear-chip:hover {
     # 各記事の個別HTMLページ生成
     for idx_art, art in enumerate(published):
         art_id = html.escape(str(art["id"]))
-        title = html.escape(art.get("title_ja", ""))
+        title = html.escape(_strip_markdown_plain(art.get("title_ja", "")))
         sub_raw = str(art.get("subreddit", ""))
         sub_label = html.escape(SUBREDDIT_LABELS.get(sub_raw, "海外FPS議論"))
-        hook = html.escape(art.get("hook_ja", ""))
+        hook = _format_inline_markdown_html(art.get("hook_ja", ""))
         total_comments, char_count, read_min = _compute_thread_metrics(art)
 
         points_html = "".join(
-            f"<li>{html.escape(p)}</li>"
+            f"<li>{_format_inline_markdown_html(p)}</li>"
             for p in art.get("consensus_points", [])
         )
 
@@ -2813,17 +2794,12 @@ a.gear-chip:hover {
         </div>
         """
 
-    # メインカラム用: スレッドインデックス一覧（匿名化された実コメント抜粋プレビュー付き）
-    # 記事番号は一番古い記事が #01 になるよう降順で付与する
-    articles_list_html = ""
-    total_published = len(published)
-    for idx_zero, art in enumerate(published):
-        idx_num = total_published - idx_zero
+    def _render_index_thread_row(art: dict[str, Any], idx_num: int, include_search_attrs: bool = True) -> str:
         art_id = html.escape(str(art["id"]))
         sub_raw = str(art.get("subreddit", ""))
         sub_attr = html.escape(sub_raw)
         sub_label = html.escape(SUBREDDIT_LABELS.get(sub_raw, "海外FPS議論"))
-        total_comments, char_count, read_min = _compute_thread_metrics(art)
+        total_comments, _, _ = _compute_thread_metrics(art)
 
         dev_chips_list: list[str] = []
         for d in (art.get("devices") or [])[:4]:
@@ -2843,7 +2819,8 @@ a.gear-chip:hover {
         if tree_preview:
             for c in tree_preview[:2]:
                 au = html.escape(str(c.get("author") or "海外ユーザー"))
-                tx = str(c.get("body_ja") or c.get("body_en") or "").strip()
+                tx = _strip_markdown_plain(str(c.get("body_ja") or c.get("body_en") or ""))
+                tx = re.sub(r"\s+", " ", tx).strip()
                 if len(tx) > 88:
                     tx = tx[:88] + "…"
                 preview_lines.append(
@@ -2856,7 +2833,8 @@ a.gear-chip:hover {
             for p_idx, d in enumerate((art.get("dialogue") or [])[:2], start=1):
                 sp_raw = str(d.get("speaker") or f"海外ユーザー{p_idx}")
                 sp = html.escape("スレ主" if "スレ主" in sp_raw or "(OP)" in sp_raw else f"海外ユーザー{p_idx}")
-                tx = str(d.get("text") or "").strip()
+                tx = _strip_markdown_plain(str(d.get("text") or ""))
+                tx = re.sub(r"\s+", " ", tx).strip()
                 if len(tx) > 88:
                     tx = tx[:88] + "…"
                 preview_lines.append(
@@ -2870,26 +2848,31 @@ a.gear-chip:hover {
             if preview_lines else ""
         )
 
-        # ページ分割時でも記事本文・全コメント・全デバイスを横断検索できるように検索インデックス文字列を構築
-        search_chunks: list[str] = [
-            str(art.get("title_ja") or ""),
-            str(art.get("title_en") or ""),
-            str(art.get("hook_ja") or ""),
-            str(art.get("op_post_ja") or ""),
-            str(art.get("detailed_analysis_ja") or ""),
-            SUBREDDIT_LABELS.get(sub_raw, ""),
-        ]
-        search_chunks.extend(str(p) for p in (art.get("consensus_points") or []))
-        for d_item in art.get("devices") or []:
-            search_chunks.append(str(d_item.get("name") or ""))
-            search_chunks.append(normalize_product_name_jp(str(d_item.get("name") or "")))
-            search_chunks.append(str(d_item.get("comment_ja") or ""))
-        for c_item in art.get("comment_tree") or []:
-            search_chunks.append(str(c_item.get("body_ja") or ""))
-        search_blob_attr = html.escape(re.sub(r"\s+", " ", " ".join(search_chunks)).strip().lower())
+        attrs_str = ""
+        if include_search_attrs:
+            search_chunks: list[str] = [
+                str(art.get("title_ja") or ""),
+                str(art.get("title_en") or ""),
+                str(art.get("hook_ja") or ""),
+                str(art.get("op_post_ja") or ""),
+                str(art.get("detailed_analysis_ja") or ""),
+                SUBREDDIT_LABELS.get(sub_raw, ""),
+            ]
+            search_chunks.extend(str(p) for p in (art.get("consensus_points") or []))
+            for d_item in art.get("devices") or []:
+                search_chunks.append(str(d_item.get("name") or ""))
+                search_chunks.append(normalize_product_name_jp(str(d_item.get("name") or "")))
+                search_chunks.append(str(d_item.get("comment_ja") or ""))
+            for c_item in art.get("comment_tree") or []:
+                search_chunks.append(str(c_item.get("body_ja") or ""))
+            search_blob_attr = html.escape(re.sub(r"\s+", " ", " ".join(search_chunks)).strip().lower())
+            attrs_str = f' data-sub="{sub_attr}" data-search="{search_blob_attr}"'
 
-        articles_list_html += f"""
-        <article class="thread-index-row" data-sub="{sub_attr}" data-search="{search_blob_attr}">
+        title_clean = html.escape(_strip_markdown_plain(art.get("title_ja", "")))
+        hook_clean = _format_inline_markdown_html(art.get("hook_ja", ""))
+
+        return f"""
+        <article class="thread-index-row"{attrs_str}>
           <div class="thread-meta-bar">
             <span>#{idx_num:02d}</span>
             <span class="meta-sep">/</span>
@@ -2898,9 +2881,9 @@ a.gear-chip:hover {
             <span>コメント {total_comments}件</span>
           </div>
           <h3 class="index-thread-title">
-            <a href="articles/{art_id}.html">{html.escape(art.get('title_ja', ''))}</a>
+            <a href="articles/{art_id}.html">{title_clean}</a>
           </h3>
-          <p class="index-thread-hook">{html.escape(art.get('hook_ja', ''))}</p>
+          <p class="index-thread-hook">{hook_clean}</p>
           {preview_box_html}
           <div class="thread-footer-bar">
             <div class="gear-inline-list">{dev_chips}</div>
@@ -2909,7 +2892,15 @@ a.gear-chip:hover {
         </article>
         """
 
-    # 注目スレッド（YouTubeショート掲載の最新スレッド等を最大4件、登場機材リンク付きで静かにピックアップ表示）
+    # メインカラム用: スレッドインデックス一覧（匿名化された実コメント抜粋プレビュー付き）
+    # 記事番号は一番古い記事が #01 になるよう降順で付与する
+    articles_list_html = ""
+    total_published = len(published)
+    for idx_zero, art in enumerate(published):
+        idx_num = total_published - idx_zero
+        articles_list_html += _render_index_thread_row(art, idx_num, include_search_attrs=True)
+
+    # 注目スレッド（YouTubeショート掲載の最新スレッド等を最大4件、スレッド一覧と同じ構成でピックアップ表示）
     shorts_hist_file = DATA_DIR / "shorts_history.json"
     shorts_hist_map: dict[str, dict[str, Any]] = {}
     if shorts_hist_file.exists():
@@ -2948,54 +2939,14 @@ a.gear-chip:hover {
     featured_candidates.sort(key=_featured_sort_key, reverse=True)
     featured_rows_html = ""
     for f_art in featured_candidates[:4]:
-        f_id = html.escape(str(f_art["id"]))
         f_num = art_num_map.get(str(f_art["id"]), 0)
-        f_sub_raw = str(f_art.get("subreddit", ""))
-        f_sub_attr = html.escape(f_sub_raw)
-        f_sub_label = html.escape(SUBREDDIT_LABELS.get(f_sub_raw, "海外FPS議論"))
-        f_comments, _, _ = _compute_thread_metrics(f_art)
-        f_gear_items: list[str] = []
-        seen_f_devs: set[str] = set()
-        for d in f_art.get("devices") or []:
-            d_norm = normalize_product_name_jp(d.get("name", ""))
-            if not d_norm or d_norm in seen_f_devs:
-                continue
-            seen_f_devs.add(d_norm)
-            links = build_affiliate_urls(d_norm, master, env)
-            f_gear_items.append(
-                f'<div class="featured-gear-item">'
-                f'<span class="featured-gear-name">{html.escape(d_norm)}</span>'
-                f'<span class="featured-gear-actions">'
-                f'<a class="featured-shop-link" href="{html.escape(links["amazon_url"])}" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a>'
-                f'<a class="featured-shop-link" href="{html.escape(links["rakuten_url"])}" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a>'
-                f'</span>'
-                f'</div>'
-            )
-            if len(f_gear_items) >= 2:
-                break
-        f_gear_html = f'<div class="featured-gear-list">{"".join(f_gear_items)}</div>' if f_gear_items else ""
-        featured_rows_html += f"""
-          <div class="featured-row">
-            <div class="thread-meta-bar">
-              <span>#{f_num:02d}</span>
-              <span class="meta-sep">/</span>
-              <a class="sub-tag" href="index.html?sub={f_sub_attr}" onclick="filterSub('{f_sub_attr}'); return false;">{f_sub_label}</a>
-              <span class="meta-sep">/</span>
-              <span>コメント {f_comments}件</span>
-            </div>
-            <h3 class="featured-thread-title">
-              <a href="articles/{f_id}.html">{html.escape(f_art.get('title_ja', ''))}</a>
-            </h3>
-            {f_gear_html}
-          </div>
-        """
+        featured_rows_html += _render_index_thread_row(f_art, f_num, include_search_attrs=False)
 
     featured_section_html = (
         f"""
         <section id="featured-threads-section" class="featured-section">
           <div class="section-header">
             <h2 class="section-title">注目スレッド</h2>
-            <span class="section-sub">PICKUP</span>
           </div>
           <div class="featured-list">
             {featured_rows_html}

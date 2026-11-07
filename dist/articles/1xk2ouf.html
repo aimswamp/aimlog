@@ -746,70 +746,8 @@ a.gear-chip:hover {
 .featured-section {
   margin-bottom: var(--space-2xl);
 }
-.featured-list {
+.featured-list .thread-index-row:last-child {
   border-bottom: 1px solid var(--color-rule-strong);
-}
-.featured-row {
-  padding: 0.9rem 0;
-  border-bottom: 1px solid var(--color-rule);
-}
-.featured-row:last-child {
-  border-bottom: none;
-}
-.featured-thread-title {
-  font-size: 1.06rem;
-  line-height: 1.45;
-  margin: 0 0 0.45rem;
-}
-.featured-thread-title a {
-  text-decoration: none;
-}
-.featured-thread-title a:hover {
-  color: var(--color-accent);
-  text-decoration: underline;
-}
-.featured-gear-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  margin-top: 0.4rem;
-}
-.featured-gear-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.4rem 0.75rem;
-  padding: 0.32rem 0.6rem;
-  background-color: var(--color-paper-2);
-  border-left: 2px solid var(--color-rule-strong);
-  font-size: 0.82rem;
-}
-.featured-gear-name {
-  font-weight: 700;
-  color: var(--color-ink);
-}
-.featured-gear-actions {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-.featured-shop-link {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.14rem 0.5rem;
-  border: 1px solid var(--color-rule-strong);
-  background-color: var(--color-paper);
-  color: var(--color-ink-2);
-  text-decoration: none;
-  white-space: nowrap;
-  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
-}
-.featured-shop-link:hover {
-  background-color: var(--color-ink);
-  color: var(--color-paper);
-  text-decoration: none;
 }
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
@@ -1109,7 +1047,7 @@ a.gear-chip:hover {
           <div class="section-header">
             <h2 class="section-title">コメント（14件）</h2>
           </div>
-          <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body"># 要約（tl;dr）<br><br>1. 47日間で約35時間のエイム練習を行い、Saffron CompleteからCerulean Completeまで到達しました。<br>2. 1シナリオにつき6〜8回のプレイに留め、過剰なやり込み（オーバーグラインド）を避けました。<br>3. 進捗や弱点の判断は自己ベスト（PB）ではなく中央値（Median）を基準にしました。<br>4. シナリオと弱点をローテーションさせました。実際に練習したシナリオとほぼ同じくらい、練習していなかったシナリオでもスコアが向上しました。<br><br>今年の初め、私はAimlabsのVoltaic Valorant S1ベンチマークをやり込み、IntermediateのImmortal Complete、そしてRadiantまで到達しました。様々なTacFPS（タクティカルシューター）向けベンチマークをプレイした後、Viscose S2のフルタイムな練習に切り替えることにしました。なお、私はSaffron Completeから開始しましたが、シナリオごとに1〜2回しかプレイしていなかったため、実力より低めのランクからスタートしていた点には留意してください。<br><br>私の個人的な習慣として、PBが出るたびにスクリーンショットを撮っていたので、成長の過程を視覚的に確認できました：<br><br>* Aimlabs Voltaic Valorant S1 ベンチマーク: https://youtu.be/Zn6msv3Ku7c<br>* Viscose S2 ベンチマーク: https://youtu.be/M8jqLqC_ASM<br><br># タイムライン<br><br>* **5月:** Saffron Complete（シナリオごとに1〜2回プレイ）<br>* **9月13日:** 本格的に練習開始、Celadon達成<br>* **9月14日:** Celadon Complete達成<br>* **9月18日:** Viridian達成<br>* **9月30日:** Viridian Complete達成<br>* **10月27日:** Cerulean達成<br>* **10月29日:** Cerulean Complete達成<br><br># トレーニングメニュー<br><br>この期間中の以前のコメント: https://www.reddit.com/r/FPSAimTrainer/comments/1x6xtcq/comment/ph16fc9<br><br>1. **AIの活用。** 毎回のセッションのトレーニングメニューを構築し、自分のエイム練習のパターンを検出するためにClaudeを使用しました。<br>2. **短時間・高頻度なセッションに分散。** セッションは最大で約1時間に制限し、合間に休憩を挟みながら1日最大2〜3セッションに抑えるようにしました。<br>3. セッションごとに、**センシ（感度）に基づいてシナリオをグループ化しました。** センシを変更する際に必要な「ウォームアップ」時間を短縮できたと感じていますが、プラセボの可能性もあります。<br>4. **すべてのシナリオを40〜50cm/360でプレイしました。** これは私のゲーム内センシである50cmに近いです。シナリオを簡単にするための逃げ道（crutch）としてセンシを変更することは避けています。ただし、シナリオをあえて難しくしたり、特定のテクニックを練習したりするためにセンシを変更することには躊躇しません。<br>5. **弱点の特定と優先順位付け。** 最初はPB、次にリーダーボードのパーセンタイルを使用していましたが、これらは信頼性に欠ける指標だと気づきました。最終的に弱点の測定には中央値（Median）を使用しました。CeruleanレベルのPBを持っているシナリオであっても、通常時のランクがまだSaffronである場合があり、それはまだ練習が必要であることを意味します。弱点は最優先で取り組みます。</div><div class="rc-op-media"><ul class="rc-op-media-list"><li><a class="rc-op-media-link" href="https://i.redd.it/vqs8hcvtuqyh1.png" target="_blank" rel="noopener">添付画像1を見る ↗</a></li><li><a class="rc-op-media-link" href="https://i.redd.it/r8r6gwwuuqyh1.png" target="_blank" rel="noopener">添付画像2を見る ↗</a></li><li><a class="rc-op-media-link" href="https://youtu.be/Zn6msv3Ku7c" target="_blank" rel="noopener">添付動画1を見る ↗</a></li><li><a class="rc-op-media-link" href="https://youtu.be/M8jqLqC\_ASM" target="_blank" rel="noopener">添付動画2を見る ↗</a></li><li><a class="rc-op-media-link" href="https://youtu.be/M8jqLqC_ASM" target="_blank" rel="noopener">添付動画3を見る ↗</a></li></ul></div></div>
+          <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body"><strong>要約（tl;dr）</strong><br><br>1. 47日間で約35時間のエイム練習を行い、Saffron CompleteからCerulean Completeまで到達しました。<br>2. 1シナリオにつき6〜8回のプレイに留め、過剰なやり込み（オーバーグラインド）を避けました。<br>3. 進捗や弱点の判断は自己ベスト（PB）ではなく中央値（Median）を基準にしました。<br>4. シナリオと弱点をローテーションさせました。実際に練習したシナリオとほぼ同じくらい、練習していなかったシナリオでもスコアが向上しました。<br><br>今年の初め、私はAimlabsのVoltaic Valorant S1ベンチマークをやり込み、IntermediateのImmortal Complete、そしてRadiantまで到達しました。様々なTacFPS（タクティカルシューター）向けベンチマークをプレイした後、Viscose S2のフルタイムな練習に切り替えることにしました。なお、私はSaffron Completeから開始しましたが、シナリオごとに1〜2回しかプレイしていなかったため、実力より低めのランクからスタートしていた点には留意してください。<br><br>私の個人的な習慣として、PBが出るたびにスクリーンショットを撮っていたので、成長の過程を視覚的に確認できました：<br><br>・Aimlabs Voltaic Valorant S1 ベンチマーク: https://youtu.be/Zn6msv3Ku7c<br>・Viscose S2 ベンチマーク: https://youtu.be/M8jqLqC_ASM<br><br><strong>タイムライン</strong><br><br>・<strong>5月:</strong> Saffron Complete（シナリオごとに1〜2回プレイ）<br>・<strong>9月13日:</strong> 本格的に練習開始、Celadon達成<br>・<strong>9月14日:</strong> Celadon Complete達成<br>・<strong>9月18日:</strong> Viridian達成<br>・<strong>9月30日:</strong> Viridian Complete達成<br>・<strong>10月27日:</strong> Cerulean達成<br>・<strong>10月29日:</strong> Cerulean Complete達成<br><br><strong>トレーニングメニュー</strong><br><br>この期間中の以前のコメント: https://www.reddit.com/r/FPSAimTrainer/comments/1x6xtcq/comment/ph16fc9<br><br>1. <strong>AIの活用。</strong> 毎回のセッションのトレーニングメニューを構築し、自分のエイム練習のパターンを検出するためにClaudeを使用しました。<br>2. <strong>短時間・高頻度なセッションに分散。</strong> セッションは最大で約1時間に制限し、合間に休憩を挟みながら1日最大2〜3セッションに抑えるようにしました。<br>3. セッションごとに、<strong>センシ（感度）に基づいてシナリオをグループ化しました。</strong> センシを変更する際に必要な「ウォームアップ」時間を短縮できたと感じていますが、プラセボの可能性もあります。<br>4. <strong>すべてのシナリオを40〜50cm/360でプレイしました。</strong> これは私のゲーム内センシである50cmに近いです。シナリオを簡単にするための逃げ道（crutch）としてセンシを変更することは避けています。ただし、シナリオをあえて難しくしたり、特定のテクニックを練習したりするためにセンシを変更することには躊躇しません。<br>5. <strong>弱点の特定と優先順位付け。</strong> 最初はPB、次にリーダーボードのパーセンタイルを使用していましたが、これらは信頼性に欠ける指標だと気づきました。最終的に弱点の測定には中央値（Median）を使用しました。CeruleanレベルのPBを持っているシナリオであっても、通常時のランクがまだSaffronである場合があり、それはまだ練習が必要であることを意味します。弱点は最優先で取り組みます。</div><div class="rc-op-media"><ul class="rc-op-media-list"><li><a class="rc-op-media-link" href="https://i.redd.it/vqs8hcvtuqyh1.png" target="_blank" rel="noopener">添付画像1を見る ↗</a></li><li><a class="rc-op-media-link" href="https://i.redd.it/r8r6gwwuuqyh1.png" target="_blank" rel="noopener">添付画像2を見る ↗</a></li><li><a class="rc-op-media-link" href="https://youtu.be/Zn6msv3Ku7c" target="_blank" rel="noopener">添付動画1を見る ↗</a></li><li><a class="rc-op-media-link" href="https://youtu.be/M8jqLqC\_ASM" target="_blank" rel="noopener">添付動画2を見る ↗</a></li><li><a class="rc-op-media-link" href="https://youtu.be/M8jqLqC_ASM" target="_blank" rel="noopener">添付動画3を見る ↗</a></li></ul></div></div>
 <div class="rc-tree">
 <div class="rc-node" id="c-19rx186ok2yle"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-score">+2 pts</span></div><div class="rc-body">いいね。俺も始めたばかりの頃、完全に違うやり方をしておくべきだったよ。トータルで約200時間エイム練習をしていて今はCeladon Completeなんだけど、フリックとクリッキングを完全に放置しちゃってたんだよね（笑）。何よりもトラッキングが好きで、トラッキング関連のスコアはほぼ全部CeruleanかLavenderなんだけどさ。もっとバランスの取れたルーティンから始めるべきだったな。</div></div></div>
 <div class="rc-node" id="c-19rx29t7yvm3m"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー2</span><span class="rc-score">+2 pts</span></div><div class="rc-body">おめでとう！俺は今Celadon Completeを目指してやってるところで、クリッキングシナリオに苦戦中（笑）。たぶん他のシナリオもプレイしてスピードを上げる必要があるんだろうけど、Saffron Completeを達成してからちょっとサボり気味だったんだよね。WoW Foreverが終わったらまた気合を入れ直して復帰するつもりだよ（笑）。</div></div></div>

@@ -746,70 +746,8 @@ a.gear-chip:hover {
 .featured-section {
   margin-bottom: var(--space-2xl);
 }
-.featured-list {
+.featured-list .thread-index-row:last-child {
   border-bottom: 1px solid var(--color-rule-strong);
-}
-.featured-row {
-  padding: 0.9rem 0;
-  border-bottom: 1px solid var(--color-rule);
-}
-.featured-row:last-child {
-  border-bottom: none;
-}
-.featured-thread-title {
-  font-size: 1.06rem;
-  line-height: 1.45;
-  margin: 0 0 0.45rem;
-}
-.featured-thread-title a {
-  text-decoration: none;
-}
-.featured-thread-title a:hover {
-  color: var(--color-accent);
-  text-decoration: underline;
-}
-.featured-gear-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  margin-top: 0.4rem;
-}
-.featured-gear-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.4rem 0.75rem;
-  padding: 0.32rem 0.6rem;
-  background-color: var(--color-paper-2);
-  border-left: 2px solid var(--color-rule-strong);
-  font-size: 0.82rem;
-}
-.featured-gear-name {
-  font-weight: 700;
-  color: var(--color-ink);
-}
-.featured-gear-actions {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-.featured-shop-link {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.14rem 0.5rem;
-  border: 1px solid var(--color-rule-strong);
-  background-color: var(--color-paper);
-  color: var(--color-ink-2);
-  text-decoration: none;
-  white-space: nowrap;
-  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
-}
-.featured-shop-link:hover {
-  background-color: var(--color-ink);
-  color: var(--color-paper);
-  text-decoration: none;
 }
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
@@ -1111,7 +1049,7 @@ a.gear-chip:hover {
           </div>
           <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body">マイクロエイムの改善に本気で苦戦しています。Viscoseベンチマークで完全に伸び悩んでしまっていて、どこから自分の課題を分析すればいいのかすら分かりません。<br><br>正しい方向性を示してくれる経験豊富な方のアドバイスを求めています！<br>もちろん誰の意見でも歓迎です:P</div><div class="rc-op-media"><ul class="rc-op-media-list"><li><a class="rc-op-media-link" href="https://v.redd.it/ptnxcox7w4xh1" target="_blank" rel="noopener">添付動画を見る ↗</a></li></ul></div></div>
 <div class="rc-tree">
-<div class="rc-node" id="c-19ritvei5p211"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-score">+2 pts</span></div><div class="rc-body">すごい画面テーマ使ってるね。<br><br>* 今の君はフリック1回あたり約625msかかっている。これを約500msまで縮められれば大きな改善になるよ。その差（125ms）は人間の知覚限界かそれ以下のレベルなんだから、そこまで無茶に速くする必要はないってことに気づいてほしい。<br><br>* 2回目のフリックや0:19あたりのフリックみたいに、マイクロ補正が乱れるたびに数百ミリ秒が無駄になっている。だから速いフリックには精度がものすごく重要なんだ。<br><br>* それと、純粋にもっと速くフリックすることもできるはずだ。君のフリックはかなり遅いし、特に小さいターゲットを狙う時に顕著だね。<br><br>* スタティック系においてテクニックは本当に重要だ（本質的にはそれが全てと言っていい）。スムーズにマイクロ補正できるように手首を脱力した状態で着弾させたいところだけど、速度を出すためには初動にある程度の力みが必要になる。最近ここで読んだ上手い例えだと、ボールを投げる動作に似ているね。スピードを出すために振りかぶる時は力を入れるけど、着弾時には手放す（文字通りマウスから手を離すわけじゃないけど、グリップの力を抜くべきってこと）。<br><br>要するにこういうことだ。もっと正確に狙うこと。精度を維持したまま、もう少しスピードを引き上げること。そして高速なマイクロ補正のために、滑らかに脱力して着弾させること。<br><br>練習を積み重ねれば絶対にできるようになるよ。</div></div><div class="rc-children">
+<div class="rc-node" id="c-19ritvei5p211"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-score">+2 pts</span></div><div class="rc-body">すごい画面テーマ使ってるね。<br><br>・今の君はフリック1回あたり約625msかかっている。これを約500msまで縮められれば大きな改善になるよ。その差（125ms）は人間の知覚限界かそれ以下のレベルなんだから、そこまで無茶に速くする必要はないってことに気づいてほしい。<br><br>・2回目のフリックや0:19あたりのフリックみたいに、マイクロ補正が乱れるたびに数百ミリ秒が無駄になっている。だから速いフリックには精度がものすごく重要なんだ。<br><br>・それと、純粋にもっと速くフリックすることもできるはずだ。君のフリックはかなり遅いし、特に小さいターゲットを狙う時に顕著だね。<br><br>・スタティック系においてテクニックは本当に重要だ（本質的にはそれが全てと言っていい）。スムーズにマイクロ補正できるように手首を脱力した状態で着弾させたいところだけど、速度を出すためには初動にある程度の力みが必要になる。最近ここで読んだ上手い例えだと、ボールを投げる動作に似ているね。スピードを出すために振りかぶる時は力を入れるけど、着弾時には手放す（文字通りマウスから手を離すわけじゃないけど、グリップの力を抜くべきってこと）。<br><br>要するにこういうことだ。もっと正確に狙うこと。精度を維持したまま、もう少しスピードを引き上げること。そして高速なマイクロ補正のために、滑らかに脱力して着弾させること。<br><br>練習を積み重ねれば絶対にできるようになるよ。</div></div><div class="rc-children">
 <div class="rc-node" id="c-19rjaxn5p95z8"><div class="rc-comment"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span><span class="rc-reply-to">↳ 海外ユーザー1 への返信</span><span class="rc-score">+2 pts</span></div><div class="rc-body">返信に時間を割いてくれてありがとう！<br><br>そうなんだよね、どこかにプレイ動画を載せるたびに必ずテーマについて何か言われちゃうんだ😁<br><br>ここまで詳細に分析してくれて本当に助かる。指摘してくれた問題点の多くはスピードに関係しているみたいだね。手首を脱力する感覚がなかなか掴めなくて、というのもあんなに速く連続で同じ脱力を再現するのが難しくてさ。マイクロ補正をするには感度が中途半端な位置にあって、腕でサポートしようとすると逆に狂っちゃうのかなと思ったりしてる。だから結局手首がガチガチに力んでしまって、全体のペースが遅くなってるのかも。<br><br>アドバイスに感謝するよ、練習を続けてみるね！</div></div></div>
 </div></div>
 <div class="rc-node" id="c-19riw5tjyizr7"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー2</span><span class="rc-score">+3 pts</span></div><div class="rc-body">うーん、フリックが遅くて不正確だね。もう1つのコメントがかなり的確だけど、僕からはPokeballをたくさんプレイすることを勧めるよ。これがViscose推奨のプレイリスト（KovaaKsGlidingNastyBunnyhop）だ。</div></div></div>

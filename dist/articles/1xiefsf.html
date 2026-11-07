@@ -746,70 +746,8 @@ a.gear-chip:hover {
 .featured-section {
   margin-bottom: var(--space-2xl);
 }
-.featured-list {
+.featured-list .thread-index-row:last-child {
   border-bottom: 1px solid var(--color-rule-strong);
-}
-.featured-row {
-  padding: 0.9rem 0;
-  border-bottom: 1px solid var(--color-rule);
-}
-.featured-row:last-child {
-  border-bottom: none;
-}
-.featured-thread-title {
-  font-size: 1.06rem;
-  line-height: 1.45;
-  margin: 0 0 0.45rem;
-}
-.featured-thread-title a {
-  text-decoration: none;
-}
-.featured-thread-title a:hover {
-  color: var(--color-accent);
-  text-decoration: underline;
-}
-.featured-gear-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  margin-top: 0.4rem;
-}
-.featured-gear-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.4rem 0.75rem;
-  padding: 0.32rem 0.6rem;
-  background-color: var(--color-paper-2);
-  border-left: 2px solid var(--color-rule-strong);
-  font-size: 0.82rem;
-}
-.featured-gear-name {
-  font-weight: 700;
-  color: var(--color-ink);
-}
-.featured-gear-actions {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-}
-.featured-shop-link {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  padding: 0.14rem 0.5rem;
-  border: 1px solid var(--color-rule-strong);
-  background-color: var(--color-paper);
-  color: var(--color-ink-2);
-  text-decoration: none;
-  white-space: nowrap;
-  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
-}
-.featured-shop-link:hover {
-  background-color: var(--color-ink);
-  color: var(--color-paper);
-  text-decoration: none;
 }
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
@@ -1154,7 +1092,7 @@ a.gear-chip:hover {
           <div class="section-header">
             <h2 class="section-title">コメント（5件）</h2>
           </div>
-          <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body">以前使っていたマウスが壊れてしまったので、新しいものを探しています。いくつか条件があるのですが、以下の要件に合うおすすめがあればぜひ教えていただきたいです。ビルドクオリティ、バッテリー持ち、そして形状を重視しています。<br><br>- 小型／軽量：薄型のままにしておきたい小さめのノートPC用バッグに入れて持ち運ぶ予定です。<br><br>- macOS対応：出張用ノートPCはMacBook Airです。<br><br>- Bluetooth接続：上記と同じく必須です。<br><br>- ボタン・機能：マクロやキーバインドはそれほど多くなくて大丈夫です。</div></div>
+          <div class="rc-op-post" id="op-post"><div class="rc-head"><span class="rc-author">スレ主</span><span class="rc-badge-op">OP</span></div><div class="rc-body">以前使っていたマウスが壊れてしまったので、新しいものを探しています。いくつか条件があるのですが、以下の要件に合うおすすめがあればぜひ教えていただきたいです。ビルドクオリティ、バッテリー持ち、そして形状を重視しています。<br><br>・小型／軽量：薄型のままにしておきたい小さめのノートPC用バッグに入れて持ち運ぶ予定です。<br><br>・macOS対応：出張用ノートPCはMacBook Airです。<br><br>・Bluetooth接続：上記と同じく必須です。<br><br>・ボタン・機能：マクロやキーバインドはそれほど多くなくて大丈夫です。</div></div>
 <div class="rc-tree">
 <div class="rc-node" id="c-19rtmrbn16hlu"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー1</span><span class="rc-score">+3 pts</span></div><div class="rc-body">Orochiがおそらく一番の選択肢だよ。すごく小さくて軽いし、僕のMacBookでもBluetoothが問題なく動作するし、クリック感も素晴らしい。一日中2.4GHzで動かしっぱなしにしなければバッテリー持ちもかなり良いよ。</div></div></div>
 <div class="rc-node" id="c-19rtovsj65l0k"><div class="rc-comment"><div class="rc-head"><span class="rc-author">海外ユーザー2</span><span class="rc-score">+1 pts</span></div><div class="rc-body">このマウスばかり勧めてるからステマみたいに見え始めてるかもしれないけど、本気で気に入ってるんだ：Mambasnake M3、軽量（約40g）、3395proセンサー、トライモード接続、少し小さめで洗練されていて、約30ドル！<br>ソフトウェアやWebドライバーのmacOS対応状況だけは確認してみてね！</div></div></div>
@@ -1172,13 +1110,13 @@ a.gear-chip:hover {
             <p class="analysis-para">本スレッドでは、MacBook Airでの出張・移動時における「小型・軽量・Bluetooth対応」のゲーミング／ポータブルマウスについて議論が交わされています。</p>
 <h3 class="analysis-subhead">1. Razer Orochi V2が支持される理由</h3>
 <p class="analysis-para">最も多くの票を集めたのがRazer Orochi V2です。本機は卵型シェルを採用した小型ゲーミングマウスで、2.4GHzワイヤレスとBluetooth接続の両方に対応しています。特にモバイル用途で絶賛されているポイントは以下の通りです。</p>
-<p class="analysis-para">- **乾電池駆動（単3・単4両対応）の利便性**：内蔵バッテリー式と異なり、出先で充電ケーブルを取り回したりポートを占有したりする必要がありません。単3電池1本で数ヶ月持続するため、充電忘れのトラブルを回避でき、万が一の電池切れでもコンビニや空港で即座に調達可能です。</p>
-<p class="analysis-para">- **ドングル収納スペース**：シェル内部にUSBドングルを収納できるため、紛失リスクが極めて低くなります。</p>
-<p class="analysis-para">- **堅牢なビルド品質**：長期間バッグに放り込んで世界中を移動してもチャタリングやシェルの破損が起きにくいという実体験が寄せられています。</p>
+<p class="analysis-para">・<strong>乾電池駆動（単3・単4両対応）の利便性</strong>：内蔵バッテリー式と異なり、出先で充電ケーブルを取り回したりポートを占有したりする必要がありません。単3電池1本で数ヶ月持続するため、充電忘れのトラブルを回避でき、万が一の電池切れでもコンビニや空港で即座に調達可能です。</p>
+<p class="analysis-para">・<strong>ドングル収納スペース</strong>：シェル内部にUSBドングルを収納できるため、紛失リスクが極めて低くなります。</p>
+<p class="analysis-para">・<strong>堅牢なビルド品質</strong>：長期間バッグに放り込んで世界中を移動してもチャタリングやシェルの破損が起きにくいという実体験が寄せられています。</p>
 <h3 class="analysis-subhead">2. オフィス専用機 vs 超軽量ゲーミングの対立軸</h3>
 <p class="analysis-para">コメント欄ではOrochi V2のほかにも、以下の2つの対抗馬が挙げられました。</p>
-<p class="analysis-para">- **Logicool MX Anywhere 3S**：オフィス用途の定番機。USB-C充電式で静音クリックや高速スクロールホイール、MagSpeed機構などを備えておりMac環境との親和性も抜群です。ただし、重量が約99gとゲーミング系に比べて重い点が唯一のデメリットとされています。</p>
-<p class="analysis-para">- **Mambasnake M3などの新興軽量マウス**：PAW3395センサーを搭載しながら約40g前後という圧倒的な軽さと30ドル前後の低価格を実現したモデル。ただし、macOS環境下での設定用Webドライバーやソフトウェアの対応状況を事前に確認する必要があります。</p>
+<p class="analysis-para">・<strong>Logicool MX Anywhere 3S</strong>：オフィス用途の定番機。USB-C充電式で静音クリックや高速スクロールホイール、MagSpeed機構などを備えておりMac環境との親和性も抜群です。ただし、重量が約99gとゲーミング系に比べて重い点が唯一のデメリットとされています。</p>
+<p class="analysis-para">・<strong>Mambasnake M3などの新興軽量マウス</strong>：PAW3395センサーを搭載しながら約40g前後という圧倒的な軽さと30ドル前後の低価格を実現したモデル。ただし、macOS環境下での設定用Webドライバーやソフトウェアの対応状況を事前に確認する必要があります。</p>
 <h3 class="analysis-subhead">3. モバイル環境における接続性の注意点</h3>
 <p class="analysis-para">MacBookはUSBポート数が限られているため、Type-Aドングルを挿す変換アダプタを省略できるBluetooth接続が好まれます。Bluetooth利用時はポーリングレートが125Hz程度に制限されるものの、一般的なオフィス作業やブラウジングでは十分であり、バッテリー消費を大幅に抑えられるメリットがあります。</p>
           </div>
