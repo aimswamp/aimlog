@@ -729,6 +729,88 @@ a.gear-chip:hover {
 .gear-section {
   margin-bottom: var(--space-xl);
 }
+.gear-section-mobile-top {
+  display: none;
+}
+@media (max-width: 1080px) {
+  .gear-section-mobile-top {
+    display: block;
+    margin-bottom: var(--space-2xl);
+  }
+  .ledger-aside .gear-section-has-items {
+    display: none;
+  }
+}
+
+/* Featured Threads Section (Top Page Pickup) */
+.featured-section {
+  margin-bottom: var(--space-2xl);
+}
+.featured-list {
+  border-bottom: 1px solid var(--color-rule-strong);
+}
+.featured-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.featured-row:last-child {
+  border-bottom: none;
+}
+.featured-thread-title {
+  font-size: 1.06rem;
+  line-height: 1.45;
+  margin: 0 0 0.45rem;
+}
+.featured-thread-title a {
+  text-decoration: none;
+}
+.featured-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.featured-gear-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+.featured-gear-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem 0.75rem;
+  padding: 0.32rem 0.6rem;
+  background-color: var(--color-paper-2);
+  border-left: 2px solid var(--color-rule-strong);
+  font-size: 0.82rem;
+}
+.featured-gear-name {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.featured-gear-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.featured-shop-link {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.14rem 0.5rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.featured-shop-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
 }
@@ -1022,6 +1104,64 @@ a.gear-chip:hover {
           <div class="consensus-head">スレッドの要点</div>
           <ul class="consensus-list"><li>形状の好みが一致しているなら、極端な変更は避けるべき</li><li>最新センサー（PAW3955）を搭載したモデルがスペック面で有利</li><li>MAD Rと同一形状にこだわるならVXE R1 Pro Maxも有力な選択肢</li></ul>
         </section>
+        <section class="gear-section gear-section-mobile-top">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=VXE%20MAD%20R">VXE MAD R</a></h3>
+              <p class="gear-desc">形状と軽量さで高く評価される神マウスだが、現在は入手が困難。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=VXE+MAD+R&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FVXE%2520MAD%2520R%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ATK%20A9%20mini">ATK A9 mini</a></h3>
+              <p class="gear-desc">MAD Rに近い小型形状と重量を持つ代替候補として推奨されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ATK+A9+mini&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FATK%2520A9%2520mini%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ATK%20Zero">ATK Zero</a></h3>
+              <p class="gear-desc">最新のPAW3955センサーを搭載しており、代替品として強く推されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ATK+Zero&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FATK%2520Zero%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=VXE%20R1%20Pro%20Max">VXE R1 Pro Max</a></h3>
+              <p class="gear-desc">MAD Rと同一形状を維持したモデル。重量は増えるが形状重視なら有力な選択肢。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=VXE+R1+Pro+Max&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FVXE%2520R1%2520Pro%2520Max%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+        </section>
 
         <section class="thread-log-section">
           <div class="section-header">
@@ -1079,7 +1219,7 @@ a.gear-chip:hover {
           <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
         </form>
 
-        <section class="gear-section">
+        <section class="gear-section gear-section-has-items">
           <div class="section-header">
             <h2 class="section-title">登場デバイス</h2>
           </div>
@@ -1159,7 +1299,7 @@ a.gear-chip:hover {
       </div>
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
-        <div>UPDATED: 2026.11.07 · 126 THREADS</div>
+        <div>UPDATED: 2026.11.08 · 126 THREADS</div>
         <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
       </div>
     </div>

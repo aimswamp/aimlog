@@ -729,6 +729,88 @@ a.gear-chip:hover {
 .gear-section {
   margin-bottom: var(--space-xl);
 }
+.gear-section-mobile-top {
+  display: none;
+}
+@media (max-width: 1080px) {
+  .gear-section-mobile-top {
+    display: block;
+    margin-bottom: var(--space-2xl);
+  }
+  .ledger-aside .gear-section-has-items {
+    display: none;
+  }
+}
+
+/* Featured Threads Section (Top Page Pickup) */
+.featured-section {
+  margin-bottom: var(--space-2xl);
+}
+.featured-list {
+  border-bottom: 1px solid var(--color-rule-strong);
+}
+.featured-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.featured-row:last-child {
+  border-bottom: none;
+}
+.featured-thread-title {
+  font-size: 1.06rem;
+  line-height: 1.45;
+  margin: 0 0 0.45rem;
+}
+.featured-thread-title a {
+  text-decoration: none;
+}
+.featured-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.featured-gear-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+.featured-gear-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem 0.75rem;
+  padding: 0.32rem 0.6rem;
+  background-color: var(--color-paper-2);
+  border-left: 2px solid var(--color-rule-strong);
+  font-size: 0.82rem;
+}
+.featured-gear-name {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.featured-gear-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.featured-shop-link {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.14rem 0.5rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.featured-shop-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
 }
@@ -1022,6 +1104,116 @@ a.gear-chip:hover {
           <div class="consensus-head">スレッドの要点</div>
           <ul class="consensus-list"><li>Viper V2 Proのようなフラットな形状よりも、手のひらをサポートするリアハンプ（後部膨らみ）のある形状が、クロウグリップの緊張解消に有効。</li><li>Viper V4は旧モデルと異なり、後部が持ち上がっているため、パームコンタクトを求めるユーザーには適している可能性がある。</li><li>Finalmouse Superstrikeのような定番かつ癖のある形状は、実際に試してみないと合うか判断が分かれる。</li></ul>
         </section>
+        <section class="gear-section gear-section-mobile-top">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neg">注意点あり</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Razer%20Viper%20V2%20Pro">Razer Viper V2 Pro</a></h3>
+              <p class="gear-desc">後部のテーパーがきつく、フラットすぎる形状が手のひらと接触せず、過度な緊張を生む原因となっている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Razer+Viper+V2+Pro&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Viper%2520V2%2520Pro%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Logicool%20G%20PRO%20X%20SUPERLIGHT">Logicool G PRO X SUPERLIGHT</a></h3>
+              <p class="gear-desc">定番の形状だが、Viperシリーズから移行すると独特な違和感を感じる可能性がある。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+SUPERLIGHT&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLogicool%2520G%2520PRO%2520X%2520SUPERLIGHT%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Razer%20Viper%20V4%20Pro">Razer Viper V4 Pro</a></h3>
+              <p class="gear-desc">V2よりもハンプが後方に移動・上昇しており、手のひらをサポートする形状として評価されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Razer+Viper+V4+Pro&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Viper%2520V4%2520Pro%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウスパッド</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ARTISAN%20%E9%9B%B6">ARTISAN 零</a></h3>
+              <p class="gear-desc">6年使用しており、表面状態の劣化が考えられるため、マウス更新と合わせてリフレッシュが推奨される。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ARTISAN+%E9%9B%B6&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FARTISAN%2520%25E9%259B%25B6%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neg">注意点あり</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Zowie%20FK1-DW">Zowie FK1-DW</a></h3>
+              <p class="gear-desc">重量が重く、クロウグリップのユーザーには懸念材料となっている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Zowie+FK1-DW&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FZowie%2520FK1-DW%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Endgame%20Gear%20XM2">Endgame Gear XM2</a></h3>
+              <p class="gear-desc">リアハンプ形状の定番として、安定性と快適性を求めるクロウグリップユーザーに推奨されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Endgame+Gear+XM2&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FEndgame%2520Gear%2520XM2%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Pulsar%20Tenz">Pulsar Tenz</a></h3>
+              <p class="gear-desc">クロウグリップユーザーから高い評価を得ており、比較対象として名前が挙がっている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Pulsar+Tenz&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FPulsar%2520Tenz%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Zowie%20ZA12-DW">Zowie ZA12-DW</a></h3>
+              <p class="gear-desc">リアハンプ形状として検討すべき候補の一つ。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Zowie+ZA12-DW&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FZowie%2520ZA12-DW%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+        </section>
 
         <section class="thread-log-section">
           <div class="section-header">
@@ -1072,7 +1264,7 @@ a.gear-chip:hover {
           <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
         </form>
 
-        <section class="gear-section">
+        <section class="gear-section gear-section-has-items">
           <div class="section-header">
             <h2 class="section-title">登場デバイス</h2>
           </div>
@@ -1204,7 +1396,7 @@ a.gear-chip:hover {
       </div>
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
-        <div>UPDATED: 2026.11.07 · 126 THREADS</div>
+        <div>UPDATED: 2026.11.08 · 126 THREADS</div>
         <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
       </div>
     </div>

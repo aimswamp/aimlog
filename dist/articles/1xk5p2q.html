@@ -729,6 +729,88 @@ a.gear-chip:hover {
 .gear-section {
   margin-bottom: var(--space-xl);
 }
+.gear-section-mobile-top {
+  display: none;
+}
+@media (max-width: 1080px) {
+  .gear-section-mobile-top {
+    display: block;
+    margin-bottom: var(--space-2xl);
+  }
+  .ledger-aside .gear-section-has-items {
+    display: none;
+  }
+}
+
+/* Featured Threads Section (Top Page Pickup) */
+.featured-section {
+  margin-bottom: var(--space-2xl);
+}
+.featured-list {
+  border-bottom: 1px solid var(--color-rule-strong);
+}
+.featured-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.featured-row:last-child {
+  border-bottom: none;
+}
+.featured-thread-title {
+  font-size: 1.06rem;
+  line-height: 1.45;
+  margin: 0 0 0.45rem;
+}
+.featured-thread-title a {
+  text-decoration: none;
+}
+.featured-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.featured-gear-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+.featured-gear-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem 0.75rem;
+  padding: 0.32rem 0.6rem;
+  background-color: var(--color-paper-2);
+  border-left: 2px solid var(--color-rule-strong);
+  font-size: 0.82rem;
+}
+.featured-gear-name {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.featured-gear-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.featured-shop-link {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.14rem 0.5rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.featured-shop-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
 }
@@ -1022,6 +1104,116 @@ a.gear-chip:hover {
           <div class="consensus-head">スレッドの要点</div>
           <ul class="consensus-list"><li>Viper形状は中央がややフラットであり、手のひらの接触の好みによって評価が分かれる</li><li>ATKのX1シリーズはViper形状のクローンであり、価格が安いためコストパフォーマンスに優れる</li><li>19x9cmの手のサイズと爪掴みであればサイズ感は適合する可能性が高いが、保証を重視するならRazer、価格を重視するならATKが推奨される</li></ul>
         </section>
+        <section class="gear-section gear-section-mobile-top">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Razer%20Viper%20V4%20Pro">Razer Viper V4 Pro</a></h3>
+              <p class="gear-desc">中央がフラット寄りの形状をしており、コーティングの滑りやすさや価格面の高さを指摘しつつも、保証の手厚さやブランド力で選ばれる。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Razer+Viper+V4+Pro&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Viper%2520V4%2520Pro%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ATK%20Blazing%20Sky%20X1%20V2%20Extreme%202.0">ATK Blazing Sky X1 V2 Extreme 2.0</a></h3>
+              <p class="gear-desc">Viper形状の優れたクローンであり、手頃な価格設定と後方寄りのコブによるフィット感が評価されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ATK+Blazing+Sky+X1+V2+Extreme+2.0&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FATK%2520Blazing%2520Sky%2520X1%2520V2%2520Extreme%25202.0%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neg">注意点あり</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Glorious%20Model%20D%20Wireless">Glorious Model D Wireless</a></h3>
+              <p class="gear-desc">後部のパームサポートがやや不足しており、手のひらをしっかり埋める後方ホンプを求めるユーザーには物足りなさを感じさせている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Glorious+Model+D+Wireless&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FGlorious%2520Model%2520D%2520Wireless%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Logicool%20G%20PRO%20X%20SUPERLIGHT">Logicool G PRO X SUPERLIGHT</a></h3>
+              <p class="gear-desc">中央寄りのコブを持つ代表的なマウスとして、ホンプ位置の比較対象に挙げられている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+SUPERLIGHT&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLogicool%2520G%2520PRO%2520X%2520SUPERLIGHT%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ATK%20X1%20Pro">ATK X1 Pro</a></h3>
+              <p class="gear-desc">価格の割にクオリティが高く、Viperに近い後方寄りのピークを持つ形状として言及されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ATK+X1+Pro&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FATK%2520X1%2520Pro%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ATK%20X1%20Air">ATK X1 Air</a></h3>
+              <p class="gear-desc">Viper V4に匹敵する完成度を持つクローンモデルとして評価されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ATK+X1+Air&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FATK%2520X1%2520Air%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ATK%20F1%20V3">ATK F1 V3</a></h3>
+              <p class="gear-desc">後方に向かって非常に突出したコブを持ち、小さめのサイズを求めるプレイヤーにおすすめされている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ATK+F1+V3&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FATK%2520F1%2520V3%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ATK%20Ghost%2B">ATK Ghost+</a></h3>
+              <p class="gear-desc">Viper V3/V4の小型版として形状チェックの候補に挙げられている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ATK+Ghost%2B&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FATK%2520Ghost%252B%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+        </section>
 
         <section class="thread-log-section">
           <div class="section-header">
@@ -1073,7 +1265,7 @@ a.gear-chip:hover {
           <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
         </form>
 
-        <section class="gear-section">
+        <section class="gear-section gear-section-has-items">
           <div class="section-header">
             <h2 class="section-title">登場デバイス</h2>
           </div>
@@ -1205,7 +1397,7 @@ a.gear-chip:hover {
       </div>
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
-        <div>UPDATED: 2026.11.07 · 126 THREADS</div>
+        <div>UPDATED: 2026.11.08 · 126 THREADS</div>
         <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
       </div>
     </div>

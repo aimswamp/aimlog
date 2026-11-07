@@ -729,6 +729,88 @@ a.gear-chip:hover {
 .gear-section {
   margin-bottom: var(--space-xl);
 }
+.gear-section-mobile-top {
+  display: none;
+}
+@media (max-width: 1080px) {
+  .gear-section-mobile-top {
+    display: block;
+    margin-bottom: var(--space-2xl);
+  }
+  .ledger-aside .gear-section-has-items {
+    display: none;
+  }
+}
+
+/* Featured Threads Section (Top Page Pickup) */
+.featured-section {
+  margin-bottom: var(--space-2xl);
+}
+.featured-list {
+  border-bottom: 1px solid var(--color-rule-strong);
+}
+.featured-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.featured-row:last-child {
+  border-bottom: none;
+}
+.featured-thread-title {
+  font-size: 1.06rem;
+  line-height: 1.45;
+  margin: 0 0 0.45rem;
+}
+.featured-thread-title a {
+  text-decoration: none;
+}
+.featured-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.featured-gear-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+.featured-gear-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem 0.75rem;
+  padding: 0.32rem 0.6rem;
+  background-color: var(--color-paper-2);
+  border-left: 2px solid var(--color-rule-strong);
+  font-size: 0.82rem;
+}
+.featured-gear-name {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.featured-gear-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.featured-shop-link {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.14rem 0.5rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.featured-shop-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
 }
@@ -1022,6 +1104,116 @@ a.gear-chip:hover {
           <div class="consensus-head">スレッドの要点</div>
           <ul class="consensus-list"><li>ATK F1は低いコブの形状により、つかみ持ちや指先持ちでの微調整が非常に機敏に行えるため高く評価されている。</li><li>大型マウスから小型左右対称マウスへの変更は、CS2やVALORANTなどのタクティカルシューターにおけるマイクロアジャスト（微調整）を大きく改善する。</li><li>Scyrox V8はコブが非常にアグレッシブなため、指先持ちや長時間の使用では制限を感じる場合がある。</li></ul>
         </section>
+        <section class="gear-section gear-section-mobile-top">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Razer%20DeathAdder%20V3%20Pro">Razer DeathAdder V3 Pro</a></h3>
+              <p class="gear-desc">かぶせ持ちとしては優秀だが、サイズが大きすぎて指先を使った微調整やリラックスつかみ持ちには向かないと評されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Razer+DeathAdder+V3+Pro&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520DeathAdder%2520V3%2520Pro%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=ATK%20F1%20Ultimate">ATK F1 Ultimate</a></h3>
+              <p class="gear-desc">低いコブの形状により、つかみ持ちや指先持ちでの素早いマイクロアジャストがしやすく、今回の候補の中で最も安全で推奨される選択肢とされている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=ATK+F1+Ultimate&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FATK%2520F1%2520Ultimate%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=RAWM%20Leviathan%20v4%20GT">RAWM Leviathan v4 GT</a></h3>
+              <p class="gear-desc">大型のViperインスパイア形状に分類されるモデルとして言及されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=RAWM+Leviathan+v4+GT&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRAWM%2520Leviathan%2520v4%2520GT%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Scyrox%20V8">Scyrox V8</a></h3>
+              <p class="gear-desc">優れたマウスである一方、コブが非常にアグレッシブなため、指先持ちや長時間の使用では窮屈さを感じる可能性があると指摘されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Scyrox+V8&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FScyrox%2520V8%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Endgame%20Gear%20OP1%208K">Endgame Gear OP1 8K</a></h3>
+              <p class="gear-desc">リラックスつかみ持ちやその形状のスタイルにおいて非常に優れた選択肢として挙げられている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Endgame+Gear+OP1+8K&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FEndgame%2520Gear%2520OP1%25208K%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-neu">比較・言及</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Razer%20DeathAdder%20V3%20HyperSpeed">Razer DeathAdder V3 HyperSpeed</a></h3>
+              <p class="gear-desc">わずかに小型化されていることで、操作感に大きな違いを生む可能性があると提案されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Razer+DeathAdder+V3+HyperSpeed&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520DeathAdder%2520V3%2520HyperSpeed%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Vaxee%20NP-01">Vaxee NP-01</a></h3>
+              <p class="gear-desc">エルゴ形状であってもサイズが適切であれば問題なく使用できる例として挙げられている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Vaxee+NP-01&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FVaxee%2520NP-01%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウス</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Vaxee%20E1">Vaxee E1</a></h3>
+              <p class="gear-desc">エルゴ形状でありながらサイズと設計の良さから十分に選択肢に入ると評価されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Vaxee+E1&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FVaxee%2520E1%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+        </section>
 
         <section class="thread-log-section">
           <div class="section-header">
@@ -1077,7 +1269,7 @@ a.gear-chip:hover {
           <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
         </form>
 
-        <section class="gear-section">
+        <section class="gear-section gear-section-has-items">
           <div class="section-header">
             <h2 class="section-title">登場デバイス</h2>
           </div>
@@ -1209,7 +1401,7 @@ a.gear-chip:hover {
       </div>
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
-        <div>UPDATED: 2026.11.07 · 126 THREADS</div>
+        <div>UPDATED: 2026.11.08 · 126 THREADS</div>
         <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
       </div>
     </div>

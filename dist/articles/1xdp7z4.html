@@ -729,6 +729,88 @@ a.gear-chip:hover {
 .gear-section {
   margin-bottom: var(--space-xl);
 }
+.gear-section-mobile-top {
+  display: none;
+}
+@media (max-width: 1080px) {
+  .gear-section-mobile-top {
+    display: block;
+    margin-bottom: var(--space-2xl);
+  }
+  .ledger-aside .gear-section-has-items {
+    display: none;
+  }
+}
+
+/* Featured Threads Section (Top Page Pickup) */
+.featured-section {
+  margin-bottom: var(--space-2xl);
+}
+.featured-list {
+  border-bottom: 1px solid var(--color-rule-strong);
+}
+.featured-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.featured-row:last-child {
+  border-bottom: none;
+}
+.featured-thread-title {
+  font-size: 1.06rem;
+  line-height: 1.45;
+  margin: 0 0 0.45rem;
+}
+.featured-thread-title a {
+  text-decoration: none;
+}
+.featured-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.featured-gear-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+.featured-gear-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem 0.75rem;
+  padding: 0.32rem 0.6rem;
+  background-color: var(--color-paper-2);
+  border-left: 2px solid var(--color-rule-strong);
+  font-size: 0.82rem;
+}
+.featured-gear-name {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.featured-gear-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.featured-shop-link {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.14rem 0.5rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.featured-shop-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
 }
@@ -1022,6 +1104,38 @@ a.gear-chip:hover {
           <div class="consensus-head">スレッドの要点</div>
           <ul class="consensus-list"><li>SteelSeries DeXに酷似した質感と滑走感を持つ現行モデルとして「Pulsar Pro Series D4v41」が挙げられている</li><li>Pulsar D4v41はDeXよりもサイズが大きくスピード系だが、ホワイトカラーのため汚れへの懸念があり、水洗いが推奨されている</li><li>Pulsarの限定・コラボ製品は在庫切れになると数ヶ月間再入荷しないリスクがあるため、早めの確保が推奨されている</li></ul>
         </section>
+        <section class="gear-section gear-section-mobile-top">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウスパッド</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=SteelSeries%20DeX">SteelSeries DeX</a></h3>
+              <p class="gear-desc">独自のシリコンハイブリッド素材と凹凸テクスチャで熱烈なファンを持つが、大型サイズが展開されないまま廃番となった名機。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=SteelSeries+DeX&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSteelSeries%2520DeX%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+            <div class="gear-row">
+              <div class="gear-meta-line">
+                <span class="gear-cat-code">マウスパッド</span>
+                <span class="status-tag status-pos">高評価</span>
+              </div>
+              <h3 class="gear-title"><a class="gear-title-link" href="../index.html?q=Pulsar%20Pro%20Series%20D4v41">Pulsar Pro Series D4v41</a></h3>
+              <p class="gear-desc">DeXに酷似した質感と高速な滑りを持ち、サイズも大型化された実質的な後継モデルとして高く評価されている。</p>
+              <div class="shop-actions">
+                <a class="shop-btn shop-btn-amzn" href="https://www.amazon.co.jp/s?k=Pulsar+Pro+Series+D4v41&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazonで見る ↗</a>
+                <a class="shop-btn shop-btn-rktn" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FPulsar%2520Pro%2520Series%2520D4v41%2F" target="_blank" rel="nofollow sponsored noopener">楽天で見る ↗</a>
+              </div>
+            </div>
+            
+        </section>
 
         <section class="thread-log-section">
           <div class="section-header">
@@ -1076,7 +1190,7 @@ a.gear-chip:hover {
           <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
         </form>
 
-        <section class="gear-section">
+        <section class="gear-section gear-section-has-items">
           <div class="section-header">
             <h2 class="section-title">登場デバイス</h2>
           </div>
@@ -1130,7 +1244,7 @@ a.gear-chip:hover {
       </div>
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
-        <div>UPDATED: 2026.11.07 · 126 THREADS</div>
+        <div>UPDATED: 2026.11.08 · 126 THREADS</div>
         <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
       </div>
     </div>

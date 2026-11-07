@@ -729,6 +729,88 @@ a.gear-chip:hover {
 .gear-section {
   margin-bottom: var(--space-xl);
 }
+.gear-section-mobile-top {
+  display: none;
+}
+@media (max-width: 1080px) {
+  .gear-section-mobile-top {
+    display: block;
+    margin-bottom: var(--space-2xl);
+  }
+  .ledger-aside .gear-section-has-items {
+    display: none;
+  }
+}
+
+/* Featured Threads Section (Top Page Pickup) */
+.featured-section {
+  margin-bottom: var(--space-2xl);
+}
+.featured-list {
+  border-bottom: 1px solid var(--color-rule-strong);
+}
+.featured-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.featured-row:last-child {
+  border-bottom: none;
+}
+.featured-thread-title {
+  font-size: 1.06rem;
+  line-height: 1.45;
+  margin: 0 0 0.45rem;
+}
+.featured-thread-title a {
+  text-decoration: none;
+}
+.featured-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.featured-gear-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+.featured-gear-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem 0.75rem;
+  padding: 0.32rem 0.6rem;
+  background-color: var(--color-paper-2);
+  border-left: 2px solid var(--color-rule-strong);
+  font-size: 0.82rem;
+}
+.featured-gear-name {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.featured-gear-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.featured-shop-link {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.14rem 0.5rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.featured-shop-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
 }
@@ -1014,6 +1096,73 @@ a.gear-chip:hover {
   <main class="page-wrap">
     <div class="index-grid">
       <section id="thread-list-section">
+        
+        <section id="featured-threads-section" class="featured-section">
+          <div class="section-header">
+            <h2 class="section-title">注目スレッド</h2>
+            <span class="section-sub">PICKUP</span>
+          </div>
+          <div class="featured-list">
+            
+          <div class="featured-row">
+            <div class="thread-meta-bar">
+              <span>#32</span>
+              <span class="meta-sep">/</span>
+              <a class="sub-tag" href="index.html?sub=MouseReview" onclick="filterSub('MouseReview'); return false;">マウス</a>
+              <span class="meta-sep">/</span>
+              <span>コメント 6件</span>
+            </div>
+            <h3 class="featured-thread-title">
+              <a href="articles/1xfqdvx.html">【相談】手首固定クロウグリップに最適なマウス探し：Viper V2 Proの低重心形状から脱却したい</a>
+            </h3>
+            <div class="featured-gear-list"><div class="featured-gear-item"><span class="featured-gear-name">Razer Viper V2 Pro</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Razer+Viper+V2+Pro&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Viper%2520V2%2520Pro%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div><div class="featured-gear-item"><span class="featured-gear-name">Logicool G PRO X SUPERLIGHT</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+SUPERLIGHT&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLogicool%2520G%2520PRO%2520X%2520SUPERLIGHT%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div></div>
+          </div>
+        
+          <div class="featured-row">
+            <div class="thread-meta-bar">
+              <span>#33</span>
+              <span class="meta-sep">/</span>
+              <a class="sub-tag" href="index.html?sub=MousepadReview" onclick="filterSub('MousepadReview'); return false;">マウスパッド・ソール</a>
+              <span class="meta-sep">/</span>
+              <span>コメント 30件</span>
+            </div>
+            <h3 class="featured-thread-title">
+              <a href="articles/1xflfty.html">ガラス製マウスパッドへの移行で気になる「マウスソールの交換頻度」と実際のコスト</a>
+            </h3>
+            <div class="featured-gear-list"><div class="featured-gear-item"><span class="featured-gear-name">Wallhack SP-004</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Wallhack+SP-004&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FWallhack%2520SP-004%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div><div class="featured-gear-item"><span class="featured-gear-name">Razer Atlas Pro</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Razer+Atlas+Pro&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Atlas%2520Pro%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div></div>
+          </div>
+        
+          <div class="featured-row">
+            <div class="thread-meta-bar">
+              <span>#48</span>
+              <span class="meta-sep">/</span>
+              <a class="sub-tag" href="index.html?sub=MousepadReview" onclick="filterSub('MousepadReview'); return false;">マウスパッド・ソール</a>
+              <span class="meta-sep">/</span>
+              <span>コメント 7件</span>
+            </div>
+            <h3 class="featured-thread-title">
+              <a href="articles/1xhfpqv.html">ARTISAN 飛燕からの移行先：雷電と疾風乙のどちらを選ぶべきか</a>
+            </h3>
+            <div class="featured-gear-list"><div class="featured-gear-item"><span class="featured-gear-name">ARTISAN 飛燕 Xソフト</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=ARTISAN+%E9%A3%9B%E7%87%95+X%E3%82%BD%E3%83%95%E3%83%88&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FARTISAN%2520%25E9%25A3%259B%25E7%2587%2595%2520X%25E3%2582%25BD%25E3%2583%2595%25E3%2583%2588%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div><div class="featured-gear-item"><span class="featured-gear-name">Razer Strider</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Razer+Strider&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FRazer%2520Strider%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div></div>
+          </div>
+        
+          <div class="featured-row">
+            <div class="thread-meta-bar">
+              <span>#76</span>
+              <span class="meta-sep">/</span>
+              <a class="sub-tag" href="index.html?sub=MouseReview" onclick="filterSub('MouseReview'); return false;">マウス</a>
+              <span class="meta-sep">/</span>
+              <span>コメント 14件</span>
+            </div>
+            <h3 class="featured-thread-title">
+              <a href="articles/1xk3ofm.html">純正マウスソールが「悪い」とはどういう意味？Logicool等の問題点と交換のメリット</a>
+            </h3>
+            <div class="featured-gear-list"><div class="featured-gear-item"><span class="featured-gear-name">Logicool G PRO X SUPERLIGHT 2</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=Logicool+G+PRO+X+SUPERLIGHT+2&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FLogicool%2520G%2520PRO%2520X%2520SUPERLIGHT%25202%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div><div class="featured-gear-item"><span class="featured-gear-name">WLMouse Beast X V2</span><span class="featured-gear-actions"><a class="featured-shop-link" href="https://www.amazon.co.jp/s?k=WLMouse+Beast+X+V2&amp;tag=earphonemgmg-22" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a><a class="featured-shop-link" href="https://hb.afl.rakuten.co.jp/hgc/58ca1df4.25975046.58ca1df5.fd9d0173/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FWLMouse%2520Beast%2520X%2520V2%2F" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a></span></div></div>
+          </div>
+        
+          </div>
+        </section>
+        
         <div class="section-header">
           <h2 class="section-title">スレッド一覧</h2>
         </div>
@@ -3664,7 +3813,7 @@ SteelSeriesのゲーミングギアの半分くらいに対して同じことが
       </div>
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
-        <div>UPDATED: 2026.11.07 · 126 THREADS</div>
+        <div>UPDATED: 2026.11.08 · 126 THREADS</div>
         <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
       </div>
     </div>
@@ -3785,6 +3934,11 @@ SteelSeriesのゲーミングギアの半分くらいに対して同じことが
       allArticles.forEach(el => {
         el.style.display = visibleSet.has(el) ? '' : 'none';
       });
+
+      const featSec = document.getElementById('featured-threads-section');
+      if (featSec) {
+        featSec.style.display = (currentSub === 'all' && keywords.length === 0 && currentPage === 1) ? '' : 'none';
+      }
 
       const statusEl = document.getElementById('search-status');
       if (statusEl) {

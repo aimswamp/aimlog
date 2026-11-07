@@ -2171,6 +2171,14 @@ def main() -> None:
                             print("  [INFO] YouTube API の1日あたりアップロード上限に達したため、残りは次回実行時に持ち越します。")
                             break
 
+    if generated_count > 0 or uploaded_count > 0:
+        try:
+            import pipeline
+            pipeline.build_site(articles, master=pipeline.load_product_master())
+            print("[INFO] トップページの『注目スレッド』を最新のショート動画に合わせて更新しました。")
+        except Exception as build_err:
+            print(f"[WARN] サイトHTMLの再生成に失敗しました: {build_err}", file=sys.stderr)
+
     print(
         f"\n[DONE] 処理完了！（新規動画生成: {generated_count}本 / "
         f"YouTube投稿: {uploaded_count}本 / HDD解放削除: {deleted_count}本）"

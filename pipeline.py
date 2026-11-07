@@ -2117,6 +2117,88 @@ a.gear-chip:hover {
 .gear-section {
   margin-bottom: var(--space-xl);
 }
+.gear-section-mobile-top {
+  display: none;
+}
+@media (max-width: 1080px) {
+  .gear-section-mobile-top {
+    display: block;
+    margin-bottom: var(--space-2xl);
+  }
+  .ledger-aside .gear-section-has-items {
+    display: none;
+  }
+}
+
+/* Featured Threads Section (Top Page Pickup) */
+.featured-section {
+  margin-bottom: var(--space-2xl);
+}
+.featured-list {
+  border-bottom: 1px solid var(--color-rule-strong);
+}
+.featured-row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+.featured-row:last-child {
+  border-bottom: none;
+}
+.featured-thread-title {
+  font-size: 1.06rem;
+  line-height: 1.45;
+  margin: 0 0 0.45rem;
+}
+.featured-thread-title a {
+  text-decoration: none;
+}
+.featured-thread-title a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.featured-gear-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-top: 0.4rem;
+}
+.featured-gear-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem 0.75rem;
+  padding: 0.32rem 0.6rem;
+  background-color: var(--color-paper-2);
+  border-left: 2px solid var(--color-rule-strong);
+  font-size: 0.82rem;
+}
+.featured-gear-name {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+.featured-gear-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+.featured-shop-link {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.14rem 0.5rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper);
+  color: var(--color-ink-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color var(--dur-short) var(--ease-out), color var(--dur-short) var(--ease-out);
+}
+.featured-shop-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  text-decoration: none;
+}
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
 }
@@ -2555,6 +2637,19 @@ a.gear-chip:hover {
         }
         json_ld_str = json.dumps([article_json_ld, breadcrumb_json_ld], ensure_ascii=False).replace("</", "<\\/")
 
+        mobile_top_gear_html = (
+            f"""
+        <section class="gear-section gear-section-mobile-top">
+          <div class="section-header">
+            <h2 class="section-title">登場デバイス</h2>
+          </div>
+          {devices_html}
+        </section>"""
+            if devices_html
+            else ""
+        )
+        aside_gear_cls = "gear-section gear-section-has-items" if devices_html else "gear-section"
+
         page_html = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -2609,7 +2704,7 @@ a.gear-chip:hover {
           <p class="consensus-hook">{hook}</p>
           <div class="consensus-head">スレッドの要点</div>
           <ul class="consensus-list">{points_html}</ul>
-        </section>
+        </section>{mobile_top_gear_html}
 
         <section class="thread-log-section">
           <div class="section-header">
@@ -2645,7 +2740,7 @@ a.gear-chip:hover {
           <input type="search" name="q" class="search-input" placeholder="マウス名・用語・悩みで検索..." aria-label="スレッド検索">
         </form>
 
-        <section class="gear-section">
+        <section class="{aside_gear_cls}">
           <div class="section-header">
             <h2 class="section-title">登場デバイス</h2>
           </div>
@@ -2814,6 +2909,103 @@ a.gear-chip:hover {
         </article>
         """
 
+    # 注目スレッド（YouTubeショート掲載の最新スレッド等を最大4件、登場機材リンク付きで静かにピックアップ表示）
+    shorts_hist_file = DATA_DIR / "shorts_history.json"
+    shorts_hist_map: dict[str, dict[str, Any]] = {}
+    if shorts_hist_file.exists():
+        try:
+            raw_sh = json.loads(shorts_hist_file.read_text(encoding="utf-8"))
+            if isinstance(raw_sh, dict):
+                shorts_hist_map = raw_sh
+        except Exception:
+            pass
+
+    art_num_map: dict[str, int] = {
+        str(a["id"]): len(published) - i for i, a in enumerate(published)
+    }
+
+    def _featured_sort_key(a: dict[str, Any]) -> tuple[int, str, int, str]:
+        aid = str(a.get("id") or "")
+        sh = shorts_hist_map.get(aid, {})
+        yt_id = str(a.get("youtube_video_id") or sh.get("youtube_video_id") or "")
+        is_short = 1 if (yt_id or a.get("short_generated") or sh.get("short_generated")) else 0
+        ts = str(
+            a.get("youtube_publish_at")
+            or sh.get("youtube_publish_at")
+            or a.get("youtube_uploaded_at")
+            or sh.get("youtube_uploaded_at")
+            or a.get("short_generated_at")
+            or sh.get("short_generated_at")
+            or ""
+        )
+        dev_cnt = len(a.get("devices") or [])
+        return (is_short, ts, dev_cnt, str(a.get("created_at") or ""))
+
+    featured_candidates = [
+        a for a in published
+        if any(normalize_product_name_jp(d.get("name", "")) for d in (a.get("devices") or []))
+    ]
+    featured_candidates.sort(key=_featured_sort_key, reverse=True)
+    featured_rows_html = ""
+    for f_art in featured_candidates[:4]:
+        f_id = html.escape(str(f_art["id"]))
+        f_num = art_num_map.get(str(f_art["id"]), 0)
+        f_sub_raw = str(f_art.get("subreddit", ""))
+        f_sub_attr = html.escape(f_sub_raw)
+        f_sub_label = html.escape(SUBREDDIT_LABELS.get(f_sub_raw, "海外FPS議論"))
+        f_comments, _, _ = _compute_thread_metrics(f_art)
+        f_gear_items: list[str] = []
+        seen_f_devs: set[str] = set()
+        for d in f_art.get("devices") or []:
+            d_norm = normalize_product_name_jp(d.get("name", ""))
+            if not d_norm or d_norm in seen_f_devs:
+                continue
+            seen_f_devs.add(d_norm)
+            links = build_affiliate_urls(d_norm, master, env)
+            f_gear_items.append(
+                f'<div class="featured-gear-item">'
+                f'<span class="featured-gear-name">{html.escape(d_norm)}</span>'
+                f'<span class="featured-gear-actions">'
+                f'<a class="featured-shop-link" href="{html.escape(links["amazon_url"])}" target="_blank" rel="nofollow sponsored noopener">Amazon ↗</a>'
+                f'<a class="featured-shop-link" href="{html.escape(links["rakuten_url"])}" target="_blank" rel="nofollow sponsored noopener">楽天 ↗</a>'
+                f'</span>'
+                f'</div>'
+            )
+            if len(f_gear_items) >= 2:
+                break
+        f_gear_html = f'<div class="featured-gear-list">{"".join(f_gear_items)}</div>' if f_gear_items else ""
+        featured_rows_html += f"""
+          <div class="featured-row">
+            <div class="thread-meta-bar">
+              <span>#{f_num:02d}</span>
+              <span class="meta-sep">/</span>
+              <a class="sub-tag" href="index.html?sub={f_sub_attr}" onclick="filterSub('{f_sub_attr}'); return false;">{f_sub_label}</a>
+              <span class="meta-sep">/</span>
+              <span>コメント {f_comments}件</span>
+            </div>
+            <h3 class="featured-thread-title">
+              <a href="articles/{f_id}.html">{html.escape(f_art.get('title_ja', ''))}</a>
+            </h3>
+            {f_gear_html}
+          </div>
+        """
+
+    featured_section_html = (
+        f"""
+        <section id="featured-threads-section" class="featured-section">
+          <div class="section-header">
+            <h2 class="section-title">注目スレッド</h2>
+            <span class="section-sub">PICKUP</span>
+          </div>
+          <div class="featured-list">
+            {featured_rows_html}
+          </div>
+        </section>
+        """
+        if featured_rows_html
+        else ""
+    )
+
     # トップページ用 SEO・OGP・JSON-LD構造化データの組み立て
     index_canonical_url = f"{site_base_url}/"
     index_canonical_esc = html.escape(index_canonical_url)
@@ -2915,6 +3107,7 @@ a.gear-chip:hover {
   <main class="page-wrap">
     <div class="index-grid">
       <section id="thread-list-section">
+        {featured_section_html}
         <div class="section-header">
           <h2 class="section-title">スレッド一覧</h2>
         </div>
@@ -3081,6 +3274,11 @@ a.gear-chip:hover {
       allArticles.forEach(el => {{
         el.style.display = visibleSet.has(el) ? '' : 'none';
       }});
+
+      const featSec = document.getElementById('featured-threads-section');
+      if (featSec) {{
+        featSec.style.display = (currentSub === 'all' && keywords.length === 0 && currentPage === 1) ? '' : 'none';
+      }}
 
       const statusEl = document.getElementById('search-status');
       if (statusEl) {{
