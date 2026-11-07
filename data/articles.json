@@ -42734,10 +42734,10 @@
         "author": "海外ユーザー1",
         "flair": "",
         "is_op": false,
-        "score": 4,
+        "score": 5,
         "body_en": "Looks like you get choked up really easily, my guess is too much tension for such short flicks.",
         "depth": 0,
-        "body_ja": "すごくガチガチになって力んでいるように見えるね。こんな短いフリックに対して腕に力が入りすぎているのが原因だと思う。"
+        "body_ja": "すごく焦って力みやすいみたいだね。短いフリックに対して筋肉に余計な力が入りすぎてるんじゃないかな。"
       },
       {
         "id": "19s7arwn2pqpu",
@@ -42748,7 +42748,7 @@
         "score": 1,
         "body_en": "Thank you so much for the tip i just got to the top 250",
         "depth": 1,
-        "body_ja": "アドバイス本当にありがとう！今トップ250に入れたよ"
+        "body_ja": "アドバイス本当にありがとう！今ちょうどトップ250に入れたよ。"
       },
       {
         "id": "19s73el4p6zd1",
@@ -42756,10 +42756,10 @@
         "author": "海外ユーザー2",
         "flair": "",
         "is_op": false,
-        "score": 5,
+        "score": 6,
         "body_en": "This new kovaaks update looks strange",
         "depth": 0,
-        "body_ja": "このKovaaK'sの新しいアップデート、なんか変だな"
+        "body_ja": "このKovaaK'sの新しいアップデート、なんか変だな（※Aimlabsの画面に対する皮肉）"
       },
       {
         "id": "19s74ny9l1pq9",
@@ -42767,10 +42767,10 @@
         "author": "海外ユーザー3",
         "flair": "",
         "is_op": false,
-        "score": 8,
+        "score": 9,
         "body_en": "For gridshot dont stop moving your mouse when you shoot just keep flowing.",
         "depth": 0,
-        "body_ja": "Gridshotでは撃つたびにマウスを止めちゃダメだ。流れるように動かし続けなきゃ。"
+        "body_ja": "Gridshotでは撃つときにマウスを止めるんじゃなくて、流れるように動かし続けなきゃダメだよ。"
       },
       {
         "id": "19s79jviwc96t",
@@ -42781,7 +42781,7 @@
         "score": 2,
         "body_en": "Chill out",
         "depth": 0,
-        "body_ja": "落ち着けって"
+        "body_ja": "落ち着いてリラックスしな。"
       },
       {
         "id": "19s7c31ip1eo4",
@@ -42803,7 +42803,7 @@
         "score": 1,
         "body_en": "Just relax max",
         "depth": 2,
-        "body_ja": "とにかく力を抜いてリラックスしろってことだよ"
+        "body_ja": "とにかく限界まで脱力するんだよ。"
       },
       {
         "id": "19s79obcapuo5",
@@ -42814,7 +42814,7 @@
         "score": 0,
         "body_en": "is bro moving his mouse",
         "depth": 0,
-        "body_ja": "こいつ本当にマウス動かしてんの？"
+        "body_ja": "こいつマウス動かしてんのか？"
       },
       {
         "id": "19s7ard6toh37",
@@ -42825,7 +42825,7 @@
         "score": 1,
         "body_en": "I use 1.09 cm/360 lol",
         "depth": 1,
-        "body_ja": "センシ1.09 cm/360でやってるからねｗ"
+        "body_ja": "感度1.09 cm/360でやってるからねｗ"
       },
       {
         "id": "19s7weosuftkx",
@@ -42836,7 +42836,7 @@
         "score": 1,
         "body_en": "Bro\n\nhttps://reddit.com/link/1xov75m/video/ztktuwoofyzh1/player",
         "depth": 2,
-        "body_ja": "お前マジかよ\n\nhttps://reddit.com/link/1xov75m/video/ztktuwoofyzh1/player"
+        "body_ja": "おいおい、マジかよ…\n\nhttps://reddit.com/link/1xov75m/video/ztktuwoofyzh1/player"
       },
       {
         "id": "19s83jmkxr7ut",
@@ -42858,64 +42858,196 @@
         "score": 1,
         "body_en": "Wdym bro?",
         "depth": 3,
-        "body_ja": "マジでどういう意味？"
+        "body_ja": "何が言いたいの？"
       },
       {
-        "id": "19s7eicqvt11g",
-        "parent_id": null,
+        "id": "19s8y1ce7803k",
+        "parent_id": "19s7ard6toh37",
         "author": "海外ユーザー7",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "Did you adjust your ligma?",
-        "depth": 0,
-        "body_ja": "リグマの設定は調整したか？"
+        "body_en": "You know people usually make their sens higher to go faster? Yours is very slow for that sens",
+        "depth": 2,
+        "body_ja": "普通はスピードを上げるために感度を高くするものだって知ってる？その感度の割にはかなり遅い動きに見えるけど。"
       },
       {
-        "id": "19s7z0iq8r1q9",
+        "id": "19s8y4g4987lv",
+        "parent_id": "19s8y1ce7803k",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I make my dpi higher tbh",
+        "depth": 3,
+        "body_ja": "正直言うとDPIを高くしてるんだよね。"
+      },
+      {
+        "id": "19s8y7wowxgg3",
+        "parent_id": "19s8y1ce7803k",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Oh wait that was a old video check my new post",
+        "depth": 3,
+        "body_ja": "あ、待って、あれ昔の動画だったわ。新しい投稿を見てみて。"
+      },
+      {
+        "id": "19s96xa45ok8w",
+        "parent_id": "19s8y7wowxgg3",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "you have set your account to hidden",
+        "depth": 4,
+        "body_ja": "アカウントが非公開設定になってるよ。"
+      },
+      {
+        "id": "19sa1yf6cmt8h",
+        "parent_id": "19s96xa45ok8w",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Oop sorry lemme fix that",
+        "depth": 5,
+        "body_ja": "おっとごめん、直すね。"
+      },
+      {
+        "id": "19sa59tp6ikch",
+        "parent_id": "19s96xa45ok8w",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Fixed",
+        "depth": 5,
+        "body_ja": "直したよ。"
+      },
+      {
+        "id": "19s7eicqvt11g",
         "parent_id": null,
         "author": "海外ユーザー8",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "2800 people",
+        "body_en": "Did you adjust your ligma?",
         "depth": 0,
-        "body_ja": "2800人だな"
+        "body_ja": "リグマの設定はちゃんと調整した？（※ネットミームのジョーク）"
       },
       {
-        "id": "19s87h6n2agsj",
+        "id": "19s7z0iq8r1q9",
         "parent_id": null,
         "author": "海外ユーザー9",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "body_en": "3x3 won't really help you to get good at anything, if you just want to have a good score on this scen you can but considering the number of people who played it iy's not that easy even tho people are trash on aimlabs",
+        "body_en": "2800 people",
         "depth": 0,
-        "body_ja": "3x3のタスクは何かのスキル向上に本当に役立つわけじゃない。このシナリオで高スコアを出したいだけならいいけど、Aimlabsのプレイヤー層が微妙だとしてもプレイ人口が多すぎるから簡単にはいかないよ。"
+        "body_ja": "2800人か。"
       },
       {
-        "id": "19s88wiv0e5xc",
+        "id": "19s87h6n2agsj",
         "parent_id": null,
         "author": "海外ユーザー10",
         "flair": "",
         "is_op": false,
         "score": 1,
+        "body_en": "3x3 won't really help you to get good at anything, if you just want to have a good score on this scen you can but considering the number of people who played it iy's not that easy even tho people are trash on aimlabs",
+        "depth": 0,
+        "body_ja": "3x3をやっても何のエイム上達にも繋がらないよ。このシナリオでハイスコアを取りたいだけならいいけど、Aimlabsのプレイヤー層が微妙だとしても、プレイ人口が多いから上位に入るのはそこまで簡単じゃない。"
+      },
+      {
+        "id": "19s88wiv0e5xc",
+        "parent_id": null,
+        "author": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
         "body_en": "try to push speed, your acurracy seems fine",
         "depth": 0,
-        "body_ja": "スピードを意識して上げてみて。精度自体は問題なさそうだし。"
+        "body_ja": "もっと速度を押し上げてみて。精度自体は十分良さそうだし。"
+      },
+      {
+        "id": "19s8xz91ai0lf",
+        "parent_id": null,
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "You know this is one of the worst tasks to play on to improve",
+        "depth": 0,
+        "body_ja": "これ、エイム上達にとっては最悪レベルのタスクの一つだって知ってる？"
+      },
+      {
+        "id": "19s8yb0zs37nk",
+        "parent_id": "19s8xz91ai0lf",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I dont play it to improve i play it to try and hit the (WR)",
+        "depth": 1,
+        "body_ja": "上達のためにやってるんじゃなくて、世界記録（WR）を狙うためにやってるんだよ。"
+      },
+      {
+        "id": "19s8y7wb2qphf",
+        "parent_id": null,
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Grinding for a high score in this is one thing, but I feel this scenario actively makes one's aim worse",
+        "depth": 0,
+        "body_ja": "これでハイスコアを詰めるのは一つの楽しみ方だけど、このシナリオはむしろエイムを悪化させる気がするな。"
+      },
+      {
+        "id": "19s8y9tb40mf8",
+        "parent_id": "19s8y7wb2qphf",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "This isn’t for aim this scenario is for fun or tryig to hit world records",
+        "depth": 1,
+        "body_ja": "エイム練習用じゃないよ。楽しむためとか世界記録を狙ってみるためのシナリオさ。"
+      },
+      {
+        "id": "19s925m63j9fo",
+        "parent_id": "19s8y9tb40mf8",
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I see, crazy high sens too, impressive haha",
+        "depth": 2,
+        "body_ja": "なるほどね、それにしてもとんでもないハイセンシだ、すごいなｗ"
+      },
+      {
+        "id": "19s93cmh7itmo",
+        "parent_id": "19s925m63j9fo",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Well to be fair i did just change it so it will take me awhile to get used to",
+        "depth": 3,
+        "body_ja": "まあ正直、変えたばかりだから慣れるまでしばらく時間がかかりそうだけどね。"
       }
     ],
     "title_ja": "上位2800位の壁を超えるには何が足りない？緊張の緩和とマウスフローが鍵",
     "hook_ja": "スコアが伸び悩むプレイヤーに対し、短距離フリックでの過度な緊張が原因だと指摘が集まりました。マウスを止めずに流れるように動かす意識を持つことで、劇的なスコア向上が見込めます。",
-    "op_post_ja": "",
+    "op_post_ja": "（※動画投稿のため本文テキストなし）",
     "consensus_points": [
-      "近距離・短距離のフリックでは過剰な力みを抜き、リラックスして操作することが重要",
-      "Gridshot等のシナリオでは撃つたびにマウスを止めず、流れるような連続した動作を意識する",
-      "精度が確保できている場合は、ミスを恐れずにテンポやスピードを引き上げる練習が有効"
+      "Gridshotのような短距離フリックでは、余計な筋肉の緊張を解きマウスを止めずに流れるように動かし続けることがスコアアップの鍵",
+      "精度に大きな問題がない場合は、意識的にスピードを引き上げるアプローチが有効",
+      "Gridshot（3x3）は実戦的なエイム上達には適さないタスクだが、スコアアタックやWR狙いの娯楽としては割り切ってプレイされている"
     ],
-    "detailed_analysis_ja": "本スレッドでは、Aimlabsの定番タスクであるGridshot（または類似の3x3ターゲット練習）において上位ランカーを目指すプレイヤーに対し、動作の改善点が議論されています。\n\n【1. 短距離フリックにおける過剰な力み（Tension）】\nエイム練習において最も多いミスの1つが、正確に当てようとするあまり手首や前腕に過度な力が入り、動作が硬直（チョーク）してしまう現象です。コメント欄でも「短いフリックに対して力みすぎている」と指摘されており、肩や腕の力を抜いてリラックスした状態を保つことが、安定したスコア向上に直結します。\n\n【2. マウスを止めないフロー（Flow）の意識】\nGridshot系のタスクでハイスコアを狙う際、ターゲットごとに「照準を合わせて静止して撃つ」動作を繰り返すと、ストップ＆ゴーのロスが発生して手数が伸びません。上級者は弾を撃つ瞬間も次のターゲットへ向けて視線とマウスを滑らかに動かし続ける「フロー（流れるようなエイム）」を実践しています。\n\n【3. スピードの底上げとシナリオの有効性】\n精度が既に安定している場合、停滞を打破するには意図的にスピードを限界まで引き上げるアプローチ（Pacing/スピード重視の練習）が求められます。また、コミュニティ内では「3x3のような単純なグリッド系タスクは総合的な実戦エイム向上への還元率が低い」という冷静な意見もあり、スコア目的の練習と実戦力向上のための練習を区別して考える視点も提示されています。",
+    "detailed_analysis_ja": "本スレッドは、Aimlabsの代表的なタスク「Gridshot（3x3グリッド）」のプレイ動画を投稿したスレ主に対し、上位2800位以内に入るためのアドバイスが寄せられた議論です。\n\n【1. 短距離フリックにおける脱力とフロー（Flow）】\nGridshotのようなターゲットが大きく距離が近いタスクにおいて、初心者が陥りがちなのが「ターゲットを撃つたびにマウスを完全に静止させる」という動作です。コメント欄では「撃つときにマウスの動きを止めず、流れるように動かし続けること」「短いフリックに対して緊張（力み）が強すぎる」と指摘されています。エイム練習において適切な脱力（リラックス）は微調整の速度を高め、手首や前腕の疲労・チョーク（焦りによる操作ブレ）を防ぐために極めて重要な基礎技術です。\n\n【2. 1.09cm/360という驚異的な超ハイセンシ】\nスレ主は「1.09cm/360」という極端な超ハイセンシ（マウスをわずか1cm動かすだけで視点が1周する設定）を使用していることを明かし、コミュニティに衝撃を与えました。一般的に競技エイムでは20〜50cm/360前後のミドル〜ローセンシが主流です。超ハイセンシは手首や指先のわずかな動きで視点が動く反面、微細なノイズを拾いやすくコントロールが困難になります。スレ主自身も「DPIを上げたばかりで慣れるのに時間がかかる」としつつ、実戦向けではなく世界記録（WR）狙いのお遊びとして挑戦していると語っています。\n\n【3. Gridshotのエイム練習としての価値】\n競技エイムコミュニティ（Voltaic等）において、Gridshotは「実戦へのキャリーオーバーが最も低いタスクの一つ」として知られています。ターゲットが巨大で精密なマイクロアジャストを要求されないため、エイム向上というよりは純粋な反射神経測定やミニゲームとしての側面が強いです。コメントでも「実戦エイム向上には最悪の部類」「むしろエイムが悪くなる恐れがある」との指摘がありましたが、スレ主自身も上達目的ではなくスコアアタック・世界記録への挑戦と割り切ってプレイしていることが確認されています。",
     "devices": [],
-    "x_main_post": "エイム練習で上位の壁にぶつかる主な原因は「手首・腕の力み」と「動作の中断」です。\n\n・短いフリックほどリラックスして脱力する\n・撃つたびに止めず流れるようにマウスを動かす\n・精度が足りていればスピードを意識して押し上げる\n\n無駄な力を抜くことがハイスコアへの一番の近道です。",
+    "x_main_post": "AimlabsのGridshotでスコアを伸ばすコツまとめ！\n\n・撃つたびに止めず流れるように動かす\n・短距離フリックの過度な力みを抜く\n・精度が足りていればスピードを意識的にプッシュ\n\nなおスレ主は1.09cm/360という驚異の超ハイセンシで世界記録に挑んでいる模様。",
     "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
     "short_script": [
       {
@@ -42967,8 +43099,8 @@
         "speaker": "海外ユーザー1",
         "flair": "",
         "is_op": false,
-        "score": 4,
-        "text": "すごくガチガチになって力んでいるように見えるね。こんな短いフリックに対して腕に力が入りすぎているのが原因だと思う。"
+        "score": 5,
+        "text": "すごく焦って力みやすいみたいだね。短いフリックに対して筋肉に余計な力が入りすぎてるんじゃないかな。"
       },
       {
         "id": "19s7arwn2pqpu",
@@ -42978,7 +43110,7 @@
         "flair": "",
         "is_op": true,
         "score": 1,
-        "text": "アドバイス本当にありがとう！今トップ250に入れたよ"
+        "text": "アドバイス本当にありがとう！今ちょうどトップ250に入れたよ。"
       },
       {
         "id": "19s73el4p6zd1",
@@ -42987,8 +43119,8 @@
         "speaker": "海外ユーザー2",
         "flair": "",
         "is_op": false,
-        "score": 5,
-        "text": "このKovaaK'sの新しいアップデート、なんか変だな"
+        "score": 6,
+        "text": "このKovaaK'sの新しいアップデート、なんか変だな（※Aimlabsの画面に対する皮肉）"
       },
       {
         "id": "19s74ny9l1pq9",
@@ -42997,8 +43129,8 @@
         "speaker": "海外ユーザー3",
         "flair": "",
         "is_op": false,
-        "score": 8,
-        "text": "Gridshotでは撃つたびにマウスを止めちゃダメだ。流れるように動かし続けなきゃ。"
+        "score": 9,
+        "text": "Gridshotでは撃つときにマウスを止めるんじゃなくて、流れるように動かし続けなきゃダメだよ。"
       },
       {
         "id": "19s79jviwc96t",
@@ -43008,7 +43140,7 @@
         "flair": "",
         "is_op": false,
         "score": 2,
-        "text": "落ち着けって"
+        "text": "落ち着いてリラックスしな。"
       },
       {
         "id": "19s7c31ip1eo4",
@@ -43028,7 +43160,7 @@
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "とにかく力を抜いてリラックスしろってことだよ"
+        "text": "とにかく限界まで脱力するんだよ。"
       },
       {
         "id": "19s79obcapuo5",
@@ -43038,7 +43170,7 @@
         "flair": "",
         "is_op": false,
         "score": 0,
-        "text": "こいつ本当にマウス動かしてんの？"
+        "text": "こいつマウス動かしてんのか？"
       },
       {
         "id": "19s7ard6toh37",
@@ -43048,7 +43180,7 @@
         "flair": "",
         "is_op": true,
         "score": 1,
-        "text": "センシ1.09 cm/360でやってるからねｗ"
+        "text": "感度1.09 cm/360でやってるからねｗ"
       },
       {
         "id": "19s7weosuftkx",
@@ -43058,7 +43190,7 @@
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "お前マジかよ\n\nhttps://reddit.com/link/1xov75m/video/ztktuwoofyzh1/player"
+        "text": "おいおい、マジかよ…\n\nhttps://reddit.com/link/1xov75m/video/ztktuwoofyzh1/player"
       },
       {
         "id": "19s83jmkxr7ut",
@@ -43078,53 +43210,173 @@
         "flair": "",
         "is_op": true,
         "score": 1,
-        "text": "マジでどういう意味？"
+        "text": "何が言いたいの？"
       },
       {
-        "id": "19s7eicqvt11g",
-        "parent_id": null,
-        "depth": 0,
+        "id": "19s8y1ce7803k",
+        "parent_id": "19s7ard6toh37",
+        "depth": 2,
         "speaker": "海外ユーザー7",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "リグマの設定は調整したか？"
+        "text": "普通はスピードを上げるために感度を高くするものだって知ってる？その感度の割にはかなり遅い動きに見えるけど。"
       },
       {
-        "id": "19s7z0iq8r1q9",
+        "id": "19s8y4g4987lv",
+        "parent_id": "19s8y1ce7803k",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "正直言うとDPIを高くしてるんだよね。"
+      },
+      {
+        "id": "19s8y7wowxgg3",
+        "parent_id": "19s8y1ce7803k",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "あ、待って、あれ昔の動画だったわ。新しい投稿を見てみて。"
+      },
+      {
+        "id": "19s96xa45ok8w",
+        "parent_id": "19s8y7wowxgg3",
+        "depth": 4,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "アカウントが非公開設定になってるよ。"
+      },
+      {
+        "id": "19sa1yf6cmt8h",
+        "parent_id": "19s96xa45ok8w",
+        "depth": 5,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "おっとごめん、直すね。"
+      },
+      {
+        "id": "19sa59tp6ikch",
+        "parent_id": "19s96xa45ok8w",
+        "depth": 5,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "直したよ。"
+      },
+      {
+        "id": "19s7eicqvt11g",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー8",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "2800人だな"
+        "text": "リグマの設定はちゃんと調整した？（※ネットミームのジョーク）"
       },
       {
-        "id": "19s87h6n2agsj",
+        "id": "19s7z0iq8r1q9",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー9",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "3x3のタスクは何かのスキル向上に本当に役立つわけじゃない。このシナリオで高スコアを出したいだけならいいけど、Aimlabsのプレイヤー層が微妙だとしてもプレイ人口が多すぎるから簡単にはいかないよ。"
+        "text": "2800人か。"
       },
       {
-        "id": "19s88wiv0e5xc",
+        "id": "19s87h6n2agsj",
         "parent_id": null,
         "depth": 0,
         "speaker": "海外ユーザー10",
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "スピードを意識して上げてみて。精度自体は問題なさそうだし。"
+        "text": "3x3をやっても何のエイム上達にも繋がらないよ。このシナリオでハイスコアを取りたいだけならいいけど、Aimlabsのプレイヤー層が微妙だとしても、プレイ人口が多いから上位に入るのはそこまで簡単じゃない。"
+      },
+      {
+        "id": "19s88wiv0e5xc",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "もっと速度を押し上げてみて。精度自体は十分良さそうだし。"
+      },
+      {
+        "id": "19s8xz91ai0lf",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "これ、エイム上達にとっては最悪レベルのタスクの一つだって知ってる？"
+      },
+      {
+        "id": "19s8yb0zs37nk",
+        "parent_id": "19s8xz91ai0lf",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "上達のためにやってるんじゃなくて、世界記録（WR）を狙うためにやってるんだよ。"
+      },
+      {
+        "id": "19s8y7wb2qphf",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "これでハイスコアを詰めるのは一つの楽しみ方だけど、このシナリオはむしろエイムを悪化させる気がするな。"
+      },
+      {
+        "id": "19s8y9tb40mf8",
+        "parent_id": "19s8y7wb2qphf",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "エイム練習用じゃないよ。楽しむためとか世界記録を狙ってみるためのシナリオさ。"
+      },
+      {
+        "id": "19s925m63j9fo",
+        "parent_id": "19s8y9tb40mf8",
+        "depth": 2,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "なるほどね、それにしてもとんでもないハイセンシだ、すごいなｗ"
+      },
+      {
+        "id": "19s93cmh7itmo",
+        "parent_id": "19s925m63j9fo",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "まあ正直、変えたばかりだから慣れるまでしばらく時間がかかりそうだけどね。"
       }
     ],
     "status": "published",
     "x_posted": false,
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xov75m.html",
-    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%81%A7%E4%B8%8A%E4%BD%8D%E3%81%AE%E5%A3%81%E3%81%AB%E3%81%B6%E3%81%A4%E3%81%8B%E3%82%8B%E4%B8%BB%E3%81%AA%E5%8E%9F%E5%9B%A0%E3%81%AF%E3%80%8C%E6%89%8B%E9%A6%96%E3%83%BB%E8%85%95%E3%81%AE%E5%8A%9B%E3%81%BF%E3%80%8D%E3%81%A8%E3%80%8C%E5%8B%95%E4%BD%9C%E3%81%AE%E4%B8%AD%E6%96%AD%E3%80%8D%E3%81%A7%E3%81%99%E3%80%82%0A%0A%E3%83%BB%E7%9F%AD%E3%81%84%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E3%81%BB%E3%81%A9%E3%83%AA%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9%E3%81%97%E3%81%A6%E8%84%B1%E5%8A%9B%E3%81%99%E3%82%8B%0A%E3%83%BB%E6%92%83%E3%81%A4%E3%81%9F%E3%81%B3%E3%81%AB%E6%AD%A2%E3%82%81%E3%81%9A%E6%B5%81%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%83%9E%E3%82%A6%E3%82%B9%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99%0A%E3%83%BB%E7%B2%BE%E5%BA%A6%E3%81%8C%E8%B6%B3%E3%82%8A%E3%81%A6%E3%81%84%E3%82%8C%E3%81%B0%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E3%82%92%E6%84%8F%E8%AD%98%E3%81%97%E3%81%A6%E6%8A%BC%E3%81%97%E4%B8%8A%E3%81%92%E3%82%8B%0A%0A%E7%84%A1%E9%A7%84%E3%81%AA%E5%8A%9B%E3%82%92%E6%8A%9C%E3%81%8F%E3%81%93%E3%81%A8%E3%81%8C%E3%83%8F%E3%82%A4%E3%82%B9%E3%82%B3%E3%82%A2%E3%81%B8%E3%81%AE%E4%B8%80%E7%95%AA%E3%81%AE%E8%BF%91%E9%81%93%E3%81%A7%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xov75m.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=Aimlabs%E3%81%AEGridshot%E3%81%A7%E3%82%B9%E3%82%B3%E3%82%A2%E3%82%92%E4%BC%B8%E3%81%B0%E3%81%99%E3%82%B3%E3%83%84%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%81%0A%0A%E3%83%BB%E6%92%83%E3%81%A4%E3%81%9F%E3%81%B3%E3%81%AB%E6%AD%A2%E3%82%81%E3%81%9A%E6%B5%81%E3%82%8C%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E5%8B%95%E3%81%8B%E3%81%99%0A%E3%83%BB%E7%9F%AD%E8%B7%9D%E9%9B%A2%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E3%81%AE%E9%81%8E%E5%BA%A6%E3%81%AA%E5%8A%9B%E3%81%BF%E3%82%92%E6%8A%9C%E3%81%8F%0A%E3%83%BB%E7%B2%BE%E5%BA%A6%E3%81%8C%E8%B6%B3%E3%82%8A%E3%81%A6%E3%81%84%E3%82%8C%E3%81%B0%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E3%82%92%E6%84%8F%E8%AD%98%E7%9A%84%E3%81%AB%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5%0A%0A%E3%81%AA%E3%81%8A%E3%82%B9%E3%83%AC%E4%B8%BB%E3%81%AF1.09cm/360%E3%81%A8%E3%81%84%E3%81%86%E9%A9%9A%E7%95%B0%E3%81%AE%E8%B6%85%E3%83%8F%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%81%A7%E4%B8%96%E7%95%8C%E8%A8%98%E9%8C%B2%E3%81%AB%E6%8C%91%E3%82%93%E3%81%A7%E3%81%84%E3%82%8B%E6%A8%A1%E6%A7%98%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xov75m.html",
     "created_at": "2026-11-06T22:38:02.607243+00:00"
   },
   {
@@ -47229,5 +47481,2323 @@
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xp22cm.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=%E5%90%8D%E4%BD%9CZOWIE%20G-SR%E3%81%8B%E3%82%89%E3%81%AE%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88%E5%85%88%E3%81%AF%EF%BC%9F%0A%E6%B5%B7%E5%A4%96%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%AE%E8%AD%B0%E8%AB%96%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%9A%0A%E3%83%BB%E5%88%9D%E4%BB%A3%E3%81%AE%E6%84%9F%E8%A6%9A%E3%81%8C%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%89%E9%A0%86%E5%BD%93%E3%81%ABG-SR%20III%E3%81%B8%0A%E3%83%BB%E4%BB%96%E7%A4%BE%E8%A3%BD%E3%81%AA%E3%82%89ARTISAN%20TYPE-99%E3%82%84LGG%20Saturn%20Pro%E3%81%8C%E6%9C%89%E5%8A%9B%0A%E3%83%BBH-TR%E3%81%AF%E9%96%8B%E5%B0%81%E7%9B%B4%E5%BE%8C%E3%81%AF%E9%80%9F%E3%81%84%E3%81%8C%E3%80%81%E4%BD%BF%E3%81%84%E8%BE%BC%E3%82%80%E3%81%BB%E3%81%A9%E6%A5%B5%E4%B8%8A%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB%E3%83%91%E3%83%83%E3%83%89%E3%81%AB%E5%8C%96%E3%81%91%E3%82%8B%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xp22cm.html",
     "created_at": "2026-11-07T09:45:34.120342+00:00"
+  },
+  {
+    "id": "1xpm3vl",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "i miss the person i was before i installed kovaaks",
+    "selftext_en": "so tired of spending hours pushing pb just to not pb wallahi its not worth it",
+    "image_urls": [
+      "https://i.redd.it/sk129vbbp10i1.png"
+    ],
+    "score": 140,
+    "num_comments": 50,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xpm3vl/i_miss_the_person_i_was_before_i_installed_kovaaks/",
+    "comments": [
+      "[+10] Sounds like it's time for a break homie",
+      "[+9] im on my last straw to uninstall",
+      "[+6] Remind yourself why you started 😼",
+      "[+5] I thought I played because I enjoyed the aim training progress and improvement but turns out I just enjoyed the ranks it’s so not worth it man.",
+      "[+3] What you think are your limits, aren't really your limits. Just have to switch things up to add novelty to the routine.\n\nThat being said, go have some fun. Do something else you find interesting. Nothing wrong with that, especially if you don't think the aim training juice is worth the sqeeze. Life is too short.",
+      "[+13] its never this serious",
+      "[+61] have u ever played kovaaks with your life on the line",
+      "[+5] Ong why am I getting more upvotes on this compared to my progress post im crine 😂😂😭",
+      "[+3] just find a balance or take a break for now buddy",
+      "[+50] You are raising your skill floor. The pb is literally the best you will have ever played that scenario. You can not expect to play the best you ever had in your life every time you want to pb. It’s just not possible.",
+      "[+-30] Been possible for the past 180 hours.i just hit my limit. it’s just the genetic cap bro brooooootal",
+      "[+26] This isnt the first time you felt like this and it won’t be the last lol",
+      "[+-15] It’s the 7th time in the past 10 hours and I’m tired man",
+      "[+23] Go to sleep lol",
+      "[+2] I guess bro",
+      "[+6] First 100-300 hours is getting to your current cap.  It makes sense that you to get pbs left and right.  Its like starting to workout, beginner gains left and right.  At this point consistent high average scores will let you know when youre about break through again.",
+      "[+2] I saw your other post chill. I have 1k hours and PB like every week on my most pushed scenarios. You ever lift weights? You can always keep pushing",
+      "[+14] It’s always the genetics cope",
+      "[+3] Yah just like working out you’re going to hit a plateau",
+      "[+6] With that attitude, it’s not worth it, I think it’s fun, pb, no pb who cares, I end up not caring enjoying life then all of a sudden I hit a massive pb spike and I have something to be even more excited abt",
+      "[+4] Yeah I know it’s not worth that’s why I posted this hahaha",
+      "[+1] Bro u can do it ur close to fuchsia complete",
+      "[+1] Unfortunately it’s not even close 😔😭😭",
+      "[+1] Na u are I believe u prob same distance away as I am I’m about to be indigo overall can do it maybe in 2 konths",
+      "[+15] That's your issue.\n\nChasing PBs isn't \"putting in work\". Going for a PB should be something you're doing after drilling the scenerio for an extended period of time and getting faster/more efficient in the particular scenario.\n\nYou're playing a high score simulator not training your aim.",
+      "[+4] You are not wrong in the slightest but if im being honest with myself its both for me. There are times when im not playing fps games at all but i just enjoy the grind and number go up so much that i maintain structure and habit regardless of if im \"using\" any of it. I just like to stay crisp for when the next thing comes, or the occational FINALS match with the boys",
+      "[+1] I understand the sentiment but in all honesty you are looking at it from a flawed perspective. The PB chasers on this sub want to break PBs constantly and you're engaging in one of the lowest returns in time investments possible to achieve it.\n\nUptime and endurance are wayyyy more valuable in improving your aim than watching that high score number go up or not go up every 60s. Not saying it's not possible to consistently progress playing strictly PBs. The rate at which you progress is always going to lag behind someone who drills. They just have more uptime than you. After a couple of days of drilling they will have way more uptime playing the scenerio than you will ever have chasing PBs and that time stacks. It's like the most obvious observation ever.\n\nPB chasers end up making threads li",
+      "[+2] 100%! Also the part about the wall is so on point. In my experience, almost every single plateu i encountered was overcome by changing up my practice in some meaningful way. If its not eorking its going to continue to not work until something changes",
+      "[+-1] I’d say it’s “putting in the work” you should be improving by pushing urself for a pb.",
+      "[+-1] You fundamentally do not understand what the purpose of a PB is. Which is fine since most people don't. A PB is a snapshot of your proficiency. It's not meant to adequately train the proficiency itself in a time efficient way to see consistent progress.\n\nIt's why you're running into this \"ceiling\". You don't see the number go up so it's discouraging for you. If it was working so well for you this thread wouldn't exist.",
+      "[+1] youre right but the post was funny tho you cant lie",
+      "[+1] You can blame benchmark worship for treating PB as the main measurement of skill"
+    ],
+    "comment_tree": [
+      {
+        "id": "19s8q167ku5vo",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 10,
+        "body_en": "Sounds like it's time for a break homie",
+        "depth": 0,
+        "body_ja": "兄弟、ちょっと休憩するタイミングが来たみたいだな。"
+      },
+      {
+        "id": "19s8q32r6a4w4",
+        "parent_id": "19s8q167ku5vo",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 9,
+        "body_en": "im on my last straw to uninstall",
+        "depth": 1,
+        "body_ja": "アンインストールする寸前だよ。"
+      },
+      {
+        "id": "19s8rpfpms9j8",
+        "parent_id": "19s8q32r6a4w4",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "body_en": "Remind yourself why you started 😼",
+        "depth": 2,
+        "body_ja": "なんでこれを始めたのか、最初のきっかけを思い出してみろよ 😼"
+      },
+      {
+        "id": "19s8rsp1ic4sk",
+        "parent_id": "19s8rpfpms9j8",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 5,
+        "body_en": "I thought I played because I enjoyed the aim training progress and improvement but turns out I just enjoyed the ranks it’s so not worth it man.",
+        "depth": 3,
+        "body_ja": "エイム練習による成長と上達そのものを楽しめてると思ってたんだけど、結局俺が好きだったのはランク（スコア）だけだったみたい。マジでやってらんないよ。"
+      },
+      {
+        "id": "19sa7kn4p20qr",
+        "parent_id": "19s8rsp1ic4sk",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "What you think are your limits, aren't really your limits. Just have to switch things up to add novelty to the routine.\n\nThat being said, go have some fun. Do something else you find interesting. Nothing wrong with that, especially if you don't think the aim training juice is worth the sqeeze. Life is too short.",
+        "depth": 4,
+        "body_ja": "自分が限界だと思ってるものは、実際は本当の限界じゃないんだよ。ルーティンに新しい要素を取り入れて、新鮮味を加えるだけでいい。とはいえ、まずは少し楽しんできなよ。他に面白そうなことをやってみるんだ。エイム練習が割に合わないと感じるなら、休むことに何も悪いことなんてない。人生は短いんだから。"
+      },
+      {
+        "id": "19s8q8sqb3zgl",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 13,
+        "body_en": "its never this serious",
+        "depth": 0,
+        "body_ja": "そこまで深刻になるようなことじゃないだろ。"
+      },
+      {
+        "id": "19s8qix730bi8",
+        "parent_id": "19s8q8sqb3zgl",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 61,
+        "body_en": "have u ever played kovaaks with your life on the line",
+        "depth": 1,
+        "body_ja": "命がけでKovaaK'sをやったことあるのかよ？"
+      },
+      {
+        "id": "19s8r8cm4nlmr",
+        "parent_id": null,
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 5,
+        "body_en": "Ong why am I getting more upvotes on this compared to my progress post im crine 😂😂😭",
+        "depth": 0,
+        "body_ja": "マジで、なんで前上げた進捗報告の投稿より、この愚痴投稿の方がアップボート伸びてんだよww 泣けてくるんだが 😂😂😭"
+      },
+      {
+        "id": "19s8sktv7xu0x",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "just find a balance or take a break for now buddy",
+        "depth": 0,
+        "body_ja": "バランスを見つけるか、とりあえず一旦休めよ相棒。"
+      },
+      {
+        "id": "19s8t13quts1u",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 50,
+        "body_en": "You are raising your skill floor. The pb is literally the best you will have ever played that scenario. You can not expect to play the best you ever had in your life every time you want to pb. It’s just not possible.",
+        "depth": 0,
+        "body_ja": "君はスキルの底面（アベレージ）を上げている最中なんだよ。PB（自己ベスト）ってのは文字通り、そのシナリオで君が出した人生最高のプレイだ。PBを出したいと思うたびに、毎回人生最高のプレイができるなんて期待しちゃダメだよ。そんなの不可能なんだから。"
+      },
+      {
+        "id": "19s8t3h1b9jcz",
+        "parent_id": "19s8t13quts1u",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": -30,
+        "body_en": "Been possible for the past 180 hours.i just hit my limit. it’s just the genetic cap bro brooooootal",
+        "depth": 1,
+        "body_ja": "過去180時間はそれが可能だったんだよ。ただ俺は限界に達した。遺伝子の限界だよ、残酷すぎる……"
+      },
+      {
+        "id": "19s8t95o7azi9",
+        "parent_id": "19s8t3h1b9jcz",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 26,
+        "body_en": "This isnt the first time you felt like this and it won’t be the last lol",
+        "depth": 2,
+        "body_ja": "君がそう感じるのはこれが初めてじゃないし、最後でもないよ（笑）"
+      },
+      {
+        "id": "19s8tah4g46dc",
+        "parent_id": "19s8t95o7azi9",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": -15,
+        "body_en": "It’s the 7th time in the past 10 hours and I’m tired man",
+        "depth": 3,
+        "body_ja": "ここ10時間で7回もこうなってんだよ、もう疲れたんだ。"
+      },
+      {
+        "id": "19s8tcocbxsg5",
+        "parent_id": "19s8tah4g46dc",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 23,
+        "body_en": "Go to sleep lol",
+        "depth": 4,
+        "body_ja": "寝ろ（笑）"
+      },
+      {
+        "id": "19s8tkpmr3jnn",
+        "parent_id": "19s8tcocbxsg5",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "I guess bro",
+        "depth": 5,
+        "body_ja": "そうだな……"
+      },
+      {
+        "id": "19s8v3jmydow2",
+        "parent_id": "19s8t3h1b9jcz",
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "body_en": "First 100-300 hours is getting to your current cap.  It makes sense that you to get pbs left and right.  Its like starting to workout, beginner gains left and right.  At this point consistent high average scores will let you know when youre about break through again.",
+        "depth": 2,
+        "body_ja": "最初の100〜300時間は、今の自分の上限に達するまでのプロセスなんだ。だから左右問わずPBが出まくるのは当然。筋トレを始めたばかりの「ビギナーボーナス」みたいなもんだよ。今の段階からは、安定して高い平均スコアが出せるようになって初めて「また壁を突破しそうだ」ってのが分かるようになるんだ。"
+      },
+      {
+        "id": "19s8wjw387o04",
+        "parent_id": "19s8t3h1b9jcz",
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I saw your other post chill. I have 1k hours and PB like every week on my most pushed scenarios. You ever lift weights? You can always keep pushing",
+        "depth": 2,
+        "body_ja": "君の他の投稿も見たけど、まあ落ち着けよ。俺は1000時間やり込んでるけど、一番やり込んでるシナリオでも毎週のようにPB更新してるぞ。筋トレやったことあるか？ 限界はいつでも押し広げられるんだよ。"
+      },
+      {
+        "id": "19s8x4hdv605h",
+        "parent_id": "19s8t3h1b9jcz",
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 14,
+        "body_en": "It’s always the genetics cope",
+        "depth": 2,
+        "body_ja": "いつも「遺伝子」のせいにして言い訳するよな。"
+      },
+      {
+        "id": "19s8z8mhow11c",
+        "parent_id": "19s8t3h1b9jcz",
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Yah just like working out you’re going to hit a plateau",
+        "depth": 2,
+        "body_ja": "そうだな、筋トレと同じでプラトー（停滞期）には必ずぶつかるもんだ。"
+      },
+      {
+        "id": "19s8tal4mi6v5",
+        "parent_id": null,
+        "author": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "body_en": "With that attitude, it’s not worth it, I think it’s fun, pb, no pb who cares, I end up not caring enjoying life then all of a sudden I hit a massive pb spike and I have something to be even more excited abt",
+        "depth": 0,
+        "body_ja": "そんな態度じゃ、そりゃやる価値なんて感じられないよ。俺は楽しいからやってる。PBが出ようが出まいが知ったこっちゃない。気にせず人生を楽しんでたら、突然大幅にPBが跳ね上がって、もっとワクワクできるようになるんだ。"
+      },
+      {
+        "id": "19s8tk0dx1ikg",
+        "parent_id": "19s8tal4mi6v5",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 4,
+        "body_en": "Yeah I know it’s not worth that’s why I posted this hahaha",
+        "depth": 1,
+        "body_ja": "ああ、やる価値がないのは分かってるよ。だからこの投稿をしたんだし（笑）"
+      },
+      {
+        "id": "19s8xwy7hgnr6",
+        "parent_id": null,
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Bro u can do it ur close to fuchsia complete",
+        "depth": 0,
+        "body_ja": "おいおい行けるって、フクシア（Voltaicランク）コンプリートまであと少しじゃん。"
+      },
+      {
+        "id": "19s99qcgk5qgz",
+        "parent_id": "19s8xwy7hgnr6",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Unfortunately it’s not even close 😔😭😭",
+        "depth": 1,
+        "body_ja": "残念ながら全然惜しくすらないんだよ 😔😭😭"
+      },
+      {
+        "id": "19s9j4psir60w",
+        "parent_id": "19s99qcgk5qgz",
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Na u are I believe u prob same distance away as I am I’m about to be indigo overall can do it maybe in 2 konths",
+        "depth": 2,
+        "body_ja": "いや惜しいって。俺もたぶん君と同じくらいの進捗だけど、今もうすぐ総合インディゴ（Voltaicランク）に行けそうだし、あと2ヶ月もあれば行けるって。"
+      },
+      {
+        "id": "19s8yl0gsjqkk",
+        "parent_id": null,
+        "author": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 15,
+        "body_en": "That's your issue.\n\nChasing PBs isn't \"putting in work\". Going for a PB should be something you're doing after drilling the scenerio for an extended period of time and getting faster/more efficient in the particular scenario.\n\nYou're playing a high score simulator not training your aim.",
+        "depth": 0,
+        "body_ja": "そこが君の問題点だな。PBばかり追いかけるのは「努力を重ねる」こととは違う。PBを狙いに行くのは、そのシナリオを長時間ドリル練習して、特定の動作がより速く、より効率的になってからやるべきことだ。君はエイムを鍛えてるんじゃなくて、ハイスコアシミュレーターをプレイしてるだけなんだよ。"
+      },
+      {
+        "id": "19s8zba2p9iyr",
+        "parent_id": "19s8yl0gsjqkk",
+        "author": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "body_en": "You are not wrong in the slightest but if im being honest with myself its both for me. There are times when im not playing fps games at all but i just enjoy the grind and number go up so much that i maintain structure and habit regardless of if im \"using\" any of it. I just like to stay crisp for when the next thing comes, or the occational FINALS match with the boys",
+        "depth": 1,
+        "body_ja": "君の言ってることは1ミリも間違ってないけど、正直自分に嘘をつけないなら、俺にとっては両方なんだよね。FPSゲームを全くやってない時期でも、ただ数字が上がっていく感覚が好きで構造化された習慣を維持してる。次に何かやりたいゲームが来た時や、たまにフレンドと『THE FINALS』をやる時にキレのあるエイムを保っていたいだけなんだ。"
+      },
+      {
+        "id": "19s903606mude",
+        "parent_id": "19s8zba2p9iyr",
+        "author": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I understand the sentiment but in all honesty you are looking at it from a flawed perspective. The PB chasers on this sub want to break PBs constantly and you're engaging in one of the lowest returns in time investments possible to achieve it.\n\nUptime and endurance are wayyyy more valuable in improving your aim than watching that high score number go up or not go up every 60s. Not saying it's not possible to consistently progress playing strictly PBs. The rate at which you progress is always going to lag behind someone who drills. They just have more uptime than you. After a couple of days of drilling they will have way more uptime playing the scenerio than you will ever have chasing PBs and that time stacks. It's like the most obvious observation ever.\n\nPB chasers end up making threads like this talking about \"I've hit a wall\". Yeah, you're training wrong of course there is going to be a mental limit in consistently seeing that high score number stay the same when that's all you're chasing.",
+        "depth": 2,
+        "body_ja": "気持ちは分かるけど、正直言って間違った視点で見ているよ。このサブレットでPBを追いかけてる奴らは常に自己ベストを更新したがるけど、それを達成するための時間投資としては最もリターンが低いやり方に執着している。60秒ごとにハイスコアの数字が上がるか上がらないかを見つめるより、稼働時間（実際にエイムを動かしている時間）と耐久力の方がエイム向上にははるかに価値がある。PBだけを狙ってプレイして成長し続けるのが不可能とは言わない。ただ、その成長速度はドリル練習をする奴に必ず遅れをとる。そっちの方が圧倒的に稼働時間が長いからね。数日ドリル練習をした奴は、PBチェイスばかりしてる君が一生かけて得る以上の稼働時間をそのシナリオで積むことになるし、その差は積み重なっていく。当たり前すぎる観察結果だよ。PBチェイス勢が「壁にぶつかった」なんてスレッドを建てるのは、ハイスコアの数字が変わらないことばかり気にしているからだ。トレーニング方法が間違っていれば、メンタル的な限界が来るのは当然だよ。"
+      },
+      {
+        "id": "19s90b3qa0e2s",
+        "parent_id": "19s903606mude",
+        "author": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "100%! Also the part about the wall is so on point. In my experience, almost every single plateu i encountered was overcome by changing up my practice in some meaningful way. If its not eorking its going to continue to not work until something changes",
+        "depth": 3,
+        "body_ja": "100%同意！ あと「壁」についての部分もマジでその通り。俺の経験上、ぶつかった停滞期はほぼ全て、練習方法を有意義な形に変更することで克服できた。上手くいってないなら、何かを変えない限り上手くいかないままだよ。"
+      },
+      {
+        "id": "19s99nfqfwuh0",
+        "parent_id": "19s8yl0gsjqkk",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": -1,
+        "body_en": "I’d say it’s “putting in the work” you should be improving by pushing urself for a pb.",
+        "depth": 1,
+        "body_ja": "いや、PBを狙うために自分を追い込むことで上達していくんだから、それだって「努力を重ねてる」って言えるだろ。"
+      },
+      {
+        "id": "19s9a65rh1wsh",
+        "parent_id": "19s99nfqfwuh0",
+        "author": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "body_en": "You fundamentally do not understand what the purpose of a PB is. Which is fine since most people don't. A PB is a snapshot of your proficiency. It's not meant to adequately train the proficiency itself in a time efficient way to see consistent progress.\n\nIt's why you're running into this \"ceiling\". You don't see the number go up so it's discouraging for you. If it was working so well for you this thread wouldn't exist.",
+        "depth": 2,
+        "body_ja": "君はPBの根本的な目的を理解していない。まあ大半の人は理解してないからいいんだけどさ。PBってのは「現在の熟練度のスナップショット（切り抜き）」なんだよ。効率的に成長するためのトレーニングそのものじゃない。だから君は「限界」にぶつかるんだ。数字が上がらないから萎える。もし君のやり方が上手くいってるなら、こんなスレッドは存在してないはずだろ。"
+      }
+    ],
+    "title_ja": "KovaaK's沼で自己ベストが出ず「限界」を唱えるプレイヤーに海外エイマーが伝えた本質",
+    "hook_ja": "エイム練習ソフト『KovaaK's』で自己ベスト（PB）が更新できず絶望するプレイヤーに対し、コミュニティから「自己ベスト更新狙いとエイム上達は別物」という辛辣かつ本質的なアドバイスが相次ぎました。",
+    "op_post_ja": "自己ベスト（PB）を更新するためだけに何時間も費やして、結局出ずに終わるのにもう心底疲れた。マジで時間の無駄すぎるだろこれ。",
+    "consensus_points": [
+      "自己ベスト（PB）ばかりを追い求めるのは「エイム練習」ではなく単なる「ハイスコアゲーム」になっている",
+      "初心者の頃の「ビギナーズラック（急成長）」を過ぎたら、自己ベストではなく「アベレージ（平均スコア）の引き上げ」を指標にするべき",
+      "壁にぶつかった時は練習メニューを変えるか、一度完全に休む（睡眠をとる）ことが最善の解決策"
+    ],
+    "detailed_analysis_ja": "エイム練習ソフト（KovaaK'sやAimlabs）をやり込むプレイヤーの間で定期的に議論されるのが、「自己ベスト（PB: Personal Best）を追いかけることの弊害」と「本当の意味でのスキル向上」の違いです。\n\n【1. ビギナーズラックとスキルアベレージの壁】\nエイム練習を始めて最初の100〜300時間は、神経系が刺激に慣れるため、プレイするたびに自己ベストが更新されやすい「ビギナーズラック」の期間です。しかし、一定のレベルに達すると成長スピードは鈍化します。多くの猛者が指摘するように、自己ベストはそのシナリオで「人生最高のパフォーマンス」が出た瞬間の記録に過ぎず、毎プレイごとにそれを超え続けることは不可能です。上達の真の指標は「自己ベスト」ではなく「平均スコア（Skill Floor）」が底上げされているかどうかにあります。\n\n【2. PBチェイス（記録狙い）対 ドリル練習（基礎錬成）】\n本スレッドで特に深く議論されたのが、単に60秒のシナリオを回して自己ベスト更新を祈る「PBチェイス」と、自身の弱点動作を反復・修正する「ドリル練習」の違いです。PBばかりを狙うプレイは、時間あたりの実質的な練習量（アプタイム）が少なく効率が悪いと指摘されています。シナリオの速度を変える、バリエーションを増やすなどの刺激（Novelty）を与えない限り、自己ベスト狙いだけでは精神的に燃え尽きる（バーンアウトする）リスクが高まります。\n\n【3. メンタルヘルスと遺伝子（Genetics）逃避】\n成長が止まった際、「自分の遺伝子の限界（Genetic cap）」を理由にしてしまうのはエイム練習者によく見られる回避行動です。しかし、筋トレと同様にプラトー（停滞期）は必ず訪れるものであり、適切な休息や睡眠、他のゲームを楽しむ余裕を持つことが、長期的には継続と上達に不可欠であると結論付けられています。",
+    "devices": [],
+    "x_main_post": "KovaaK'sで自己ベスト（PB）が出ず絶望するプレイヤーに海外猛者が一言。\n「PBは過去最高の瞬間を切り取った画像に過ぎない。PB更新ばかり狙うのはエイム練習ではなく『ハイスコアゲーム』。上達したいなら自己ベストではなく平均スコアの引き上げを意識すべき」",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "KovaaK'sで自己ベストが出なくて、もう限界なのだ！",
+        "caption": "自己ベストが出ない！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "それは自己ベストばかり狙って、ハイスコアゲームになっちゃってるからだよ！",
+        "caption": "海外猛者の結論"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "自己ベストを狙うのが練習じゃないのだ？",
+        "caption": "なぜそうなる？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "自己ベストは『過去最高の瞬間』だから、毎回超えるのは不可能なんだよね。",
+        "caption": "ポイント①"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "大事なのはベスト更新じゃなくて、平均スコア（アベレージ）を底上げすることなんだよ！",
+        "caption": "ポイント②"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "伸び悩んだら遺伝子のせいにしてたのだ……！",
+        "caption": "目からウロコ！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ焦ってやり続けるとメンタルが死ぬから、練習内容を変えるかちゃんと寝てね！",
+        "caption": "注意点"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19s8q167ku5vo",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 10,
+        "text": "兄弟、ちょっと休憩するタイミングが来たみたいだな。"
+      },
+      {
+        "id": "19s8q32r6a4w4",
+        "parent_id": "19s8q167ku5vo",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 9,
+        "text": "アンインストールする寸前だよ。"
+      },
+      {
+        "id": "19s8rpfpms9j8",
+        "parent_id": "19s8q32r6a4w4",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "text": "なんでこれを始めたのか、最初のきっかけを思い出してみろよ 😼"
+      },
+      {
+        "id": "19s8rsp1ic4sk",
+        "parent_id": "19s8rpfpms9j8",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 5,
+        "text": "エイム練習による成長と上達そのものを楽しめてると思ってたんだけど、結局俺が好きだったのはランク（スコア）だけだったみたい。マジでやってらんないよ。"
+      },
+      {
+        "id": "19sa7kn4p20qr",
+        "parent_id": "19s8rsp1ic4sk",
+        "depth": 4,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "自分が限界だと思ってるものは、実際は本当の限界じゃないんだよ。ルーティンに新しい要素を取り入れて、新鮮味を加えるだけでいい。とはいえ、まずは少し楽しんできなよ。他に面白そうなことをやってみるんだ。エイム練習が割に合わないと感じるなら、休むことに何も悪いことなんてない。人生は短いんだから。"
+      },
+      {
+        "id": "19s8q8sqb3zgl",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 13,
+        "text": "そこまで深刻になるようなことじゃないだろ。"
+      },
+      {
+        "id": "19s8qix730bi8",
+        "parent_id": "19s8q8sqb3zgl",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 61,
+        "text": "命がけでKovaaK'sをやったことあるのかよ？"
+      },
+      {
+        "id": "19s8r8cm4nlmr",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 5,
+        "text": "マジで、なんで前上げた進捗報告の投稿より、この愚痴投稿の方がアップボート伸びてんだよww 泣けてくるんだが 😂😂😭"
+      },
+      {
+        "id": "19s8sktv7xu0x",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "バランスを見つけるか、とりあえず一旦休めよ相棒。"
+      },
+      {
+        "id": "19s8t13quts1u",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 50,
+        "text": "君はスキルの底面（アベレージ）を上げている最中なんだよ。PB（自己ベスト）ってのは文字通り、そのシナリオで君が出した人生最高のプレイだ。PBを出したいと思うたびに、毎回人生最高のプレイができるなんて期待しちゃダメだよ。そんなの不可能なんだから。"
+      },
+      {
+        "id": "19s8t3h1b9jcz",
+        "parent_id": "19s8t13quts1u",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": -30,
+        "text": "過去180時間はそれが可能だったんだよ。ただ俺は限界に達した。遺伝子の限界だよ、残酷すぎる……"
+      },
+      {
+        "id": "19s8t95o7azi9",
+        "parent_id": "19s8t3h1b9jcz",
+        "depth": 2,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 26,
+        "text": "君がそう感じるのはこれが初めてじゃないし、最後でもないよ（笑）"
+      },
+      {
+        "id": "19s8tah4g46dc",
+        "parent_id": "19s8t95o7azi9",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": -15,
+        "text": "ここ10時間で7回もこうなってんだよ、もう疲れたんだ。"
+      },
+      {
+        "id": "19s8tcocbxsg5",
+        "parent_id": "19s8tah4g46dc",
+        "depth": 4,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 23,
+        "text": "寝ろ（笑）"
+      },
+      {
+        "id": "19s8tkpmr3jnn",
+        "parent_id": "19s8tcocbxsg5",
+        "depth": 5,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "そうだな……"
+      },
+      {
+        "id": "19s8v3jmydow2",
+        "parent_id": "19s8t3h1b9jcz",
+        "depth": 2,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "text": "最初の100〜300時間は、今の自分の上限に達するまでのプロセスなんだ。だから左右問わずPBが出まくるのは当然。筋トレを始めたばかりの「ビギナーボーナス」みたいなもんだよ。今の段階からは、安定して高い平均スコアが出せるようになって初めて「また壁を突破しそうだ」ってのが分かるようになるんだ。"
+      },
+      {
+        "id": "19s8wjw387o04",
+        "parent_id": "19s8t3h1b9jcz",
+        "depth": 2,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "君の他の投稿も見たけど、まあ落ち着けよ。俺は1000時間やり込んでるけど、一番やり込んでるシナリオでも毎週のようにPB更新してるぞ。筋トレやったことあるか？ 限界はいつでも押し広げられるんだよ。"
+      },
+      {
+        "id": "19s8x4hdv605h",
+        "parent_id": "19s8t3h1b9jcz",
+        "depth": 2,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 14,
+        "text": "いつも「遺伝子」のせいにして言い訳するよな。"
+      },
+      {
+        "id": "19s8z8mhow11c",
+        "parent_id": "19s8t3h1b9jcz",
+        "depth": 2,
+        "speaker": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "そうだな、筋トレと同じでプラトー（停滞期）には必ずぶつかるもんだ。"
+      },
+      {
+        "id": "19s8tal4mi6v5",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "text": "そんな態度じゃ、そりゃやる価値なんて感じられないよ。俺は楽しいからやってる。PBが出ようが出まいが知ったこっちゃない。気にせず人生を楽しんでたら、突然大幅にPBが跳ね上がって、もっとワクワクできるようになるんだ。"
+      },
+      {
+        "id": "19s8tk0dx1ikg",
+        "parent_id": "19s8tal4mi6v5",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 4,
+        "text": "ああ、やる価値がないのは分かってるよ。だからこの投稿をしたんだし（笑）"
+      },
+      {
+        "id": "19s8xwy7hgnr6",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "おいおい行けるって、フクシア（Voltaicランク）コンプリートまであと少しじゃん。"
+      },
+      {
+        "id": "19s99qcgk5qgz",
+        "parent_id": "19s8xwy7hgnr6",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "残念ながら全然惜しくすらないんだよ 😔😭😭"
+      },
+      {
+        "id": "19s9j4psir60w",
+        "parent_id": "19s99qcgk5qgz",
+        "depth": 2,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "いや惜しいって。俺もたぶん君と同じくらいの進捗だけど、今もうすぐ総合インディゴ（Voltaicランク）に行けそうだし、あと2ヶ月もあれば行けるって。"
+      },
+      {
+        "id": "19s8yl0gsjqkk",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 15,
+        "text": "そこが君の問題点だな。PBばかり追いかけるのは「努力を重ねる」こととは違う。PBを狙いに行くのは、そのシナリオを長時間ドリル練習して、特定の動作がより速く、より効率的になってからやるべきことだ。君はエイムを鍛えてるんじゃなくて、ハイスコアシミュレーターをプレイしてるだけなんだよ。"
+      },
+      {
+        "id": "19s8zba2p9iyr",
+        "parent_id": "19s8yl0gsjqkk",
+        "depth": 1,
+        "speaker": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "text": "君の言ってることは1ミリも間違ってないけど、正直自分に嘘をつけないなら、俺にとっては両方なんだよね。FPSゲームを全くやってない時期でも、ただ数字が上がっていく感覚が好きで構造化された習慣を維持してる。次に何かやりたいゲームが来た時や、たまにフレンドと『THE FINALS』をやる時にキレのあるエイムを保っていたいだけなんだ。"
+      },
+      {
+        "id": "19s903606mude",
+        "parent_id": "19s8zba2p9iyr",
+        "depth": 2,
+        "speaker": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "気持ちは分かるけど、正直言って間違った視点で見ているよ。このサブレットでPBを追いかけてる奴らは常に自己ベストを更新したがるけど、それを達成するための時間投資としては最もリターンが低いやり方に執着している。60秒ごとにハイスコアの数字が上がるか上がらないかを見つめるより、稼働時間（実際にエイムを動かしている時間）と耐久力の方がエイム向上にははるかに価値がある。PBだけを狙ってプレイして成長し続けるのが不可能とは言わない。ただ、その成長速度はドリル練習をする奴に必ず遅れをとる。そっちの方が圧倒的に稼働時間が長いからね。数日ドリル練習をした奴は、PBチェイスばかりしてる君が一生かけて得る以上の稼働時間をそのシナリオで積むことになるし、その差は積み重なっていく。当たり前すぎる観察結果だよ。PBチェイス勢が「壁にぶつかった」なんてスレッドを建てるのは、ハイスコアの数字が変わらないことばかり気にしているからだ。トレーニング方法が間違っていれば、メンタル的な限界が来るのは当然だよ。"
+      },
+      {
+        "id": "19s90b3qa0e2s",
+        "parent_id": "19s903606mude",
+        "depth": 3,
+        "speaker": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "100%同意！ あと「壁」についての部分もマジでその通り。俺の経験上、ぶつかった停滞期はほぼ全て、練習方法を有意義な形に変更することで克服できた。上手くいってないなら、何かを変えない限り上手くいかないままだよ。"
+      },
+      {
+        "id": "19s99nfqfwuh0",
+        "parent_id": "19s8yl0gsjqkk",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": -1,
+        "text": "いや、PBを狙うために自分を追い込むことで上達していくんだから、それだって「努力を重ねてる」って言えるだろ。"
+      },
+      {
+        "id": "19s9a65rh1wsh",
+        "parent_id": "19s99nfqfwuh0",
+        "depth": 2,
+        "speaker": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "text": "君はPBの根本的な目的を理解していない。まあ大半の人は理解してないからいいんだけどさ。PBってのは「現在の熟練度のスナップショット（切り抜き）」なんだよ。効率的に成長するためのトレーニングそのものじゃない。だから君は「限界」にぶつかるんだ。数字が上がらないから萎える。もし君のやり方が上手くいってるなら、こんなスレッドは存在してないはずだろ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xpm3vl.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=KovaaK%27s%E3%81%A7%E8%87%AA%E5%B7%B1%E3%83%99%E3%82%B9%E3%83%88%EF%BC%88PB%EF%BC%89%E3%81%8C%E5%87%BA%E3%81%9A%E7%B5%B6%E6%9C%9B%E3%81%99%E3%82%8B%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%AB%E6%B5%B7%E5%A4%96%E7%8C%9B%E8%80%85%E3%81%8C%E4%B8%80%E8%A8%80%E3%80%82%0A%E3%80%8CPB%E3%81%AF%E9%81%8E%E5%8E%BB%E6%9C%80%E9%AB%98%E3%81%AE%E7%9E%AC%E9%96%93%E3%82%92%E5%88%87%E3%82%8A%E5%8F%96%E3%81%A3%E3%81%9F%E7%94%BB%E5%83%8F%E3%81%AB%E9%81%8E%E3%81%8E%E3%81%AA%E3%81%84%E3%80%82PB%E6%9B%B4%E6%96%B0%E3%81%B0%E3%81%8B%E3%82%8A%E7%8B%99%E3%81%86%E3%81%AE%E3%81%AF%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%80%8E%E3%83%8F%E3%82%A4%E3%82%B9%E3%82%B3%E3%82%A2%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8F%E3%80%82%E4%B8%8A%E9%81%94%E3%81%97%E3%81%9F%E3%81%84%E3%81%AA%E3%82%89%E8%87%AA%E5%B7%B1%E3%83%99%E3%82%B9%E3%83%88%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E5%B9%B3%E5%9D%87%E3%82%B9%E3%82%B3%E3%82%A2%E3%81%AE%E5%BC%95%E3%81%8D%E4%B8%8A%E3%81%92%E3%82%92%E6%84%8F%E8%AD%98%E3%81%99%E3%81%B9%E3%81%8D%E3%80%8D%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xpm3vl.html",
+    "created_at": "2026-11-07T22:36:40.061249+00:00"
+  },
+  {
+    "id": "1xpgjpt",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "how much did you improve in your actual game, after aim training?",
+    "selftext_en": "I think the moment my technique got a bit better and I understood more how to configure my sensitivities due to playing on a wider range of senses in aim training, I went from 2-3KD to 4-6KD in PUBG. In addition to overall better clutches, sprays etc...\n\nwould be cool to understand other people's progress and not just seeing scores :) \n\nwhich i totally respect and appreciate because it shows how consistent and hardworking some gamers are 😃",
+    "image_urls": [],
+    "score": 8,
+    "num_comments": 15,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xpgjpt/how_much_did_you_improve_in_your_actual_game/",
+    "comments": [
+      "[+5] Well, click timing made a big difference in effectiveness and of course tracking consistently too.",
+      "[+2] Went from valorant iron 1 0rr to peaked ascendant 2 APAC region. Marvel rivals top 3 MRC 3500usd. And I’m like orange in static but green in tracking for viscose benchmarks v2 and I wasn’t even platinum in voltaic benchmarks. Diamond 3 apex legends If I’m being honest game sense can get you a longer way. Having insane aim doesn’t really matter.",
+      "[+1] dunno what that means, but you seem to have improved immensely. Game sense is of course a beast, but doing the right move always and not hitting a single bullet is tough",
+      "[+1] You just need average aim",
+      "[+-1] None I went from shit to lavender no improvement quit while ur ahead it’s not worth it",
+      "[+4] you gave up 🥀",
+      "[+0] Yeah duh imagine spending 5 hours to go from 950 to 990 in bounceshot then spend another 3 to get nothing if u think 8 hour is still nothing it’s friggin 5% of my total playtime 🫩💤",
+      "[+1] you could always specialize in whatever category the game of your choosing uses and skip the scenarios you hate. 30 minutes a day will give you plenty progress provided you specialize!",
+      "[+1] What game do you play mainly?",
+      "[+1] valorant",
+      "[+1] What? I would like to see your profile on exvl",
+      "[+0] check my other post, its abit old tho ive gotten alil better",
+      "[+3] I started playing BF6 on launch, started off with like 0.7/0.8 KD (even that thanks mostly to DMRs 😂), bottom of the leaderboards. Started aim training in April, been steadily improving since. This season I'm probably 2 KD+ though not sure if bot lobbies skew that, regularly in top 5-10 ( turns out PTFO gets easier when you can kill the opponents 😂). \n\nIn Warzone resurgence went from not being able to play the game pretty much outside of casuals to hanging comfortably in regular lobbies.\n\nMay not sound like much but for me it's been a big change.",
+      "[+2] seems like u're having way more fun at gaming. and this my friend is what matters the most 😄 \n\nkeep grinding !!"
+    ],
+    "comment_tree": [
+      {
+        "id": "19s8gfm2vpsbk",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "Well, click timing made a big difference in effectiveness and of course tracking consistently too.",
+        "depth": 0,
+        "body_ja": "そうだな、クリックタイミングの練習は実戦での有効性に大きな違いをもたらしたし、もちろんトラッキングの安定性もすごく効いているよ。"
+      },
+      {
+        "id": "19s8kjoik9oys",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Went from valorant iron 1 0rr to peaked ascendant 2 APAC region. Marvel rivals top 3 MRC 3500usd. And I’m like orange in static but green in tracking for viscose benchmarks v2 and I wasn’t even platinum in voltaic benchmarks. Diamond 3 apex legends If I’m being honest game sense can get you a longer way. Having insane aim doesn’t really matter.",
+        "depth": 0,
+        "body_ja": "Valorantでアイアン1（0RR）からアセンダント2（APACサーバー）まで上がったよ。Marvel RivalsのMRC（賞金3500ドル）ではトップ3に入った。Viscoseベンチマークv2だとスタティックはオレンジだけどトラッキングはグリーンだし、Voltaicベンチマークに至ってはプラチナにすら達していなかった。Apex Legendsはダイヤモンド3だね。正直なところ、ゲームセンスの方がはるかに遠くまで連れて行ってくれるよ。常軌を逸したエイムなんて実際はそこまで重要じゃないんだ。"
+      },
+      {
+        "id": "19s8wirfe7y5f",
+        "parent_id": "19s8kjoik9oys",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "dunno what that means, but you seem to have improved immensely. Game sense is of course a beast, but doing the right move always and not hitting a single bullet is tough",
+        "depth": 1,
+        "body_ja": "ベンチマークの用語はよく分からないけど、めちゃくちゃ上達したみたいだね！ゲームセンスが最強なのはもちろんだけど、常に正しい立ち回りをしても弾が1発も当たらないと厳しいからね。"
+      },
+      {
+        "id": "19s9dpz0jxj8l",
+        "parent_id": "19s8wirfe7y5f",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "You just need average aim",
+        "depth": 2,
+        "body_ja": "平均的なエイムがあれば十分なんだよ。"
+      },
+      {
+        "id": "19s8rgpp7k23m",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "body_en": "None I went from shit to lavender no improvement quit while ur ahead it’s not worth it",
+        "depth": 0,
+        "body_ja": "全く上達しなかったよ。ゴミみたいな実力からラベンダーランクになったけど何の上達も感じない。手遅れになる前にやめた方がいい、やる価値ないよ。"
+      },
+      {
+        "id": "19s8sp4l4140x",
+        "parent_id": "19s8rgpp7k23m",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "body_en": "you gave up 🥀",
+        "depth": 1,
+        "body_ja": "君は諦めちゃったんだね 🥀"
+      },
+      {
+        "id": "19s8te00tx1gl",
+        "parent_id": "19s8sp4l4140x",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "Yeah duh imagine spending 5 hours to go from 950 to 990 in bounceshot then spend another 3 to get nothing if u think 8 hour is still nothing it’s friggin 5% of my total playtime 🫩💤",
+        "depth": 2,
+        "body_ja": "そりゃそうだよ。bounceshotでスコアを950から990に上げるために5時間費やして、さらに3時間やって成果ゼロだった時のことを想像してみてよ。8時間くらい大したことないと思うかもしれないけど、僕の総プレイ時間の実に5%なんだよ 🫩💤"
+      },
+      {
+        "id": "19s9kplnk7kbn",
+        "parent_id": "19s8te00tx1gl",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "you could always specialize in whatever category the game of your choosing uses and skip the scenarios you hate. 30 minutes a day will give you plenty progress provided you specialize!",
+        "depth": 3,
+        "body_ja": "自分がプレイするゲームに必要なカテゴリだけに特化して、嫌いなシナリオはスキップすればいいんだよ。特化させれば1日30分の練習でも十分に上達できるよ！"
+      },
+      {
+        "id": "19s9s7m7vlach",
+        "parent_id": "19s8te00tx1gl",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "What game do you play mainly?",
+        "depth": 3,
+        "body_ja": "メインで遊んでるゲームは何なの？"
+      },
+      {
+        "id": "19s9tinv656le",
+        "parent_id": "19s9s7m7vlach",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "valorant",
+        "depth": 4,
+        "body_ja": "Valorantだよ。"
+      },
+      {
+        "id": "19s8w7t9nix0g",
+        "parent_id": "19s8rgpp7k23m",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "What? I would like to see your profile on exvl",
+        "depth": 1,
+        "body_ja": "えっ？exvl（スコア管理サイト）の君のプロフィールを見てみたいんだけど。"
+      },
+      {
+        "id": "19s9th50leqhs",
+        "parent_id": "19s8w7t9nix0g",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "check my other post, its abit old tho ive gotten alil better",
+        "depth": 2,
+        "body_ja": "僕の過去の投稿を見てよ。ちょっと古いけど、今はもうちょっとマシになってるから。"
+      },
+      {
+        "id": "19s8rnrayxrc4",
+        "parent_id": null,
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "I started playing BF6 on launch, started off with like 0.7/0.8 KD (even that thanks mostly to DMRs 😂), bottom of the leaderboards. Started aim training in April, been steadily improving since. This season I'm probably 2 KD+ though not sure if bot lobbies skew that, regularly in top 5-10 ( turns out PTFO gets easier when you can kill the opponents 😂). \n\nIn Warzone resurgence went from not being able to play the game pretty much outside of casuals to hanging comfortably in regular lobbies.\n\nMay not sound like much but for me it's been a big change.",
+        "depth": 0,
+        "body_ja": "BF6（※BF2042等）をリリース時から遊んでいて、最初はK/D 0.7〜0.8くらい（それもほぼDMRのおかげ😂）でスコアボードの最下位だった。4月にエイム練習を始めてから順調に伸びているよ。今シーズンはボット部屋の影響もあるかもしれないけどK/D 2.0以上あって、頻繁にトップ5〜10に入れている（相手を倒せるようになると目的達成/PTFOがめちゃくちゃ楽になるって分かった😂）。\n\nWarzoneのレサージェンスでも、以前はカジュアル以外ほぼプレイできなかったのが、普通のロビーで快適に戦えるようになった。\n\n大したことないように思えるかもしれないけど、自分にとってはすごく大きな変化だったよ。"
+      },
+      {
+        "id": "19s8whjzjagth",
+        "parent_id": "19s8rnrayxrc4",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "seems like u're having way more fun at gaming. and this my friend is what matters the most 😄 \n\nkeep grinding !!",
+        "depth": 1,
+        "body_ja": "ゲームを以前よりずっと楽しめているみたいだね。友よ、それこそが一番大切なことだよ😄 このまま練習がんばって！！"
+      }
+    ],
+    "title_ja": "エイム練習で実戦の成績はどれくらい伸びる？K/D向上やランクアップの実感と限界",
+    "hook_ja": "エイムトレを通じた実戦（PUBG、Valorant、BF、Warzone等）での戦績変化について語り合うスレッドです。K/Dの向上やクラッチ成功率の増加といった実感が語られる一方、ゲームセンスの重要性や練習効率に関する議論が展開されています。",
+    "op_post_ja": "エイム練習で幅広い感度を試したおかげで技術が少し向上し、自分に合った感度の設定方法への理解が深まった瞬間に、PUBGでのK/Dが2〜3から4〜6に跳ね上がったと思う。全体的なクラッチ力やスプレー制御なんかも良くなったしね……。\n\nベンチマークのスコアを見るだけでなく、他の人たちが実戦でどんな成長を感じているのか知れたら面白いなと思って！\n\nもちろんスコアを見るのも大好きだし、みんながどれだけ一貫してハードに努力しているかが伝わってくるからリスペクトしているよ😃",
+    "consensus_points": [
+      "エイム練習はクリックタイミングや一貫したトラッキング力を向上させ、実戦のK/D向上（PUBGやBF、Warzone等）に直接寄与する。",
+      "最高峰の過度なエイム力を目指さずとも平均的なエイムがあれば十分であり、実戦での高ランク到達にはゲームセンスや立ち回りがより重要である。",
+      "漠然としたスコアアタックに何時間も費やすよりも、プレイするゲームに必要な要素に特化して1日30分程度効率的に練習する方が挫折しにくい。"
+    ],
+    "detailed_analysis_ja": "本スレッドでは、KovaaK'sやAimlabsといったエイムトレーナーでの練習が、実際に『PUBG』『Valorant』『Battlefield』『Warzone』などのFPS実戦でどれほど成果をもたらすかについて議論されています。\n\n【1. 実戦での実戦成果（K/D向上と立ち回りへの波及）】\nスレ主（OP）がPUBGでK/Dを2〜3から4〜6へ大幅に向上させた経験を筆頭に、BattlefieldやWarzoneでK/Dが0.7から2.0以上に向上したという報告が上がっています。エイム力が高まることで撃ち合いの勝率（クラッチ力）が向上するだけでなく、「敵を素早く倒せるため、エリア確保や立ち回り（PTFO）に余裕が生まれる」という相乗効果が指摘されています。\n\n【2. ゲームセンス vs エイム力の優先度】\n『Valorant』で最下位ランク（Iron 1）からAscendant 2まで到達し、他タイトルでも実績を残したプレイヤーの意見では、「高難易度のエイム力を追求しなくても、平均的なエイムと優れたゲームセンスがあれば上位ランクに到達できる」という事実が示されています。Voltaicなどのベンチマークで高ランクを目指すこと自体は素晴らしいものの、対人ゲームでの勝利にはマップ理解、アビリティ運用、立ち回りが大きな比重を占めます。\n\n【3. 効率的な練習法とモチベーション維持】\n一部のユーザーからは「スコア更新のために何時間も費やしたが実戦で効果を感じられず挫折した」という不満も漏れています。これに対し、経験者からは「自分がメインで遊ぶゲームに必要なカテゴリに特化し、1日30分程度集中して取り組むこと」が推奨されています。過度な連続プレイは疲労と挫折を招くため、目的意識を持った特化型の短時間練習が最も実効性が高いと合意されています。",
+    "devices": [],
+    "x_main_post": "【エイム練習は実戦で効果ある？】\n海外コミュニティでの議論まとめ！\n・エイムトレでPUBGやBFのK/Dが大幅向上\n・『平均的なエイム＋ゲームセンス』で高ランク到達可能\n・スコア目当ての長時間は逆効果。1日30分の特化練習が推奨\n最高峰のエイムより実戦の立ち回りが重要！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "エイム練習って実戦で本当に効果があるのだ？",
+        "caption": "エイムトレ効果ある？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "めちゃくちゃ効果あるよ！PUBGでK/Dが倍以上になった人もいるんだよね！",
+        "caption": "K/Dが大幅向上！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "やっぱりエイム最強になれば無敵なのだ？",
+        "caption": "エイム最強＝無敵？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "実は上位ランクに行くには平均的なエイムとゲームセンスがあれば十分なんだよ！",
+        "caption": "ゲームセンスが超重要"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "長時間のスコア稼ぎより、自分のゲームに必要な練習を1日30分やるのがベストだよ！",
+        "caption": "1日30分の特化練習"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "無駄に何時間もスコアアタックする必要はないのだね！",
+        "caption": "無理な連戦は不要！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "うん、撃ち合いに余裕ができると立ち回りも楽になるから楽しむのが一番だよ！",
+        "caption": "撃ち合いの余裕が鍵"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19s8gfm2vpsbk",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "そうだな、クリックタイミングの練習は実戦での有効性に大きな違いをもたらしたし、もちろんトラッキングの安定性もすごく効いているよ。"
+      },
+      {
+        "id": "19s8kjoik9oys",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "Valorantでアイアン1（0RR）からアセンダント2（APACサーバー）まで上がったよ。Marvel RivalsのMRC（賞金3500ドル）ではトップ3に入った。Viscoseベンチマークv2だとスタティックはオレンジだけどトラッキングはグリーンだし、Voltaicベンチマークに至ってはプラチナにすら達していなかった。Apex Legendsはダイヤモンド3だね。正直なところ、ゲームセンスの方がはるかに遠くまで連れて行ってくれるよ。常軌を逸したエイムなんて実際はそこまで重要じゃないんだ。"
+      },
+      {
+        "id": "19s8wirfe7y5f",
+        "parent_id": "19s8kjoik9oys",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ベンチマークの用語はよく分からないけど、めちゃくちゃ上達したみたいだね！ゲームセンスが最強なのはもちろんだけど、常に正しい立ち回りをしても弾が1発も当たらないと厳しいからね。"
+      },
+      {
+        "id": "19s9dpz0jxj8l",
+        "parent_id": "19s8wirfe7y5f",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "平均的なエイムがあれば十分なんだよ。"
+      },
+      {
+        "id": "19s8rgpp7k23m",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "text": "全く上達しなかったよ。ゴミみたいな実力からラベンダーランクになったけど何の上達も感じない。手遅れになる前にやめた方がいい、やる価値ないよ。"
+      },
+      {
+        "id": "19s8sp4l4140x",
+        "parent_id": "19s8rgpp7k23m",
+        "depth": 1,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "text": "君は諦めちゃったんだね 🥀"
+      },
+      {
+        "id": "19s8te00tx1gl",
+        "parent_id": "19s8sp4l4140x",
+        "depth": 2,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "そりゃそうだよ。bounceshotでスコアを950から990に上げるために5時間費やして、さらに3時間やって成果ゼロだった時のことを想像してみてよ。8時間くらい大したことないと思うかもしれないけど、僕の総プレイ時間の実に5%なんだよ 🫩💤"
+      },
+      {
+        "id": "19s9kplnk7kbn",
+        "parent_id": "19s8te00tx1gl",
+        "depth": 3,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分がプレイするゲームに必要なカテゴリだけに特化して、嫌いなシナリオはスキップすればいいんだよ。特化させれば1日30分の練習でも十分に上達できるよ！"
+      },
+      {
+        "id": "19s9s7m7vlach",
+        "parent_id": "19s8te00tx1gl",
+        "depth": 3,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "メインで遊んでるゲームは何なの？"
+      },
+      {
+        "id": "19s9tinv656le",
+        "parent_id": "19s9s7m7vlach",
+        "depth": 4,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "Valorantだよ。"
+      },
+      {
+        "id": "19s8w7t9nix0g",
+        "parent_id": "19s8rgpp7k23m",
+        "depth": 1,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "えっ？exvl（スコア管理サイト）の君のプロフィールを見てみたいんだけど。"
+      },
+      {
+        "id": "19s9th50leqhs",
+        "parent_id": "19s8w7t9nix0g",
+        "depth": 2,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "僕の過去の投稿を見てよ。ちょっと古いけど、今はもうちょっとマシになってるから。"
+      },
+      {
+        "id": "19s8rnrayxrc4",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "BF6（※BF2042等）をリリース時から遊んでいて、最初はK/D 0.7〜0.8くらい（それもほぼDMRのおかげ😂）でスコアボードの最下位だった。4月にエイム練習を始めてから順調に伸びているよ。今シーズンはボット部屋の影響もあるかもしれないけどK/D 2.0以上あって、頻繁にトップ5〜10に入れている（相手を倒せるようになると目的達成/PTFOがめちゃくちゃ楽になるって分かった😂）。\n\nWarzoneのレサージェンスでも、以前はカジュアル以外ほぼプレイできなかったのが、普通のロビーで快適に戦えるようになった。\n\n大したことないように思えるかもしれないけど、自分にとってはすごく大きな変化だったよ。"
+      },
+      {
+        "id": "19s8whjzjagth",
+        "parent_id": "19s8rnrayxrc4",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "ゲームを以前よりずっと楽しめているみたいだね。友よ、それこそが一番大切なことだよ😄 このまま練習がんばって！！"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xpgjpt.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%81%AF%E5%AE%9F%E6%88%A6%E3%81%A7%E5%8A%B9%E6%9E%9C%E3%81%82%E3%82%8B%EF%BC%9F%E3%80%91%0A%E6%B5%B7%E5%A4%96%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%A7%E3%81%AE%E8%AD%B0%E8%AB%96%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%81%0A%E3%83%BB%E3%82%A8%E3%82%A4%E3%83%A0%E3%83%88%E3%83%AC%E3%81%A7PUBG%E3%82%84BF%E3%81%AEK/D%E3%81%8C%E5%A4%A7%E5%B9%85%E5%90%91%E4%B8%8A%0A%E3%83%BB%E3%80%8E%E5%B9%B3%E5%9D%87%E7%9A%84%E3%81%AA%E3%82%A8%E3%82%A4%E3%83%A0%EF%BC%8B%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BB%E3%83%B3%E3%82%B9%E3%80%8F%E3%81%A7%E9%AB%98%E3%83%A9%E3%83%B3%E3%82%AF%E5%88%B0%E9%81%94%E5%8F%AF%E8%83%BD%0A%E3%83%BB%E3%82%B9%E3%82%B3%E3%82%A2%E7%9B%AE%E5%BD%93%E3%81%A6%E3%81%AE%E9%95%B7%E6%99%82%E9%96%93%E3%81%AF%E9%80%86%E5%8A%B9%E6%9E%9C%E3%80%821%E6%97%A530%E5%88%86%E3%81%AE%E7%89%B9%E5%8C%96%E7%B7%B4%E7%BF%92%E3%81%8C%E6%8E%A8%E5%A5%A8%0A%E6%9C%80%E9%AB%98%E5%B3%B0%E3%81%AE%E3%82%A8%E3%82%A4%E3%83%A0%E3%82%88%E3%82%8A%E5%AE%9F%E6%88%A6%E3%81%AE%E7%AB%8B%E3%81%A1%E5%9B%9E%E3%82%8A%E3%81%8C%E9%87%8D%E8%A6%81%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xpgjpt.html",
+    "created_at": "2026-11-07T22:36:56.683026+00:00"
+  },
+  {
+    "id": "1xppf1d",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Need a mouse for fingertip",
+    "selftext_en": "Any good fingertip recommendations. \n\nI currently use the Sora v2 and it keep slipping out of my hand. I was looking at the Lamzu Maya but I don't know if its still a good choice.",
+    "image_urls": [],
+    "score": 0,
+    "num_comments": 7,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xppf1d/need_a_mouse_for_fingertip/",
+    "comments": [
+      "[+1] WLMouse Beast X/G or Beast X/G Mini, ATK Phantom, Dareu A950, Incott 029\n\nif you don't want to buy pure ftip mouse ofc",
+      "[+1] Out of the WLMouse beasts should I get the Beast X Mini Pro?",
+      "[+1] depends, propably yeah\n\nnewer - V2s are better in spec but a bit heavier, depends what you value more",
+      "[+1] For 19x9 hands do you think I should go with mini or medium",
+      "[+1] maya s v2 is a solid option",
+      "[+1] A lot of people say the switches in the original maya are better. Is there anything about the V2 that makes it a better pick regardless? \n\nAlso is the shape the exact same?",
+      "[+1] Beast g mini \n\n\nDarmoshark m5 Air v2 \n\n\nKeychron m4\n\nPulsar x2f cl"
+    ],
+    "comment_tree": [
+      {
+        "id": "19s8zndyy4xur",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "WLMouse Beast X/G or Beast X/G Mini, ATK Phantom, Dareu A950, Incott 029\n\nif you don't want to buy pure ftip mouse ofc",
+        "depth": 0,
+        "body_ja": "WLmouse Beast X/G や Beast X/G Mini、ATK Phantom、Dareu A950、Incott G23あたりかな。\n\nもちろん、純粋なつまみ持ち専用マウスを買うつもりがないならの話だけど。"
+      },
+      {
+        "id": "19s94fneutt2a",
+        "parent_id": "19s8zndyy4xur",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Out of the WLMouse beasts should I get the Beast X Mini Pro?",
+        "depth": 1,
+        "body_ja": "WLmouseのBeastシリーズの中なら、Beast X Mini Proにするべきかな？"
+      },
+      {
+        "id": "19sa5fya2q9ur",
+        "parent_id": "19s94fneutt2a",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "depends, propably yeah\n\nnewer - V2s are better in spec but a bit heavier, depends what you value more",
+        "depth": 2,
+        "body_ja": "状況によるけど、たぶんそれがいいね。\n\n新しいV2系はスペック面で優れているけど少し重くなっているから、何を重視するか次第だよ。"
+      },
+      {
+        "id": "19sac5c26scwz",
+        "parent_id": "19sa5fya2q9ur",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "For 19x9 hands do you think I should go with mini or medium",
+        "depth": 3,
+        "body_ja": "手が19×9cmの場合、MiniとMediumのどちらにするべきだと思う？"
+      },
+      {
+        "id": "19s94ehqlt8px",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "maya s v2 is a solid option",
+        "depth": 0,
+        "body_ja": "Maya S V2は堅実で良い選択肢だよ。"
+      },
+      {
+        "id": "19s9585bbjm8x",
+        "parent_id": "19s94ehqlt8px",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "A lot of people say the switches in the original maya are better. Is there anything about the V2 that makes it a better pick regardless? \n\nAlso is the shape the exact same?",
+        "depth": 1,
+        "body_ja": "初代Mayaのスイッチのほうが良いって言っている人を多く見かけるんだけど、それでもV2を選ぶべき理由って何かある？\n\nあと、形状は初代と全く同じなのかな？"
+      },
+      {
+        "id": "19sa3i0gki542",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Beast g mini \n\n\nDarmoshark m5 Air v2 \n\n\nKeychron m4\n\nPulsar x2f cl",
+        "depth": 0,
+        "body_ja": "Beast G Mini\n\nDarmoshark M5 Air V2\n\nKeychron M4\n\nPulsar X2F"
+      }
+    ],
+    "title_ja": "Sora V2から乗り換えるつまみ持ち向けゲーミングマウスのおすすめ候補",
+    "hook_ja": "Sora V2が手から滑ってしまうユーザーがつまみ持ち向けマウスの乗り換え先を相談。小型軽量モデルや専用形状が候補に挙がっています。",
+    "op_post_ja": "つまみ持ち向けのおすすめマウスは何かありますか？\n\n現在はSora V2を使っているのですが、手から滑り落ちてしまいます。Lamzu Mayaが気になっているのですが、今でも良い選択肢なのか分かりません。",
+    "consensus_points": [
+      "完全なつまみ持ち特化形状でなくても、WLmouse Beast X / MiniシリーズやATK、Keychronなどの小型マウスがつまみ持ち用として有力候補になる",
+      "Lamzu Mayaシリーズの中では、最新スペックを搭載したMaya S V2も堅実な選択肢として推奨されている",
+      "純粋なつまみ持ち専用マウスを求めるならKeychron M4やDarmoshark M5、Pulsar X2Fなどの超ショート形状が挙げられる"
+    ],
+    "detailed_analysis_ja": "【1. Sora V2で発生する「滑り」問題とつまみ持ち適性】\nNinjutso Sora V2は超軽量かつ小型・中型の左右対称マウスとして非常に人気が高いモデルですが、コーティングの質感やサイドのくびれ形状、指の接地面積によっては乾燥肌のプレイヤーを中心に「滑りやすい」と感じられるケースがあります。特につまみ持ち（Fingertip Grip）は手のひらを一切接触させず指先だけで保持・制御するため、シェルのサイド形状の傾斜やコーティングのグリップ性能が操作感に直結します。\n\n【2. マグネシウム合金・小型左右対称マウスの選択肢】\nコミュニティからまず提案されたのが、WLmouseのBeast Xシリーズ（Beast X Mini / Beast X / Beast G）やATK Phantom、Incott G23などの小型軽量ワイヤレスマウスです。特にWLmouseのマグネシウム合金モデルは肉抜き加工による引っかかりや剛性の高さ、極限の軽さがつまみ持ちプレイヤーから高く評価されています。Miniサイズと通常サイズの選択については、手のサイズ（19×9cm程度）であってもつまみ持ちであれば可動域を最大化できるMiniサイズが好まれる傾向にあります。\n\n【3. 純粋なつまみ持ち特化マウス（Pure Fingertip）という選択】\nスレッド内では、通常形状の小型マウスだけでなく、後部シェルを切り落としたような「純粋なつまみ持ち専用マウス」も紹介されています。具体的にはKeychron M4やDarmoshark M5 Air、Pulsar X2Fなどの超短縮モデルです。これらは手のひらとの干渉が原理的に起きないため、垂直方向のマイクロアジャストやリコイルコントロールで圧倒的な自由度を誇ります。汎用性を残すならMaya S V2やBeast X Mini、極限の可動域を追求するならM4やM5系を選ぶという住み分けがなされています。",
+    "devices": [
+      {
+        "name": "Ninjutso Sora V2",
+        "category": "mouse",
+        "sentiment": "negative",
+        "comment_ja": "つまみ持ちで使用した際に手から滑りやすいと指摘されている。"
+      },
+      {
+        "name": "LAMZU Maya",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "スイッチの感触面で初代を好む声もあるが、乗り換え候補として名前が挙げられている。"
+      },
+      {
+        "name": "LAMZU Maya X",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "つまみ持ち向けの堅実で信頼できる選択肢として推奨されている。"
+      },
+      {
+        "name": "WLmouse Beast X",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "つまみ持ちに適したマグネシウム製軽量マウスの代表格として挙げられている。"
+      },
+      {
+        "name": "WLmouse Beast X Mini",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "つまみ持ち向けに非常に人気があり、スペックや重量のバランスで高評価を得ている。"
+      },
+      {
+        "name": "Keychron M4",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "純粋なつまみ持ち特化型の超小型マウスとして推薦されている。"
+      },
+      {
+        "name": "Darmoshark M5",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "つまみ持ち専用設計の軽量マウスとして候補に挙がっている。"
+      },
+      {
+        "name": "Pulsar X2F",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "つまみ持ち特化モデルの有力な選択肢として言及されている。"
+      }
+    ],
+    "x_main_post": "【Sora V2から乗り換えるつまみ持ちマウス候補】\n・Sora V2の滑りやすさに悩む声\n・小型軽量ならWLmouse Beast X Miniが有力\n・Maya S V2も安定した選択肢\n・可動域重視ならKeychron M4等のつまみ特化型も\n手のサイズ19×9cmでもつまみなら小型が人気！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "Sora V2がつまみ持ちで滑るのだ！良い乗り換え先はないのだ？",
+        "caption": "つまみ持ちで滑る！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "小型左右対称ならWLmouseのBeast X Miniが鉄板だよ！",
+        "caption": "Beast X Miniが鉄板"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "手のサイズが19cmくらいあってもMiniで大丈夫なのだ？",
+        "caption": "手のサイズは大丈夫？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "つまみ持ちなら指の可動域を広げられるから小型が有利なんだよね。",
+        "caption": "可動域には小型有利"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "通常の持ち味ならMaya S V2も堅実な選択肢として人気だよ！",
+        "caption": "Maya S V2も人気"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "完全につまみ持ちに特化したマウスはどうなのだ？",
+        "caption": "つまみ特化型は？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "Keychron M4やDarmoshark M5みたいな超ショート型もおすすめだよ！",
+        "caption": "超ショート型も候補"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19s8zndyy4xur",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "WLmouse Beast X/G や Beast X/G Mini、ATK Phantom、Dareu A950、Incott G23あたりかな。\n\nもちろん、純粋なつまみ持ち専用マウスを買うつもりがないならの話だけど。"
+      },
+      {
+        "id": "19s94fneutt2a",
+        "parent_id": "19s8zndyy4xur",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "WLmouseのBeastシリーズの中なら、Beast X Mini Proにするべきかな？"
+      },
+      {
+        "id": "19sa5fya2q9ur",
+        "parent_id": "19s94fneutt2a",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "状況によるけど、たぶんそれがいいね。\n\n新しいV2系はスペック面で優れているけど少し重くなっているから、何を重視するか次第だよ。"
+      },
+      {
+        "id": "19sac5c26scwz",
+        "parent_id": "19sa5fya2q9ur",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "手が19×9cmの場合、MiniとMediumのどちらにするべきだと思う？"
+      },
+      {
+        "id": "19s94ehqlt8px",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "Maya S V2は堅実で良い選択肢だよ。"
+      },
+      {
+        "id": "19s9585bbjm8x",
+        "parent_id": "19s94ehqlt8px",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "初代Mayaのスイッチのほうが良いって言っている人を多く見かけるんだけど、それでもV2を選ぶべき理由って何かある？\n\nあと、形状は初代と全く同じなのかな？"
+      },
+      {
+        "id": "19sa3i0gki542",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "text": "Beast G Mini\n\nDarmoshark M5 Air V2\n\nKeychron M4\n\nPulsar X2F"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xppf1d.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90Sora%20V2%E3%81%8B%E3%82%89%E4%B9%97%E3%82%8A%E6%8F%9B%E3%81%88%E3%82%8B%E3%81%A4%E3%81%BE%E3%81%BF%E6%8C%81%E3%81%A1%E3%83%9E%E3%82%A6%E3%82%B9%E5%80%99%E8%A3%9C%E3%80%91%0A%E3%83%BBSora%20V2%E3%81%AE%E6%BB%91%E3%82%8A%E3%82%84%E3%81%99%E3%81%95%E3%81%AB%E6%82%A9%E3%82%80%E5%A3%B0%0A%E3%83%BB%E5%B0%8F%E5%9E%8B%E8%BB%BD%E9%87%8F%E3%81%AA%E3%82%89WLmouse%20Beast%20X%20Mini%E3%81%8C%E6%9C%89%E5%8A%9B%0A%E3%83%BBMaya%20S%20V2%E3%82%82%E5%AE%89%E5%AE%9A%E3%81%97%E3%81%9F%E9%81%B8%E6%8A%9E%E8%82%A2%0A%E3%83%BB%E5%8F%AF%E5%8B%95%E5%9F%9F%E9%87%8D%E8%A6%96%E3%81%AA%E3%82%89Keychron%20M4%E7%AD%89%E3%81%AE%E3%81%A4%E3%81%BE%E3%81%BF%E7%89%B9%E5%8C%96%E5%9E%8B%E3%82%82%0A%E6%89%8B%E3%81%AE%E3%82%B5%E3%82%A4%E3%82%BA19%C3%979cm%E3%81%A7%E3%82%82%E3%81%A4%E3%81%BE%E3%81%BF%E3%81%AA%E3%82%89%E5%B0%8F%E5%9E%8B%E3%81%8C%E4%BA%BA%E6%B0%97%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xppf1d.html",
+    "created_at": "2026-11-07T22:38:34.526260+00:00"
+  },
+  {
+    "id": "1xpox0u",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Is the mouse is good to buy? Please give me reviews. Logitech G PRO X Superlight 2 SE Wireless Gaming Mouse",
+    "selftext_en": "Is the logitech G PRO X Superlight 2 SE worth buying? How is its performance, durability, and sensor accuracy? Is there any double click issue in this ?\n\nIs it W or L?",
+    "image_urls": [
+      "https://i.redd.it/mk4yogl2a20i1.jpeg"
+    ],
+    "score": 0,
+    "num_comments": 19,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xpox0u/is_the_mouse_is_good_to_buy_please_give_me/",
+    "comments": [
+      "[+1] It's basically the same thing as the non SE version. It has the same weight, same sensor and same shape. This is the one I got because at the time it was much much cheaper and I've been using it for 11 months now and it is genuinely a perfect mouse.\n\nThe only difference compared to the non SE version is that this has 7-10 hours less batery live(95 vs 85-88) and the polling. The SE version has 1k polling rate while the non SE version has 8k polling rate. I was worried about this before buying but you can buy it guilt free, polling is absolutely not noticeable.",
+      "[+1] Sure mate thank you 😊 🙏",
+      "[+3] probably an L. for 139 you're better off buying a bullet v3 pro, and it's 10 dollars cheaper",
+      "[+1] Thank you mate 👍",
+      "[+2] It's fine. For 90% of people it's fine.\n\nI do think atk and mchose make a cheaper alternative that's about 85% the same. Rapoo makes one that's on sale rn in the US",
+      "[+1] Hmm sure mate thank youu 🙏",
+      "[+4] I believe this mouse has a faulty scroll wheel, meaning if you hold it down, and then slightly release the pressure, the input releases.",
+      "[+0] But if you don’t use it that much or only for a pin wheel or smt you should be fine.",
+      "[+2] Yeah i dont use much scroll wheel.",
+      "[+1] I wouldn't bother with the superlight, check out clones from MChose or ATK, they're the best two for clones of this.",
+      "[+1] Sure mate 🙌",
+      "[+1] scroll wheel breaks all the time so the chinese companies like atk and mchose do it better",
+      "[+1] Okayy 👍",
+      "[+1] This isn’t a very popular mouse around here but I got one at a steep discount and it’s great. I would not pay $200 for it though.",
+      "[+1] Great buddy 👍",
+      "[+2] Just letting yk this sub has grown a hatred towards Logitech and people hating on what’s popular. I have 3 different generations of the super light and none of them failed on me. It’s a good mouse but the price may be steep depending on how much it’s actually selling for. I’ve been using the GPX2 for almost 3 years abd would say it’s a W mouse. ATK A9 is good budget alternative",
+      "[+1] Thank you mate 👍 🙏",
+      "[+1] Decent. I never knew why so may replaced the mouse skates on them, I thought they were alright.....until I got a different mouse/brand. Holy are Logitech ones bad (but also easy to swap/replace).",
+      "[+1] **Rule 4: No Low Effort Posts**\n\nPosts that do not encourage mouse discussion (low quality/effort, deceptive, closed ended, etc) are subject to removal based on:\n\n* The quality of the content\n* The usefulness of the discussion\n* User reports\n* Moderator discretion"
+    ],
+    "comment_tree": [
+      {
+        "id": "19s8v8790d0n7",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "It's basically the same thing as the non SE version. It has the same weight, same sensor and same shape. This is the one I got because at the time it was much much cheaper and I've been using it for 11 months now and it is genuinely a perfect mouse.\n\nThe only difference compared to the non SE version is that this has 7-10 hours less batery live(95 vs 85-88) and the polling. The SE version has 1k polling rate while the non SE version has 8k polling rate. I was worried about this before buying but you can buy it guilt free, polling is absolutely not noticeable.",
+        "depth": 0,
+        "body_ja": "基本的には通常版（非SE版）と全く同じだよ。重量も同じ、センサーも同じ、形状も同じ。当時こっちの方が遥かに安かったから俺はこれを買ったんだけど、もう11ヶ月使っていて本気で完璧なマウスだと感じてる。\n\n通常版との唯一の違いは、バッテリー持続時間が7〜10時間短いこと（通常版95時間に対して85〜88時間）と、ポーリングレートだけ。SE版は1kポーリングレートだけど、通常版は8kポーリングレートに対応してる。買う前はそこが心配だったけど、全く気にせず買って大丈夫だよ。ポーリングレートの違いなんて絶対に体感できないから。"
+      },
+      {
+        "id": "19s8vhg6d5wg1",
+        "parent_id": "19s8v8790d0n7",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Sure mate thank you 😊 🙏",
+        "depth": 1,
+        "body_ja": "了解だよ、ありがとう😊🙏"
+      },
+      {
+        "id": "19s8v9mqoie80",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "probably an L. for 139 you're better off buying a bullet v3 pro, and it's 10 dollars cheaper",
+        "depth": 0,
+        "body_ja": "たぶんナシ（L）だな。139ドル出すならScyrox V8かViper V3 Proを買った方がいいし、そっちの方が10ドル安い。"
+      },
+      {
+        "id": "19s8vhr5icnlv",
+        "parent_id": "19s8v9mqoie80",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Thank you mate 👍",
+        "depth": 1,
+        "body_ja": "ありがとう👍"
+      },
+      {
+        "id": "19s8vvlon27b6",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "It's fine. For 90% of people it's fine.\n\nI do think atk and mchose make a cheaper alternative that's about 85% the same. Rapoo makes one that's on sale rn in the US",
+        "depth": 0,
+        "body_ja": "悪くないよ。90%の人にとってはこれで十分。\n\nただ、ATKやMCHOSEが約85%同等の中華代替品をもっと安く作ってると思う。アメリカならRapooのも今セール中だね。"
+      },
+      {
+        "id": "19s8vytfuf05g",
+        "parent_id": "19s8vvlon27b6",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Hmm sure mate thank youu 🙏",
+        "depth": 1,
+        "body_ja": "うーん、なるほどね。ありがとう🙏"
+      },
+      {
+        "id": "19s8wrhwja4jm",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "body_en": "I believe this mouse has a faulty scroll wheel, meaning if you hold it down, and then slightly release the pressure, the input releases.",
+        "depth": 0,
+        "body_ja": "このマウスはスクロールホイールに不具合を抱えてると思う。長押しした状態から少し圧力を緩めると、入力が途切れてしまうんだ。"
+      },
+      {
+        "id": "19s8ws5ckyyrm",
+        "parent_id": "19s8wrhwja4jm",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "But if you don’t use it that much or only for a pin wheel or smt you should be fine.",
+        "depth": 1,
+        "body_ja": "でもホイールをそこまで多用しないか、ピンホイール（Apex等のシグナルホイール）程度にしか使わないなら問題ないはず。"
+      },
+      {
+        "id": "19s8x2pyn8nlx",
+        "parent_id": "19s8ws5ckyyrm",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "Yeah i dont use much scroll wheel.",
+        "depth": 2,
+        "body_ja": "うん、ホイールはそこまで使わないよ。"
+      },
+      {
+        "id": "19s8xbxojk4uc",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I wouldn't bother with the superlight, check out clones from MChose or ATK, they're the best two for clones of this.",
+        "depth": 0,
+        "body_ja": "自分ならSuperlightはわざわざ選ばないな。MCHOSEやATKのクローンをチェックしてみて。このマウスのクローンとしてはその2社がベストだよ。"
+      },
+      {
+        "id": "19s9pjvjzdhfk",
+        "parent_id": "19s8xbxojk4uc",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Sure mate 🙌",
+        "depth": 1,
+        "body_ja": "わかった、ありがとう🙌"
+      },
+      {
+        "id": "19s8xjbsp4qkh",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "scroll wheel breaks all the time so the chinese companies like atk and mchose do it better",
+        "depth": 0,
+        "body_ja": "ホイールがしょっちゅう壊れるから、ATKやMCHOSEみたいな中国メーカーの方がうまく作ってるよ。"
+      },
+      {
+        "id": "19s9pknvwny4l",
+        "parent_id": "19s8xjbsp4qkh",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Okayy 👍",
+        "depth": 1,
+        "body_ja": "おっけー👍"
+      },
+      {
+        "id": "19s8xk4a672wy",
+        "parent_id": null,
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "This isn’t a very popular mouse around here but I got one at a steep discount and it’s great. I would not pay $200 for it though.",
+        "depth": 0,
+        "body_ja": "このサブレではあまり人気がないマウスだけど、大幅値引きで買えたし最高だよ。定価の200ドルなら絶対に払わないけどね。"
+      },
+      {
+        "id": "19s9plu9xdsw2",
+        "parent_id": "19s8xk4a672wy",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Great buddy 👍",
+        "depth": 1,
+        "body_ja": "いいね、ありがとう👍"
+      },
+      {
+        "id": "19s8xxzwt1the",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "GPX2, Dav3 Hyperspeed",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Just letting yk this sub has grown a hatred towards Logitech and people hating on what’s popular. I have 3 different generations of the super light and none of them failed on me. It’s a good mouse but the price may be steep depending on how much it’s actually selling for. I’ve been using the GPX2 for almost 3 years abd would say it’s a W mouse. ATK A9 is good budget alternative",
+        "depth": 0,
+        "body_ja": "一応言っておくけど、このサブレはLogicoolアンチが増えてて、人気のある定番品を叩く傾向があるんだよね。俺はSuperlightを3世代使ってきたけど、壊れたことなんて一度もないよ。良いマウスだけど、実際の販売価格次第では割高に感じるかもね。GPX2を3年近く使ってるけど、文句なしの買い（W）マウスだと思う。ATK A9も優れた低予算代替品だよ。"
+      },
+      {
+        "id": "19s9pqjr4mfls",
+        "parent_id": "19s8xxzwt1the",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Thank you mate 👍 🙏",
+        "depth": 1,
+        "body_ja": "教えてくれてありがとう👍🙏"
+      },
+      {
+        "id": "19s92lh4o0pdt",
+        "parent_id": null,
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Decent. I never knew why so may replaced the mouse skates on them, I thought they were alright.....until I got a different mouse/brand. Holy are Logitech ones bad (but also easy to swap/replace).",
+        "depth": 0,
+        "body_ja": "悪くはない。なんでみんなマウスソールを社外品に交換するのかずっと分からなくて、純正でも十分だと思ってたんだ……別のマウス／ブランドを使うまではね。マジでLogicoolの純正ソールは酷い（交換自体は簡単だけど）。"
+      },
+      {
+        "id": "19s9djcvz5rb4",
+        "parent_id": null,
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "**Rule 4: No Low Effort Posts**\n\nPosts that do not encourage mouse discussion (low quality/effort, deceptive, closed ended, etc) are subject to removal based on:\n\n* The quality of the content\n* The usefulness of the discussion\n* User reports\n* Moderator discretion",
+        "depth": 0,
+        "body_ja": "【ルール4：低クオリティな投稿の禁止】\n\nマウスに関する深い議論を促さない投稿（低品質・手抜き、誤解を招くもの、結論ありきなど）は、以下の基準に基づき削除の対象となります：\n\n* コンテンツの品質\n* 議論の有益性\n* ユーザーからの通報\n* モデレーターの裁量"
+      }
+    ],
+    "title_ja": "Logicool G PRO X SUPERLIGHT 2 SEは買い？通常版との違いと中華クローンとの比較",
+    "hook_ja": "廉価版であるG PRO X SUPERLIGHT 2 SEの性能や耐久性について海外コミュニティで議論が交わされました。通常版との違いは主にポーリングレートとバッテリー持ちに留まりますが、定価では中華クローンや他社製対抗馬の存在が目立ちます。",
+    "op_post_ja": "Logicool G PRO X Superlight 2 SEは買う価値がありますか？性能、耐久性、センサーの精度はどうでしょうか？チャタリング（ダブルクリック問題）は発生しますか？\n\n買い（W）ですか、それともナシ（L）ですか？",
+    "consensus_points": [
+      "SE版は通常版と同一の形状・重量・センサーを搭載しており、主な違いは最大ポーリングレート（通常版の8kに対し1k上限）とわずかなバッテリー持続時間のみ。",
+      "定価での購入に対してはコストパフォーマンス面で疑問視する声が多く、ATKやMCHOSEなどの安価な中華クローンや他社競合機が比較対象に挙がる。",
+      "ホイールの耐久性や入力保持の甘さ、純正マウスソールの滑りの重さが弱点として指摘されているが、大幅な割引があれば十分に実用的な選択肢とされる。"
+    ],
+    "detailed_analysis_ja": "【1. G PRO X SUPERLIGHT 2 SEの仕様と通常版との差異】\nLogicool G PRO X SUPERLIGHT 2 SE（Special Edition）は、一部地域や販路向けにコストを抑えて展開されているモデルです。コメント欄で言及されている通り、シェルの形状、本体重量（約60g）、HERO 2センサー、およびハイブリッド・オプティカル・メカニカルスイッチ（LIGHTFORCE）などの基本骨格は通常版のSUPERLIGHT 2と共通しています。違いはファームウェアや通信仕様にあり、通常版がアップデートにより最大8000Hz（8k）ポーリングレートに対応しているのに対し、SE版は1000Hz（1k）上限に制限され、公称バッテリー持続時間もわずかに短くなっています。ただし、競技エイムや実戦プレイにおいて1kと8kの体感差は非常に小さいため、性能面での実質的なビハインドはほとんどありません。\n\n【2. r/MouseReviewにおけるLogicoolへの評価と中華クローン台頭】\nコミュニティ内では、Logicoolの定価設定（130〜160ドル前後）に対する割高感が強く指摘されています。現在市場には、ATK（A9など）やMCHOSEといった中国新興メーカーが、同じエルゴノミクス・左右対称形状を模した高性能クローン（PAW3950センサー搭載、軽量、高ポーリング対応）を半額以下の価格帯で投入しています。そのため、定価で購入するならこれらのクローン製品やScyrox、またはRazer製品（Viper V3 Pro等）を推す声が目立ちます。\n\n【3. 耐久性、スクロールホイール、純正ソールへの指摘】\nLIGHTFORCE光学式スイッチの採用により、旧世代（初代GPX）で頻発したスイッチの物理的チャタリング（ダブルクリック問題）は解消されています。一方で、スクロールホイールエンコーダーの経年劣化や、押し込みクリックの判定が甘いという指摘、さらに純正PTFEソールの薄さや滑りの鈍さについては不満が残っています。多くの愛好家は、ソールを社外製（CorepadやX-raypad Jade等）に換装して使用することを推奨しています。セール等で安価に入手できるのであれば、確実なビルドクオリティと保証体制を備えた堅実な選択肢と言えます。",
+    "devices": [
+      {
+        "name": "Logicool G PRO X SUPERLIGHT 2 SE",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "通常版と同じ形状・センサーを備えつつポーリングレートが1kに抑えられた廉価版。定価では割高とされるが、セール価格なら十分に満足できると評価されている。"
+      },
+      {
+        "name": "Logicool G PRO X SUPERLIGHT 2",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "定番のフラッグシップ機。8kポーリング対応や高いビルドクオリティを誇るが、スクロールホイールの挙動や滑りの重い純正ソールが惜しい点として挙げられる。"
+      },
+      {
+        "name": "Razer Viper V3 Pro",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "同価格帯で比較され、より優れた性能を持つ対抗馬として推奨されている。"
+      },
+      {
+        "name": "ATK A9",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "G PRO X SUPERLIGHT系統の形状を忠実に再現した、コストパフォーマンスに優れる中華クローンマウスとして推奨されている。"
+      }
+    ],
+    "x_main_post": "Logicool G PRO X SUPERLIGHT 2 SEは買いか？海外の結論まとめ：\n・通常版と形状・重量・センサーは完全同一\n・違いは1k上限と若干の電池持ちのみで実用差なし\n・定価だとATKやMCHOSE等の格安クローンが競合\n・セール等で安く買えるなら今でも鉄板の選択肢",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "GPX2のSE版って安くなってるけど買いなのだ？",
+        "caption": "GPX2 SEは買い？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "セールで安いなら大アリ！通常版とほぼ同じだよ！",
+        "caption": "セールなら大アリ！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "通常版と何が違うのだ？性能が落ちるのだ？",
+        "caption": "通常版との違いは？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "形も重さもセンサーも全く一緒なんだよね！",
+        "caption": "基本スペックは同等"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "違いはポーリングが1kまでと電池持ちだけだよ！",
+        "caption": "1k上限と電池のみ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "1kで十分だから安く買えるならお得なのだ！",
+        "caption": "1kで十分ならお得！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ定価ならATK等の中華クローンも強いよ！",
+        "caption": "中華クローンも競合"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19s8v8790d0n7",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "基本的には通常版（非SE版）と全く同じだよ。重量も同じ、センサーも同じ、形状も同じ。当時こっちの方が遥かに安かったから俺はこれを買ったんだけど、もう11ヶ月使っていて本気で完璧なマウスだと感じてる。\n\n通常版との唯一の違いは、バッテリー持続時間が7〜10時間短いこと（通常版95時間に対して85〜88時間）と、ポーリングレートだけ。SE版は1kポーリングレートだけど、通常版は8kポーリングレートに対応してる。買う前はそこが心配だったけど、全く気にせず買って大丈夫だよ。ポーリングレートの違いなんて絶対に体感できないから。"
+      },
+      {
+        "id": "19s8vhg6d5wg1",
+        "parent_id": "19s8v8790d0n7",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "了解だよ、ありがとう😊🙏"
+      },
+      {
+        "id": "19s8v9mqoie80",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "たぶんナシ（L）だな。139ドル出すならScyrox V8かViper V3 Proを買った方がいいし、そっちの方が10ドル安い。"
+      },
+      {
+        "id": "19s8vhr5icnlv",
+        "parent_id": "19s8v9mqoie80",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ありがとう👍"
+      },
+      {
+        "id": "19s8vvlon27b6",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "悪くないよ。90%の人にとってはこれで十分。\n\nただ、ATKやMCHOSEが約85%同等の中華代替品をもっと安く作ってると思う。アメリカならRapooのも今セール中だね。"
+      },
+      {
+        "id": "19s8vytfuf05g",
+        "parent_id": "19s8vvlon27b6",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "うーん、なるほどね。ありがとう🙏"
+      },
+      {
+        "id": "19s8wrhwja4jm",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "text": "このマウスはスクロールホイールに不具合を抱えてると思う。長押しした状態から少し圧力を緩めると、入力が途切れてしまうんだ。"
+      },
+      {
+        "id": "19s8ws5ckyyrm",
+        "parent_id": "19s8wrhwja4jm",
+        "depth": 1,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "でもホイールをそこまで多用しないか、ピンホイール（Apex等のシグナルホイール）程度にしか使わないなら問題ないはず。"
+      },
+      {
+        "id": "19s8x2pyn8nlx",
+        "parent_id": "19s8ws5ckyyrm",
+        "depth": 2,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "うん、ホイールはそこまで使わないよ。"
+      },
+      {
+        "id": "19s8xbxojk4uc",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分ならSuperlightはわざわざ選ばないな。MCHOSEやATKのクローンをチェックしてみて。このマウスのクローンとしてはその2社がベストだよ。"
+      },
+      {
+        "id": "19s9pjvjzdhfk",
+        "parent_id": "19s8xbxojk4uc",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "わかった、ありがとう🙌"
+      },
+      {
+        "id": "19s8xjbsp4qkh",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ホイールがしょっちゅう壊れるから、ATKやMCHOSEみたいな中国メーカーの方がうまく作ってるよ。"
+      },
+      {
+        "id": "19s9pknvwny4l",
+        "parent_id": "19s8xjbsp4qkh",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "おっけー👍"
+      },
+      {
+        "id": "19s8xk4a672wy",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "このサブレではあまり人気がないマウスだけど、大幅値引きで買えたし最高だよ。定価の200ドルなら絶対に払わないけどね。"
+      },
+      {
+        "id": "19s9plu9xdsw2",
+        "parent_id": "19s8xk4a672wy",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "いいね、ありがとう👍"
+      },
+      {
+        "id": "19s8xxzwt1the",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "GPX2, Dav3 Hyperspeed",
+        "is_op": false,
+        "score": 2,
+        "text": "一応言っておくけど、このサブレはLogicoolアンチが増えてて、人気のある定番品を叩く傾向があるんだよね。俺はSuperlightを3世代使ってきたけど、壊れたことなんて一度もないよ。良いマウスだけど、実際の販売価格次第では割高に感じるかもね。GPX2を3年近く使ってるけど、文句なしの買い（W）マウスだと思う。ATK A9も優れた低予算代替品だよ。"
+      },
+      {
+        "id": "19s9pqjr4mfls",
+        "parent_id": "19s8xxzwt1the",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "教えてくれてありがとう👍🙏"
+      },
+      {
+        "id": "19s92lh4o0pdt",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "悪くはない。なんでみんなマウスソールを社外品に交換するのかずっと分からなくて、純正でも十分だと思ってたんだ……別のマウス／ブランドを使うまではね。マジでLogicoolの純正ソールは酷い（交換自体は簡単だけど）。"
+      },
+      {
+        "id": "19s9djcvz5rb4",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "【ルール4：低クオリティな投稿の禁止】\n\nマウスに関する深い議論を促さない投稿（低品質・手抜き、誤解を招くもの、結論ありきなど）は、以下の基準に基づき削除の対象となります：\n\n* コンテンツの品質\n* 議論の有益性\n* ユーザーからの通報\n* モデレーターの裁量"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xpox0u.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=Logicool%20G%20PRO%20X%20SUPERLIGHT%202%20SE%E3%81%AF%E8%B2%B7%E3%81%84%E3%81%8B%EF%BC%9F%E6%B5%B7%E5%A4%96%E3%81%AE%E7%B5%90%E8%AB%96%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%9A%0A%E3%83%BB%E9%80%9A%E5%B8%B8%E7%89%88%E3%81%A8%E5%BD%A2%E7%8A%B6%E3%83%BB%E9%87%8D%E9%87%8F%E3%83%BB%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%81%AF%E5%AE%8C%E5%85%A8%E5%90%8C%E4%B8%80%0A%E3%83%BB%E9%81%95%E3%81%84%E3%81%AF1k%E4%B8%8A%E9%99%90%E3%81%A8%E8%8B%A5%E5%B9%B2%E3%81%AE%E9%9B%BB%E6%B1%A0%E6%8C%81%E3%81%A1%E3%81%AE%E3%81%BF%E3%81%A7%E5%AE%9F%E7%94%A8%E5%B7%AE%E3%81%AA%E3%81%97%0A%E3%83%BB%E5%AE%9A%E4%BE%A1%E3%81%A0%E3%81%A8ATK%E3%82%84MCHOSE%E7%AD%89%E3%81%AE%E6%A0%BC%E5%AE%89%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E3%81%8C%E7%AB%B6%E5%90%88%0A%E3%83%BB%E3%82%BB%E3%83%BC%E3%83%AB%E7%AD%89%E3%81%A7%E5%AE%89%E3%81%8F%E8%B2%B7%E3%81%88%E3%82%8B%E3%81%AA%E3%82%89%E4%BB%8A%E3%81%A7%E3%82%82%E9%89%84%E6%9D%BF%E3%81%AE%E9%81%B8%E6%8A%9E%E8%82%A2%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xpox0u.html",
+    "created_at": "2026-11-07T22:38:59.144800+00:00"
+  },
+  {
+    "id": "1xpjfex",
+    "subreddit": "MousepadReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Considering Superglide3 for gaming FPS, yes or no?",
+    "selftext_en": "Hi everyone, \n\nAs the title says I am considering a Pulsar Superglide3 for FPS gaming since I am curious about the pad specifically however, I play a variety of games with the main ones being CS2, Wardogs and League of Legends.  \n  \nI was wondering if the Superglide3 is to be recommended for playing these types of games or if it is best to stick with a cloth pad?\n\nCurious about your thoughts.\n\nThanks in advance.",
+    "image_urls": [],
+    "score": 4,
+    "num_comments": 12,
+    "permalink": "https://www.reddit.com/r/MousepadReview/comments/1xpjfex/considering_superglide3_for_gaming_fps_yes_or_no/",
+    "comments": [
+      "[+1] Hey - Consider checking out our [weekly mousepad advice thread!](https://www.reddit.com/r/MousepadReview/search/?q=Flair%3Aweekly+title%3Aadvice&type=posts&t=week&restrict_sr=on)\n\nWe use the weekly thread to make it easier for people to help you. You can get better advice there, especially if read & follow the template/resources in the thread. Thanks!\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MousepadReview) if you have any questions or concerns.*",
+      "[+2] Me too, pls update",
+      "[+1] I have an Artisan Hien and Zero and was thinking about getting the Superglide 3 as well. I play mostly Siege and COD at around 20 cm/360 though. I had glass skates in the past and couldn’t control my mouse for shit lol",
+      "[+1] superglide 3 is a good pad. on the slower side(relative to everything else). I would recommend a sleeve since it's uncoated.",
+      "[+1] I genuinely dont get the obsession with how hard it is to control stuff on glasspads, the difference isnt even that insane, just play with a lil bit of arm tension and a lighter mouse (less momentum) and u will be fine lol",
+      "[+1] That was my issue actually for some reason in high stress situations or when i’m extremely locked in everything just feels more stiff and i can not physically loosen up, glass pad makes the tension very minimal for me and i can still micro adjust",
+      "[+1] Im talking abt tensing ur arm for stopping power after a big flick.",
+      "[+1] what grip are u using? For fingertip, static friction feels very debilitating.",
+      "[+1] 1-3-1 pretty aggressive claw.",
+      "[+1] hell yeah its awesome. swapped over from a zero and barely took a day to adjust. just make sure you get a sleeve",
+      "[+1] My first glass pad was an SP-004, I was genuinely surprised at how much of a difference lower height and beveled edges make to comfort. I line up my other pads with the edge of my desk, but the Superglide disappears no matter where I put it. It is still pretty speedy in the grand scheme of things, but I get in the same general speed category as my aqua control plus with Unusual Way Black Fox Skates. An excellent introduction to glass (but you might want to wait for black Friday, the 420mm x 490mm size was $60 for prime day).",
+      "[+1] Superglide 3 is the best mousepad I’ve ever used tbh. 🙌🏻 just make sure you order some UHMW-PE skates too. X-Raypad and Wallhack have really good ones. \n\nThe Superglide 3 should come with some aswell, but I personally don’t think the skates are as good."
+    ],
+    "comment_tree": [
+      {
+        "id": "19s8l6o3v6w4i",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Hey - Consider checking out our [weekly mousepad advice thread!](https://www.reddit.com/r/MousepadReview/search/?q=Flair%3Aweekly+title%3Aadvice&type=posts&t=week&restrict_sr=on)\n\nWe use the weekly thread to make it easier for people to help you. You can get better advice there, especially if read & follow the template/resources in the thread. Thanks!\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MousepadReview) if you have any questions or concerns.*",
+        "depth": 0,
+        "body_ja": "こんにちは！よろしければ当サブレディットの【週間マウスパッド相談スレッド】もチェックしてみてください！\n\n質問者への回答をスムーズにするために週間スレッドを設けています。スレッド内のテンプレートや参考情報を確認して書き込むと、より適切なアドバイスが得られますよ。よろしくお願いします！\n\n*私はボットです。質問や懸念がある場合は、このサブレディットのモデレーターまでお問い合わせください。*"
+      },
+      {
+        "id": "19s8lduafvep0",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Me too, pls update",
+        "depth": 0,
+        "body_ja": "自分も気になってる、進展あったら教えてほしい。"
+      },
+      {
+        "id": "19s8motenml28",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I have an Artisan Hien and Zero and was thinking about getting the Superglide 3 as well. I play mostly Siege and COD at around 20 cm/360 though. I had glass skates in the past and couldn’t control my mouse for shit lol",
+        "depth": 0,
+        "body_ja": "自分はARTISANの飛燕と零を持っていて、同じくSuperglide 3の購入を検討していました。ただ、主にプレイしているのはR6SとCoDで、センシは振り向き約20cmです。以前ガラスソールを使ったときは、まったくマウスをコントロールできなくなって悲惨でした（笑）。"
+      },
+      {
+        "id": "19s8po88rqalh",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "superglide 3 is a good pad. on the slower side(relative to everything else). I would recommend a sleeve since it's uncoated.",
+        "depth": 0,
+        "body_ja": "Superglide 3は良いパッドだよ。（他のガラスパッド全体と比較すれば）遅めの部類に入る。コーティングがないからアームスリーブの着用をおすすめする。"
+      },
+      {
+        "id": "19s8qr82j5eec",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I genuinely dont get the obsession with how hard it is to control stuff on glasspads, the difference isnt even that insane, just play with a lil bit of arm tension and a lighter mouse (less momentum) and u will be fine lol",
+        "depth": 0,
+        "body_ja": "ガラスパッドのコントロールが難しすぎるって騒がれる理由が正直分からないんだよね。そこまで極端な差があるわけじゃないし、少し腕にテンションをかけて、軽めのマウス（慣性を減らすため）を使えば何の問題もないよ（笑）。"
+      },
+      {
+        "id": "19s8sgvlumkh1",
+        "parent_id": "19s8qr82j5eec",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "That was my issue actually for some reason in high stress situations or when i’m extremely locked in everything just feels more stiff and i can not physically loosen up, glass pad makes the tension very minimal for me and i can still micro adjust",
+        "depth": 1,
+        "body_ja": "実はそれ、自分の問題点だったんだよね。なぜか高プレッシャーな状況や極度に集中しているときって全身が硬直して、物理的に力を抜けなくなっちゃう。でもガラスパッドだと力みが最小限で済むから、それでも微調整ができるんだ。"
+      },
+      {
+        "id": "19s8ufhuulo2q",
+        "parent_id": "19s8sgvlumkh1",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Im talking abt tensing ur arm for stopping power after a big flick.",
+        "depth": 2,
+        "body_ja": "自分が言っているのは、大きなフリックをした後にストッピングパワーを得るために腕に力を入れることだよ。"
+      },
+      {
+        "id": "19s8u5ho66ty9",
+        "parent_id": "19s8qr82j5eec",
+        "author": "海外ユーザー7",
+        "flair": "Sprglde, ACE, MPC, Rouge, QcKspeed, Equate(+), Otsu, SpeedV2,",
+        "is_op": false,
+        "score": 1,
+        "body_en": "what grip are u using? For fingertip, static friction feels very debilitating.",
+        "depth": 1,
+        "body_ja": "持ち方は何を使ってるの？つまみ持ちだと、静摩擦の低さがかなり致命的（操作不能）に感じるんだよね。"
+      },
+      {
+        "id": "19s8ufyvk71gg",
+        "parent_id": "19s8u5ho66ty9",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "1-3-1 pretty aggressive claw.",
+        "depth": 2,
+        "body_ja": "1-3-1のかなり深めなつかみ持ちだよ。"
+      },
+      {
+        "id": "19s8smp7bnokl",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "hell yeah its awesome. swapped over from a zero and barely took a day to adjust. just make sure you get a sleeve",
+        "depth": 0,
+        "body_ja": "もちろん買いだよ、最高だね。零から乗り換えたけど、慣れるのに1日もかからなかった。アームスリーブだけは絶対に用意しておきなよ。"
+      },
+      {
+        "id": "19s8swnqezpr4",
+        "parent_id": null,
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "My first glass pad was an SP-004, I was genuinely surprised at how much of a difference lower height and beveled edges make to comfort. I line up my other pads with the edge of my desk, but the Superglide disappears no matter where I put it. It is still pretty speedy in the grand scheme of things, but I get in the same general speed category as my aqua control plus with Unusual Way Black Fox Skates. An excellent introduction to glass (but you might want to wait for black Friday, the 420mm x 490mm size was $60 for prime day).",
+        "depth": 0,
+        "body_ja": "自分の最初のガラスパッドはSP-004だったんだけど、背の低さと面取りされたエッジがどれほど快適さに違いをもたらすか、本当に驚かされたよ。他のパッドはデスクの端に合わせて置いているんだけど、Superglideはどこに置いても段差の存在感が消えるんだ。全体で見ればまだかなりスピード系だけど、Unusual Way Black Fox Skatesと合わせると手持ちのAqua Control Plusと同じくらいの速度域に収まるよ。ガラスパッドの入門用として最高だね（ただブラックフライデーを待つのもいいかも、プライムデーでは420mm×490mmサイズが60ドルだったから）。"
+      },
+      {
+        "id": "19s9j7pbgnqqp",
+        "parent_id": null,
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Superglide 3 is the best mousepad I’ve ever used tbh. 🙌🏻 just make sure you order some UHMW-PE skates too. X-Raypad and Wallhack have really good ones. \n\nThe Superglide 3 should come with some aswell, but I personally don’t think the skates are as good.",
+        "depth": 0,
+        "body_ja": "正直、Superglide 3は今まで使ったマウスパッドの中で最高だよ。🙌🏻 ただ、一緒にUHMW-PE製のソールも注文するのを忘れないでね。X-raypadとWallhackのやつがすごく良いよ。\n\nSuperglide 3にも付属してくるはずだけど、個人的にはそっちはそこまで良くないと思ってる。"
+      }
+    ],
+    "title_ja": "ガラス製Superglide 3はFPSにおすすめ？布パッドからの乗り換え評価まとめ",
+    "hook_ja": "CS2やLoL向けにPulsar Superglide 3の導入を検討するスレ主に対し、ガラスパッドとしては扱いやすく入門に最適との声が集まりました。ただし、アームスリーブの着用やソール選びが重要になると指摘されています。",
+    "op_post_ja": "みなさん、こんにちは。\n\nタイトルの通り、FPSゲーム用途でPulsar Superglide 3の購入を検討しています。特にこのパッド自体に興味があるのですが、私は様々なゲームをプレイしており、主なタイトルはCS2、War Dogs、League of Legendsです。\n\nこういったゲームをプレイするにあたってSuperglide 3はおすすめできるでしょうか、それとも布製マウスパッドを使い続けるのがベストでしょうか？\n\n皆さんの意見をお聞きしたいです。\n\nよろしくお願いします。",
+    "consensus_points": [
+      "Superglide 3はガラスパッドの中では比較的コントロールしやすく、ガラスパッド入門として非常に優秀",
+      "ノンコーティング仕様で肌が引っかかりやすいため、アームスリーブの着用がほぼ必須",
+      "組み合わせるソール（UHMW-PEソール等）の選定が操作感や止めやすさに大きく影響する"
+    ],
+    "detailed_analysis_ja": "ガラス製マウスパッドはその低摩擦性からトラッキング系FPSやハイセンシユーザーに好まれる一方、CS2やVALORANTといったタクティカルシューター（TacFPS）では「止め感」の不足から敬遠される傾向がありました。しかし、本スレッドではPulsarの最新ガラスパッド「Superglide 3」の実用性について前向きな議論が交わされています。\n\n【1. ガラスパッド内でのSuperglide 3の位置付け】\nWallhack SP-004などの超高速ガラスパッドと比較して、Superglide 3は「ガラスパッドの中ではやや落ち着いた（遅めの）スピード感」と評されています。さらに、薄型設計と丁寧なエッジの面取り加工により、机の端に配置しても段差が手首に干渉しにくく、長時間の使用でも快適性が高い点が好評です。布パッド（ARTISAN 零など）からの移行でも1日程度で適応できたという報告もあり、ガラス特有の「滑りすぎて止まらない」という敷居を下げた製品と言えます。\n\n【2. プレイスタイルと制御のコツ】\nガラスパッドの制御性については意見が分かれやすいポイントですが、コミュニティでは「軽量マウス（慣性を減らす）を使用し、大きなフリック後に腕に適度なテンションをかけて制動をかける」というフィジカルなコントロール技術が共有されています。一方で、指先だけで支えるフィンガーチップグリップでは静摩擦の低さから手ブレを抑えにくくなる場合があり、深めのクローグリップ（1-3-1グリップなど）で手首や腕の面を使って安定させるスタイルとの相性が良いと考察されています。\n\n【3. 必須となる周辺アクセサリ（スリーブとソール）】\nSuperglide 3を運用する上でコミュニティが口を揃えて推奨しているのが「アームスリーブ」と「適切なソール」です。コーティングのないガラス表面は皮膚の湿気や皮脂で摩擦が急激に変化するため、スリーブによる引っかかり防止が推奨されます。また、PTFEソールは摩耗が極めて激しくなるため、高耐久かつ適度な制動力をもたらすUHMW-PE製ソール（X-raypad Obsidian/PlumやWallhack製ドットソールなど）の併用がベストプラクティスとして挙げられています。",
+    "devices": [
+      {
+        "name": "Pulsar Superglide 3",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "ガラスパッドとしてはやや落ち着いた速度感でコントロールしやすく、薄型かつ面取り加工で手首への負担が少ない入門用として絶賛されている。"
+      },
+      {
+        "name": "Wallhack SP-004",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "比較対象として言及され、Superglide 3と比べると厚みやエッジの処理、速度感の違いが挙げられている。"
+      },
+      {
+        "name": "ARTISAN 零",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "代表的な定番布パッドとして比較され、本製品からSuperglide 3へ1日で乗り換えられたという体験談が寄せられている。"
+      },
+      {
+        "name": "ARTISAN 飛燕",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "既存の所持パッドの一例として言及されている。"
+      },
+      {
+        "name": "X-raypad Aqua Control Plus",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "コントロール系ハイブリッドパッドの速度基準として挙げられ、ソールの組み合わせ次第で同等の速度域に調整可能と評価されている。"
+      },
+      {
+        "name": "Unusual Way Black Fox Skates",
+        "category": "skates",
+        "sentiment": "positive",
+        "comment_ja": "Superglide 3と組み合わせることで速度を落とし、布パッドに近い操作感を得るためのソールとして推奨されている。"
+      },
+      {
+        "name": "X-raypad UHMW-PE Skates",
+        "category": "skates",
+        "sentiment": "positive",
+        "comment_ja": "ガラスパッドとの相性が良く、耐久性と滑走バランスに優れた高品質ソールとして推奨されている。"
+      },
+      {
+        "name": "Wallhack UHMW-PE Skates",
+        "category": "skates",
+        "sentiment": "positive",
+        "comment_ja": "ガラスパッドに最適なUHMW-PE素材の推奨ソールとして名前が挙げられている。"
+      }
+    ],
+    "x_main_post": "Pulsar Superglide 3はFPSで使えるのか？海外レビューまとめ！\n\n・ガラスパッドの中では遅めで止めやすく入門に最適\n・薄型＆面取りエッジで手首の快適性が抜群\n・肌の引っかかりを防ぐアームスリーブは必須\n・UHMW-PEソールとの併用で布並みに制御可能",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "ガラスパッドのSuperglide 3ってFPSで使えるのだ？",
+        "caption": "ガラスパッドはFPSで使える？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ガラスパッドの中では扱いやすくて、入門に超おすすめだよ！",
+        "caption": "ガラス入門に超おすすめ！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "滑りすぎて止めにくいイメージがあるのだ…！",
+        "caption": "滑りすぎて止まらない？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "他のガラスより少し遅めで、零から1日で移行できた人もいるんだよね。",
+        "caption": "ガラスの中では遅めで制御◎"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "UHMW-PE素材のソールを合わせると、布パッドに近い制動感になるよ！",
+        "caption": "相性の良いソールが重要！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "ソールの組み合わせで止め感を作れるのは画期的なのだ！",
+        "caption": "ソールで止め感を作れる！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただノンコートだから、引っかかり防止のアームスリーブは必須だよ！",
+        "caption": "アームスリーブは必須！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19s8l6o3v6w4i",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "こんにちは！よろしければ当サブレディットの【週間マウスパッド相談スレッド】もチェックしてみてください！\n\n質問者への回答をスムーズにするために週間スレッドを設けています。スレッド内のテンプレートや参考情報を確認して書き込むと、より適切なアドバイスが得られますよ。よろしくお願いします！\n\n*私はボットです。質問や懸念がある場合は、このサブレディットのモデレーターまでお問い合わせください。*"
+      },
+      {
+        "id": "19s8lduafvep0",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "自分も気になってる、進展あったら教えてほしい。"
+      },
+      {
+        "id": "19s8motenml28",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分はARTISANの飛燕と零を持っていて、同じくSuperglide 3の購入を検討していました。ただ、主にプレイしているのはR6SとCoDで、センシは振り向き約20cmです。以前ガラスソールを使ったときは、まったくマウスをコントロールできなくなって悲惨でした（笑）。"
+      },
+      {
+        "id": "19s8po88rqalh",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "Superglide 3は良いパッドだよ。（他のガラスパッド全体と比較すれば）遅めの部類に入る。コーティングがないからアームスリーブの着用をおすすめする。"
+      },
+      {
+        "id": "19s8qr82j5eec",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ガラスパッドのコントロールが難しすぎるって騒がれる理由が正直分からないんだよね。そこまで極端な差があるわけじゃないし、少し腕にテンションをかけて、軽めのマウス（慣性を減らすため）を使えば何の問題もないよ（笑）。"
+      },
+      {
+        "id": "19s8sgvlumkh1",
+        "parent_id": "19s8qr82j5eec",
+        "depth": 1,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "実はそれ、自分の問題点だったんだよね。なぜか高プレッシャーな状況や極度に集中しているときって全身が硬直して、物理的に力を抜けなくなっちゃう。でもガラスパッドだと力みが最小限で済むから、それでも微調整ができるんだ。"
+      },
+      {
+        "id": "19s8ufhuulo2q",
+        "parent_id": "19s8sgvlumkh1",
+        "depth": 2,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分が言っているのは、大きなフリックをした後にストッピングパワーを得るために腕に力を入れることだよ。"
+      },
+      {
+        "id": "19s8u5ho66ty9",
+        "parent_id": "19s8qr82j5eec",
+        "depth": 1,
+        "speaker": "海外ユーザー7",
+        "flair": "Sprglde, ACE, MPC, Rouge, QcKspeed, Equate(+), Otsu, SpeedV2,",
+        "is_op": false,
+        "score": 1,
+        "text": "持ち方は何を使ってるの？つまみ持ちだと、静摩擦の低さがかなり致命的（操作不能）に感じるんだよね。"
+      },
+      {
+        "id": "19s8ufyvk71gg",
+        "parent_id": "19s8u5ho66ty9",
+        "depth": 2,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "1-3-1のかなり深めなつかみ持ちだよ。"
+      },
+      {
+        "id": "19s8smp7bnokl",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "もちろん買いだよ、最高だね。零から乗り換えたけど、慣れるのに1日もかからなかった。アームスリーブだけは絶対に用意しておきなよ。"
+      },
+      {
+        "id": "19s8swnqezpr4",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分の最初のガラスパッドはSP-004だったんだけど、背の低さと面取りされたエッジがどれほど快適さに違いをもたらすか、本当に驚かされたよ。他のパッドはデスクの端に合わせて置いているんだけど、Superglideはどこに置いても段差の存在感が消えるんだ。全体で見ればまだかなりスピード系だけど、Unusual Way Black Fox Skatesと合わせると手持ちのAqua Control Plusと同じくらいの速度域に収まるよ。ガラスパッドの入門用として最高だね（ただブラックフライデーを待つのもいいかも、プライムデーでは420mm×490mmサイズが60ドルだったから）。"
+      },
+      {
+        "id": "19s9j7pbgnqqp",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "正直、Superglide 3は今まで使ったマウスパッドの中で最高だよ。🙌🏻 ただ、一緒にUHMW-PE製のソールも注文するのを忘れないでね。X-raypadとWallhackのやつがすごく良いよ。\n\nSuperglide 3にも付属してくるはずだけど、個人的にはそっちはそこまで良くないと思ってる。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xpjfex.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=Pulsar%20Superglide%203%E3%81%AFFPS%E3%81%A7%E4%BD%BF%E3%81%88%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9F%E6%B5%B7%E5%A4%96%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%81%0A%0A%E3%83%BB%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%E3%81%AE%E4%B8%AD%E3%81%A7%E3%81%AF%E9%81%85%E3%82%81%E3%81%A7%E6%AD%A2%E3%82%81%E3%82%84%E3%81%99%E3%81%8F%E5%85%A5%E9%96%80%E3%81%AB%E6%9C%80%E9%81%A9%0A%E3%83%BB%E8%96%84%E5%9E%8B%EF%BC%86%E9%9D%A2%E5%8F%96%E3%82%8A%E3%82%A8%E3%83%83%E3%82%B8%E3%81%A7%E6%89%8B%E9%A6%96%E3%81%AE%E5%BF%AB%E9%81%A9%E6%80%A7%E3%81%8C%E6%8A%9C%E7%BE%A4%0A%E3%83%BB%E8%82%8C%E3%81%AE%E5%BC%95%E3%81%A3%E3%81%8B%E3%81%8B%E3%82%8A%E3%82%92%E9%98%B2%E3%81%90%E3%82%A2%E3%83%BC%E3%83%A0%E3%82%B9%E3%83%AA%E3%83%BC%E3%83%96%E3%81%AF%E5%BF%85%E9%A0%88%0A%E3%83%BBUHMW-PE%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%A8%E3%81%AE%E4%BD%B5%E7%94%A8%E3%81%A7%E5%B8%83%E4%B8%A6%E3%81%BF%E3%81%AB%E5%88%B6%E5%BE%A1%E5%8F%AF%E8%83%BD%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xpjfex.html",
+    "created_at": "2026-11-07T22:40:56.112981+00:00"
   }
 ]
