@@ -1782,7 +1782,7 @@ a.sub-tag:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   gap: var(--space-sm);
 }
 .gear-inline-list {
@@ -1814,6 +1814,7 @@ a.gear-chip:hover {
   color: var(--color-accent);
   text-decoration: none;
   white-space: nowrap;
+  margin-left: auto;
 }
 .read-log-link:hover {
   color: var(--color-accent-hover);
