@@ -747,8 +747,12 @@ a.gear-chip:hover {
 .featured-section {
   margin-bottom: var(--space-2xl);
 }
-.featured-list .thread-index-row:last-child {
+.featured-list {
   border-bottom: 1px solid var(--color-rule-strong);
+}
+.featured-list .featured-last-visible,
+.featured-list .thread-index-row:last-child {
+  border-bottom: none;
 }
 .gear-section > .analysis-para {
   margin-top: var(--space-md);

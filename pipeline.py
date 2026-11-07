@@ -2178,8 +2178,12 @@ a.gear-chip:hover {
 .featured-section {
   margin-bottom: var(--space-2xl);
 }
-.featured-list .thread-index-row:last-child {
+.featured-list {
   border-bottom: 1px solid var(--color-rule-strong);
+}
+.featured-list .featured-last-visible,
+.featured-list .thread-index-row:last-child {
+  border-bottom: none;
 }
 .gear-section > .analysis-para {
   margin-top: var(--space-md);
@@ -2795,7 +2799,12 @@ a.gear-chip:hover {
         </div>
         """
 
-    def _render_index_thread_row(art: dict[str, Any], idx_num: int, include_search_attrs: bool = True) -> str:
+    def _render_index_thread_row(
+        art: dict[str, Any],
+        idx_num: int,
+        include_search_attrs: bool = True,
+        extra_attrs: str = "",
+    ) -> str:
         art_id = html.escape(str(art["id"]))
         sub_raw = str(art.get("subreddit", ""))
         sub_attr = html.escape(sub_raw)
@@ -2873,7 +2882,7 @@ a.gear-chip:hover {
         hook_clean = _format_inline_markdown_html(art.get("hook_ja", ""))
 
         return f"""
-        <article class="thread-index-row"{attrs_str}>
+        <article class="thread-index-row"{attrs_str}{extra_attrs}>
           <div class="thread-meta-bar">
             <span>#{idx_num:02d}</span>
             <span class="meta-sep">/</span>
@@ -2901,7 +2910,7 @@ a.gear-chip:hover {
         idx_num = total_published - idx_zero
         articles_list_html += _render_index_thread_row(art, idx_num, include_search_attrs=True)
 
-    # 注目スレッド（YouTubeショート掲載の最新スレッド等を最大4件、スレッド一覧と同じ構成でピックアップ表示）
+    # 注目スレッド（YouTubeショート公開時刻 youtube_publish_at に合わせて1件ずつ自動で入れ替わるよう直近＆予約枠最大12件を埋め込み）
     shorts_hist_file = DATA_DIR / "shorts_history.json"
     shorts_hist_map: dict[str, dict[str, Any]] = {}
     if shorts_hist_file.exists():
@@ -2916,12 +2925,10 @@ a.gear-chip:hover {
         str(a["id"]): len(published) - i for i, a in enumerate(published)
     }
 
-    def _featured_sort_key(a: dict[str, Any]) -> tuple[int, str, int, str]:
+    def _get_short_publish_ts(a: dict[str, Any]) -> str:
         aid = str(a.get("id") or "")
         sh = shorts_hist_map.get(aid, {})
-        yt_id = str(a.get("youtube_video_id") or sh.get("youtube_video_id") or "")
-        is_short = 1 if (yt_id or a.get("short_generated") or sh.get("short_generated")) else 0
-        ts = str(
+        return str(
             a.get("youtube_publish_at")
             or sh.get("youtube_publish_at")
             or a.get("youtube_uploaded_at")
@@ -2929,7 +2936,14 @@ a.gear-chip:hover {
             or a.get("short_generated_at")
             or sh.get("short_generated_at")
             or ""
-        )
+        ).strip()
+
+    def _featured_sort_key(a: dict[str, Any]) -> tuple[int, str, int, str]:
+        aid = str(a.get("id") or "")
+        sh = shorts_hist_map.get(aid, {})
+        yt_id = str(a.get("youtube_video_id") or sh.get("youtube_video_id") or "")
+        is_short = 1 if (yt_id or a.get("short_generated") or sh.get("short_generated")) else 0
+        ts = _get_short_publish_ts(a)
         dev_cnt = len(a.get("devices") or [])
         return (is_short, ts, dev_cnt, str(a.get("created_at") or ""))
 
@@ -2938,10 +2952,26 @@ a.gear-chip:hover {
         if any(normalize_product_name_jp(d.get("name", "")) for d in (a.get("devices") or []))
     ]
     featured_candidates.sort(key=_featured_sort_key, reverse=True)
+    now_iso_utc = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     featured_rows_html = ""
-    for f_art in featured_candidates[:4]:
+    initial_shown = 0
+    for f_art in featured_candidates[:12]:
         f_num = art_num_map.get(str(f_art["id"]), 0)
-        featured_rows_html += _render_index_thread_row(f_art, f_num, include_search_attrs=False)
+        pub_ts = _get_short_publish_ts(f_art)
+        # 初期HTML表示時（JS実行前）も、公開時刻が未来のものや5件目以降は非表示にしておく
+        is_future = bool(pub_ts and pub_ts > now_iso_utc)
+        if not is_future and initial_shown < 4:
+            initial_shown += 1
+            style_attr = ""
+        else:
+            style_attr = ' style="display:none"'
+        pub_attr = f' data-publish-at="{html.escape(pub_ts)}"' if pub_ts else ""
+        featured_rows_html += _render_index_thread_row(
+            f_art,
+            f_num,
+            include_search_attrs=False,
+            extra_attrs=f"{pub_attr}{style_attr}",
+        )
 
     featured_section_html = (
         f"""
@@ -3229,7 +3259,32 @@ a.gear-chip:hover {
 
       const featSec = document.getElementById('featured-threads-section');
       if (featSec) {{
-        featSec.style.display = (currentSub === 'all' && keywords.length === 0 && currentPage === 1) ? '' : 'none';
+        const showFeat = (currentSub === 'all' && keywords.length === 0 && currentPage === 1);
+        if (showFeat) {{
+          const rows = Array.from(featSec.querySelectorAll('.featured-list > article'));
+          const nowMs = Date.now();
+          let shown = 0;
+          let lastVisible = null;
+          rows.forEach(row => {{
+            row.classList.remove('featured-last-visible');
+            const pubStr = (row.dataset.publishAt || '').trim();
+            const pubMs = pubStr ? Date.parse(pubStr) : 0;
+            const isPublishedNow = (!pubMs || isNaN(pubMs) || pubMs <= nowMs);
+            if (isPublishedNow && shown < 4) {{
+              row.style.display = '';
+              shown++;
+              lastVisible = row;
+            }} else {{
+              row.style.display = 'none';
+            }}
+          }});
+          if (lastVisible) {{
+            lastVisible.classList.add('featured-last-visible');
+          }}
+          featSec.style.display = shown > 0 ? '' : 'none';
+        }} else {{
+          featSec.style.display = 'none';
+        }}
       }}
 
       const statusEl = document.getElementById('search-status');
