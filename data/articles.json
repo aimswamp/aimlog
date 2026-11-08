@@ -52153,5 +52153,1724 @@
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xq01ot.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=%E6%B5%B7%E5%A4%96%E3%81%A7%E8%AD%B0%E8%AB%96%EF%BC%81%E6%9C%80%E5%BC%B7%E3%81%AE%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%9E%E3%82%A6%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%E3%81%AF%E3%81%A9%E3%81%93%EF%BC%9F%0A%0A%E3%83%BB%E5%85%A5%E6%89%8B%E6%80%A7%E3%81%A8%E5%AE%89%E5%AE%9A%E3%81%AEQC%E3%81%AA%E3%82%89Razer%E3%82%84Pulsar%0A%E3%83%BB%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB%E6%80%A7%E3%81%A8%E6%80%A7%E8%83%BD%E3%81%AA%E3%82%89GLSSWRKS%E3%82%84Kyomi%E3%81%8C%E5%A5%BD%E8%A9%95%0A%E3%83%BBWallhack%E3%81%AF%E5%93%81%E8%B3%AA%E5%B7%AE%E3%82%84%E8%A1%A8%E9%9D%A2%E6%80%A7%E8%83%BD%E3%81%AB%E8%B3%9B%E5%90%A6%E3%81%82%E3%82%8A%0A%E3%83%BBAI%E3%82%A2%E3%83%BC%E3%83%88%E3%81%B8%E3%81%AE%E4%B8%8D%E6%BA%80%E3%82%84%E3%83%AD%E3%83%83%E3%83%88%E5%B7%AE%E3%82%82%E9%81%B8%E5%AE%9A%E3%81%AE%E8%A6%81%E7%82%B9%E3%81%AB%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xq01ot.html",
     "created_at": "2026-11-08T09:38:49.775075+00:00"
+  },
+  {
+    "id": "1xqglam",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "WaldoTS Perfected - how much tension do you use while actually tracking the target?",
+    "selftext_en": "I can see my flicks need work when watching but theres also just this shakiness when tracking. Like its not smooth . I have tension constantly throughout my fingers , should that not be the case though???",
+    "image_urls": [
+      "https://v.redd.it/xqpvh8ep690i1"
+    ],
+    "score": 0,
+    "num_comments": 10,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xqglam/waldots_perfected_how_much_tension_do_you_use/",
+    "comments": [
+      "[+1] i think you should be try track this with zero tension",
+      "[+1] I did , and i broke my high score bc of being relaxed but i cant build any speed like that either tho so itll plateu without tension wont it?",
+      "[+1] just play more",
+      "[+1] You need a bit of tension to initiate flicks. One of the keys is dynamic tension control: applying tension where it is needed and releasing it when it isn't. I find this hard, but it's doable.",
+      "[+1] Yeah thats what i struggle with there. I build tension but can never release it. Then when i do its almost like losing control to the point where my mouse like zigzags at a point if that makes sense.",
+      "[+1] For this scenario I think tracking accuracy dominates flick speed, so I would focus on tracking first.\n\nTo release tension I think of letting go of the mouse as I land my flick. You don't need much tension to flick, so maybe you can reduce your starting tension as well.",
+      "[+1] So for wide flicks that require shoulder use. Do you \"tense\" the shoulder. Ive never thought abnout it lol",
+      "[+1] I haven't played wide wall scenarios for a while, and my thinking on tension control is relatively new. How you describe tensing the shoulder is how I would try to play them. Should probably mix in some low sens training and see how it goes (I'm on a high sens training arc right now.)",
+      "[+1] you might not even be flicking at all, and doesnt seem to be the right technique.\n\nit should be very high tension flick before loosening up for the track. right now you look like you're just floating target to target",
+      "[+1] yeah everyone always talks about tensing and the releasing it after but im starting to think i cant tense and untense like everyone else, especially as fast back and forth lol"
+    ],
+    "comment_tree": [
+      {
+        "id": "19saljls4fdfk",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "i think you should be try track this with zero tension",
+        "depth": 0,
+        "body_ja": "これ、全く力みを入れない状態（ゼロテンション）でトラッキングしてみるといいと思うよ。"
+      },
+      {
+        "id": "19salqmublp6p",
+        "parent_id": "19saljls4fdfk",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I did , and i broke my high score bc of being relaxed but i cant build any speed like that either tho so itll plateu without tension wont it?",
+        "depth": 1,
+        "body_ja": "やってみました！リラックスしたおかげでハイスコアを更新できたんですけど、その状態だとスピードが出せないんですよね。力みを一切使わないと、結局どこかで頭打ちになりませんか？"
+      },
+      {
+        "id": "19salvy4qx8zn",
+        "parent_id": "19salqmublp6p",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "just play more",
+        "depth": 2,
+        "body_ja": "とにかくプレイ回数を重ねるしかないね。"
+      },
+      {
+        "id": "19samqgq49j9d",
+        "parent_id": "19salqmublp6p",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "You need a bit of tension to initiate flicks. One of the keys is dynamic tension control: applying tension where it is needed and releasing it when it isn't. I find this hard, but it's doable.",
+        "depth": 2,
+        "body_ja": "フリックを始動するには少しの力み（テンション）が必要だよ。鍵となるのは『動的テンションコントロール』だね。必要な時にだけ力を入れ、不要になったら力を抜くんだ。これは難しいけど、練習すればできるようになるよ。"
+      },
+      {
+        "id": "19sancdvqohqc",
+        "parent_id": "19samqgq49j9d",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Yeah thats what i struggle with there. I build tension but can never release it. Then when i do its almost like losing control to the point where my mouse like zigzags at a point if that makes sense.",
+        "depth": 3,
+        "body_ja": "まさにそこで苦戦してるんです。力を入れることはできるんですけど、それを抜くことができなくて。力を抜こうとすると、制御を失ってマウスがジグザグに動いちゃうような感じになるんですよね……伝わりますかね。"
+      },
+      {
+        "id": "19sbe6cdk61mp",
+        "parent_id": "19sancdvqohqc",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "For this scenario I think tracking accuracy dominates flick speed, so I would focus on tracking first.\n\nTo release tension I think of letting go of the mouse as I land my flick. You don't need much tension to flick, so maybe you can reduce your starting tension as well.",
+        "depth": 4,
+        "body_ja": "このシナリオに関しては、フリック速度よりもトラッキングの正確性のほうが重要だと思うから、まずはトラッキングに集中したほうがいいよ。\n\n力を抜くコツとしては、フリックが着地した瞬間に『マウスを放す』イメージを持つことかな。フリックするのにもそれほど強い力は要らないから、最初に込める力自体を減らしてみるのも手だね。"
+      },
+      {
+        "id": "19sberkpao3i8",
+        "parent_id": "19sbe6cdk61mp",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "So for wide flicks that require shoulder use. Do you \"tense\" the shoulder. Ive never thought abnout it lol",
+        "depth": 5,
+        "body_ja": "肩を使うような大きなフリックの場合は、肩に『力』を入れますか？今まで考えたこともなかったです笑"
+      },
+      {
+        "id": "19sbue8og0151",
+        "parent_id": "19sberkpao3i8",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I haven't played wide wall scenarios for a while, and my thinking on tension control is relatively new. How you describe tensing the shoulder is how I would try to play them. Should probably mix in some low sens training and see how it goes (I'm on a high sens training arc right now.)",
+        "depth": 6,
+        "body_ja": "ワイドウォール系のシナリオはしばらくやってないし、テンションコントロールに関する考え方も比較的新しいんだけど、君が言った『肩に力を入れる』っていうのは、まさに自分が試そうとするやり方そのものだよ。ローセンシでの練習も混ぜて経過を見てみるといいかも（自分は今ハイセンシ練習期間中なんだ）。"
+      },
+      {
+        "id": "19sb32q0km4si",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "you might not even be flicking at all, and doesnt seem to be the right technique.\n\nit should be very high tension flick before loosening up for the track. right now you look like you're just floating target to target",
+        "depth": 0,
+        "body_ja": "君はフリックすらできていないかもしれないし、適切なテクニックじゃないように見えるね。\n\nトラッキングのために力を抜く前に、まずはかなり強いテンションでフリックすべきなんだ。今の君はターゲットからターゲットへただ漂うように動いているだけに見えるよ。"
+      },
+      {
+        "id": "19sb3mopuvpog",
+        "parent_id": "19sb32q0km4si",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "yeah everyone always talks about tensing and the releasing it after but im starting to think i cant tense and untense like everyone else, especially as fast back and forth lol",
+        "depth": 1,
+        "body_ja": "そうなんですよね。みんな力を入れてから抜く話をするんですけど、自分は他の人みたいに瞬時に力を入れたり抜いたり、特にその素早い往復ができないんじゃないかと思えてきました笑"
+      }
+    ],
+    "title_ja": "【トラッキングのエイム力向上】ターゲット追従時の指の力みはどれくらい？動的テンションコントロールの極意",
+    "hook_ja": "ターゲット追跡中に手や指が震えてスムーズに動かせない悩みを抱えるスレ主。海外の猛者たちが語る「動的テンションコントロール」と力みの解放テクニックを解説します。",
+    "op_post_ja": "自分のプレイを見返すとフリックの改善が必要なのは分かるんですが、ターゲットをトラッキング（追従）している最中にどうしても手ブレが発生してしまいます。スムーズに動かせないんですよね。ずっと指全体に力が入っている状態なんですが、これって本来は力が入っていてはいけないものなんでしょうか？？？",
+    "consensus_points": [
+      "トラッキング中は基本的に脱力し、リラックスした状態を保つのが理想",
+      "フリック（瞬発的な移動）の開始時には一時的にテンションをかけ、着地・トラッキング移行時に力を抜く「動的テンションコントロール」が重要",
+      "力を抜く感覚を身につけるには、低ローシ（低感度）での練習を取り入れるのが効果的"
+    ],
+    "detailed_analysis_ja": "エイム練習ソフト（KovaaK'sやAimlabs）におけるTS（Target Switching：ターゲットスウィッチング）系シナリオでは、瞬時に標的へエイムを合わせる「フリック」と、動く標的を追い続ける「トラッキング」の高度な切り替えが求められます。\n\n【1. 震え（Shakiness）の原因と脱力（Relaxation）の重要性】\nトラッキング中に手が震える大きな原因は、手指や腕の過度な「力み（Tension）」です。常に筋肉が緊張していると微振動が発生し、スムーズな視点移動（Smoothness）が阻害されます。コメント欄でも「ゼロテンション（無力化）」で追従を試みたところハイスコアが更新されたという報告がある通り、トラッキング時の脱力は基本中の基本となります。\n\n【2. 動的テンションコントロール（Dynamic Tension Control）】\nしかし、完全に力を抜いたままでは高速なフリックを始動できません。そこで必要になるのが、必要な瞬間だけ力を入れ、不要な瞬間には即座に抜く「動的テンションコントロール」です。ターゲットへ跳ぶ瞬間だけ肩や手首にテンションをかけ、標的に着地した瞬間に「マウスを手放すようなイメージ」で瞬時に脱力・トラッキングへ移行するのが理想的な動きです。\n\n【3. スキルアップに向けた練習アプローチ】\n力みが抜けずコントロールを失ってしまう（マウスがジグザグに動いてしまう）場合は、フリック速度を一度落とし、トラッキングの正確性を優先するアプローチが推奨されます。また、ハイセンシ（高感度）ばかり使っていると無意識に微小な力みが発生しやすいため、あえてローセンシ（低感度）でのトレーニングを混ぜることで、肩や腕全体を使ったスムーズな脱力エイムの感覚を養うことができます。",
+    "devices": [],
+    "x_main_post": "【エイム力向上】追従時に手が震える悩みの解決策！\n海外猛者が語る「動的テンションコントロール」とは？\n\n・トラッキング時は完全脱力が基本\n・フリックの瞬間だけ力を入れ着地で抜く\n・「マウスを離す」イメージがコツ\n・制御不能ならローセンシ練習が効果的\n\n緩急を意識してスコア更新！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "トラッキング中に手が震えてうまく追従できないのだ！",
+        "caption": "トラッキング中に手が震える！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "追従中は力を抜いて、動的テンションコントロールを意識するのがコツだよ！",
+        "caption": "動的テンションコントロール"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "ずっと脱力してたらフリックのスピードが出ないのだ？",
+        "caption": "ずっと脱力じゃダメ？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "フリックの瞬間だけ力を入れて、標的に着地したら一気に脱力するんだよね！",
+        "caption": "フリック時だけ力を入れる"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "着地した瞬間に「マウスを手放すイメージ」で力を抜くとスムーズになるよ！",
+        "caption": "着地時にマウスを手放すイメージ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "なるほど！メリハリをつけるのが大事なのだ！",
+        "caption": "メリハリが超重要！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "感覚が掴めない時は低感度で腕全体の力を抜く練習を混ぜてみてね！",
+        "caption": "低感度での練習も効果的"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19saljls4fdfk",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "これ、全く力みを入れない状態（ゼロテンション）でトラッキングしてみるといいと思うよ。"
+      },
+      {
+        "id": "19salqmublp6p",
+        "parent_id": "19saljls4fdfk",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "やってみました！リラックスしたおかげでハイスコアを更新できたんですけど、その状態だとスピードが出せないんですよね。力みを一切使わないと、結局どこかで頭打ちになりませんか？"
+      },
+      {
+        "id": "19salvy4qx8zn",
+        "parent_id": "19salqmublp6p",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "とにかくプレイ回数を重ねるしかないね。"
+      },
+      {
+        "id": "19samqgq49j9d",
+        "parent_id": "19salqmublp6p",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "フリックを始動するには少しの力み（テンション）が必要だよ。鍵となるのは『動的テンションコントロール』だね。必要な時にだけ力を入れ、不要になったら力を抜くんだ。これは難しいけど、練習すればできるようになるよ。"
+      },
+      {
+        "id": "19sancdvqohqc",
+        "parent_id": "19samqgq49j9d",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "まさにそこで苦戦してるんです。力を入れることはできるんですけど、それを抜くことができなくて。力を抜こうとすると、制御を失ってマウスがジグザグに動いちゃうような感じになるんですよね……伝わりますかね。"
+      },
+      {
+        "id": "19sbe6cdk61mp",
+        "parent_id": "19sancdvqohqc",
+        "depth": 4,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "このシナリオに関しては、フリック速度よりもトラッキングの正確性のほうが重要だと思うから、まずはトラッキングに集中したほうがいいよ。\n\n力を抜くコツとしては、フリックが着地した瞬間に『マウスを放す』イメージを持つことかな。フリックするのにもそれほど強い力は要らないから、最初に込める力自体を減らしてみるのも手だね。"
+      },
+      {
+        "id": "19sberkpao3i8",
+        "parent_id": "19sbe6cdk61mp",
+        "depth": 5,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "肩を使うような大きなフリックの場合は、肩に『力』を入れますか？今まで考えたこともなかったです笑"
+      },
+      {
+        "id": "19sbue8og0151",
+        "parent_id": "19sberkpao3i8",
+        "depth": 6,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ワイドウォール系のシナリオはしばらくやってないし、テンションコントロールに関する考え方も比較的新しいんだけど、君が言った『肩に力を入れる』っていうのは、まさに自分が試そうとするやり方そのものだよ。ローセンシでの練習も混ぜて経過を見てみるといいかも（自分は今ハイセンシ練習期間中なんだ）。"
+      },
+      {
+        "id": "19sb32q0km4si",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "君はフリックすらできていないかもしれないし、適切なテクニックじゃないように見えるね。\n\nトラッキングのために力を抜く前に、まずはかなり強いテンションでフリックすべきなんだ。今の君はターゲットからターゲットへただ漂うように動いているだけに見えるよ。"
+      },
+      {
+        "id": "19sb3mopuvpog",
+        "parent_id": "19sb32q0km4si",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "そうなんですよね。みんな力を入れてから抜く話をするんですけど、自分は他の人みたいに瞬時に力を入れたり抜いたり、特にその素早い往復ができないんじゃないかと思えてきました笑"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xqglam.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90%E3%82%A8%E3%82%A4%E3%83%A0%E5%8A%9B%E5%90%91%E4%B8%8A%E3%80%91%E8%BF%BD%E5%BE%93%E6%99%82%E3%81%AB%E6%89%8B%E3%81%8C%E9%9C%87%E3%81%88%E3%82%8B%E6%82%A9%E3%81%BF%E3%81%AE%E8%A7%A3%E6%B1%BA%E7%AD%96%EF%BC%81%0A%E6%B5%B7%E5%A4%96%E7%8C%9B%E8%80%85%E3%81%8C%E8%AA%9E%E3%82%8B%E3%80%8C%E5%8B%95%E7%9A%84%E3%83%86%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB%E3%80%8D%E3%81%A8%E3%81%AF%EF%BC%9F%0A%0A%E3%83%BB%E3%83%88%E3%83%A9%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E6%99%82%E3%81%AF%E5%AE%8C%E5%85%A8%E8%84%B1%E5%8A%9B%E3%81%8C%E5%9F%BA%E6%9C%AC%0A%E3%83%BB%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E3%81%AE%E7%9E%AC%E9%96%93%E3%81%A0%E3%81%91%E5%8A%9B%E3%82%92%E5%85%A5%E3%82%8C%E7%9D%80%E5%9C%B0%E3%81%A7%E6%8A%9C%E3%81%8F%0A%E3%83%BB%E3%80%8C%E3%83%9E%E3%82%A6%E3%82%B9%E3%82%92%E9%9B%A2%E3%81%99%E3%80%8D%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%81%8C%E3%82%B3%E3%83%84%0A%E3%83%BB%E5%88%B6%E5%BE%A1%E4%B8%8D%E8%83%BD%E3%81%AA%E3%82%89%E3%83%AD%E3%83%BC%E3%82%BB%E3%83%B3%E3%82%B7%E7%B7%B4%E7%BF%92%E3%81%8C%E5%8A%B9%E6%9E%9C%E7%9A%84%0A%0A%E7%B7%A9%E6%80%A5%E3%82%92%E6%84%8F%E8%AD%98%E3%81%97%E3%81%A6%E3%82%B9%E3%82%B3%E3%82%A2%E6%9B%B4%E6%96%B0%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xqglam.html",
+    "created_at": "2026-11-08T22:35:06.380520+00:00"
+  },
+  {
+    "id": "1xqdet8",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "I Got Indigo Complete - It seems like it's about as hard as low GM on VT",
+    "selftext_en": "So I got Indigo Complete, which is nice, yet it still feels like I need to work on some things before I can get GM complete. Indigo Complete felt like barely GM difficulty, maybe high Master.\n\nHow does it compare in your experience?",
+    "image_urls": [
+      "https://i.redd.it/lvcd319nf80i1.png"
+    ],
+    "score": 22,
+    "num_comments": 11,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xqdet8/i_got_indigo_complete_it_seems_like_its_about_as/",
+    "comments": [
+      "[+1] the task versions are easier.\n\nfor instance the aether is also inside of VDIM of voltaic.\n\nhowever in Expert it is VT Aether s5 advanced bot 1.\n\nin hard and medium was easier version of the task.",
+      "[+9] man i fucking hope indigo is gm cuz im getting buttfucked tryna push my lavender scores",
+      "[+1] I think it is as an overall rank, but not as singular scenarios. Because the Viscose benches require way more scenarios in order to achieve the rank. You'll get the scores if you persevere. Good luck.",
+      "[+2] Congrats! That sheet looks great! Personally I think GM is like low Fuchsia. I don’t have a single GM score yet.\n\nNeed 3 more tracking tasks at indigo and then the clicking part begins 😭",
+      "[+2] individually youre probably right but im guessing for example like indigo complete on the entire control tracking could get u gm on raw control and controlsphere",
+      "[+2] I tried this a few days ago, had an insane session where I got like 10 indigo scores on control tracking scenarios (tried each scenario like 1-5 times) and thought it would be a perfect time to hit Control tracking on VT. But it was not enough for GM after like 10-15 on ControlSphere (2990 out of 3100) tries. If I spend more time I can get it but it felt much harder than indigo on Viscose.",
+      "[+2] It also could be that viscose benchmark tests individual specific skills like sub parts of the full raw control sphere per say and that there is still the need to effectively combine all those sub parts to reach the equivalent",
+      "[+3] I have 3 GM scores in tracking but the relevant viscose scenarios are only lavender/indigo",
+      "[+2] May I ask about your routine? At what rank you started?",
+      "[+2] I just pick a scenario I wanna rank up and play it till it ranks up. I started in VT platinum.",
+      "[+1] What if you don't get a PB? you stop at what point?"
+    ],
+    "comment_tree": [
+      {
+        "id": "19safbnzi4w76",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "the task versions are easier.\n\nfor instance the aether is also inside of VDIM of voltaic.\n\nhowever in Expert it is VT Aether s5 advanced bot 1.\n\nin hard and medium was easier version of the task.",
+        "depth": 0,
+        "body_ja": "タスクのバージョンがより簡単になっているんだよね。\n\n例えば、aetherはVoltaicのVDIMにも含まれている。\n\nだけど、ExpertではVT Aether s5 advanced bot 1になっている。\n\nハードやミディアムでは、そのタスクのより簡単なバージョンになっていたよ。"
+      },
+      {
+        "id": "19safmnucuhvp",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 9,
+        "body_en": "man i fucking hope indigo is gm cuz im getting buttfucked tryna push my lavender scores",
+        "depth": 0,
+        "body_ja": "マジでIndigoがGMと同じくらいであってほしいわ。ラベンダーのスコアを伸ばそうとしてボコボコにされてるからさ。"
+      },
+      {
+        "id": "19sagfk8iuux0",
+        "parent_id": "19safmnucuhvp",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I think it is as an overall rank, but not as singular scenarios. Because the Viscose benches require way more scenarios in order to achieve the rank. You'll get the scores if you persevere. Good luck.",
+        "depth": 1,
+        "body_ja": "総合的なランクとしてはそうだと思うけど、個別のシナリオとしては違うかな。Viscoseのベンチマークはランク達成のために要求されるシナリオの数が多いからね。粘り強くやればスコアは出るはずだよ。健闘を祈る。"
+      },
+      {
+        "id": "19sag9te51qmb",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Congrats! That sheet looks great! Personally I think GM is like low Fuchsia. I don’t have a single GM score yet.\n\nNeed 3 more tracking tasks at indigo and then the clicking part begins 😭",
+        "depth": 0,
+        "body_ja": "おめでとう！素晴らしいシートだね！個人的には、GMはFuchsiaの低めくらいだと思うな。まだGMのスコアは一つもないんだよね。\n\nあとIndigoでトラッキングタスクを3つクリアすれば、いよいよクリックパートが始まるよ😭"
+      },
+      {
+        "id": "19saher6l320z",
+        "parent_id": "19sag9te51qmb",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "individually youre probably right but im guessing for example like indigo complete on the entire control tracking could get u gm on raw control and controlsphere",
+        "depth": 1,
+        "body_ja": "個別で見たら君の言う通りかもしれないけど、例えばコントロールトラッキング全体でIndigo Completeを達成できれば、Raw ControlやControlsphereでGM相当のレベルに到達できるんじゃないかと思うんだよね。"
+      },
+      {
+        "id": "19sailkddzoxw",
+        "parent_id": "19saher6l320z",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I tried this a few days ago, had an insane session where I got like 10 indigo scores on control tracking scenarios (tried each scenario like 1-5 times) and thought it would be a perfect time to hit Control tracking on VT. But it was not enough for GM after like 10-15 on ControlSphere (2990 out of 3100) tries. If I spend more time I can get it but it felt much harder than indigo on Viscose.",
+        "depth": 2,
+        "body_ja": "数日前にこれを試してみたんだ。コントロールトラッキングのシナリオで10個くらいIndigoのスコアを出せるような狂ったセッションがあって（各シナリオ1〜5回くらい試した）、VTでもコントロールトラッキングでGMを達成する絶好の機会だと思ったんだよね。でも、ControlSphereを10〜15回くらい（3100点中2990点）試してもGMには全然足りなかった。もっと時間をかければいけるだろうけど、ViscoseのIndigoに比べるとはるかに難しく感じたよ。"
+      },
+      {
+        "id": "19saiskpn7zes",
+        "parent_id": "19sailkddzoxw",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "It also could be that viscose benchmark tests individual specific skills like sub parts of the full raw control sphere per say and that there is still the need to effectively combine all those sub parts to reach the equivalent",
+        "depth": 3,
+        "body_ja": "Viscoseのベンチマークが、フルバージョンのRaw Control Sphereの細部にあたる個別の特定スキルをテストしていて、その同等レベルに達するためにはそれらのサブパーツを効果的に組み合わせる必要があるから、という可能性もあるかもしれないね。"
+      },
+      {
+        "id": "19saocml3ngg4",
+        "parent_id": "19sailkddzoxw",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "I have 3 GM scores in tracking but the relevant viscose scenarios are only lavender/indigo",
+        "depth": 3,
+        "body_ja": "自分はトラッキングで3つGMのスコアを持っているけど、対応するViscoseのシナリオはまだラベンダーやインディゴのレベルだよ。"
+      },
+      {
+        "id": "19sbcscqlyu4l",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "May I ask about your routine? At what rank you started?",
+        "depth": 0,
+        "body_ja": "あなたの練習ルーティンについて教えてもらってもいいですか？あと、どのランクからスタートしましたか？"
+      },
+      {
+        "id": "19sbsgvgcvuv9",
+        "parent_id": "19sbcscqlyu4l",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "I just pick a scenario I wanna rank up and play it till it ranks up. I started in VT platinum.",
+        "depth": 1,
+        "body_ja": "ランクを上げたいシナリオを一つ選んで、ランクが上がるまでひたすらプレイしているよ。VTプラチナからスタートしたんだ。"
+      },
+      {
+        "id": "19sbtixvexz45",
+        "parent_id": "19sbsgvgcvuv9",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "What if you don't get a PB? you stop at what point?",
+        "depth": 2,
+        "body_ja": "PB（自己ベスト）が出なかったらどうするの？どのタイミングでやめるの？"
+      }
+    ],
+    "title_ja": "ViscoseベンチマークのIndigo Complete達成難易度はVTの低GM相当か？",
+    "hook_ja": "ViscoseベンチマークのIndigo Completeを達成したプレイヤーが、VoltaicのGrandmaster（GM）ランクとの難易度比較について海外コミュニティで議論を行っています。個別のシナリオ難易度や総合ランクとしての体感について様々な意見が寄せられています。",
+    "op_post_ja": "Indigo Completeを達成しました。とても嬉しいですが、GM Completeに到達する前にもう少し取り組むべき課題があるように感じます。Indigo CompleteはGMとしてはほぼ最低ライン、あるいは高めマスターくらいの難易度だと感じました。\n\n皆さんの経験では、Voltaicと比較してどう感じますか？",
+    "consensus_points": [
+      "ViscoseベンチマークはVoltaicと比較してタスクのバージョンや難易度が調整されている場合がある",
+      "単体のシナリオスコアだけで比較するのではなく、総合的なランクとしての難易度や求められるシナリオ数が異なる",
+      "特定のカテゴリ（コントロールトラッキング等）において、ViscoseのスコアとVoltaicのスコアの間で難易度のギャップを感じるプレイヤーが多い"
+    ],
+    "detailed_analysis_ja": "【1. ViscoseベンチマークとVoltaicの難易度比較について】\nスレッド内では、Viscoseが作成したベンチマーク（IndigoやLavender、Fuchsiaなど）と、おなじみのVoltaic（VT）ベンチマークの難易度ギャップが主な話題となっています。スレ主はIndigo Completeの達成感を語りつつも、その難易度はVoltaicの低GM〜高Master程度に相当するのではないかと分析しています。\n\n【2. シナリオの性質とスキルの細分化】\nコメント欄では、Viscoseのベンチマークがスキルを細分化した独自のシナリオ構成になっている点が指摘されています。例えば、特定のコントロールトラッキング分野で高スコアを出せたとしても、Voltaicの総合的な高難度シナリオ（ControlSphereなど）ではそのまま通用しないケースがあり、個別のタスクの難易度と総合ランクの重みが異なることが議論されています。\n\n【3. 練習アプローチと上達のプロセス】\nスレ主自身はVTプラチナからスタートし、ランクアップしたいシナリオを納得がいくまでプレイし続けるというアプローチをとっています。海外のエイムコミュニティでは、こうしたコミュニティ独自のベンチマークを複数並行して進めることで、総合的なマウスコントロールの底上げを図るプレイヤーが多く見られます。",
+    "devices": [],
+    "x_main_post": "ViscoseベンチマークのIndigo Complete達成難易度を議論！Voltaicの低GM〜高マスター相当という意見やタスクの仕様の違いが話題に。",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "ViscoseのIndigo Completeってどのくらいの難易度なのだ？",
+        "caption": "難易度が気になる！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "Voltaicの低GMから高マスター相当くらいに感じる人が多いみたいだよ！",
+        "caption": "VTの低GM相当！？"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "VoltaicのGMと比べてどう違うのだ？",
+        "caption": "違いは何なのだ？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "Viscoseは求められるシナリオの数が多いから総合ランクの体感が変わるんだよね。",
+        "caption": "シナリオ数が多い！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "タスクのバージョン調整やスキルの細分化も難易度に影響してるんだよ！",
+        "caption": "調整が入ってる！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "個別と総合で難易度の感じ方が変わるのは面白いのだ！",
+        "caption": "奥が深いのだ！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ、特定のトラッキング種目なんかは思った以上に苦戦するから気をつけてね！",
+        "caption": "トラッキングに注意"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19safbnzi4w76",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "タスクのバージョンがより簡単になっているんだよね。\n\n例えば、aetherはVoltaicのVDIMにも含まれている。\n\nだけど、ExpertではVT Aether s5 advanced bot 1になっている。\n\nハードやミディアムでは、そのタスクのより簡単なバージョンになっていたよ。"
+      },
+      {
+        "id": "19safmnucuhvp",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 9,
+        "text": "マジでIndigoがGMと同じくらいであってほしいわ。ラベンダーのスコアを伸ばそうとしてボコボコにされてるからさ。"
+      },
+      {
+        "id": "19sagfk8iuux0",
+        "parent_id": "19safmnucuhvp",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "総合的なランクとしてはそうだと思うけど、個別のシナリオとしては違うかな。Viscoseのベンチマークはランク達成のために要求されるシナリオの数が多いからね。粘り強くやればスコアは出るはずだよ。健闘を祈る。"
+      },
+      {
+        "id": "19sag9te51qmb",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "おめでとう！素晴らしいシートだね！個人的には、GMはFuchsiaの低めくらいだと思うな。まだGMのスコアは一つもないんだよね。\n\nあとIndigoでトラッキングタスクを3つクリアすれば、いよいよクリックパートが始まるよ😭"
+      },
+      {
+        "id": "19saher6l320z",
+        "parent_id": "19sag9te51qmb",
+        "depth": 1,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "個別で見たら君の言う通りかもしれないけど、例えばコントロールトラッキング全体でIndigo Completeを達成できれば、Raw ControlやControlsphereでGM相当のレベルに到達できるんじゃないかと思うんだよね。"
+      },
+      {
+        "id": "19sailkddzoxw",
+        "parent_id": "19saher6l320z",
+        "depth": 2,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "数日前にこれを試してみたんだ。コントロールトラッキングのシナリオで10個くらいIndigoのスコアを出せるような狂ったセッションがあって（各シナリオ1〜5回くらい試した）、VTでもコントロールトラッキングでGMを達成する絶好の機会だと思ったんだよね。でも、ControlSphereを10〜15回くらい（3100点中2990点）試してもGMには全然足りなかった。もっと時間をかければいけるだろうけど、ViscoseのIndigoに比べるとはるかに難しく感じたよ。"
+      },
+      {
+        "id": "19saiskpn7zes",
+        "parent_id": "19sailkddzoxw",
+        "depth": 3,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "Viscoseのベンチマークが、フルバージョンのRaw Control Sphereの細部にあたる個別の特定スキルをテストしていて、その同等レベルに達するためにはそれらのサブパーツを効果的に組み合わせる必要があるから、という可能性もあるかもしれないね。"
+      },
+      {
+        "id": "19saocml3ngg4",
+        "parent_id": "19sailkddzoxw",
+        "depth": 3,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "自分はトラッキングで3つGMのスコアを持っているけど、対応するViscoseのシナリオはまだラベンダーやインディゴのレベルだよ。"
+      },
+      {
+        "id": "19sbcscqlyu4l",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "あなたの練習ルーティンについて教えてもらってもいいですか？あと、どのランクからスタートしましたか？"
+      },
+      {
+        "id": "19sbsgvgcvuv9",
+        "parent_id": "19sbcscqlyu4l",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "ランクを上げたいシナリオを一つ選んで、ランクが上がるまでひたすらプレイしているよ。VTプラチナからスタートしたんだ。"
+      },
+      {
+        "id": "19sbtixvexz45",
+        "parent_id": "19sbsgvgcvuv9",
+        "depth": 2,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "PB（自己ベスト）が出なかったらどうするの？どのタイミングでやめるの？"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xqdet8.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=Viscose%E3%83%99%E3%83%B3%E3%83%81%E3%83%9E%E3%83%BC%E3%82%AF%E3%81%AEIndigo%20Complete%E9%81%94%E6%88%90%E9%9B%A3%E6%98%93%E5%BA%A6%E3%82%92%E8%AD%B0%E8%AB%96%EF%BC%81Voltaic%E3%81%AE%E4%BD%8EGM%E3%80%9C%E9%AB%98%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E7%9B%B8%E5%BD%93%E3%81%A8%E3%81%84%E3%81%86%E6%84%8F%E8%A6%8B%E3%82%84%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E4%BB%95%E6%A7%98%E3%81%AE%E9%81%95%E3%81%84%E3%81%8C%E8%A9%B1%E9%A1%8C%E3%81%AB%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xqdet8.html",
+    "created_at": "2026-11-08T22:37:45.734114+00:00"
+  },
+  {
+    "id": "1xqir42",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Finalmouse Starlight X review",
+    "selftext_en": "https://i.redd.it/qt5v7f01j90i1.png\n\nLong awaited competitor to the superstrike had entered the rift and it did not disappoint. Stylistically, its a one of a kind and honestly I think future colourways and releases will be just as good if not better than the nightfall. Didn't get the mouse during its initial drop and instead through a friend so I'm fortunate to not have had to wait months for it to get delivered. If I do leave out anything important in this review just comment and I'll be sure to reply with my opinions. Not a sponsored review, just a personal reflection on my time using the mouse.\n\nShape: Completely different from what we've seen from finalmouse ulx line. Biggest thing is that its noticeably bigger and fills my palm with a larger back hump. Reminds me of a slightly smaller viper v4 pro perfect for claw. The mouse is also 41g on my scale which is surprising especially with the magnets that are in the m1 and m2.\n\nClicks (TMR and Smart Rapid Trigger): The selling point of this mouse being its tmr technology is fairly straightforward. Select your actuation point ranging from 0.01mm > 0.4mm. Personally I find 0.25mm being a good sweet spot (which is the recommended setting from finalmouse) where I don't have any accidental clicks and where I can benefit from a faster click but depending on your personal preference you can make it more or less sensitive but tbh you're more inclined to have a more sensitive setting to get the full benefits of this mouse. The switches are huano blue shell pink dots and they're very nice to spam. I've heard that that the switches have a break in period where they're stiff and gradually get softer but I received it second hand so I cannot comment on how long the break in period was. Smart Rapid Trigger is also a feature on TMR Analog and its nice to have. Basically similar to rapid trigger on most hall effect boards, personally I don't play a lot of games that require the rapid trigger so I don't really care for it that much and just leave it at the recommended settings from finalmouse. \n\nPerfect Polling / Sensor Implementation: Finalmouse has this \"perfect polling\" tech where they say it delivers 8k polling rate latency and performance with 1k polling rate stability, but in all honesty this shit feels like the biggest nothing burger feature. On my system (7600x3d cpu 7800xt gpu) I haven't noticed any actual differences from this with any other mouse that uses a pixart 3395 or better. This feature is turned on autom",
+    "image_urls": [
+      "https://i.redd.it/qt5v7f01j90i1.png"
+    ],
+    "score": 2,
+    "num_comments": 5,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xqir42/finalmouse_starlight_x_review/",
+    "comments": [
+      "[+4] > TLDR:\n\n>TMR = nice, not the most important if not playing games needing fast reaction speed\n\n>Shape = good, similar to viper v4 shape.\n\n>perfect polling = placebo\n\n>me = happy but wouldn't pay resale for this mouse\n\nperfect summary",
+      "[+2] would you say their TMR implementation is similar to Gwolves or others? For logitech Hits, the brand Raptoo has came up with a new mouse with HITS, ive been on billibilli",
+      "[+1] Its nothing like the logitech hits. You can't change the feeling of the mechanical click to sync with the actuation of your mouse clicks like you can on the superstrike. Its similar to what you would find on the hts plus pro or other tmr technologies.",
+      "[+1] Thanks OP for the reply!",
+      "[+1] Hmm I wonder if razer will copy the Hit system of Logitech and they will just change the design btw nice review."
+    ],
+    "comment_tree": [
+      {
+        "id": "19sarzhf4wocg",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "Kira waiting room | PD170 | XQ2566X",
+        "is_op": false,
+        "score": 4,
+        "body_en": "> TLDR:\n\n>TMR = nice, not the most important if not playing games needing fast reaction speed\n\n>Shape = good, similar to viper v4 shape.\n\n>perfect polling = placebo\n\n>me = happy but wouldn't pay resale for this mouse\n\nperfect summary",
+        "depth": 0,
+        "body_ja": "> 要約（TLDR）：\n> TMR = 良い機能、素早い反応速度を要するゲームをやらないなら最重要ではない\n> 形状 = 良好、Viper V4形状に似ている\n> Perfect Polling = プラセボ（気休め）\n> 自分 = 満足はしているが、転売価格を出してまでこのマウスを買う気にはならない\n\n完璧な要約だね。"
+      },
+      {
+        "id": "19sb8a8f77adf",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "would you say their TMR implementation is similar to Gwolves or others? For logitech Hits, the brand Raptoo has came up with a new mouse with HITS, ive been on billibilli",
+        "depth": 0,
+        "body_ja": "彼らのTMRの実装はG-Wolvesや他のメーカーと似たような感じなのかな？LogicoolのHitsに関しては、RaptooというブランドがHITS搭載の新しいマウスを出してきたよ。さっきBilibiliで見てきた。"
+      },
+      {
+        "id": "19sb96vom3l1h",
+        "parent_id": "19sb8a8f77adf",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Its nothing like the logitech hits. You can't change the feeling of the mechanical click to sync with the actuation of your mouse clicks like you can on the superstrike. Its similar to what you would find on the hts plus pro or other tmr technologies.",
+        "depth": 1,
+        "body_ja": "LogicoolのHitsとは全くの別物だよ。Superstrikeのように、マウスクリックの作動位置と同期するようにメカニカルクリックの感触自体を変化させることはできない。HTS Plus Proやその他のTMR技術で見られるものと似た仕様だね。"
+      },
+      {
+        "id": "19sb9jc3pe4hv",
+        "parent_id": "19sb96vom3l1h",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Thanks OP for the reply!",
+        "depth": 2,
+        "body_ja": "返信ありがとう、スレ主！"
+      },
+      {
+        "id": "19sbh9j2uoqpw",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Hmm I wonder if razer will copy the Hit system of Logitech and they will just change the design btw nice review.",
+        "depth": 0,
+        "body_ja": "うーん、RazerもLogicoolのHitシステムを真似してデザインだけ変えてきたりするのかな。ところでナイスなレビューだね。"
+      }
+    ],
+    "title_ja": "Finalmouse Starlight X実機レビュー：TMR搭載の大型化シェルと独自機能のリアルな評価",
+    "hook_ja": "期待のTMR搭載マウス「Finalmouse Starlight X」を実際に使用した詳細なレビューが投稿されました。形状の大型化やTMRクリックの使用感、宣伝されている「Perfect Polling」の真偽について率直な意見が交わされています。",
+    "op_post_ja": "https://i.redd.it/qt5v7f01j90i1.png\n\nSuperstrikeの長らく待ち望まれていた対抗馬がついに参戦を果たしましたが、期待を裏切らない仕上がりでした。デザイン的にも唯一無二で、今後のカラー展開やリリースは、今回のNightfallと同等かそれ以上に素晴らしいものになると正直思っています。最初のドロップでは手に入らず友人経由で譲ってもらったため、発送まで何ヶ月も待たされずに済んだのは幸運でした。このレビューで何か重要な点を見落としていたら、コメントしていただければ必ず自分の意見をお答えします。案件レビューではなく、実際にマウスを使用した私個人の感想です。\n\n【形状】: 従来のFinalmouse ULXシリーズで見てきたものとは完全に異なります。最大の特徴は目に見えて大きくなっている点で、大きめのリアハンプが手のひらをしっかり満たしてくれます。少し小ぶりにしたViper V4 Proのような印象で、つかみ持ちに最適です。また、M1とM2ボタンにマグネットが入っているにもかかわらず、手元のスケールで実測41gだったのには驚かされました。\n\n【クリック感（TMRとスマートラピッドトリガー）】: このマウスの最大のセールスポイントであるTMR技術は非常に明快です。アクチュエーションポイントを0.01mmから0.4mmの範囲で選択できます。個人的には0.25mm（Finalmouseの推奨設定）が良い落としどころだと感じました。誤クリックが起きず、かつ高速なクリックの恩恵を受けられる設定です。ただ個人の好みに応じて感度を上げ下げできますし、正直このマウスの恩恵をフルに受けるなら、より高感度な設定にしたくなると思います。スイッチはHuano Blue Shell Pink Dotが採用されており、連打するのが非常に心地よいです。スイッチには使い始めの硬さから徐々に柔らかくなる慣らし期間（ブレークイン）があると聞いていますが、私は中古で手に入れたため、慣らしにどれくらい時間がかかるかはコメントできません。またTMR Analogの機能としてスマートラピッドトリガーも搭載されており、あると嬉しい機能です。基本的に多くの磁気ホールエフェクトキーボードのラピッドトリガーと似たようなものです。個人的にはラピッドトリガーを必要とするゲームをあまりプレイしないため、そこまで重視しておらず、Finalmouseの推奨設定のままにしています。\n\n【Perfect Polling / センサーの挙動】: Finalmouseは「Perfect Polling」という技術を謳っており、8Kポーリングレートの遅延・性能を1Kポーリングレートの安定性で実現すると主張しています。しかし率直に言って、この機能は最も中身のない「完全な見掛け倒し（nothing burger）」に感じられます。私のPC環境（CPU: 7600X3D、GPU: 7800 XT）では、PixArt 3395以上のセンサーを搭載した他のマウスと比べて実際の差異は全く体感できませんでした。この機能は自動的（文章途絶）",
+    "consensus_points": [
+      "形状は従来のULXより大型化し、手のひらを支えるコブが高くなっており、つかみ持ちとの相性が非常に良い。",
+      "TMRによる可変アクチュエーションポイントやラピッドトリガーは反応速度を求めるゲームで有用だが、万人にとって必須ではない。",
+      "メーカーがアピールする「Perfect Polling」技術については、3395センサー等と比較して実用上の差が感じられないプラセボ的な機能と評されている。"
+    ],
+    "detailed_analysis_ja": "本スレッドは、Finalmouseの最新フラグシップモデル「Starlight X」を入手したユーザーによる詳細な実機レビューと、それに対するコミュニティの反応です。トピックの中心は、新設計の大型化されたシェイプ、TMR（トンネル磁気抵抗効果）センサーを用いたアナログスイッチ機構、そして独自技術「Perfect Polling」の実効性についてです。\n\n【1. シェイプの大型化とエルゴノミクスの変化】\n従来のFinalmouse製品（UltralightXやStarlight-12シリーズ）は、チーター（S）、ライオン（M）、タイガー（L）といったサイズ展開を行ってきましたが、全体として背が低くフラットな形状が特徴でした。しかしStarlight Xは後部のコブ（リアハンプ）が高く設計されており、手のひらへのサポート感が大幅に向上しています。レビュアーはこれをRazerの未発表・次世代形状を想起させる「やや小型のViper V4 Proのよう」と表現しており、安定したつかみ持ち（Claw Grip）を好むプレイヤーにとって非常に扱いやすい形状にシフトしています。マグネットを内蔵しながら実測41gを維持している点も軽量化技術の高さを示しています。\n\n【2. TMR技術と他社（Logicool HITS機構など）との差異】\n現在ゲーミングマウス市場では、磁気を利用したアナログ入力・ラピッドトリガー技術の導入が進んでいます。本機に搭載されたTMR（Tunnel Magnetoresistance）技術は、0.01mm単位でアクチュエーションポイントを調整可能であり、連打性や即時入力に優れます。コメント欄では、Logicoolの試作/特許技術やRaptooなどの動向と比較されていますが、LogicoolのHITS（クリックの物理的フィードバックと入力ポイントを物理・電子的に同期させる仕組み）とは異なり、Starlight XはG-Wolves HTS Plus Pro等と同様の純粋な磁気アナログ検知にとどまる点が指摘されています。\n\n【3. Perfect Pollingへの冷ややかな評価】\nFinalmouseが宣伝する「8Kの低遅延を1KのCPU負荷・安定性で実現する」というPerfect Polling機能に対しては、ハイエンド環境（Ryzen 7600X3D / Radeon 7800 XT）をもってしても一般的なPixArt PAW3395搭載機との差を体感できないとし、「nothing burger（実体のないもの、見掛け倒し）」と結論づけられています。コミュニティ内でも、TMRや形状自体の完成度は認めつつも、転売価格（リセール）を払ってまで追う価値はないという現実的な見解で一致しています。",
+    "devices": [
+      {
+        "name": "Finalmouse Starlight X",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "実測41gの軽さと手のひらを支える大型化したシェル形状が高評価。TMRによる入力調整も良好だが、Perfect Polling機能は体感差がないと評価されている。"
+      },
+      {
+        "name": "G-Wolves HTS Plus Pro",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "Starlight XのTMR磁気入力の仕組みと同様の技術を持つマウスとして比較対象に挙げられている。"
+      }
+    ],
+    "x_main_post": "Finalmouse Starlight Xの実機レビューが話題！\n\n・実測41g、従来より大型化し手のひらを支えるつかみ持ち形状\n・TMR搭載で0.01〜0.4mmの作動点変更が可能\n・スイッチはHuano製で連打性◎\n・宣伝の「Perfect Polling」は3395系と体感差なしとの声も",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "Finalmouse Starlight Xって実際どうなのだ？",
+        "caption": "Starlight Xの実力は？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "形状は大型化してつかみ持ち最高だけど、機能は賛否両論だよ！",
+        "caption": "形状は◎だが機能は賛否"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "41gでTMR搭載なのに賛否があるのだ？",
+        "caption": "なぜ賛否が分かれる？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "TMRの作動点変更は良いけど、反応速度重視のゲーム以外では必須じゃないんだよね。",
+        "caption": "TMRは用途を選ぶ"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "注目のPerfect Pollingも普通の3395センサーと体感差ゼロって言われてるよ！",
+        "caption": "独自技術はプラセボ？"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "形状や軽さは最高でも、過度な期待は禁物なのだ！",
+        "caption": "過度な期待は禁物！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただシェル形状の評判はすごく良いから、転売価格じゃなければアリかもね！",
+        "caption": "定価ならアリかも！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフリンクへ！"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19sarzhf4wocg",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "Kira waiting room | PD170 | XQ2566X",
+        "is_op": false,
+        "score": 4,
+        "text": "> 要約（TLDR）：\n> TMR = 良い機能、素早い反応速度を要するゲームをやらないなら最重要ではない\n> 形状 = 良好、Viper V4形状に似ている\n> Perfect Polling = プラセボ（気休め）\n> 自分 = 満足はしているが、転売価格を出してまでこのマウスを買う気にはならない\n\n完璧な要約だね。"
+      },
+      {
+        "id": "19sb8a8f77adf",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "彼らのTMRの実装はG-Wolvesや他のメーカーと似たような感じなのかな？LogicoolのHitsに関しては、RaptooというブランドがHITS搭載の新しいマウスを出してきたよ。さっきBilibiliで見てきた。"
+      },
+      {
+        "id": "19sb96vom3l1h",
+        "parent_id": "19sb8a8f77adf",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "LogicoolのHitsとは全くの別物だよ。Superstrikeのように、マウスクリックの作動位置と同期するようにメカニカルクリックの感触自体を変化させることはできない。HTS Plus Proやその他のTMR技術で見られるものと似た仕様だね。"
+      },
+      {
+        "id": "19sb9jc3pe4hv",
+        "parent_id": "19sb96vom3l1h",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "返信ありがとう、スレ主！"
+      },
+      {
+        "id": "19sbh9j2uoqpw",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "text": "うーん、RazerもLogicoolのHitシステムを真似してデザインだけ変えてきたりするのかな。ところでナイスなレビューだね。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xqir42.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=Finalmouse%20Starlight%20X%E3%81%AE%E5%AE%9F%E6%A9%9F%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E3%81%8C%E8%A9%B1%E9%A1%8C%EF%BC%81%0A%0A%E3%83%BB%E5%AE%9F%E6%B8%AC41g%E3%80%81%E5%BE%93%E6%9D%A5%E3%82%88%E3%82%8A%E5%A4%A7%E5%9E%8B%E5%8C%96%E3%81%97%E6%89%8B%E3%81%AE%E3%81%B2%E3%82%89%E3%82%92%E6%94%AF%E3%81%88%E3%82%8B%E3%81%A4%E3%81%8B%E3%81%BF%E6%8C%81%E3%81%A1%E5%BD%A2%E7%8A%B6%0A%E3%83%BBTMR%E6%90%AD%E8%BC%89%E3%81%A70.01%E3%80%9C0.4mm%E3%81%AE%E4%BD%9C%E5%8B%95%E7%82%B9%E5%A4%89%E6%9B%B4%E3%81%8C%E5%8F%AF%E8%83%BD%0A%E3%83%BB%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%81%AFHuano%E8%A3%BD%E3%81%A7%E9%80%A3%E6%89%93%E6%80%A7%E2%97%8E%0A%E3%83%BB%E5%AE%A3%E4%BC%9D%E3%81%AE%E3%80%8CPerfect%20Polling%E3%80%8D%E3%81%AF3395%E7%B3%BB%E3%81%A8%E4%BD%93%E6%84%9F%E5%B7%AE%E3%81%AA%E3%81%97%E3%81%A8%E3%81%AE%E5%A3%B0%E3%82%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xqir42.html",
+    "created_at": "2026-11-08T22:39:07.283842+00:00"
+  },
+  {
+    "id": "1xqipqp",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Logitech g pro x superlight 2c or Hitscan hyperlight x",
+    "selftext_en": "Help me decide between these two mouse. I currently have razer viper v3 and g pro x superlight.\n\nI use fingertip grip.",
+    "image_urls": [],
+    "score": 2,
+    "num_comments": 6,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xqipqp/logitech_g_pro_x_superlight_2c_or_hitscan/",
+    "comments": [
+      "[+5] Hitscan all the way",
+      "[+3] Hitscan x",
+      "[+1] Hitscan Hyperlight X.\n\n I feel like if you know your gripping style and hand size you can almost always find a better shape to accommodate it than a G Pro.\n\nI'd give the Pulsar X2F CrazyLight a look at, too.",
+      "[+0] i thought 2c had better QC than the regular size units but I ended up preferring the shape of the X2H Mini in the end.\n\nI see plenty of val/cs pros on the 2c but none on the hitscans or op1, these two have a lot of vocal fans on the sub though.",
+      "[+0] Superlight 2c is a safe shape and is doable for fingertip I highly recommend this mouse if you're looking for a small mouse and you don't know what shape to get. \n\n\nHyper light x you can also fingertip this and infact much lighter than the 2c weight the lighter the better for fingertip grip style",
+      "[+1] Hitscan obv"
+    ],
+    "comment_tree": [
+      {
+        "id": "19saqw9aomsio",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "Hitscan all the way",
+        "depth": 0,
+        "body_ja": "断然Hitscanだね。"
+      },
+      {
+        "id": "19sarxumbphwl",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Hitscan x",
+        "depth": 0,
+        "body_ja": "Hitscan X一択。"
+      },
+      {
+        "id": "19sawlzzv2pr7",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "CDRAKO KO-ONE on Pulsar eS Saturn Pro",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Hitscan Hyperlight X.\n\n I feel like if you know your gripping style and hand size you can almost always find a better shape to accommodate it than a G Pro.\n\nI'd give the Pulsar X2F CrazyLight a look at, too.",
+        "depth": 0,
+        "body_ja": "Hitscan Hyperlight Xだね。\n\n自分の持ち方と手のサイズが分かっているなら、G Proよりもそれを満たしてくれる良い形状がほぼ確実に他で見つかると思う。\n\nPulsar X2F CrazyLightもチェックしてみるといいよ。"
+      },
+      {
+        "id": "19sbe8zyt9y3l",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "i thought 2c had better QC than the regular size units but I ended up preferring the shape of the X2H Mini in the end.\n\nI see plenty of val/cs pros on the 2c but none on the hitscans or op1, these two have a lot of vocal fans on the sub though.",
+        "depth": 0,
+        "body_ja": "2c（Mini）は通常サイズのものよりクオリティコントロールが良いと思ってたけど、結局自分はX2H Miniの形状の方が好みだったな。\n\nValやCSのプロで2cを使ってる人はたくさん見るけど、hitscanやop1を使ってる人は見かけないね。でもこのサブディットだと後者の2つは熱狂的なファンが多いよ。"
+      },
+      {
+        "id": "19sbh5uy7jmxu",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 0,
+        "body_en": "Superlight 2c is a safe shape and is doable for fingertip I highly recommend this mouse if you're looking for a small mouse and you don't know what shape to get. \n\n\nHyper light x you can also fingertip this and infact much lighter than the 2c weight the lighter the better for fingertip grip style",
+        "depth": 0,
+        "body_ja": "Superlight 2cは癖のない万能な形状で、つまみ持ちでもいける。小型マウスを探していてどんな形状がいいか分からないなら、これはすごくおすすめ。\n\nHyperlight Xもつまみ持ちができるし、実際2cの重量よりもかなり軽い。つまみ持ちスタイルにおいては、軽ければ軽いほど良いからね。"
+      },
+      {
+        "id": "19sbqsgh3g63l",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Hitscan obv",
+        "depth": 0,
+        "body_ja": "明らかにHitscan。"
+      }
+    ],
+    "title_ja": "つまみ持ちにはGPX2 MiniとHitscan Hyperlight Xのどちらを選ぶべきか？海外の反応",
+    "hook_ja": "Razer Viper V3 Proと初代G PRO X SUPERLIGHTを所有するつまみ持ちユーザーが、Logitech G PRO X SUPERLIGHT 2c（Mini）とHitscan Hyperlight Xの選択について質問。コミュニティからはHitscanを推す声が多く集まりました。",
+    "op_post_ja": "この2つのマウスのどちらにするか決めるのを手伝ってください。私は現在Razer Viper V3とG PRO X SUPERLIGHTを所有しています。\n\n持ち方はつまみ持ちです。",
+    "consensus_points": [
+      "つまみ持ち用途においては、より軽量なHitscan Hyperlight Xを圧倒的に支持する声が多い。",
+      "G PROシリーズ（万能形状）よりも、自身の持ち方や手に特化した形状を選んだ方が満足度が高いという意見。",
+      "プロシーンではGPX2 mini（2c）の採用率が高い一方、RedditなどのコミュニティではHitscan等の特化型モデルが強く支持されている。"
+    ],
+    "detailed_analysis_ja": "本スレッドは、現在Razer Viper V3（Pro含む）や初代G PRO X SUPERLIGHT（GPX）といった標準サイズ〜大型のメジャーマウスを使用している「つまみ持ち（Fingertip Grip）」ユーザーが、小型モデルへの移行を検討する中で立てられたものです。候補に挙げられているのは、Logitechの小型モデル「G PRO X SUPERLIGHT 2c（一般的にGPX2 Miniとも称されるモデル）」と、新興ブランドHitscanの極軽量モデル「Hitscan Hyperlight X」です。\n\n【1. つまみ持ちにおける重量と形状の重要性】\nつまみ持ちは指先だけでマウスを保持・操作するため、手のひらとの接触面がありません。そのため、重量が軽ければ軽いほど指先にかかる負担が減り、微小なエイム調整が容易になります。本スレッドの多くのユーザーがHitscan Hyperlight Xを推している最大の理由は、その圧倒的な軽さにあります。「つまみ持ちにおいては軽ければ軽いほど良い」という意識が海外エイムコミュニティでは共通認識となっています。\n\n【2. 万能形状（万能シェイプ） vs 持ち方特化形状】\nLogitechのG PROシリーズは、かぶせ持ち・つかみ持ち・つまみ持ちのどれにでも対応できる「万能な形状（Safe Shape）」として非常に人気があり、プロシーン（CS2やValorant）でも高い採用率を誇ります。しかし、コミュニティの専門家からは「自分の持ち方（つまみ持ち）が完全に分かっているのなら、万能形状のGPX2cを選ぶよりも、つまみ持ちや小型特化に設計された形状（Hitscan Hyperlight XやPulsar X2F CrazyLightなど）を選んだ方がフィット感と操作性が増す」と指示されています。\n\n【3. プロシーンの採用実績とコミュニティ評価の乖離】\nコメント内でも指摘されている通り、プロゲーマーの間では信頼性やビルドクオリティ（QC）、スポンサーシップの影響からLogitech製品（GPX2cなど）が選ばれやすい傾向にあります。一方で、Redditなどの専門サブディット（r/MouseReview）では、よりエッジの効いた軽量性や特化型の形状を持つHitscanやEndgame Gear OP1、Pulsar製品などが絶大な人気を獲得しています。",
+    "devices": [
+      {
+        "name": "Hitscan Hyperlight X",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "非常に軽量でつまみ持ちに適しており、スレッド内で最も強く推奨されている。"
+      },
+      {
+        "name": "Logicool G PRO X SUPERLIGHT 2c",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "癖のない万能な小型形状でプロの使用率も高いが、つまみ持ち特化としてはより軽い選択肢があると評価されている。"
+      },
+      {
+        "name": "Razer Viper V3 Pro",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "投稿者が現在所有している比較対象のマウスとして言及されている。"
+      },
+      {
+        "name": "Logicool G PRO X SUPERLIGHT",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "投稿者が現在所有している比較対象のマウスとして言及されている。"
+      },
+      {
+        "name": "Pulsar X2F CrazyLight",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "つまみ持ち検討者への別の優れた選択肢としておすすめされている。"
+      },
+      {
+        "name": "Pulsar X2H Mini",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "GPX2cよりも形状が優れていると感じた例として挙げられている。"
+      },
+      {
+        "name": "Endgame Gear OP1",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "海外コミュニティで熱狂的なファンが多い小型マウスの例として言及されている。"
+      }
+    ],
+    "x_main_post": "つまみ持ちユーザーが「GPX2c（Mini）」と「Hitscan Hyperlight X」で迷った結果…海外コミュニティの結論はHitscanを激推し！\nつまみ持ちは手のひらが接しないため、とにかく軽さと持ち方特化形状が最重要とのこと。プロ人気か、特化性能か？",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "つまみ持ちにはGPX2 MiniとHitscanどっちがいいのだ？",
+        "caption": "つまみ持ちの選択肢"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "海外の猛者たちは圧倒的にHitscan Hyperlight Xを推してるよ！",
+        "caption": "Hitscanが大人気！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "大人気のGPX2 Miniよりも選ばれる理由は何なのだ？",
+        "caption": "選ばれる理由は？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "つまみ持ちは指先だけで支えるから、とにかく軽さが正義なんだよね！",
+        "caption": "圧倒的な軽さが正義"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "自分の持ち方が決まってるなら、万能形状のGPXより特化型がおすすめだよ！",
+        "caption": "持ち方特化の形状"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "持ち方が明確なら万能型より専用形状を選ぶのが賢いのだ！",
+        "caption": "専用形状がベスト"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "プロ人気のGPX2cも安全だけど、軽さ重視ならHitscanだね！",
+        "caption": "軽さ重視ならコレ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19saqw9aomsio",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "断然Hitscanだね。"
+      },
+      {
+        "id": "19sarxumbphwl",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "Hitscan X一択。"
+      },
+      {
+        "id": "19sawlzzv2pr7",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "CDRAKO KO-ONE on Pulsar eS Saturn Pro",
+        "is_op": false,
+        "score": 1,
+        "text": "Hitscan Hyperlight Xだね。\n\n自分の持ち方と手のサイズが分かっているなら、G Proよりもそれを満たしてくれる良い形状がほぼ確実に他で見つかると思う。\n\nPulsar X2F CrazyLightもチェックしてみるといいよ。"
+      },
+      {
+        "id": "19sbe8zyt9y3l",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "2c（Mini）は通常サイズのものよりクオリティコントロールが良いと思ってたけど、結局自分はX2H Miniの形状の方が好みだったな。\n\nValやCSのプロで2cを使ってる人はたくさん見るけど、hitscanやop1を使ってる人は見かけないね。でもこのサブディットだと後者の2つは熱狂的なファンが多いよ。"
+      },
+      {
+        "id": "19sbh5uy7jmxu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 0,
+        "text": "Superlight 2cは癖のない万能な形状で、つまみ持ちでもいける。小型マウスを探していてどんな形状がいいか分からないなら、これはすごくおすすめ。\n\nHyperlight Xもつまみ持ちができるし、実際2cの重量よりもかなり軽い。つまみ持ちスタイルにおいては、軽ければ軽いほど良いからね。"
+      },
+      {
+        "id": "19sbqsgh3g63l",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "明らかにHitscan。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xqipqp.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%81%A4%E3%81%BE%E3%81%BF%E6%8C%81%E3%81%A1%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E3%80%8CGPX2c%EF%BC%88Mini%EF%BC%89%E3%80%8D%E3%81%A8%E3%80%8CHitscan%20Hyperlight%20X%E3%80%8D%E3%81%A7%E8%BF%B7%E3%81%A3%E3%81%9F%E7%B5%90%E6%9E%9C%E2%80%A6%E6%B5%B7%E5%A4%96%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%AE%E7%B5%90%E8%AB%96%E3%81%AFHitscan%E3%82%92%E6%BF%80%E6%8E%A8%E3%81%97%EF%BC%81%0A%E3%81%A4%E3%81%BE%E3%81%BF%E6%8C%81%E3%81%A1%E3%81%AF%E6%89%8B%E3%81%AE%E3%81%B2%E3%82%89%E3%81%8C%E6%8E%A5%E3%81%97%E3%81%AA%E3%81%84%E3%81%9F%E3%82%81%E3%80%81%E3%81%A8%E3%81%AB%E3%81%8B%E3%81%8F%E8%BB%BD%E3%81%95%E3%81%A8%E6%8C%81%E3%81%A1%E6%96%B9%E7%89%B9%E5%8C%96%E5%BD%A2%E7%8A%B6%E3%81%8C%E6%9C%80%E9%87%8D%E8%A6%81%E3%81%A8%E3%81%AE%E3%81%93%E3%81%A8%E3%80%82%E3%83%97%E3%83%AD%E4%BA%BA%E6%B0%97%E3%81%8B%E3%80%81%E7%89%B9%E5%8C%96%E6%80%A7%E8%83%BD%E3%81%8B%EF%BC%9F%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xqipqp.html",
+    "created_at": "2026-11-08T22:41:49.501541+00:00"
+  },
+  {
+    "id": "1xqh25a",
+    "subreddit": "MousepadReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "SR-SE with flat packaging",
+    "selftext_en": "I saw that the orange one comes flat and had to try it. Tbh I think any pads over 30$ should come with a flat package, but this is a good starting point for Zowie. I remember my GSR took half a year to flatten it out.",
+    "image_urls": [
+      "https://i.redd.it/87h6c3bja90i1.jpeg",
+      "https://i.redd.it/scg4m4bja90i1.jpeg"
+    ],
+    "score": 24,
+    "num_comments": 24,
+    "permalink": "https://www.reddit.com/r/MousepadReview/comments/1xqh25a/srse_with_flat_packaging/",
+    "comments": [
+      "[+-2] not related to your post's issue but. \n\neww why did benQ chose such a cheap looking pattern during design and production. also.. the color... \n\nugh.. so gaudy. It looks more like a 4 dollar kitchen mat than a 20 dollar gaming mousepad.",
+      "[+6] What. ?",
+      "[+2] I do wonder how much better these would sell if they were solid colors",
+      "[+1] Probably something worth spending money on.",
+      "[+0] There is a hint on the mat itself",
+      "[+1] It's just the bad lighting I swear😂 it looks so much better in person",
+      "[+1] lol, not attacking your personal taste. I just dont agree with BenQ's design.",
+      "[+1] How much did you pay for it..., i bought it 2 weeks ago in a sale at 40 usd",
+      "[+1] I paid 60$ in usd (87000 in KRW). did you bought the largest one(hsr) in that price?",
+      "[+3] What do you think of it? Any chance you play CS? I want to try something quicker but I'm so used to my mud pads",
+      "[+2] Not OP but I have the SR SE Blue II, and it’s my favourite mousepad I’ve owned in several years. \n\nUsed Artisan Zero, Qck heavy, Endgame gear EM-C, Zowie G-SR II, Zowie H-TR (the muddiest of them all), and honestly, the SR SE is PERFECT for me. Sweet spot between muddy/controlled and speed.\n\nI’m on 800 dpi and 0.8 sens, Superstrike X3 stock skates (they are also on the slow side, so maybe the combination makes it perfect). My aim rating varies between 88 and 92 on Leetify with rifles mainly, Faceit lvl 10 and 28k prem.\n\nI’d say you should definitely test it, worth every cent for me, and I’m really happy I purchased it, which I was initially not very convinced I’d like it",
+      "[+1] I have it I just play shit in DM and a pug for one session and give up 😭. My mouse control is ass",
+      "[+1] I don’t play CS, so hopefully the comment above is more helpful. I think finding the right skate might help",
+      "[+2] Is it only the orange colour that comes packed flat? C'mon Zowie, you can do better than that. These aren't budget pads.",
+      "[+1] That's what I'm saying😂",
+      "[+1] Is this a high speed cloth pad?",
+      "[+2] I think it's between balance and speed, but the weave is dense so it has good stopping power.",
+      "[+2] I loved mine",
+      "[+1] I'm loving mine too!",
+      "[+1] Apart from the flat packaging is there anything special about the orange gsr/hsr se? I see people glaze the orange one specifically",
+      "[+2] I used to have blue one and I think SR SE has the same surface no matter the color.",
+      "[+3] Love that color",
+      "[+2] It was better than I expected",
+      "[+1] Hmm… I’m thinking of pulling the trigger on another gsr to have as a back up. I currently only use the type-99 but may consider getting this one. Nice to see they’re now shipping them in flat packaging. I remember my rouge took a while to lay flat when I first got it."
+    ],
+    "comment_tree": [
+      {
+        "id": "19samwfaf0k0z",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": -2,
+        "body_en": "not related to your post's issue but. \n\neww why did benQ chose such a cheap looking pattern during design and production. also.. the color... \n\nugh.. so gaudy. It looks more like a 4 dollar kitchen mat than a 20 dollar gaming mousepad.",
+        "depth": 0,
+        "body_ja": "投稿の趣旨とは関係ないんだけどさ。うわぁ、なんでBenQは設計と生産のときにこんな安っぽいパターンを選んだんだろう。色もさ…うげぇ…派手すぎるよ。20ドルのゲーミングマウスパッドというより、4ドルのキッチンマットに見える。"
+      },
+      {
+        "id": "19sao2fd2a1k0",
+        "parent_id": "19samwfaf0k0z",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "body_en": "What. ?",
+        "depth": 1,
+        "body_ja": "は？なに言ってんの？"
+      },
+      {
+        "id": "19sao4893tizm",
+        "parent_id": "19samwfaf0k0z",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I do wonder how much better these would sell if they were solid colors",
+        "depth": 1,
+        "body_ja": "もしこれが単色だったらどれくらい売れ行きが良かったのか気になるね。"
+      },
+      {
+        "id": "19saoe4y23ckj",
+        "parent_id": "19sao4893tizm",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Probably something worth spending money on.",
+        "depth": 2,
+        "body_ja": "おそらくお金を払う価値があるものになってただろうね。"
+      },
+      {
+        "id": "19saomlavyctg",
+        "parent_id": "19samwfaf0k0z",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "There is a hint on the mat itself",
+        "depth": 1,
+        "body_ja": "マット自体にヒントが書いてあるよ。"
+      },
+      {
+        "id": "19sbeg46e371c",
+        "parent_id": "19samwfaf0k0z",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "It's just the bad lighting I swear😂 it looks so much better in person",
+        "depth": 1,
+        "body_ja": "ライティングが悪いだけだって誓うよ😂 実物はもっとずっと良く見えるんだ。"
+      },
+      {
+        "id": "19sbejgehnjog",
+        "parent_id": "19sbeg46e371c",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "lol, not attacking your personal taste. I just dont agree with BenQ's design.",
+        "depth": 2,
+        "body_ja": "笑、君個人の好みを攻撃してるわけじゃないんだ。ただBenQのデザインに同意できないってだけでね。"
+      },
+      {
+        "id": "19sanm8yj20ys",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "How much did you pay for it..., i bought it 2 weeks ago in a sale at 40 usd",
+        "depth": 0,
+        "body_ja": "いくらで買ったの？自分は2週間前のセールで40USDで買ったんだけど。"
+      },
+      {
+        "id": "19sbdov47r2hv",
+        "parent_id": "19sanm8yj20ys",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I paid 60$ in usd (87000 in KRW). did you bought the largest one(hsr) in that price?",
+        "depth": 1,
+        "body_ja": "米ドルで60ドル（韓国ウォンで87,000ウォン）払ったよ。その値段で一番大きいサイズ（H-SR / Lサイズ）を買ったの？"
+      },
+      {
+        "id": "19sann1lsmw6a",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "What do you think of it? Any chance you play CS? I want to try something quicker but I'm so used to my mud pads",
+        "depth": 0,
+        "body_ja": "使ってみてどう？もしかしてCS（カウンターストライク）やってたりする？もっと滑りが速いものを試してみたいんだけど、ずっと泥沼系のパッドに慣れちゃっててさ。"
+      },
+      {
+        "id": "19sapcqaveycl",
+        "parent_id": "19sann1lsmw6a",
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Not OP but I have the SR SE Blue II, and it’s my favourite mousepad I’ve owned in several years. \n\nUsed Artisan Zero, Qck heavy, Endgame gear EM-C, Zowie G-SR II, Zowie H-TR (the muddiest of them all), and honestly, the SR SE is PERFECT for me. Sweet spot between muddy/controlled and speed.\n\nI’m on 800 dpi and 0.8 sens, Superstrike X3 stock skates (they are also on the slow side, so maybe the combination makes it perfect). My aim rating varies between 88 and 92 on Leetify with rifles mainly, Faceit lvl 10 and 28k prem.\n\nI’d say you should definitely test it, worth every cent for me, and I’m really happy I purchased it, which I was initially not very convinced I’d like it",
+        "depth": 1,
+        "body_ja": "スレ主じゃないけど、自分はG-SR-SE Blue IIを持っていて、ここ数年所有した中で一番お気に入りのマウスパッドだよ。ARTISAN 零、QcK Heavy、Endgame Gear EM-C、ZOWIE G-SR II、ZOWIE H-TR（これらの中で一番の泥沼系）を使ってきたけど、正直G-SR-SEは自分にとって完璧。泥沼系/コントロール系とスピード系の中間の絶妙なバランスなんだ。800 DPIのゲーム内センシ0.8で、Superstrike X3の純正ソール（これも遅めだから相性が完璧なのかも）を使ってる。Leetifyのライフルエイムレートは88〜92あたりで、Faceitレベル10、プレミア28k。絶対に試してみる価値はあると思うよ。自分にとっては一分一秒の価値があったし、最初は気に入るか半信半疑だったから本当に買って良かったよ。"
+      },
+      {
+        "id": "19saslefk17j6",
+        "parent_id": "19sapcqaveycl",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I have it I just play shit in DM and a pug for one session and give up 😭. My mouse control is ass",
+        "depth": 2,
+        "body_ja": "持ってはいるんだけど、DMや1セッションの試合でプレイがクソすぎてすぐ諦めちゃうんだよね😭 エイムコントロールがゴミすぎて。"
+      },
+      {
+        "id": "19sbe7w9mm82p",
+        "parent_id": "19saslefk17j6",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I don’t play CS, so hopefully the comment above is more helpful. I think finding the right skate might help",
+        "depth": 3,
+        "body_ja": "自分はCSをやらないから、上のコメントの方が参考になると思う。適切なソールを見つけるのも助けになるかもね。"
+      },
+      {
+        "id": "19sapcfa11opu",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Is it only the orange colour that comes packed flat? C'mon Zowie, you can do better than that. These aren't budget pads.",
+        "depth": 0,
+        "body_ja": "フラット梱包で届くのはオレンジ色だけなの？頼むよZOWIE、もっと頑張ってくれよ。これらは格安パッドじゃないんだからさ。"
+      },
+      {
+        "id": "19sbe9ahb4wgz",
+        "parent_id": "19sapcfa11opu",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "That's what I'm saying😂",
+        "depth": 1,
+        "body_ja": "ほんとそれな😂"
+      },
+      {
+        "id": "19sawgbockgh0",
+        "parent_id": null,
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Is this a high speed cloth pad?",
+        "depth": 0,
+        "body_ja": "これは高速系の布パッドなの？"
+      },
+      {
+        "id": "19sbdtxyefu5g",
+        "parent_id": "19sawgbockgh0",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "I think it's between balance and speed, but the weave is dense so it has good stopping power.",
+        "depth": 1,
+        "body_ja": "バランスとスピードの間くらいだと思う。でも織りが密だから止める力もしっかりあるよ。"
+      },
+      {
+        "id": "19sb8jusbc7l0",
+        "parent_id": null,
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I loved mine",
+        "depth": 0,
+        "body_ja": "自分が使ってたやつ、最高に気に入ってたな。"
+      },
+      {
+        "id": "19sbfuuapj78h",
+        "parent_id": "19sb8jusbc7l0",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I'm loving mine too!",
+        "depth": 1,
+        "body_ja": "僕も自分のやつがすごく気に入ってるよ！"
+      },
+      {
+        "id": "19sb8vsnr9rvn",
+        "parent_id": null,
+        "author": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Apart from the flat packaging is there anything special about the orange gsr/hsr se? I see people glaze the orange one specifically",
+        "depth": 0,
+        "body_ja": "フラット梱包以外に、オレンジのG-SR-SE/H-SR-SEで何か特別なところはある？オレンジのやつだけ特別絶賛してる人をよく見かけるんだけど。"
+      },
+      {
+        "id": "19sbecbo43n8g",
+        "parent_id": "19sb8vsnr9rvn",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "I used to have blue one and I think SR SE has the same surface no matter the color.",
+        "depth": 1,
+        "body_ja": "以前青いのも使ってたけど、G-SR-SEは色に関係なく表面は同じだと思うよ。"
+      },
+      {
+        "id": "19sbbq264trhd",
+        "parent_id": null,
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Love that color",
+        "depth": 0,
+        "body_ja": "その色大好き。"
+      },
+      {
+        "id": "19sbfwicbwxgk",
+        "parent_id": "19sbbq264trhd",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "It was better than I expected",
+        "depth": 1,
+        "body_ja": "想像していた以上に良かったよ。"
+      },
+      {
+        "id": "19sbg1z2ej690",
+        "parent_id": null,
+        "author": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Hmm… I’m thinking of pulling the trigger on another gsr to have as a back up. I currently only use the type-99 but may consider getting this one. Nice to see they’re now shipping them in flat packaging. I remember my rouge took a while to lay flat when I first got it.",
+        "depth": 0,
+        "body_ja": "ふむ…バックアップ用にもう一枚G-SRを買おうか迷ってるんだよね。今はType-99しか使ってないけど、これの購入も検討してみようかな。フラットパッケージで出荷されるようになったのはナイスだね。前にRougeを買った時は平らになるまで結構時間がかかったのを覚えてるよ。"
+      }
+    ],
+    "title_ja": "ZOWIE G-SR-SEのフラットパッケージ化が話題！巻き癖の解消と実際の滑走感を海外ユーザーが徹底議論",
+    "hook_ja": "ZOWIEの定番マウスパッド「G-SR-SE」のオレンジカラー版がフラットパッケージで出荷されていることが海外で注目を集めています。長年悩まされてきた巻き癖の解消や、他の布製マウスパッドとの滑りの比較についてコミュニティで議論されています。",
+    "op_post_ja": "オレンジ色のやつがフラット梱包（折らずに平らな状態）で届くのを見て、試さずにはいられませんでした。正直、30ドル以上のマウスパッドはすべてフラットパッケージで送られてくるべきだと思いますが、ZOWIEにとってこれは良い第一歩ですね。以前使っていたG-SRは、平らに伸ばすのに半年かかったのを覚えています。",
+    "consensus_points": [
+      "30ドル以上のゲーミングマウスパッドは巻き癖を防ぐためにフラットパッケージで出荷されるべきだという意見が多い。",
+      "ZOWIE G-SR-SEの表面性能は色によって違いはなく、コントロールとスピードの中間で優れたストッピングパワーを持つ。",
+      "CS2などのタクティカルFPSユーザーにとって、泥沼系（高摩擦）から少し滑りを速くしたい場合の移行先として評価が高い。"
+    ],
+    "detailed_analysis_ja": "BenQ ZOWIEの「G-SR-SE」シリーズは、タクティカルFPS（CS2やVALORANTなど）のコミュニティで長年にわたり標準的なバランスコントロール系パッドとして愛用されています。本スレッドでは、製品の性能だけでなく梱包形態やデザインについての熱い議論が交わされています。\n\n【1. フラットパッケージの重要性とユーザーの要望】\n従来のマウスパッドは箱に丸められて梱包されることが多く、開封後に端が浮き上がったり巻き癖が戻るまで数週間から数か月かかることが珍しくありませんでした。特にZOWIEのベース素材は巻き癖が取れにくいことで知られており、スレ主が語るように過去製品（G-SRやG-SR-SE Rouge）では平らになるまで長時間を要していました。オレンジカラー（G-SR-SE Gris/Biなど派生や新ロット含む）で導入されたフラット梱包は、箱から出してすぐに100%のパフォーマンスを発揮できるため、高価格帯マウスパッド市場での強いアドバンテージとして評価されています。\n\n【2. G-SR-SEの操作感と他社製品との比較】\nコメント欄では「泥沼系（Mud pad＝極端に摩擦が大きい超コントロール系）」からの移行先としてG-SR-SEが議論されています。ARTISAN 零、QcK Heavy、Endgame Gear EM-C、ZOWIE G-SR IIなどと比較した際、G-SR-SEは「初動の滑りやすさと滑走中のコントロール・制動性のバランス」が絶妙であるとされています。高密度の織りにより適度なストッピングパワーを提供し、ローシックスピードのプレイヤー（例: 800DPI センシ0.8等）にとっても狙った位置で止めやすいという評判を維持しています。\n\n【3. カラーバリエーションとデザインの賛否】\nG-SR-SEはBlue II、Gris、Bi（オレンジ系）など印象的なパターン柄を採用していますが、デザインに関しては好みが分かれています。単色モデルを望む声がある一方で、実物の色合いや質感を支持するユーザーもおり、色ごとの滑りの差については「表面処理や織りは全色共通である」というのが共通認識となっています。",
+    "devices": [
+      {
+        "name": "BenQ ZOWIE G-SR-SE",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "滑走面はバランス〜スピード系の中に適度な制動力を兼ね備え、フラットパッケージ採用により開封直後から快適に使用できると高評価を得ている。"
+      },
+      {
+        "name": "BenQ ZOWIE G-SR II",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "コントロール重視のゲーミングマウスパッドとして比較対象として言及された。"
+      },
+      {
+        "name": "ARTISAN 零 Soft",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "ハイエンド布製パッドの基準点として、G-SR-SEとの滑りの比較対象に挙げられた。"
+      },
+      {
+        "name": "ARTISAN TYPE-99",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "超コントロール系パッドの代表例として、G-SR-SEへの乗り換え候補検討の際に名前が挙がった。"
+      },
+      {
+        "name": "SteelSeries QcK Heavy",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "定番の厚型コントロール系マウスパッドとして比較に使用された。"
+      },
+      {
+        "name": "Endgame Gear EM-C",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "高品質なポーロンベースのコントロール系マウスパッドとして実績比較で言及された。"
+      }
+    ],
+    "x_main_post": "ZOWIEの定番マウスパッド「G-SR-SE」のオレンジモデルが平箱（フラットパッケージ）で出荷開始！\n\n巻き癖の解消に喜ぶ声や、適度な滑りと制動力を併せ持つバランス感に絶賛が集まっています。CS2や泥沼系パッドからの移行先としても好評です。",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "マウスパッドの巻き癖って本当に邪魔なのだ！",
+        "caption": "巻き癖の悩み"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ZOWIEのG-SR-SEオレンジ版がフラット梱包になったよ！",
+        "caption": "平箱出荷スタート"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "まっすぐな状態で届くのは最高なのだ！使い心地はどうなのだ？",
+        "caption": "実際の使い心地は？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "滑りと止まりのバランスが絶妙で、CS2猛者にも大人気なんだよね。",
+        "caption": "絶妙な操作感"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "重めの泥沼系パッドから少し滑りを速くしたい人に特におすすめだよ！",
+        "caption": "泥沼系からの移行先"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "箱から出してすぐ100%の性能で使えるのは素晴らしいのだ！",
+        "caption": "開封即ベスト状態"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ、派手な柄デザインは好みが分かれるから気をつけてね！",
+        "caption": "デザインの好み"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19samwfaf0k0z",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": -2,
+        "text": "投稿の趣旨とは関係ないんだけどさ。うわぁ、なんでBenQは設計と生産のときにこんな安っぽいパターンを選んだんだろう。色もさ…うげぇ…派手すぎるよ。20ドルのゲーミングマウスパッドというより、4ドルのキッチンマットに見える。"
+      },
+      {
+        "id": "19sao2fd2a1k0",
+        "parent_id": "19samwfaf0k0z",
+        "depth": 1,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 6,
+        "text": "は？なに言ってんの？"
+      },
+      {
+        "id": "19sao4893tizm",
+        "parent_id": "19samwfaf0k0z",
+        "depth": 1,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "もしこれが単色だったらどれくらい売れ行きが良かったのか気になるね。"
+      },
+      {
+        "id": "19saoe4y23ckj",
+        "parent_id": "19sao4893tizm",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "おそらくお金を払う価値があるものになってただろうね。"
+      },
+      {
+        "id": "19saomlavyctg",
+        "parent_id": "19samwfaf0k0z",
+        "depth": 1,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "マット自体にヒントが書いてあるよ。"
+      },
+      {
+        "id": "19sbeg46e371c",
+        "parent_id": "19samwfaf0k0z",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ライティングが悪いだけだって誓うよ😂 実物はもっとずっと良く見えるんだ。"
+      },
+      {
+        "id": "19sbejgehnjog",
+        "parent_id": "19sbeg46e371c",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "笑、君個人の好みを攻撃してるわけじゃないんだ。ただBenQのデザインに同意できないってだけでね。"
+      },
+      {
+        "id": "19sanm8yj20ys",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "いくらで買ったの？自分は2週間前のセールで40USDで買ったんだけど。"
+      },
+      {
+        "id": "19sbdov47r2hv",
+        "parent_id": "19sanm8yj20ys",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "米ドルで60ドル（韓国ウォンで87,000ウォン）払ったよ。その値段で一番大きいサイズ（H-SR / Lサイズ）を買ったの？"
+      },
+      {
+        "id": "19sann1lsmw6a",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "使ってみてどう？もしかしてCS（カウンターストライク）やってたりする？もっと滑りが速いものを試してみたいんだけど、ずっと泥沼系のパッドに慣れちゃっててさ。"
+      },
+      {
+        "id": "19sapcqaveycl",
+        "parent_id": "19sann1lsmw6a",
+        "depth": 1,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "スレ主じゃないけど、自分はG-SR-SE Blue IIを持っていて、ここ数年所有した中で一番お気に入りのマウスパッドだよ。ARTISAN 零、QcK Heavy、Endgame Gear EM-C、ZOWIE G-SR II、ZOWIE H-TR（これらの中で一番の泥沼系）を使ってきたけど、正直G-SR-SEは自分にとって完璧。泥沼系/コントロール系とスピード系の中間の絶妙なバランスなんだ。800 DPIのゲーム内センシ0.8で、Superstrike X3の純正ソール（これも遅めだから相性が完璧なのかも）を使ってる。Leetifyのライフルエイムレートは88〜92あたりで、Faceitレベル10、プレミア28k。絶対に試してみる価値はあると思うよ。自分にとっては一分一秒の価値があったし、最初は気に入るか半信半疑だったから本当に買って良かったよ。"
+      },
+      {
+        "id": "19saslefk17j6",
+        "parent_id": "19sapcqaveycl",
+        "depth": 2,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "持ってはいるんだけど、DMや1セッションの試合でプレイがクソすぎてすぐ諦めちゃうんだよね😭 エイムコントロールがゴミすぎて。"
+      },
+      {
+        "id": "19sbe7w9mm82p",
+        "parent_id": "19saslefk17j6",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "自分はCSをやらないから、上のコメントの方が参考になると思う。適切なソールを見つけるのも助けになるかもね。"
+      },
+      {
+        "id": "19sapcfa11opu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "フラット梱包で届くのはオレンジ色だけなの？頼むよZOWIE、もっと頑張ってくれよ。これらは格安パッドじゃないんだからさ。"
+      },
+      {
+        "id": "19sbe9ahb4wgz",
+        "parent_id": "19sapcfa11opu",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ほんとそれな😂"
+      },
+      {
+        "id": "19sawgbockgh0",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "これは高速系の布パッドなの？"
+      },
+      {
+        "id": "19sbdtxyefu5g",
+        "parent_id": "19sawgbockgh0",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "バランスとスピードの間くらいだと思う。でも織りが密だから止める力もしっかりあるよ。"
+      },
+      {
+        "id": "19sb8jusbc7l0",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "自分が使ってたやつ、最高に気に入ってたな。"
+      },
+      {
+        "id": "19sbfuuapj78h",
+        "parent_id": "19sb8jusbc7l0",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "僕も自分のやつがすごく気に入ってるよ！"
+      },
+      {
+        "id": "19sb8vsnr9rvn",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "フラット梱包以外に、オレンジのG-SR-SE/H-SR-SEで何か特別なところはある？オレンジのやつだけ特別絶賛してる人をよく見かけるんだけど。"
+      },
+      {
+        "id": "19sbecbo43n8g",
+        "parent_id": "19sb8vsnr9rvn",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "以前青いのも使ってたけど、G-SR-SEは色に関係なく表面は同じだと思うよ。"
+      },
+      {
+        "id": "19sbbq264trhd",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "その色大好き。"
+      },
+      {
+        "id": "19sbfwicbwxgk",
+        "parent_id": "19sbbq264trhd",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "想像していた以上に良かったよ。"
+      },
+      {
+        "id": "19sbg1z2ej690",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー13",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ふむ…バックアップ用にもう一枚G-SRを買おうか迷ってるんだよね。今はType-99しか使ってないけど、これの購入も検討してみようかな。フラットパッケージで出荷されるようになったのはナイスだね。前にRougeを買った時は平らになるまで結構時間がかかったのを覚えてるよ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xqh25a.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=ZOWIE%E3%81%AE%E5%AE%9A%E7%95%AA%E3%83%9E%E3%82%A6%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%E3%80%8CG-SR-SE%E3%80%8D%E3%81%AE%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%A2%E3%83%87%E3%83%AB%E3%81%8C%E5%B9%B3%E7%AE%B1%EF%BC%88%E3%83%95%E3%83%A9%E3%83%83%E3%83%88%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%EF%BC%89%E3%81%A7%E5%87%BA%E8%8D%B7%E9%96%8B%E5%A7%8B%EF%BC%81%0A%0A%E5%B7%BB%E3%81%8D%E7%99%96%E3%81%AE%E8%A7%A3%E6%B6%88%E3%81%AB%E5%96%9C%E3%81%B6%E5%A3%B0%E3%82%84%E3%80%81%E9%81%A9%E5%BA%A6%E3%81%AA%E6%BB%91%E3%82%8A%E3%81%A8%E5%88%B6%E5%8B%95%E5%8A%9B%E3%82%92%E4%BD%B5%E3%81%9B%E6%8C%81%E3%81%A4%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E6%84%9F%E3%81%AB%E7%B5%B6%E8%B3%9B%E3%81%8C%E9%9B%86%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82CS2%E3%82%84%E6%B3%A5%E6%B2%BC%E7%B3%BB%E3%83%91%E3%83%83%E3%83%89%E3%81%8B%E3%82%89%E3%81%AE%E7%A7%BB%E8%A1%8C%E5%85%88%E3%81%A8%E3%81%97%E3%81%A6%E3%82%82%E5%A5%BD%E8%A9%95%E3%81%A7%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xqh25a.html",
+    "created_at": "2026-11-08T22:44:37.632280+00:00"
   }
 ]
