@@ -1423,6 +1423,29 @@ def build_site(
     site_base_url = (cfg.get("SITE_BASE_URL") or "https://aimswamp.github.io/aimlog").strip().rstrip("/")
     google_verify = (cfg.get("GOOGLE_SITE_VERIFICATION") or "").strip()
     google_verify_tag = f'\n  <meta name="google-site-verification" content="{html.escape(google_verify)}">' if google_verify else ""
+    ga_id_raw = (cfg.get("GA_MEASUREMENT_ID") or "G-GVJ6WP67D7").strip()
+    if ga_id_raw:
+        ga_id_esc = html.escape(ga_id_raw)
+        ga_head_tag = (
+            f'\n  <script async src="https://www.googletagmanager.com/gtag/js?id={ga_id_esc}"></script>'
+            f'\n  <script>'
+            f'\n    window.dataLayer = window.dataLayer || [];'
+            f'\n    function gtag(){{dataLayer.push(arguments);}}'
+            f"\n    gtag('js', new Date());"
+            f"\n    gtag('config', '{ga_id_esc}');"
+            f"\n    document.addEventListener('click', function(e) {{"
+            f"\n      var a = e.target && e.target.closest ? e.target.closest('a.shop-btn') : null;"
+            f"\n      if (!a || typeof gtag !== 'function') return;"
+            f"\n      var store = a.classList.contains('shop-btn-amzn') ? 'amazon' : (a.classList.contains('shop-btn-rktn') ? 'rakuten' : 'other');"
+            f"\n      var card = a.closest('.gear-row, .rank-row');"
+            f"\n      var nameEl = card ? card.querySelector('.gear-title, .rank-name') : null;"
+            f"\n      var itemName = nameEl ? nameEl.textContent.trim() : '';"
+            f"\n      gtag('event', 'affiliate_click', {{ store: store, item_name: itemName, link_url: a.href }});"
+            f"\n    }});"
+            f'\n  </script>'
+        )
+    else:
+        ga_head_tag = ""
     x_account_raw = (cfg.get("X_ACCOUNT_ID") or "").strip().lstrip("@")
     if x_account_raw:
         x_handle_disp = f"@{html.escape(x_account_raw)}"
@@ -2643,7 +2666,7 @@ a.gear-chip:hover {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{title} | エイム沼の海外ログ</title>
   <meta name="description" content="{meta_desc_esc}">
-  <meta name="robots" content="index, follow">{google_verify_tag}
+  <meta name="robots" content="index, follow">{google_verify_tag}{ga_head_tag}
   <link rel="canonical" href="{art_canonical_esc}">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="エイム沼の海外ログ">
@@ -3049,7 +3072,7 @@ a.gear-chip:hover {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{index_title_full}</title>
   <meta name="description" content="{index_desc_esc}">
-  <meta name="robots" content="index, follow">{google_verify_tag}
+  <meta name="robots" content="index, follow">{google_verify_tag}{ga_head_tag}
   <link rel="canonical" href="{index_canonical_esc}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="エイム沼の海外ログ">
@@ -3390,10 +3413,18 @@ a.gear-chip:hover {
     )
     (out_dir / "sitemap.xml").write_text(sitemap_xml, encoding="utf-8")
 
+    sitemap_txt_lines = [f"{site_base_url}/"] + [
+        f"{site_base_url}/articles/{str(art.get('id')).strip()}.html"
+        for art in published
+        if str(art.get("id") or "").strip()
+    ]
+    (out_dir / "sitemap.txt").write_text("\n".join(sitemap_txt_lines) + "\n", encoding="utf-8")
+
     robots_txt = (
         "User-agent: *\n"
         "Allow: /\n"
         f"Sitemap: {site_base_url}/sitemap.xml\n"
+        f"Sitemap: {site_base_url}/sitemap.txt\n"
     )
     (out_dir / "robots.txt").write_text(robots_txt, encoding="utf-8")
 
