@@ -73,6 +73,7 @@ JP_NAME_RULES: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"\bArtisan\s+(?:Hayate\s*)?Otsu\b", re.IGNORECASE), "ARTISAN 疾風乙"),
     (re.compile(r"\bArtisan\s+Hien\b", re.IGNORECASE), "ARTISAN 飛燕"),
     (re.compile(r"\bArtisan\s+(?:Type[-\s]*99|99)\b", re.IGNORECASE), "ARTISAN 99式"),
+    (re.compile(r"\bArtisan\s+(?:Key[-\s]*83|結\s*83|キ\s*83)\b", re.IGNORECASE), "ARTISAN キ 83"),
     (re.compile(r"\bXraypad\b", re.IGNORECASE), "X-raypad"),
 ]
 
