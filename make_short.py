@@ -1819,6 +1819,11 @@ def score_article_for_shorts(article: dict[str, Any]) -> float:
         ("dpi", 28.0),
         ("感度", 22.0),
         ("センシ", 22.0),
+        ("ローセンシ", 24.0),
+        ("ハイセンシ", 24.0),
+        ("ハイセンス", 20.0),
+        ("低感度", 22.0),
+        ("高感度", 22.0),
         ("振り向き", 20.0),
         ("ガラス", 26.0),
         ("ソール", 26.0),
@@ -1847,8 +1852,20 @@ def score_article_for_shorts(article: dict[str, Any]) -> float:
         ("トラッキング", 16.0),
         ("マイクロフリック", 18.0),
         ("フリック", 14.0),
+        ("クロスヘア", 22.0),
+        ("頭に合っている", 22.0),
+        ("外す", 18.0),
+        ("カクつき", 20.0),
+        ("ブレ", 18.0),
         ("脱力", 18.0),
         ("力み", 16.0),
+        ("手首", 16.0),
+        ("前腕", 16.0),
+        ("腕", 14.0),
+        ("実戦", 20.0),
+        ("1v1", 18.0),
+        ("プリエイム", 18.0),
+        ("デメリット", 20.0),
         ("つかみ持ち", 18.0),
         ("つまみ持ち", 18.0),
         ("かぶせ持ち", 18.0),
@@ -1857,19 +1874,29 @@ def score_article_for_shorts(article: dict[str, Any]) -> float:
         ("比較", 15.0),
         ("おすすめ", 14.0),
         ("移行", 14.0),
+        ("valorant", 18.0),
+        ("apex", 18.0),
+        ("overwatch", 14.0),
+        ("cs2", 14.0),
     ]
     for kw, pts in high_impact_keywords:
         if kw in text:
             score += pts
 
-    # 4. ニッチすぎる個人雑談・海外店舗固有ネタは後回しにする減点
+    # 4. ニッチすぎる個人雑談・海外店舗固有ネタ・マイナーシナリオ探しは後回しにする減点
     low_appeal_keywords = [
         ("盗難", -45.0),
         ("ギフト券", -45.0),
         ("best buy", -45.0),
+        ("インシャラー", -40.0),
         ("アレルギー", -35.0),
         ("ペイント代行", -30.0),
+        ("見つからない", -30.0),
+        ("って良いの", -30.0),
         ("カスタムペイント", -25.0),
+        ("探す方法", -25.0),
+        ("roblox", -25.0),
+        ("krunker", -25.0),
         ("偽物", -20.0),
         ("aliexpress", -20.0),
     ]
@@ -1882,6 +1909,49 @@ def score_article_for_shorts(article: dict[str, Any]) -> float:
     score += min(num_comments, 50) * 0.3
 
     return score
+
+
+def select_balanced_shorts_batch(
+    candidates: list[dict[str, Any]],
+    budget: int,
+) -> list[dict[str, Any]]:
+    """
+    スコア順ソート済みの候補記事リストから、デバイス系（MouseReview / MousepadReview）と
+    エイム理論・感度系（FPSAimTrainer）を 3 : 2 の黄金比率（[Gear, Aim, Gear, Aim, Gear]）で
+    交互にピックアップする。
+    - デバイス系でアフィリエイト成約を狙いつつ、全FPS層に刺さるエイム・感度論争を混ぜることで
+      コメント欄の議論と視聴者層拡大（1,350再生の壁突破）を同時に実現する。
+    """
+    if budget <= 0 or not candidates:
+        return []
+
+    gear_pool = [a for a in candidates if a.get("subreddit") != "FPSAimTrainer"]
+    aim_pool = [a for a in candidates if a.get("subreddit") == "FPSAimTrainer"]
+
+    selected: list[dict[str, Any]] = []
+    g_idx = 0
+    a_idx = 0
+    slot = 0
+
+    # 5本周期で [Gear, Aim, Gear, Aim, Gear] の順にピックアップ（片方が尽きたらもう片方で埋める）
+    pattern_prefer_aim = (False, True, False, True, False)
+    while len(selected) < budget and (g_idx < len(gear_pool) or a_idx < len(aim_pool)):
+        want_aim = pattern_prefer_aim[slot % len(pattern_prefer_aim)]
+        slot += 1
+        if want_aim and a_idx < len(aim_pool):
+            selected.append(aim_pool[a_idx])
+            a_idx += 1
+        elif not want_aim and g_idx < len(gear_pool):
+            selected.append(gear_pool[g_idx])
+            g_idx += 1
+        elif g_idx < len(gear_pool):
+            selected.append(gear_pool[g_idx])
+            g_idx += 1
+        elif a_idx < len(aim_pool):
+            selected.append(aim_pool[a_idx])
+            a_idx += 1
+
+    return selected
 
 
 def _parse_max_uploads_arg(argv: list[str]) -> int:
@@ -1965,6 +2035,18 @@ def main() -> None:
             4.65,
         )
         assert "TopCtaBig" in ass_test and "【プロフィールのリンク】へ！" in ass_test
+        # デバイス系 3 : エイム理論系 2 の黄金比ピックアップテスト
+        mock_cands = [
+            {"id": "g1", "subreddit": "MouseReview"},
+            {"id": "g2", "subreddit": "MousepadReview"},
+            {"id": "g3", "subreddit": "MouseReview"},
+            {"id": "g4", "subreddit": "MouseReview"},
+            {"id": "a1", "subreddit": "FPSAimTrainer"},
+            {"id": "a2", "subreddit": "FPSAimTrainer"},
+            {"id": "a3", "subreddit": "FPSAimTrainer"},
+        ]
+        picked_5 = select_balanced_shorts_batch(mock_cands, 5)
+        assert [x["id"] for x in picked_5] == ["g1", "a1", "g2", "a2", "g3"]
         print("SHORT_SELF_TEST_OK")
         return
 
@@ -2022,15 +2104,18 @@ def main() -> None:
         ]
 
         # HDD圧迫＆長時間待機を防ぐため、`--all` 指定時以外は今回のアップロード上限（max_uploads）に必要な本数だけ生成する
+        # さらに デバイス系(MouseReview/MousepadReview) 3 : エイム理論系(FPSAimTrainer) 2 の黄金比で交互に選出する
         if "--all" not in sys.argv and not force_regen and max_uploads > 0:
             gen_budget = max(0, max_uploads - existing_ready_mp4s)
             if len(need_gen_articles) > gen_budget:
                 print(
                     f"[INFO] 未生成の公開記事が {len(need_gen_articles)} 件あります。"
                     f"HDD節約のため、今回のアップロード枠（最大{max_uploads}本、既存未投稿MP4 {existing_ready_mp4s}本）に合わせて "
-                    f"{gen_budget} 本を生成します。"
+                    f"デバイス系・エイム理論系をバランス良く {gen_budget} 本ピックアップして生成します。"
                 )
-                need_gen_articles = need_gen_articles[:gen_budget]
+                need_gen_articles = select_balanced_shorts_batch(need_gen_articles, gen_budget)
+        else:
+            need_gen_articles = select_balanced_shorts_batch(need_gen_articles, len(need_gen_articles))
 
         if need_gen_articles:
             if not check_prerequisites():
@@ -2106,6 +2191,13 @@ def main() -> None:
                     pending_uploads.append((art, mp4_path))
 
         if pending_uploads:
+            # 予約投稿の公開順も デバイス系 3 : エイム理論系 2 の交互順になるよう整列する
+            balanced_upload_arts = select_balanced_shorts_batch(
+                [art for art, _ in pending_uploads],
+                len(pending_uploads),
+            )
+            mp4_by_id = {str(art.get("id")): p for art, p in pending_uploads}
+            pending_uploads = [(art, mp4_by_id[str(art.get("id"))]) for art in balanced_upload_arts]
             try:
                 access_token = get_youtube_access_token()
             except Exception as e:
