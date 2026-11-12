@@ -1456,8 +1456,9 @@ def run_youtube_oauth_flow(client_id: str, client_secret: str) -> str:
 def get_youtube_access_token() -> str | None:
     """
     `.env` の認証情報から YouTube Data API v3 用のアクセストークンを取得する。
-    `YOUTUBE_CLIENT_ID` と `YOUTUBE_CLIENT_SECRET` が設定済みで `YOUTUBE_REFRESH_TOKEN` が未取得なら
-    自動的に初回ブラウザ認証フローを起動する。
+    `YOUTUBE_CLIENT_ID` と `YOUTUBE_CLIENT_SECRET` が設定済みで `YOUTUBE_REFRESH_TOKEN` が未取得、
+    または「テスト中」アプリの7日間有効期限切れ（HTTP 400 invalid_grant）になった場合は、
+    自動的にブラウザ認証フローを起動してトークンを更新し、そのまま処理を続行する。
     """
     creds = get_youtube_client_credentials()
     if not creds:
@@ -1467,25 +1468,42 @@ def get_youtube_access_token() -> str | None:
     if not refresh_token:
         refresh_token = run_youtube_oauth_flow(client_id, client_secret)
 
-    token_data = urllib.parse.urlencode({
-        "client_id": client_id,
-        "client_secret": client_secret,
-        "refresh_token": refresh_token,
-        "grant_type": "refresh_token",
-    }).encode("utf-8")
+    for attempt in range(2):
+        token_data = urllib.parse.urlencode({
+            "client_id": client_id,
+            "client_secret": client_secret,
+            "refresh_token": refresh_token,
+            "grant_type": "refresh_token",
+        }).encode("utf-8")
 
-    req = urllib.request.Request(
-        "https://oauth2.googleapis.com/token",
-        data=token_data,
-        headers={"Content-Type": "application/x-www-form-urlencoded"},
-        method="POST",
-    )
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        token_json = json.loads(resp.read().decode("utf-8"))
-    access_token = str(token_json.get("access_token") or "").strip()
-    if not access_token:
-        raise RuntimeError("YouTube アクセストークンの更新に失敗しました。")
-    return access_token
+        req = urllib.request.Request(
+            "https://oauth2.googleapis.com/token",
+            data=token_data,
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                token_json = json.loads(resp.read().decode("utf-8"))
+            access_token = str(token_json.get("access_token") or "").strip()
+            if not access_token:
+                raise RuntimeError("YouTube アクセストークンの更新に失敗しました。")
+            return access_token
+        except urllib.error.HTTPError as e:
+            err_body = ""
+            try:
+                err_body = e.read().decode("utf-8", errors="replace")
+            except Exception:
+                pass
+            if e.code in (400, 401) and attempt == 0:
+                print(
+                    f"\n[INFO] YouTube OAuth リフレッシュトークンの有効期限が切れています (HTTP {e.code})。\n"
+                    "       自動的にブラウザを開いて再認証を行い、そのままアップロードを続行します..."
+                )
+                refresh_token = run_youtube_oauth_flow(client_id, client_secret)
+                continue
+            raise RuntimeError(f"YouTube OAuth トークン更新エラー (HTTP {e.code}): {err_body}") from e
+    return None
 
 
 def build_youtube_metadata(article: dict[str, Any]) -> tuple[str, str, list[str]]:
