@@ -70624,5 +70624,1791 @@
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xv3aig.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=ARTISAN%20%E7%96%BE%E9%A2%A8%E4%B9%99%20V2%E3%81%AE%E6%B5%B7%E5%A4%96%E8%A9%95%E4%BE%A1%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%81%0A%0A%E3%83%BBKey-83%E3%82%88%E3%82%8A%E3%82%82%E6%BB%91%E3%82%8A%E3%81%8C%E9%80%9F%E3%81%8F%E5%BF%AB%E9%81%A9%0A%E3%83%BB%E7%A1%AC%E5%BA%A6%E3%81%AFSOFT%E3%81%8C%E4%BA%BA%E6%B0%97%0A%E3%83%BB%E6%93%8D%E4%BD%9C%E6%84%9F%E3%81%AF%E6%9C%80%E9%AB%98%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%A7%E3%81%8A%E6%B0%97%E3%81%AB%E5%85%A5%E3%82%8A%E3%81%AB%E3%81%AA%E3%82%8B%E4%BA%BA%E5%A4%9A%E6%95%B0%0A%E3%83%BB%E3%81%9F%E3%81%A0%E3%81%97%E5%AE%9A%E6%9C%9F%E7%9A%84%E3%81%AA%E6%89%8B%E5%85%A5%E3%82%8C%E3%81%8C%E5%BF%85%E8%A6%81%E3%81%A7%E8%80%90%E7%94%A8%E5%B9%B4%E6%95%B0%E3%81%AF%E7%9F%AD%E3%82%81%E3%81%A8%E3%81%AE%E5%A3%B0%E3%82%82%0A%0A%E3%82%B9%E3%83%94%E3%83%BC%E3%83%89%E3%81%A8%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E4%BA%BA%E3%81%AB%E6%9C%80%E9%81%A9%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xv3aig.html",
     "created_at": "2026-11-14T09:42:36.354016+00:00"
+  },
+  {
+    "id": "1xvl4jg",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Halfway there",
+    "selftext_en": "https://i.redd.it/91c5yj7vcg1i1.png",
+    "image_urls": [
+      "https://i.redd.it/91c5yj7vcg1i1.png"
+    ],
+    "score": 4,
+    "num_comments": 5,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xvl4jg/halfway_there/",
+    "comments": [
+      "[+1] Congrats! What sens do you use?",
+      "[+1] Thank you! I use different sensitivities depending on what I feel like and the scenario but anywhere from valorant 0.1 to 0.25 with 1600 dpi",
+      "[+1] I see, thank you!",
+      "[+1] Anytime man!",
+      "[+1] may i ask whats motivation for this benchmark?\n\ndo you also play vdim?\n\ni started this one i hope it could help my piece of shit static clicking to finally get a single jade in either iw3t or ww5t on voltaic kovaaks s5"
+    ],
+    "comment_tree": [
+      {
+        "id": "19sme74igrpyd",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Congrats! What sens do you use?",
+        "depth": 0,
+        "body_ja": "おめでとう！感度はどれくらい使ってる？"
+      },
+      {
+        "id": "19smf3h863odf",
+        "parent_id": "19sme74igrpyd",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Thank you! I use different sensitivities depending on what I feel like and the scenario but anywhere from valorant 0.1 to 0.25 with 1600 dpi",
+        "depth": 1,
+        "body_ja": "ありがとう！気分やシナリオによって変えてるんだけど、1600 DPIでValorant換算0.1から0.25の間くらいだよ。"
+      },
+      {
+        "id": "19smflaha7ep1",
+        "parent_id": "19smf3h863odf",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I see, thank you!",
+        "depth": 2,
+        "body_ja": "なるほど、教えてくれてありがとう！"
+      },
+      {
+        "id": "19smh3bdgu78h",
+        "parent_id": "19smflaha7ep1",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Anytime man!",
+        "depth": 3,
+        "body_ja": "いつでも聞いてね！"
+      },
+      {
+        "id": "19smruetaidr5",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "may i ask whats motivation for this benchmark?\n\ndo you also play vdim?\n\ni started this one i hope it could help my piece of shit static clicking to finally get a single jade in either iw3t or ww5t on voltaic kovaaks s5",
+        "depth": 0,
+        "body_ja": "このベンチマークをやろうと思ったモチベーションを聞いてもいい？あと、VDIMもやってる？ Voltaic KovaaK's S5の1w3tかww5tで、自分のゴミみたいなスタティッククリッキングをなんとかしてJadeひとつでも獲得できればと思ってこれを始めたんだよね。"
+      }
+    ],
+    "title_ja": "Voltaicベンチマーク中間地点に到達！感度設定と練習モチベーションのリアル",
+    "hook_ja": "Voltaicベンチマークで上位ランクの中間地点に到達したプレイヤーの報告スレッドです。使用している感度幅やトレーニングに対するモチベーションについて議論が行われています。",
+    "op_post_ja": "https://i.redd.it/91c5yj7vcg1i1.png",
+    "consensus_points": [
+      "固定の感度に捉われず、シナリオや体調に応じて幅広く感度を変更して練習するスタイルが実践されている",
+      "Valorant換算で0.1〜0.25（DPI 1600）という幅広で低〜中感度域をカバーしてトレーニングを行っている",
+      "スタティッククリッキングなどの弱点克服のためにベンチマークや特定メニュー（VDIM等）を活用することがモチベーションにつながる"
+    ],
+    "detailed_analysis_ja": "エイムトレーニングコミュニティ（Voltaic / KovaaK's）において、ベンチマークの進行度報告は自身の達成度を可視化するための重要なイベントです。本スレッドでは、上位ランクの中間地点（JadeやMaster、Grandmaster等の過渡期）に達した投稿者に対し、感度や練習法に関する質疑が行われています。\n\n【1. 感度選択の実態：固定感度 vs シナリオに応じた可変感度】\n一般的なFPSゲームでは単一の感度を定着させることが推奨されがちですが、競技エイム（エイムトレーナー）の文脈では「感度の可変運用（Sensitivity Variator）」が効果的であると広く認識されています。投稿者は1600 DPIにおいてValorant換算0.1〜0.25（約32.6 cm/360° 〜 81.5 cm/360°）という非常に広い範囲を気分やシナリオ（トラッキング系かクリッキング系か）に応じて使い分けています。これにより、手首・肘・肩の使い分けや微細な筋コントロールの学習が促進されます。\n\n【2. モチベーションとVDIM（Voltaic Daily Improvement Method）】\nコメント欄では、静止標的を狙撃する「Static Clicking（ww5tや1w3tなど）」の伸び悩みを解消するためにベンチマークに挑戦するユーザーからの質問が見られます。VDIM（Voltaicが提供する曜日別のデイリー練習プログラム）のように構造化されたメニューをこなすことが、苦手シナリオでJadeなどの高ランクを獲得するための有効なアプローチとして認識されています。",
+    "devices": [],
+    "x_main_post": "Voltaicベンチマーク中間地点に到達した猛者の感度設定と練習法！\n1600 DPIでVal換算0.1〜0.25（約32.6〜81.5cm）とシナリオに応じて幅広く調整するのがコツ。\n苦手なスタティック克服やランク到達には柔軟な感度運用と計画的練習が鍵！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "エイム練習で感度は固定すべきなのだ？",
+        "caption": "感度は固定すべき？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "猛者はシナリオに合わせてかなり変えてるんだよね！",
+        "caption": "シナリオで変える！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "どれくらいの幅で変えているのだ？",
+        "caption": "どのくらいの幅？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "1600DPIでVal換算0.1〜0.25まで使い分けてるよ！",
+        "caption": "超広範囲で変更！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "感度を変えることで色んな筋使いが鍛えられるんだよね！",
+        "caption": "筋コントロール向上"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "静止ターゲット対策にも効果的なのだ！",
+        "caption": "苦手克服に効果的！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ、自分の限界を超える無茶な設定には注意してね！",
+        "caption": "無理な設定に注意"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19sme74igrpyd",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "おめでとう！感度はどれくらい使ってる？"
+      },
+      {
+        "id": "19smf3h863odf",
+        "parent_id": "19sme74igrpyd",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ありがとう！気分やシナリオによって変えてるんだけど、1600 DPIでValorant換算0.1から0.25の間くらいだよ。"
+      },
+      {
+        "id": "19smflaha7ep1",
+        "parent_id": "19smf3h863odf",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "なるほど、教えてくれてありがとう！"
+      },
+      {
+        "id": "19smh3bdgu78h",
+        "parent_id": "19smflaha7ep1",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "いつでも聞いてね！"
+      },
+      {
+        "id": "19smruetaidr5",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "このベンチマークをやろうと思ったモチベーションを聞いてもいい？あと、VDIMもやってる？ Voltaic KovaaK's S5の1w3tかww5tで、自分のゴミみたいなスタティッククリッキングをなんとかしてJadeひとつでも獲得できればと思ってこれを始めたんだよね。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xvl4jg.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=Voltaic%E3%83%99%E3%83%B3%E3%83%81%E3%83%9E%E3%83%BC%E3%82%AF%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%AB%E5%88%B0%E9%81%94%E3%81%97%E3%81%9F%E7%8C%9B%E8%80%85%E3%81%AE%E6%84%9F%E5%BA%A6%E8%A8%AD%E5%AE%9A%E3%81%A8%E7%B7%B4%E7%BF%92%E6%B3%95%EF%BC%81%0A1600%20DPI%E3%81%A7Val%E6%8F%9B%E7%AE%970.1%E3%80%9C0.25%EF%BC%88%E7%B4%8432.6%E3%80%9C81.5cm%EF%BC%89%E3%81%A8%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA%E3%81%AB%E5%BF%9C%E3%81%98%E3%81%A6%E5%B9%85%E5%BA%83%E3%81%8F%E8%AA%BF%E6%95%B4%E3%81%99%E3%82%8B%E3%81%AE%E3%81%8C%E3%82%B3%E3%83%84%E3%80%82%0A%E8%8B%A6%E6%89%8B%E3%81%AA%E3%82%B9%E3%82%BF%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E5%85%8B%E6%9C%8D%E3%82%84%E3%83%A9%E3%83%B3%E3%82%AF%E5%88%B0%E9%81%94%E3%81%AB%E3%81%AF%E6%9F%94%E8%BB%9F%E3%81%AA%E6%84%9F%E5%BA%A6%E9%81%8B%E7%94%A8%E3%81%A8%E8%A8%88%E7%94%BB%E7%9A%84%E7%B7%B4%E7%BF%92%E3%81%8C%E9%8D%B5%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xvl4jg.html",
+    "created_at": "2026-11-14T22:37:21.770051+00:00"
+  },
+  {
+    "id": "1xvjd77",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Holy Lock-in",
+    "selftext_en": "",
+    "image_urls": [
+      "https://i.redd.it/blagiyrc0g1i1.png"
+    ],
+    "score": 28,
+    "num_comments": 4,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1xvjd77/holy_lockin/",
+    "comments": [
+      "[+1] Nice",
+      "[+1] that's great",
+      "[+1] waldots is a fun scenario but score can fluctuate heavily depending on the spawns and also flicks of person playing.\n\ni remmeber setting lucky pb and not beating for quite a while",
+      "[+1] that may have been part of  the big jump, but really the main thing is on my previous run i would leave a bunch of targets 1 hp and to flick to the same target twice far to often. and in my pb run my flicks also felt much snappier, but even if I got lucky ill take it"
+    ],
+    "comment_tree": [
+      {
+        "id": "19slpdidldgat",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Nice",
+        "depth": 0,
+        "body_ja": "ナイス"
+      },
+      {
+        "id": "19slr1lg18hqa",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "that's great",
+        "depth": 0,
+        "body_ja": "素晴らしいね"
+      },
+      {
+        "id": "19sm56vtzbvsx",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "waldots is a fun scenario but score can fluctuate heavily depending on the spawns and also flicks of person playing.\n\ni remmeber setting lucky pb and not beating for quite a while",
+        "depth": 0,
+        "body_ja": "waldotsは楽しいシナリオだけど、スポーン位置の運やプレイヤーのフリックの調子によってスコアが大きく変動するんだよね。\n\n自分も運良く自己ベストが出た後、しばらくそれを超えられなかったのを覚えてるよ。"
+      },
+      {
+        "id": "19smhz6ygzuf5",
+        "parent_id": "19sm56vtzbvsx",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "that may have been part of  the big jump, but really the main thing is on my previous run i would leave a bunch of targets 1 hp and to flick to the same target twice far to often. and in my pb run my flicks also felt much snappier, but even if I got lucky ill take it",
+        "depth": 1,
+        "body_ja": "スコアが一気に伸びたのはそういう運もあったかもしれないけど、一番大きかったのは、前のプレイではターゲットのHPを少し残してしまったり、同じ敵に2回フリックし直すことが多すぎた点なんだよね。今回の自己ベストを出したプレイではフリックもかなりキレてた気がする。でもまあ、運が良かったのだとしても結果オーライだよ！"
+      }
+    ],
+    "title_ja": "KovaaK'sのシナリオでスコアが急更新される要因とターゲット処理の正確性",
+    "hook_ja": "KovaaK'sの「waldots」シナリオにて大幅な自己ベスト更新を達成した投稿に対し、スポーン運の影響と確実なトドメ・フリック精度の向上が議論されています。運要素だけでなくターゲットへの過剰な打ち直しを減らす重要性が示されています。",
+    "op_post_ja": "（画像・動画投稿のため本文なし）",
+    "consensus_points": [
+      "waldotsなどのシナリオはスポーン位置の偏り（運要素）やその時の調子によってスコアが大きく変動する",
+      "スコアを伸ばすには、ターゲット体力を僅かに残してしまう「1HP残し」や同じ敵へ二度フリックする無駄を減らすことが重要",
+      "運によるベストスコア更新であっても、フリックのキレや精度の向上自体は着実な成長の証である"
+    ],
+    "detailed_analysis_ja": "本スレッドでは、KovaaK'sの人気エイムトレーニングシナリオである「waldots」において、大幅なスコア更新（自己ベスト更新）を達成した際の要因について議論が行われています。\n\n【1. waldotsシナリオの特徴とスコア変動要因】\nwaldotsは複数のターゲットが次々と出現し、正確かつ素早い点エイム（フリック）と微修正が求められるシナリオです。コメントで指摘されている通り、この種のシナリオはターゲットの「スポーン位置（出現パターンの密度）」に左右される側面があります。ターゲットが近距離に固まって出現する「上ブレ（幸運なスポーン）」が発生すると、移動距離が減り理論上の最大打点が高くなるため、一気にスコアが跳ね上がることがあります。\n\n【2. エイムの無駄を削る「1HP残し」と「二度打ち」の克服】\nスレ主（OP）が分析しているように、単なるスポーン運だけでなく「狙ったターゲットを確実に1発（または必要な弾数）で倒し切れているか」がパフォーマンスに直結します。エイムがブレていると、ターゲットのHPをわずかに残したまま別の的に視点を移動してしまったり（1HP残し）、倒しきれずに同じ的へ再度フリックを入れる（二度打ち）というタイムロスが発生します。キレのある鋭いフリック（snappy flicks）で確実に仕留め切ることが、上ブレ運を逃さずにハイスコアへ繋げる鍵となります。",
+    "devices": [],
+    "x_main_post": "エイム練習で一気に自己ベストが出た時は、運だけでなく無駄な動作が減ったサイン！\nKovaaK'sの点エイムではスポーン運も影響しますが、敵のHP残しや二度打ちを減らし、1発で仕留める精度と鋭いフリックがスコア大幅更新の鍵になります。",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "エイム練習で急にスコアが伸びたのだ！実力なのかな？",
+        "caption": "急なスコア更新？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "運もあるけど、無駄なエイムが減った証拠でもあるよ！",
+        "caption": "無駄エイムの削減"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "無駄なエイムってどういうことなのだ？",
+        "caption": "どういうこと？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "的のHPをミリ残したり、同じ的に2回フリックすることだよ！",
+        "caption": "ミリ残し＆二度打ち"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "キレのあるフリックで1発で倒し切るとスコアが跳ね上がるんだ！",
+        "caption": "1発で倒し切る"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "確かにスポーン運が良くても外してたら意味ないのだ！",
+        "caption": "運だけじゃない！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "運で出た記録でも、エイムの感覚を身体に覚え込ませてね！",
+        "caption": "感覚を定着させよう"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19slpdidldgat",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ナイス"
+      },
+      {
+        "id": "19slr1lg18hqa",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "素晴らしいね"
+      },
+      {
+        "id": "19sm56vtzbvsx",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "waldotsは楽しいシナリオだけど、スポーン位置の運やプレイヤーのフリックの調子によってスコアが大きく変動するんだよね。\n\n自分も運良く自己ベストが出た後、しばらくそれを超えられなかったのを覚えてるよ。"
+      },
+      {
+        "id": "19smhz6ygzuf5",
+        "parent_id": "19sm56vtzbvsx",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "スコアが一気に伸びたのはそういう運もあったかもしれないけど、一番大きかったのは、前のプレイではターゲットのHPを少し残してしまったり、同じ敵に2回フリックし直すことが多すぎた点なんだよね。今回の自己ベストを出したプレイではフリックもかなりキレてた気がする。でもまあ、運が良かったのだとしても結果オーライだよ！"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xvjd77.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%81%A7%E4%B8%80%E6%B0%97%E3%81%AB%E8%87%AA%E5%B7%B1%E3%83%99%E3%82%B9%E3%83%88%E3%81%8C%E5%87%BA%E3%81%9F%E6%99%82%E3%81%AF%E3%80%81%E9%81%8B%E3%81%A0%E3%81%91%E3%81%A7%E3%81%AA%E3%81%8F%E7%84%A1%E9%A7%84%E3%81%AA%E5%8B%95%E4%BD%9C%E3%81%8C%E6%B8%9B%E3%81%A3%E3%81%9F%E3%82%B5%E3%82%A4%E3%83%B3%EF%BC%81%0AKovaaK%27s%E3%81%AE%E7%82%B9%E3%82%A8%E3%82%A4%E3%83%A0%E3%81%A7%E3%81%AF%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%B3%E9%81%8B%E3%82%82%E5%BD%B1%E9%9F%BF%E3%81%97%E3%81%BE%E3%81%99%E3%81%8C%E3%80%81%E6%95%B5%E3%81%AEHP%E6%AE%8B%E3%81%97%E3%82%84%E4%BA%8C%E5%BA%A6%E6%89%93%E3%81%A1%E3%82%92%E6%B8%9B%E3%82%89%E3%81%97%E3%80%811%E7%99%BA%E3%81%A7%E4%BB%95%E7%95%99%E3%82%81%E3%82%8B%E7%B2%BE%E5%BA%A6%E3%81%A8%E9%8B%AD%E3%81%84%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E3%81%8C%E3%82%B9%E3%82%B3%E3%82%A2%E5%A4%A7%E5%B9%85%E6%9B%B4%E6%96%B0%E3%81%AE%E9%8D%B5%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xvjd77.html",
+    "created_at": "2026-11-14T22:40:09.450656+00:00"
+  },
+  {
+    "id": "1xvlqgt",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Good under 80$ gaming mouse",
+    "selftext_en": "Hi, I'm looking for a good gaming mouse under $80. I was thinking about getting a Logitech G502, but I'm not sure if there's a better option. I don't have a preferred mouse style yet since I've been using cheap $5 mice that break after a month.",
+    "image_urls": [],
+    "score": 6,
+    "num_comments": 23,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xvlqgt/good_under_80_gaming_mouse/",
+    "comments": [
+      "[+5] VXE Dragonfly R1 is a solid budget option.\n\nMy favourite budget Chinese mouse is the Dareu A950 Wing (sometimes called air). If you can get it locally they usually go about $40.\n\nMCHOSE A7 V2 Pro is not bad either.\n\nThe R1 is on sale right now, if you’re used to using garbage and only need a 1k polling rate you’ll probably love it.\n\nThe g502 has its people and they have their own sub lol. I personally hate that mouse for that style if that’s what you want there is better options, but I’d try to avoid those unless you need it. You can be a lot more versatile with a smaller lighter mouse.",
+      "[+5] The question isn't if there's a better option for $80.\n\nThe question is if there's a worse one.\n\nThe g502 is a glorified overpriced office mouse.\n\nAnd isn't even good at that when the Keychron M6 exists.\n\nI recommend a Rapoo gen 2 mice (especially the air max series), Mchose L7, or a bit over budget but the RAWM leviathan GT.",
+      "[+0] I have a G502X plus and it’s amazing if you are doing anything other than a fast paced shooting game. \n\nI use a Hitscan Hyperlight X for those.",
+      "[+3] it's an ergo mouse with freescroll\n\nnothing special about it compared to any office mouse except that it has RGB.\n\nand even then the Redragon M925 freescroll has that if it's important to you.",
+      "[+2] g502 so heavy and big bro but i cant lie its lasted me like 7 years at this point so i cant diss the longevity.",
+      "[+-1] It really is not that heavy lol. It feels good in the hand, doesn't feel cheap or like you could shatter it by looking at it wrong",
+      "[+1] it is for me because im rrlly skinny w small hands so it does feel like a brick sometimes.",
+      "[+1] It is objectively heavy, as most modern gaming mice are around the 65ish range or less.",
+      "[+1] That is really light imo lol. I'd personally never buy a mouse that light",
+      "[+1] It is in large part personal preference on what type of mouse you like. The shape is the most important factor. You do not have to spend a large amount of money for a mouse. I like egg mice. I used the $35 Razer Orochi V2 for a good while before I found the Zaopin Z1 which can be had for $40. I even bought 3 more of the same mouse because I like the weight and shape. I hate the Logitech G502 on the other hand. Way too bulky and thumb rest gets in the way.",
+      "[+0] I mean, it very much so depends on what your preferences are. Like for me, ever since I’ve gotten into super light mice, whenever I’ve been over to my friend’s house and used his G502 that thing feels like an unwieldy ass BRICK to move around, and he has like all the additional weights Logitech includes in it. For some people that might work for them but, for a more mainstream mouse, I’d look at Glorious brand mice. My last one was a white Model D wireless and it was a great mouse for years, you can get anything ranging from a wired original Model O for 29.99, and I think the original model O and ModelD wireless versions are something like $69.99 or $59.99 right now? If you get a wired one I would consider getting a mouse bungee to go with it, basically just a thing that holds the cable an",
+      "[+1] Under 80USD you could get the op1 8k v2 which is really good its like top tier. Good switches, build quality, only issues are if you use 8khz polling the cable will start degrading overtime which happens with all wired mice with high polling.",
+      "[+0] If you really like the g502 shape.  atk shark v6 is basically a exact copy, lighter, and cheaper.",
+      "[+2] I would honestly look into getting a Cherry XTRFY M68 or M68 Pro they are insanely underrated and slept on mice. There is a 1K and 8K option and they retail for $80-120 depending on the model but you can get some insane deals on them I just picked one up for $25",
+      "[+1] Microsoft wheel mouse optical on ebay",
+      "[+2] Just copped a Pulsar X2 V3 eS for $40 US.\n\nThat's a 3950 sensor variant.  8k Polling. Sub 60 grams mouse with optical switches that don't feel like booty cheeks.\n\nIf you're not hunting for a mouse deal you're doing it wrong.\n\nBut first before making any other decisions, learn about shape.  Some mice just won't feel good for you.\n\nShape > Price > Specs",
+      "[+1] youd be hard pressed to find a good gaming mouse *over* 80$ lol. only very few brands are charging so much. there are many many chinese brands that sell mice every bit as good as logotech for 60$ (mchose comes to mind)\n\nin the end, shape is what matters the most though",
+      "[+1] You have a lot of amazing options for <80$. I'd avoid Logitech and Razer though, unless you find yourself using customer support/warranty often you'll get a **much,** ***much*** better mouse for the price by going with a chinese enthusiast brand like dareu, mchose, vxe/atk, or anyone else.   \n  \n80$ also puts you in range for high end options like some of Endgame Gear's mice, the op1 8k specifically has the lowest click latency out of all mice. period. The op1 8k is also easy to recommend as it is just one of the best mice out there for most people. Great skates, great coating, great clicks, good shape for just about every kind of grip type, perfect sensor, and no bloated laggy software.  \n  \nPulsar's offerings can also be found in this price range and they're really great mice, very aesth",
+      "[+1] Loving my Razer Basilisk V3 x Hyperspeed.",
+      "[+1] mchose l7 pro  \nvxe r1 pro  \nop1 8k  \nif u want ultra budget id go for an attack shark of some sort although i would say shape is the most important aspect it all depends on your grip and what you prefer",
+      "[+1] What games do you mostly play? The G502 is a solid all rounder but depending on the version it weighs around 90 to 120g, which feels heavy for fast shooters. \n\nFor MMOs or everyday stuff the extra buttons are really handy though. \n\nIf it’s a bit of both and you’re still figuring out your grip I’d start with something lighter, easier to get used to.",
+      "[+1] Dav3 hyperspeed",
+      "[+1] What's your hand size and grip style?"
+    ],
+    "comment_tree": [
+      {
+        "id": "19slfghzy07uq",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "VXE Dragonfly R1 is a solid budget option.\n\nMy favourite budget Chinese mouse is the Dareu A950 Wing (sometimes called air). If you can get it locally they usually go about $40.\n\nMCHOSE A7 V2 Pro is not bad either.\n\nThe R1 is on sale right now, if you’re used to using garbage and only need a 1k polling rate you’ll probably love it.\n\nThe g502 has its people and they have their own sub lol. I personally hate that mouse for that style if that’s what you want there is better options, but I’d try to avoid those unless you need it. You can be a lot more versatile with a smaller lighter mouse.",
+        "depth": 0,
+        "body_ja": "VXE Dragonfly R1は無難で堅実な格安の選択肢だよ。\n\n個人的にお気に入りの中華格安マウスはDareu A950 Wing（Airと呼ばれることもある）かな。現地のショップで買えれば大体40ドルくらいだね。\n\nMCHOSE A7 V2 Proも悪くないよ。\n\nR1は今セール中だし、粗悪品を使っていて1kポーリングレートで十分なら、間違いなく気に入ると思う。\n\nG502には愛好家がいて専用のサブレディットもある（笑）。個人的にはあのスタイルのマウスは大嫌いなんだ。もしああいうのが欲しいならもっと良い選択肢があるけど、必要不可欠でない限り避けた方がいいね。小さくて軽いマウスの方がはるかに万能に扱えるよ。"
+      },
+      {
+        "id": "19slfmg4vn4jm",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "body_en": "The question isn't if there's a better option for $80.\n\nThe question is if there's a worse one.\n\nThe g502 is a glorified overpriced office mouse.\n\nAnd isn't even good at that when the Keychron M6 exists.\n\nI recommend a Rapoo gen 2 mice (especially the air max series), Mchose L7, or a bit over budget but the RAWM leviathan GT.",
+        "depth": 0,
+        "body_ja": "問題は「80ドルでこれより良い選択肢があるか」じゃない。\n\n「これよりひどい選択肢があるか」だ。\n\nG502は過剰に持ち上げられた過大評価のオフィス用マウスだよ。\n\nしかもKeychron M6が存在する今となっては、オフィス用としてすら最善ではない。\n\nRapooの第2世代マウス（特にAir Maxシリーズ）、MCHOSE L7、あるいは少し予算オーバーだけどRAWM Leviathan GTをおすすめするよ。"
+      },
+      {
+        "id": "19slgib7y9sci",
+        "parent_id": "19slfmg4vn4jm",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "I have a G502X plus and it’s amazing if you are doing anything other than a fast paced shooting game. \n\nI use a Hitscan Hyperlight X for those.",
+        "depth": 1,
+        "body_ja": "自分はG502X Plusを使っているけど、スピード感のあるシューティングゲーム以外をするなら最高の気分だよ。\n\nそういうFPSゲームの時はHitscan Hyperlight Xを使ってる。"
+      },
+      {
+        "id": "19slh2oygsce8",
+        "parent_id": "19slgib7y9sci",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "it's an ergo mouse with freescroll\n\nnothing special about it compared to any office mouse except that it has RGB.\n\nand even then the Redragon M925 freescroll has that if it's important to you.",
+        "depth": 2,
+        "body_ja": "フリースクロールが付いたエルゴノミクスマウスってだけだよ。\n\nRGBライティングがあること以外、普通のオフィス用マウスと何も変わらない普遍的な製品さ。\n\nライティング重視だとしても、それならRedragon M925フリースクロールでも買えばいい。"
+      },
+      {
+        "id": "19slg3851i6de",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "g502 so heavy and big bro but i cant lie its lasted me like 7 years at this point so i cant diss the longevity.",
+        "depth": 0,
+        "body_ja": "G502はマジでデカくて重いよ。でも嘘偽りなく言えば現時点で7年も壊れず使えてるから、耐久性に関しては悪口を言えないな。"
+      },
+      {
+        "id": "19slhhzy883wi",
+        "parent_id": "19slg3851i6de",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "body_en": "It really is not that heavy lol. It feels good in the hand, doesn't feel cheap or like you could shatter it by looking at it wrong",
+        "depth": 1,
+        "body_ja": "そこまで重くないだろ（笑）。手になじむし、安っぽさもない。ちょっと変な扱いをしたくらいで壊れそうな感じもしないしな。"
+      },
+      {
+        "id": "19slkeky9unya",
+        "parent_id": "19slhhzy883wi",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "it is for me because im rrlly skinny w small hands so it does feel like a brick sometimes.",
+        "depth": 2,
+        "body_ja": "手があまりに小さくてガリガリな自分にとっては重いんだよ。時々まるでレンガを動かしてるみたいに感じる。"
+      },
+      {
+        "id": "19sn4gkcvx4u9",
+        "parent_id": "19slhhzy883wi",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "It is objectively heavy, as most modern gaming mice are around the 65ish range or less.",
+        "depth": 2,
+        "body_ja": "現代のゲーミングマウスのほとんどが65g前後かそれ以下であることを考えれば、客観的に見ても明確に「重い」部類だよ。"
+      },
+      {
+        "id": "19sn62tbnijep",
+        "parent_id": "19sn4gkcvx4u9",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "That is really light imo lol. I'd personally never buy a mouse that light",
+        "depth": 3,
+        "body_ja": "自分にとっては65gなんてめちゃくちゃ軽いと思うけどね（笑）。個人用としてそんな軽いマウスを買うことは絶対ないな。"
+      },
+      {
+        "id": "19slg85jjnav7",
+        "parent_id": null,
+        "author": "海外ユーザー7",
+        "flair": "Zaopin Z1",
+        "is_op": false,
+        "score": 1,
+        "body_en": "It is in large part personal preference on what type of mouse you like. The shape is the most important factor. You do not have to spend a large amount of money for a mouse. I like egg mice. I used the $35 Razer Orochi V2 for a good while before I found the Zaopin Z1 which can be had for $40. I even bought 3 more of the same mouse because I like the weight and shape. I hate the Logitech G502 on the other hand. Way too bulky and thumb rest gets in the way.",
+        "depth": 0,
+        "body_ja": "自分がどんなタイプを好むかは、大部分が個人の好みに左右されるね。形状こそが最も重要な要素だよ。マウスに大金を払う必要はない。自分はタマゴ型（Eggシェイプ）のマウスが好きで、40ドルで買えるZaopin Z1を見つけるまでは、35ドルのRazer Orochi V2を長いこと使っていた。重さと形が気に入りすぎて、同じモデルをさらに3個買い足したくらいだよ。一方でLogicool G502は大嫌いだね。無駄に嵩張るしサムレストが邪魔すぎる。"
+      },
+      {
+        "id": "19slgfiaipvi9",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "I mean, it very much so depends on what your preferences are. Like for me, ever since I’ve gotten into super light mice, whenever I’ve been over to my friend’s house and used his G502 that thing feels like an unwieldy ass BRICK to move around, and he has like all the additional weights Logitech includes in it. For some people that might work for them but, for a more mainstream mouse, I’d look at Glorious brand mice. My last one was a white Model D wireless and it was a great mouse for years, you can get anything ranging from a wired original Model O for 29.99, and I think the original model O and ModelD wireless versions are something like $69.99 or $59.99 right now? If you get a wired one I would consider getting a mouse bungee to go with it, basically just a thing that holds the cable and prevents it from dragging, so it allows wired mice to feel wireless, and I see them online for anywhere from like $7 to $20. Of course I decided I wanted an even LIGHTER mouse and I wanted to try one with an 8000 HZ polling rate instead of the usual gaming mouse standard of 1000 HZ, and while it is a very good mouse, and is relatively good value for how high end of a mouse it is (the white one is on the Attack Shark Website for $63.99 and the black version is $67.99) I was fairly disappointed that all the people who warned me were right about 8000 HZ being usable in some games and unplayable in others (it basically can flood the cpu with data since it is polling so often and cause really b",
+        "depth": 0,
+        "body_ja": "君が何を好むかに大きく依存するね。自分の場合、超軽量マウスにハマってからは、友達の家に行って彼のG502（Logicool付属の追加ウェイトを全部詰め込んであるやつ）を使うたびに、振り回しにくい重いレンガのように感じるんだ。一部の人にはそれが合うかもしれないけど、もっとメインストリームなマウスならGloriousブランドをおすすめするよ。自分が前に使っていたホワイトのModel D Wirelessは長年活躍してくれた素晴らしいマウスだった。有線の初代Model Oなら29.99ドルから手に入るし、初代Model OやModel Dのワイヤレス版も今は59.99〜69.99ドルくらいで買えるんじゃないかな？有線を選ぶなら、ケーブルの引きずりを防いでワイヤレス感覚にしてくれるマウスバンジー（7〜20ドル程度）も一緒に検討するといい。もちろん、自分はさらに『軽い』マウスが欲しくなって、一般的な1000Hzではなく8000Hzのポーリングレートを試したくなった。優秀なマウスだしハイエンドな割にコスパも良いんだけど（Attack Sharkのサイトで白が63.99ドル、黒が67.99ドル）、『8000Hzは一部のゲームでは使えるが、他のゲームではプレイ不能になる』と警告してくれた人たちの言う通りだったのにはガッカリしたよ。データ送信量が多すぎてCPUに負荷がかかり、ひどいカクつきを引き起こすんだ。"
+      },
+      {
+        "id": "19slgrfpk2g1t",
+        "parent_id": null,
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Under 80USD you could get the op1 8k v2 which is really good its like top tier. Good switches, build quality, only issues are if you use 8khz polling the cable will start degrading overtime which happens with all wired mice with high polling.",
+        "depth": 0,
+        "body_ja": "80ドル以下ならOP1 8k v2が買えるよ。最高峰クラスで本当に素晴らしい。スイッチもビルドクオリティも完璧。唯一の懸念点は、8kHzのポーリングレートで使うとケーブルの劣化が早くなることくらいだね。これは高ポーリングレートの有線マウス全般に言えることだけど。"
+      },
+      {
+        "id": "19slh0er7bv7l",
+        "parent_id": null,
+        "author": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "If you really like the g502 shape.  atk shark v6 is basically a exact copy, lighter, and cheaper.",
+        "depth": 0,
+        "body_ja": "どうしてもG502の形状が好きなら、ATTACK SHARK V6がほぼ完全なクローンで、軽くて価格も安いよ。"
+      },
+      {
+        "id": "19slhwfzv79ab",
+        "parent_id": null,
+        "author": "海外ユーザー11",
+        "flair": "Zowie U2 | ATK A9 Plus",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I would honestly look into getting a Cherry XTRFY M68 or M68 Pro they are insanely underrated and slept on mice. There is a 1K and 8K option and they retail for $80-120 depending on the model but you can get some insane deals on them I just picked one up for $25",
+        "depth": 0,
+        "body_ja": "正直、Cherry XTRFY M68やM68 Proをチェックしてみるのを強く勧めるよ。正当に評価されていない隠れた名機だ。1Kと8Kのモデルがあって定価はモデルにより80〜120ドルだけど、狂ったような値引きセールをやることがあって、自分は25ドルで手に入れたばかりだよ。"
+      },
+      {
+        "id": "19sli0ki9dghu",
+        "parent_id": null,
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Microsoft wheel mouse optical on ebay",
+        "depth": 0,
+        "body_ja": "eBayでMicrosoft Wheel Mouse Optical（WMO）でも探しなよ。"
+      },
+      {
+        "id": "19sliqc0ktrr5",
+        "parent_id": null,
+        "author": "海外ユーザー13",
+        "flair": "GPW, G303, G403 Paracorded, G203",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Just copped a Pulsar X2 V3 eS for $40 US.\n\nThat's a 3950 sensor variant.  8k Polling. Sub 60 grams mouse with optical switches that don't feel like booty cheeks.\n\nIf you're not hunting for a mouse deal you're doing it wrong.\n\nBut first before making any other decisions, learn about shape.  Some mice just won't feel good for you.\n\nShape > Price > Specs",
+        "depth": 0,
+        "body_ja": "ちょうどPulsar X2 V3 eSを40ドルでゲットしたところだよ。\n\nPAW3950センサー搭載で8kポーリングレート対応、60g未満で、押し心地がゴミみたいじゃない光学式スイッチを採用してる。\n\nセールや掘り出し物を探さないなんて損してるよ。\n\nでも他の決定を下す前に、まずは自分に合う『形状』について学ぶべきだ。どんなに優れていても手になじまないマウスはあるからね。\n\n形状 ＞ 価格 ＞ スペック の順番だよ。"
+      },
+      {
+        "id": "19sljror1ywg1",
+        "parent_id": null,
+        "author": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "youd be hard pressed to find a good gaming mouse *over* 80$ lol. only very few brands are charging so much. there are many many chinese brands that sell mice every bit as good as logotech for 60$ (mchose comes to mind)\n\nin the end, shape is what matters the most though",
+        "depth": 0,
+        "body_ja": "むしろ80ドル『以上』の良いゲーミングマウスを探す方が難しいくらいだよ（笑）。そんな高額を請求してくるのはごく一部の大手ブランドだけだ。Logicoolと同等に優れたマウスを60ドルで販売している中華ブランドは山ほどある（MCHOSEなんか特にそう）。\n\n結局のところ、一番大切なのは形状だけどね。"
+      },
+      {
+        "id": "19slk0jrv49tw",
+        "parent_id": null,
+        "author": "海外ユーザー15",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "You have a lot of amazing options for <80$. I'd avoid Logitech and Razer though, unless you find yourself using customer support/warranty often you'll get a **much,** ***much*** better mouse for the price by going with a chinese enthusiast brand like dareu, mchose, vxe/atk, or anyone else.   \n  \n80$ also puts you in range for high end options like some of Endgame Gear's mice, the op1 8k specifically has the lowest click latency out of all mice. period. The op1 8k is also easy to recommend as it is just one of the best mice out there for most people. Great skates, great coating, great clicks, good shape for just about every kind of grip type, perfect sensor, and no bloated laggy software.  \n  \nPulsar's offerings can also be found in this price range and they're really great mice, very aesthetically pleasing too. I have had quite a few Pulsar mice over the years and I love em all.",
+        "depth": 0,
+        "body_ja": "80ドル以下なら素晴らしい選択肢が山ほどあるよ。カスタマーサポートや保証を頻繁に利用するのでない限り、LogicoolやRazerは避けた方がいい。Dareu、MCHOSE、VXE/ATKみたいな中華マニア向けブランドを選んだ方が、同価格で圧倒的に良いマウスが手に入る。\n\nまた、80ドルあればEndgame Gearのハイエンド機も視野に入る。特にOP1 8kはすべてのマウスの中で最小のクリック遅延を誇る。OP1 8kは万人におすすめしやすい最高峰の1台だ。優れたソール、極上のコーティング、最高峰のクリック感、あらゆる持ち方に対応する形状、完璧なセンサー、そして余計なラグを発生させる無駄なソフトウェアもない。\n\nPulsarの製品もこの価格帯で見つかるし、見た目も美しくて本当に素晴らしい。長年Pulsarのマウスを何台も使ってきたけど全部大好きだよ。"
+      },
+      {
+        "id": "19slk5cyk6jsz",
+        "parent_id": null,
+        "author": "海外ユーザー16",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Loving my Razer Basilisk V3 x Hyperspeed.",
+        "depth": 0,
+        "body_ja": "自分のRazer Basilisk V3 X HyperSpeedをめちゃくちゃ気に入って愛用してるよ。"
+      },
+      {
+        "id": "19slljyy0oe6c",
+        "parent_id": null,
+        "author": "海外ユーザー17",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "mchose l7 pro  \nvxe r1 pro  \nop1 8k  \nif u want ultra budget id go for an attack shark of some sort although i would say shape is the most important aspect it all depends on your grip and what you prefer",
+        "depth": 0,
+        "body_ja": "MCHOSE L7 Pro\nVXE R1 Pro\nOP1 8k\n超低予算で行くならATTACK SHARKのどれかが候補になる。ただやっぱり形状が最も重要だから、君の持ち方や好みに完全に依存するよ。"
+      },
+      {
+        "id": "19sm18wblvzcw",
+        "parent_id": null,
+        "author": "海外ユーザー18",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "What games do you mostly play? The G502 is a solid all rounder but depending on the version it weighs around 90 to 120g, which feels heavy for fast shooters. \n\nFor MMOs or everyday stuff the extra buttons are really handy though. \n\nIf it’s a bit of both and you’re still figuring out your grip I’d start with something lighter, easier to get used to.",
+        "depth": 0,
+        "body_ja": "主にどんなゲームをプレイするの？G502は万能なオールラウンダーだけど、バージョンによって重量が90〜120gもあって、素早いシューター系ゲームだと重く感じるよ。\n\nMMOや普段使いなら追加ボタンが本当に便利なんだけどね。\n\n両方バランスよく遊ぶ場合や、まだ自分のグリップスタイルが分からない段階なら、まずは慣れやすい軽量マウスから始めるのがおすすめだよ。"
+      },
+      {
+        "id": "19sm6d0qhra9v",
+        "parent_id": null,
+        "author": "海外ユーザー19",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Dav3 hyperspeed",
+        "depth": 0,
+        "body_ja": "Razer DeathAdder V3 HyperSpeed一択。"
+      },
+      {
+        "id": "19smh4xpnydvo",
+        "parent_id": null,
+        "author": "海外ユーザー20",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "body_en": "What's your hand size and grip style?",
+        "depth": 0,
+        "body_ja": "君の手のサイズと持ち方（グリップスタイル）はどんな感じ？"
+      }
+    ],
+    "title_ja": "【80ドル以下】G502は時代遅れ？中華新鋭ブランドが席巻する最新アンダー80ドルマウスおすすめ議論",
+    "hook_ja": "80ドル以下で買えるおすすめのゲーミングマウスを求めるスレ主に対し、かつての定番G502への評価と、現在市場を席巻する中華系新鋭ブランドの圧倒的コスパモデルについて議論が交わされました。形状の重要性や100g超の重量級マウスに対するリアルな意見が集まっています。",
+    "op_post_ja": "こんにちは、80ドル以下で買える良いゲーミングマウスを探しています。Logicool G502を買おうか考えていたのですが、もっと良い選択肢があるかどうか分かりません。これまでは1ヶ月で壊れるような5ドルの安いマウスを使っていたので、まだ好みのマウスの形状やスタイルは決まっていません。",
+    "consensus_points": [
+      "FPSや素早いエイムが必要なゲームにおいて、重いG502は時代遅れと見なされており軽量モデル（60g前後）が推奨される",
+      "スペックや価格以上に自分の手と持ち方に合った「形状（Shape）」が最も重要な選択基準となる",
+      "MCHOSE、VXE/ATK、Dareu、Endgame Gear（OP1 8k）など、80ドル以下で大手フラッグシップと同等以上の性能を持つ新鋭ブランドが非常に強力"
+    ],
+    "detailed_analysis_ja": "【1. 80ドル以下市場の構造変化と中華ブランドの躍進】\nかつて80ドル以下の価格帯は、大手メーカーのエントリーモデルや型落ち品（Logicool G304やRazer Orochi V2など）が主流でした。しかし現在では、MCHOSE、VXE/ATK、Dareu、Zaopinといった中華系の新鋭ゲーミングデバイスブランドが参入し、大手メーカーの最上位モデルと同等のPAW3395/3950センサー、超軽量設計（50g前後）、光学式スイッチ、高リフレッシュレート（4k/8k）を50〜80ドルで提供する群雄割拠の時代を迎えています。スレッド内でも「大手より中華ブランドを選ぶ方が圧倒的に高コスパである」という認識が完全に定着しています。\n\n【2. G502をはじめとする多ボタン・重量級マウスへのリアルな評価】\nスレ主が検討していた「Logicool G502」は、フリースクロールホイールや豊富なサイドボタンで作業用・多機能用としては長年愛されている名機です。しかし、近年の競技FPS（Valorant、Apex Legends、Overwatchなど）においては、100gを超える重量が素早いエイムの妨げとなるため、「FPS用途では重すぎるレンガのような存在」として評価が分かれています。作業用やMMO用途でない限り、競技エイムにおいては60g以下の軽量・単機能型マウスへ移行するのが世界的なトレンドとなっています。\n\n【3. 形状（Shape）最優先の原則と8K Hzポーリングレートの注意点】\nコミュニティの共通認識として強調されているのが「Shape > Price > Specs（形状 ＞ 価格 ＞ スペック）」という原則です。どんなに高スペックなマウスでも手や持ち方（かぶせ持ち、つかみ持ち、つまみ持ち）に合わなければパフォーマンスは発揮できません。また、Endgame Gear OP1 8kなどの有線最高峰モデルや8K Hzポーリングレート対応機も話題に挙がっていますが、8K設定はCPU負荷が高くゲームによっては動作が不安定になる点や、有線ケーブルの劣化を早めるリスクがある点など、実用面でのリアルな注意点も提示されています。",
+    "devices": [
+      {
+        "name": "Logicool G502",
+        "category": "mouse",
+        "sentiment": "negative",
+        "comment_ja": "耐久性や多ボタン機能、フリースクロールは評価されているものの、重くて嵩張るためスピード感のあるFPS用途では「時代遅れの重いレンガ」として敬遠されている。"
+      },
+      {
+        "name": "Endgame Gear OP1 8k",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "業界最小クラスのクリック遅延、優れたビルドクオリティ、万能な形状で80ドル以下最高峰の選択肢として非常に高く絶賛されている。"
+      },
+      {
+        "name": "VXE Dragonfly R1",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "安価でありながら非常にビルドクオリティが高く、予算を抑えたいユーザーへの堅実なエントリーモデルとして推奨されている。"
+      },
+      {
+        "name": "MCHOSE L7 Pro",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "大手メーカーのフラッグシップ機と同等以上の性能を安価で提供する中華新鋭ブランドの代表格としておすすめされている。"
+      },
+      {
+        "name": "Pulsar X2 V3 eS",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "PAW3950センサーや光学式スイッチを搭載し、60g未満の軽量かつ高品質なモデルとしてセール時の狙い目として評価されている。"
+      },
+      {
+        "name": "Razer DeathAdder V3 HyperSpeed",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "エルゴノミクス形状を好むユーザー向けの最新軽量ワイヤレスマウスとして候補に挙げられている。"
+      },
+      {
+        "name": "Razer Orochi V2",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "小型のタマゴ型マウスを好む層から手頃な価格の選択肢として言及されている。"
+      },
+      {
+        "name": "Razer Basilisk V3 X HyperSpeed",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "G502に近い形状のエルゴノミクスマウスとして愛用者から支持されている。"
+      }
+    ],
+    "x_main_post": "80ドル以下のおすすめマウス議論！\n定番G502は「FPSには重すぎる」と敬遠され、現在のトレンドは60g以下の超軽量＆中華新鋭モデル。\n最速遅延のOP1 8kやMCHOSE、VXEが絶賛。スペック以上に自分の手と持ち方に合う「形状」選びが最重要！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "80ドル以下で買えるおすすめのゲーミングマウスを教えてほしいのだ！",
+        "caption": "80ドル以下おすすめマウス"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "海外猛者たちの結論は『G502は重すぎるから避けて新鋭ブランドを狙え』だよ！",
+        "caption": "海外猛者の結論"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "大人気のG502じゃダメなのだ？",
+        "caption": "なぜG502は微妙？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "G502は100g以上あって今のFPSだと重すぎるレンガ扱いなんだよね。",
+        "caption": "ポイント①重すぎる重量"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "今はMCHOSEやVXE、Endgame Gear OP1 8kが爆安で最強だよ！",
+        "caption": "ポイント②最新の中華・欧州勢"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "大手メーカーじゃなくても超高性能なマウスが安く手に入るのだ！",
+        "caption": "安くて高性能な時代"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ値段やスペックより自分の手に合う『形状』を一番に選んでね！",
+        "caption": "注意：形状が一番大事"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19slfghzy07uq",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "VXE Dragonfly R1は無難で堅実な格安の選択肢だよ。\n\n個人的にお気に入りの中華格安マウスはDareu A950 Wing（Airと呼ばれることもある）かな。現地のショップで買えれば大体40ドルくらいだね。\n\nMCHOSE A7 V2 Proも悪くないよ。\n\nR1は今セール中だし、粗悪品を使っていて1kポーリングレートで十分なら、間違いなく気に入ると思う。\n\nG502には愛好家がいて専用のサブレディットもある（笑）。個人的にはあのスタイルのマウスは大嫌いなんだ。もしああいうのが欲しいならもっと良い選択肢があるけど、必要不可欠でない限り避けた方がいいね。小さくて軽いマウスの方がはるかに万能に扱えるよ。"
+      },
+      {
+        "id": "19slfmg4vn4jm",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 5,
+        "text": "問題は「80ドルでこれより良い選択肢があるか」じゃない。\n\n「これよりひどい選択肢があるか」だ。\n\nG502は過剰に持ち上げられた過大評価のオフィス用マウスだよ。\n\nしかもKeychron M6が存在する今となっては、オフィス用としてすら最善ではない。\n\nRapooの第2世代マウス（特にAir Maxシリーズ）、MCHOSE L7、あるいは少し予算オーバーだけどRAWM Leviathan GTをおすすめするよ。"
+      },
+      {
+        "id": "19slgib7y9sci",
+        "parent_id": "19slfmg4vn4jm",
+        "depth": 1,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "自分はG502X Plusを使っているけど、スピード感のあるシューティングゲーム以外をするなら最高の気分だよ。\n\nそういうFPSゲームの時はHitscan Hyperlight Xを使ってる。"
+      },
+      {
+        "id": "19slh2oygsce8",
+        "parent_id": "19slgib7y9sci",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "フリースクロールが付いたエルゴノミクスマウスってだけだよ。\n\nRGBライティングがあること以外、普通のオフィス用マウスと何も変わらない普遍的な製品さ。\n\nライティング重視だとしても、それならRedragon M925フリースクロールでも買えばいい。"
+      },
+      {
+        "id": "19slg3851i6de",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "G502はマジでデカくて重いよ。でも嘘偽りなく言えば現時点で7年も壊れず使えてるから、耐久性に関しては悪口を言えないな。"
+      },
+      {
+        "id": "19slhhzy883wi",
+        "parent_id": "19slg3851i6de",
+        "depth": 1,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "text": "そこまで重くないだろ（笑）。手になじむし、安っぽさもない。ちょっと変な扱いをしたくらいで壊れそうな感じもしないしな。"
+      },
+      {
+        "id": "19slkeky9unya",
+        "parent_id": "19slhhzy883wi",
+        "depth": 2,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "手があまりに小さくてガリガリな自分にとっては重いんだよ。時々まるでレンガを動かしてるみたいに感じる。"
+      },
+      {
+        "id": "19sn4gkcvx4u9",
+        "parent_id": "19slhhzy883wi",
+        "depth": 2,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "現代のゲーミングマウスのほとんどが65g前後かそれ以下であることを考えれば、客観的に見ても明確に「重い」部類だよ。"
+      },
+      {
+        "id": "19sn62tbnijep",
+        "parent_id": "19sn4gkcvx4u9",
+        "depth": 3,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分にとっては65gなんてめちゃくちゃ軽いと思うけどね（笑）。個人用としてそんな軽いマウスを買うことは絶対ないな。"
+      },
+      {
+        "id": "19slg85jjnav7",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "Zaopin Z1",
+        "is_op": false,
+        "score": 1,
+        "text": "自分がどんなタイプを好むかは、大部分が個人の好みに左右されるね。形状こそが最も重要な要素だよ。マウスに大金を払う必要はない。自分はタマゴ型（Eggシェイプ）のマウスが好きで、40ドルで買えるZaopin Z1を見つけるまでは、35ドルのRazer Orochi V2を長いこと使っていた。重さと形が気に入りすぎて、同じモデルをさらに3個買い足したくらいだよ。一方でLogicool G502は大嫌いだね。無駄に嵩張るしサムレストが邪魔すぎる。"
+      },
+      {
+        "id": "19slgfiaipvi9",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "君が何を好むかに大きく依存するね。自分の場合、超軽量マウスにハマってからは、友達の家に行って彼のG502（Logicool付属の追加ウェイトを全部詰め込んであるやつ）を使うたびに、振り回しにくい重いレンガのように感じるんだ。一部の人にはそれが合うかもしれないけど、もっとメインストリームなマウスならGloriousブランドをおすすめするよ。自分が前に使っていたホワイトのModel D Wirelessは長年活躍してくれた素晴らしいマウスだった。有線の初代Model Oなら29.99ドルから手に入るし、初代Model OやModel Dのワイヤレス版も今は59.99〜69.99ドルくらいで買えるんじゃないかな？有線を選ぶなら、ケーブルの引きずりを防いでワイヤレス感覚にしてくれるマウスバンジー（7〜20ドル程度）も一緒に検討するといい。もちろん、自分はさらに『軽い』マウスが欲しくなって、一般的な1000Hzではなく8000Hzのポーリングレートを試したくなった。優秀なマウスだしハイエンドな割にコスパも良いんだけど（Attack Sharkのサイトで白が63.99ドル、黒が67.99ドル）、『8000Hzは一部のゲームでは使えるが、他のゲームではプレイ不能になる』と警告してくれた人たちの言う通りだったのにはガッカリしたよ。データ送信量が多すぎてCPUに負荷がかかり、ひどいカクつきを引き起こすんだ。"
+      },
+      {
+        "id": "19slgrfpk2g1t",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "80ドル以下ならOP1 8k v2が買えるよ。最高峰クラスで本当に素晴らしい。スイッチもビルドクオリティも完璧。唯一の懸念点は、8kHzのポーリングレートで使うとケーブルの劣化が早くなることくらいだね。これは高ポーリングレートの有線マウス全般に言えることだけど。"
+      },
+      {
+        "id": "19slh0er7bv7l",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー10",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "どうしてもG502の形状が好きなら、ATTACK SHARK V6がほぼ完全なクローンで、軽くて価格も安いよ。"
+      },
+      {
+        "id": "19slhwfzv79ab",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー11",
+        "flair": "Zowie U2 | ATK A9 Plus",
+        "is_op": false,
+        "score": 2,
+        "text": "正直、Cherry XTRFY M68やM68 Proをチェックしてみるのを強く勧めるよ。正当に評価されていない隠れた名機だ。1Kと8Kのモデルがあって定価はモデルにより80〜120ドルだけど、狂ったような値引きセールをやることがあって、自分は25ドルで手に入れたばかりだよ。"
+      },
+      {
+        "id": "19sli0ki9dghu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "eBayでMicrosoft Wheel Mouse Optical（WMO）でも探しなよ。"
+      },
+      {
+        "id": "19sliqc0ktrr5",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー13",
+        "flair": "GPW, G303, G403 Paracorded, G203",
+        "is_op": false,
+        "score": 2,
+        "text": "ちょうどPulsar X2 V3 eSを40ドルでゲットしたところだよ。\n\nPAW3950センサー搭載で8kポーリングレート対応、60g未満で、押し心地がゴミみたいじゃない光学式スイッチを採用してる。\n\nセールや掘り出し物を探さないなんて損してるよ。\n\nでも他の決定を下す前に、まずは自分に合う『形状』について学ぶべきだ。どんなに優れていても手になじまないマウスはあるからね。\n\n形状 ＞ 価格 ＞ スペック の順番だよ。"
+      },
+      {
+        "id": "19sljror1ywg1",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー14",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "むしろ80ドル『以上』の良いゲーミングマウスを探す方が難しいくらいだよ（笑）。そんな高額を請求してくるのはごく一部の大手ブランドだけだ。Logicoolと同等に優れたマウスを60ドルで販売している中華ブランドは山ほどある（MCHOSEなんか特にそう）。\n\n結局のところ、一番大切なのは形状だけどね。"
+      },
+      {
+        "id": "19slk0jrv49tw",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー15",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "80ドル以下なら素晴らしい選択肢が山ほどあるよ。カスタマーサポートや保証を頻繁に利用するのでない限り、LogicoolやRazerは避けた方がいい。Dareu、MCHOSE、VXE/ATKみたいな中華マニア向けブランドを選んだ方が、同価格で圧倒的に良いマウスが手に入る。\n\nまた、80ドルあればEndgame Gearのハイエンド機も視野に入る。特にOP1 8kはすべてのマウスの中で最小のクリック遅延を誇る。OP1 8kは万人におすすめしやすい最高峰の1台だ。優れたソール、極上のコーティング、最高峰のクリック感、あらゆる持ち方に対応する形状、完璧なセンサー、そして余計なラグを発生させる無駄なソフトウェアもない。\n\nPulsarの製品もこの価格帯で見つかるし、見た目も美しくて本当に素晴らしい。長年Pulsarのマウスを何台も使ってきたけど全部大好きだよ。"
+      },
+      {
+        "id": "19slk5cyk6jsz",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー16",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "自分のRazer Basilisk V3 X HyperSpeedをめちゃくちゃ気に入って愛用してるよ。"
+      },
+      {
+        "id": "19slljyy0oe6c",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー17",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "MCHOSE L7 Pro\nVXE R1 Pro\nOP1 8k\n超低予算で行くならATTACK SHARKのどれかが候補になる。ただやっぱり形状が最も重要だから、君の持ち方や好みに完全に依存するよ。"
+      },
+      {
+        "id": "19sm18wblvzcw",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー18",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "主にどんなゲームをプレイするの？G502は万能なオールラウンダーだけど、バージョンによって重量が90〜120gもあって、素早いシューター系ゲームだと重く感じるよ。\n\nMMOや普段使いなら追加ボタンが本当に便利なんだけどね。\n\n両方バランスよく遊ぶ場合や、まだ自分のグリップスタイルが分からない段階なら、まずは慣れやすい軽量マウスから始めるのがおすすめだよ。"
+      },
+      {
+        "id": "19sm6d0qhra9v",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー19",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "Razer DeathAdder V3 HyperSpeed一択。"
+      },
+      {
+        "id": "19smh4xpnydvo",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー20",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "text": "君の手のサイズと持ち方（グリップスタイル）はどんな感じ？"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xvlqgt.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=80%E3%83%89%E3%83%AB%E4%BB%A5%E4%B8%8B%E3%81%AE%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E3%83%9E%E3%82%A6%E3%82%B9%E8%AD%B0%E8%AB%96%EF%BC%81%0A%E5%AE%9A%E7%95%AAG502%E3%81%AF%E3%80%8CFPS%E3%81%AB%E3%81%AF%E9%87%8D%E3%81%99%E3%81%8E%E3%82%8B%E3%80%8D%E3%81%A8%E6%95%AC%E9%81%A0%E3%81%95%E3%82%8C%E3%80%81%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%88%E3%83%AC%E3%83%B3%E3%83%89%E3%81%AF60g%E4%BB%A5%E4%B8%8B%E3%81%AE%E8%B6%85%E8%BB%BD%E9%87%8F%EF%BC%86%E4%B8%AD%E8%8F%AF%E6%96%B0%E9%8B%AD%E3%83%A2%E3%83%87%E3%83%AB%E3%80%82%0A%E6%9C%80%E9%80%9F%E9%81%85%E5%BB%B6%E3%81%AEOP1%208k%E3%82%84MCHOSE%E3%80%81VXE%E3%81%8C%E7%B5%B6%E8%B3%9B%E3%80%82%E3%82%B9%E3%83%9A%E3%83%83%E3%82%AF%E4%BB%A5%E4%B8%8A%E3%81%AB%E8%87%AA%E5%88%86%E3%81%AE%E6%89%8B%E3%81%A8%E6%8C%81%E3%81%A1%E6%96%B9%E3%81%AB%E5%90%88%E3%81%86%E3%80%8C%E5%BD%A2%E7%8A%B6%E3%80%8D%E9%81%B8%E3%81%B3%E3%81%8C%E6%9C%80%E9%87%8D%E8%A6%81%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xvlqgt.html",
+    "created_at": "2026-11-14T22:41:30.458753+00:00"
+  },
+  {
+    "id": "1xvkmq0",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "WLMOUSE Beast X Pro V2 – Wireless Connection Not Working / Dongle Issue",
+    "selftext_en": "Hello everyone,\n\nI recently purchased a WLMOUSE Beast X Pro V2 from Wraith Esports, but I'm experiencing an issue with its wireless connection.\n\nThe mouse works perfectly when connected via USB cable. However, when I try to use it wirelessly through the dongle, the cursor doesn't move, and none of the buttons or the scroll wheel work.\n\nHere are the details of the issue:\n\n- When I enter pairing mode by holding the left button, right button, and front side button, the green LED starts flashing rapidly.\n- When I plug in the dongle, the LED on the mouse turns off, but the wireless connection doesn't work.\n- The dongle's display only lights up faintly and doesn't show a proper image.\n- The dongle's display reacts when I change the DPI or move the mouse.\n- However, no mouse input works wirelessly.\n- The WLMOUSE Web Hub doesn't detect the dongle.\n\nI've tried the pairing procedure several times, but nothing has worked so far.\n\nHas anyone experienced a similar issue or knows how to fix it? I'm trying to determine whether this is a pairing issue, a firmware problem, or a faulty dongle.\n\nAny help would be appreciated. Thank you!",
+    "image_urls": [],
+    "score": 0,
+    "num_comments": 4,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xvkmq0/wlmouse_beast_x_pro_v2_wireless_connection_not/",
+    "comments": [
+      "[+2] Hey! WLMOUSE here! \n\nThe Beast X V2 comes with our upgraded dongle, which works as both a wireless mouse receiver and a USB hub.\n\nThere are a couple of things worth checking:\n\n**1. Make sure you’re using the correct USB-C port.**\n\nWhen using the dongle as a wireless mouse receiver, you must connect your PC to the USB-C port labeled **“TO PC” (the leftmost port)**.\n\nThe other ports are designed for USB hub functionality and won’t work as the main connection for the mouse receiver.\n\n**2. Using the USB hub functionality**\n\nIf you want to use the dongle as a USB hub, you may need to connect an additional USB-C cable to the **“POWER IN”** port to provide sufficient power, especially when connecting multiple devices.\n\nPlease try connecting the dongle through the “TO PC” port first and see if tha",
+      "[+1] ​Hi WLmouse Support Team,\n​While setting up and testing my mouse, I accidentally plugged the cable into the \"Power In\" port instead of the \"To PC\" port multiple times. Once I switched to the \"To PC\" port, everything started working normally.\n​I just wanted to ask: could repeatedly plugging the cable into the \"Power In\" port during those attempts cause any long-term damage to the mouse, battery, or dongle?\n​Thank you for your help!",
+      "[+1] No worries!  It’s not that fragile.",
+      "[+1] Thank you for support. we love you"
+    ],
+    "comment_tree": [
+      {
+        "id": "19slxi7yke3fo",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "WLMOUSE",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Hey! WLMOUSE here! \n\nThe Beast X V2 comes with our upgraded dongle, which works as both a wireless mouse receiver and a USB hub.\n\nThere are a couple of things worth checking:\n\n**1. Make sure you’re using the correct USB-C port.**\n\nWhen using the dongle as a wireless mouse receiver, you must connect your PC to the USB-C port labeled **“TO PC” (the leftmost port)**.\n\nThe other ports are designed for USB hub functionality and won’t work as the main connection for the mouse receiver.\n\n**2. Using the USB hub functionality**\n\nIf you want to use the dongle as a USB hub, you may need to connect an additional USB-C cable to the **“POWER IN”** port to provide sufficient power, especially when connecting multiple devices.\n\nPlease try connecting the dongle through the “TO PC” port first and see if that resolves the issue.\n\nIf you’re already using the correct port and the issue persists, feel free to reach out to us. We’ll be happy to help you troubleshoot further!",
+        "depth": 0,
+        "body_ja": "やあ！WLMOUSE公式です！\n\nBeast X V2には、ワイヤレスマウスレシーバーとUSBハブの両方として機能するアップグレードされたドングルが付属しています。\n\n確認すべき点がいくつかあります：\n\n1. 正しいUSB-Cポートを使用しているか確認してください。\nドングルをワイヤレスマウスレシーバーとして使用する場合は、PCを「TO PC」とラベル付けされた一番左のポートに接続する必要があります。\n\n他のポートはUSBハブ機能用に設計されており、マウスレシーバーのメイン接続としては機能しません。\n\n2. USBハブ機能の使用について\nドングルをUSBハブとして使用したい場合、特に複数のデバイスを接続する際は、十分な電力を供給するために「POWER IN」ポートに追加のUSB-Cケーブルを接続する必要がある場合があります。\n\nまずはドングルを「TO PC」ポート経由で接続してみて、問題が解決するか確認してください。\n\nすでに正しいポートを使用しても問題が解決しない場合は、お気軽にお問い合わせください。さらにトラブルシューティングのお手伝いをさせていただきます！"
+      },
+      {
+        "id": "19sm54jieyuhw",
+        "parent_id": "19slxi7yke3fo",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "​Hi WLmouse Support Team,\n​While setting up and testing my mouse, I accidentally plugged the cable into the \"Power In\" port instead of the \"To PC\" port multiple times. Once I switched to the \"To PC\" port, everything started working normally.\n​I just wanted to ask: could repeatedly plugging the cable into the \"Power In\" port during those attempts cause any long-term damage to the mouse, battery, or dongle?\n​Thank you for your help!",
+        "depth": 1,
+        "body_ja": "WLMOUSEサポートチームの皆さん、こんにちは！\nマウスのセットアップとテストを行っている最中、誤ってケーブルを「To PC」ポートではなく「Power In」ポートに何度も挿してしまっていました。「To PC」ポートに切り替えたところ、すべて正常に動作し始めました！\n1つ質問なのですが、テスト中にケーブルを「Power In」ポートに繰り返し挿したことで、マウス、バッテリー、またはドングルに長期的なダメージが及ぶ可能性はありますか？\n助けていただき本当にありがとうございました！"
+      },
+      {
+        "id": "19sm80kq1ay8z",
+        "parent_id": "19sm54jieyuhw",
+        "author": "海外ユーザー1",
+        "flair": "WLMOUSE",
+        "is_op": false,
+        "score": 1,
+        "body_en": "No worries!  It’s not that fragile.",
+        "depth": 2,
+        "body_ja": "心配いりませんよ！そんなに脆い造りではありませんから。"
+      },
+      {
+        "id": "19smc2q1l8xk1",
+        "parent_id": "19sm80kq1ay8z",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Thank you for support. we love you",
+        "depth": 3,
+        "body_ja": "サポートありがとうございました。最高です！"
+      }
+    ],
+    "title_ja": "WLMOUSE Beast X V2で無線が繋がらない？ドングル差込口の誤接続が原因かも",
+    "hook_ja": "WLMOUSE Beast X V2で無線接続が機能しない問題について、公式サポートからの指摘で接続ポートの誤りが判明しました。ハブ機能付きドングルの「TO PC」ポートに正しく接続することで無事に解決しています。",
+    "op_post_ja": "皆さん、こんにちは。\n\n最近Wraith Esportsから「WLMOUSE Beast X Pro V2」を購入したのですが、ワイヤレス接続で問題が発生しています。\n\nUSBケーブルを直接繋いだ有線状態だとマウスは完璧に動作します。しかし、ドングル経由でワイヤレス接続しようとすると、カーソルが動かず、ボタンやスクロールホイールも一切反応しません。\n\n問題の詳細は以下の通りです：\n\n- 左クリック、右クリック、進むボタンを長押ししてペアリングモードに入ると、緑色のLEDが高速点滅します。\n- ドングルを挿すとマウスのLEDが消灯しますが、ワイヤレス接続自体は機能しません。\n- ドングルのディスプレイはうっすら点滅するだけで、正常な画像が表示されません。\n- ドングルのディスプレイはDPI変更やマウスの移動には反応を示します。\n- しかし、ワイヤレス状態ではマウスの入力が一切受け付けられません。\n- WLMOUSE Web Hub（ブラウザ設定ツール）がドングルを認識しません。\n\nペアリング手順を何度も試しましたが、今のところ何も解決していません。\n\n同じような問題を経験した方や、修正方法を知っている方はいますか？これがペアリングの問題なのか、ファームウェアの問題なのか、それともドングルの初期不良なのかを見極めたいです。\n\n助けていただけると幸いです。よろしくお願いします！",
+    "consensus_points": [
+      "Beast X V2に付属する多機能ドングルは、PC接続用ポート（TO PC）と給電用ポート（POWER IN）が明確に分かれている。",
+      "PCと接続する際は必ず一番左にある「TO PC」ポートを使用しなければワイヤレスマウスレシーバーとして動作しない。",
+      "誤って「POWER IN」ポートにケーブルを何度か挿してしまっても、ドングルやマウス本体が破損することはない。"
+    ],
+    "detailed_analysis_ja": "【1. WLMOUSE Beast X V2の多機能ドングル構造】\nWLMOUSE Beast X V2などに付属する最新型の多機能ドングル（液晶ディスプレイ搭載モデル）は、単なるワイヤレスレシーバーとしての機能だけでなく、USBハブや各種ステータス表示機能を兼ね備えています。そのため背面には複数のUSB-Cポートが配置されており、一般的なプラグアンドプレイの小型レシーバーとは扱いが異なります。\n\n【2. 接続ポートの誤認によるトラブル】\n本スレッドで発生した問題の根本原因は、ドングル背面の接続ポートの誤りにありました。ドングルにはPCからのデータ通信を担う「TO PC」ポート（一番左側の端子）と、USBハブ機能使用時に電力を補助するための「POWER IN」ポートが存在します。スレ主は「POWER IN」側にPCからのケーブルを挿していたため、ドングルへの電力供給が行われてディスプレイがうっすら反応するものの、PC側にマウスの入力データが送信されないという状態に陥っていました。\n\n【3. 公式サポートの迅速な回答と安全性】\nWLMOUSE公式アカウントが直接スレッドに回答し、正しく「TO PC」ポートへ接続し直すよう指示したことで問題は即座に解決しました。また、誤って給電ポートに通信用ケーブルを接続し直していたことによる回路への長期的なダメージを危惧するスレ主に対し、公式は「そこまで脆弱な造りではないため心配いらない」と回答しており、ユーザー側での誤接続に対する保護設計もなされていることが窺えます。",
+    "devices": [
+      {
+        "name": "WLMOUSE Beast X V2",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "マグネシウム合金製の超軽量ワイヤレスゲーミングマウス。多機能な液晶付きドングルが付属するが、接続用ポート（TO PC）を間違えるとワイヤレス機能が動作しない点に注意が必要。"
+      }
+    ],
+    "x_main_post": "WLMOUSE Beast X V2で無線が繋がらないトラブルが発生！\n原因は付属ドングルのポート挿し間違えでした。\n・通信は「TO PC」ポート必須\n・「POWER IN」は給電用\n挿し間違えても壊れない設計ですが、無線が反応しない時はポートを確認しましょう！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "Beast X V2の無線が反応しないのだ！",
+        "caption": "無線が繋がらない！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "それ、ドングルの挿す場所を間違えてる可能性大だよ！",
+        "caption": "ドングルの接続ミス？"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "えっ、ドングルに挿す場所なんて種類があるのだ？",
+        "caption": "ポートの種類？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "付属の多機能ドングルには『TO PC』と『POWER IN』があるんだよね。",
+        "caption": "ポートが2種類ある"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "PCと繋ぐ時は一番左の『TO PC』に挿さないと通信できないよ！",
+        "caption": "TO PCポートに接続！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "間違えて電源側に挿すと画面だけ動いて操作できないのだ！",
+        "caption": "給電用だと動作不可"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "間違えて挿しても壊れない設計だから安心してね！",
+        "caption": "誤接続でも破損なし"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19slxi7yke3fo",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "WLMOUSE",
+        "is_op": false,
+        "score": 2,
+        "text": "やあ！WLMOUSE公式です！\n\nBeast X V2には、ワイヤレスマウスレシーバーとUSBハブの両方として機能するアップグレードされたドングルが付属しています。\n\n確認すべき点がいくつかあります：\n\n1. 正しいUSB-Cポートを使用しているか確認してください。\nドングルをワイヤレスマウスレシーバーとして使用する場合は、PCを「TO PC」とラベル付けされた一番左のポートに接続する必要があります。\n\n他のポートはUSBハブ機能用に設計されており、マウスレシーバーのメイン接続としては機能しません。\n\n2. USBハブ機能の使用について\nドングルをUSBハブとして使用したい場合、特に複数のデバイスを接続する際は、十分な電力を供給するために「POWER IN」ポートに追加のUSB-Cケーブルを接続する必要がある場合があります。\n\nまずはドングルを「TO PC」ポート経由で接続してみて、問題が解決するか確認してください。\n\nすでに正しいポートを使用しても問題が解決しない場合は、お気軽にお問い合わせください。さらにトラブルシューティングのお手伝いをさせていただきます！"
+      },
+      {
+        "id": "19sm54jieyuhw",
+        "parent_id": "19slxi7yke3fo",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "WLMOUSEサポートチームの皆さん、こんにちは！\nマウスのセットアップとテストを行っている最中、誤ってケーブルを「To PC」ポートではなく「Power In」ポートに何度も挿してしまっていました。「To PC」ポートに切り替えたところ、すべて正常に動作し始めました！\n1つ質問なのですが、テスト中にケーブルを「Power In」ポートに繰り返し挿したことで、マウス、バッテリー、またはドングルに長期的なダメージが及ぶ可能性はありますか？\n助けていただき本当にありがとうございました！"
+      },
+      {
+        "id": "19sm80kq1ay8z",
+        "parent_id": "19sm54jieyuhw",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "WLMOUSE",
+        "is_op": false,
+        "score": 1,
+        "text": "心配いりませんよ！そんなに脆い造りではありませんから。"
+      },
+      {
+        "id": "19smc2q1l8xk1",
+        "parent_id": "19sm80kq1ay8z",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "サポートありがとうございました。最高です！"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xvkmq0.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=WLMOUSE%20Beast%20X%20V2%E3%81%A7%E7%84%A1%E7%B7%9A%E3%81%8C%E7%B9%8B%E3%81%8C%E3%82%89%E3%81%AA%E3%81%84%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%81%8C%E7%99%BA%E7%94%9F%EF%BC%81%0A%E5%8E%9F%E5%9B%A0%E3%81%AF%E4%BB%98%E5%B1%9E%E3%83%89%E3%83%B3%E3%82%B0%E3%83%AB%E3%81%AE%E3%83%9D%E3%83%BC%E3%83%88%E6%8C%BF%E3%81%97%E9%96%93%E9%81%95%E3%81%88%E3%81%A7%E3%81%97%E3%81%9F%E3%80%82%0A%E3%83%BB%E9%80%9A%E4%BF%A1%E3%81%AF%E3%80%8CTO%20PC%E3%80%8D%E3%83%9D%E3%83%BC%E3%83%88%E5%BF%85%E9%A0%88%0A%E3%83%BB%E3%80%8CPOWER%20IN%E3%80%8D%E3%81%AF%E7%B5%A6%E9%9B%BB%E7%94%A8%0A%E6%8C%BF%E3%81%97%E9%96%93%E9%81%95%E3%81%88%E3%81%A6%E3%82%82%E5%A3%8A%E3%82%8C%E3%81%AA%E3%81%84%E8%A8%AD%E8%A8%88%E3%81%A7%E3%81%99%E3%81%8C%E3%80%81%E7%84%A1%E7%B7%9A%E3%81%8C%E5%8F%8D%E5%BF%9C%E3%81%97%E3%81%AA%E3%81%84%E6%99%82%E3%81%AF%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%97%E3%81%BE%E3%81%97%E3%82%87%E3%81%86%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xvkmq0.html",
+    "created_at": "2026-11-14T22:44:13.112773+00:00"
+  },
+  {
+    "id": "1xvjvb4",
+    "subreddit": "MousepadReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Alright?",
+    "selftext_en": "These are Jade Air Dots skates. I'm going to use them on a soft mousepad, which is the ATK Knight Horse Black Zodiac. I play CS2, Fortnite, Deadlock, and many other aiming games. The question is, are all four good, or should\n\nI change them?\n\nOr should I add more dots?",
+    "image_urls": [
+      "https://i.redd.it/li9idd5u3g1i1.jpeg"
+    ],
+    "score": 6,
+    "num_comments": 24,
+    "permalink": "https://www.reddit.com/r/MousepadReview/comments/1xvjvb4/alright/",
+    "comments": [
+      "[+0] More dots or you're basically playing on the base unless you're fingertip and don't put pressure on the mouse",
+      "[+1] I tend to rest my hand a lot on the mouse, using a claw grip.",
+      "[+1] Yeah i'd say more dots ideally go back to full sized skates if not just add more dots. soft pads are shit but that's just my opinion",
+      "[+0] If my mouse can't find full-size skates, then I try 8 to compensate.",
+      "[+3] Depends if your bottom of the mouse scratches the pad, some ppl press their mouse into the pad so they need 8 instead of 4",
+      "[+2] Try it , im guessing theyll wear more uneven and faster than using 8 dots but everyone is afraid of trying new things",
+      "[+3] Do you recommend 8 if I'm someone who likes to press the mouse and play CS2?",
+      "[+1] 8 has been working pretty well for me yeah  ,  i press hard on my mouse alot with a full palm grip , heavy tracking games like overwatch.\n\nTechnically the less surface you have the faster you can go so youre adding twice the drag but if you look at 8 dots compared to a stock mouse skate its already kind of overkill",
+      "[+1] Oh yeah if you notice you press down into the pad I would do the 4x4 layout but I would try a few games with the 2x2",
+      "[+1] this is mine and it feel right for me on speed/mid pad all wear down evenly beside the middle bottom, dots give you the freedom to use it however you like so just add/remove it till you feel right\n\nhttps://i.redd.it/hla5r3e6fg1i1.jpeg",
+      "[+0] This makes more sense to me\n\nhttps://i.redd.it/mu7y6ricmg1i1.jpeg",
+      "[+1] i did try that but for some reason it feel a bit odd for me",
+      "[+2] that's a good number for glass since you can't compress it.",
+      "[+-1] Can you read?",
+      "[+3] I have a soft cloth mousepad, not glass.",
+      "[+1] 4 is a good start but if you notice scraping you could add more but I’ve never had a problem with this layout of dots",
+      "[+1] How is it going? I have the same mouse and thinking about getting some jade dots. Also is your mousepad a soft version? You feelt an instant improvement?",
+      "[+1] I recommend the Jade Air or the Jade, but never the Obsidian, as it sinks too much into soft mousepads.",
+      "[+1] Add more dots. 4 isnt enough for cloth pads. Based on what i see, i would go with 8 if your fine with going overkill. \n\nRealistically 5 (3 top, 2 bottom) might be enough, but with how the OG skates are positioned i would just bite the bullet and go overkill with 8 skates.",
+      "[+1] I'm going to try it today and I'll let you know how it goes.",
+      "[+1] 8 skates is god",
+      "[+1] They are good, but I'll suggest to sand the base, and that will allow you to add dots around sensor.",
+      "[+1] instead of 4 small dots, just put one really really big dot in the middle",
+      "[+1] On really soft pads I prefer to have more than 4 dots, but as long as you don't feel the pad scratch on plastic while pushing the mouse deep into the pad your fine"
+    ],
+    "comment_tree": [
+      {
+        "id": "19slbk07khedh",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "More dots or you're basically playing on the base unless you're fingertip and don't put pressure on the mouse",
+        "depth": 0,
+        "body_ja": "ドットをもっと増やさないと、ツマミ持ちでマウスに圧力をまったくかけないタイプでもない限り、基本的には底面で滑らせることになっちゃうよ。"
+      },
+      {
+        "id": "19slbtt1ensox",
+        "parent_id": "19slbk07khedh",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I tend to rest my hand a lot on the mouse, using a claw grip.",
+        "depth": 1,
+        "body_ja": "つかみ持ちで、マウスに手をかなり預ける（体重をかける）傾向があります。"
+      },
+      {
+        "id": "19slbxrrgjvnk",
+        "parent_id": "19slbtt1ensox",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Yeah i'd say more dots ideally go back to full sized skates if not just add more dots. soft pads are shit but that's just my opinion",
+        "depth": 2,
+        "body_ja": "うん、なら理想としてはドットをもっと増やすか、フルサイズソールに戻したほうがいいね。それが無理ならドットを追加するだけだ。柔らかいパッドは個人的にクソだと思うけど、まあそれは僕の意見ね。"
+      },
+      {
+        "id": "19slcm01zk2yr",
+        "parent_id": "19slbxrrgjvnk",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 0,
+        "body_en": "If my mouse can't find full-size skates, then I try 8 to compensate.",
+        "depth": 3,
+        "body_ja": "自分のマウスに合うフルサイズソールが見つからない場合は、8粒試して補おうと思います。"
+      },
+      {
+        "id": "19slc7exfim0w",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Depends if your bottom of the mouse scratches the pad, some ppl press their mouse into the pad so they need 8 instead of 4",
+        "depth": 0,
+        "body_ja": "マウスの底面がパッドを擦るかどうかによるね。マウスをパッドに押し込むタイプの人は、4粒じゃなくて8粒必要になるよ。"
+      },
+      {
+        "id": "19slc8wz7x6o5",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Try it , im guessing theyll wear more uneven and faster than using 8 dots but everyone is afraid of trying new things",
+        "depth": 0,
+        "body_ja": "試してみて。8粒使うより削れ方が偏るし早く磨耗すると思うけど、みんな新しいことを試すのを怖がりすぎなんだよね。"
+      },
+      {
+        "id": "19slcd273t2x1",
+        "parent_id": "19slc8wz7x6o5",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 3,
+        "body_en": "Do you recommend 8 if I'm someone who likes to press the mouse and play CS2?",
+        "depth": 1,
+        "body_ja": "マウスを押し込んでプレイするタイプで、CS2をプレイしている場合、8粒をおすすめしますか？"
+      },
+      {
+        "id": "19slcjq5kwpvk",
+        "parent_id": "19slcd273t2x1",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "8 has been working pretty well for me yeah  ,  i press hard on my mouse alot with a full palm grip , heavy tracking games like overwatch.\n\nTechnically the less surface you have the faster you can go so youre adding twice the drag but if you look at 8 dots compared to a stock mouse skate its already kind of overkill",
+        "depth": 2,
+        "body_ja": "8粒は僕にとってかなり上手くいってるよ。かぶせ持ちでOverwatchみたいな追従エイムが激しいゲームをするから、マウスを強く押し込むことが多いんだ。\n\n理論的には表面積が少ないほど速く滑るから、8粒にすると抵抗が2倍になるけど、純正ソールと比べたら8粒でもすでに十分滑る方だよ。"
+      },
+      {
+        "id": "19sljp7p9jsas",
+        "parent_id": "19slcd273t2x1",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Oh yeah if you notice you press down into the pad I would do the 4x4 layout but I would try a few games with the 2x2",
+        "depth": 2,
+        "body_ja": "ああ、パッドにしずみ込むように押し込んでいると気づいたなら、4x4（合計8粒）配置にするよ。でもまずは2x2（4粒）で数ゲーム試してみてからでもいいかも。"
+      },
+      {
+        "id": "19sle9ybhy6m9",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "this is mine and it feel right for me on speed/mid pad all wear down evenly beside the middle bottom, dots give you the freedom to use it however you like so just add/remove it till you feel right\n\nhttps://i.redd.it/hla5r3e6fg1i1.jpeg",
+        "depth": 0,
+        "body_ja": "これが僕の配置で、スピード/ミッド系のパッドでちょうどいい感じだよ。底面の中央下以外は全部均等に削れてる。ドットソールは好きなように使えるのが強みだから、しっくりくるまで追加したり減らしたりすればいいんだよ。\n\nhttps://i.redd.it/hla5r3e6fg1i1.jpeg"
+      },
+      {
+        "id": "19slg2hazahoi",
+        "parent_id": "19sle9ybhy6m9",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "body_en": "This makes more sense to me\n\nhttps://i.redd.it/mu7y6ricmg1i1.jpeg",
+        "depth": 1,
+        "body_ja": "こっちの配置の方が個人的には理にかなってる気がするな。\n\nhttps://i.redd.it/mu7y6ricmg1i1.jpeg"
+      },
+      {
+        "id": "19sm2z7gmlber",
+        "parent_id": "19slg2hazahoi",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "i did try that but for some reason it feel a bit odd for me",
+        "depth": 2,
+        "body_ja": "それも試したんだけど、なぜか僕にはちょっと違和感があったんだよね。"
+      },
+      {
+        "id": "19slfjm2ricjk",
+        "parent_id": null,
+        "author": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "that's a good number for glass since you can't compress it.",
+        "depth": 0,
+        "body_ja": "ガラスパッドなら沈み込まないから、4粒は良い数なんだけどね。"
+      },
+      {
+        "id": "19slfy3evlhj8",
+        "parent_id": "19slfjm2ricjk",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "body_en": "Can you read?",
+        "depth": 1,
+        "body_ja": "字が読めないの？"
+      },
+      {
+        "id": "19slfzaw87sas",
+        "parent_id": "19slfjm2ricjk",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 3,
+        "body_en": "I have a soft cloth mousepad, not glass.",
+        "depth": 1,
+        "body_ja": "自分が使っているのはガラスではなく、柔らかい布製マウスパッドです。"
+      },
+      {
+        "id": "19sljng8v5q80",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "4 is a good start but if you notice scraping you could add more but I’ve never had a problem with this layout of dots",
+        "depth": 0,
+        "body_ja": "4粒は良いスタートだけど、擦れを感じたら追加すればいい。自分はこの4粒配置で問題が起きたことはないけどね。"
+      },
+      {
+        "id": "19sllv5wciqkg",
+        "parent_id": null,
+        "author": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "How is it going? I have the same mouse and thinking about getting some jade dots. Also is your mousepad a soft version? You feelt an instant improvement?",
+        "depth": 0,
+        "body_ja": "調子はどう？同じマウスを持っていて、Jade Dotを買おうか迷ってるんだ。あと、君のマウスパッドはSoftバージョン？すぐに改善を感じられた？"
+      },
+      {
+        "id": "19slot73l9ber",
+        "parent_id": "19sllv5wciqkg",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I recommend the Jade Air or the Jade, but never the Obsidian, as it sinks too much into soft mousepads.",
+        "depth": 1,
+        "body_ja": "Jade AirかJadeをおすすめします。Obsidianは柔らかいマウスパッドだと沈み込みすぎるので、絶対におすすめしません。"
+      },
+      {
+        "id": "19sloxw47o7ia",
+        "parent_id": null,
+        "author": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Add more dots. 4 isnt enough for cloth pads. Based on what i see, i would go with 8 if your fine with going overkill. \n\nRealistically 5 (3 top, 2 bottom) might be enough, but with how the OG skates are positioned i would just bite the bullet and go overkill with 8 skates.",
+        "depth": 0,
+        "body_ja": "ドットをもっと増やして。布パッドに4粒じゃ足りない。見た感じ、 overkill（過剰）になってもいいなら8粒で行くべき。\n\n現実的には5粒（上3、下2）で十分かもしれないけど、元のソールの位置を考えると腹を括って8粒で過剰なくらい盛るのが正解。"
+      },
+      {
+        "id": "19slp43ego7b4",
+        "parent_id": "19sloxw47o7ia",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I'm going to try it today and I'll let you know how it goes.",
+        "depth": 1,
+        "body_ja": "今日試してみて、どうだったか報告するよ。"
+      },
+      {
+        "id": "19slwokcfgyrl",
+        "parent_id": "19sloxw47o7ia",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "8 skates is god",
+        "depth": 1,
+        "body_ja": "8粒ソール、神だわ。"
+      },
+      {
+        "id": "19slw0hwy4x6o",
+        "parent_id": null,
+        "author": "海外ユーザー10",
+        "flair": "Saturn, x83, Singularity",
+        "is_op": false,
+        "score": 1,
+        "body_en": "They are good, but I'll suggest to sand the base, and that will allow you to add dots around sensor.",
+        "depth": 0,
+        "body_ja": "いい感じだけど、マウス底面をサンディング（削る）するのをおすすめするよ。そうすればセンサー周りにもドットを配置できるようになるから。"
+      },
+      {
+        "id": "19smr8tjq76kl",
+        "parent_id": null,
+        "author": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "instead of 4 small dots, just put one really really big dot in the middle",
+        "depth": 0,
+        "body_ja": "小さいドット4個の代わりに、中央に1個超巨大なドットを置こうぜ。"
+      },
+      {
+        "id": "19smsw6xhedxc",
+        "parent_id": null,
+        "author": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "On really soft pads I prefer to have more than 4 dots, but as long as you don't feel the pad scratch on plastic while pushing the mouse deep into the pad your fine",
+        "depth": 0,
+        "body_ja": "かなり柔らかいパッドでは、4粒より多く貼るのが好きだな。でも、マウスを深く押し込んだ時にプラスチック底面がパッドを擦らなければ問題ないよ。"
+      }
+    ],
+    "title_ja": "ソフトマウスパッドで汎用ドットソール4個は足りる？底面擦れを防ぐ最適な配置と個数の結論",
+    "hook_ja": "柔らかい布製マウスパッドで4粒配置の汎用ドットソールを使用する際、底面が擦れるリスクが議論されています。持ち方や押し込み圧に応じた適切な個数と配置の最適解を海外ユーザーの検証から紐解きます。",
+    "op_post_ja": "これはX-raypad Jade Air Dot skatesです。これをATK Knight Horse Black ZodiacのSoftマウスパッド上で使う予定です。CS2、Fortnite、Deadlock、その他多くのエイム系ゲームをプレイしています。質問なのですが、4粒だけで十分でしょうか、それとも変更すべきでしょうか？\n\nそれとも、もっとドットを増やすべきでしょうか？",
+    "consensus_points": [
+      "Softなど柔らかい布製マウスパッドでつかみ持ちやかぶせ持ちをし、マウスを押し込む傾向がある場合、4粒では底面が沈み込んで底摩耗（スクラッチ）が発生する。",
+      "マウスを押し込むスタイルのプレーヤーやCS2などのストップ性が重要なタイトルでは、合計8粒（各隅2粒ずつなど）配置するのが最も安定し高評価。",
+      "ガラスパッドであれば4粒で十分だが、布パッド（特にSoft/XSoft）では底面摩擦を避けるために5〜8粒への増量が推奨される。"
+    ],
+    "detailed_analysis_ja": "【1. ドットソール（汎用ソール）とパッドの硬度（Soft/XSoft）の相性問題】\n汎用丸型ソール（ドットソール）は自由な配置と滑走抵抗の少なさから人気を集めていますが、接触面積が小さいため、マウスパッドのベース（スポンジ層）が柔らかい「Soft」や「XSoft」では、マウスの重みや手圧によってソールが深く沈み込みやすいという欠点があります。沈み込みすぎるとソール以外のマウス底面プラスチック部がマウスパッド表面に接触し、「擦れ（スクラッチ）」や不快な引っかかり感を生じさせます。\n\n【2. 持ち方（グリップ）と加圧による個数調整】\n指先だけで保持するツマミ持ちで手圧をかけないプレーヤーであれば4粒でも問題ありません。しかし、ツカミ持ちやカブセ持ちで手の掌をマウスに預けるプレーヤーや、ストッピングパワーを得るために意識的・無意識的にマウスを下に押し込むプレーヤー（特にCS2やVALORANTなどのローセンシ・タクティカルFPS）では、4粒では圧力を分散しきれません。コミュニティでは、各コーナーに2粒ずつ配置する合計8粒のレイアウト（4x4または各隅並列）が最適解とされています。\n\n【3. X-raypad Jade / Jade AirとObsidianの特性違い】\nスレッド内でも触れられている通り、PTFE素材で滑走面が滑らかなJadeやJade Airは布パッドとの相性が良いですが、より硬質でコントロール寄りのObsidianは沈み込んだ際に制動がかかりすぎる傾向があります。汎用ドットソールを柔らかい布パッドで運用する場合は、沈み込みを考慮して最低でも5〜8粒を貼り、設置面積（耐圧力）を確保することが推奨されます。",
+    "devices": [
+      {
+        "name": "X-raypad Jade Dot Skates",
+        "category": "skates",
+        "sentiment": "positive",
+        "comment_ja": "滑り出しの軽さと滑走面の滑らかさが高く評価されている。柔らかい布パッドで使用する場合は、底摩耗を防ぐため8粒配置が推奨されている。"
+      },
+      {
+        "name": "X-raypad Jade Air Dot Skates",
+        "category": "skates",
+        "sentiment": "positive",
+        "comment_ja": "柔らかい布製マウスパッドとの相性が良く推奨されている汎用ドットソール。"
+      },
+      {
+        "name": "X-raypad Obsidian Dot Skates",
+        "category": "skates",
+        "sentiment": "negative",
+        "comment_ja": "柔らかいSoft/XSoftのマウスパッドで使用すると、沈み込みすぎて引っかかり感が強くなるため不適と評価されている。"
+      }
+    ],
+    "x_main_post": "【布マウスパッド×ドットソール】4粒配置はNG？\n柔らかい布パッド（Soft等）でつかみ持ちや加圧をする場合、4粒ではマウス底面が沈み込んで底摩耗が発生する危険性が大。\n検証の結果、各隅に2粒配置する「合計8粒」に増量することで安定感と滑走性が劇的改善！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "柔らかい布パッドにドットソール4個って少ないのだ？",
+        "caption": "ドットソール4個は少ない？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "手圧をかける人や「Soft」系のパッドだと、底面が擦れちゃうよ！",
+        "caption": "手圧があると底面が擦れる"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "底面擦れ！？どうして起きちゃうのだ？",
+        "caption": "なぜ擦れる？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "接触面積が狭いから、マウスを押し込むとスポンジに深く沈んじゃうんだよね。",
+        "caption": "接地面が狭く沈み込む"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "解決策として、合計8個までドットを増やすレイアウトが推奨されてるよ！",
+        "caption": "8個配置が解決策！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "8個貼ることで沈み込みを防いで安定滑走になるのだ！",
+        "caption": "8個配置で沈み込み防止！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ、硬いガラスパッドなら4個でも全然平気だからパッドに合せてね！",
+        "caption": "ガラスパッドなら4個でOK"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19slbk07khedh",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "ドットをもっと増やさないと、ツマミ持ちでマウスに圧力をまったくかけないタイプでもない限り、基本的には底面で滑らせることになっちゃうよ。"
+      },
+      {
+        "id": "19slbtt1ensox",
+        "parent_id": "19slbk07khedh",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "つかみ持ちで、マウスに手をかなり預ける（体重をかける）傾向があります。"
+      },
+      {
+        "id": "19slbxrrgjvnk",
+        "parent_id": "19slbtt1ensox",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "うん、なら理想としてはドットをもっと増やすか、フルサイズソールに戻したほうがいいね。それが無理ならドットを追加するだけだ。柔らかいパッドは個人的にクソだと思うけど、まあそれは僕の意見ね。"
+      },
+      {
+        "id": "19slcm01zk2yr",
+        "parent_id": "19slbxrrgjvnk",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 0,
+        "text": "自分のマウスに合うフルサイズソールが見つからない場合は、8粒試して補おうと思います。"
+      },
+      {
+        "id": "19slc7exfim0w",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "マウスの底面がパッドを擦るかどうかによるね。マウスをパッドに押し込むタイプの人は、4粒じゃなくて8粒必要になるよ。"
+      },
+      {
+        "id": "19slc8wz7x6o5",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "試してみて。8粒使うより削れ方が偏るし早く磨耗すると思うけど、みんな新しいことを試すのを怖がりすぎなんだよね。"
+      },
+      {
+        "id": "19slcd273t2x1",
+        "parent_id": "19slc8wz7x6o5",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 3,
+        "text": "マウスを押し込んでプレイするタイプで、CS2をプレイしている場合、8粒をおすすめしますか？"
+      },
+      {
+        "id": "19slcjq5kwpvk",
+        "parent_id": "19slcd273t2x1",
+        "depth": 2,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "8粒は僕にとってかなり上手くいってるよ。かぶせ持ちでOverwatchみたいな追従エイムが激しいゲームをするから、マウスを強く押し込むことが多いんだ。\n\n理論的には表面積が少ないほど速く滑るから、8粒にすると抵抗が2倍になるけど、純正ソールと比べたら8粒でもすでに十分滑る方だよ。"
+      },
+      {
+        "id": "19sljp7p9jsas",
+        "parent_id": "19slcd273t2x1",
+        "depth": 2,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ああ、パッドにしずみ込むように押し込んでいると気づいたなら、4x4（合計8粒）配置にするよ。でもまずは2x2（4粒）で数ゲーム試してみてからでもいいかも。"
+      },
+      {
+        "id": "19sle9ybhy6m9",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "これが僕の配置で、スピード/ミッド系のパッドでちょうどいい感じだよ。底面の中央下以外は全部均等に削れてる。ドットソールは好きなように使えるのが強みだから、しっくりくるまで追加したり減らしたりすればいいんだよ。\n\nhttps://i.redd.it/hla5r3e6fg1i1.jpeg"
+      },
+      {
+        "id": "19slg2hazahoi",
+        "parent_id": "19sle9ybhy6m9",
+        "depth": 1,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 0,
+        "text": "こっちの配置の方が個人的には理にかなってる気がするな。\n\nhttps://i.redd.it/mu7y6ricmg1i1.jpeg"
+      },
+      {
+        "id": "19sm2z7gmlber",
+        "parent_id": "19slg2hazahoi",
+        "depth": 2,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "それも試したんだけど、なぜか僕にはちょっと違和感があったんだよね。"
+      },
+      {
+        "id": "19slfjm2ricjk",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー7",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "ガラスパッドなら沈み込まないから、4粒は良い数なんだけどね。"
+      },
+      {
+        "id": "19slfy3evlhj8",
+        "parent_id": "19slfjm2ricjk",
+        "depth": 1,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": -1,
+        "text": "字が読めないの？"
+      },
+      {
+        "id": "19slfzaw87sas",
+        "parent_id": "19slfjm2ricjk",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 3,
+        "text": "自分が使っているのはガラスではなく、柔らかい布製マウスパッドです。"
+      },
+      {
+        "id": "19sljng8v5q80",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "4粒は良いスタートだけど、擦れを感じたら追加すればいい。自分はこの4粒配置で問題が起きたことはないけどね。"
+      },
+      {
+        "id": "19sllv5wciqkg",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー8",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "調子はどう？同じマウスを持っていて、Jade Dotを買おうか迷ってるんだ。あと、君のマウスパッドはSoftバージョン？すぐに改善を感じられた？"
+      },
+      {
+        "id": "19slot73l9ber",
+        "parent_id": "19sllv5wciqkg",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "Jade AirかJadeをおすすめします。Obsidianは柔らかいマウスパッドだと沈み込みすぎるので、絶対におすすめしません。"
+      },
+      {
+        "id": "19sloxw47o7ia",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー9",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ドットをもっと増やして。布パッドに4粒じゃ足りない。見た感じ、 overkill（過剰）になってもいいなら8粒で行くべき。\n\n現実的には5粒（上3、下2）で十分かもしれないけど、元のソールの位置を考えると腹を括って8粒で過剰なくらい盛るのが正解。"
+      },
+      {
+        "id": "19slp43ego7b4",
+        "parent_id": "19sloxw47o7ia",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "今日試してみて、どうだったか報告するよ。"
+      },
+      {
+        "id": "19slwokcfgyrl",
+        "parent_id": "19sloxw47o7ia",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "8粒ソール、神だわ。"
+      },
+      {
+        "id": "19slw0hwy4x6o",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー10",
+        "flair": "Saturn, x83, Singularity",
+        "is_op": false,
+        "score": 1,
+        "text": "いい感じだけど、マウス底面をサンディング（削る）するのをおすすめするよ。そうすればセンサー周りにもドットを配置できるようになるから。"
+      },
+      {
+        "id": "19smr8tjq76kl",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー11",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "小さいドット4個の代わりに、中央に1個超巨大なドットを置こうぜ。"
+      },
+      {
+        "id": "19smsw6xhedxc",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー12",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "かなり柔らかいパッドでは、4粒より多く貼るのが好きだな。でも、マウスを深く押し込んだ時にプラスチック底面がパッドを擦らなければ問題ないよ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xvjvb4.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90%E5%B8%83%E3%83%9E%E3%82%A6%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%C3%97%E3%83%89%E3%83%83%E3%83%88%E3%82%BD%E3%83%BC%E3%83%AB%E3%80%914%E7%B2%92%E9%85%8D%E7%BD%AE%E3%81%AFNG%EF%BC%9F%0A%E6%9F%94%E3%82%89%E3%81%8B%E3%81%84%E5%B8%83%E3%83%91%E3%83%83%E3%83%89%EF%BC%88Soft%E7%AD%89%EF%BC%89%E3%81%A7%E3%81%A4%E3%81%8B%E3%81%BF%E6%8C%81%E3%81%A1%E3%82%84%E5%8A%A0%E5%9C%A7%E3%82%92%E3%81%99%E3%82%8B%E5%A0%B4%E5%90%88%E3%80%814%E7%B2%92%E3%81%A7%E3%81%AF%E3%83%9E%E3%82%A6%E3%82%B9%E5%BA%95%E9%9D%A2%E3%81%8C%E6%B2%88%E3%81%BF%E8%BE%BC%E3%82%93%E3%81%A7%E5%BA%95%E6%91%A9%E8%80%97%E3%81%8C%E7%99%BA%E7%94%9F%E3%81%99%E3%82%8B%E5%8D%B1%E9%99%BA%E6%80%A7%E3%81%8C%E5%A4%A7%E3%80%82%0A%E6%A4%9C%E8%A8%BC%E3%81%AE%E7%B5%90%E6%9E%9C%E3%80%81%E5%90%84%E9%9A%85%E3%81%AB2%E7%B2%92%E9%85%8D%E7%BD%AE%E3%81%99%E3%82%8B%E3%80%8C%E5%90%88%E8%A8%888%E7%B2%92%E3%80%8D%E3%81%AB%E5%A2%97%E9%87%8F%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%A7%E5%AE%89%E5%AE%9A%E6%84%9F%E3%81%A8%E6%BB%91%E8%B5%B0%E6%80%A7%E3%81%8C%E5%8A%87%E7%9A%84%E6%94%B9%E5%96%84%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xvjvb4.html",
+    "created_at": "2026-11-14T22:44:42.600599+00:00"
   }
 ]
