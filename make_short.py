@@ -557,6 +557,9 @@ def build_se_track_wav(
     se_samples = {k: _read_wav_mono_float(p, sr) for k, p in se_paths.items()}
     point_keywords = ("結論", "原因", "最大", "重要", "大事", "おすすめ", "ただし", "注意", "解決", "無難")
 
+    # ラスト2セリフ開始時（黄色CTA座布団がポップアップする瞬間）のインデックス
+    cta_trigger_idx = max(1, len(timed_lines) - 2)
+
     for idx, item in enumerate(timed_lines):
         start_idx = max(0, int(item["start"] * sr))
         text = item.get("text", "")
@@ -567,13 +570,13 @@ def build_se_track_wav(
             chosen = se_samples.get("hook", [])
             gain = 0.48
         elif (
-            idx == len(timed_lines) - 1
+            idx == cta_trigger_idx
+            or idx == len(timed_lines) - 1
             or any(kw in text for kw in point_keywords)
-            or (len(timed_lines) == 2 and idx == 1)
         ):
-            # 重要キーワード行およびラストのプロフィールリンク誘導ポップアップ表示時に「パッ」を鳴らす
+            # 重要キーワード行およびラスト2行目の黄色CTA座布団ポップアップ表示時に「パッ」を鳴らす
             chosen = se_samples.get("point", [])
-            gain = 0.80
+            gain = 0.82
         else:
             chosen = []
             gain = 0.0
@@ -822,13 +825,12 @@ def trim_outro_script(script: list[dict[str, Any]]) -> list[dict[str, Any]]:
 def build_ass_subtitles(article: dict[str, Any], timed_lines: list[dict[str, Any]], total_sec: float) -> str:
     """
     1080x1920 縦型ショート動画用の ASS 字幕を生成する。
-    - 画面中央（クロスヘア＆ターゲット y=520..1280）を一切隠さない上下分離レイアウト
-    - 上部 (y=80..366):
-      - 1行目〜最終行の1つ前まで: 記事タイトル全文を大文字＋半透明の角丸黒座布団（エメラルドグリーン枠）で表示し、
-        そのすぐ下に登場デバイス＆評価バッジをポップアップ表示
-      - 最終行（本編ラストの解説セリフ中）: 上部のタイトル座布団ごと丸ごと切り替わり、
-        タイトル領域全体を使った特大サイズのゴールド枠・プロフ誘導看板（56pt×3行）を「パッ」と大きく表示する
-    - 下部 (y=1340..1680):
+    - 上部 (y=80..): 記事タイトル全文を大文字＋半透明の角丸黒座布団（エメラルドグリーン枠）で動画終了まで表示し、
+      そのすぐ下に登場デバイス＆評価バッジをポップアップ表示
+    - 中央下・セリフ座布団の直上 (y=1020..1290):
+      ラスト2セリフの間（最後の約6〜8秒間）、視聴者の視線が集中する下部セリフのすぐ真上に
+      鮮やかなイエロー・ゴールド座布団でサイト名『エイム沼の海外ログ』入りの特大誘導看板を表示する
+    - 下部 (y=1340..1710):
       - セリフ本文のフォントサイズを最大化 (68pt)
       - 話者別カラー（ずんだもん＝グリーン枠、春日部つむぎ＝アンバー枠）の角丸黒座布団を敷いて視認性を最大化
     """
@@ -843,7 +845,7 @@ ScaledBorderAndShadow: yes
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: BoxShape,Yu Gothic UI,20,&H3014100C,&H000000FF,&H2070FF66,&H00000000,0,0,0,0,100,100,0,0,1,3,0,7,0,0,0,1
 Style: TopTitle,Yu Gothic UI,58,&H00FFFFFF,&H000000FF,&H00140E08,&H80000000,-1,0,0,0,100,100,1,0,1,7,3,5,40,40,0,1
-Style: TopCtaBig,Yu Gothic UI,56,&H0058F4FF,&H000000FF,&H000C101C,&H80000000,-1,0,0,0,100,100,1,0,1,8,3,5,40,40,0,1
+Style: TopCtaBig,Yu Gothic UI,58,&H00FFFFFF,&H000000FF,&H00081018,&H90000000,-1,0,0,0,100,100,1,0,1,9,4,5,40,40,0,1
 Style: DevicePill,Yu Gothic UI,40,&H0088F8FF,&H000000FF,&H00181008,&H80000000,-1,0,0,0,100,100,1,0,1,5,2,5,40,40,0,1
 Style: ZundaMain,Yu Gothic UI,68,&H00FFFFFF,&H000000FF,&H00164A0E,&H80000000,-1,0,0,0,100,100,1,0,1,9,3,5,40,40,0,1
 Style: TsumugiMain,Yu Gothic UI,68,&H00FFFFFF,&H000000FF,&H00083268,&H80000000,-1,0,0,0,100,100,1,0,1,9,3,5,40,40,0,1
@@ -866,51 +868,48 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     title_center_y = title_box_y + title_box_h // 2
     title_rect = _ass_rounded_rect_path(title_box_w, title_box_h, radius=26)
 
-    # 最終行の開始時刻を取得（ここから上部パネルを特大CTA看板に丸ごと切り替える）
-    if len(timed_lines) >= 2:
-        cta_switch_sec = timed_lines[-1]["start"]
-    else:
-        cta_switch_sec = total_sec
-    title_end_time = format_ass_time(cta_switch_sec)
-
     events: list[str] = [
-        # Layer 0: 上部タイトルの角丸ダーク座布団（エメラルドグリーンの細枠つき・最終行の手前まで表示）
+        # Layer 0: 上部タイトルの角丸ダーク座布団（エメラルドグリーンの細枠つき・常時表示）
         (
-            f"Dialogue: 0,0:00:00.00,{title_end_time},BoxShape,,0,0,0,,"
+            f"Dialogue: 0,0:00:00.00,{end_all},BoxShape,,0,0,0,,"
             f"{{\\an7\\pos({title_box_x},{title_box_y})\\p1\\1c&H14100C&\\1a&H28&\\3c&H78FF68&\\3a&H30&\\bord3}}{title_rect}{{\\p0}}"
         ),
-        # Layer 1: 上部タイトル全文（省略なし・最終行の手前まで表示）
-        f"Dialogue: 1,0:00:00.00,{title_end_time},TopTitle,,0,0,0,,{{\\an5\\pos(540,{title_center_y})}}{wrapped_title}",
+        # Layer 1: 上部タイトル全文（省略なし・常時表示）
+        f"Dialogue: 1,0:00:00.00,{end_all},TopTitle,,0,0,0,,{{\\an5\\pos(540,{title_center_y})}}{wrapped_title}",
     ]
 
-    # 最終行の間、上部タイトル領域全体を使ってドカンと表示する特大ゴールド誘導看板
+    # ラスト2セリフの間（最後の約6〜8秒間）、下部セリフ座布団のすぐ真上（視聴者の視線のど真ん中）に
+    # 鮮やかなイエロー・ゴールド座布団＋サイト名『エイム沼の海外ログ』入りの特大誘導看板を表示する
     if len(timed_lines) >= 2:
+        cta_start_idx = max(1, len(timed_lines) - 2)
+        cta_start_time = format_ass_time(timed_lines[cta_start_idx]["start"])
         cta_box_w = 1000
-        cta_box_h = 276
+        cta_box_h = 264
         cta_box_x = (1080 - cta_box_w) // 2
-        cta_box_y = 80
+        cta_box_y = 1072
         cta_center_y = cta_box_y + cta_box_h // 2
         cta_rect = _ass_rounded_rect_path(cta_box_w, cta_box_h, radius=28)
         has_devices = bool(article.get("devices"))
         if has_devices:
             cta_big_text = (
-                r"{\1c&H58F4FF&}▼ 登場デバイス＆スレ全訳は\N"
-                r"{\1c&HFFFFFF&}下のチャンネルアイコン ⇒\N"
-                r"{\1c&H58F4FF&}【プロフィールのリンク】へ！"
+                r"{\fs54\1c&HFFFFFF&}▼ 登場デバイス＆スレ全訳は\N"
+                r"{\fs76\1c&H48F8FF&}『エイム沼の海外ログ』\N"
+                r"{\fs52\1c&HFFFFFF&}下のアイコン ⇒【プロフのリンク】へ！"
             )
         else:
             cta_big_text = (
-                r"{\1c&H58F4FF&}▼ スレッドの全文翻訳は\N"
-                r"{\1c&HFFFFFF&}下のチャンネルアイコン ⇒\N"
-                r"{\1c&H58F4FF&}【プロフィールのリンク】へ！"
+                r"{\fs54\1c&HFFFFFF&}▼ 海外スレッドの全文翻訳は\N"
+                r"{\fs76\1c&H48F8FF&}『エイム沼の海外ログ』\N"
+                r"{\fs52\1c&HFFFFFF&}下のアイコン ⇒【プロフのリンク】へ！"
             )
+        # 鮮やかなゴールド・アンバーイエロー塗りの座布団 + 輝くイエロー太枠 (Layer 2 & 3 で前面に強調)
         events.append(
-            f"Dialogue: 0,{title_end_time},{end_all},BoxShape,,0,0,0,,"
-            f"{{\\fad(120,0)\\an7\\pos({cta_box_x},{cta_box_y})\\p1\\1c&H0C1628&\\1a&H14&\\3c&H38D8FF&\\3a&H10&\\bord5}}{cta_rect}{{\\p0}}"
+            f"Dialogue: 2,{cta_start_time},{end_all},BoxShape,,0,0,0,,"
+            f"{{\\fad(140,0)\\an7\\pos({cta_box_x},{cta_box_y})\\p1\\1c&H008CFF&\\1a&H12&\\3c&H50FFFF&\\3a&H00&\\bord6}}{cta_rect}{{\\p0}}"
         )
         events.append(
-            f"Dialogue: 1,{title_end_time},{end_all},TopCtaBig,,0,0,0,,"
-            f"{{\\fad(120,0)\\an5\\pos(540,{cta_center_y})}}{cta_big_text}"
+            f"Dialogue: 3,{cta_start_time},{end_all},TopCtaBig,,0,0,0,,"
+            f"{{\\fad(140,0)\\an5\\pos(540,{cta_center_y})}}{cta_big_text}"
         )
 
     # デバイスバッジの表示Y座標（タイトル座布団のすぐ下、中央のクロスヘアには一切被らない）
@@ -932,11 +931,11 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         spoken_lines = wrapped_spoken.split(r"\N")
         n_spoken_lines = len(spoken_lines)
 
-        # 下部セリフ座布団のサイズ・位置計算（中心Y=1500付近に配置）
+        # 下部セリフ座布団のサイズ・位置計算（中心Y=1555付近に配置し、直上のCTA看板 y=1072..1336 と綺麗に分離）
         sub_box_w = 1000
         sub_box_h = n_spoken_lines * 86 + 54
         sub_box_x = (1080 - sub_box_w) // 2
-        sub_center_y = 1500
+        sub_center_y = 1555
         sub_box_y = sub_center_y - sub_box_h // 2
         sub_rect = _ass_rounded_rect_path(sub_box_w, sub_box_h, radius=28)
 
@@ -952,18 +951,17 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             f"{{\\an5\\pos(540,{sub_center_y})}}{wrapped_spoken}"
         )
 
-        # 最終行以外で登場デバイスバッジがある行は上部サブ枠にポップアップ表示
-        if line_idx < len(timed_lines) - 1:
-            dev_text = item.get("matched_device")
-            if dev_text:
-                events.append(
-                    f"Dialogue: 0,{st},{et},BoxShape,,0,0,0,,"
-                    f"{{\\fad(150,150)\\an7\\pos({dev_box_x},{dev_box_y})\\p1\\1c&H1C140E&\\1a&H24&\\3c&H78E8FF&\\3a&H28&\\bord3}}{dev_rect}{{\\p0}}"
-                )
-                events.append(
-                    f"Dialogue: 1,{st},{et},DevicePill,,0,0,0,,"
-                    f"{{\\fad(150,150)\\an5\\pos(540,{dev_center_y})}}{dev_text}"
-                )
+        # 登場デバイスバッジがある行は上部サブ枠にポップアップ表示
+        dev_text = item.get("matched_device")
+        if dev_text:
+            events.append(
+                f"Dialogue: 0,{st},{et},BoxShape,,0,0,0,,"
+                f"{{\\fad(150,150)\\an7\\pos({dev_box_x},{dev_box_y})\\p1\\1c&H1C140E&\\1a&H24&\\3c&H78E8FF&\\3a&H28&\\bord3}}{dev_rect}{{\\p0}}"
+            )
+            events.append(
+                f"Dialogue: 1,{st},{et},DevicePill,,0,0,0,,"
+                f"{{\\fad(150,150)\\an5\\pos(540,{dev_center_y})}}{dev_text}"
+            )
 
     return header + "\n".join(events) + "\n"
 
@@ -2052,7 +2050,7 @@ def main() -> None:
             ],
             4.65,
         )
-        assert "TopCtaBig" in ass_test and "【プロフィールのリンク】へ！" in ass_test
+        assert "TopCtaBig" in ass_test and "『エイム沼の海外ログ』" in ass_test
         # デバイス系 3 : エイム理論系 2 の黄金比ピックアップテスト
         mock_cands = [
             {"id": "g1", "subreddit": "MouseReview"},
