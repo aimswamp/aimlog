@@ -878,34 +878,37 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         f"Dialogue: 1,0:00:00.00,{end_all},TopTitle,,0,0,0,,{{\\an5\\pos(540,{title_center_y})}}{wrapped_title}",
     ]
 
-    # ラスト2セリフの間（最後の約6〜8秒間）、下部セリフ座布団のすぐ真上（視聴者の視線のど真ん中）に
-    # 鮮やかなイエロー・ゴールド座布団＋サイト名『エイム沼の海外ログ』入りの特大誘導看板を表示する
+    # ラスト2セリフの間（最後の約6〜8秒間）、下部セリフ座布団のすぐ真上（隙間14px）に
+    # ダークブラウン座布団＋極太イエロー枠＋サイト名『エイム沼の海外ログ』入りの2行スリム誘導看板を表示する
     if len(timed_lines) >= 2:
         cta_start_idx = max(1, len(timed_lines) - 2)
         cta_start_time = format_ass_time(timed_lines[cta_start_idx]["start"])
+        max_cta_spoken_lines = max(
+            len(wrap_japanese_telop(t_item["text"], max_chars=13).split(r"\N"))
+            for t_item in timed_lines[cta_start_idx:]
+        )
+        min_sub_top = 1555 - (max_cta_spoken_lines * 86 + 54) // 2
         cta_box_w = 1000
-        cta_box_h = 264
+        cta_box_h = 216
         cta_box_x = (1080 - cta_box_w) // 2
-        cta_box_y = 1072
+        cta_box_y = min_sub_top - cta_box_h - 14
         cta_center_y = cta_box_y + cta_box_h // 2
-        cta_rect = _ass_rounded_rect_path(cta_box_w, cta_box_h, radius=28)
+        cta_rect = _ass_rounded_rect_path(cta_box_w, cta_box_h, radius=26)
         has_devices = bool(article.get("devices"))
         if has_devices:
             cta_big_text = (
-                r"{\fs54\1c&HFFFFFF&}▼ 登場デバイス＆スレ全訳は\N"
-                r"{\fs76\1c&H48F8FF&}『エイム沼の海外ログ』\N"
-                r"{\fs52\1c&HFFFFFF&}下のアイコン ⇒【プロフのリンク】へ！"
+                r"{\fs50\1c&HFFFFFF&}▼ 登場デバイス＆全訳は{\1c&H30F0FF&\fs62}『エイム沼の海外ログ』\N"
+                r"{\fs54\1c&H30F0FF&}下のアイコン ⇒【プロフィールのリンク】へ！"
             )
         else:
             cta_big_text = (
-                r"{\fs54\1c&HFFFFFF&}▼ 海外スレッドの全文翻訳は\N"
-                r"{\fs76\1c&H48F8FF&}『エイム沼の海外ログ』\N"
-                r"{\fs52\1c&HFFFFFF&}下のアイコン ⇒【プロフのリンク】へ！"
+                r"{\fs50\1c&HFFFFFF&}▼ スレッドの全文翻訳は{\1c&H30F0FF&\fs62}『エイム沼の海外ログ』\N"
+                r"{\fs54\1c&H30F0FF&}下のアイコン ⇒【プロフィールのリンク】へ！"
             )
-        # 鮮やかなゴールド・アンバーイエロー塗りの座布団 + 輝くイエロー太枠 (Layer 2 & 3 で前面に強調)
+        # ダークブラウン座布団 + 極太イエロー枠 (Layer 2 & 3 で下部セリフ枠の真上に密着表示)
         events.append(
             f"Dialogue: 2,{cta_start_time},{end_all},BoxShape,,0,0,0,,"
-            f"{{\\fad(140,0)\\an7\\pos({cta_box_x},{cta_box_y})\\p1\\1c&H008CFF&\\1a&H12&\\3c&H50FFFF&\\3a&H00&\\bord6}}{cta_rect}{{\\p0}}"
+            f"{{\\fad(140,0)\\an7\\pos({cta_box_x},{cta_box_y})\\p1\\1c&H061C2E&\\1a&H10&\\3c&H30F0FF&\\3a&H00&\\bord7}}{cta_rect}{{\\p0}}"
         )
         events.append(
             f"Dialogue: 3,{cta_start_time},{end_all},TopCtaBig,,0,0,0,,"
