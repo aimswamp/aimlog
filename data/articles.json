@@ -88646,7 +88646,7 @@
         "score": 29,
         "body_en": "Great, now I will email them asking wtf was going on and why was my order cancelled.",
         "depth": 0,
-        "body_ja": "最高だな、これで彼らに「一体どうなってんだ、なんで俺の注文がキャンセルされたんだ」ってメールを送れるよ。"
+        "body_ja": "最高だね、これで一体どういうことだったのか、なんで俺の注文がキャンセルされたのか問い合わせてメールしてやるよ。"
       },
       {
         "id": "19st3o962gj0l",
@@ -88654,10 +88654,10 @@
         "author": "海外ユーザー2",
         "flair": "",
         "is_op": false,
-        "score": 9,
+        "score": 10,
         "body_en": "Lmao I was thinking exactly of you seeing this post LMAO",
         "depth": 1,
-        "body_ja": "爆笑。このポストを見た瞬間、絶対にあなたのことが頭に浮かんだよｗｗｗ"
+        "body_ja": "この投稿を見たとき、まさにあなたのことを考えていたよ（笑）"
       },
       {
         "id": "19st4qvc8d0zn",
@@ -88668,7 +88668,7 @@
         "score": 2,
         "body_en": "I ordered 2 and they refunded me 1. Apparently they have a 1 unit limit on all pd170 orders. This was at 7am. I checked the site at 8am saw they still had some and reordered another one. The 2nd order is confirmed. Now we will see if they refund that as well.",
         "depth": 0,
-        "body_ja": "2枚注文したら1枚分返金されたよ。PD170の注文は全件1枚制限がかかってるらしい。これが午前7時のこと。8時にサイトをチェックしたらまだ在庫があったから、もう1枚再注文した。2回目の注文は確定したよ。これもまた返金されるかどうか見ものだな。"
+        "body_ja": "2枚注文したら1枚分返金されたわ。どうやらすべてのPD170の注文に1枚までの制限があるみたいだ。これは朝7時の話ね。朝8時にサイトを確認したらまだ在庫があったからもう1枚再注文した。2回目の注文は確定してる。さてこれも返金されるかどうかだな。"
       },
       {
         "id": "19stc9nta5g05",
@@ -88687,10 +88687,10 @@
         "author": "海外ユーザー3",
         "flair": "",
         "is_op": false,
-        "score": 8,
+        "score": 9,
         "body_en": "One for me and one for my brother.",
         "depth": 2,
-        "body_ja": "自分用に1枚と、弟用に1枚だよ。"
+        "body_ja": "自分用と兄弟用だよ。"
       },
       {
         "id": "19stq423d1p39",
@@ -88698,10 +88698,21 @@
         "author": "海外ユーザー5",
         "flair": "",
         "is_op": false,
-        "score": 7,
+        "score": 9,
         "body_en": "One for me and one for future me.",
         "depth": 3,
-        "body_ja": "自分用に1枚と、未来の自分用に1枚さ。"
+        "body_ja": "自分用と、将来の自分用だよ。"
+      },
+      {
+        "id": "19sv56gi2cu9w",
+        "parent_id": "19stq423d1p39",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "You can never have too many mousepads lol",
+        "depth": 4,
+        "body_ja": "マウスパッドはいくらあっても困らないからね（笑）"
       },
       {
         "id": "19su9alz6d8hs",
@@ -88712,7 +88723,29 @@
         "score": 1,
         "body_en": "based. So give ur bro money and u both order separately, now u can bypass the order limit",
         "depth": 3,
-        "body_ja": "分かってるね。だったら弟にお金を渡して別々に注文すれば、注文制限を回避できるよ。"
+        "body_ja": "さすがだな。それなら兄弟にお金を渡して別々に注文させれば、購入制限を回避できるぞ。"
+      },
+      {
+        "id": "19sv55wnf5mww",
+        "parent_id": "19su9alz6d8hs",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "I just placed another order. Like an hour after I got the email. Both pd170s have now shipped. So we good.",
+        "depth": 4,
+        "body_ja": "メールを受け取ってから1時間くらい経ってからもう一回注文したんだ。そしたら両方のPD170が無事に発送されたよ。だから問題なしだね。"
+      },
+      {
+        "id": "19svd9ruiw8qr",
+        "parent_id": "19sv55wnf5mww",
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Wait, you can place order again same account and that bypasses the limit? Guess they aren't too strict on that. Thx for sharing",
+        "depth": 5,
+        "body_ja": "待って、同じアカウントで再注文しても制限を回避できるのか？そこまで厳しく管理してないみたいだな。情報シェアありがとう。"
       },
       {
         "id": "19st96nk1xs8y",
@@ -88720,10 +88753,10 @@
         "author": "海外ユーザー7",
         "flair": "",
         "is_op": false,
-        "score": 7,
+        "score": 9,
         "body_en": "We are so back",
         "depth": 0,
-        "body_ja": "俺たちの勝利だ（復活したぞ）。"
+        "body_ja": "完全復活だな。"
       },
       {
         "id": "19strkyh5pnwk",
@@ -88734,7 +88767,7 @@
         "score": 1,
         "body_en": "bet resellers were hit the table after seeing this",
         "depth": 0,
-        "body_ja": "これを見た転売屋は台パンして悔しがってるに違いないね。"
+        "body_ja": "転売ヤーたちはこれを見て頭を抱えてただろうな。"
       },
       {
         "id": "19sufe7sbx7b9",
@@ -88745,27 +88778,27 @@
         "score": 1,
         "body_en": "Its impressive really how pulsar has catastrophically fumbled on almost every level concerning this mousepad",
         "depth": 0,
-        "body_ja": "このマウスパッドに関して、Pulsarがほぼすべての面で壊滅的に失敗しているのは逆にすごいよ。"
+        "body_ja": "このマウスパッドに関するPulsarのほぼあらゆるレベルでの大失態ぶりは、本当に印象的ですらあるよ。"
       }
     ],
     "title_ja": "Pulsar PD170の廃盤騒動が撤回か？注文キャンセルや購入制限を巡りコミュニティで物議",
     "hook_ja": "Pulsarの限定・新作パッド「PD170」が廃盤にならないという情報が浮上。突然の注文キャンセルや枚数制限のトラブルに見舞われたユーザーから困惑と安堵の声が上がっています。",
     "op_post_ja": "",
     "consensus_points": [
-      "PD170が実際には廃盤にならない可能性が浮上し、諦めていたユーザーや転売屋に影響を与えている",
-      "公式ストアで1人1点までの注文制限が課されており、2点以上買った注文が一方的に返金キャンセルされるトラブルが発生した",
-      "Pulsarのマウスパッド展開や在庫管理、アナウンスの不透明さに対してユーザーからの不満が溜まっている"
+      "PD170は実際には生産終了・廃盤になっておらず、購入可能であること",
+      "注文時には1人あたり1枚までの数量制限が設けられていたこと",
+      "注文のキャンセルや返金処理、発送ステータスをめぐって購入者間で情報が共有されていること"
     ],
-    "detailed_analysis_ja": "【1. Pulsar PD170を巡る廃盤の噂と混乱の背景】\nPulsarは近年、各種コラボモデルや特殊な表面素材のマウスパッド（ESシリーズやPDシリーズなど）を展開していますが、人気モデルの供給量や生産体制が非常に不安定なことで知られています。特にPD170に関しては「生産終了（ディスコン）になる」という情報が事前の告知なしに噂され、多くのユーザーやコレクターが駆け込み購入に走る事態となりました。しかし今回、「実際には廃盤にならない（ディスコンではない）」という情報が浮上し、急いで購入した層や注文を不当にキャンセルされた層から疑問と安堵が入り交じった声が上がっています。\n\n【2. 1点制限ルールと注文キャンセルの連発】\nスレッド内では、複数枚を購入しようとしたユーザーがストア側から勝手に片方だけキャンセル・返金処理をされた報告が見られます。Pulsar側が転売対策や在庫確保のために「1アカウント/1注文につき1点」の制限を設けていたものの、その周知が徹底されておらず、家族や友人用としてまとめて買おうとした層まで被害を受けました。別々に注文を分けることで制限を回避できるといった抜け道も語られており、システム側の不備も指摘されています。\n\n【3. メーカーのマーケティング・在庫管理に対する不信感】\nPulsarは高品質なマウスやマウスパッドを低価格〜中価格帯で提供する一方で、在庫供給の波が激しく、限定感を煽るような売り方（FOMO: 乗り遅れる恐怖）に陥りやすい傾向があります。コミュニティからは「このマウスパッドに関するPulsarの対応は、あらゆるレベルで壊滅的に手際が悪い」といった酷評も出されており、製品自体の性能は評価されつつも、売り方やアナウンスの不透明さが信頼を損ねている現状が浮き彫りになっています。",
+    "detailed_analysis_ja": "【1. Pulsar PD170を巡る混乱の背景】\nガラス製マウスパッドやゲーミングデバイス市場において、Pulsar製品の人気は非常に高く、新作や限定アイテムの動向には世界中のユーザーが注目しています。今回のスレッドでは、一時は廃盤になったと噂されていた「PD170」が実際には継続しているという情報が共有され、購入を試みたユーザーの間で注文のキャンセルや数量制限を巡るトラブルと解決策が議論されました。\n\n【2. 注文制限と在庫管理の現状】\nコメント欄では、1人1枚の購入制限が課されていることや、複数注文した際の一部返金、さらには時間を置いて再注文した際の発送状況などがリアルな体験として語られています。転売対策としての購入制限や、ブランド側の在庫管理・アナウンス不足に対するユーザーからの厳しい意見も見受けられます。\n\n【3. コミュニティの反応と今後の動向】\n「We are so back（完全復活だ）」と歓喜する声がある一方で、一連の混乱や対応の拙さを指摘する声もあり、メーカーの販売手法や顧客対応がいかに重要であるかを浮き彫りにする事例となっています。",
     "devices": [
       {
         "name": "Pulsar PD170",
         "category": "mousepad",
         "sentiment": "neutral",
-        "comment_ja": "廃盤撤回の噂や1点限定の購入制限、注文キャンセル問題など、販売手法や在庫管理を巡って議論となっているマウスパッド。"
+        "comment_ja": "廃盤の噂が流れたものの実際には継続しており、1人1枚の購入制限や在庫・発送を巡ってユーザー間で議論や混乱が生じている。"
       }
     ],
-    "x_main_post": "Pulsar PD170の「廃盤」騒動が撤回か？海外掲示板で話題に。\n1人1枚の購入制限により複数買いの注文が勝手にキャンセルされるトラブルも多発中。\n「転売屋ざまぁ」「売り方の手際が悪すぎる」と困惑の声が集まっています。",
+    "x_main_post": "Pulsar PD170は実際には廃盤ではなく継続中！1人1枚の購入制限やキャンセル・発送を巡りコミュニティで議論に。",
     "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
     "short_script": [
       {
@@ -88818,7 +88851,7 @@
         "flair": "",
         "is_op": false,
         "score": 29,
-        "text": "最高だな、これで彼らに「一体どうなってんだ、なんで俺の注文がキャンセルされたんだ」ってメールを送れるよ。"
+        "text": "最高だね、これで一体どういうことだったのか、なんで俺の注文がキャンセルされたのか問い合わせてメールしてやるよ。"
       },
       {
         "id": "19st3o962gj0l",
@@ -88827,8 +88860,8 @@
         "speaker": "海外ユーザー2",
         "flair": "",
         "is_op": false,
-        "score": 9,
-        "text": "爆笑。このポストを見た瞬間、絶対にあなたのことが頭に浮かんだよｗｗｗ"
+        "score": 10,
+        "text": "この投稿を見たとき、まさにあなたのことを考えていたよ（笑）"
       },
       {
         "id": "19st4qvc8d0zn",
@@ -88838,7 +88871,7 @@
         "flair": "",
         "is_op": false,
         "score": 2,
-        "text": "2枚注文したら1枚分返金されたよ。PD170の注文は全件1枚制限がかかってるらしい。これが午前7時のこと。8時にサイトをチェックしたらまだ在庫があったから、もう1枚再注文した。2回目の注文は確定したよ。これもまた返金されるかどうか見ものだな。"
+        "text": "2枚注文したら1枚分返金されたわ。どうやらすべてのPD170の注文に1枚までの制限があるみたいだ。これは朝7時の話ね。朝8時にサイトを確認したらまだ在庫があったからもう1枚再注文した。2回目の注文は確定してる。さてこれも返金されるかどうかだな。"
       },
       {
         "id": "19stc9nta5g05",
@@ -88857,8 +88890,8 @@
         "speaker": "海外ユーザー3",
         "flair": "",
         "is_op": false,
-        "score": 8,
-        "text": "自分用に1枚と、弟用に1枚だよ。"
+        "score": 9,
+        "text": "自分用と兄弟用だよ。"
       },
       {
         "id": "19stq423d1p39",
@@ -88867,8 +88900,18 @@
         "speaker": "海外ユーザー5",
         "flair": "",
         "is_op": false,
-        "score": 7,
-        "text": "自分用に1枚と、未来の自分用に1枚さ。"
+        "score": 9,
+        "text": "自分用と、将来の自分用だよ。"
+      },
+      {
+        "id": "19sv56gi2cu9w",
+        "parent_id": "19stq423d1p39",
+        "depth": 4,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "マウスパッドはいくらあっても困らないからね（笑）"
       },
       {
         "id": "19su9alz6d8hs",
@@ -88878,7 +88921,27 @@
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "分かってるね。だったら弟にお金を渡して別々に注文すれば、注文制限を回避できるよ。"
+        "text": "さすがだな。それなら兄弟にお金を渡して別々に注文させれば、購入制限を回避できるぞ。"
+      },
+      {
+        "id": "19sv55wnf5mww",
+        "parent_id": "19su9alz6d8hs",
+        "depth": 4,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "メールを受け取ってから1時間くらい経ってからもう一回注文したんだ。そしたら両方のPD170が無事に発送されたよ。だから問題なしだね。"
+      },
+      {
+        "id": "19svd9ruiw8qr",
+        "parent_id": "19sv55wnf5mww",
+        "depth": 5,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "待って、同じアカウントで再注文しても制限を回避できるのか？そこまで厳しく管理してないみたいだな。情報シェアありがとう。"
       },
       {
         "id": "19st96nk1xs8y",
@@ -88887,8 +88950,8 @@
         "speaker": "海外ユーザー7",
         "flair": "",
         "is_op": false,
-        "score": 7,
-        "text": "俺たちの勝利だ（復活したぞ）。"
+        "score": 9,
+        "text": "完全復活だな。"
       },
       {
         "id": "19strkyh5pnwk",
@@ -88898,7 +88961,7 @@
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "これを見た転売屋は台パンして悔しがってるに違いないね。"
+        "text": "転売ヤーたちはこれを見て頭を抱えてただろうな。"
       },
       {
         "id": "19sufe7sbx7b9",
@@ -88908,13 +88971,13 @@
         "flair": "",
         "is_op": false,
         "score": 1,
-        "text": "このマウスパッドに関して、Pulsarがほぼすべての面で壊滅的に失敗しているのは逆にすごいよ。"
+        "text": "このマウスパッドに関するPulsarのほぼあらゆるレベルでの大失態ぶりは、本当に印象的ですらあるよ。"
       }
     ],
     "status": "published",
     "x_posted": false,
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xz6et3.html",
-    "x_intent_url": "https://twitter.com/intent/tweet?text=Pulsar%20PD170%E3%81%AE%E3%80%8C%E5%BB%83%E7%9B%A4%E3%80%8D%E9%A8%92%E5%8B%95%E3%81%8C%E6%92%A4%E5%9B%9E%E3%81%8B%EF%BC%9F%E6%B5%B7%E5%A4%96%E6%8E%B2%E7%A4%BA%E6%9D%BF%E3%81%A7%E8%A9%B1%E9%A1%8C%E3%81%AB%E3%80%82%0A1%E4%BA%BA1%E6%9E%9A%E3%81%AE%E8%B3%BC%E5%85%A5%E5%88%B6%E9%99%90%E3%81%AB%E3%82%88%E3%82%8A%E8%A4%87%E6%95%B0%E8%B2%B7%E3%81%84%E3%81%AE%E6%B3%A8%E6%96%87%E3%81%8C%E5%8B%9D%E6%89%8B%E3%81%AB%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AB%E3%81%95%E3%82%8C%E3%82%8B%E3%83%88%E3%83%A9%E3%83%96%E3%83%AB%E3%82%82%E5%A4%9A%E7%99%BA%E4%B8%AD%E3%80%82%0A%E3%80%8C%E8%BB%A2%E5%A3%B2%E5%B1%8B%E3%81%96%E3%81%BE%E3%81%81%E3%80%8D%E3%80%8C%E5%A3%B2%E3%82%8A%E6%96%B9%E3%81%AE%E6%89%8B%E9%9A%9B%E3%81%8C%E6%82%AA%E3%81%99%E3%81%8E%E3%82%8B%E3%80%8D%E3%81%A8%E5%9B%B0%E6%83%91%E3%81%AE%E5%A3%B0%E3%81%8C%E9%9B%86%E3%81%BE%E3%81%A3%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xz6et3.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=Pulsar%20PD170%E3%81%AF%E5%AE%9F%E9%9A%9B%E3%81%AB%E3%81%AF%E5%BB%83%E7%9B%A4%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E7%B6%99%E7%B6%9A%E4%B8%AD%EF%BC%811%E4%BA%BA1%E6%9E%9A%E3%81%AE%E8%B3%BC%E5%85%A5%E5%88%B6%E9%99%90%E3%82%84%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AB%E3%83%BB%E7%99%BA%E9%80%81%E3%82%92%E5%B7%A1%E3%82%8A%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3%E3%81%A7%E8%AD%B0%E8%AB%96%E3%81%AB%E3%80%82%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xz6et3.html",
     "created_at": "2026-11-19T09:59:18.050644+00:00"
   },
   {
@@ -90219,5 +90282,1494 @@
     "article_url": "https://aimswamp.github.io/aimlog/articles/1xyxkg2.html",
     "x_intent_url": "https://twitter.com/intent/tweet?text=%E5%B8%83%E3%83%91%E3%83%83%E3%83%89%E3%81%8B%E3%82%89%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%9E%E3%82%A6%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%E3%81%B8%E3%81%AE%E7%A7%BB%E8%A1%8C%E3%81%AF%E3%81%A9%E3%82%8C%E3%81%8F%E3%82%89%E3%81%84%E9%80%9F%E3%81%8F%E3%81%AA%E3%82%8B%EF%BC%9F%0A%0A%E3%83%BB%E6%9C%80%E9%80%9F%E3%81%AE%E5%B8%83%E3%83%91%E3%83%83%E3%83%89%E3%81%AE%E3%80%8C%E6%9C%80%E4%BD%8E2%E5%80%8D%E3%80%8D%E3%81%AF%E9%80%9F%E3%81%8F%E3%81%AA%E3%82%8B%0A%E3%83%BB%E5%88%9D%E5%BF%83%E8%80%85%E3%81%AB%E3%81%AFZofia%E3%82%84Superglide%E3%81%AA%E3%81%A9%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB%E5%AF%84%E3%82%8A%E3%82%AC%E3%83%A9%E3%82%B9%E3%81%8C%E6%8E%A8%E5%A5%A8%0A%E3%83%BB%E6%B2%88%E3%81%BF%E8%BE%BC%E3%81%BF%E3%81%8C%E3%81%AA%E3%81%84%E3%81%9F%E3%82%81Deadlock%E3%81%AA%E3%81%A9%E3%81%AE%E8%BF%BD%E3%81%84%E3%82%A8%E3%82%A4%E3%83%A0%E7%B3%BBFPS%E3%81%AB%E6%9C%80%E9%81%A9%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xyxkg2.html",
     "created_at": "2026-11-19T22:55:30.985039+00:00"
+  },
+  {
+    "id": "1y04m6d",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Improving at static clicking",
+    "selftext_en": "This is my actual gameplay footage. It feels kind of sloppy and wobbly to me, and static clicking is the only category where my rank is Penguin.\n\nIt's clearly my weakest skill, so I really want to overcome it. What kind of practice should I be doing?\n\nOne thing I suspect is my grip — I hold the mouse really far forward, near the mouse wheel instead of the back of the mouse. Could that be what's causing it?",
+    "image_urls": [
+      "https://v.redd.it/iro8fu647j2i1"
+    ],
+    "score": 2,
+    "num_comments": 6,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1y04m6d/improving_at_static_clicking/",
+    "comments": [
+      "[+3] it says static switching not static clicking, when it comes to target switching focus on holding down left click while switching to other targets",
+      "[+1] What the reason behind it?",
+      "[+2] the whole point of switching is that u do not need to time clicking the mouse... that is the point",
+      "[+4] Copy someone's kovaaks visuals; someone like viscose, Matty, etc. The scenario is also pokeball you should hold down shoot the whole time, add a secondary shoot keybinds to space and just hold it through the scenario. \n\nYour line efficiency is quite good, you just have downtime between each target, focus on pacing/tempo and pre planning your path.\n\nYou want to know the path for the next couple of kills ahead of time. When a bot is 1hp you want to flick to the next instead of only initiating the movement after you've confirmed the bot is dead. \n\nAs you play the scenarios more you develop a better feel for how long you have to stay on a bot for it to die before flicking to the next.\n\nTldr: push speed, pacing and spend less time confirming a bot has died",
+      "[+4] bro really got the gun and bullet trails on lmaooooooooooo",
+      "[+2] Yeah like get visuals and get that gun away \n\nyou should bind your shoot button to smth like ctrl or space bar or smth and just press it the whole run and only focus on switching. [https://www.youtube.com/watch?v=QSS-zJb4lsY&t=67s&pp=ygUPdmlzY29zZSBrb3ZhYWtz](https://www.youtube.com/watch?v=QSS-zJb4lsY&t=67s&pp=ygUPdmlzY29zZSBrb3ZhYWtz)  \nWatch this vid"
+    ],
+    "comment_tree": [
+      {
+        "id": "19sv56hw42mte",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "it says static switching not static clicking, when it comes to target switching focus on holding down left click while switching to other targets",
+        "depth": 0,
+        "body_ja": "スタティック・クリックじゃなくてスタティック・スイッチングって書いてあるよ。ターゲット・スイッチングのときは、他のターゲットに切り替える間も左クリックを押し続けることに集中するんだ。"
+      },
+      {
+        "id": "19sv9q80i8m4k",
+        "parent_id": "19sv56hw42mte",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "What the reason behind it?",
+        "depth": 1,
+        "body_ja": "その理由は何なの？"
+      },
+      {
+        "id": "19sva75xsos1v",
+        "parent_id": "19sv9q80i8m4k",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "the whole point of switching is that u do not need to time clicking the mouse... that is the point",
+        "depth": 2,
+        "body_ja": "スイッチングの最大のポイントは、マウスをクリックするタイミングを計る必要がないってことなんだ…それが肝心なところだよ。"
+      },
+      {
+        "id": "19sv5d11g7myr",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "body_en": "Copy someone's kovaaks visuals; someone like viscose, Matty, etc. The scenario is also pokeball you should hold down shoot the whole time, add a secondary shoot keybinds to space and just hold it through the scenario. \n\nYour line efficiency is quite good, you just have downtime between each target, focus on pacing/tempo and pre planning your path.\n\nYou want to know the path for the next couple of kills ahead of time. When a bot is 1hp you want to flick to the next instead of only initiating the movement after you've confirmed the bot is dead. \n\nAs you play the scenarios more you develop a better feel for how long you have to stay on a bot for it to die before flicking to the next.\n\nTldr: push speed, pacing and spend less time confirming a bot has died",
+        "depth": 0,
+        "body_ja": "viscoseやMattyみたいな誰かのKovaaK'sのビジュアル設定を真似しなよ。シナリオはpokeballでもあるから、ずっと撃ち続けるべきだし、スペースキーにサブの射撃キーをバインドしてシナリオ中は押しっぱなしにするといい。\n\n君のライン効率はかなり良いから、各ターゲット間のダウンタイムをなくして、ペーシングやテンポ、そして進む経路の事前計画に集中しよう。\n\n次の数キルの経路をあらかじめ把握しておきたいところだね。ボットが残り1HPになったら、ボットが死んだことを確認してから動き出すんじゃなくて、次のターゲットへフリックしたほうがいい。\n\nシナリオをやり込んでいくうちに、次のボットにフリックする前に、どのくらいそのボットに留まる必要があるかの感覚が養われていくよ。\n\n要点：スピードを上げ、ペーシングを意識し、ボットの死亡確認にかける時間を減らすこと。"
+      },
+      {
+        "id": "19sv7ervnfda9",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "body_en": "bro really got the gun and bullet trails on lmaooooooooooo",
+        "depth": 0,
+        "body_ja": "おいマジかよ、銃と弾倉の軌跡表示そのままでやってやがるwwwクソワロタ"
+      },
+      {
+        "id": "19sveoqsaoq2q",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Yeah like get visuals and get that gun away \n\nyou should bind your shoot button to smth like ctrl or space bar or smth and just press it the whole run and only focus on switching. [https://www.youtube.com/watch?v=QSS-zJb4lsY&t=67s&pp=ygUPdmlzY29zZSBrb3ZhYWtz](https://www.youtube.com/watch?v=QSS-zJb4lsY&t=67s&pp=ygUPdmlzY29zZSBrb3ZhYWtz)  \nWatch this vid",
+        "depth": 0,
+        "body_ja": "ああ、ビジュアル設定を変えて、あの銃のモデルは消したほうがいい。\n\n射撃ボタンをCtrlやスペースバーとかにバインドして、ラン中はそれをずっと押しっぱなしにして切り替えだけに集中するべきだね。 https://www.youtube.com/watch?v=QSS-zJb4lsY&t=67s&pp=ygUPdmlzY29zZSBrb3ZhYWtz この動画を見てみなよ。"
+      }
+    ],
+    "title_ja": "スタティック・クリック（的確な静的エイム）を上達させるための練習方法と改善点",
+    "hook_ja": "スタティック（静的）のランクが伸び悩む原因と、海外猛者たちが推奨する具体的な改善アプローチを徹底解説します。",
+    "op_post_ja": "これが私の実際のゲームプレイ映像です。自分では少し雑でフラフラしているように感じており、スタティック・クリックはランクがペンギンである唯一のカテゴリーです。\n\n明らかに自分の最も弱いスキルなので、どうしても克服したいと思っています。どのような練習をすべきでしょうか？\n\n1つ疑っているのは自分の持ち方です。マウスの後方ではなく、マウスホイールの近くというかなり前方を持っています。それが原因なのでしょうか？",
+    "consensus_points": [
+      "ターゲット・スイッチング系のシナリオでは、クリックを個別に行うのではなく、左クリックを押しっぱなしにする（またはスペースキー等にバインドして押し続ける）ことでリズムを維持する。",
+      "ターゲットの撃破確認に時間をかけすぎず、デスする直前（残り1HPの段階など）に次のターゲットへフリックを開始する。",
+      "ライン効率は良好なため、ペーシングやテンポ、数手先までの経路の事前計画（プリプランニング）に意識を集中する。"
+    ],
+    "detailed_analysis_ja": "【1. スタティック・クリックとターゲット・スイッチングの違い】\nKovaaK'sやAimlabsにおける「Static（静的クリック）」や「Target Switching（ターゲット・スイッチング）」のトレーニングでは、正確性とスピードの両立が求められます。今回のスレッドでは、プレイヤーがプレイしているシナリオが単なるクリックではなくターゲット・スイッチングの要素を持つ「Pokeball」である点が指摘されています。スイッチング系シナリオでは、クリックのタイミングを毎回計るのではなく、射撃入力を押しっぱなし（ホールド）にしながらターゲット間を移行することが基本テクニックとして推奨されています。\n\n【2. 撃破確認の廃止とペーシング（Tempo）の重要性】\n多くの伸び悩みプレイヤーが陥る罠として、「ターゲットが完全に消滅した（死亡した）ことを視覚的に確認してから次のフリックを始める」という無駄なタイムラグ（Downtime）が存在します。海外の一流プレイヤーであるviscoseやMattyJzらのプレイ動画に見られるように、ボットのHPが尽きる直前、あるいは消滅の予兆を感じた瞬間に次のエイムを動かし始めることで、無駄な空白時間を削ぎ落とすことができます。\n\n【3. キーバインドの工夫によるフォームの安定】\nマウスの左クリックを連打または単発押ししていると、クリックの瞬間にマウスがブレてしまいがちです。そのため、スペースキーやCtrlキーといった補助的なキーに射撃（Shoot）をバインドし、マウスを持つ手とは別の指で入力し続けるテクニックが有効です。これにより、マウスの保持位置（前方持ちなど）に起因するブレを軽減し、純粋なエイムと経路計画（Path planning）に集中できる環境を整えることができます。",
+    "devices": [],
+    "x_main_post": "・ターゲット切替時は左クリックを押しっぱなしにする\n・撃破確認の時間を削り次の敵へ事前にフリックする\n・スペースキー等に射撃をバインドしブレを防止する",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "スタティックのランクが伸び悩んでるのだ…どうすればいい？",
+        "caption": "スタティックの悩み"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "海外猛者いわく、撃ちっぱなしとダウンタイムの削減が大事だよ！",
+        "caption": "海外猛者の結論"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "ダウンタイムってどういうことなのだ？",
+        "caption": "ダウンタイムとは？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "敵が消えたのを確認してから動いてるから無駄な時間があるんだよね！",
+        "caption": "確認時間を削れ"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "スペースキーに射撃をバインドして押しっぱなしにするのもおすすめだよ！",
+        "caption": "キーバインドの工夫"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "クリックのブレもなくなって一石二鳥なのだ！",
+        "caption": "ブレ防止に最適！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただビジュアル設定や銃の表示はシンプルにしておくのがコツだよ！",
+        "caption": "見た目もスッキリ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19sv56hw42mte",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "スタティック・クリックじゃなくてスタティック・スイッチングって書いてあるよ。ターゲット・スイッチングのときは、他のターゲットに切り替える間も左クリックを押し続けることに集中するんだ。"
+      },
+      {
+        "id": "19sv9q80i8m4k",
+        "parent_id": "19sv56hw42mte",
+        "depth": 1,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "その理由は何なの？"
+      },
+      {
+        "id": "19sva75xsos1v",
+        "parent_id": "19sv9q80i8m4k",
+        "depth": 2,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "スイッチングの最大のポイントは、マウスをクリックするタイミングを計る必要がないってことなんだ…それが肝心なところだよ。"
+      },
+      {
+        "id": "19sv5d11g7myr",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "text": "viscoseやMattyみたいな誰かのKovaaK'sのビジュアル設定を真似しなよ。シナリオはpokeballでもあるから、ずっと撃ち続けるべきだし、スペースキーにサブの射撃キーをバインドしてシナリオ中は押しっぱなしにするといい。\n\n君のライン効率はかなり良いから、各ターゲット間のダウンタイムをなくして、ペーシングやテンポ、そして進む経路の事前計画に集中しよう。\n\n次の数キルの経路をあらかじめ把握しておきたいところだね。ボットが残り1HPになったら、ボットが死んだことを確認してから動き出すんじゃなくて、次のターゲットへフリックしたほうがいい。\n\nシナリオをやり込んでいくうちに、次のボットにフリックする前に、どのくらいそのボットに留まる必要があるかの感覚が養われていくよ。\n\n要点：スピードを上げ、ペーシングを意識し、ボットの死亡確認にかける時間を減らすこと。"
+      },
+      {
+        "id": "19sv7ervnfda9",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 4,
+        "text": "おいマジかよ、銃と弾倉の軌跡表示そのままでやってやがるwwwクソワロタ"
+      },
+      {
+        "id": "19sveoqsaoq2q",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "ああ、ビジュアル設定を変えて、あの銃のモデルは消したほうがいい。\n\n射撃ボタンをCtrlやスペースバーとかにバインドして、ラン中はそれをずっと押しっぱなしにして切り替えだけに集中するべきだね。 https://www.youtube.com/watch?v=QSS-zJb4lsY&t=67s&pp=ygUPdmlzY29zZSBrb3ZhYWtz この動画を見てみなよ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1y04m6d.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%83%BB%E3%82%BF%E3%83%BC%E3%82%B2%E3%83%83%E3%83%88%E5%88%87%E6%9B%BF%E6%99%82%E3%81%AF%E5%B7%A6%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%82%92%E6%8A%BC%E3%81%97%E3%81%A3%E3%81%B1%E3%81%AA%E3%81%97%E3%81%AB%E3%81%99%E3%82%8B%0A%E3%83%BB%E6%92%83%E7%A0%B4%E7%A2%BA%E8%AA%8D%E3%81%AE%E6%99%82%E9%96%93%E3%82%92%E5%89%8A%E3%82%8A%E6%AC%A1%E3%81%AE%E6%95%B5%E3%81%B8%E4%BA%8B%E5%89%8D%E3%81%AB%E3%83%95%E3%83%AA%E3%83%83%E3%82%AF%E3%81%99%E3%82%8B%0A%E3%83%BB%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%AD%E3%83%BC%E7%AD%89%E3%81%AB%E5%B0%84%E6%92%83%E3%82%92%E3%83%90%E3%82%A4%E3%83%B3%E3%83%89%E3%81%97%E3%83%96%E3%83%AC%E3%82%92%E9%98%B2%E6%AD%A2%E3%81%99%E3%82%8B%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1y04m6d.html",
+    "created_at": "2026-11-20T09:52:52.096052+00:00"
+  },
+  {
+    "id": "1y03h5d",
+    "subreddit": "FPSAimTrainer",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "I'm in, now how can i improve my aim???",
+    "selftext_en": "",
+    "image_urls": [
+      "https://i.redd.it/z3rbl8imui2i1.jpeg"
+    ],
+    "score": 0,
+    "num_comments": 16,
+    "permalink": "https://www.reddit.com/r/FPSAimTrainer/comments/1y03h5d/im_in_now_how_can_i_improve_my_aim/",
+    "comments": [
+      "[+-2] that cable is doing more damage to your aim than the mouse ever will. sleeve it or get it off the mousepad, the drag on that braided red cord is going to fight every flick you make.",
+      "[+1] yeah, the cable is a bit heavy but only a small portion of it stays on my mousepad and I also keep ample of it just a few inches away from my mouse",
+      "[+2] I used to use the same mouse, you can do better. VXE R1 S is 2k on mkeys. Don't rush buy, I hit my highest ranks using that mouse, but it isn't that great of a mouse imo.",
+      "[+-3] Get a wireless mouse 👍",
+      "[+-2] Half the community using EGG mice and enthusiasts using EGG internals in 3d printed mice or the M3K.\n\nGo back to your cave.",
+      "[+2] Huh?",
+      "[+1] Half the community use wired mice.",
+      "[+2] i just purchased this mouse",
+      "[+1] Do not listen to people saying you need a wireless mouse. Plenty of top aimers use a wired one. Viscose for example. Just make sure the cable isn’t dragging noticeably on the pad.\n\nFor how to improve; maybe start with 20-30 min a day of viscose beginner benchmarks. Do some scenarios here and there, but try to get a score on all of them before you start seriously grinding one category. If your goal is overall aim, don’t specialize in a category at the start. Much like with strength training, you want to leave the specialized stuff for when you’re a bit more experienced. Start with the basics.\n\nAlso remember that aim isn’t everything, plenty of people with great aim are still stuck in gold-diamond (or their equivalents) in their games.",
+      "[+1] i am not going to buy any wireless mouse until i get to build my own PC, also i just bought this mouse above which is my first too. Main problem with my aim is that it's not stable, i fumble most of the easy shots and also whenever i aim at head, the bullets scatter all around the head except the head itself",
+      "[+1] What games you playing? Sounds like either Valorant, siege or counter strike. You gotta make sure you’re standing fully still b4 you shoot in those games. Every time.",
+      "[+1] valorant",
+      "[+2] Then all I said in the first comment still is true. It’s my main game too, immo2.",
+      "[+1] does moving while aiming good??",
+      "[+1] It’s decent practice for games like overwatch but considering you want to always stand still when shooting in Valorant I wouldn’t reccomend practicing that for Valo no.",
+      "[+3] Oh and btw aimlabs also works if you don’t wanna spend on kovaaks for the moment."
+    ],
+    "comment_tree": [
+      {
+        "id": "19sv0ki7a0mhx",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": -2,
+        "body_en": "that cable is doing more damage to your aim than the mouse ever will. sleeve it or get it off the mousepad, the drag on that braided red cord is going to fight every flick you make.",
+        "depth": 0,
+        "body_ja": "そのケーブルは、マウス本体よりもエイムに大きな悪影響を与えているよ。スリーブで保護するかマウスパッドから外すんだ。その赤の編み込みコードの引きずり抵抗は、すべてのフリック動作の邪魔になるぞ。"
+      },
+      {
+        "id": "19sv31rmw1o0y",
+        "parent_id": "19sv0ki7a0mhx",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "yeah, the cable is a bit heavy but only a small portion of it stays on my mousepad and I also keep ample of it just a few inches away from my mouse",
+        "depth": 1,
+        "body_ja": "そうだね、ケーブルは少し重いけど、マウスパッドの上に乗っているのはほんの一部だし、マウスから数インチ離した位置に十分な余裕を持たせているよ。"
+      },
+      {
+        "id": "19svaajnsk3qa",
+        "parent_id": "19sv31rmw1o0y",
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I used to use the same mouse, you can do better. VXE R1 S is 2k on mkeys. Don't rush buy, I hit my highest ranks using that mouse, but it isn't that great of a mouse imo.",
+        "depth": 2,
+        "body_ja": "自分も以前同じマウスを使っていたからわかるけど、もっと良い選択肢はあるよ。VXE R1 SEなら安く手に入る。焦って買い替える必要はないし、自分もそのマウスで最高ランクに到達したけど、個人的にはそこまで素晴らしいマウスだとは思わないかな。"
+      },
+      {
+        "id": "19sv0yp2070td",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": -3,
+        "body_en": "Get a wireless mouse 👍",
+        "depth": 0,
+        "body_ja": "ワイヤレスマウスを買いなよ 👍"
+      },
+      {
+        "id": "19sv1alicyciq",
+        "parent_id": "19sv0yp2070td",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": -2,
+        "body_en": "Half the community using EGG mice and enthusiasts using EGG internals in 3d printed mice or the M3K.\n\nGo back to your cave.",
+        "depth": 1,
+        "body_ja": "コミュニティの半分はEGG（Endgame Gear）のマウスを使ってるし、マニア層はEGGの内部基板を3Dプリント筐体に入れたやつやM3Kを使ってるんだが。洞窟に帰んな。"
+      },
+      {
+        "id": "19sv1k0bcnizp",
+        "parent_id": "19sv1alicyciq",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Huh?",
+        "depth": 2,
+        "body_ja": "は？"
+      },
+      {
+        "id": "19sva7gp66qxw",
+        "parent_id": "19sv1k0bcnizp",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Half the community use wired mice.",
+        "depth": 3,
+        "body_ja": "コミュニティの半分は有線マウスを使ってるって意味だよ。"
+      },
+      {
+        "id": "19sv2twq2jx0h",
+        "parent_id": "19sv0yp2070td",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "body_en": "i just purchased this mouse",
+        "depth": 1,
+        "body_ja": "このマウスは買ったばかりなんだ。"
+      },
+      {
+        "id": "19svrxjk1dalc",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Do not listen to people saying you need a wireless mouse. Plenty of top aimers use a wired one. Viscose for example. Just make sure the cable isn’t dragging noticeably on the pad.\n\nFor how to improve; maybe start with 20-30 min a day of viscose beginner benchmarks. Do some scenarios here and there, but try to get a score on all of them before you start seriously grinding one category. If your goal is overall aim, don’t specialize in a category at the start. Much like with strength training, you want to leave the specialized stuff for when you’re a bit more experienced. Start with the basics.\n\nAlso remember that aim isn’t everything, plenty of people with great aim are still stuck in gold-diamond (or their equivalents) in their games.",
+        "depth": 0,
+        "body_ja": "ワイヤレスマウスが必要だなんて意見は気にしなくていいよ。トップエイマーでも有線を使っている人はたくさんいる。例えばViscoseとかね。ケーブルがマウスパッド上で目立って引きずらないようにだけ注意すればいい。\n\n上達方法についてだけど、まずはViscoseの初心者向けベンチマークを1日20〜30分やることから始めてみたらどうかな。いろいろなシナリオを少しずつやってみて、ひとつのカテゴリを本格的にやり込む前に、すべてのスコアを出してみるといい。全体的なエイム力を上げたいなら、最初から特定のカテゴリに特化しすぎないこと。筋トレと同じで、専門的な練習は少し経験を積んでからでいいんだ。まずは基礎から始めよう。\n\nそれと、エイムがすべてではないことも覚えておいてね。素晴らしいエイムを持っていても、ゲーム内ではゴールド〜ダイヤモンド（またはそれに相当するランク）で停滞している人は山ほどいるから。"
+      },
+      {
+        "id": "19svth0ebzen8",
+        "parent_id": "19svrxjk1dalc",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "i am not going to buy any wireless mouse until i get to build my own PC, also i just bought this mouse above which is my first too. Main problem with my aim is that it's not stable, i fumble most of the easy shots and also whenever i aim at head, the bullets scatter all around the head except the head itself",
+        "depth": 1,
+        "body_ja": "自分でPCを組むまではワイヤレスマウスを買うつもりはないよ。それにさっきのマウスも買ったばかりで、僕にとって初めてのマウスなんだ。僕のエイムの主な問題は安定していないことで、簡単なショットをほとんど外してしまうし、頭を狙っても弾が頭の周り全体に散らばって頭には当たらないんだよね。"
+      },
+      {
+        "id": "19svty5lxipr6",
+        "parent_id": "19svth0ebzen8",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "What games you playing? Sounds like either Valorant, siege or counter strike. You gotta make sure you’re standing fully still b4 you shoot in those games. Every time.",
+        "depth": 2,
+        "body_ja": "何のゲームをプレイしてるの？ Valorant、Siege、Counter-Strikeのどれかに聞こえるけど。それらのゲームでは、撃つ前に必ず完全に静止していないとダメだよ。毎回ね。"
+      },
+      {
+        "id": "19svtzka4d8f5",
+        "parent_id": "19svty5lxipr6",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "valorant",
+        "depth": 3,
+        "body_ja": "Valorantだよ。"
+      },
+      {
+        "id": "19svug3q0re1v",
+        "parent_id": "19svtzka4d8f5",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Then all I said in the first comment still is true. It’s my main game too, immo2.",
+        "depth": 4,
+        "body_ja": "じゃあ最初に言ったことは全部その通りだね。僕のメインゲームでもあるよ、Immortall 2だけど。"
+      },
+      {
+        "id": "19swga8vpoy5d",
+        "parent_id": "19svug3q0re1v",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "does moving while aiming good??",
+        "depth": 5,
+        "body_ja": "エイムしながら動くのって良いことなの？"
+      },
+      {
+        "id": "19swot97gp9es",
+        "parent_id": "19swga8vpoy5d",
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "It’s decent practice for games like overwatch but considering you want to always stand still when shooting in Valorant I wouldn’t reccomend practicing that for Valo no.",
+        "depth": 6,
+        "body_ja": "Overwatchみたいなゲームなら良い練習になるけど、Valorantでは撃つときに常に静止する必要があるから、Valo向けにそれを練習するのはおすすめしないよ。"
+      },
+      {
+        "id": "19svvsuliyork",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Oh and btw aimlabs also works if you don’t wanna spend on kovaaks for the moment.",
+        "depth": 0,
+        "body_ja": "あ、それと、現時点でKovaaK'sにお金を払いたくないならAimlabsでも十分使えるよ。"
+      }
+    ],
+    "title_ja": "エイム練習の始め方と有線マウスでの上達法：初心者向けガイド",
+    "hook_ja": "新しいマウスを購入しエイム向上を目指す初心者に対し、機材更新よりも基礎練習とゲーム内基本動作の徹底が重要であるとアドバイスされています。ワイヤレスマウスの必要性や有線ケーブルの引きずり対策、効果的な練習手順について議論が交わされました。",
+    "op_post_ja": "エイム練習を始めました！エイムを向上させるにはどうすればいいですか？？",
+    "consensus_points": [
+      "ワイヤレスマウスへの買い替えは必須ではなく、有線マウスでもケーブルの引きずりを抑えればトップレベルを目指せる",
+      "特定のカテゴリに特化せず、Viscoseの初心者向けベンチマークなどで全体の基礎エイムをバランスよく鍛えるのが効果的",
+      "『VALORANT』などのタクティカルFPSでは、エイムのブレを防ぐために射撃時に完全に静止するストッピングが最重要"
+    ],
+    "detailed_analysis_ja": "本スレッドでは、エイム練習を始めたばかりの初心者スレ主に対し、デバイスの選び方と具体的な上達手法についての議論が展開されています。\n\n【1. 有線マウス vs ワイヤレスマウスとケーブル管理】\n一部のユーザーからは「ワイヤレスマウスを買うべき」「重い編み込みケーブルがマウスパッドを引きずることでフリック動作に悪影響を与える」という意見が出ました。しかし、コミュニティの多くは「トップエイマー（例：Viscose）にも有線マウスを使用しているプレイヤーは多い」「Endgame Gear（EGG）などの高品質な有線マウスや、M3Kのようなマニア向け有線マウスを好む層も一定数存在する」としてこれを否定しています。有線マウスを使用する際は、ケーブルバンジーや適切な配置によって、コードがマウスパッド上に垂れて抵抗を生まないよう管理することが推奨されます。\n\n【2. 基礎エイムトレーニングの進め方】\nエイム練習ソフト（KovaaK'sやAimlabs）での上達アプローチとして、最初から特定シナリオに絞ってスコア更新を狙うのは非効率的とされています。筋力トレーニングと同様に、まずは全体的な基礎力を向上させるため、1日20〜30分程度、全シナリオのベンチマークスコアを一通り測定し、全体的なボトムアップを図る手法が推奨されています。また、予算をかけたくない場合は無料のAimlabsから始めることでも十分に効果を得られます。\n\n【3. ゲーム固有のメカニクス（VALORANT等）】\nスレ主が直面している「頭を狙っても弾が周りに散らばる」「イージーショットを外す」という悩みに対し、使用ゲームが『VALORANT』であることから、エイム精度そのものよりも「移動しながら撃っていないか（ストッピングが正しく行われているか）」というゲーム固有のメカニクスが指摘されました。どれだけエイムが正確でも、射撃時に完全に静止していなければ弾丸はランダムに拡散するため、エイム練習と並行してゲーム内の基本動作を正しく理解することが不可欠です。",
+    "devices": [
+      {
+        "name": "VXE R1 SE",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "手頃な価格で購入できる軽量ワイヤレスマウスの選択肢として挙げられている。"
+      },
+      {
+        "name": "Zaunkoenig M3K",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "超軽量な有線マウスの最高峰・マニア向けデバイスとして言及されている。"
+      }
+    ],
+    "x_main_post": "【エイム練習】初心者必読の基本ガイド！\n\n・ワイヤレスは必須非対応！有線でもケーブル管理すれば十分\n・最初は特定の練習に絞らず全体の基礎エイムをバランスよく鍛える\n・VALORANTでは撃つ直前に完全に静止する「ストッピング」が最優先\n\nデバイス買い替えより基礎練習！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "エイムがブレブレで当たらないのだ！高いマウスを買うべきなのだ？",
+        "caption": "エイムが当たらない！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "買い替える前に、練習方法とゲーム内の動きを見直すのが先決だよ！",
+        "caption": "まずは動きを見直そう"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "有線マウスじゃダメなのだ？ワイヤレスじゃないと勝てないのだ？",
+        "caption": "有線じゃダメなの？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "有線でも全然問題ないよ！ケーブルを引きずらない工夫をすればOKなんだよね。",
+        "caption": "有線でも全く問題なし"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "最初は1日20分、全体の基礎エイムを偏りなく鍛えるのがおすすめだよ！",
+        "caption": "まずは基礎練習から"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "なるほどなのだ！弾が散らばるのも練習不足なのだ？",
+        "caption": "弾が散らばる理由は？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "バロならエイムより、撃つ瞬間にしっかり止まってるかが超重要なんだよ！",
+        "caption": "撃つ時はピタッと止まろう"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19sv0ki7a0mhx",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": -2,
+        "text": "そのケーブルは、マウス本体よりもエイムに大きな悪影響を与えているよ。スリーブで保護するかマウスパッドから外すんだ。その赤の編み込みコードの引きずり抵抗は、すべてのフリック動作の邪魔になるぞ。"
+      },
+      {
+        "id": "19sv31rmw1o0y",
+        "parent_id": "19sv0ki7a0mhx",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "そうだね、ケーブルは少し重いけど、マウスパッドの上に乗っているのはほんの一部だし、マウスから数インチ離した位置に十分な余裕を持たせているよ。"
+      },
+      {
+        "id": "19svaajnsk3qa",
+        "parent_id": "19sv31rmw1o0y",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "自分も以前同じマウスを使っていたからわかるけど、もっと良い選択肢はあるよ。VXE R1 SEなら安く手に入る。焦って買い替える必要はないし、自分もそのマウスで最高ランクに到達したけど、個人的にはそこまで素晴らしいマウスだとは思わないかな。"
+      },
+      {
+        "id": "19sv0yp2070td",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": -3,
+        "text": "ワイヤレスマウスを買いなよ 👍"
+      },
+      {
+        "id": "19sv1alicyciq",
+        "parent_id": "19sv0yp2070td",
+        "depth": 1,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": -2,
+        "text": "コミュニティの半分はEGG（Endgame Gear）のマウスを使ってるし、マニア層はEGGの内部基板を3Dプリント筐体に入れたやつやM3Kを使ってるんだが。洞窟に帰んな。"
+      },
+      {
+        "id": "19sv1k0bcnizp",
+        "parent_id": "19sv1alicyciq",
+        "depth": 2,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "は？"
+      },
+      {
+        "id": "19sva7gp66qxw",
+        "parent_id": "19sv1k0bcnizp",
+        "depth": 3,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "コミュニティの半分は有線マウスを使ってるって意味だよ。"
+      },
+      {
+        "id": "19sv2twq2jx0h",
+        "parent_id": "19sv0yp2070td",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 2,
+        "text": "このマウスは買ったばかりなんだ。"
+      },
+      {
+        "id": "19svrxjk1dalc",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ワイヤレスマウスが必要だなんて意見は気にしなくていいよ。トップエイマーでも有線を使っている人はたくさんいる。例えばViscoseとかね。ケーブルがマウスパッド上で目立って引きずらないようにだけ注意すればいい。\n\n上達方法についてだけど、まずはViscoseの初心者向けベンチマークを1日20〜30分やることから始めてみたらどうかな。いろいろなシナリオを少しずつやってみて、ひとつのカテゴリを本格的にやり込む前に、すべてのスコアを出してみるといい。全体的なエイム力を上げたいなら、最初から特定のカテゴリに特化しすぎないこと。筋トレと同じで、専門的な練習は少し経験を積んでからでいいんだ。まずは基礎から始めよう。\n\nそれと、エイムがすべてではないことも覚えておいてね。素晴らしいエイムを持っていても、ゲーム内ではゴールド〜ダイヤモンド（またはそれに相当するランク）で停滞している人は山ほどいるから。"
+      },
+      {
+        "id": "19svth0ebzen8",
+        "parent_id": "19svrxjk1dalc",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "自分でPCを組むまではワイヤレスマウスを買うつもりはないよ。それにさっきのマウスも買ったばかりで、僕にとって初めてのマウスなんだ。僕のエイムの主な問題は安定していないことで、簡単なショットをほとんど外してしまうし、頭を狙っても弾が頭の周り全体に散らばって頭には当たらないんだよね。"
+      },
+      {
+        "id": "19svty5lxipr6",
+        "parent_id": "19svth0ebzen8",
+        "depth": 2,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "何のゲームをプレイしてるの？ Valorant、Siege、Counter-Strikeのどれかに聞こえるけど。それらのゲームでは、撃つ前に必ず完全に静止していないとダメだよ。毎回ね。"
+      },
+      {
+        "id": "19svtzka4d8f5",
+        "parent_id": "19svty5lxipr6",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "Valorantだよ。"
+      },
+      {
+        "id": "19svug3q0re1v",
+        "parent_id": "19svtzka4d8f5",
+        "depth": 4,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "じゃあ最初に言ったことは全部その通りだね。僕のメインゲームでもあるよ、Immortall 2だけど。"
+      },
+      {
+        "id": "19swga8vpoy5d",
+        "parent_id": "19svug3q0re1v",
+        "depth": 5,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "エイムしながら動くのって良いことなの？"
+      },
+      {
+        "id": "19swot97gp9es",
+        "parent_id": "19swga8vpoy5d",
+        "depth": 6,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "Overwatchみたいなゲームなら良い練習になるけど、Valorantでは撃つときに常に静止する必要があるから、Valo向けにそれを練習するのはおすすめしないよ。"
+      },
+      {
+        "id": "19svvsuliyork",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "あ、それと、現時点でKovaaK'sにお金を払いたくないならAimlabsでも十分使えるよ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1y03h5d.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90%E3%82%A8%E3%82%A4%E3%83%A0%E7%B7%B4%E7%BF%92%E3%80%91%E5%88%9D%E5%BF%83%E8%80%85%E5%BF%85%E8%AA%AD%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%82%AC%E3%82%A4%E3%83%89%EF%BC%81%0A%0A%E3%83%BB%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%AC%E3%82%B9%E3%81%AF%E5%BF%85%E9%A0%88%E9%9D%9E%E5%AF%BE%E5%BF%9C%EF%BC%81%E6%9C%89%E7%B7%9A%E3%81%A7%E3%82%82%E3%82%B1%E3%83%BC%E3%83%96%E3%83%AB%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8C%E3%81%B0%E5%8D%81%E5%88%86%0A%E3%83%BB%E6%9C%80%E5%88%9D%E3%81%AF%E7%89%B9%E5%AE%9A%E3%81%AE%E7%B7%B4%E7%BF%92%E3%81%AB%E7%B5%9E%E3%82%89%E3%81%9A%E5%85%A8%E4%BD%93%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%82%A8%E3%82%A4%E3%83%A0%E3%82%92%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E3%82%88%E3%81%8F%E9%8D%9B%E3%81%88%E3%82%8B%0A%E3%83%BBVALORANT%E3%81%A7%E3%81%AF%E6%92%83%E3%81%A4%E7%9B%B4%E5%89%8D%E3%81%AB%E5%AE%8C%E5%85%A8%E3%81%AB%E9%9D%99%E6%AD%A2%E3%81%99%E3%82%8B%E3%80%8C%E3%82%B9%E3%83%88%E3%83%83%E3%83%94%E3%83%B3%E3%82%B0%E3%80%8D%E3%81%8C%E6%9C%80%E5%84%AA%E5%85%88%0A%0A%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E8%B2%B7%E3%81%84%E6%9B%BF%E3%81%88%E3%82%88%E3%82%8A%E5%9F%BA%E7%A4%8E%E7%B7%B4%E7%BF%92%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1y03h5d.html",
+    "created_at": "2026-11-20T09:53:16.352662+00:00"
+  },
+  {
+    "id": "1xzax9d",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Mouse recommendation",
+    "selftext_en": "Should I buy the Logitech G Pro Superlight 2 or get a good clone like the ATK Dragonfly A9 Air+?\n\nNot a professional gamer; I mainly play games on my gamepad.   \nI want a premium experience and satisfaction.",
+    "image_urls": [],
+    "score": 0,
+    "num_comments": 8,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xzax9d/mouse_recommendation/",
+    "comments": [
+      "[+3] Get the ATK the official store is on sales",
+      "[+1] Not an owner of either but people usually recommend the A9 air+ over the superlight 2 becuase of better skates and overall quality. But if the price difference isn't huge and Logitech offers warranty then go for the superlight",
+      "[+2] I got the Air+ and it feels more premium than the GPX2. I suspect that the base on GPX mice is made out of really cheap abs.\n\nAlso with the GPX2 you will have to swap skates cause they are terrible. Only the GPX2c has decent skates.",
+      "[+1] interesting. I just recently got Superlight 2 SE followed by Superlight 2c (for travel/general use) and 2c seems to glide much better on my Artisan pad. Now I see why.",
+      "[+1] They finally started rounding the edges. Not sure what went wrong with the X2 and X3 though...",
+      "[+1] you are right, I would never have noticed.",
+      "[+1] How much is the superlight? Because if it's above $130 I don't recommend it just buy a Chinese gpx clone",
+      "[+1] you won’t lose any premium feeling with atk and even has a better web driver in my opinion"
+    ],
+    "comment_tree": [
+      {
+        "id": "19stdzregdj9f",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Get the ATK the official store is on sales",
+        "depth": 0,
+        "body_ja": "ATKを買いなよ。公式ストアでセール中だよ。"
+      },
+      {
+        "id": "19ste270o5pz8",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Not an owner of either but people usually recommend the A9 air+ over the superlight 2 becuase of better skates and overall quality. But if the price difference isn't huge and Logitech offers warranty then go for the superlight",
+        "depth": 0,
+        "body_ja": "どちらも所有してはいませんが、ソールが優れていて全体の品質も良いという理由で、みんなSUPERLIGHT 2よりもA9 Air+を推すことが多いですね。でも価格差があまりなくて、Logicoolの保証が欲しいならSUPERLIGHTを選んでもいいと思います。"
+      },
+      {
+        "id": "19stekgdm6xts",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "I got the Air+ and it feels more premium than the GPX2. I suspect that the base on GPX mice is made out of really cheap abs.\n\nAlso with the GPX2 you will have to swap skates cause they are terrible. Only the GPX2c has decent skates.",
+        "depth": 0,
+        "body_ja": "Air+を買ったけど、GPX2よりもプレミアム感があるよ。GPXマウスの底面パーツはすごく安いABS樹脂で作られてるんじゃないかと思うくらいだ。\n\nあとGPX2はソールがひどいから交換必須だね。GPX2cだけはまともなソールが付いてるけど。"
+      },
+      {
+        "id": "19stsgbayapqc",
+        "parent_id": "19stekgdm6xts",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "interesting. I just recently got Superlight 2 SE followed by Superlight 2c (for travel/general use) and 2c seems to glide much better on my Artisan pad. Now I see why.",
+        "depth": 1,
+        "body_ja": "興味深いですね。最近ちょうどSuperlight 2 SEを買った後に（持ち運び/普段用に）Superlight 2cを買ったんですが、2cの方がArtisanのマウスパッド上でずっと滑りが良いように感じていました。理由が分かりました。"
+      },
+      {
+        "id": "19sturr6dhrk1",
+        "parent_id": "19stsgbayapqc",
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "They finally started rounding the edges. Not sure what went wrong with the X2 and X3 though...",
+        "depth": 2,
+        "body_ja": "ついに彼らもエッジ処理（面取り）を始めたんだよ。X2やX3で何で失敗したのかはよく分からんけどね…"
+      },
+      {
+        "id": "19stw7aw0msoz",
+        "parent_id": "19sturr6dhrk1",
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "you are right, I would never have noticed.",
+        "depth": 3,
+        "body_ja": "確かにその通りだね、言われるまで絶対気付かなかったよ。"
+      },
+      {
+        "id": "19suc0t7mgtdu",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "body_en": "How much is the superlight? Because if it's above $130 I don't recommend it just buy a Chinese gpx clone",
+        "depth": 0,
+        "body_ja": "Superlightはいくらなの？もし130ドル以上するならおすすめしないよ。中華系のGPXクローンを買うべき。"
+      },
+      {
+        "id": "19suvd7ulmgn9",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "you won’t lose any premium feeling with atk and even has a better web driver in my opinion",
+        "depth": 0,
+        "body_ja": "ATKでもプレミアム感が損なわれることは全くないし、個人的にはWebドライバーもATKの方が優れていると思うよ。"
+      }
+    ],
+    "title_ja": "GPX2対ATK A9 Air+！高級感を求めるライト層に最適なのはどっち？",
+    "hook_ja": "Logicool G PRO X SUPERLIGHT 2と、そのクローン機であるATK Dragonfly A9 Air+のどちらを選ぶべきか悩むユーザーへのアドバイススレッドです。コミュニティでは、ソール性能やビルドクオリティ、Webドライバーの使い勝手の面から、ATK製品を推す声が多く上がっています。",
+    "op_post_ja": "Logicool G PRO X SUPERLIGHT 2を買うべきか、それともATK Dragonfly A9 Air+のような優秀なクローン機を手に入れるべきでしょうか？\n\nプロゲーマーというわけではなく、ゲームは主にパッド（コントローラー）でプレイしています。\nプレミアムな使用感と所有満足度を求めています。",
+    "consensus_points": [
+      "ATK Dragonfly A9 Air+は標準ソールやビルドクオリティが優秀で、GPX2以上の高級感を感じる人が多い",
+      "Logicool G PRO X SUPERLIGHT 2は標準ソールの品質（エッジの処理など）に難があり、ソール交換が推奨されるケースがある",
+      "価格差が小さくメーカー保証を重視するならLogicoolも選択肢だが、130ドル以上出すなら中華系クローン機の方が満足度が高い"
+    ],
+    "detailed_analysis_ja": "【1. スレッドの背景と議題】\n本スレッドは、FPSをガチでプレイするわけではなく普段はパッド操作がメインのユーザーが、「高級感と所有満足度」を求めて最高峰のマウスを選ぼうとしている場面から始まります。候補として挙がっているのは、業界の絶対的基準である「Logicool G PRO X SUPERLIGHT 2（GPX2）」と、その形状をインスパイアしつつ低価格かつ高品質なビルドで注目を集める「ATK Dragonfly A9 Air+」です。\n\n【2. GPX2の課題：ソールとベース素材】\nコミュニティの意見で特に目立ったのは、GPX2の標準マウスソールの質の低さに対する指摘です。エッジ処理が甘く滑走感に影響を与えるため、購入後にサードパーティ製ソール（JadeやPTFEソールなど）へ交換することが前提とされがちです。また、底面（ベース）のプラスチック素材が安っぽく感じるという声もあり、プレミアム感を求めるユーザーにとってはマイナス要素として捉えられています。\n\n【3. ATKブランドと中華クローンの評価】\n一方で、ATKをはじめとする最新の中華系軽量マウスは、単なる安価な模倣品にとどまらず、ビルドクオリティの高さや最初からエッジ処理された高品質なソール、さらにはインストール不要でブラウザ上から設定変更できるWebドライバー（Web-based driver）の導入など、本家を超える利便性を提供していると高く評価されています。価格が130ドルを超えるような高価格帯であれば、無理にGPX2を買うよりもATK等のクローン機を選んだ方が所有満足度が高いという合意が形成されています。",
+    "devices": [
+      {
+        "name": "Logicool G PRO X SUPERLIGHT 2",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "業界標準の軽量マウスだが、標準ソールの滑りや底面素材の質感が価格に見合っていないとの指摘があり、ソール交換が推奨されることがある。"
+      },
+      {
+        "name": "ATK Dragonfly A9 Air+",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "GPX2の形状をベースにしたクローン機で、最初から高品質なソールや高いビルドクオリティ、便利なWebドライバーを備えておりコストパフォーマンスが良いと評価されている。"
+      },
+      {
+        "name": "ARTISAN ゲーミングマウスパッド",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "マウスのソールの違いによる滑りの差がはっきりと体感できる高品質なマウスパッドとして言及されている。"
+      }
+    ],
+    "x_main_post": "GPX2とATK A9 Air+のどちらを買うべき？海外掲示板の検証まとめ！\n\n・ATKの方がソール品質や質感が高く評価される\n・GPX2は標準ソールに難があり交換推奨との声も\n・130ドル以上なら中華クローンが圧倒的高コスパ\n\n所有満足度を求めるならクローン機も強力な選択肢です！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "高級マウスが欲しいのだ！GPX2とATKどっちがいいのだ？",
+        "caption": "どっちを買うべき？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "実は今、海外ではATK A9 Air+を押す声がすごーく多いんだよね！",
+        "caption": "海外猛者の結論"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "本家よりクローン機の方が評価が高いのだ？なんでなのだ？",
+        "caption": "なぜそうなる？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ATKはソールの滑りや全体の質感が高くて、GPX2より高級感があるからなんだよね。",
+        "caption": "ポイント①"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "GPX2は標準ソールがイマイチで、結局買い替える人が多いのも理由だよ！",
+        "caption": "ポイント②"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "最初からソールが優秀なのはすごく助かるのだ！",
+        "caption": "目からウロコ！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ国内での保証やサポートを最優先するなら公式品もアリだから気をつけてね！",
+        "caption": "注意点"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19stdzregdj9f",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "ATKを買いなよ。公式ストアでセール中だよ。"
+      },
+      {
+        "id": "19ste270o5pz8",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "どちらも所有してはいませんが、ソールが優れていて全体の品質も良いという理由で、みんなSUPERLIGHT 2よりもA9 Air+を推すことが多いですね。でも価格差があまりなくて、Logicoolの保証が欲しいならSUPERLIGHTを選んでもいいと思います。"
+      },
+      {
+        "id": "19stekgdm6xts",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "Air+を買ったけど、GPX2よりもプレミアム感があるよ。GPXマウスの底面パーツはすごく安いABS樹脂で作られてるんじゃないかと思うくらいだ。\n\nあとGPX2はソールがひどいから交換必須だね。GPX2cだけはまともなソールが付いてるけど。"
+      },
+      {
+        "id": "19stsgbayapqc",
+        "parent_id": "19stekgdm6xts",
+        "depth": 1,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "興味深いですね。最近ちょうどSuperlight 2 SEを買った後に（持ち運び/普段用に）Superlight 2cを買ったんですが、2cの方がArtisanのマウスパッド上でずっと滑りが良いように感じていました。理由が分かりました。"
+      },
+      {
+        "id": "19sturr6dhrk1",
+        "parent_id": "19stsgbayapqc",
+        "depth": 2,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ついに彼らもエッジ処理（面取り）を始めたんだよ。X2やX3で何で失敗したのかはよく分からんけどね…"
+      },
+      {
+        "id": "19stw7aw0msoz",
+        "parent_id": "19sturr6dhrk1",
+        "depth": 3,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "確かにその通りだね、言われるまで絶対気付かなかったよ。"
+      },
+      {
+        "id": "19suc0t7mgtdu",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "text": "Superlightはいくらなの？もし130ドル以上するならおすすめしないよ。中華系のGPXクローンを買うべき。"
+      },
+      {
+        "id": "19suvd7ulmgn9",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ATKでもプレミアム感が損なわれることは全くないし、個人的にはWebドライバーもATKの方が優れていると思うよ。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xzax9d.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=GPX2%E3%81%A8ATK%20A9%20Air%2B%E3%81%AE%E3%81%A9%E3%81%A1%E3%82%89%E3%82%92%E8%B2%B7%E3%81%86%E3%81%B9%E3%81%8D%EF%BC%9F%E6%B5%B7%E5%A4%96%E6%8E%B2%E7%A4%BA%E6%9D%BF%E3%81%AE%E6%A4%9C%E8%A8%BC%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%81%0A%0A%E3%83%BBATK%E3%81%AE%E6%96%B9%E3%81%8C%E3%82%BD%E3%83%BC%E3%83%AB%E5%93%81%E8%B3%AA%E3%82%84%E8%B3%AA%E6%84%9F%E3%81%8C%E9%AB%98%E3%81%8F%E8%A9%95%E4%BE%A1%E3%81%95%E3%82%8C%E3%82%8B%0A%E3%83%BBGPX2%E3%81%AF%E6%A8%99%E6%BA%96%E3%82%BD%E3%83%BC%E3%83%AB%E3%81%AB%E9%9B%A3%E3%81%8C%E3%81%82%E3%82%8A%E4%BA%A4%E6%8F%9B%E6%8E%A8%E5%A5%A8%E3%81%A8%E3%81%AE%E5%A3%B0%E3%82%82%0A%E3%83%BB130%E3%83%89%E3%83%AB%E4%BB%A5%E4%B8%8A%E3%81%AA%E3%82%89%E4%B8%AD%E8%8F%AF%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E3%81%8C%E5%9C%A7%E5%80%92%E7%9A%84%E9%AB%98%E3%82%B3%E3%82%B9%E3%83%91%0A%0A%E6%89%80%E6%9C%89%E6%BA%80%E8%B6%B3%E5%BA%A6%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E3%81%AA%E3%82%89%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E6%A9%9F%E3%82%82%E5%BC%B7%E5%8A%9B%E3%81%AA%E9%81%B8%E6%8A%9E%E8%82%A2%E3%81%A7%E3%81%99%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xzax9d.html",
+    "created_at": "2026-11-20T09:53:47.886682+00:00"
+  },
+  {
+    "id": "1xz96s8",
+    "subreddit": "MouseReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Viper v4 tracking on zofia",
+    "selftext_en": "I just recently got a iridescent zofia from glassworks and I’m not sure if it’s the surface but I’m having tracking/sensor issues on it. It kind of stutters randomly and I’m not sure what the issue would be. I’m using the skates that came with it and playing on high LOD.",
+    "image_urls": [],
+    "score": 0,
+    "num_comments": 10,
+    "permalink": "https://www.reddit.com/r/MouseReview/comments/1xz96s8/viper_v4_tracking_on_zofia/",
+    "comments": [
+      "[+3] Glass pads are the classic case for random stutter. A few things worth trying in this order:\n\n1. Clean the pad and the sensor window. Glass shows every fingerprint and skin oil smear, and on a very smooth surface the sensor relies on tiny texture, so a greasy patch can make it lose tracking for a moment. Isopropyl or a microfiber with a bit of water on the pad, a dry cotton swab on the sensor.\n2. Drop the LOD to low. High LOD on glass makes the sensor keep reading during micro lifts, which feels like stutter. Most glass pad users run the lowest setting.\n3. If Synapse shows surface calibration for your mouse, run it on the Zofia. The default tuning is made for cloth, and calibrating on the actual surface often fixes exactly this.\n4. Try 1000 Hz polling for a test if you are on 4K or 8K. Hig",
+      "[+1] Will try that out. Thanks!",
+      "[+1] I tried everything on here and I think it’s just a sensor compatibility issue :(",
+      "[+1] that sucks. one way to know for sure: try a different mouse on the zofia, and the viper on any cloth pad. if the viper is fine on cloth and the other mouse is fine on the glass, it's that sensor and that coating not liking each other, not a broken mouse\n\nsome coated or iridescent glass tops seem pickier than plain etched glass, so might be worth asking glassworks if they'd swap it for another finish",
+      "[+1] Just to confirm this I have tested it on the pulsar Meiy v2 and sp005 berserk. On the meiy it was tracking normally but on the sp005 it would have issues tracking on the white parts of the glass pad. It’s funny because the zofia is mainly black too… (just saw a review saying that the sensor could have issues tracking on bright/light colors) \n\nI have tried the maya x v2 and it works perfectly on the viper and I have tried the viper on a cloth mousepad and it works perfectly fine.\n\nI think it is just that the coating is not really compatible with the mouse which sucks but it is what it is :/",
+      "[+1] yeah that's a pretty clear result. two different sensors struggling on the light parts while the meiy is fine means it's that coating plus how those sensors handle bright surfaces, not your mouse being faulty\n\nannoying but at least you know. worth mentioning the sp005 result to glassworks too, that's the kind of detail that makes a swap easier to get",
+      "[+2] Try different lod options using high lod  the sensor will pick up small micro movements when you're readjusting the mouse and don't forget to update to the latest firmware",
+      "[+1] Tried all of them and still having issues",
+      "[+1] I got no better suggestions man I'm sorry have you tried messaging razer support team?",
+      "[+1] I have not but I will give that a try. Thanks for all the help"
+    ],
+    "comment_tree": [
+      {
+        "id": "19stcxxkp94n7",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "body_en": "Glass pads are the classic case for random stutter. A few things worth trying in this order:\n\n1. Clean the pad and the sensor window. Glass shows every fingerprint and skin oil smear, and on a very smooth surface the sensor relies on tiny texture, so a greasy patch can make it lose tracking for a moment. Isopropyl or a microfiber with a bit of water on the pad, a dry cotton swab on the sensor.\n2. Drop the LOD to low. High LOD on glass makes the sensor keep reading during micro lifts, which feels like stutter. Most glass pad users run the lowest setting.\n3. If Synapse shows surface calibration for your mouse, run it on the Zofia. The default tuning is made for cloth, and calibrating on the actual surface often fixes exactly this.\n4. Try 1000 Hz polling for a test if you are on 4K or 8K. High polling plus a busy USB port or CPU shows up as random hitches, and that has nothing to do with the pad. Plug the dongle into a port on the back of the PC, close to the mouse with the extender.\n5. Check the skates are flat. If one stock skate is slightly raised, the sensor height changes as the mouse tilts, which on glass is enough to cause dropouts.\n\nIf it still stutters after 2 and 3 on a clean pad but tracks perfectly on cloth, it is the sensor and that particular glass finish not getting along, which does happen with some iridescent coatings.",
+        "depth": 0,
+        "body_ja": "ガラスパッドはランダムなカクつきが起きやすい典型的な例ですね。試す価値のあることを順番に挙げておきます：\n\n1. パッドとセンサー窓を清掃する。ガラスは指紋や皮脂の汚れが目立ちやすく、滑らかな表面ではセンサーが微細なテクスチャに依存するため、油分がついた部分で一瞬トラッキングを見失うことがあります。パッドにはイソプロピルアルコールか少し水を含ませたマイクロファイバークロスを使い、センサーには乾いた綿棒を使ってください。\n2. LOD（リフトオフディスタンス）を「低」に下げる。ガラス上でLODを「高」にすると、マウスをわずかに持ち上げたときにもセンサーが読み取り続けてしまい、カクつきのように感じられます。ほとんどのガラスパッドユーザーは最も低い設定で運用しています。\n3. Synapseにマウスの表面キャリブレーション機能がある場合は、Zofia上で実行してみてください。デフォルトの調整は布用に作られているため、実際の表面でキャリブレーションすることでまさにこの問題が解決することがよくあります。\n4. 4Kや8Kに設定している場合は、テストとして1000Hzのポーリングレートを試してみてください。高ポーリングレートに加えてUSBポートやCPUが混雑しているとランダムな引っかかりとして表れますが、これはパッドとは全く関係ありません。ドングルは延長ケーブルを使ってPC背面のポートに接続し、マウスの近くに配置してください。\n5. ソールが平らについているか確認する。純正ソールが1箇所でもわずかに浮いていると、マウスが傾いたときにセンサーの高さが変わり、ガラス上ではトラッキングが途切れる原因として十分になり得ます。\n\nきれいなパッドの上で2と3を試してもまだカクつき、布パッドでは完璧にトラッキングする場合、センサーとその特定のガラス仕上げの相性が悪いということになります。これはイリディセント（虹色）コーティングなどで実際に起こることです。"
+      },
+      {
+        "id": "19su0wddnavgh",
+        "parent_id": "19stcxxkp94n7",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Will try that out. Thanks!",
+        "depth": 1,
+        "body_ja": "試してみます。ありがとう！"
+      },
+      {
+        "id": "19suz03obp3gk",
+        "parent_id": "19stcxxkp94n7",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I tried everything on here and I think it’s just a sensor compatibility issue :(",
+        "depth": 1,
+        "body_ja": "ここに書かれていることを全部試してみましたが、ただのセンサーの相性問題みたいです :("
+      },
+      {
+        "id": "19suzpd40uif5",
+        "parent_id": "19suz03obp3gk",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "that sucks. one way to know for sure: try a different mouse on the zofia, and the viper on any cloth pad. if the viper is fine on cloth and the other mouse is fine on the glass, it's that sensor and that coating not liking each other, not a broken mouse\n\nsome coated or iridescent glass tops seem pickier than plain etched glass, so might be worth asking glassworks if they'd swap it for another finish",
+        "depth": 2,
+        "body_ja": "それは残念ですね。確実に確かめる方法が一つあります。Zofiaで別のマウスを試し、Viperを適当な布パッドで試してみてください。Viperが布で問題なく、別のマウスがガラスで問題なければ、マウスの故障ではなく、そのセンサーとそのコーティングの相性が悪かったということです。\n\nコーティング加工されたガラスやイリディセントのトップ面は、シンプルなエッチングガラスよりも好みが分かれるようなので、Glassworksに別の仕上げと交換できるか問い合わせてみる価値はあるかもしれません。"
+      },
+      {
+        "id": "19sv38vyk73cy",
+        "parent_id": "19suzpd40uif5",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Just to confirm this I have tested it on the pulsar Meiy v2 and sp005 berserk. On the meiy it was tracking normally but on the sp005 it would have issues tracking on the white parts of the glass pad. It’s funny because the zofia is mainly black too… (just saw a review saying that the sensor could have issues tracking on bright/light colors) \n\nI have tried the maya x v2 and it works perfectly on the viper and I have tried the viper on a cloth mousepad and it works perfectly fine.\n\nI think it is just that the coating is not really compatible with the mouse which sucks but it is what it is :/",
+        "depth": 3,
+        "body_ja": "確認のためにPulsar Demon Slayer Meiy V2とSP-004 Berserkでもテストしてみました。Meiyでは正常にトラッキングしましたが、SP-004ではガラスパッドの白い部分でトラッキングに問題が発生しました。Zofiaも主に黒色なので面白いですね…（明るい色/薄い色でセンサーがトラッキングに問題を抱える可能性があるというレビューを見かけたばかりです）\n\nLAMZU Maya X V2も試しましたがViperで完全に動作しましたし、Viperを布マウスパッドで試したところまったく問題なく動作しました。\n\nコーティングがこのマウスと本当に相性が良くないだけだと思います。残念ですが仕方ないですね :/"
+      },
+      {
+        "id": "19sv53t1fatvl",
+        "parent_id": "19sv38vyk73cy",
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "yeah that's a pretty clear result. two different sensors struggling on the light parts while the meiy is fine means it's that coating plus how those sensors handle bright surfaces, not your mouse being faulty\n\nannoying but at least you know. worth mentioning the sp005 result to glassworks too, that's the kind of detail that makes a swap easier to get",
+        "depth": 4,
+        "body_ja": "ええ、かなり明確な結果ですね。Meiyが問題ない一方で、2種類の異なるセンサーが明るい部分で苦戦しているということは、マウスの不具合ではなく、そのコーティングとそれらのセンサーが明るい表面をどう処理するかという問題です。\n\nうっとうしいですが、原因が特定できただけでも良かったです。SP-004の結果もGlassworksに伝えてみる価値がありますよ。そういう詳細があると交換に応じてもらいやすくなります。"
+      },
+      {
+        "id": "19subx3wmswci",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Try different lod options using high lod  the sensor will pick up small micro movements when you're readjusting the mouse and don't forget to update to the latest firmware",
+        "depth": 0,
+        "body_ja": "異なるLODオプションを試してみてください。LODを「高」に設定していると、マウスの位置を調整しているときの微小な動きをセンサーが拾ってしまいます。それと、最新のファームウェアに更新するのを忘れないでください。"
+      },
+      {
+        "id": "19suz0t8d1qdg",
+        "parent_id": "19subx3wmswci",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "Tried all of them and still having issues",
+        "depth": 1,
+        "body_ja": "全部試してみましたが、まだ問題が発生しています。"
+      },
+      {
+        "id": "19swlef2l7m4k",
+        "parent_id": "19suz0t8d1qdg",
+        "author": "海外ユーザー2",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "body_en": "I got no better suggestions man I'm sorry have you tried messaging razer support team?",
+        "depth": 2,
+        "body_ja": "これ以上の良い提案が出せなくて申し訳ないです。Razerのサポートチームにメッセージを送ってみましたか？"
+      },
+      {
+        "id": "19swoempdo9tx",
+        "parent_id": "19swlef2l7m4k",
+        "author": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "body_en": "I have not but I will give that a try. Thanks for all the help",
+        "depth": 3,
+        "body_ja": "まだ送っていませんが、試してみます。助けてくれて本当にありがとうございました！"
+      }
+    ],
+    "title_ja": "Razer Viper V4がガラスマウスパッドでトラッキング飛び？原因と対処法",
+    "hook_ja": "Razer Viper V4 Proをガラスマウスパッドで使用した際に発生するトラッキングの不具合について議論されています。センサーの特性や表面コーティングとの相性が原因である可能性が高まっています。",
+    "op_post_ja": "最近GlassworksのIridescent Zofia（ガラスマウスパッド）を手に入れたのですが、表面のせいなのかトラッキング／センサーに問題が発生しています。ランダムに引っかかるようなカクつき（スタッター）が発生するのですが、何が原因かわかりません。付属のソールを使用していて、LOD（リフトオフディスタンス）は高設定でプレイしています。",
+    "consensus_points": [
+      "ガラスマウスパッドではLOD（リフトオフディスタンス）を「低」に設定するのが基本であり、高設定だと微小な浮き上がりで誤作動を起こしやすい。",
+      "ガラス面の油脂汚れやホコリ、高ポーリングレートによるCPU負荷も引っかかりの原因になるため、事前の清掃と1000Hzでの検証が有効である。",
+      "一部のイリディセント（虹色）コーティングや白色・明るい色のグラフィックプリントは、特定の光学センサーと相性が悪くトラッキング不良を起こすことがある。"
+    ],
+    "detailed_analysis_ja": "ガラス製マウスパッドと最新の超高精度光学センサー（Razer Focus Pro Optical Sensor等）の組み合わせでは、極稀に読み取り不良やカクつき（スタッター）が発生することがあります。本スレッドでは、Razer Viper V4 ProとGlassworks Zofia（イリディセントコーティングが施されたガラスパッド）の間で発生したトラッキング不具合の原因究明が行われました。\n\n【1. ガラスパッドにおけるトラブルシューティングの基本】\nガラス面は微小な皮膚の油分やホコリの影響を受けやすく、センサー窓やパッド表面の汚れが直接トラッキング飛びにつながります。また、ガラスパッドではLOD（リフトオフディスタンス）を高く設定すると、マウスを持ち直す際の微小な隙間をセンサーが読み続けてしまい、カクつきとして感知されるため「低（Low）」設定が推奨されます。さらに、4K/8KHzなどの高ポーリングレート使用時にはUSB帯域やCPU負荷が原因でスタッターが発生することもあるため、1000Hzへの変更やマザーボード直挿しによる切り分けが必要です。\n\n【2. コーティング・印刷色とセンサーの相性問題】\n今回のケースでは、布パッドでの動作や他マウス（Sora/Maya等）とのクロス検証を行った結果、製品の不具合ではなく「特定のコーティング・明るい色（白系や虹色）とセンサーの相性問題」であることが突き止められました。エッチング加工のみの標準的なガラスパッドと異なり、特殊な光沢コーティングや明るいプリントが施されたガラス面は、センサーの照射光を拡散・反射しすぎてしまい、正しく表面パターンを認識できなくなる場合があります。同様の現象はWallhack（旧SkyPAD）の特定デザインモデル等でも報告されており、購入時は使用するマウスのセンサーとの相性に注意が必要です。",
+    "devices": [
+      {
+        "name": "Razer Viper V4 Pro",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "布マウスパッド上では完璧に動作するものの、特殊なイリディセントコーティングや白い印刷が施されたガラスマウスパッド上ではセンサーの相性によりトラッキング跳びやカクつきが発生することが報告されている。"
+      },
+      {
+        "name": "LAMZU Maya X",
+        "category": "mouse",
+        "sentiment": "positive",
+        "comment_ja": "ガラスマウスパッド上でも問題なく正常にトラッキング動作することが確認されている。"
+      },
+      {
+        "name": "Pulsar X2v2 Demon Slayer",
+        "category": "mouse",
+        "sentiment": "neutral",
+        "comment_ja": "ガラスマウスパッド上で正常に動作する個体として検証に使用されている。"
+      },
+      {
+        "name": "Wallhack SP-004",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "白色のグラフィック部分などで一部の光学センサーがトラッキング不良を起こす場合があると報告されている。"
+      }
+    ],
+    "x_main_post": "Razer Viper V4がガラスパッドで飛ぶ・カクつく不具合の理由とは？\n\n・原因は故障ではなく「センサーと特殊コーティング・印刷色の相性」\n・LODは「低」に設定必須\n・表面の油分清掃や1000Hzでの動作検証も重要\n・明るい色や虹色コーティングはセンサーを選ぶため注意！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "ガラスパッドでマウスがカクつくのだ！故障なのかな？",
+        "caption": "ガラスパッドでカクつく？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "実はマウスの故障じゃなくて相性問題の可能性があるんだよね！",
+        "caption": "原因はセンサーの相性かも"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "相性問題！？一体どういうことなのだ？",
+        "caption": "相性問題ってどういうこと？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ガラスの表面コーティングや白いプリントが光を反射しすぎるからなんだよね！",
+        "caption": "光の反射でセンサーが誤作動"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "まずはLODを「低」にして、パッドを綺麗に清掃するのがおすすめだよ！",
+        "caption": "LOD「低」＆清掃が基本！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "布パッドで動くなら相性が原因確定なのだ！",
+        "caption": "布で動くなら相性が原因！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ただ派手な柄のガラスパッドを買うときはセンサー相性に気をつけてね！",
+        "caption": "柄物ガラスパッドは注意！"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19stcxxkp94n7",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 3,
+        "text": "ガラスパッドはランダムなカクつきが起きやすい典型的な例ですね。試す価値のあることを順番に挙げておきます：\n\n1. パッドとセンサー窓を清掃する。ガラスは指紋や皮脂の汚れが目立ちやすく、滑らかな表面ではセンサーが微細なテクスチャに依存するため、油分がついた部分で一瞬トラッキングを見失うことがあります。パッドにはイソプロピルアルコールか少し水を含ませたマイクロファイバークロスを使い、センサーには乾いた綿棒を使ってください。\n2. LOD（リフトオフディスタンス）を「低」に下げる。ガラス上でLODを「高」にすると、マウスをわずかに持ち上げたときにもセンサーが読み取り続けてしまい、カクつきのように感じられます。ほとんどのガラスパッドユーザーは最も低い設定で運用しています。\n3. Synapseにマウスの表面キャリブレーション機能がある場合は、Zofia上で実行してみてください。デフォルトの調整は布用に作られているため、実際の表面でキャリブレーションすることでまさにこの問題が解決することがよくあります。\n4. 4Kや8Kに設定している場合は、テストとして1000Hzのポーリングレートを試してみてください。高ポーリングレートに加えてUSBポートやCPUが混雑しているとランダムな引っかかりとして表れますが、これはパッドとは全く関係ありません。ドングルは延長ケーブルを使ってPC背面のポートに接続し、マウスの近くに配置してください。\n5. ソールが平らについているか確認する。純正ソールが1箇所でもわずかに浮いていると、マウスが傾いたときにセンサーの高さが変わり、ガラス上ではトラッキングが途切れる原因として十分になり得ます。\n\nきれいなパッドの上で2と3を試してもまだカクつき、布パッドでは完璧にトラッキングする場合、センサーとその特定のガラス仕上げの相性が悪いということになります。これはイリディセント（虹色）コーティングなどで実際に起こることです。"
+      },
+      {
+        "id": "19su0wddnavgh",
+        "parent_id": "19stcxxkp94n7",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "試してみます。ありがとう！"
+      },
+      {
+        "id": "19suz03obp3gk",
+        "parent_id": "19stcxxkp94n7",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "ここに書かれていることを全部試してみましたが、ただのセンサーの相性問題みたいです :("
+      },
+      {
+        "id": "19suzpd40uif5",
+        "parent_id": "19suz03obp3gk",
+        "depth": 2,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "それは残念ですね。確実に確かめる方法が一つあります。Zofiaで別のマウスを試し、Viperを適当な布パッドで試してみてください。Viperが布で問題なく、別のマウスがガラスで問題なければ、マウスの故障ではなく、そのセンサーとそのコーティングの相性が悪かったということです。\n\nコーティング加工されたガラスやイリディセントのトップ面は、シンプルなエッチングガラスよりも好みが分かれるようなので、Glassworksに別の仕上げと交換できるか問い合わせてみる価値はあるかもしれません。"
+      },
+      {
+        "id": "19sv38vyk73cy",
+        "parent_id": "19suzpd40uif5",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "確認のためにPulsar Demon Slayer Meiy V2とSP-004 Berserkでもテストしてみました。Meiyでは正常にトラッキングしましたが、SP-004ではガラスパッドの白い部分でトラッキングに問題が発生しました。Zofiaも主に黒色なので面白いですね…（明るい色/薄い色でセンサーがトラッキングに問題を抱える可能性があるというレビューを見かけたばかりです）\n\nLAMZU Maya X V2も試しましたがViperで完全に動作しましたし、Viperを布マウスパッドで試したところまったく問題なく動作しました。\n\nコーティングがこのマウスと本当に相性が良くないだけだと思います。残念ですが仕方ないですね :/"
+      },
+      {
+        "id": "19sv53t1fatvl",
+        "parent_id": "19sv38vyk73cy",
+        "depth": 4,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ええ、かなり明確な結果ですね。Meiyが問題ない一方で、2種類の異なるセンサーが明るい部分で苦戦しているということは、マウスの不具合ではなく、そのコーティングとそれらのセンサーが明るい表面をどう処理するかという問題です。\n\nうっとうしいですが、原因が特定できただけでも良かったです。SP-004の結果もGlassworksに伝えてみる価値がありますよ。そういう詳細があると交換に応じてもらいやすくなります。"
+      },
+      {
+        "id": "19subx3wmswci",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 2,
+        "text": "異なるLODオプションを試してみてください。LODを「高」に設定していると、マウスの位置を調整しているときの微小な動きをセンサーが拾ってしまいます。それと、最新のファームウェアに更新するのを忘れないでください。"
+      },
+      {
+        "id": "19suz0t8d1qdg",
+        "parent_id": "19subx3wmswci",
+        "depth": 1,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "全部試してみましたが、まだ問題が発生しています。"
+      },
+      {
+        "id": "19swlef2l7m4k",
+        "parent_id": "19suz0t8d1qdg",
+        "depth": 2,
+        "speaker": "海外ユーザー2",
+        "flair": "Razer Viper Mini V4 Wired 8khz pls",
+        "is_op": false,
+        "score": 1,
+        "text": "これ以上の良い提案が出せなくて申し訳ないです。Razerのサポートチームにメッセージを送ってみましたか？"
+      },
+      {
+        "id": "19swoempdo9tx",
+        "parent_id": "19swlef2l7m4k",
+        "depth": 3,
+        "speaker": "スレ主",
+        "flair": "",
+        "is_op": true,
+        "score": 1,
+        "text": "まだ送っていませんが、試してみます。助けてくれて本当にありがとうございました！"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xz96s8.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=Razer%20Viper%20V4%E3%81%8C%E3%82%AC%E3%83%A9%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%E3%81%A7%E9%A3%9B%E3%81%B6%E3%83%BB%E3%82%AB%E3%82%AF%E3%81%A4%E3%81%8F%E4%B8%8D%E5%85%B7%E5%90%88%E3%81%AE%E7%90%86%E7%94%B1%E3%81%A8%E3%81%AF%EF%BC%9F%0A%0A%E3%83%BB%E5%8E%9F%E5%9B%A0%E3%81%AF%E6%95%85%E9%9A%9C%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E3%80%8C%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%81%A8%E7%89%B9%E6%AE%8A%E3%82%B3%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%BB%E5%8D%B0%E5%88%B7%E8%89%B2%E3%81%AE%E7%9B%B8%E6%80%A7%E3%80%8D%0A%E3%83%BBLOD%E3%81%AF%E3%80%8C%E4%BD%8E%E3%80%8D%E3%81%AB%E8%A8%AD%E5%AE%9A%E5%BF%85%E9%A0%88%0A%E3%83%BB%E8%A1%A8%E9%9D%A2%E3%81%AE%E6%B2%B9%E5%88%86%E6%B8%85%E6%8E%83%E3%82%841000Hz%E3%81%A7%E3%81%AE%E5%8B%95%E4%BD%9C%E6%A4%9C%E8%A8%BC%E3%82%82%E9%87%8D%E8%A6%81%0A%E3%83%BB%E6%98%8E%E3%82%8B%E3%81%84%E8%89%B2%E3%82%84%E8%99%B9%E8%89%B2%E3%82%B3%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%81%AF%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%82%92%E9%81%B8%E3%81%B6%E3%81%9F%E3%82%81%E6%B3%A8%E6%84%8F%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xz96s8.html",
+    "created_at": "2026-11-20T09:56:59.534762+00:00"
+  },
+  {
+    "id": "1xz8aa9",
+    "subreddit": "MousepadReview",
+    "op_author": "スレ主",
+    "op_flair": "",
+    "title_en": "Currently using the Aqua Control 2/II and I'm looking for a mousepad with little more control",
+    "selftext_en": "The main game I play is Valorant and one of the most popular mouse pads for that game is the Artisan Zero Xsoft. I'm wondering if that mousepad is very similar to the Aqua Control 2 and if I should look into a different mousepad or if it does offer more control and is worth the price.",
+    "image_urls": [],
+    "score": 2,
+    "num_comments": 6,
+    "permalink": "https://www.reddit.com/r/MousepadReview/comments/1xz8aa9/currently_using_the_aqua_control_2ii_and_im/",
+    "comments": [
+      "[+1] Hey - Consider checking out our [weekly mousepad advice thread!](https://www.reddit.com/r/MousepadReview/search/?q=Flair%3Aweekly+title%3Aadvice&type=posts&t=week&restrict_sr=on)\n\nWe use the weekly thread to make it easier for people to help you. You can get better advice there, especially if read & follow the template/resources in the thread. Thanks!\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MousepadReview) if you have any questions or concerns.*",
+      "[+1] zero is def faster but might have more texture",
+      "[+1] Artisan Zero is a good alternative but I’d recommend the Soft version instead of Xsoft. \n\nWhen you apply pressure on your fingertips/push into the pad on the XSoft for stopping power, it just kinda sinks into the pad instead of actually decelerating while also not being thick enough to accommodate for it.",
+      "[+2] Our TENTA-X Shinrai could be worth considering for the extra control you’re after in Valorant.   \n  \nI’m the brand owner, for transparency, It’s slower and offers more stopping power than the Artisan Zero, with a less pronounced texture\n\n\n\nIt comes in Soft, so it won’t have the same cushioning as Zero Xsoft, But our soft falls between the Artisan Xsoft and Soft  \n  \nI haven’t compared it directly with AC2, but it’s our control-focused cloth option\n\nAvilable as normal stitched below surface option and as Edgeless",
+      "[+1] Type 99 is a great control/mud pad",
+      "[+1] did u try a combination or changing skates first? then if still need more only then consider changing surfaced?\n\nYou mentioned already using xsoft, so stick to that. Also for skates maybe use donuts? the xraypad donuts r good though for control stick to obsidian.\n\nI haven't tested this but the type 99 is artisans answer for a more controlled pad. This in xsoft is probably what you should be looking at.\n\nPeople that don't like sinking for pad, dont get xsoft and stick to soft. but of course it will have less control by comparison."
+    ],
+    "comment_tree": [
+      {
+        "id": "19st5i120tujk",
+        "parent_id": null,
+        "author": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Hey - Consider checking out our [weekly mousepad advice thread!](https://www.reddit.com/r/MousepadReview/search/?q=Flair%3Aweekly+title%3Aadvice&type=posts&t=week&restrict_sr=on)\n\nWe use the weekly thread to make it easier for people to help you. You can get better advice there, especially if read & follow the template/resources in the thread. Thanks!\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/MousepadReview) if you have any questions or concerns.*",
+        "depth": 0,
+        "body_ja": "やあ！僕たちの[週刊マウスパッド相談スレッド](https://www.reddit.com/r/MousepadReview/search/?q=Flair%3Aweekly+title%3Aadvice&type=posts&t=week&restrict_sr=on)をチェックしてみてください！\n\nみんながアドバイスしやすくするために、この週刊スレッドを活用しています。特にスレッド内のテンプレートやリソースを読んで従ってもらえると、より良いアドバイスが得られますよ。よろしくお願いします！\n\n*私はボットです。ご不明な点がございましたら[このサブレディットのモデレーターにお問い合わせください](https://www.reddit.com/message/compose/?to=/r/MousepadReview)。*"
+      },
+      {
+        "id": "19stwt6dt8ag3",
+        "parent_id": null,
+        "author": "海外ユーザー2",
+        "flair": "menstrual pad",
+        "is_op": false,
+        "score": 1,
+        "body_en": "zero is def faster but might have more texture",
+        "depth": 0,
+        "body_ja": "零は間違いなくより速いですが、表面のテクスチャ（ザラつき）はこちらの方が強いかもしれません。"
+      },
+      {
+        "id": "19su5g08aht5t",
+        "parent_id": null,
+        "author": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Artisan Zero is a good alternative but I’d recommend the Soft version instead of Xsoft. \n\nWhen you apply pressure on your fingertips/push into the pad on the XSoft for stopping power, it just kinda sinks into the pad instead of actually decelerating while also not being thick enough to accommodate for it.",
+        "depth": 0,
+        "body_ja": "ARTISAN 零は良い選択肢ですが、XsoftではなくSoftバージョンをおすすめします。\n\n止め性能を得るためにXSoftで指先を押し込んだりパッドに圧力をかけたりすると、実際に減速するのではなく、ただパッドの中に沈み込んでしまう上に、それをカバーできるほどの厚みもないからです。"
+      },
+      {
+        "id": "19svfpd0s3eg3",
+        "parent_id": null,
+        "author": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "body_en": "Our TENTA-X Shinrai could be worth considering for the extra control you’re after in Valorant.   \n  \nI’m the brand owner, for transparency, It’s slower and offers more stopping power than the Artisan Zero, with a less pronounced texture\n\n\n\nIt comes in Soft, so it won’t have the same cushioning as Zero Xsoft, But our soft falls between the Artisan Xsoft and Soft  \n  \nI haven’t compared it directly with AC2, but it’s our control-focused cloth option\n\nAvilable as normal stitched below surface option and as Edgeless",
+        "depth": 0,
+        "body_ja": "Valorantで求めている追加のコントロール性を考慮すると、うちのTENTA-X Shinraiも検討してみる価値があるかもしれません。\n\n透明性のために言っておくと、私はブランドオーナーです。ARTISAN 零よりも遅く、ストッピング力が高く、表面の質感（テクスチャ）も控えめになっています。\n\nSoftが用意されているので、零 Xsoftのようなクッション性はありませんが、うちのSoftはARTISANのXsoftとSoftの中間に位置します。\n\nAC2と直接比較したわけではありませんが、うちのコントロール重視の布製選択肢です。\n\n通常ステッチが表面より下にあるタイプと、ステッチなしのエッジレスタイプで販売しています。"
+      },
+      {
+        "id": "19sw5dt2siggw",
+        "parent_id": null,
+        "author": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "Type 99 is a great control/mud pad",
+        "depth": 0,
+        "body_ja": "Type-99は素晴らしいコントロール/マッドパッドですよ。"
+      },
+      {
+        "id": "19sw770f8gfs1",
+        "parent_id": null,
+        "author": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "body_en": "did u try a combination or changing skates first? then if still need more only then consider changing surfaced?\n\nYou mentioned already using xsoft, so stick to that. Also for skates maybe use donuts? the xraypad donuts r good though for control stick to obsidian.\n\nI haven't tested this but the type 99 is artisans answer for a more controlled pad. This in xsoft is probably what you should be looking at.\n\nPeople that don't like sinking for pad, dont get xsoft and stick to soft. but of course it will have less control by comparison.",
+        "depth": 0,
+        "body_ja": "まずソールの組み合わせを試したり、ソールを変更したりしてみましたか？それでもさらにコントロールが必要な場合にのみ、表面（パッド）の変更を検討してみてはどうでしょう？\n\nすでにXsoftを使っているとおっしゃっているので、硬度はそれを維持するといいでしょう。またソールに関しては、ドーナツ型を使うのもいいかもしれません。X-raypadのドーナツソールは良いですが、コントロール重視ならObsidianにしておくのが無難です。\n\n私自身はまだテストしていませんが、Type-99はARTISANが用意したよりコントロール性の高いパッドへの回答です。これのXsoftが、まさにあなたが探しているものだと思います。\n\nパッドへの沈み込みが嫌な人はXsoftを避けてSoftを選びますが、当然それと比較するとコントロール性は低くなります。"
+      }
+    ],
+    "title_ja": "Aqua Control 2からコントロール力を向上させるおすすめのマウスパッド比較",
+    "hook_ja": "Valorant向けにAqua Control 2よりコントロール性能が高いマウスパッドを探すスレ主の相談。ARTISAN 零（Zero）やType-99への乗り換え、硬度選択（Soft / Xsoft）、ソール調整による解決策が議論されています。",
+    "op_post_ja": "主にプレイしているゲームはValorantで、そのゲームで最も人気のあるマウスパッドの一つがARTISAN 零（Zero） Xsoftです。そのマウスパッドがAqua Control 2と非常に似ているのか、それとももっとコントロールが得られて価格に見合う価値があるのか、あるいは別のマウスパッドを検討すべきなのか気になっています。",
+    "consensus_points": [
+      "Aqua Control 2からのステップアップとして、ARTISAN 零（Zero）は滑りやすさや表面のザラつきに違いがあり、さらに確実な止め性能を求めるならARTISAN Type-99が適している。",
+      "硬度の選択において、沈み込みによるストッピング力を好むならXsoftが選ばれるが、不安定さや底打ちを嫌うならSoftが推奨される。",
+      "マウスパッド自体を変える前に、X-raypad Obsidianなどのコントロール系ソール（ドーナツ型など）へ変更して滑りを調整するアプローチも効果的。"
+    ],
+    "detailed_analysis_ja": "本スレッドでは、ハイブリッド系マウスパッドであるX-raypad Aqua Control 2（AC2）を使用してValorantをプレイしているユーザーが、より高いコントロール性能とストッピング力を求めてマウスパッドの移行を相談しています。\n\n【1. ARTISAN 零（Zero）とAqua Control 2の比較】\nValorantの競技シーンで定番とされる『ARTISAN 零（Zero）』ですが、AC2と比較した場合「零の方が滑りが速く、テクスチャ（表面のザラつき）を感じやすい」という指摘がなされています。AC2もハイブリッド系の中ではコントロール寄りですが、零に乗り換えても劇的な速度低下（コントロール性の向上）が得られるわけではないため、純粋なコントロール系を求める場合は注意が必要です。\n\n【2. より強いコントロールを求める場合の選択肢】\nより強い静止力や摩擦力を求めるユーザーに対しては、ARTISANが新たに投入したコントロール特化型パッド『ARTISAN Type-99』や、新興ブランドの『TENTA-X Shinrai』などが提案されています。特にType-99はコントロール/マッドパッドとして評価が高く、タクティカルFPSにおいて完璧な止め性能を提供します。\n\n【3. スポンジ硬度（Soft vs Xsoft）の議論】\nARTISANの硬度表記において、Xsoftは押し込むことで強いストッピング力を発揮しますが、圧力をかけた際に指やマウスが沈み込みすぎてしまい、一定の滑りを維持するのが難しくなる場合があります。そのため、適度なクッション性と安定感を両立した「Soft」を推奨する声が多く見られます。\n\n【4. マウスソールによる調整】\nマウスパッドを交換する前に、ソールをコントロール重視のもの（X-raypad Obsidian Skatesやドーナツ型ソール）に変更することで、AC2のままでも滑りを劇的に抑えることが可能であるという実用的なアドバイスも出されています。",
+    "devices": [
+      {
+        "name": "X-raypad Aqua Control II",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "ハイブリッド系の標準的なマウスパッド。よりコントロール性能を求めるユーザーからは、さらに止まるパッドへの移行基準として言及されています。"
+      },
+      {
+        "name": "ARTISAN 零 Soft",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "沈み込みすぎず安定した操作感が得られるため、Xsoftよりも推奨する声が多く見られます。"
+      },
+      {
+        "name": "ARTISAN 零 Xsoft",
+        "category": "mousepad",
+        "sentiment": "neutral",
+        "comment_ja": "押し込みによる止め性能が得られる反面、圧力をかけた際に深く沈み込みすぎて安定性を欠く場合があると指摘されています。"
+      },
+      {
+        "name": "ARTISAN Type-99",
+        "category": "mousepad",
+        "sentiment": "positive",
+        "comment_ja": "ARTISANのコントロール特化型マウスパッド。AC2や零よりも確実なコントロール性と強いストッピング力を求める人に推奨されています。"
+      },
+      {
+        "name": "X-raypad Obsidian Skates",
+        "category": "skates",
+        "sentiment": "positive",
+        "comment_ja": "パッドを変える前にコントロール性能を高める手段としておすすめされているコントロール系マウスソール。"
+      }
+    ],
+    "x_main_post": "【Valorant】Aqua Control 2より止まるマウスパッド探しの結論！\n・ARTISAN 零はAC2より滑りが速め\n・確実な止めを求めるならARTISAN Type-99が最適\n・沈み込みすぎを防ぐなら硬度はSoftが推奨\n・ソールをX-raypad Obsidianに変える調整も有効！",
+    "x_reply_post": "スレッド全文＆登場デバイス一覧はこちら\n{{ARTICLE_URL}}",
+    "short_script": [
+      {
+        "speaker": "zundamon",
+        "text": "AC2からもっと止まるパッドに変えたいのだ！",
+        "caption": "AC2より止まるパッドは？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ValorantならARTISAN Type-99がおすすめだよ！",
+        "caption": "Type-99がおすすめ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "定番のARTISAN 零じゃダメなのだ？",
+        "caption": "ARTISAN 零は？"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "零はAC2より滑りが速いからコントロール向けならType-99なんだよね！",
+        "caption": "零は滑りが速め"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "ソールをObsidianに変えるだけでもかなりコントロールが増すよ！",
+        "caption": "ソール変更もアリ"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "パッドを買い替える前にソール調整も手なのだ！",
+        "caption": "ソール調整も手！"
+      },
+      {
+        "speaker": "tsumugi",
+        "text": "スポンジ硬度は沈み込みすぎないSoftを選ぶのが無難だよ！",
+        "caption": "硬度はSoftが無難"
+      },
+      {
+        "speaker": "zundamon",
+        "text": "登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！",
+        "caption": "詳細はプロフのリンクへ"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "19st5i120tujk",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー1",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "やあ！僕たちの[週刊マウスパッド相談スレッド](https://www.reddit.com/r/MousepadReview/search/?q=Flair%3Aweekly+title%3Aadvice&type=posts&t=week&restrict_sr=on)をチェックしてみてください！\n\nみんながアドバイスしやすくするために、この週刊スレッドを活用しています。特にスレッド内のテンプレートやリソースを読んで従ってもらえると、より良いアドバイスが得られますよ。よろしくお願いします！\n\n*私はボットです。ご不明な点がございましたら[このサブレディットのモデレーターにお問い合わせください](https://www.reddit.com/message/compose/?to=/r/MousepadReview)。*"
+      },
+      {
+        "id": "19stwt6dt8ag3",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー2",
+        "flair": "menstrual pad",
+        "is_op": false,
+        "score": 1,
+        "text": "零は間違いなくより速いですが、表面のテクスチャ（ザラつき）はこちらの方が強いかもしれません。"
+      },
+      {
+        "id": "19su5g08aht5t",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー3",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "ARTISAN 零は良い選択肢ですが、XsoftではなくSoftバージョンをおすすめします。\n\n止め性能を得るためにXSoftで指先を押し込んだりパッドに圧力をかけたりすると、実際に減速するのではなく、ただパッドの中に沈み込んでしまう上に、それをカバーできるほどの厚みもないからです。"
+      },
+      {
+        "id": "19svfpd0s3eg3",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー4",
+        "flair": "",
+        "is_op": false,
+        "score": 2,
+        "text": "Valorantで求めている追加のコントロール性を考慮すると、うちのTENTA-X Shinraiも検討してみる価値があるかもしれません。\n\n透明性のために言っておくと、私はブランドオーナーです。ARTISAN 零よりも遅く、ストッピング力が高く、表面の質感（テクスチャ）も控えめになっています。\n\nSoftが用意されているので、零 Xsoftのようなクッション性はありませんが、うちのSoftはARTISANのXsoftとSoftの中間に位置します。\n\nAC2と直接比較したわけではありませんが、うちのコントロール重視の布製選択肢です。\n\n通常ステッチが表面より下にあるタイプと、ステッチなしのエッジレスタイプで販売しています。"
+      },
+      {
+        "id": "19sw5dt2siggw",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー5",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "Type-99は素晴らしいコントロール/マッドパッドですよ。"
+      },
+      {
+        "id": "19sw770f8gfs1",
+        "parent_id": null,
+        "depth": 0,
+        "speaker": "海外ユーザー6",
+        "flair": "",
+        "is_op": false,
+        "score": 1,
+        "text": "まずソールの組み合わせを試したり、ソールを変更したりしてみましたか？それでもさらにコントロールが必要な場合にのみ、表面（パッド）の変更を検討してみてはどうでしょう？\n\nすでにXsoftを使っているとおっしゃっているので、硬度はそれを維持するといいでしょう。またソールに関しては、ドーナツ型を使うのもいいかもしれません。X-raypadのドーナツソールは良いですが、コントロール重視ならObsidianにしておくのが無難です。\n\n私自身はまだテストしていませんが、Type-99はARTISANが用意したよりコントロール性の高いパッドへの回答です。これのXsoftが、まさにあなたが探しているものだと思います。\n\nパッドへの沈み込みが嫌な人はXsoftを避けてSoftを選びますが、当然それと比較するとコントロール性は低くなります。"
+      }
+    ],
+    "status": "draft",
+    "x_posted": false,
+    "article_url": "https://aimswamp.github.io/aimlog/articles/1xz8aa9.html",
+    "x_intent_url": "https://twitter.com/intent/tweet?text=%E3%80%90Valorant%E3%80%91Aqua%20Control%202%E3%82%88%E3%82%8A%E6%AD%A2%E3%81%BE%E3%82%8B%E3%83%9E%E3%82%A6%E3%82%B9%E3%83%91%E3%83%83%E3%83%89%E6%8E%A2%E3%81%97%E3%81%AE%E7%B5%90%E8%AB%96%EF%BC%81%0A%E3%83%BBARTISAN%20%E9%9B%B6%E3%81%AFAC2%E3%82%88%E3%82%8A%E6%BB%91%E3%82%8A%E3%81%8C%E9%80%9F%E3%82%81%0A%E3%83%BB%E7%A2%BA%E5%AE%9F%E3%81%AA%E6%AD%A2%E3%82%81%E3%82%92%E6%B1%82%E3%82%81%E3%82%8B%E3%81%AA%E3%82%89ARTISAN%20Type-99%E3%81%8C%E6%9C%80%E9%81%A9%0A%E3%83%BB%E6%B2%88%E3%81%BF%E8%BE%BC%E3%81%BF%E3%81%99%E3%81%8E%E3%82%92%E9%98%B2%E3%81%90%E3%81%AA%E3%82%89%E7%A1%AC%E5%BA%A6%E3%81%AFSoft%E3%81%8C%E6%8E%A8%E5%A5%A8%0A%E3%83%BB%E3%82%BD%E3%83%BC%E3%83%AB%E3%82%92X-raypad%20Obsidian%E3%81%AB%E5%A4%89%E3%81%88%E3%82%8B%E8%AA%BF%E6%95%B4%E3%82%82%E6%9C%89%E5%8A%B9%EF%BC%81%0A%0A%E8%A9%B3%E7%B4%B0%E3%83%BB%E7%99%BB%E5%A0%B4%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%BE%E3%81%A8%E3%82%81%F0%9F%91%87%0Ahttps%3A//aimswamp.github.io/aimlog/articles/1xz8aa9.html",
+    "created_at": "2026-11-20T10:00:04.652959+00:00"
   }
 ]
