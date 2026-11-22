@@ -1028,6 +1028,108 @@ a.gear-chip:hover {
   font-size: 0.74rem;
   font-variant-numeric: tabular-nums;
 }
+.section-archive-link {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.section-archive-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* 全スレッド索引 (archive.html) */
+.archive-wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.archive-head {
+  padding-bottom: var(--space-md);
+  border-bottom: 2px solid var(--color-rule-strong);
+  margin-bottom: var(--space-lg);
+}
+.archive-title {
+  font-size: clamp(1.45rem, 2.8vw, 1.95rem);
+  margin: 0 0 0.4rem;
+}
+.archive-lead {
+  margin: 0 0 0.9rem;
+  font-size: 0.9rem;
+  color: var(--color-ink-2);
+}
+.archive-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.archive-jump-link {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  color: var(--color-ink-2);
+}
+.archive-jump-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.archive-cat-section {
+  margin-top: var(--space-xl);
+}
+.archive-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.archive-item {
+  display: grid;
+  grid-template-columns: 3.4rem minmax(0, 1fr);
+  gap: 0.25rem 0.75rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--color-rule);
+  align-items: baseline;
+}
+.archive-num {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.archive-link {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.45;
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.archive-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.archive-meta {
+  grid-column: 2;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.65rem;
+}
+@media (max-width: 600px) {
+  .archive-item {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .archive-meta {
+    grid-column: auto;
+  }
+}
 </style>
 </head>
 <body id="top">
@@ -1250,9 +1352,10 @@ a.gear-chip:hover {
         <nav class="related-section" aria-label="その他のスレッド">
           <div class="section-header">
             <h2 class="section-title">他のスレッド</h2>
+            <a class="section-archive-link" href="../archive.html">全スレッド索引 →</a>
           </div>
           <ul class="related-list">
-            <li class="related-item"><a class="related-link" href="1y1quae.html">予算25ドルのマウスパッド選び：SteelSeries QcK Heavyは買いなのか？耐用年数と滑りの評価</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 8件</div></li><li class="related-item"><a class="related-link" href="1y1qze5.html">Razer Viper V4 Proの純正ソールは引っかかりが酷い？引きずり感の真相と解決法</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 11件</div></li><li class="related-item"><a class="related-link" href="1y1rnki.html">つかみ持ちとCAD作業に最適なマウスは？ATK F1・Zero・Phantomなどの選択肢を検証</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 10件</div></li><li class="related-item"><a class="related-link" href="1y1obav.html">エイムトレーナーでお気に入りのGround（リアクティブトラッキング）シナリオは？</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 6件</div></li><li class="related-item"><a class="related-link" href="1y1or2m.html">エイム練習は無駄？Voltaic最新レジメンとドッジ視点の重要性</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 24件</div></li>
+            <li class="related-item"><a class="related-link" href="1xkmx86.html">エイムの「カクつき」を直す方法：設定迷子を脱出してスムーズなトラッキングを手に入れるコツ</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=FPSAimTrainer">AIM練習・理論</a> · コメント 11件</div></li><li class="related-item"><a class="related-link" href="1xk3ofm.html">純正マウスソールが「悪い」とはどういう意味？Logicool等の問題点と交換のメリット</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MouseReview">マウス</a> · コメント 14件</div></li><li class="related-item"><a class="related-link" href="1xpjfex.html">ガラス製Superglide 3はFPSにおすすめ？布パッドからの乗り換え評価まとめ</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 12件</div></li><li class="related-item"><a class="related-link" href="1xvyfrh.html">Viper V3 Proとガラスマウスパッドの相性論争！純正ソールのガリガリ感とドットソールの最適解</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 30件</div></li><li class="related-item"><a class="related-link" href="1xp22cm.html">BenQ ZOWIE G-SRからの乗り換え先は？後継機や最新コントロールパッドの比較</a><div class="section-sub"><a class="sub-tag" href="../index.html?sub=MousepadReview">マウスパッド・ソール</a> · コメント 4件</div></li>
           </ul>
         </nav>
       </div>
@@ -1423,7 +1526,8 @@ a.gear-chip:hover {
       </div>
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
-        <div>UPDATED: 2026.11.22 · 273 THREADS</div>
+        <div>UPDATED: 2026.11.23 · 273 THREADS</div>
+        <div>INDEX: <a href="../archive.html">全スレッド索引</a></div>
         <div>X: <a href="https://x.com/aimswamp" target="_blank" rel="noopener">@aimswamp</a></div>
       </div>
     </div>

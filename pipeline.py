@@ -2467,7 +2467,119 @@ a.gear-chip:hover {
   font-size: 0.74rem;
   font-variant-numeric: tabular-nums;
 }
+.section-archive-link {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.section-archive-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+/* 全スレッド索引 (archive.html) */
+.archive-wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+.archive-head {
+  padding-bottom: var(--space-md);
+  border-bottom: 2px solid var(--color-rule-strong);
+  margin-bottom: var(--space-lg);
+}
+.archive-title {
+  font-size: clamp(1.45rem, 2.8vw, 1.95rem);
+  margin: 0 0 0.4rem;
+}
+.archive-lead {
+  margin: 0 0 0.9rem;
+  font-size: 0.9rem;
+  color: var(--color-ink-2);
+}
+.archive-jump-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.archive-jump-link {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid var(--color-rule-strong);
+  background-color: var(--color-paper-2);
+  color: var(--color-ink-2);
+}
+.archive-jump-link:hover {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+}
+.archive-cat-section {
+  margin-top: var(--space-xl);
+}
+.archive-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.archive-item {
+  display: grid;
+  grid-template-columns: 3.4rem minmax(0, 1fr);
+  gap: 0.25rem 0.75rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--color-rule);
+  align-items: baseline;
+}
+.archive-num {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+.archive-link {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.45;
+  text-decoration: none;
+  color: var(--color-ink);
+}
+.archive-link:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+.archive-meta {
+  grid-column: 2;
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--color-ink-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.65rem;
+}
+@media (max-width: 600px) {
+  .archive-item {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .archive-meta {
+    grid-column: auto;
+  }
+}
 """
+
+    # 各記事のデバイス名セット（正規化済み）を事前計算し、関連スレッド選出に使う
+    article_dev_sets: list[set[str]] = [
+        {
+            normalize_product_name_jp(str(d.get("name") or ""))
+            for d in (a.get("devices") or [])
+            if normalize_product_name_jp(str(d.get("name") or ""))
+        }
+        for a in published
+    ]
 
     # 各記事の個別HTMLページ生成
     for idx_art, art in enumerate(published):
@@ -2562,14 +2674,41 @@ a.gear-chip:hover {
             </div>
             """
 
-        # 他のスレッドへの回遊リスト（自身を除く最大5件）
+        # 他のスレッドへの回遊リスト（前後記事の連結＋共通デバイス/同カテゴリ優先で最大5件）
         other_threads_html = ""
-        others = [a for a in published if str(a.get("id")) != str(art.get("id"))][:5]
-        for o_art in others:
+        cur_id = str(art.get("id") or "")
+        cur_sub = str(art.get("subreddit") or "")
+        cur_devs = article_dev_sets[idx_art]
+        selected_indices: list[int] = []
+        seen_indices: set[int] = {idx_art}
+
+        # 全記事が途切れずチェーン状に内部リンクで結ばれるよう前後記事を優先収録する
+        for adj_idx in (idx_art - 1, idx_art + 1):
+            if 0 <= adj_idx < len(published) and adj_idx not in seen_indices:
+                selected_indices.append(adj_idx)
+                seen_indices.add(adj_idx)
+
+        # 残りの枠は共通デバイス数・同カテゴリ・新着順で関連度の高いスレッドを優先選出する
+        if len(selected_indices) < 5:
+            candidates: list[tuple[int, int, int]] = []
+            for cand_idx, cand_art in enumerate(published):
+                if cand_idx in seen_indices:
+                    continue
+                common_cnt = len(cur_devs & article_dev_sets[cand_idx])
+                same_sub = 1 if str(cand_art.get("subreddit") or "") == cur_sub else 0
+                candidates.append((common_cnt, same_sub, -cand_idx))
+            candidates.sort(reverse=True)
+            for _, _, neg_idx in candidates[: 5 - len(selected_indices)]:
+                cand_idx = -neg_idx
+                selected_indices.append(cand_idx)
+                seen_indices.add(cand_idx)
+
+        for o_idx in selected_indices:
+            o_art = published[o_idx]
             o_id = html.escape(str(o_art["id"]))
             o_sub = html.escape(str(o_art.get("subreddit", "")))
             o_cat = html.escape(SUBREDDIT_LABELS.get(str(o_art.get("subreddit", "")), "海外FPS議論"))
-            o_title = html.escape(o_art.get("title_ja", ""))
+            o_title = html.escape(_strip_markdown_plain(o_art.get("title_ja", "")))
             o_comments, _, _ = _compute_thread_metrics(o_art)
             other_threads_html += (
                 f'<li class="related-item">'
@@ -2735,6 +2874,7 @@ a.gear-chip:hover {
         <nav class="related-section" aria-label="その他のスレッド">
           <div class="section-header">
             <h2 class="section-title">他のスレッド</h2>
+            <a class="section-archive-link" href="../archive.html">全スレッド索引 →</a>
           </div>
           <ul class="related-list">
             {other_threads_html}
@@ -2779,6 +2919,7 @@ a.gear-chip:hover {
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
         <div>UPDATED: {updated_date} · {len(published)} THREADS</div>
+        <div>INDEX: <a href="../archive.html">全スレッド索引</a></div>
         {x_footer_html}
       </div>
     </div>
@@ -3116,6 +3257,7 @@ a.gear-chip:hover {
         {featured_section_html}
         <div class="section-header">
           <h2 class="section-title">スレッド一覧</h2>
+          <a class="section-archive-link" href="archive.html">全スレッド索引 →</a>
         </div>
         <div id="article-list">
           {articles_list_html or '<p class="analysis-para">まだスレッドログがありません。</p>'}
@@ -3160,6 +3302,7 @@ a.gear-chip:hover {
       <div class="colophon-mono">
         <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
         <div>UPDATED: {updated_date} · {len(published)} THREADS</div>
+        <div>INDEX: <a href="archive.html">全スレッド索引</a></div>
         {x_footer_html}
       </div>
     </div>
@@ -3374,6 +3517,211 @@ a.gear-chip:hover {
 </html>"""
     (out_dir / "index.html").write_text(index_html, encoding="utf-8")
 
+    # クローラー巡回・読者一覧用の全スレッド索引ページ (dist/archive.html) の自動生成
+    # display: none 等で隠さず、全公開記事への静的な <a> リンクをカテゴリ別に並べる
+    archive_categories: list[tuple[str, str]] = [
+        ("FPSAimTrainer", SUBREDDIT_LABELS.get("FPSAimTrainer", "AIM練習・理論")),
+        ("MouseReview", SUBREDDIT_LABELS.get("MouseReview", "マウス")),
+        ("MousepadReview", SUBREDDIT_LABELS.get("MousepadReview", "マウスパッド・ソール")),
+    ]
+    known_sub_keys = {k for k, _ in archive_categories}
+    grouped_articles: dict[str, list[dict[str, Any]]] = {k: [] for k, _ in archive_categories}
+    other_cat_articles: list[dict[str, Any]] = []
+    for art in published:
+        sub_k = str(art.get("subreddit") or "")
+        if sub_k in known_sub_keys:
+            grouped_articles[sub_k].append(art)
+        else:
+            other_cat_articles.append(art)
+    if other_cat_articles:
+        archive_categories.append(("other", "その他"))
+        grouped_articles["other"] = other_cat_articles
+
+    archive_jump_links: list[str] = []
+    archive_sections_list: list[str] = []
+    for cat_key, cat_label in archive_categories:
+        cat_arts = grouped_articles.get(cat_key) or []
+        if not cat_arts:
+            continue
+        cat_key_esc = html.escape(cat_key)
+        cat_label_esc = html.escape(cat_label)
+        archive_jump_links.append(
+            f'<a class="archive-jump-link" href="#cat-{cat_key_esc}">{cat_label_esc} ({len(cat_arts)}件)</a>'
+        )
+        items_html: list[str] = []
+        for art in cat_arts:
+            aid_raw = str(art.get("id") or "").strip()
+            if not aid_raw:
+                continue
+            aid_esc = html.escape(aid_raw)
+            art_num = art_num_map.get(aid_raw, 0)
+            title_clean = html.escape(_strip_markdown_plain(art.get("title_ja", "")))
+            raw_created = str(art.get("created_at") or "")[:10]
+            date_disp = raw_created.replace("-", ".") if re.match(r"^\d{4}-\d{2}-\d{2}$", raw_created) else updated_date
+            o_comments, _, _ = _compute_thread_metrics(art)
+            dev_names: list[str] = []
+            for d_item in art.get("devices") or []:
+                dn = normalize_product_name_jp(str(d_item.get("name") or ""))
+                if dn and dn not in dev_names:
+                    dev_names.append(dn)
+            devs_span = f'<span>{html.escape(" / ".join(dev_names[:4]))}</span>' if dev_names else ""
+            items_html.append(
+                f'<li class="archive-item">'
+                f'<span class="archive-num">#{art_num:02d}</span>'
+                f'<a class="archive-link" href="articles/{aid_esc}.html">{title_clean}</a>'
+                f'<div class="archive-meta"><span>{html.escape(date_disp)}</span><span>コメント {o_comments}件</span>{devs_span}</div>'
+                f'</li>'
+            )
+        archive_sections_list.append(
+            f'<section class="archive-cat-section" id="cat-{cat_key_esc}">\n'
+            f'  <div class="section-header">\n'
+            f'    <h2 class="section-title">{cat_label_esc}（{len(cat_arts)}件）</h2>\n'
+            f'  </div>\n'
+            f'  <ul class="archive-list">\n'
+            + "\n".join(items_html)
+            + '\n  </ul>\n</section>'
+        )
+
+    archive_sections_html = "\n".join(archive_sections_list) or '<p class="analysis-para">まだスレッドログがありません。</p>'
+    archive_jump_nav_html = (
+        f'<nav class="archive-jump-nav" aria-label="カテゴリ別ジャンプ">{"".join(archive_jump_links)}</nav>'
+        if archive_jump_links else ""
+    )
+    archive_canonical_url = f"{site_base_url}/archive.html"
+    archive_canonical_esc = html.escape(archive_canonical_url)
+    archive_title_full = "全スレッド索引 | エイム沼の海外ログ"
+    archive_desc_raw = (
+        f"『エイム沼の海外ログ』に掲載している全{len(published)}件の翻訳アーカイブ索引。"
+        "AIM練習・理論、ゲーミングマウス、マウスパッド・ソールのカテゴリ別に全スレッドを一覧できます。"
+    )
+    if len(archive_desc_raw) > 155:
+        archive_desc_raw = archive_desc_raw[:154] + "…"
+    archive_desc_esc = html.escape(archive_desc_raw)
+
+    archive_item_elements = [
+        {
+            "@type": "ListItem",
+            "position": idx_pos,
+            "name": _strip_markdown_plain(str(a_item.get("title_ja") or "")),
+            "url": f"{site_base_url}/articles/{a_item.get('id')}.html",
+        }
+        for idx_pos, a_item in enumerate(published, start=1)
+        if a_item.get("id")
+    ]
+    archive_collection_json_ld = {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": archive_title_full,
+        "url": archive_canonical_url,
+        "inLanguage": "ja",
+        "description": archive_desc_raw,
+        "mainEntity": {
+            "@type": "ItemList",
+            "numberOfItems": len(archive_item_elements),
+            "itemListElement": archive_item_elements,
+        },
+    }
+    archive_breadcrumb_json_ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "エイム沼の海外ログ",
+                "item": f"{site_base_url}/",
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "全スレッド索引",
+                "item": archive_canonical_url,
+            },
+        ],
+    }
+    archive_json_ld_str = json.dumps(
+        [archive_collection_json_ld, archive_breadcrumb_json_ld],
+        ensure_ascii=False,
+    ).replace("</", "<\\/")
+
+    archive_html = f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{archive_title_full}</title>
+  <meta name="description" content="{archive_desc_esc}">
+  <meta name="robots" content="index, follow">{google_verify_tag}{ga_head_tag}
+  <link rel="canonical" href="{archive_canonical_esc}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="エイム沼の海外ログ">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="{archive_title_full}">
+  <meta property="og:description" content="{archive_desc_esc}">
+  <meta property="og:url" content="{archive_canonical_esc}">
+  <meta name="twitter:card" content="summary">{index_twitter_site_tag}
+  <meta name="twitter:title" content="{archive_title_full}">
+  <meta name="twitter:description" content="{archive_desc_esc}">
+  <script type="application/ld+json">{archive_json_ld_str}</script>
+  {font_links}
+  <style>{css}</style>
+</head>
+<body id="top">
+  <header class="masthead">
+    <div class="masthead-Compact">
+      <a href="index.html" class="masthead-Compact-brand">エイム沼の海外ログ</a>
+      <a href="index.html" class="back-index-link">← スレッド一覧へ戻る</a>
+    </div>
+  </header>
+  <main class="archive-wrap">
+    <header class="archive-head">
+      <h1 class="archive-title">全スレッド索引（{len(published)}件）</h1>
+      <p class="archive-lead">これまでに翻訳・収録した海外Redditの競技エイム理論・マウス・マウスパッド議論の全アーカイブ一覧です。</p>
+      {archive_jump_nav_html}
+    </header>
+    {archive_sections_html}
+    <div class="back-to-top-wrap">
+      <div class="share-group">
+        <button type="button" class="share-btn" onclick="shareToX()">Xでシェア ↗</button>
+        <button type="button" class="share-btn" onclick="copyPageUrl(this)">URLコピー</button>
+      </div>
+      <button type="button" class="back-to-top-btn" onclick="window.scrollTo({{top: 0, behavior: 'smooth'}})">↑ 一番上へ戻る</button>
+    </div>
+  </main>
+  <footer class="colophon">
+    <div class="colophon-inner">
+      <div>
+        <p class="colophon-title">エイム沼の海外ログ</p>
+        <p>海外フォーラムの議論スレッドを翻訳・編纂しているアーカイブサイトです。Amazonのアソシエイトおよび楽天アフィリエイトプログラムに参加しています。</p>
+      </div>
+      <div class="colophon-mono">
+        <div>SOURCES: r/FPSAimTrainer / r/MouseReview / r/MousepadReview</div>
+        <div>UPDATED: {updated_date} · {len(published)} THREADS</div>
+        <div>INDEX: <a href="index.html">トップへ戻る</a></div>
+        {x_footer_html}
+      </div>
+    </div>
+  </footer>
+  <script>
+    function shareToX() {{
+      const u = window.location.href;
+      const t = document.title;
+      window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(t) + '&url=' + encodeURIComponent(u), '_blank', 'noopener');
+    }}
+    function copyPageUrl(btn) {{
+      const u = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {{
+        navigator.clipboard.writeText(u);
+      }}
+      const orig = btn.textContent;
+      btn.textContent = 'コピー完了';
+      setTimeout(() => {{ btn.textContent = orig; }}, 1600);
+    }}
+  </script>
+</body>
+</html>"""
+    (out_dir / "archive.html").write_text(archive_html, encoding="utf-8")
+
     # Google Search Console / クローラー向け sitemap.xml ＆ robots.txt の自動生成
     today_iso = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
     latest_lastmod = today_iso
@@ -3388,7 +3736,13 @@ a.gear-chip:hover {
         f"    <lastmod>{latest_lastmod}</lastmod>\n"
         f"    <changefreq>daily</changefreq>\n"
         f"    <priority>1.0</priority>\n"
-        f"  </url>"
+        f"  </url>",
+        f"  <url>\n"
+        f"    <loc>{html.escape(site_base_url)}/archive.html</loc>\n"
+        f"    <lastmod>{latest_lastmod}</lastmod>\n"
+        f"    <changefreq>daily</changefreq>\n"
+        f"    <priority>0.9</priority>\n"
+        f"  </url>",
     ]
     for art in published:
         aid = str(art.get("id") or "").strip()
@@ -3414,7 +3768,7 @@ a.gear-chip:hover {
     )
     (out_dir / "sitemap.xml").write_text(sitemap_xml, encoding="utf-8")
 
-    sitemap_txt_lines = [f"{site_base_url}/"] + [
+    sitemap_txt_lines = [f"{site_base_url}/", f"{site_base_url}/archive.html"] + [
         f"{site_base_url}/articles/{str(art.get('id')).strip()}.html"
         for art in published
         if str(art.get("id") or "").strip()
@@ -3653,16 +4007,26 @@ def self_test() -> None:
             env={"AMAZON_ASSOC_TAG": "test-22", "SITE_BASE_URL": "https://aimswamp.github.io/aimlog"},
         )
         index_content = (tmp_path / "index.html").read_text(encoding="utf-8")
+        archive_content = (tmp_path / "archive.html").read_text(encoding="utf-8")
         article_content = (tmp_path / "articles" / "demo1.html").read_text(encoding="utf-8")
         sitemap_content = (tmp_path / "sitemap.xml").read_text(encoding="utf-8")
+        sitemap_txt_content = (tmp_path / "sitemap.txt").read_text(encoding="utf-8")
         robots_content = (tmp_path / "robots.txt").read_text(encoding="utf-8")
         assert "Razer Viper V3 Pro" in index_content
+        assert 'href="archive.html"' in index_content
         assert 'rel="canonical" href="https://aimswamp.github.io/aimlog/"' in index_content
         assert "application/ld+json" in index_content
+        assert "全スレッド索引" in archive_content
+        assert 'href="articles/demo1.html"' in archive_content
+        assert 'rel="canonical" href="https://aimswamp.github.io/aimlog/archive.html"' in archive_content
         assert "tag=test-22" in article_content
+        assert 'href="../archive.html"' in article_content
+        assert "<title>【海外エイム理論】「脱力（テンション管理）」を意識したらトラッキング精度が劇的に上がった話 | エイム沼の海外ログ</title>" in article_content
         assert 'rel="canonical" href="https://aimswamp.github.io/aimlog/articles/demo1.html"' in article_content
         assert "DiscussionForumPosting" in article_content
+        assert "<loc>https://aimswamp.github.io/aimlog/archive.html</loc>" in sitemap_content
         assert "<loc>https://aimswamp.github.io/aimlog/articles/demo1.html</loc>" in sitemap_content
+        assert "https://aimswamp.github.io/aimlog/archive.html" in sitemap_txt_content
         assert "Sitemap: https://aimswamp.github.io/aimlog/sitemap.xml" in robots_content
 
     print("SELF_TEST_OK")
