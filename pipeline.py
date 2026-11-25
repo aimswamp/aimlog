@@ -2,7 +2,7 @@
 """
 海外AIM＆マウス界隈 集合知キュレーション＆自動アフィリエイトDB パイプライン (Phase 1)
 - Reddit 3大サブレ (r/FPSAimTrainer, r/MouseReview, r/MousepadReview) から議論スレを厳選収集
-- Gemini API (gemini-3.8-flash) で集合知まとめ・登場デバイス評判・X投稿文・ショート動画台本を一括生成
+- Gemini API (gemini-4-hydrogen / gemini-3.8-flash) で集合知まとめ・登場デバイス評判・X投稿文・ショート動画台本を一括生成
 - Amazon直 / 楽天 / もしもアフィリエイトの検索リンク自動生成 ＋ 商品マスター表キャッシュ解決
 - Googleスプレッドシート連携 (GAS Webhook または ローカルJSON/CSV)
 - 特化型Webサイト＆「海外Reddit話題度ランキング」静的HTML出力 + Xツリー投稿
@@ -33,7 +33,7 @@ MIN_COMMENTS = 15
 MAX_DRAFTS_PER_RUN = 5
 # Reddit公式ガイドライン準拠のBot形式User-Agent（Mozilla偽装によるFastly 403 Blockedを回避）
 USER_AGENT = "windows:com.svngs.aimcurator:v1.1.0 (by /u/aimcurator_jp)"
-GEMINI_MODEL = "gemini-3.8-flash"
+GEMINI_MODEL = "gemini-4-hydrogen"
 
 DATA_DIR = Path("data")
 ARTICLES_FILE = DATA_DIR / "articles.json"
@@ -586,7 +586,7 @@ def fetch_reddit_threads(
 
 
 # ============================================================================
-# 3. Gemini (gemini-3.8-flash) による集合知構造化＆デバイス抽出
+# 3. Gemini (gemini-4-hydrogen / gemini-3.8-flash) による集合知構造化＆デバイス抽出
 # ============================================================================
 
 SUMMARY_JSON_SCHEMA: dict[str, Any] = {
@@ -676,22 +676,31 @@ _CACHED_MODELS: list[str] | None = None
 
 def get_available_flash_models(api_key: str) -> list[str]:
     """
-    ユーザーのAPIキーで利用可能なFlash系モデル一覧を `/v1beta/models` から自動取得し、
-    高速・低コストな順（gemini-3.5-flash-lite -> gemini-3.8-flash -> gemini-3.5-flash 等）に並べて返す。
+    ユーザーのAPIキーで利用可能な無料枠対応モデル一覧を `/v1beta/models` から自動取得し、
+    優先順（gemini-4-hydrogen -> gemini-3.8-flash -> gemini-3.6-flash -> gemini-3.5-flash-lite 等）に並べて返す。
+    ※ `gemini-3.5-flash` はGoogleサーバー側で `gemini-3.6-flash` へ内部エイリアスされているため、
+       明示的に `gemini-3.6-flash` を優先指定して重複試行を防ぐ。
+    環境変数 `GEMINI_MODEL` が指定されている場合はそのモデルを最優先にする。
     """
     global _CACHED_MODELS
     if _CACHED_MODELS is not None:
         return _CACHED_MODELS
 
+    env_model = (os.environ.get("GEMINI_MODEL") or "").strip().removeprefix("models/")
     preferred_order = [
+        "gemini-4-hydrogen",
         "gemini-3.8-flash",
-        "gemini-3.5-flash",
+        "gemini-3.6-flash",
         "gemini-3.5-flash-lite",
         "gemini-3.1-flash-lite",
+        "gemini-3.5-flash",
         "gemini-3-flash-preview",
         "gemini-2.5-flash",
         "gemini-2.5-flash-lite",
     ]
+    if env_model:
+        preferred_order = [env_model] + [m for m in preferred_order if m != env_model]
+
     available: list[str] = []
     try:
         url = f"https://generativelanguage.googleapis.com/v1beta/models?key={urllib.parse.quote(api_key)}"
@@ -718,20 +727,20 @@ def get_available_flash_models(api_key: str) -> list[str]:
     # preferred_order に含まれるものを最優先し、残りの flash モデルを後ろに繋げる
     ordered: list[str] = [p for p in preferred_order if p in available]
     for a in available:
-        if a not in ordered and "flash" in a:
+        if a not in ordered and ("hydrogen" in a or "flash" in a):
             ordered.append(a)
     for a in available:
         if a not in ordered:
             ordered.append(a)
 
     _CACHED_MODELS = ordered
-    print(f"[INFO] 利用可能なGeminiモデルを検出しました（優先順）: {', '.join(ordered[:4])}")
+    print(f"[INFO] 利用可能なGeminiモデルを検出しました（優先順）: {', '.join(ordered[:5])}")
     return _CACHED_MODELS
 
 
 def summarize_with_gemini(thread: dict[str, Any]) -> dict[str, Any]:
     """
-    Gemini 3.x (`gemini-3.5-flash-lite` / `gemini-3.8-flash`) を使ってRedditスレッドの
+    Gemini (`gemini-4-hydrogen` / `gemini-3.8-flash` 等) を使ってRedditスレッドの
     スレ主本文と実在コメントツリーを1対1で忠実に全文翻訳し（水増し・捏造ゼロ）、
     深掘り解説・登場デバイス・ショート動画台本を生成する。
     """
@@ -826,7 +835,12 @@ def summarize_with_gemini(thread: dict[str, Any]) -> dict[str, Any]:
 
     for model_name in models_to_try[:5]:
         gen_cfg: dict[str, Any] = {"responseMimeType": "application/json"}
-        if model_name.startswith("gemini-3.8") or model_name.startswith("gemini-3.7"):
+        if (
+            model_name.startswith("gemini-4-")
+            or model_name.startswith("gemini-3.8")
+            or model_name.startswith("gemini-3.7")
+            or model_name.startswith("gemini-3.6")
+        ):
             gen_cfg["thinkingConfig"] = {"thinkingLevel": "low"}
         elif model_name.startswith("gemini-3.5-flash") and "lite" not in model_name:
             gen_cfg["thinkingConfig"] = {"thinkingLevel": "minimal"}
