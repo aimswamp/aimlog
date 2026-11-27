@@ -432,7 +432,7 @@ def _extract_comment_tree(raw_data: Any, max_comments: int = 35) -> list[dict[st
                         "flair": flair,
                         "is_op": bool(d.get("is_submitter")),
                         "score": int(d.get("score") if d.get("score") is not None else 1),
-                        "body_en": body[:1500],
+                        "body_en": _truncate_cleanly(body, 4000),
                     })
 
             # 子要素の走査
@@ -499,10 +499,27 @@ def _anonymize_comment_tree(nodes: list[dict[str, Any]]) -> list[dict[str, Any]]
     return out
 
 
+def _truncate_cleanly(text: str, max_chars: int) -> str:
+    """長文を上限文字数で切る際、単語の途中でぶつ切りにせず段落・文末境界で自然に丸める。"""
+    t = (text or "").strip()
+    if len(t) <= max_chars:
+        return t
+    cut = t[:max_chars]
+    # なるべく段落境界または文末（. ! ? 改行）で切る
+    for sep in ("\n\n", "\n", ". ", "! ", "? "):
+        idx = cut.rfind(sep)
+        if idx >= int(max_chars * 0.65):
+            return cut[: idx + (0 if sep.startswith("\n") else 1)].rstrip()
+    sp = cut.rfind(" ")
+    if sp >= int(max_chars * 0.8):
+        return cut[:sp].rstrip()
+    return cut.rstrip()
+
+
 def _extract_comment_list(raw_data: Any) -> list[str]:
     """後方互換用のテキストリスト抽出ヘルパー。"""
     tree = _extract_comment_tree(raw_data, max_comments=35)
-    return [f"[+{c['score']}] {c['body_en'][:800]}" for c in tree]
+    return [f"[+{c['score']}] {_truncate_cleanly(c['body_en'], 1200)}" for c in tree]
 
 
 def _is_video_url(u: str) -> bool:
@@ -650,7 +667,7 @@ def _fetch_arctic_shift_threads(sub: str, existing_ids: set[str], needed: int) -
         if len(comment_tree) < 4:
             continue
 
-        top_comments = [f"[+{c['score']}] {c['body_en'][:800]}" for c in comment_tree]
+        top_comments = [f"[+{c['score']}] {_truncate_cleanly(c['body_en'], 1200)}" for c in comment_tree]
         permalink = post.get("permalink") or f"/r/{sub}/comments/{post_id}/"
         results.append({
             "id": post_id,
@@ -658,7 +675,7 @@ def _fetch_arctic_shift_threads(sub: str, existing_ids: set[str], needed: int) -
             "op_author": "スレ主",
             "op_flair": str(post.get("author_flair_text") or "").strip(),
             "title_en": post.get("title", ""),
-            "selftext_en": selftext[:2500],
+            "selftext_en": _truncate_cleanly(selftext, 12000),
             "image_urls": image_urls,
             "score": int(post.get("score") or 0),
             "num_comments": max(int(post.get("num_comments") or 0), len(comment_tree)),
@@ -718,14 +735,14 @@ def fetch_reddit_threads(
             if len(comment_tree) < 4:
                 continue
 
-            top_comments = [f"[+{c['score']}] {c['body_en'][:800]}" for c in comment_tree]
+            top_comments = [f"[+{c['score']}] {_truncate_cleanly(c['body_en'], 1200)}" for c in comment_tree]
             collected.append({
                 "id": post_id,
                 "subreddit": sub,
                 "op_author": "スレ主",
                 "op_flair": str(post.get("author_flair_text") or "").strip(),
                 "title_en": post.get("title", ""),
-                "selftext_en": (post.get("selftext") or "")[:2500],
+                "selftext_en": _truncate_cleanly(post.get("selftext") or "", 12000),
                 "image_urls": _extract_post_image_urls(post),
                 "score": int(post.get("score") or 0),
                 "num_comments": int(post.get("num_comments") or 0),
@@ -4244,6 +4261,12 @@ def self_test() -> None:
         assert normalize_product_name_jp(normalize_product_name_jp("ARTISAN 99式 Soft")) == "ARTISAN 99式 Soft"
         cleaned2 = clean_article_terminology(json.loads(json.dumps(cleaned)))
         assert cleaned2 == cleaned
+
+        # 持ち方の括弧書き削除・クラウ誤訳修正・クラウド保護テスト
+        assert clean_ja_terminology("つかみ持ち（クラウグリップ）でクラウド保存") == "つかみ持ちでクラウド保存"
+        assert clean_ja_terminology("かぶせ持ち（パームグリップ）とつまみ持ち（Fingertip Grip）") == "かぶせ持ちとつまみ持ち"
+        assert clean_ja_terminology("ピンガー・クロウグリッドとリラックスクラウグリップ") == "ピンサークローとリラックスクロー"
+        assert _truncate_cleanly("First sentence. Second sentence is very long.", 20) == "First sentence."
 
     print("SELF_TEST_OK")
 
