@@ -38,6 +38,7 @@ GEMINI_MODEL = "gemini-4-hydrogen"
 DATA_DIR = Path("data")
 ARTICLES_FILE = DATA_DIR / "articles.json"
 PRODUCTS_FILE = DATA_DIR / "products.csv"
+GLOSSARY_FILE = DATA_DIR / "glossary.csv"
 DIST_DIR = Path("dist")
 ENV_FILE = Path(".env")
 
@@ -65,16 +66,16 @@ import re
 
 # 海外表記 → 日本国内Amazon/楽天でヒットしやすい表記への正規化ルール
 JP_NAME_RULES: list[tuple[re.Pattern[str], str]] = [
-    (re.compile(r"\bLogitech\b", re.IGNORECASE), "Logicool"),
-    (re.compile(r"\bG\s*Pro\s*(?:X\s*)?Superlight\s*2\b", re.IGNORECASE), "G PRO X SUPERLIGHT 2"),
-    (re.compile(r"\bG\s*Pro\s*X\s*Superlight\b", re.IGNORECASE), "G PRO X SUPERLIGHT"),
-    (re.compile(r"\bArtisan\s+Raiden\b", re.IGNORECASE), "ARTISAN 雷電"),
-    (re.compile(r"\bArtisan\s+Zero\b", re.IGNORECASE), "ARTISAN 零"),
-    (re.compile(r"\bArtisan\s+(?:Hayate\s*)?Otsu\b", re.IGNORECASE), "ARTISAN 疾風乙"),
-    (re.compile(r"\bArtisan\s+Hien\b", re.IGNORECASE), "ARTISAN 飛燕"),
-    (re.compile(r"\bArtisan\s+(?:Type[-\s]*99|99)\b", re.IGNORECASE), "ARTISAN 99式"),
-    (re.compile(r"\bArtisan\s+(?:Key[-\s]*83|結\s*83|キ\s*83)\b", re.IGNORECASE), "ARTISAN キ 83"),
-    (re.compile(r"\bXraypad\b", re.IGNORECASE), "X-raypad"),
+    (re.compile(r"\bLogitech\b", re.IGNORECASE | re.ASCII), "Logicool"),
+    (re.compile(r"\bG\s*Pro\s*(?:X\s*)?Superlight\s*2\b", re.IGNORECASE | re.ASCII), "G PRO X SUPERLIGHT 2"),
+    (re.compile(r"\bG\s*Pro\s*X\s*Superlight\b", re.IGNORECASE | re.ASCII), "G PRO X SUPERLIGHT"),
+    (re.compile(r"\bArtisan\s+Raiden\b", re.IGNORECASE | re.ASCII), "ARTISAN 雷電"),
+    (re.compile(r"\bArtisan\s+Zero\b", re.IGNORECASE | re.ASCII), "ARTISAN 零"),
+    (re.compile(r"\bArtisan\s+(?:Hayate\s*)?Otsu\b", re.IGNORECASE | re.ASCII), "ARTISAN 疾風乙"),
+    (re.compile(r"\bArtisan\s+Hien\b", re.IGNORECASE | re.ASCII), "ARTISAN 飛燕"),
+    (re.compile(r"\bArtisan\s+(?:Type[-\s]*99|99)\b", re.IGNORECASE | re.ASCII), "ARTISAN 99式"),
+    (re.compile(r"\bArtisan\s+(?:Key[-\s]*83|結\s*83|キ\s*83)\b", re.IGNORECASE | re.ASCII), "ARTISAN キ83"),
+    (re.compile(r"\bXraypad\b", re.IGNORECASE | re.ASCII), "X-raypad"),
 ]
 
 
@@ -88,6 +89,7 @@ def normalize_product_name_jp(name: str) -> str:
     return cleaned
 
 
+# 表記統一辞書（data/glossary.csv）が無い場合の最低限フォールバックルール
 JA_TERM_FIX_RULES: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"ローシノ（ローシノ・ローセンシ）"), "ローセンシ"),
     (re.compile(r"ロー(?:シノ|シロ|シモ|シアン(?:ダー)?|シックス(?:ピード)?)"), "ローセンシ"),
@@ -96,19 +98,147 @@ JA_TERM_FIX_RULES: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"ゲーemicマウス"), "ゲーミングマウス"),
 ]
 
+_GLOSSARY_CACHE: dict[str, tuple[float, list[tuple[re.Pattern[str], str, str, str]]]] = {}
+_URL_PROTECT_RE = re.compile(r"https?://[^\s<>\"'\)\]）]+")
 
-def clean_ja_terminology(obj: Any) -> Any:
-    """LLM出力に混入しやすい日本語FPS用語の誤字（ローシノ・ローシロ等）を再帰的に正規化する。"""
-    if isinstance(obj, str):
-        s = obj
-        for pat, repl in JA_TERM_FIX_RULES:
-            s = pat.sub(repl, s)
-        return s
-    if isinstance(obj, list):
-        return [clean_ja_terminology(x) for x in obj]
-    if isinstance(obj, dict):
-        return {k: clean_ja_terminology(v) for k, v in obj.items()}
-    return obj
+
+def load_glossary_rules(
+    csv_path: Path = GLOSSARY_FILE,
+) -> list[tuple[re.Pattern[str], str, str, str]]:
+    """
+    表記統一辞書 CSV (`data/glossary.csv`) を読み込み、
+    `(compiled_regex, replacement, category, prompt_hint)` の一覧を返す。
+    ファイル更新時刻 (mtime) を見て自動再読込するため、編集後すぐ反映される。
+    """
+    if not csv_path.exists():
+        return [(pat, repl, "typo", "") for pat, repl in JA_TERM_FIX_RULES]
+
+    key = str(csv_path.resolve())
+    try:
+        mtime = csv_path.stat().st_mtime
+    except OSError:
+        mtime = 0.0
+
+    cached = _GLOSSARY_CACHE.get(key)
+    if cached and cached[0] == mtime:
+        return cached[1]
+
+    loaded: list[tuple[re.Pattern[str], str, str, str]] = []
+    with csv_path.open("r", encoding="utf-8-sig", newline="") as f:
+        for row_num, row in enumerate(csv.DictReader(f), start=2):
+            pat_raw = (row.get("pattern") or "").strip()
+            if not pat_raw or pat_raw.startswith("#"):
+                continue
+            repl = row.get("replacement") if row.get("replacement") is not None else ""
+            category = (row.get("category") or "general").strip()
+            is_regex = (row.get("is_regex") or "").strip().lower() in ("true", "1", "yes")
+            prompt_hint = (row.get("prompt_hint") or "").strip()
+            try:
+                # 日本語文字（助詞の「の」「を」等）が隣接しても \b が英語単語境界として機能するよう re.ASCII を指定
+                compiled = re.compile(pat_raw if is_regex else re.escape(pat_raw), re.ASCII)
+            except re.error as e:
+                print(
+                    f"[WARN] glossary.csv {row_num}行目の正規表現が無効のためスキップしました ({pat_raw}): {e}",
+                    file=sys.stderr,
+                )
+                continue
+            loaded.append((compiled, repl, category, prompt_hint))
+
+    if not loaded:
+        loaded = [(pat, repl, "typo", "") for pat, repl in JA_TERM_FIX_RULES]
+
+    _GLOSSARY_CACHE[key] = (mtime, loaded)
+    return loaded
+
+
+def build_glossary_prompt_section(csv_path: Path = GLOSSARY_FILE) -> str:
+    """
+    `data/glossary.csv` の `prompt_hint` 列から、Gemini翻訳プロンプトへ注入する
+    「表記統一ガイドライン」テキストを自動生成する。
+    """
+    hints: list[str] = []
+    seen: set[str] = set()
+    for _, _, _, hint in load_glossary_rules(csv_path):
+        if hint and hint not in seen:
+            seen.add(hint)
+            hints.append(f"- {hint}")
+    if not hints:
+        return ""
+    return "【表記統一ガイドライン（必ず厳守）】:\n" + "\n".join(hints)
+
+
+def clean_ja_terminology(text: Any, csv_path: Path = GLOSSARY_FILE) -> Any:
+    """
+    日本語テキストに表記統一辞書 (`data/glossary.csv`) を適用する。
+    本文中のURL (`https://...`) は一時退避して保護するためリンクを破壊しない。
+    """
+    if not isinstance(text, str) or not text:
+        return text
+
+    rules = load_glossary_rules(csv_path)
+    protected_urls: list[str] = []
+
+    def _stash_url(m: re.Match[str]) -> str:
+        protected_urls.append(m.group(0))
+        return f"\x00URL{len(protected_urls) - 1}\x00"
+
+    work = _URL_PROTECT_RE.sub(_stash_url, text)
+    for pat, repl, _, _ in rules:
+        work = pat.sub(repl, work)
+
+    for idx, u in enumerate(protected_urls):
+        work = work.replace(f"\x00URL{idx}\x00", u)
+    return work
+
+
+def clean_article_terminology(article: dict[str, Any], csv_path: Path = GLOSSARY_FILE) -> dict[str, Any]:
+    """
+    記事オブジェクトの日本語フィールドおよびデバイス名のみに表記統一辞書を適用する。
+    英語原文 (`title_en`, `selftext_en`, `body_en`, `comments`) やURL類は一切変更しない。
+    """
+    if not isinstance(article, dict):
+        return article
+
+    for k in ("title_ja", "hook_ja", "op_post_ja", "detailed_analysis_ja", "x_main_post", "x_reply_post"):
+        if isinstance(article.get(k), str):
+            article[k] = clean_ja_terminology(article[k], csv_path)
+
+    if isinstance(article.get("consensus_points"), list):
+        article["consensus_points"] = [
+            clean_ja_terminology(c, csv_path) if isinstance(c, str) else c
+            for c in article["consensus_points"]
+        ]
+
+    if isinstance(article.get("comment_tree"), list):
+        for node in article["comment_tree"]:
+            if isinstance(node, dict) and isinstance(node.get("body_ja"), str):
+                node["body_ja"] = clean_ja_terminology(node["body_ja"], csv_path)
+
+    if isinstance(article.get("dialogue"), list):
+        for d in article["dialogue"]:
+            if isinstance(d, dict) and isinstance(d.get("text"), str):
+                d["text"] = clean_ja_terminology(d["text"], csv_path)
+
+    if isinstance(article.get("devices"), list):
+        for dev in article["devices"]:
+            if isinstance(dev, dict):
+                if isinstance(dev.get("name"), str):
+                    dev["name"] = normalize_product_name_jp(clean_ja_terminology(dev["name"], csv_path))
+                if isinstance(dev.get("comment_ja"), str):
+                    dev["comment_ja"] = clean_ja_terminology(dev["comment_ja"], csv_path)
+
+    if isinstance(article.get("short_script"), list):
+        for line in article["short_script"]:
+            if isinstance(line, dict):
+                if isinstance(line.get("text"), str):
+                    line["text"] = clean_ja_terminology(line["text"], csv_path)
+                if isinstance(line.get("caption"), str):
+                    line["caption"] = clean_ja_terminology(line["caption"], csv_path)
+
+    if article.get("x_main_post") and article.get("article_url"):
+        article["x_intent_url"] = build_x_intent_url(str(article["x_main_post"]), str(article["article_url"]))
+
+    return article
 
 
 def load_product_master(csv_path: Path = PRODUCTS_FILE) -> dict[str, dict[str, str]]:
@@ -837,14 +967,18 @@ def summarize_with_gemini(thread: dict[str, Any]) -> dict[str, Any]:
   ]
 }"""
 
+    glossary_section = build_glossary_prompt_section()
+    glossary_block = f"{glossary_section}\n\n" if glossary_section else ""
+
     prompt = (
         "あなたはFPSの競技エイム（KovaaK's / Aimlabs / Voltaic）およびゲーミングマウス・マウスパッドに精通した専門翻訳者・キュレーターです。\n"
         "以下の海外Redditスレッドの本文と【実在コメント一覧】を分析し、正確な全文翻訳と解説を作成してください。\n"
         "【絶対厳守ルール】:\n"
         "1. **嘘・創作・水増しの完全禁止**: スレッドに実在しないコメントや発言を勝手に作ったり、原文にない内容を付け足したりすることは絶対に行わないでください。\n"
         "2. **1対1の忠実な全文翻訳**: `op_post_ja` にはスレ主の本文を省略せず全文翻訳してください。`comment_translations` には、入力された【実在コメント一覧】のすべての `id` に対して1対1で、省略・要約せず自然な日本語の全文翻訳（`body_ja`）を返してください。親コメントへの返信（`reply_to=...`）は文脈を踏まえて自然な口語で訳してください。\n"
-        "3. `devices` にはスレッド内で実際に言及された市販のマウス (`mouse`)・マウスパッド (`mousepad`)・ソール (`skates`) のみを抽出し、国内名称（`Logitech` → `Logicool`、`Artisan Raiden` → `ARTISAN 雷電`、`Artisan Zero` → `ARTISAN 零`）に統一してください。また `comment_ja` には『スレ主が〜』『OPが〜』という主語は入れず、製品への評価として記述してください。\n"
+        "3. `devices` にはスレッド内で実際に言及された市販のマウス (`mouse`)・マウスパッド (`mousepad`)・ソール (`skates`) のみを抽出し、国内名称（`Logitech` → `Logicool`、`Artisan Raiden` → `ARTISAN 雷電`、`Artisan Zero` → `ARTISAN 零`、`Artisan Type-99` → `ARTISAN 99式`、`Artisan Key-83` → `ARTISAN キ83`）に統一してください。また `comment_ja` には『スレ主が〜』『OPが〜』という主語は入れず、製品への評価として記述してください。\n"
         "4. `short_script` は必ず8発言以上で、`zundamon`（ずんだもん：「〜なのだ！」）と `tsumugi`（春日部つむぎ：埼玉ギャル風「〜だよ！」「〜なんだよね」）の2人で構成し、最後の8発言目では必ず『登場デバイスやスレ全訳はプロフィールのリンクにあるのだ！』のようにプロフィールのリンクへ誘導する一言で締めてください。\n"
+        f"{glossary_block}"
         "出力は必ず以下のJSON形式（キー名を完全一致）のみを返してください。\n\n"
         f"【出力JSON形式】:\n{json_template}\n\n"
         f"【サブレディット】: r/{thread['subreddit']}\n"
@@ -936,7 +1070,7 @@ def summarize_with_gemini(thread: dict[str, Any]) -> dict[str, Any]:
                 parsed["comment_tree"] = enriched_tree
                 parsed["dialogue"] = dialogue_mirror
                 parsed.pop("comment_translations", None)
-                return parsed
+                return clean_article_terminology(parsed)
         except Exception as e:
             last_err = e
             continue
@@ -1071,17 +1205,19 @@ def publish_pending_to_x(articles: list[dict[str, Any]]) -> bool:
 def load_articles(path: Path = ARTICLES_FILE) -> list[dict[str, Any]]:
     if not path.exists():
         return []
-    return clean_ja_terminology(json.loads(path.read_text(encoding="utf-8")))
+    raw_list = json.loads(path.read_text(encoding="utf-8"))
+    if isinstance(raw_list, list):
+        return [clean_article_terminology(a) if isinstance(a, dict) else a for a in raw_list]
+    return raw_list
 
 
 def save_articles(articles: list[dict[str, Any]], path: Path = ARTICLES_FILE) -> None:
-    """記事データを保存する（万が一同一スレッドIDが重複していた場合は最新を残して重複排除）。"""
+    """記事データを保存する（表記統一辞書の適用＋同一スレッドID重複排除）。"""
     deduped: list[dict[str, Any]] = []
     seen_ids: set[str] = set()
     for a in articles:
-        cleaned_a = clean_ja_terminology(a)
-        if isinstance(cleaned_a, dict):
-            a.update(cleaned_a)
+        if isinstance(a, dict):
+            clean_article_terminology(a)
         aid = str(a.get("id") or "").strip()
         if aid and aid in seen_ids:
             continue
@@ -4068,6 +4204,38 @@ def self_test() -> None:
         assert "<loc>https://aimswamp.github.io/aimlog/articles/demo1.html</loc>" in sitemap_content
         assert "https://aimswamp.github.io/aimlog/archive.html" in sitemap_txt_content
         assert "Sitemap: https://aimswamp.github.io/aimlog/sitemap.xml" in robots_content
+
+    # 4. 表記統一辞書 (data/glossary.csv) のテスト（URL保護・英語原文保護含む）
+    if GLOSSARY_FILE.exists():
+        sample_dirty = {
+            "id": "gloss1",
+            "title_en": "Artisan Key-83 vs Type-99 static clicking on Valorant",
+            "title_ja": "ArtisanのKey 83とType-99で静的クリック（スタティック・クリック）や掴み持ちを比較",
+            "hook_ja": "ローシノ勢がリアクティブトラッキングやスムーズネスを検証。詳細: https://example.com/Artisan_Key-83_static",
+            "op_post_ja": "ターゲットスイッチングとコントロールトラッキングと被せ持ちの練習中。",
+            "comment_tree": [
+                {
+                    "id": "c1",
+                    "body_en": "Logitech and Vaxee on Key 83 static",
+                    "body_ja": "LogitechとVaxeeとZowieとWLMOUSEをヴァロラントで使用。超ハイセンス注意。",
+                }
+            ],
+            "devices": [{"name": "Artisan Key 83 Soft", "comment_ja": "Type99より速い"}],
+        }
+        cleaned = clean_article_terminology(sample_dirty)
+        assert cleaned["title_en"] == "Artisan Key-83 vs Type-99 static clicking on Valorant"
+        assert cleaned["comment_tree"][0]["body_en"] == "Logitech and Vaxee on Key 83 static"
+        assert "ARTISAN" in cleaned["title_ja"] and "キ83" in cleaned["title_ja"] and "99式" in cleaned["title_ja"]
+        assert "Static Clicking" in cleaned["title_ja"] and "Static Clicking（Static Clicking）" not in cleaned["title_ja"]
+        assert "つかみ持ち" in cleaned["title_ja"]
+        assert "ローセンシ" in cleaned["hook_ja"] and "Reactive Tracking" in cleaned["hook_ja"] and "Smoothness" in cleaned["hook_ja"]
+        assert "https://example.com/Artisan_Key-83_static" in cleaned["hook_ja"]
+        assert "Target Switching" in cleaned["op_post_ja"] and "Control Tracking" in cleaned["op_post_ja"] and "かぶせ持ち" in cleaned["op_post_ja"]
+        c_ja = cleaned["comment_tree"][0]["body_ja"]
+        assert all(w in c_ja for w in ("Logicool", "VAXEE", "ZOWIE", "WLmouse", "VALORANT", "ハイセンシ"))
+        assert cleaned["devices"][0]["name"] == "ARTISAN キ83 Soft"
+        assert "99式" in cleaned["devices"][0]["comment_ja"]
+        assert "表記統一ガイドライン" in build_glossary_prompt_section()
 
     print("SELF_TEST_OK")
 

@@ -1,0 +1,122 @@
+﻿pattern,replacement,category,is_regex,prompt_hint
+ローシノ（ローシノ・ローセンシ）,ローセンシ,typo,false,
+ロー(?:シノ|シロ|シモ|シアン(?:ダー)?|シックス(?:ピード)?),ローセンシ,typo,true,低感度のカタカナ表記は「ローセンシ」（ローシノ・ローシロ・ローシアン等の造語・誤字厳禁）
+ハイ(?:シノ|シロ|シモ|シアン(?:ダー)?|シックス(?:ピード)?),ハイセンシ,typo,true,高感度のカタカナ表記は「ハイセンシ」（ハイセンス等の誤字厳禁）
+ハイセンス,ハイセンシ,typo,false,
+ミドル(?:シノ|シロ|シモ|シアン(?:ダー)?|シックス(?:ピード)?),ミドルセンシ,typo,true,
+ゲーemicマウス,ゲーミングマウス,typo,false,
+リビュースッション,レビューセッション,typo,false,
+タックスシューター,タックシューター,typo,false,Tactical shooterの略称は「タックシューター」（タックスシューター厳禁）
+(?i)\bArtisan\b,ARTISAN,artisan,true,ブランド名は全大文字「ARTISAN」
+アーティザン,ARTISAN,artisan,false,
+アルチザン,ARTISAN,artisan,false,
+(?i)(?:結\s*83|キ\s*83)[（(]\s*Key[-\s]*83\s*[）)],キ83,artisan,true,
+(?i)Key[-\s]*83[（(]\s*(?:結\s*83|キ\s*83)\s*[）)],キ83,artisan,true,
+(?i)\bKey[-\s]*83\b,キ83,artisan,true,ARTISAN Key-83 / Key 83 は「キ83」（結83と誤訳しない）
+結\s*83,キ83,artisan,true,
+キ\s+83,キ83,artisan,true,
+(?i)99式[（(]\s*Type[-\s]*99\s*[）)],99式,artisan,true,
+(?i)Type[-\s]*99[（(]\s*99式\s*[）)],99式,artisan,true,
+(?i)\bType[-\s]*99\b,99式,artisan,true,ARTISAN Type-99 / Type99 は「99式」
+タイプ\s*99,99式,artisan,true,
+(?i)\bARTISAN\s+Zero\b,ARTISAN 零,artisan,true,ARTISAN Zero は「ARTISAN 零」（※別ブランドマウス ATK Zero は変更しない）
+(?i)\bARTISAN\s+Hien\b,ARTISAN 飛燕,artisan,true,ARTISAN Hien は「ARTISAN 飛燕」
+(?i)\bARTISAN\s+(?:Hayate\s*)?Otsu\b,ARTISAN 疾風乙,artisan,true,ARTISAN Hayate Otsu は「ARTISAN 疾風乙」
+(?i)\bARTISAN\s+Raiden\b,ARTISAN 雷電,artisan,true,ARTISAN Raiden は「ARTISAN 雷電」
+(?i)\bARTISAN\s+Shidenkai\b,ARTISAN 紫電改,artisan,true,ARTISAN Shidenkai は「ARTISAN 紫電改」
+(?i)\bARTISAN\s+Kou\b,ARTISAN 疾風甲,artisan,true,
+(?i)\bHayate\s*Otsu\b,疾風乙,artisan,true,
+(?i)(?<![（(])\bHien\b(?![）)]),飛燕,artisan,true,
+(?i)(?<![（(])\bRaiden\b(?![）)]),雷電,artisan,true,
+ARTISAN(?=(?:零|飛燕|疾風乙|雷電|紫電改|99式|キ83)),ARTISAN ,artisan,true,
+(?i)\bLogitech\b,Logicool,brand,true,Logitech は国内正式名称「Logicool」
+ロジクール,Logicool,brand,false,
+(?i)\b(Logicool)\s+\1\b,Logicool,brand,true,
+(?i)\bG\s*Pro\s*(?:X\s*)?Superlight\s*2\b,G PRO X SUPERLIGHT 2,brand,true,Logicool G PRO X SUPERLIGHT 2（大文字表記）
+(?i)\bG\s*Pro\s*X\s*Superlight\b,G PRO X SUPERLIGHT,brand,true,
+(?i)\bVaxee\b,VAXEE,brand,true,ブランド表記は「VAXEE」
+(?i)\bZowie\b,ZOWIE,brand,true,ブランド表記は「ZOWIE」
+(?i)\bWLmouse\b,WLmouse,brand,true,ブランド表記は「WLmouse」
+(?i)\bLamzu\b,Lamzu,brand,true,ブランド表記は「Lamzu」
+(?i)\bX-?raypad\b,X-raypad,brand,true,ブランド表記は「X-raypad」
+(?i)\bVALORANT\b,VALORANT,game,true,ゲームタイトルは「VALORANT」
+ヴァロラント,VALORANT,game,false,
+バロラント,VALORANT,game,false,
+(?i)\bKovaaK'?s\b,KovaaK's,game,true,エイムトレーナー名は「KovaaK's」
+(?i)\bKovaaks\b,KovaaK's,game,true,
+(?i)\bAim\s*Labs?\b,Aimlabs,game,true,エイムトレーナー名は「Aimlabs」
+エイムラボ,Aimlabs,game,false,
+(?i)\bVoltaic\b,Voltaic,game,true,コミュニティ名は「Voltaic」
+ボルタイック,Voltaic,game,false,
+ヴォルタイック,Voltaic,game,false,
+掴み持ち,つかみ持ち,grip,false,マウスの持ち方はひらがな表記に統一（つかみ持ち・つまみ持ち・かぶせ持ち）
+被せ持ち,かぶせ持ち,grip,false,
+摘まみ持ち,つまみ持ち,grip,false,
+摘み持ち,つまみ持ち,grip,false,
+(?<![（(])マウススケート(?![）)]),マウスソール,gear,true,底面パーツは「マウスソール」（ソール）に統一
+クロスヘアー,クロスヘア,gear,false,
+(?i)(?:スタティック・?クリッキング|スタティック・?クリック|静的クリッキング|静的クリック|静的エイム)[（(]\s*Static\s+Clicking\s*[）)],Static Clicking,aim,true,
+(?i)(?:スタティック・?クリッキング|スタティック・?クリック|静的クリッキング|静的クリック|静的エイム|スタティック)[（(]\s*Static\s*[）)],Static,aim,true,
+(?i)Static\s+Clicking[（(]\s*(?:スタティック・?クリッキング?|静的(?:クリック|クリッキング|エイム))\s*[）)],Static Clicking,aim,true,
+(?i)Static[（(]\s*(?:スタティック|静的(?:クリック|クリッキング|エイム)?)\s*[）)],Static,aim,true,
+スタティック[（(]\s*静的(?:クリック|クリッキング|エイム)?\s*[）)],Static,aim,true,
+スタティック・?スイッチング,Static Switching,aim,true,
+スタティック・?(?:クリッキング|クリック),Static Clicking,aim,true,Aimカテゴリ・サブカテゴリは英字表記に統一：Static / Static Clicking（静的クリック・スタティックは使わない）
+静的(?:クリッキング|クリック),Static Clicking,aim,true,
+静的エイム,Static,aim,false,
+スタティック(?!・?フリクション),Static,aim,true,
+(?<![A-Za-z])static\s+clicking(?![A-Za-z]),Static Clicking,aim,true,
+(?<![A-Za-z])static(?![A-Za-z]),Static,aim,true,
+(?i)(?:ダイナミック・?クリッキング|ダイナミック・?クリック|動的クリッキング|動的クリック|動的エイム)[（(]\s*Dynamic\s+Clicking\s*[）)],Dynamic Clicking,aim,true,
+(?i)(?:ダイナミック・?クリッキング|ダイナミック・?クリック|動的クリッキング|動的クリック|動的エイム|ダイナミック)[（(]\s*Dynamic\s*[）)],Dynamic,aim,true,
+(?i)Dynamic\s+Clicking[（(]\s*(?:ダイナミック・?クリッキング?|動的(?:クリック|クリッキング|エイム))\s*[）)],Dynamic Clicking,aim,true,
+(?i)Dynamic[（(]\s*(?:ダイナミック|動的(?:クリック|クリッキング|エイム)?)\s*[）)],Dynamic,aim,true,
+ダイナミック・?(?:クリッキング|クリック),Dynamic Clicking,aim,true,Aimサブカテゴリは英字表記：Dynamic / Dynamic Clicking（動的クリック・ダイナミッククリックは使わない）
+動的(?:クリッキング|クリック|エイム),Dynamic Clicking,aim,true,
+ダイナミック(?=系|シナリオ|練習|ベンチ|スコア|エイム|＋|、|や|と|の(?:スコア|練習|シナリオ)),Dynamic,aim,true,
+(?<![A-Za-z])dynamic\s+clicking(?![A-Za-z]),Dynamic Clicking,aim,true,
+(?i)クリッキング[（(]\s*Clicking\s*[）)],Clicking,aim,true,
+(?i)Clicking[（(]\s*クリッキング\s*[）)],Clicking,aim,true,
+クリッキング,Clicking,aim,false,Aimカテゴリは英字表記：Clicking
+(?i)スムー[スズ]ネス[（(]\s*Smoothness\s*[）)],Smoothness,aim,true,
+(?i)Smoothness[（(]\s*(?:スムー[スズ]ネス|滑らかさ)\s*[）)],Smoothness,aim,true,
+(?i)スムー[スズ]・?トラッキング[（(]\s*Smooth\s+Tracking\s*[）)],Smooth Tracking,aim,true,
+スムー[スズ]・?トラッキング,Smooth Tracking,aim,true,Aimサブカテゴリは英字表記：Smoothness / Smooth Tracking（スムースネス・スムーズネスは使わない）
+スムー[スズ]ネス,Smoothness,aim,true,
+(?i)\bsmooth\s+tracking\b,Smooth Tracking,aim,true,
+(?i)\bsmoothness\b,Smoothness,aim,true,
+(?i)(?:リアクティブ|レアクティブ)・?トラッキング[（(]\s*Reactive(?:\s+Tracking)?\s*[）)],Reactive Tracking,aim,true,
+(?i)Reactive\s+Tracking[（(]\s*(?:リアクティブ|レアクティブ)・?トラッキング\s*[）)],Reactive Tracking,aim,true,
+(?i)(?:リアクティブ|レアクティブ)[（(]\s*Reactive\s*[）)],Reactive,aim,true,
+(?i)Reactive[（(]\s*(?:リアクティブ|レアクティブ)\s*[）)],Reactive,aim,true,
+(?:リアクティブ|レアクティブ)・?ストレイフトラッキング,Reactive Strafe Tracking,aim,true,
+(?:リアクティブ|レアクティブ)・?トラッキング,Reactive Tracking,aim,true,Aimサブカテゴリは英字表記：Reactive / Reactive Tracking（リアクティブ・レアクティブは使わない）
+(?:リアクティブ|レアクティブ)・?クリック,Reactive Clicking,aim,true,
+(?:リアクティブ|レアクティブ)・?グラウンド,Reactive Ground,aim,true,
+グラウンド・?(?:リアクティブ|レアクティブ),Ground Reactive,aim,true,
+(?:リアクティブ|レアクティブ)エイム,Reactive,aim,true,
+(?:リアクティブ|レアクティブ)(?!な|に),Reactive,aim,true,
+(?i)\breactive\s+tracking\b,Reactive Tracking,aim,true,
+(?<![A-Za-z])reactive(?![A-Za-z]),Reactive,aim,true,
+(?i)(?:コントロール・?トラッキング|制御系?トラッキング)[（(]\s*Control\s+Tracking\s*[）)],Control Tracking,aim,true,
+(?i)Control\s+Tracking[（(]\s*(?:コントロール・?トラッキング|制御系?トラッキング|微小制御トラッキング)\s*[）)],Control Tracking,aim,true,
+(?:コントロール・?|制御系?)トラッキング,Control Tracking,aim,true,Aimサブカテゴリは英字表記：Control Tracking / Precise Tracking
+(?i)(?:プレサイス・?トラッキング|精密トラッキング)[（(]\s*Precise\s+Tracking\s*[）)],Precise Tracking,aim,true,
+(?:プレサイス・?|精密)トラッキング,Precise Tracking,aim,true,
+(?i)\bcontrol\s+tracking\b,Control Tracking,aim,true,
+(?i)\bprecise\s+tracking\b,Precise Tracking,aim,true,
+(?i)ターゲット・?スイッチ(?:ング)?[（(]\s*(?:Target\s+Switching|TS)\s*[）)],Target Switching,aim,true,
+(?i)Target\s+Switching[（(]\s*ターゲット・?スイッチ(?:ング)?\s*[）)],Target Switching,aim,true,
+ターゲット・?スイッチ(?:ング)?,Target Switching,aim,true,Aimカテゴリは英字表記：Target Switching / Switching（ターゲットスイッチングは使わない）
+スピード・?スイッチング,Speed Switching,aim,true,Target Switchingサブカテゴリは英字表記：Speed / Evasive / Stability Switching（または SpeedTS / EvasiveTS / StabilityTS）
+(?:エベイシブ|イヴェイシブ)・?スイッチング,Evasive Switching,aim,true,
+スタビリティ・?スイッチング,Stability Switching,aim,true,
+(?<!・)スイッチング,Switching,aim,true,
+(?i)\btarget\s+switching\b,Target Switching,aim,true,
+(?<![A-Za-z])switching(?![A-Za-z]),Switching,aim,true,
+(?<=Clicking[・、とや])トラッキング,Tracking,aim,true,Aimカテゴリ並列時は英字表記：Clicking / Tracking / Target Switching
+トラッキング(?=[・、とや](?:Clicking|Switching|Target Switching|Static|Dynamic)),Tracking,aim,true,
+(?i)トラッキング[（(]\s*Tracking\s*[）)],Tracking,aim,true,
+(?i)Tracking[（(]\s*トラッキング\s*[）)],Tracking,aim,true,
+(?<![A-Za-z])tracking(?![A-Za-z]),Tracking,aim,true,
+"(?i)([A-Za-z][A-Za-z0-9' -]{1,30}|キ83|99式)[（(]\s*\1\s*[）)]",\1,cleanup,true,
