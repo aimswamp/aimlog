@@ -73,7 +73,7 @@ JP_NAME_RULES: list[tuple[re.Pattern[str], str]] = [
     (re.compile(r"\bArtisan\s+Zero\b", re.IGNORECASE | re.ASCII), "ARTISAN 零"),
     (re.compile(r"\bArtisan\s+(?:Hayate\s*)?Otsu\b", re.IGNORECASE | re.ASCII), "ARTISAN 疾風乙"),
     (re.compile(r"\bArtisan\s+Hien\b", re.IGNORECASE | re.ASCII), "ARTISAN 飛燕"),
-    (re.compile(r"\bArtisan\s+(?:Type[-\s]*99|99)\b", re.IGNORECASE | re.ASCII), "ARTISAN 99式"),
+    (re.compile(r"\bArtisan\s+(?:Type[-\s]*99\b|99式+|99\b(?!式))", re.IGNORECASE | re.ASCII), "ARTISAN 99式"),
     (re.compile(r"\bArtisan\s+(?:Key[-\s]*83|結\s*83|キ\s*83)\b", re.IGNORECASE | re.ASCII), "ARTISAN キ83"),
     (re.compile(r"\bXraypad\b", re.IGNORECASE | re.ASCII), "X-raypad"),
 ]
@@ -4236,6 +4236,14 @@ def self_test() -> None:
         assert cleaned["devices"][0]["name"] == "ARTISAN キ83 Soft"
         assert "99式" in cleaned["devices"][0]["comment_ja"]
         assert "表記統一ガイドライン" in build_glossary_prompt_section()
+
+        # 冪等性チェック（複数回連続適用しても「99式式」のように増殖しないこと）
+        assert normalize_product_name_jp("ARTISAN Type-99") == "ARTISAN 99式"
+        assert normalize_product_name_jp("ARTISAN 99式") == "ARTISAN 99式"
+        assert normalize_product_name_jp("ARTISAN 99式式式") == "ARTISAN 99式"
+        assert normalize_product_name_jp(normalize_product_name_jp("ARTISAN 99式 Soft")) == "ARTISAN 99式 Soft"
+        cleaned2 = clean_article_terminology(json.loads(json.dumps(cleaned)))
+        assert cleaned2 == cleaned
 
     print("SELF_TEST_OK")
 

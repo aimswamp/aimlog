@@ -19,6 +19,7 @@
 (?i)Type[-\s]*99[（(]\s*99式\s*[）)],99式,artisan,true,
 (?i)\bType[-\s]*99\b,99式,artisan,true,ARTISAN Type-99 / Type99 は「99式」
 タイプ\s*99,99式,artisan,true,
+99式式+,99式,artisan,true,
 (?i)\bARTISAN\s+Zero\b,ARTISAN 零,artisan,true,ARTISAN Zero は「ARTISAN 零」（※別ブランドマウス ATK Zero は変更しない）
 (?i)\bARTISAN\s+Hien\b,ARTISAN 飛燕,artisan,true,ARTISAN Hien は「ARTISAN 飛燕」
 (?i)\bARTISAN\s+(?:Hayate\s*)?Otsu\b,ARTISAN 疾風乙,artisan,true,ARTISAN Hayate Otsu は「ARTISAN 疾風乙」
