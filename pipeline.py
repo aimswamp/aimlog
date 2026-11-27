@@ -88,6 +88,29 @@ def normalize_product_name_jp(name: str) -> str:
     return cleaned
 
 
+JA_TERM_FIX_RULES: list[tuple[re.Pattern[str], str]] = [
+    (re.compile(r"ローシノ（ローシノ・ローセンシ）"), "ローセンシ"),
+    (re.compile(r"ロー(?:シノ|シロ|シモ|シアン(?:ダー)?|シックス(?:ピード)?)"), "ローセンシ"),
+    (re.compile(r"ハイ(?:シノ|シロ|シモ|シアン(?:ダー)?|シックス(?:ピード)?)"), "ハイセンシ"),
+    (re.compile(r"ミドル(?:シノ|シロ|シモ|シアン(?:ダー)?|シックス(?:ピード)?)"), "ミドルセンシ"),
+    (re.compile(r"ゲーemicマウス"), "ゲーミングマウス"),
+]
+
+
+def clean_ja_terminology(obj: Any) -> Any:
+    """LLM出力に混入しやすい日本語FPS用語の誤字（ローシノ・ローシロ等）を再帰的に正規化する。"""
+    if isinstance(obj, str):
+        s = obj
+        for pat, repl in JA_TERM_FIX_RULES:
+            s = pat.sub(repl, s)
+        return s
+    if isinstance(obj, list):
+        return [clean_ja_terminology(x) for x in obj]
+    if isinstance(obj, dict):
+        return {k: clean_ja_terminology(v) for k, v in obj.items()}
+    return obj
+
+
 def load_product_master(csv_path: Path = PRODUCTS_FILE) -> dict[str, dict[str, str]]:
     """商品マスター表（CSV）を読み込む。キーは小文字正規化した製品名。"""
     master: dict[str, dict[str, str]] = {}
@@ -1048,7 +1071,7 @@ def publish_pending_to_x(articles: list[dict[str, Any]]) -> bool:
 def load_articles(path: Path = ARTICLES_FILE) -> list[dict[str, Any]]:
     if not path.exists():
         return []
-    return json.loads(path.read_text(encoding="utf-8"))
+    return clean_ja_terminology(json.loads(path.read_text(encoding="utf-8")))
 
 
 def save_articles(articles: list[dict[str, Any]], path: Path = ARTICLES_FILE) -> None:
@@ -1056,6 +1079,9 @@ def save_articles(articles: list[dict[str, Any]], path: Path = ARTICLES_FILE) ->
     deduped: list[dict[str, Any]] = []
     seen_ids: set[str] = set()
     for a in articles:
+        cleaned_a = clean_ja_terminology(a)
+        if isinstance(cleaned_a, dict):
+            a.update(cleaned_a)
         aid = str(a.get("id") or "").strip()
         if aid and aid in seen_ids:
             continue
@@ -1117,9 +1143,9 @@ def sync_with_google_sheets(articles: list[dict[str, Any]]) -> list[dict[str, An
                             art["status"] = str(s_item["status"]).strip()
                         if not art.get("lock_sheet_text"):
                             if s_item.get("title_ja"):
-                                art["title_ja"] = str(s_item["title_ja"]).strip()
+                                art["title_ja"] = clean_ja_terminology(str(s_item["title_ja"]).strip())
                             if s_item.get("hook_ja"):
-                                art["hook_ja"] = str(s_item["hook_ja"]).strip()
+                                art["hook_ja"] = clean_ja_terminology(str(s_item["hook_ja"]).strip())
                 print(f"[OK] Googleスプレッドシートと同期完了 ({len(sheet_map)}件)")
     except Exception as e:
         print(f"[WARN] Googleスプレッドシート同期エラー: {e}", file=sys.stderr)
